@@ -8,18 +8,13 @@ const { currentPath = '/' } = Astro.props;
 
 <header class="header">
   <div class="container header-inner">
-    <a href="/" class="brand">
-      <img src="/assets/images/brand/Logo_color(rgb).svg" alt="Nakôbio Logo" class="brand-logo" />
-      <div class="brand-text">
-        <div class="brand-top-row">
-          <span class="brand-name">Nakôbio</span>
-          <span class="brand-badge">Campus</span>
-        </div>
-        <span class="brand-sub">École & Pratiques Agroécologiques</span>
-      </div>
+    <a href="/" class="brand" aria-label="Nakôbio Campus - Accueil">
+      <img src="/assets/images/brand/Logo_color(rgb).svg" alt="Nakôbio" class="brand-logo" width="160" height="33" />
+      <span class="brand-badge">Campus</span>
     </a>
 
-    <nav class="nav" aria-label="Navigation principale">
+    <!-- Navigation Bureau -->
+    <nav class="nav-desktop" aria-label="Navigation principale">
       <a href="/" class:list={['nav-link', { active: currentPath === '/' }]}>
         Accueil
       </a>
@@ -33,12 +28,88 @@ const { currentPath = '/' } = Astro.props;
         Pratiques Terrain
       </a>
     </nav>
+
+    <!-- Bouton Toggle Mobile -->
+    <button 
+      type="button" 
+      class="nav-toggle" 
+      id="campus-nav-toggle" 
+      aria-label="Ouvrir le menu" 
+      aria-expanded="false" 
+      aria-controls="campus-mobile-nav"
+    >
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+  </div>
+
+  <!-- Menu Mobile Déroulant -->
+  <div class="mobile-nav" id="campus-mobile-nav" hidden>
+    <div class="container mobile-nav-inner">
+      <a href="/" class:list={['mobile-nav-link', { active: currentPath === '/' }]}>
+        <span class="mobile-icon">🌱</span> Accueil
+      </a>
+      <a href="/semences" class:list={['mobile-nav-link', { active: currentPath.startsWith('/semences') }]}>
+        <span class="mobile-icon">🌾</span> Semences Paysannes
+      </a>
+      <a href="/maraichage" class:list={['mobile-nav-link', { active: currentPath.startsWith('/maraichage') }]}>
+        <span class="mobile-icon">🌿</span> Maraîchage Sol Vivant
+      </a>
+      <a href="/pratiques-terrain" class:list={['mobile-nav-link', { active: currentPath.startsWith('/pratiques-terrain') }]}>
+        <span class="mobile-icon">📐</span> Pratiques Terrain
+      </a>
+    </div>
   </div>
 </header>
 
+<script>
+  function setupMobileMenu() {
+    const toggle = document.getElementById('campus-nav-toggle');
+    const menu = document.getElementById('campus-mobile-nav');
+    if (!toggle || !menu) return;
+
+    function toggleMenu(open?: boolean) {
+      const willOpen = open !== undefined ? open : toggle.getAttribute('aria-expanded') !== 'true';
+      toggle.setAttribute('aria-expanded', String(willOpen));
+      toggle.setAttribute('aria-label', willOpen ? 'Fermer le menu' : 'Ouvrir le menu');
+      toggle.classList.toggle('is-active', willOpen);
+      
+      if (willOpen) {
+        menu.removeAttribute('hidden');
+        requestAnimationFrame(() => menu.classList.add('is-open'));
+      } else {
+        menu.classList.remove('is-open');
+        setTimeout(() => {
+          if (toggle.getAttribute('aria-expanded') === 'false') {
+            menu.setAttribute('hidden', '');
+          }
+        }, 220);
+      }
+    }
+
+    toggle.addEventListener('click', () => toggleMenu());
+
+    // Fermer le menu lors du clic sur un lien mobile
+    menu.querySelectorAll('.mobile-nav-link').forEach((link) => {
+      link.addEventListener('click', () => toggleMenu(false));
+    });
+
+    // Fermer si redimensionnement vers desktop
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 820 && toggle.getAttribute('aria-expanded') === 'true') {
+        toggleMenu(false);
+      }
+    });
+  }
+
+  setupMobileMenu();
+  document.addEventListener('astro:page-load', setupMobileMenu);
+</script>
+
 <style>
   .header {
-    background-color: rgba(255, 253, 246, 0.92);
+    background-color: rgba(255, 253, 246, 0.94);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--color-border);
@@ -52,70 +123,46 @@ const { currentPath = '/' } = Astro.props;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 74px;
+    height: 70px;
     gap: 1.5rem;
   }
 
   .brand {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.9rem;
+    gap: 0.65rem;
     text-decoration: none;
   }
 
   .brand-logo {
-    height: 42px;
+    height: 33px;
     width: auto;
+    display: block;
     transition: transform var(--transition-base);
   }
 
   .brand:hover .brand-logo {
-    transform: scale(1.04);
-  }
-
-  .brand-text {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .brand-top-row {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .brand-name {
-    font-family: var(--font-serif);
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: var(--color-brand-primary);
-    line-height: 1.1;
-    letter-spacing: -0.01em;
+    transform: scale(1.03);
   }
 
   .brand-badge {
-    display: inline-block;
-    padding: 2px 7px;
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 9px;
     background-color: rgba(200, 104, 50, 0.12);
     color: var(--color-brand-secondary);
-    border: 1px solid rgba(200, 104, 50, 0.25);
+    border: 1px solid rgba(200, 104, 50, 0.28);
     border-radius: var(--radius-full);
     font-family: var(--font-sans);
-    font-size: 0.68rem;
+    font-size: 0.72rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
+    line-height: 1;
   }
 
-  .brand-sub {
-    font-family: var(--font-sans);
-    font-size: 0.76rem;
-    color: var(--color-ink-faint);
-    font-weight: 500;
-  }
-
-  .nav {
+  /* Desktop Navigation */
+  .nav-desktop {
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -123,11 +170,12 @@ const { currentPath = '/' } = Astro.props;
 
   .nav-link {
     font-family: var(--font-sans);
-    font-size: 0.9rem;
+    font-size: 0.92rem;
     font-weight: 600;
-    padding: 0.5rem 0.95rem;
+    padding: 0.55rem 0.95rem;
     border-radius: var(--radius-sm);
     color: var(--color-ink-soft);
+    text-decoration: none;
     position: relative;
     transition: all var(--transition-base);
   }
@@ -145,32 +193,121 @@ const { currentPath = '/' } = Astro.props;
   .nav-link.active::after {
     content: '';
     position: absolute;
-    bottom: 2px;
-    left: 20%;
-    right: 20%;
+    bottom: 3px;
+    left: 18%;
+    right: 18%;
     height: 2px;
     background-color: var(--color-brand-secondary);
     border-radius: 2px;
   }
 
+  /* Mobile Toggle (Hamburger) */
+  .nav-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 42px;
+    height: 42px;
+    background: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    padding: 0;
+    transition: background-color var(--transition-base), border-color var(--transition-base);
+  }
+
+  .nav-toggle:hover,
+  .nav-toggle:focus-visible {
+    background-color: rgba(47, 74, 52, 0.06);
+    border-color: var(--color-brand-primary);
+    outline: none;
+  }
+
+  .nav-toggle-bar {
+    width: 20px;
+    height: 2px;
+    background-color: var(--color-brand-primary);
+    border-radius: 2px;
+    transition: transform 0.22s ease, opacity 0.22s ease;
+    transform-origin: center;
+  }
+
+  .nav-toggle.is-active .nav-toggle-bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .nav-toggle.is-active .nav-toggle-bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle.is-active .nav-toggle-bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* Mobile Drawer */
+  .mobile-nav {
+    border-top: 1px solid var(--color-border);
+    background-color: rgba(255, 253, 246, 0.98);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.24s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease, padding 0.2s ease;
+  }
+
+  .mobile-nav.is-open {
+    max-height: 380px;
+    opacity: 1;
+    box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.08);
+  }
+
+  .mobile-nav-inner {
+    padding: 0.85rem var(--spacing-container-gutter, 1.25rem) 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .mobile-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: var(--color-ink-soft);
+    text-decoration: none;
+    transition: all var(--transition-base);
+  }
+
+  .mobile-nav-link:hover {
+    color: var(--color-brand-primary);
+    background-color: rgba(47, 74, 52, 0.06);
+  }
+
+  .mobile-nav-link.active {
+    color: var(--color-brand-primary);
+    background-color: rgba(47, 74, 52, 0.1);
+    font-weight: 700;
+    border-left: 3px solid var(--color-brand-secondary);
+  }
+
+  .mobile-icon {
+    font-size: 1.15rem;
+    line-height: 1;
+  }
+
   @media (max-width: 820px) {
-    .header-inner {
-      flex-direction: column;
-      height: auto;
-      padding-top: 0.85rem;
-      padding-bottom: 0.85rem;
-      gap: 0.85rem;
+    .nav-desktop {
+      display: none;
     }
 
-    .nav {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.3rem;
-    }
-
-    .nav-link {
-      font-size: 0.82rem;
-      padding: 0.4rem 0.65rem;
+    .nav-toggle {
+      display: flex;
     }
   }
 </style>
