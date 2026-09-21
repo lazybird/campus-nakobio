@@ -1,0 +1,46 @@
+/* ==========================================================================
+   COMPOSANTS STANDARDS : CARTES & FICHE DE SYNTHÈSE
+   ========================================================================== */
+
+.card {
+  background: var(--color-surface-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-sm);
+}
+
+.card-sunken {
+  background: var(--color-surface-sunken);
+  border: 1px solid rgba(27, 35, 24, 0.08);
+}
+
+.card-interactive {
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-interactive:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-brand-primary);
+}
+
+.card-title {
+  font-family: var(--font-serif);
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  line-height: var(--leading-tight);
+  color: var(--color-ink);
+  margin: 0 0 var(--space-2) 0;
+}
+
+.card-subtitle {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--color-ink-faint);
+  margin: 0 0 var(--space-4) 0;
+}

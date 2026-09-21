@@ -288,29 +288,98 @@ function formatPedagogicalText(rawText) {
   return formattedLines.join('\n');
 }
 
-// Jauge de lecture automatique selon le scroll et repères de parties
+// Jauge de lecture automatique selon le scroll et repères de jalons (3 à 5 steps)
 function setupScrollProgress(totalPages) {
   const progressBar = document.getElementById('scroll-progress-bar');
   const progressContainer = document.querySelector('.scroll-progress-container');
   if (!progressBar || !progressContainer) return;
 
-  // Création discrète des graduations de parties
+  // Création de 3 à 5 jalons bien espacés avec numéros sur la ligne
   if (totalPages && totalPages > 1) {
     progressContainer.querySelectorAll('.progress-tick').forEach(el => el.remove());
-    for (let i = 1; i < totalPages; i++) {
-      const tick = document.createElement('div');
-      tick.className = 'progress-tick';
-      tick.style.left = `${(i / totalPages) * 100}%`;
-      progressContainer.appendChild(tick);
+    const stepCount = totalPages <= 5 ? totalPages : (totalPages <= 8 ? 4 : 5);
+    const milestones = [];
+    for (let s = 0; s < stepCount; s++) {
+      const pageIdx = Math.round((s / (stepCount - 1)) * (totalPages - 1));
+      if (!milestones.some(m => m.idx === pageIdx)) {
+        milestones.push({
+          idx: pageIdx,
+          pageNum: pageIdx + 1,
+          posPercent: (s / (stepCount - 1)) * 100
+        });
+      }
     }
+
+    milestones.forEach(m => {
+      const tick = document.createElement('a');
+      tick.className = `progress-tick ${m.idx === 0 ? 'active current' : ''}`;
+      tick.href = `#partie-${m.pageNum}`;
+      tick.title = `Partie ${m.pageNum}`;
+      tick.style.left = `${m.posPercent}%`;
+      tick.setAttribute('data-page-index', m.idx);
+      tick.innerHTML = `<span class="step-tick-dot"></span>`;
+      progressContainer.appendChild(tick);
+    });
   }
 
-  window.addEventListener('scroll', () => {
+  const activeStepNum = document.getElementById('active-step-num');
+  const activeTotalSteps = document.getElementById('active-total-steps');
+  if (activeTotalSteps && totalPages) {
+    activeTotalSteps.textContent = totalPages;
+  }
+
+  function onScroll() {
     const totalHeight = document.documentElement.scrollHeight - window.innerHeight;
     if (totalHeight <= 0) return;
     const progress = (window.scrollY / totalHeight) * 100;
     progressBar.style.width = `${Math.min(100, Math.max(0, progress))}%`;
-  }, { passive: true });
+
+    // Détection de l'étape visible
+    const steps = document.querySelectorAll('.slide-step-card');
+    let currentIdx = 0;
+    const trigger = window.innerHeight * 0.35;
+    steps.forEach((step, idx) => {
+      const rect = step.getBoundingClientRect();
+      if (rect.top <= trigger) {
+        currentIdx = idx;
+      }
+    });
+
+    const newStep = currentIdx + 1;
+    if (activeStepNum && activeStepNum.textContent !== String(newStep)) {
+      activeStepNum.textContent = newStep;
+      const readingBadge = document.getElementById('lesson-reading-progress');
+      if (readingBadge) {
+        readingBadge.classList.remove('step-changed');
+        void readingBadge.offsetWidth;
+        readingBadge.classList.add('step-changed');
+      }
+    }
+
+    // Mise à jour des repères de jalons
+    const ticks = Array.from(progressContainer.querySelectorAll('.progress-tick'));
+    let foundCurrent = false;
+    ticks.reverse().forEach((tick) => {
+      const tickIdx = parseInt(tick.getAttribute('data-page-index') || '0', 10);
+      if (tickIdx <= currentIdx) {
+        tick.classList.add('active');
+        if (!foundCurrent) {
+          tick.classList.add('current');
+          foundCurrent = true;
+        } else {
+          tick.classList.remove('current');
+        }
+      } else {
+        tick.classList.remove('active', 'current');
+      }
+    });
+    if (!foundCurrent && ticks[ticks.length - 1]) {
+      ticks[ticks.length - 1].classList.add('active', 'current');
+    }
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
 }
 
 function setupPrintHandler() {

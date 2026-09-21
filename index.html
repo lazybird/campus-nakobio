@@ -506,7 +506,7 @@
       <div class="nav-quick-links">
         <span class="nav-badge-pill">
           <span>🌱</span>
-          <span>36 Modules Pédagogiques</span>
+          <span>34 Modules Pédagogiques</span>
         </span>
       </div>
     </div>
@@ -537,16 +537,13 @@
 
     <div class="category-pills-row" id="filter-pills" role="tablist" aria-label="Filtres thématiques">
       <button class="pill-filter-btn active" data-cat="all" role="tab" aria-selected="true">
-        <span>🌾</span> Tous les cours (36)
+        <span>🌾</span> Tous les cours (34)
       </button>
       <button class="pill-filter-btn" data-cat="Fondamentaux" role="tab" aria-selected="false">
         <span>🌱</span> Fondamentaux (7)
       </button>
-      <button class="pill-filter-btn" data-cat="Production par Légume" role="tab" aria-selected="false">
-        <span>🍅</span> Légumes &amp; Cultures (27)
-      </button>
-      <button class="pill-filter-btn" data-cat="Outils & Méthodes" role="tab" aria-selected="false">
-        <span>📋</span> Outils Terrain (2)
+      <button class="pill-filter-btn" data-cat="Fiches légumes" role="tab" aria-selected="false">
+        <span>🍅</span> Fiches légumes (27)
       </button>
     </div>
   </section>
@@ -657,8 +654,8 @@
 
     function getCategoryIcon(cat) {
       if (cat === 'Fondamentaux') return '🌱';
-      if (cat === 'Outils & Méthodes') return '📋';
-      return '🍅';
+      if (cat === 'Fiches légumes') return '🍅';
+      return '📚';
     }
 
     function renderCard(c) {

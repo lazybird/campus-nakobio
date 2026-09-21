@@ -2,89 +2,271 @@
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="Formations Agroécologiques">
-  <section class="hero">
-    <div class="container hero-content">
-      <span class="badge badge-primary">Plateforme de formation ouverte</span>
-      <h1 class="hero-title">L'autonomie paysanne par la pratique et le vivant</h1>
-      <p class="hero-subtitle">
-        Des parcours concrets, illustrés et conçus pour le terrain en climat tropical et sahélien. 
-        Choisissez votre domaine d'apprentissage ci-dessous.
+<Layout title="Formations & Savoirs Agroécologiques">
+  <!-- HERO IMMERSIF PREMIUM : LIN CHAUD & LATÉRITE -->
+  <section class="hero-premium">
+    <div class="hero-bg-overlay"></div>
+    <div class="container hero-container">
+      <div class="hero-badge-wrap">
+        <span class="badge badge-accent">
+          <span class="badge-dot"></span>
+          École Agroécologique du Vivant
+        </span>
+        <span class="badge badge-bio">
+          <span class="badge-dot"></span>
+          Savoirs Libres & Pratiques
+        </span>
+      </div>
+
+      <h1 class="hero-title">
+        L'autonomie paysanne par le sol vivant & la semence libre
+      </h1>
+
+      <p class="hero-lead">
+        Des parcours techniques complets, conçus pour le terrain sahélien et tropical. 
+        Apprenez à régénérer la terre, produire vos propres graines reproductibles et sécuriser vos récoltes sans intrants chimiques.
       </p>
-    </div>
-  </section>
 
-  <section class="tracks-section">
-    <div class="container">
-      <div class="tracks-grid">
-        <!-- Carte Parcours 1: Semences -->
-        <div class="track-card">
-          <div class="track-header">
-            <div class="track-icon">🌱</div>
-            <span class="badge badge-primary">Disponible • 36 modules</span>
-          </div>
-          <h2 class="track-title">Production de Semences Paysannes</h2>
-          <p class="track-desc">
-            Apprenez à sélectionner, récolter, extraire et conserver vos propres graines 
-            reproductibles pour préserver la biodiversité potagère et assurer l'autonomie de votre exploitation.
-          </p>
-          <ul class="track-features">
-            <li>✓ Fondamentaux botaniques et pollinisation</li>
-            <li>✓ 27 fiches détaillées par espèce légumière</li>
-            <li>✓ Techniques de séchage et stockage tropical</li>
-            <li>✓ Visualiseur pas-à-pas et fiches imprimables</li>
-          </ul>
-          <div class="track-action">
-            <a href="/semences" class="btn btn-primary" style="width: 100%;">
-              Accéder aux 36 cours semences →
-            </a>
-          </div>
+      <div class="hero-cta-group">
+        <a href="/semences" class="btn btn-accent btn-lg">
+          Explorer les 34 cours semences →
+        </a>
+        <a href="#parcours" class="btn btn-secondary btn-lg">
+          Découvrir les 3 cursus
+        </a>
+      </div>
+
+      <!-- Chiffres clés / Impact Hero -->
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-num">34</span>
+          <span class="stat-label">Modules pratiques illustrés</span>
         </div>
-
-        <!-- Carte Parcours 2: Maraîchage -->
-        <div class="track-card track-card-muted">
-          <div class="track-header">
-            <div class="track-icon">🌿</div>
-            <span class="badge badge-neutral">En cours de numérisation</span>
-          </div>
-          <h2 class="track-title">Maraîchage Bio-Intensif en Sol Vivant</h2>
-          <p class="track-desc">
-            Intensifiez vos récoltes légumières tout en régénérant la fertilité naturelle du sol : 
-            planches de cultures permanentes, optimisation des pépinières et gestion économe de l'eau.
-          </p>
-          <ul class="track-features">
-            <li>✓ Le sol vivant et la vie microbiologique</li>
-            <li>✓ Confection de planches permanentes non piétinées</li>
-            <li>✓ Stratégies d'arrosage et d'irrigation adaptées</li>
-            <li>✓ Multi-cultures bio-intensives à haut rendement</li>
-          </ul>
-          <div class="track-action">
-            <a href="/maraichage" class="btn btn-outline" style="width: 100%;">
-              Découvrir le programme maraîchage
-            </a>
-          </div>
+        <div class="stat-card">
+          <span class="stat-num">27</span>
+          <span class="stat-label">Fiches espèces légumières</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Reproductible au champ</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">0€</span>
+          <span class="stat-label">Accès libre & ouvert à tous</span>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="approach-section">
+  <!-- BANDEAU MANIFESTE / VALEURS -->
+  <section class="manifesto-strip">
     <div class="container">
-      <div class="approach-box">
-        <h3 class="approach-title">Une méthode pédagogique adaptée au terrain</h3>
-        <div class="approach-grid">
-          <div class="approach-item">
-            <h4>Visuelle & Accessible</h4>
-            <p>Conçue avec des illustrations claires et séquencées pour être comprise rapidement par tous les maraîchers.</p>
+      <div class="manifesto-content">
+        <div class="manifesto-quote">
+          « La semence paysanne n'est pas une marchandise, c'est le premier maillon de la souveraineté alimentaire de nos peuples. »
+        </div>
+        <div class="manifesto-author">— Collectif d'Agroécologie Paysanne Nakôbio</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION DES PARCOURS PÉDAGOGIQUES -->
+  <section class="tracks-section" id="parcours">
+    <div class="container">
+      <div class="section-header">
+        <span class="badge badge-brand">
+          <span class="badge-dot"></span>
+          Programme d'apprentissage
+        </span>
+        <h2 class="section-title">Trois filières pour transformer votre exploitation</h2>
+        <p class="section-subtitle">
+          Chaque cursus répond aux contraintes réelles du maraîcher : fortes chaleurs, gestion millimétrée de l'eau et autosuffisance en semences.
+        </p>
+      </div>
+
+      <div class="tracks-grid">
+        <!-- CARTE 1 : SEMENCES PAYSANNES (DISPONIBLE) -->
+        <article class="track-card featured">
+          <div class="track-image-wrap">
+            <img 
+              src="/assets/images/photos/track-semences.jpg" 
+              alt="Atelier semences paysannes et tri de graines" 
+              class="track-image"
+              loading="lazy"
+            />
+            <span class="track-status badge badge-bio">Disponible • 34 cours</span>
           </div>
-          <div class="approach-item">
-            <h4>Adaptée au Climat Chaud</h4>
-            <p>Techniques éprouvées tenant compte de la chaleur, de l'évaporation et des contraintes en eau et en électricité.</p>
+
+          <div class="track-content">
+            <span class="track-category">Filière d'Excellence Semencière</span>
+            <h3 class="track-title">Production de Semences Paysannes</h3>
+            <p class="track-desc">
+              Sélectionnez, récoltez, séchez et conservez vos semences reproductibles pour préserver la biodiversité potagère locale et vous affranchir des graines hybrides F1.
+            </p>
+
+            <ul class="track-features">
+              <li>
+                <span class="feature-icon">✓</span>
+                <span><strong>7 fondamentaux botaniques</strong> : pollinisation, croisements, isolations</span>
+              </li>
+              <li>
+                <span class="feature-icon">✓</span>
+                <span><strong>27 fiches détaillées par légume</strong> : tomate, oignon, gombo, piment...</span>
+              </li>
+              <li>
+                <span class="feature-icon">✓</span>
+                <span>Méthodes de séchage tropical, tri au vent et stockage hermétique</span>
+              </li>
+              <li>
+                <span class="feature-icon">✓</span>
+                <span>Fiches synthétiques imprimables (A4) pour le suivi direct à la parcelle</span>
+              </li>
+            </ul>
+
+            <div class="track-footer">
+              <a href="/semences" class="btn btn-accent track-btn">
+                Consulter le catalogue semences (34) →
+              </a>
+            </div>
           </div>
-          <div class="approach-item">
-            <h4>100% Reproductible</h4>
-            <p>Pas de matériel hors de prix ni d'intrants chimiques : valorisation des matières et savoir-faire locaux.</p>
+        </article>
+
+        <!-- CARTE 2 : MARAÎCHAGE SOL VIVANT -->
+        <article class="track-card">
+          <div class="track-image-wrap">
+            <img 
+              src="/assets/images/photos/track-maraichage.jpg" 
+              alt="Maraîchage en sol vivant et planches permanentes" 
+              class="track-image"
+              loading="lazy"
+            />
+            <span class="track-status badge badge-accent">En cours de numérisation</span>
           </div>
+
+          <div class="track-content">
+            <span class="track-category">Agronomie & Sol Vivant</span>
+            <h3 class="track-title">Maraîchage Bio-Intensif en Sol Vivant</h3>
+            <p class="track-desc">
+              Multipliez vos rendements maraîchers sans motoculteur ni engrais chimiques grâce aux planches permanentes de 75 cm, au paillage dense et au compost vivant.
+            </p>
+
+            <ul class="track-features">
+              <li>
+                <span class="feature-icon">✓</span>
+                <span>Biologie du sol, mycorhizes et compostage thermophile adapté</span>
+              </li>
+              <li>
+                <span class="feature-icon">✓</span>
+                <span>Planches permanentes standardisées (75 cm) & passe-pieds 40 cm</span>
+              </li>
+              <li>
+                <span class="feature-icon">✓</span>
+                <span>Gestion économe de l'eau en climat aride (goutte-à-goutte, ombrage)</span>
+              </li>
+              <li>
+                <span class="feature-icon">✓</span>
+                <span>Rotations culturales bio-intensives et pépinières protégées</span>
+              </li>
+            </ul>
+
+            <div class="track-footer">
+              <a href="/maraichage" class="btn btn-secondary track-btn">
+                Découvrir le programme du sol vivant →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- CARTE 3 : PRATIQUES DE TERRAIN -->
+        <article class="track-card">
+          <div class="track-image-wrap">
+            <img 
+              src="/assets/images/photos/track-terrain.jpg" 
+              alt="Pratiques de terrain, pesées et mesures simples" 
+              class="track-image"
+              loading="lazy"
+            />
+            <span class="track-status badge badge-neutral">Cursus en préparation</span>
+          </div>
+
+          <div class="track-content">
+            <span class="track-category">Méthodologie & Outils</span>
+            <h3 class="track-title">Pratiques de Terrain & Outils Techniques</h3>
+            <p class="track-desc">
+              Les gestes professionnels d'observation, de mesure et de diagnostic : photographier ses cultures pour le conseil à distance, peser et tester le pouvoir germinatif.
+            </p>
+
+            <ul class="track-features">
+              <li>
+                <span class="feature-icon">✓</span>
+                <span>Documentation photo smartphone : macro, anomalies, floraison</span>
+              </li>
+              <li>
+                <span class="feature-icon">✓</span>
+                <span>Mesures de calibres, pesées et calculs du PMG (Poids Mille Grains)</span>
+              </li>
+              <li>
+                <span class="feature-icon">✓</span>
+                <span>Tests de germination artisanaux (boîte, sable, chiffon humide)</span>
+              </li>
+              <li>
+                <span class="feature-icon">✓</span>
+                <span>Grilles de relevé et registres d'exploitation pour le maraîcher</span>
+              </li>
+            </ul>
+
+            <div class="track-footer">
+              <a href="/pratiques-terrain" class="btn btn-secondary track-btn">
+                Voir les outils et protocoles →
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION METHODOLOGIE DU VIVANT -->
+  <section class="method-section">
+    <div class="container">
+      <div class="method-box">
+        <div class="method-header">
+          <span class="badge badge-accent">Pédagogie de terrain</span>
+          <h3 class="method-title">Une méthode d'apprentissage conçue pour la réalité paysanne</h3>
+          <p class="method-desc">
+            Nos modules sont le fruit de retours d'expérience concrets d'ateliers menés avec des producteurs sahéliens et des spécialistes du maraîchage d'excellence.
+          </p>
+        </div>
+
+        <div class="method-cards-grid">
+          <div class="card card-sunken">
+            <div class="method-card-header">
+              <span class="method-badge-num">01</span>
+              <h4 class="card-title">Visuel & Pas-à-Pas</h4>
+            </div>
+            <p class="card-subtitle">Chaque geste clé est découpé avec une illustration dédiée pour faciliter la compréhension immédiate au champ.</p>
+          </div>
+
+          <div class="card card-sunken">
+            <div class="method-card-header">
+              <span class="method-badge-num">02</span>
+              <h4 class="card-title">Matériaux Locaux & Zéro Dépendance</h4>
+            </div>
+            <p class="card-subtitle">Pas besoin de matériel d'importation coûteux : nous privilégions les calebasses, tamis locaux, sable de rivière et outils simples.</p>
+          </div>
+
+          <div class="card card-sunken">
+            <div class="method-card-header">
+              <span class="method-badge-num">03</span>
+              <h4 class="card-title">Prêt pour l'Impression & l'Échange</h4>
+            </div>
+            <p class="card-subtitle">Fiches imprimables au format A4 prévues pour être distribuées aux groupements maraîchers, coopératives et femmes productrices.</p>
+          </div>
+        </div>
+
+        <div class="callout callout-tip method-callout">
+          <div class="callout-title">Autonomie Semencière & Agroécologie</div>
+          En produisant vos propres semences de variétés traditionnelles, vous économisez 15 à 30% de vos coûts annuels d'intrants tout en renforçant la résilience de vos récoltes face au changement climatique.
         </div>
       </div>
     </div>
@@ -92,133 +274,425 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <style>
-  .hero {
-    background-color: var(--color-surface);
+  /* ==========================================================================
+     HERO IMMERSIF PREMIUM (LIN & LATÉRITE)
+     ========================================================================== */
+  .hero-premium {
+    position: relative;
+    background: linear-gradient(180deg, #FFFDF6 0%, #F5EED8 65%, #EFE5C6 100%);
     border-bottom: 1px solid var(--color-border);
-    padding: 4.5rem 0 3.5rem;
+    padding: 4.5rem 0 4rem;
+    overflow: hidden;
+  }
+
+  .hero-premium::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      radial-gradient(circle at 10% 20%, rgba(200, 104, 50, 0.08) 0%, transparent 40%),
+      radial-gradient(circle at 90% 80%, rgba(47, 74, 52, 0.06) 0%, transparent 40%);
+    pointer-events: none;
+  }
+
+  .hero-container {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
     text-align: center;
   }
 
-  .hero-content {
-    max-width: 760px;
+  .hero-badge-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
   }
 
   .hero-title {
-    font-size: 2.4rem;
-    font-weight: 800;
-    color: var(--color-primary-deep);
-    margin: 1rem 0 0.85rem;
-    line-height: 1.2;
+    font-family: var(--font-serif);
+    font-size: clamp(2.3rem, 5vw, 3.4rem);
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    line-height: 1.15;
     letter-spacing: -0.02em;
+    margin-bottom: 1.35rem;
   }
 
-  .hero-subtitle {
-    font-size: 1.15rem;
-    color: var(--color-text-secondary);
-    line-height: 1.6;
+  .hero-lead {
+    font-family: var(--font-sans);
+    font-size: 1.18rem;
+    color: var(--color-ink-soft);
+    line-height: 1.65;
+    margin: 0 auto 2.25rem;
+    max-width: 740px;
   }
 
+  .hero-cta-group {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-bottom: 3.5rem;
+    flex-wrap: wrap;
+  }
+
+  /* Cartes d'impact / Stats */
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(27, 35, 24, 0.1);
+    border-radius: var(--radius-lg);
+    padding: 1.75rem 1.5rem;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-right: 1px solid rgba(27, 35, 24, 0.08);
+    padding: 0 0.5rem;
+  }
+
+  .stat-card:last-child {
+    border-right: none;
+  }
+
+  .stat-num {
+    font-family: var(--font-serif);
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--color-brand-secondary);
+    line-height: 1;
+    margin-bottom: 0.35rem;
+  }
+
+  .stat-label {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-ink-faint);
+    line-height: 1.35;
+  }
+
+  /* ==========================================================================
+     BANDEAU MANIFESTE
+     ========================================================================== */
+  .manifesto-strip {
+    background-color: var(--color-surface-sunken);
+    border-bottom: 1px solid var(--color-border);
+    padding: 2.25rem 0;
+  }
+
+  .manifesto-content {
+    max-width: 820px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .manifesto-quote {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--color-brand-primary);
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+
+  .manifesto-author {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--color-brand-secondary);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  /* ==========================================================================
+     SECTION DES PARCOURS
+     ========================================================================== */
   .tracks-section {
-    padding: 3.5rem 0;
+    padding: 5rem 0 4.5rem;
+  }
+
+  .section-header {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 3.5rem;
+  }
+
+  .section-title {
+    font-family: var(--font-serif);
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    margin: 0.85rem 0 0.85rem;
+    letter-spacing: -0.01em;
+  }
+
+  .section-subtitle {
+    font-family: var(--font-sans);
+    font-size: 1.05rem;
+    color: var(--color-ink-soft);
+    line-height: 1.6;
   }
 
   .tracks-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    align-items: stretch;
   }
 
   .track-card {
-    background-color: var(--color-surface);
+    background: var(--color-surface-card);
     border: 1px solid var(--color-border);
-    border-radius: var(--radius-md);
-    padding: 2rem;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: var(--shadow-sm);
+    transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
   }
 
   .track-card:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
-    border-color: var(--color-border-hover);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-brand-secondary);
   }
 
-  .track-header {
+  .track-card.featured {
+    border-color: var(--color-brand-secondary);
+    box-shadow: 0 8px 24px rgba(200, 104, 50, 0.12);
+  }
+
+  .track-image-wrap {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--color-surface-sunken);
+  }
+
+  .track-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .track-card:hover .track-image {
+    transform: scale(1.05);
+  }
+
+  .track-status {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .track-content {
+    padding: 1.85rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1.25rem;
+    flex-direction: column;
+    flex: 1;
   }
 
-  .track-icon {
-    font-size: 2rem;
+  .track-category {
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-brand-secondary);
+    margin-bottom: 0.4rem;
   }
 
   .track-title {
+    font-family: var(--font-serif);
     font-size: 1.45rem;
     font-weight: 700;
-    color: var(--color-primary-deep);
-    margin-bottom: 0.75rem;
-    line-height: 1.3;
+    color: var(--color-brand-primary);
+    line-height: 1.25;
+    margin-bottom: 0.9rem;
   }
 
   .track-desc {
-    color: var(--color-text-secondary);
-    font-size: 0.95rem;
-    line-height: 1.55;
+    font-family: var(--font-sans);
+    font-size: 0.92rem;
+    color: var(--color-ink-soft);
+    line-height: 1.6;
     margin-bottom: 1.5rem;
   }
 
   .track-features {
     list-style: none;
-    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
-    font-size: 0.9rem;
-    color: var(--color-text-secondary);
+    gap: 0.65rem;
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    color: var(--color-ink-soft);
+    margin-bottom: 2rem;
   }
 
-  .track-action {
+  .track-features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .feature-icon {
+    color: var(--color-brand-secondary);
+    font-weight: bold;
+    flex-shrink: 0;
+  }
+
+  .track-footer {
     margin-top: auto;
   }
 
-  .approach-section {
-    padding: 1rem 0 3rem;
-  }
-
-  .approach-box {
-    background-color: #f7f6f1;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-md);
-    padding: 2.5rem 2rem;
-  }
-
-  .approach-title {
-    font-size: 1.35rem;
-    font-weight: 700;
-    color: var(--color-primary-deep);
+  .track-btn {
+    width: 100%;
     text-align: center;
-    margin-bottom: 2rem;
   }
 
-  .approach-grid {
+  /* ==========================================================================
+     SECTION MÉTHODOLOGIE & CALLOUT
+     ========================================================================== */
+  .method-section {
+    padding: 1rem 0 4rem;
+  }
+
+  .method-box {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 3.5rem 3rem;
+  }
+
+  .method-header {
+    text-align: center;
+    max-width: 680px;
+    margin: 0 auto 2.75rem;
+  }
+
+  .method-title {
+    font-family: var(--font-serif);
+    font-size: 1.85rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    margin: 0.75rem 0 0.65rem;
+  }
+
+  .method-desc {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    color: var(--color-ink-soft);
+    line-height: 1.6;
+  }
+
+  .method-cards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
+    margin-bottom: 2.5rem;
   }
 
-  .approach-item h4 {
-    color: var(--color-primary-deep);
-    font-size: 1.05rem;
-    margin-bottom: 0.4rem;
+  .method-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    margin-bottom: 0.75rem;
   }
 
-  .approach-item p {
-    color: var(--color-text-muted);
-    font-size: 0.9rem;
-    line-height: 1.5;
+  .method-badge-num {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--color-brand-secondary);
+    background: rgba(200, 104, 50, 0.1);
+    width: 38px;
+    height: 38px;
+    border-radius: var(--radius-full);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .method-callout {
+    margin: 0;
+  }
+
+  /* ==========================================================================
+     RESPONSIVE BREAKPOINTS
+     ========================================================================== */
+  @media (max-width: 1024px) {
+    .tracks-grid {
+      grid-template-columns: 1fr;
+      max-width: 580px;
+      margin: 0 auto;
+    }
+
+    .hero-stats {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 1.5rem;
+    }
+
+    .stat-card:nth-child(2) {
+      border-right: none;
+    }
+
+    .method-cards-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .method-box {
+      padding: 2.5rem 1.5rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .hero-premium {
+      padding: 3rem 0;
+    }
+
+    .hero-title {
+      font-size: 2rem;
+    }
+
+    .hero-lead {
+      font-size: 1rem;
+    }
+
+    .hero-cta-group {
+      flex-direction: column;
+    }
+
+    .hero-stats {
+      grid-template-columns: 1fr;
+    }
+
+    .stat-card {
+      border-right: none;
+      border-bottom: 1px solid rgba(27, 35, 24, 0.08);
+      padding-bottom: 1rem;
+    }
+
+    .stat-card:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
   }
 </style>

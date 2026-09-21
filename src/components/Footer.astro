@@ -2,57 +2,147 @@
   <div class="container footer-inner">
     <div class="footer-info">
       <div class="footer-brand">
-        <strong>Nakôbio</strong> — Autonomie paysanne et semencière
+        <span class="brand-title">Nakôbio Campus</span>
+        <span class="brand-dot">•</span>
+        <span class="brand-tagline">Autonomie semencière & maraîchage vivant</span>
       </div>
       <p class="footer-desc">
-        Supports de formation en agroécologie adaptés aux maraîchers sahéliens et tropicaux.
+        Parcours de formation ouverts, pragmatiques et richement illustrés pour paysans, maraîchers et acteurs de l'agroécologie tropicale et sahélienne.
+      </p>
+      <p class="footer-heritage">
+        Conçu dans le respect du sol vivant, des semences paysannes libres et du design system unifié Nakôbio × Biosain.
       </p>
     </div>
-    <div class="footer-links">
-      <a href="/semences">Semences Paysannes</a>
-      <a href="/maraichage">Maraîchage Sol Vivant</a>
-      <a href="https://github.com/malibub-digital" target="_blank" rel="noopener noreferrer">Écosystème Malihub</a>
+
+    <div class="footer-nav-col">
+      <h4 class="footer-heading">Formations</h4>
+      <div class="footer-links">
+        <a href="/semences">🌱 Semences Paysannes (34 cours)</a>
+        <a href="/maraichage">🌿 Maraîchage en Sol Vivant</a>
+        <a href="/pratiques-terrain">📐 Pratiques de Terrain</a>
+      </div>
     </div>
+
+    <div class="footer-nav-col">
+      <h4 class="footer-heading">Écosystème</h4>
+      <div class="footer-links">
+        <a href="https://nako.bio" target="_blank" rel="noopener noreferrer">Portail Nakôbio ↗</a>
+        <a href="https://biosain.at" target="_blank" rel="noopener noreferrer">Ferme Biosain (Autriche) ↗</a>
+        <a href="https://github.com/malibub-digital" target="_blank" rel="noopener noreferrer">Ressources Libres Malihub ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>© {new Date().getFullYear()} Nakôbio — Plateforme de formation agricole ouverte & libre.</span>
+    <span>Soutenu par l'agroécologie paysanne</span>
   </div>
 </footer>
 
 <style>
   .footer {
-    background-color: #ffffff;
+    background-color: var(--color-surface-sunken);
     border-top: 1px solid var(--color-border);
-    padding: 2.5rem 0;
-    margin-top: 4rem;
+    padding: 4.5rem 0 2.5rem;
+    margin-top: 5rem;
+    color: var(--color-ink);
   }
 
   .footer-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .footer-info {
+    max-width: 480px;
   }
 
   .footer-brand {
-    color: var(--color-primary-deep);
-    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0.85rem;
+    flex-wrap: wrap;
+  }
+
+  .brand-title {
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+  }
+
+  .brand-dot {
+    color: var(--color-brand-secondary);
+  }
+
+  .brand-tagline {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-brand-secondary);
   }
 
   .footer-desc {
-    color: var(--color-text-muted);
-    font-size: 0.85rem;
-    margin-top: 0.25rem;
+    color: var(--color-ink-soft);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+  }
+
+  .footer-heritage {
+    color: var(--color-ink-faint);
+    font-size: 0.82rem;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  .footer-heading {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    margin-bottom: 1.1rem;
+    letter-spacing: -0.01em;
   }
 
   .footer-links {
     display: flex;
-    gap: 1.25rem;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--color-text-secondary);
+    flex-direction: column;
+    gap: 0.65rem;
+    font-size: 0.88rem;
+    font-weight: 500;
+  }
+
+  .footer-links a {
+    color: var(--color-ink-soft);
+    transition: color var(--transition-base), transform var(--transition-base);
+    display: inline-block;
   }
 
   .footer-links a:hover {
-    color: var(--color-primary-deep);
-    text-decoration: underline;
+    color: var(--color-brand-secondary);
+    transform: translateX(3px);
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(27, 35, 24, 0.08);
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    color: var(--color-ink-faint);
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  @media (max-width: 860px) {
+    .footer-inner {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
   }
 </style>

@@ -1,0 +1,63 @@
+/* ==========================================================================
+   NAKÔBIO & BIOSAIN — DÉCLINAISONS DE MARQUES (THEMES)
+   Activez via l'attribut data-theme="nakobio" ou data-theme="biosain"
+   ========================================================================== */
+
+/* ------------------------------------------------------------------------
+   Thème Nakôbio (Mali - Pédagogie, Agroécologie & Sol vivant)
+   Identité : Vert forêt vivant, latérite / terre cuite, jaune paille
+   ------------------------------------------------------------------------ */
+[data-theme="nakobio"],
+:root:not([data-theme="biosain"]) {
+  --color-brand-primary: #2F4A34;       /* Vert forêt vivant */
+  --color-brand-primary-light: #416749; /* Vert moyen */
+  --color-brand-primary-dark: #1E3324;  /* Vert sous-bois profond */
+  
+  --color-brand-secondary: #C86832;     /* Terre cuite / latérite */
+  --color-brand-secondary-light: #DE7B45;
+  --color-brand-secondary-dark: #A54F20;
+
+  --color-brand-accent: #E0A030;        /* Jaune paille / soleil d'Afrique */
+  --color-brand-accent-light: #EBB553;
+  --color-brand-accent-dark: #BC7F18;
+
+  --badge-brand-bg: rgba(47, 74, 52, 0.08);
+  --badge-brand-color: #2F4A34;
+  --badge-accent-bg: rgba(200, 104, 50, 0.12);
+  --badge-accent-color: #A54F20;
+
+  /* Gradients thématiques */
+  --gradient-hero: linear-gradient(180deg, #FFFDF6 0%, #EAE4C8 100%);
+  --gradient-brand: linear-gradient(135deg, #1E3324 0%, #2F4A34 100%);
+  --gradient-accent: linear-gradient(135deg, #C86832 0%, #E0A030 100%);
+  --color-surface-hero: #EAE4C8;
+}
+
+/* ------------------------------------------------------------------------
+   Thème Biosain (Autriche / Europe - Maraîchage d'excellence & Vente directe)
+   Identité : Ocre jaune historique biosain.at, vert forêt profond, accent sombre
+   ------------------------------------------------------------------------ */
+[data-theme="biosain"] {
+  --color-brand-primary: #CAAE00;       /* Ocre jaune historique biosain.at */
+  --color-brand-primary-light: #E0C51E; /* Jaune doré clair */
+  --color-brand-primary-dark: #968100;  /* Ocre soutenu */
+
+  --color-brand-secondary: #2F4A34;     /* Vert forêt profond */
+  --color-brand-secondary-light: #416749;
+  --color-brand-secondary-dark: #1E3324;
+
+  --color-brand-accent: #1E3324;        /* Vert épicéa très sombre */
+  --color-brand-accent-light: #2F4A34;
+  --color-brand-accent-dark: #112015;
+
+  --badge-brand-bg: rgba(202, 174, 0, 0.15);
+  --badge-brand-color: #6C5D00;
+  --badge-accent-bg: rgba(47, 74, 52, 0.10);
+  --badge-accent-color: #1E3324;
+
+  /* Gradients thématiques */
+  --gradient-hero: linear-gradient(180deg, #FFFDF6 0%, #F5EBC0 100%);
+  --gradient-brand: linear-gradient(135deg, #968100 0%, #CAAE00 100%);
+  --gradient-accent: linear-gradient(135deg, #1E3324 0%, #2F4A34 100%);
+  --color-surface-hero: #F5EBC0;
+}

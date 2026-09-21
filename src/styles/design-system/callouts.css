@@ -1,0 +1,50 @@
+/* ==========================================================================
+   COMPOSANTS STANDARDS : ENCADRÉS (CALLOUTS & ALERTES)
+   ========================================================================== */
+
+.callout {
+  margin: var(--space-6) 0;
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-surface-sunken);
+  border-left: 4px solid var(--color-brand-primary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  color: var(--color-ink);
+}
+
+.callout-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-weight: var(--weight-bold);
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-2);
+  color: var(--color-brand-primary);
+}
+
+.callout-tip {
+  border-left-color: var(--color-brand-secondary);
+}
+.callout-tip .callout-title {
+  color: var(--color-brand-secondary);
+}
+
+.callout-warning {
+  background: var(--color-warning-bg);
+  border-left-color: var(--color-warning);
+}
+.callout-warning .callout-title {
+  color: var(--color-warning);
+}
+
+.callout-danger {
+  background: var(--color-danger-bg);
+  border-left-color: var(--color-danger);
+}
+.callout-danger .callout-title {
+  color: var(--color-danger);
+}

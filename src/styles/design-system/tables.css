@@ -1,0 +1,47 @@
+/* ==========================================================================
+   COMPOSANTS STANDARDS : TABLEAUX TECHNIQUES & DOSAGES
+   ========================================================================== */
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: var(--space-6) 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+.table-tech {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  text-align: left;
+  background: var(--color-surface-card);
+}
+
+.table-tech th {
+  background: var(--color-surface-sunken);
+  color: var(--color-ink);
+  font-weight: var(--weight-semibold);
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
+.table-tech td {
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-ink);
+}
+
+.table-tech tr:last-child td {
+  border-bottom: none;
+}
+
+.table-tech tr:hover td {
+  background: var(--color-surface-muted);
+}
+
+.table-tech .num-val {
+  font-family: var(--font-mono);
+  font-weight: var(--weight-medium);
+}

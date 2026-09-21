@@ -1,37 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Lora:ital,wght@0,500;0,600;1,400&display=swap');
+/* ==========================================================================
+   NAKÔBIO CAMPUS — STYLES PRINCIPAUX & DESIGN SYSTEM INTÉGRÉ
+   ========================================================================== */
 
+/* 1. Importation des tokens de design et polices */
+@import './design-system/tokens.css';
+@import './design-system/themes.css';
+
+/* 2. Composants graphiques standardisés */
+@import './design-system/badges.css';
+@import './design-system/buttons.css';
+@import './design-system/cards.css';
+@import './design-system/callouts.css';
+@import './design-system/steps.css';
+@import './design-system/tables.css';
+@import './design-system/forms.css';
+
+/* 3. Variables de compatibilité et alignement de marque Nakôbio */
 :root {
-  /* Charte simplifiée et sobre Nakôbio */
-  --color-primary: #7bb02a;
-  --color-primary-dark: #385125;
-  --color-primary-deep: #1e3b17;
-  --color-primary-light: #f1f8e9;
-  --color-primary-border: #d4e8ba;
+  /* Alias & passerelles vers les tokens du Design System */
+  --color-primary: var(--color-brand-primary, #2F4A34);
+  --color-primary-dark: var(--color-brand-primary-dark, #1E3324);
+  --color-primary-deep: var(--color-brand-primary-dark, #1E3324);
+  --color-primary-light: rgba(47, 74, 52, 0.08);
+  --color-primary-border: rgba(47, 74, 52, 0.2);
 
-  --color-earth: #c85a2b;
-  --color-earth-light: #fdf2ec;
-  --color-earth-border: #f5cfbe;
+  --color-earth: var(--color-brand-secondary, #C86832);
+  --color-earth-light: rgba(200, 104, 50, 0.1);
+  --color-earth-border: rgba(200, 104, 50, 0.25);
 
-  --color-bg: #fbf9f5;
-  --color-surface: #ffffff;
-  --color-border: #e5e0d4;
-  --color-border-hover: #c5bead;
+  --color-bg: var(--color-surface, #FFFDF6);
+  --color-text: var(--color-ink, #1B2318);
+  --color-text-secondary: var(--color-ink-soft, #43492F);
+  --color-text-muted: var(--color-ink-faint, #6B684E);
 
-  --color-text: #192415;
-  --color-text-secondary: #3b4636;
-  --color-text-muted: #626f5d;
+  --color-border-hover: var(--color-brand-primary, #2F4A34);
 
-  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
-  --font-serif: 'Lora', Georgia, serif;
-
-  --radius-sm: 8px;
-  --radius-md: 14px;
-  --radius-lg: 20px;
-  --radius-pill: 9999px;
-
-  --shadow-sm: 0 2px 6px rgba(30, 59, 23, 0.04);
-  --shadow-md: 0 6px 18px rgba(30, 59, 23, 0.08);
-  --shadow-lg: 0 12px 28px rgba(30, 59, 23, 0.12);
+  --radius-pill: var(--radius-full, 9999px);
 }
 
 *, *::before, *::after {
@@ -42,12 +46,13 @@
 
 body {
   font-family: var(--font-sans);
-  background-color: var(--color-bg);
-  color: var(--color-text);
-  line-height: 1.6;
+  background-color: var(--color-surface, #FFFDF6);
+  color: var(--color-ink, #1B2318);
+  line-height: var(--leading-relaxed, 1.6);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  -webkit-font-smoothing: antialiased;
 }
 
 main {
@@ -57,6 +62,7 @@ main {
 a {
   color: inherit;
   text-decoration: none;
+  transition: color var(--transition-base, 0.2s ease);
 }
 
 img {
@@ -65,74 +71,40 @@ img {
   display: block;
 }
 
-/* Boutons sobres */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.65rem 1.25rem;
-  border-radius: var(--radius-sm);
-  font-weight: 600;
-  font-size: 0.95rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  border: 1px solid transparent;
+/* Utilitaires conteneurs */
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 var(--space-4, 1.5rem);
 }
 
-.btn-primary {
-  background-color: var(--color-primary-deep);
-  color: #ffffff;
-}
-
-.btn-primary:hover {
-  background-color: var(--color-primary-dark);
-}
-
+/* Rétrocompatibilité sélecteurs spécifiques campus */
 .btn-outline {
   background-color: transparent;
-  border-color: var(--color-border);
-  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  color: var(--color-ink);
 }
 
 .btn-outline:hover {
-  border-color: var(--color-primary);
-  background-color: var(--color-primary-light);
-  color: var(--color-primary-deep);
-}
-
-.badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  padding: 0.25rem 0.65rem;
-  border-radius: var(--radius-pill);
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+  border-color: var(--color-brand-primary);
+  background-color: var(--color-surface-sunken);
+  color: var(--color-brand-primary);
 }
 
 .badge-primary {
-  background-color: var(--color-primary-light);
-  color: var(--color-primary-dark);
-  border: 1px solid var(--color-primary-border);
+  background-color: var(--badge-brand-bg, rgba(47, 74, 52, 0.1));
+  color: var(--badge-brand-color, #2F4A34);
+  border: 1px solid rgba(47, 74, 52, 0.2);
 }
 
 .badge-earth {
-  background-color: var(--color-earth-light);
-  color: var(--color-earth);
-  border: 1px solid var(--color-earth-border);
+  background-color: var(--badge-accent-bg, rgba(200, 104, 50, 0.12));
+  color: var(--badge-accent-color, #A54F20);
+  border: 1px solid rgba(200, 104, 50, 0.25);
 }
 
 .badge-neutral {
-  background-color: #f1f3f0;
-  color: var(--color-text-muted);
+  background-color: var(--color-surface-sunken);
+  color: var(--color-ink-faint);
   border: 1px solid var(--color-border);
-}
-
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
 }
