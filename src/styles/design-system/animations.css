@@ -1,0 +1,48 @@
+/* ==========================================================================
+   ANIMATIONS & EFFETS AU SCROLL (DESIGN SYSTEM UNIFIÉ)
+   Comportement calibré sur transition--slide de nako.bio :
+   - Montée progressive : translateY(45px) -> translateY(0)
+   - Fondu naturel : opacity: 0 -> 1
+   - Courbe douce : cubic-bezier(0.2, 0.8, 0.2, 1) sur 0.85s
+   - Délais échelonnés par élément : delay-1 à delay-4
+   ========================================================================== */
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(45px);
+  transition-property: opacity, transform;
+  transition-duration: 0.85s;
+  transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+  will-change: opacity, transform;
+}
+
+.scroll-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Délais échelonnés naturels */
+.delay-1 { transition-delay: 0.12s; }
+.delay-2 { transition-delay: 0.24s; }
+.delay-3 { transition-delay: 0.36s; }
+.delay-4 { transition-delay: 0.48s; }
+
+/* Parallaxe d'arrière-plan ancré en profondeur */
+.parallax-bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Respect des préférences utilisateur (accessibilité) */
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .parallax-bg {
+    background-attachment: scroll !important;
+  }
+}

@@ -3,11 +3,12 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Formations & Savoirs Agroécologiques">
-  <!-- HERO IMMERSIF PREMIUM : LIN CHAUD & LATÉRITE -->
+  <!-- HERO IMMERSIF PREMIUM : LIN CHAUD & LATÉRITE AVEC FOND PARALLAXE -->
   <section class="hero-premium">
-    <div class="hero-bg-overlay"></div>
+    <div class="hero-bg-parallax" aria-hidden="true"></div>
+    <div class="hero-bg-overlay" aria-hidden="true"></div>
     <div class="container hero-container">
-      <div class="hero-badge-wrap">
+      <div class="hero-badge-wrap scroll-reveal">
         <span class="badge badge-accent">
           <span class="badge-dot"></span>
           École Agroécologique du Vivant
@@ -18,16 +19,16 @@ import Layout from '../layouts/Layout.astro';
         </span>
       </div>
 
-      <h1 class="hero-title">
+      <h1 class="hero-title scroll-reveal delay-1">
         L'autonomie paysanne par le sol vivant & la semence libre
       </h1>
 
-      <p class="hero-lead">
+      <p class="hero-lead scroll-reveal delay-2">
         Des parcours techniques complets, conçus pour le terrain sahélien et tropical. 
         Apprenez à régénérer la terre, produire vos propres graines reproductibles et sécuriser vos récoltes sans intrants chimiques.
       </p>
 
-      <div class="hero-cta-group">
+      <div class="hero-cta-group scroll-reveal delay-3">
         <a href="/semences" class="btn btn-accent btn-lg">
           Explorer les 34 cours semences →
         </a>
@@ -37,7 +38,7 @@ import Layout from '../layouts/Layout.astro';
       </div>
 
       <!-- Chiffres clés / Impact Hero -->
-      <div class="hero-stats">
+      <div class="hero-stats scroll-reveal delay-4">
         <div class="stat-card">
           <span class="stat-num">34</span>
           <span class="stat-label">Modules pratiques illustrés</span>
@@ -59,7 +60,7 @@ import Layout from '../layouts/Layout.astro';
   </section>
 
   <!-- BANDEAU MANIFESTE / VALEURS -->
-  <section class="manifesto-strip">
+  <section class="manifesto-strip scroll-reveal">
     <div class="container">
       <div class="manifesto-content">
         <div class="manifesto-quote">
@@ -73,7 +74,7 @@ import Layout from '../layouts/Layout.astro';
   <!-- SECTION DES PARCOURS PÉDAGOGIQUES -->
   <section class="tracks-section" id="parcours">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header scroll-reveal">
         <span class="badge badge-brand">
           <span class="badge-dot"></span>
           Programme d'apprentissage
@@ -86,7 +87,7 @@ import Layout from '../layouts/Layout.astro';
 
       <div class="tracks-grid">
         <!-- CARTE 1 : SEMENCES PAYSANNES (DISPONIBLE) -->
-        <article class="track-card featured">
+        <article class="track-card featured scroll-reveal delay-1">
           <div class="track-image-wrap">
             <img 
               src="/assets/images/photos/track-semences.jpg" 
@@ -132,7 +133,7 @@ import Layout from '../layouts/Layout.astro';
         </article>
 
         <!-- CARTE 2 : MARAÎCHAGE SOL VIVANT -->
-        <article class="track-card">
+        <article class="track-card scroll-reveal delay-2">
           <div class="track-image-wrap">
             <img 
               src="/assets/images/photos/track-maraichage.jpg" 
@@ -178,7 +179,7 @@ import Layout from '../layouts/Layout.astro';
         </article>
 
         <!-- CARTE 3 : PRATIQUES DE TERRAIN -->
-        <article class="track-card">
+        <article class="track-card scroll-reveal delay-3">
           <div class="track-image-wrap">
             <img 
               src="/assets/images/photos/track-terrain.jpg" 
@@ -227,7 +228,7 @@ import Layout from '../layouts/Layout.astro';
   </section>
 
   <!-- SECTION METHODOLOGIE DU VIVANT -->
-  <section class="method-section">
+  <section class="method-section scroll-reveal">
     <div class="container">
       <div class="method-box">
         <div class="method-header">
@@ -239,7 +240,7 @@ import Layout from '../layouts/Layout.astro';
         </div>
 
         <div class="method-cards-grid">
-          <div class="card card-sunken">
+          <div class="card card-sunken scroll-reveal delay-1">
             <div class="method-card-header">
               <span class="method-badge-num">01</span>
               <h4 class="card-title">Visuel & Pas-à-Pas</h4>
@@ -247,7 +248,7 @@ import Layout from '../layouts/Layout.astro';
             <p class="card-subtitle">Chaque geste clé est découpé avec une illustration dédiée pour faciliter la compréhension immédiate au champ.</p>
           </div>
 
-          <div class="card card-sunken">
+          <div class="card card-sunken scroll-reveal delay-2">
             <div class="method-card-header">
               <span class="method-badge-num">02</span>
               <h4 class="card-title">Matériaux Locaux & Zéro Dépendance</h4>
@@ -255,7 +256,7 @@ import Layout from '../layouts/Layout.astro';
             <p class="card-subtitle">Pas besoin de matériel d'importation coûteux : nous privilégions les calebasses, tamis locaux, sable de rivière et outils simples.</p>
           </div>
 
-          <div class="card card-sunken">
+          <div class="card card-sunken scroll-reveal delay-3">
             <div class="method-card-header">
               <span class="method-badge-num">03</span>
               <h4 class="card-title">Prêt pour l'Impression & l'Échange</h4>
@@ -264,7 +265,7 @@ import Layout from '../layouts/Layout.astro';
           </div>
         </div>
 
-        <div class="callout callout-tip method-callout">
+        <div class="callout callout-tip method-callout scroll-reveal delay-4">
           <div class="callout-title">Autonomie Semencière & Agroécologie</div>
           En produisant vos propres semences de variétés traditionnelles, vous économisez 15 à 30% de vos coûts annuels d'intrants tout en renforçant la résilience de vos récoltes face au changement climatique.
         </div>
@@ -285,6 +286,26 @@ import Layout from '../layouts/Layout.astro';
     overflow: hidden;
   }
 
+  .hero-bg-parallax {
+    position: absolute;
+    inset: 0;
+    background-image: url('/assets/images/photos/hero-workshop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.18;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .hero-bg-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(255, 253, 246, 0.92) 0%, rgba(245, 238, 216, 0.82) 100%);
+    z-index: 1;
+    pointer-events: none;
+  }
+
   .hero-premium::before {
     content: '';
     position: absolute;
@@ -296,6 +317,7 @@ import Layout from '../layouts/Layout.astro';
       radial-gradient(circle at 10% 20%, rgba(200, 104, 50, 0.08) 0%, transparent 40%),
       radial-gradient(circle at 90% 80%, rgba(47, 74, 52, 0.06) 0%, transparent 40%);
     pointer-events: none;
+    z-index: 1;
   }
 
   .hero-container {

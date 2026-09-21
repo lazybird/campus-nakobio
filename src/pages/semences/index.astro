@@ -25,13 +25,13 @@ const categories = [
           </span>
         </div>
       </div>
-      <h1 class="page-title">Production de Semences Paysannes</h1>
-      <p class="page-subtitle">
+      <h1 class="page-title scroll-reveal">Production de Semences Paysannes</h1>
+      <p class="page-subtitle scroll-reveal delay-1">
         Modules illustrés étape par étape pour maîtriser la récolte, le tri, la pollinisation et la conservation hermétique des semences en climat tropical et sahélien.
       </p>
 
       <!-- Barre de recherche et filtres -->
-      <div class="search-bar-wrapper">
+      <div class="search-bar-wrapper scroll-reveal delay-2">
         <div class="search-input-box">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
             <circle cx="11" cy="11" r="8"></circle>
@@ -65,7 +65,7 @@ const categories = [
       <div class="courses-grid" id="courses-grid">
         {catalog.map((course) => (
           <article 
-            class="course-card card card-interactive" 
+            class="course-card card card-interactive scroll-reveal" 
             data-category={course.category} 
             data-search={`${course.title.toLowerCase()} ${course.summary?.toLowerCase() || ''} ${course.id.toLowerCase()}`}
           >
