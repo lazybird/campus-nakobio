@@ -465,14 +465,16 @@ if (totalSteps > 1) {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 16px;
-    height: 18px;
+    width: 28px;
+    height: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
     pointer-events: auto;
     cursor: pointer;
     text-decoration: none;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
     transition: transform 0.2s ease;
   }
 
@@ -485,6 +487,7 @@ if (totalSteps > 1) {
     transition: all 0.2s ease;
     display: block;
   }
+
 
   .progress-step-tick:hover {
     transform: translate(-50%, -50%) scale(1.35);
@@ -935,19 +938,63 @@ if (totalSteps > 1) {
   }
 
   @media (max-width: 640px) {
+    .lesson-topbar {
+      top: 70px;
+    }
     .lesson-topbar-inner {
-      flex-wrap: wrap;
-      height: auto;
-      padding-top: 0.65rem;
-      padding-bottom: 0.65rem;
-      gap: 0.65rem;
+      height: 54px;
+      padding: 0 0.75rem;
+      gap: 0.5rem;
+    }
+    .back-btn {
+      min-height: 38px;
+      padding: 0.35rem 0.65rem;
+      font-size: 0.78rem;
     }
     .lesson-title-meta {
-      order: 3;
-      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      overflow: hidden;
+    }
+    .lesson-title-meta .badge {
+      display: none;
+    }
+    .lesson-header-title {
+      font-size: 0.88rem;
+      max-width: 140px;
+    }
+    .lesson-reading-progress {
+      font-size: 0.72rem;
+      padding: 0.2rem 0.5rem;
+    }
+    .lesson-actions button {
+      min-height: 38px;
+      padding: 0.35rem 0.65rem;
+      font-size: 0.78rem;
     }
     .slide-body-text {
-      padding: 1.5rem 1.25rem;
+      padding: 1.5rem 1.15rem;
+    }
+    .slide-step-header-bar {
+      padding: 0.85rem 1.15rem;
+      gap: 0.75rem;
+    }
+    .step-badge-circle {
+      width: 36px;
+      height: 36px;
+      font-size: 1.05rem;
+    }
+    .step-meta-name {
+      font-size: 1.05rem;
+    }
+    .sketch-board-frame {
+      padding: 1rem;
+    }
+    .sketch-desc-text {
+      font-size: 0.95rem;
+      -webkit-line-clamp: 5;
     }
   }
 </style>
+

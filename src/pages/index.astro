@@ -298,6 +298,13 @@ import Layout from '../layouts/Layout.astro';
     pointer-events: none;
   }
 
+  @media (max-width: 768px) {
+    .hero-bg-parallax {
+      background-attachment: scroll;
+    }
+  }
+
+
   .hero-bg-overlay {
     position: absolute;
     inset: 0;
