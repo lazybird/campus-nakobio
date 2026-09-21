@@ -1,0 +1,290 @@
+[
+  {
+    "id": "a1_cest_quoi_une_graine",
+    "title": "C'est quoi une graine ?",
+    "category": "Fondamentaux",
+    "summary": "Découvrez ce qui se cache dans une graine, comment tester sa capacité à germer avec trois fois rien, et comment la conserver vivante en climat chaud sans électricité.",
+    "total_pages": 18,
+    "cover_image": "assets/images/a1_cest_quoi_une_graine/page_01.jpg"
+  },
+  {
+    "id": "a2_classification_botanique_simplifiee",
+    "title": "Classification botanique simplifiée",
+    "category": "Fondamentaux",
+    "summary": "Apprenez à reconnaître les grandes familles de légumes du potager pour comprendre qui peut se croiser avec qui, et éviter les mauvais mélanges au champ sans jargon compliqué.",
+    "total_pages": 16,
+    "cover_image": "assets/images/a2_classification_botanique_simplifiee/page_01.jpg"
+  },
+  {
+    "id": "a3_comment_choisir_ses_semences_de_depart",
+    "title": "Comment choisir ses semences de départ",
+    "category": "Fondamentaux",
+    "summary": "Comprenez la différence vitale entre les semences industrielles hybrides F1 et les semences paysannes reproductibles, pour démarrer votre production sur des bases solides et durables.",
+    "total_pages": 15,
+    "cover_image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_01.jpg"
+  },
+  {
+    "id": "a4_la_pollinisation",
+    "title": "La pollinisation — Comment les plantes se reproduisent",
+    "category": "Fondamentaux",
+    "summary": "Découvrez comment les fleurs se fécondent pour fabriquer des graines, apprenez à distinguer les plantes fidèles (autogames) des plantes qui aiment voyager (allogames), et comprenez l'impact des fortes chaleurs sur les croisements.",
+    "total_pages": 17,
+    "cover_image": "assets/images/a4_la_pollinisation/page_01.jpg"
+  },
+  {
+    "id": "a5_la_selection_des_plantes_porte_graines",
+    "title": "La sélection des plantes porte-graines",
+    "category": "Fondamentaux",
+    "summary": "Apprenez à observer l'ensemble de vos plants tout au long de leur vie pour choisir les meilleurs reproducteurs, marquez vos porte-graines au champ et dépassez le piège du « plus gros légume » pour sélectionner des semences vigoureuses et adaptées.",
+    "total_pages": 16,
+    "cover_image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_01.jpg"
+  },
+  {
+    "id": "a6_techniques_disolement",
+    "title": "Les techniques d'isolement",
+    "category": "Fondamentaux",
+    "summary": "Découvrez comment protéger vos variétés de semences paysannes contre les croisements indésirables grâce à 3 techniques simples et concrètes : la distance dans le champ, le décalage dans le temps, et la barrière mécanique avec un voile moustiquaire.",
+    "total_pages": 16,
+    "cover_image": "assets/images/a6_techniques_disolement/page_01.jpg"
+  },
+  {
+    "id": "a7_extraction_sechage_tri_et_conservation",
+    "title": "Extraction, séchage, tri et conservation en climat chaud",
+    "category": "Fondamentaux",
+    "summary": "Apprenez à extraire proprement vos graines selon deux méthodes éprouvées (avec ou sans fermentation), à les sécher rapidement à l'ombre sans les brûler, à trier les impuretés et à les conserver à l'abri de l'humidité et des charançons avec les ressources locales.",
+    "total_pages": 18,
+    "cover_image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_01.jpg"
+  },
+  {
+    "id": "b10_pasteque",
+    "title": "Produire ses semences de Pastèque",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner et récolter les graines de pastèque : identifiez les 3 signes infaillibles de maturité au champ (vrille sèche, tache jaune au sol, bruit sourd), découvrez la grande famille des pastèques (chair douce ou graines comestibles riches en huile) et séparez facilement les semences pleines par flottaison dans l'eau.",
+    "total_pages": 12,
+    "cover_image": "assets/images/b10_pasteque/page_01.jpg"
+  },
+  {
+    "id": "b11_melon",
+    "title": "Produire ses semences de Melon",
+    "category": "Production par Légume",
+    "summary": "Apprenez à réussir vos semences paysannes de melon : reconnaissez les fleurs mâles et femelles, évitez les croisements entre variétés ou avec les melons sauvages, maîtrisez les signes de maturité (parfum, craquelure du pédoncule) et extrayez facilement des graines propres et fertiles par lavage simple à l'eau claire sans fermentation.",
+    "total_pages": 11,
+    "cover_image": "assets/images/b11_melon/page_01.jpg"
+  },
+  {
+    "id": "b12_mais",
+    "title": "Produire ses semences de Maïs",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner et reproduire vos variétés paysannes de maïs : comprenez la pollinisation massive par le vent (anémophilie), la nécessité absolue de cultiver en bloc d'au moins 50 à 100 plants pour éviter la dégénérescence, la technique de pollinisation manuelle sous sachets, et le séchage traditionnel en chapelets avec protection anti-charançons.",
+    "total_pages": 12,
+    "cover_image": "assets/images/b12_mais/page_01.jpg"
+  },
+  {
+    "id": "b13_haricot",
+    "title": "Produire ses semences de Haricot commun",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner et récolter vos semences de haricots (nains ou à rames, mangetout ou à écosser) : profitez de son autogamie naturelle très fidèle, respectez le calendrier de récolte des gousses sèches parcheminées, battez doucement sans casser l'embryon et appliquez les méthodes paysannes infaillibles pour vaincre la redoutable bruche.",
+    "total_pages": 12,
+    "cover_image": "assets/images/b13_haricot/page_01.jpg"
+  },
+  {
+    "id": "b14_carotte",
+    "title": "Produire ses semences de Carotte",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner et produire vos propres semences de carotte : découvrez la différence entre carottes annuelles tropicales/orientales et carottes bisannuelles, maîtrisez le déterrage de sélection de la racine pour choisir les plus beaux pivots sucrés, et récoltez les magnifiques ombelles primaires sèches pour un battage et un ébarbage faciles.",
+    "total_pages": 12,
+    "cover_image": "assets/images/b14_carotte/page_01.jpg"
+  },
+  {
+    "id": "b15_laitue",
+    "title": "Produire ses semences de Laitue",
+    "category": "Production par Légume",
+    "summary": "Apprenez à réussir facilement vos semences de laitues (pommées, batavias ou romaines) : profitez de son autogamie naturelle très docile, sélectionnez au champ les plants lents à monter sous forte chaleur pour éliminer l'amertume, tuteurez la hampe florale haute d'un mètre, et récoltez au fur et à mesure les plumets duveteux remplis de graines.",
+    "total_pages": 12,
+    "cover_image": "assets/images/b15_laitue/page_01.jpg"
+  },
+  {
+    "id": "b16_radis",
+    "title": "Produire ses semences de Radis",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner et récolter les graines de radis (radis rond ou long, radis d'été ou gros radis d'hiver) : comprenez la reproduction croisée obligatoire par les insectes, pratiquez le déterrage de sélection de la racine pour éliminer le piquant et les fibres creuses, tuteurez les tiges fleuries mellifères et écrasez les petites siliques beiges sèches pour récupérer d'abondantes semences rondes.",
+    "total_pages": 12,
+    "cover_image": "assets/images/b16_radis/page_01.jpg"
+  },
+  {
+    "id": "b17_betterave",
+    "title": "Produire ses semences de Betterave",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner vos meilleures racines de betterave, à conduire la floraison en deuxième année ou en contre-saison fraîche, et à récolter des glomérules sains et vigoureux.",
+    "total_pages": 13,
+    "cover_image": "assets/images/b17_betterave/page_01.jpg"
+  },
+  {
+    "id": "b18_celeri",
+    "title": "Produire ses semences de Céleri",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner vos meilleurs plants de céleri (céleri-branche ou céleri à couper), à gérer la floraison en ombelles visitée par les pollinisateurs et à récolter des semences aromatiques d'une longévité exceptionnelle.",
+    "total_pages": 13,
+    "cover_image": "assets/images/b18_celeri/page_01.jpg"
+  },
+  {
+    "id": "b19_epinard",
+    "title": "Produire ses semences d'Épinard",
+    "category": "Production par Légume",
+    "summary": "Découvrez le fonctionnement unique de l'épinard avec ses plants mâles et femelles séparés, apprenez à gérer la pollinisation par le vent, à sélectionner les plants les plus lents à monter à fleurs, et à récolter des semences vigoureuses.",
+    "total_pages": 13,
+    "cover_image": "assets/images/b19_epinard/page_01.jpg"
+  },
+  {
+    "id": "b1_tomate",
+    "title": "Produire ses semences de tomate",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner vos meilleurs plants de tomates, à maîtriser la pollinisation en climat chaud, et à extraire les graines par fermentation pour obtenir des semences vigoureuses et saines année après année.",
+    "total_pages": 17,
+    "cover_image": "assets/images/b1_tomate/page_01.jpg"
+  },
+  {
+    "id": "b20_navet",
+    "title": "Produire ses semences de Navet",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner vos plus beaux navets, à éviter les croisements avec les choux asiatiques de la même espèce, et à récolter au bon moment les gousses fines (siliques) avant qu'elles n'éclatent.",
+    "total_pages": 13,
+    "cover_image": "assets/images/b20_navet/page_01.jpg"
+  },
+  {
+    "id": "b21_poireau",
+    "title": "Produire ses semences de Poireau",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner vos plus beaux fûts de poireaux, à conduire la longue floraison en grandes ombelles mellifères, et à récolter des semences noires triangulaires d'une grande pureté grâce au test de flottaison à l'eau.",
+    "total_pages": 13,
+    "cover_image": "assets/images/b21_poireau/page_01.jpg"
+  },
+  {
+    "id": "b22_pois",
+    "title": "Produire ses semences de Pois",
+    "category": "Production par Légume",
+    "summary": "Apprenez à faire vos semences de pois potager (pois à écosser ou mangetout) en toute simplicité grâce à son autogamie fidèle, à préserver la précocité par la non-récolte en frais, et à protéger vos réserves contre les attaques de bruches.",
+    "total_pages": 13,
+    "cover_image": "assets/images/b22_pois/page_01.jpg"
+  },
+  {
+    "id": "b23_gombo",
+    "title": "Produire ses semences de gombo",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner vos meilleurs plants de gombo, à gérer l'isolement face aux insectes butineurs, et à récolter des gousses parfaitement mûres et sèches pour extraire facilement des semences abondantes, vigoureuses et très adaptées à la chaleur.",
+    "total_pages": 12,
+    "cover_image": "assets/images/b23_gombo/page_01.jpg"
+  },
+  {
+    "id": "b24_niebe",
+    "title": "Produire ses semences de niébé",
+    "category": "Production par Légume",
+    "summary": "Apprenez à reproduire et conserver les semences de niébé (cornille / haricot indigène), la légumineuse reine d'Afrique : sélection des plants résistants à la sécheresse, récolte des gousses sèches au bon moment, battage et méthode infaillible de protection hermétique contre les redoutables bruches.",
+    "total_pages": 13,
+    "cover_image": "assets/images/b24_niebe/page_01.jpg"
+  },
+  {
+    "id": "b25_amarante",
+    "title": "Produire ses semences d'amarante",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner vos plus beaux plants d'amarante-feuille, à récolter les grands plumets floraux au bon stade de maturité, et à battre et tamiser très finement pour extraire des milliers de graines minuscules, rondes et luisantes.",
+    "total_pages": 12,
+    "cover_image": "assets/images/b25_amarante/page_01.jpg"
+  },
+  {
+    "id": "b26_morelle_noire_africaine",
+    "title": "Produire ses semences de Morelle noire africaine",
+    "category": "Production par Légume",
+    "summary": "Découvrez comment produire les semences de la morelle noire africaine (*Solanum scabrum*), légume-feuille traditionnel riche en minéraux, en sélectionnant les plants les plus productifs en feuilles et en extrayant facilement les graines de ses baies violettes ou noires.",
+    "total_pages": 10,
+    "cover_image": "assets/images/b26_morelle_noire_africaine/page_01.jpg"
+  },
+  {
+    "id": "b27_bissap",
+    "title": "Produire ses semences de Bissap / Oseille de Guinée",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner vos meilleurs pieds de bissap (pour ses calices rouges charnus ou ses feuilles acidulées), à accompagner la maturité des capsules après la cueillette des calices, et à extraire de grandes quantités de semences saines et résistantes.",
+    "total_pages": 11,
+    "cover_image": "assets/images/b27_bissap/page_01.jpg"
+  },
+  {
+    "id": "b2_oignon",
+    "title": "Produire ses semences d'oignon",
+    "category": "Production par Légume",
+    "summary": "Découvrez comment mener la culture de l'oignon jusqu'à la production de graines : sélection des meilleurs bulbes après récolte, replantation pour la montaison en ombelles, tuteurage, récolte et battage des graines noires.",
+    "total_pages": 17,
+    "cover_image": "assets/images/b2_oignon/page_01.jpg"
+  },
+  {
+    "id": "b3_piment",
+    "title": "Produire ses semences de piment",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner vos plants de piments les plus vigoureux et piquants, à gérer l'isolement face aux croisements très fréquents avec les poivrons, et à extraire les graines en toute sécurité sans vous brûler les mains ni les yeux.",
+    "total_pages": 12,
+    "cover_image": "assets/images/b3_piment/page_01.jpg"
+  },
+  {
+    "id": "b4_poivron",
+    "title": "Produire ses semences de Poivron",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner et récolter les semences de poivron doux en évitant à tout prix les croisements avec les piments piquants, et à nettoyer les graines simplement pour garantir des récoltes savoureuses et fidèles d'année en année.",
+    "total_pages": 15,
+    "cover_image": "assets/images/b4_poivron/page_01.jpg"
+  },
+  {
+    "id": "b5_aubergine",
+    "title": "Produire ses semences d'Aubergine et d'Aubergine africaine",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner et extraire facilement les semences d'aubergines violettes ou blanches, ainsi que des aubergines africaines locales (gboma, kumba, djagatu), grâce à la méthode simple de broyage dans l'eau et décantation.",
+    "total_pages": 12,
+    "cover_image": "assets/images/b5_aubergine/page_01.jpg"
+  },
+  {
+    "id": "b6_choux",
+    "title": "Produire ses semences de Choux (Cabu et Chou feuille / Sukuma Wiki)",
+    "category": "Production par Légume",
+    "summary": "Découvrez comment réussir la montée à graines et la récolte des semences de choux (chou pommé cabu et chou feuille/kale). Maîtrisez le geste clé de l'incision en croix de la pomme pour libérer la tige florale et apprenez à battre et trier les graines contenues dans les siliques sèches.",
+    "total_pages": 14,
+    "cover_image": "assets/images/b6_choux/page_01.jpg"
+  },
+  {
+    "id": "b7_concombre",
+    "title": "Produire ses semences de Concombre",
+    "category": "Production par Légume",
+    "summary": "Apprenez à sélectionner et récolter les graines de concombres en les laissant mûrir jusqu'au stade jaune doré ou brun, et maîtrisez l'extraction par courte fermentation dans l'eau pour éliminer la pulpe gélatineuse et garantir des semences propres et fertiles.",
+    "total_pages": 12,
+    "cover_image": "assets/images/b7_concombre/page_01.jpg"
+  },
+  {
+    "id": "b8_courge",
+    "title": "Produire ses semences de courge",
+    "category": "Production par Légume",
+    "summary": "Maîtrisez la production de semences de courges : distinguer les trois grandes espèces pour éviter les hybridations involontaires, reconnaître fleurs mâles et femelles, pratiquer la pollinisation manuelle matinale et réussir l'extraction sans fermentation.",
+    "total_pages": 14,
+    "cover_image": "assets/images/b8_courge/page_01.jpg"
+  },
+  {
+    "id": "b9_courgette",
+    "title": "Produire ses semences de Courgette",
+    "category": "Production par Légume",
+    "summary": "Découvrez comment produire vos propres semences de courgette : laissez grossir le légume jusqu'à devenir une énorme courge d'hiver à peau dure et boisée, évitez les croisements désastreux avec les coloquintes amères ou autres variétés *pepo*, et extrayez facilement de magnifiques graines plates lavées à l'eau claire.",
+    "total_pages": 13,
+    "cover_image": "assets/images/b9_courgette/page_01.jpg"
+  },
+  {
+    "id": "c1_guide_enquete_maraichers",
+    "title": "Guide d'Enquête Préalable — Pratiques Semencières des Maraîchers",
+    "category": "Outils & Méthodes",
+    "summary": "",
+    "total_pages": 0,
+    "cover_image": ""
+  },
+  {
+    "id": "c2_suivi_post_formation_parcelles",
+    "title": "Outil de Suivi Post-Formation & Fiches Parcelles Semencières",
+    "category": "Outils & Méthodes",
+    "summary": "",
+    "total_pages": 0,
+    "cover_image": ""
+  }
+]

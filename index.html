@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalogue des Formations — Semences Paysannes Nakôbio</title>
+  <meta name="description" content="Plateforme pédagogique de formation pratique à la production et à la conservation des semences paysannes adaptée aux maraîchers. 36 modules interactifs et supports imprimables.">
+  
+  <link rel="stylesheet" href="assets/css/nakobio-theme.css">
+  <style>
+    /* Navigation de haut de page */
+    .top-navbar {
+      background: #ffffff;
+      border-bottom: 1px solid var(--border-subtle);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      backdrop-filter: blur(8px);
+      background-color: rgba(255, 255, 255, 0.94);
+    }
+
+    .top-navbar-inner {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0.85rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .brand-logo-img {
+      height: 38px;
+      width: auto;
+      display: block;
+    }
+
+    .brand-divider {
+      width: 1px;
+      height: 28px;
+      background: var(--border-subtle);
+    }
+
+    .brand-text-block {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-title {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: var(--nakobio-green-deep);
+      line-height: 1.2;
+      letter-spacing: -0.01em;
+    }
+
+    .brand-subtitle {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .nav-quick-links {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .nav-badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--nakobio-green-light);
+      color: var(--nakobio-green-dark);
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 0.35rem 0.8rem;
+      border-radius: 9999px;
+      border: 1px solid var(--nakobio-green-border);
+    }
+
+    /* Hero Section */
+    .portal-hero {
+      background: radial-gradient(circle at 50% 0%, #ffffff 0%, var(--nakobio-sand-bg) 100%);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .portal-hero::before {
+      content: '';
+      position: absolute;
+      top: -100px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 800px;
+      height: 400px;
+      background: radial-gradient(ellipse at center, rgba(123, 176, 42, 0.12) 0%, rgba(123, 176, 42, 0) 70%);
+      pointer-events: none;
+    }
+
+    .hero-badge-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #ffffff;
+      color: var(--nakobio-green-dark);
+      font-weight: 700;
+      font-size: 0.88rem;
+      padding: 0.45rem 1.15rem;
+      border-radius: 9999px;
+      border: 1px solid var(--nakobio-green-border);
+      box-shadow: var(--shadow-subtle);
+      margin-bottom: 1.5rem;
+    }
+
+    .portal-title {
+      font-size: clamp(2.2rem, 4vw, 3.25rem);
+      font-weight: 800;
+      color: var(--nakobio-green-deep);
+      line-height: 1.15;
+      margin-bottom: 1rem;
+      letter-spacing: -0.03em;
+    }
+
+    .portal-subtitle {
+      font-size: 1.18rem;
+      color: var(--text-secondary);
+      max-width: 720px;
+      margin: 0 auto 2.25rem;
+      line-height: 1.65;
+    }
+
+    /* Barre de recherche et filtres rapides */
+    .search-filter-section {
+      max-width: 680px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .search-input-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-icon-decor {
+      position: absolute;
+      left: 1.25rem;
+      width: 20px;
+      height: 20px;
+      color: var(--nakobio-olive);
+      pointer-events: none;
+    }
+
+    .search-input-box {
+      width: 100%;
+      padding: 1.1rem 3.5rem 1.1rem 3.2rem;
+      font-size: 1.05rem;
+      font-family: inherit;
+      border-radius: var(--radius-md);
+      border: 2px solid var(--border-subtle);
+      background: #ffffff;
+      outline: none;
+      box-shadow: var(--shadow-card);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .search-input-box:focus {
+      border-color: var(--nakobio-green);
+      box-shadow: 0 0 0 4px rgba(123, 176, 42, 0.18), var(--shadow-card);
+    }
+
+    .search-clear-btn {
+      position: absolute;
+      right: 1.1rem;
+      background: #f0ede6;
+      border: none;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      cursor: pointer;
+    }
+
+    .category-pills-row {
+      display: flex;
+      justify-content: center;
+      gap: 0.65rem;
+      margin-top: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .pill-filter-btn {
+      background: #ffffff;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      padding: 0.6rem 1.15rem;
+      border-radius: 9999px;
+      font-size: 0.92rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      box-shadow: var(--shadow-subtle);
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .pill-filter-btn:hover {
+      border-color: var(--nakobio-green);
+      color: var(--nakobio-green-deep);
+      transform: translateY(-1px);
+    }
+
+    .pill-filter-btn.active {
+      background: var(--nakobio-green-deep);
+      border-color: var(--nakobio-green-deep);
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(30, 59, 23, 0.25);
+    }
+
+    /* Grille et contenu du Catalogue */
+    .catalog-main {
+      max-width: 1240px;
+      margin: 3rem auto 6rem;
+      padding: 0 1.5rem;
+    }
+
+    .stats-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      padding: 0.75rem 1.25rem;
+      background: #ffffff;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-subtle);
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+    }
+
+    .stats-count {
+      font-weight: 700;
+      color: var(--nakobio-green-deep);
+    }
+
+    .section-heading-group {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 1.75rem;
+      border-bottom: 2px solid var(--border-subtle);
+      padding-bottom: 0.75rem;
+    }
+
+    .section-title {
+      font-size: 1.65rem;
+      font-weight: 800;
+      color: var(--nakobio-green-deep);
+      letter-spacing: -0.01em;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .section-count {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      font-weight: 700;
+      background: var(--nakobio-green-light);
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      border: 1px solid var(--nakobio-green-border);
+    }
+
+    .modules-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 2rem;
+      margin-bottom: 4rem;
+    }
+
+    /* Carte de cours */
+    .course-card {
+      background: #ffffff;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-subtle);
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+      position: relative;
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+                  box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+                  border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .course-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-hover);
+      border-color: var(--nakobio-green);
+    }
+
+    .course-card:focus-visible {
+      outline: 3px solid var(--nakobio-green);
+      outline-offset: 3px;
+    }
+
+    .card-visual {
+      height: 195px;
+      background: #f4ede4;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card-visual img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .course-card:hover .card-visual img {
+      transform: scale(1.04);
+    }
+
+    .card-badge-tag {
+      position: absolute;
+      top: 0.85rem;
+      left: 0.85rem;
+      background: rgba(30, 59, 23, 0.88);
+      backdrop-filter: blur(4px);
+      color: #ffffff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.3rem 0.75rem;
+      border-radius: var(--radius-xs);
+      letter-spacing: 0.03em;
+      z-index: 2;
+    }
+
+    .card-ready-indicator {
+      position: absolute;
+      top: 0.85rem;
+      right: 0.85rem;
+      background: #ffffff;
+      color: var(--nakobio-green-dark);
+      font-size: 0.72rem;
+      font-weight: 800;
+      padding: 0.3rem 0.65rem;
+      border-radius: 9999px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      z-index: 2;
+    }
+
+    .card-content {
+      padding: 1.5rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-module-id {
+      font-size: 0.8rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      color: var(--nakobio-green);
+      letter-spacing: 0.06em;
+      margin-bottom: 0.4rem;
+    }
+
+    .card-heading {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: var(--nakobio-green-deep);
+      line-height: 1.3;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-desc {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      flex: 1;
+      margin-bottom: 1.5rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid #f2ede4;
+      padding-top: 1rem;
+      font-size: 0.88rem;
+    }
+
+    .card-steps-count {
+      color: var(--text-muted);
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .card-action-cta {
+      color: var(--nakobio-green-dark);
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: gap 0.2s ease;
+    }
+
+    .course-card:hover .card-action-cta {
+      color: var(--nakobio-green);
+      gap: 0.6rem;
+    }
+
+    /* Footer global de page */
+    .portal-footer {
+      background: #ffffff;
+      border-top: 1px solid var(--border-subtle);
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    .footer-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .footer-logo {
+      height: 34px;
+      width: auto;
+    }
+
+    .footer-text {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .top-navbar-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .brand-divider {
+        display: none;
+      }
+      .portal-hero {
+        padding: 3rem 1rem 2rem;
+      }
+      .modules-cards-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Lien direct accessibilité -->
+  <a href="#catalog-container" class="skip-to-main">Passer au contenu des formations</a>
+
+  <!-- Barre Supérieure avec Identité Nakôbio -->
+  <header class="top-navbar">
+    <div class="top-navbar-inner">
+      <a href="index.html" class="brand-group" title="Retour à l'accueil Nakôbio Académie">
+        <img src="assets/images/brand/Logo_color(rgb).svg" alt="Logo Nakôbio" class="brand-logo-img">
+        <div class="brand-divider"></div>
+        <div class="brand-text-block">
+          <span class="brand-title">Académie Semences Paysannes</span>
+          <span class="brand-subtitle">Formation Pratique pour Maraîchers</span>
+        </div>
+      </a>
+
+      <div class="nav-quick-links">
+        <span class="nav-badge-pill">
+          <span>🌱</span>
+          <span>36 Modules Pédagogiques</span>
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bannière d'Accueil Portale -->
+  <section class="portal-hero">
+    <div class="hero-badge-brand">
+      <span>🌾</span>
+      <span>ACADÉMIE MARAÎCHÈRE &amp; SOUVERAINETÉ ALIMENTAIRE</span>
+    </div>
+    <h1 class="portal-title">Production de Semences Paysannes</h1>
+    <p class="portal-subtitle">
+      Fiches techniques et supports de cours structurés pour le terrain : lecture continue au défilement fluide, croquis pédagogiques clairs et impression PDF en un clic.
+    </p>
+
+    <!-- Zone de recherche et filtres -->
+    <div class="search-filter-section">
+      <div class="search-input-wrapper">
+        <svg class="search-icon-decor" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="course-search-input" class="search-input-box" placeholder="Rechercher une plante (tomate, carotte, gombo...) ou un geste..." aria-label="Rechercher un module de formation">
+        <button id="search-clear-btn" class="search-clear-btn" title="Effacer la recherche" aria-label="Effacer le texte">✕</button>
+      </div>
+    </div>
+
+    <div class="category-pills-row" id="filter-pills" role="tablist" aria-label="Filtres thématiques">
+      <button class="pill-filter-btn active" data-cat="all" role="tab" aria-selected="true">
+        <span>🌾</span> Tous les cours (36)
+      </button>
+      <button class="pill-filter-btn" data-cat="Fondamentaux" role="tab" aria-selected="false">
+        <span>🌱</span> Fondamentaux (7)
+      </button>
+      <button class="pill-filter-btn" data-cat="Production par Légume" role="tab" aria-selected="false">
+        <span>🍅</span> Légumes &amp; Cultures (27)
+      </button>
+      <button class="pill-filter-btn" data-cat="Outils & Méthodes" role="tab" aria-selected="false">
+        <span>📋</span> Outils Terrain (2)
+      </button>
+    </div>
+  </section>
+
+  <!-- Grille des cours dynamiques -->
+  <main class="catalog-main" id="catalog-container" tabindex="-1">
+    <div class="stats-bar" id="stats-bar">
+      <span>Affichage de <span class="stats-count" id="active-count">36</span> modules disponibles</span>
+      <span style="font-size: 0.85rem; color: var(--nakobio-green-dark); font-weight: 600;">✓ Supports actualisés pour climat tropical et tempéré</span>
+    </div>
+
+    <div id="catalog-content">
+      <div style="text-align: center; padding: 4rem; color: var(--text-muted);">
+        Chargement du catalogue des formations...
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer officiel Nakôbio -->
+  <footer class="portal-footer">
+    <div class="footer-inner">
+      <img src="assets/images/brand/Logo_color(rgb).svg" alt="Logo Nakôbio" class="footer-logo">
+      <p class="footer-text">
+        Plateforme d'apprentissage et de transfert de savoirs agricoles — Conçue pour l'autonomie des maraîchers et la préservation de la biodiversité cultivée locale.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    let allCourses = [];
+    let currentFilter = 'all';
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        const response = await fetch('data/catalog.json');
+        allCourses = await response.json();
+        renderCatalog();
+        setupFilters();
+      } catch (e) {
+        document.getElementById('catalog-content').innerHTML = `
+          <div style="text-align: center; padding: 3rem; color: var(--nakobio-terracotta); background: var(--nakobio-terracotta-light); border-radius: 16px;">
+            <h3>Erreur de chargement du catalogue</h3>
+            <p style="margin-top: 0.5rem;">${e.message}</p>
+          </div>
+        `;
+      }
+    });
+
+    function renderCatalog() {
+      const searchInput = document.getElementById('course-search-input');
+      const searchVal = searchInput.value.toLowerCase().trim();
+      const contentContainer = document.getElementById('catalog-content');
+      const clearBtn = document.getElementById('search-clear-btn');
+      const activeCountEl = document.getElementById('active-count');
+
+      clearBtn.style.display = searchVal ? 'flex' : 'none';
+
+      const filtered = allCourses.filter(c => {
+        const matchCat = (currentFilter === 'all' || c.category === currentFilter);
+        const matchSearch = (!searchVal || 
+          c.title.toLowerCase().includes(searchVal) || 
+          (c.summary && c.summary.toLowerCase().includes(searchVal)) || 
+          c.id.toLowerCase().includes(searchVal)
+        );
+        return matchCat && matchSearch;
+      });
+
+      activeCountEl.textContent = filtered.length;
+
+      if (filtered.length === 0) {
+        contentContainer.innerHTML = `
+          <div style="text-align: center; padding: 4rem 1rem; background: #ffffff; border-radius: 20px; border: 1px solid var(--border-subtle);">
+            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🔍</div>
+            <h3 style="color: var(--nakobio-green-deep); font-size: 1.4rem;">Aucune formation trouvée pour « ${escapeHtml(searchVal)} »</h3>
+            <p style="margin-top: 0.5rem; color: var(--text-muted);">Essayez de rechercher par exemple : <em>tomate</em>, <em>carotte</em>, <em>pollinisation</em>, ou <em>gombo</em>.</p>
+            <button class="pill-filter-btn" style="margin-top: 1.5rem;" onclick="resetSearch()">Réinitialiser la recherche</button>
+          </div>
+        `;
+        return;
+      }
+
+      // Regrouper par catégorie
+      const groups = {};
+      filtered.forEach(c => {
+        if (!groups[c.category]) groups[c.category] = [];
+        groups[c.category].push(c);
+      });
+
+      let html = '';
+      for (const [catName, list] of Object.entries(groups)) {
+        html += `
+          <section class="category-block" aria-labelledby="heading-${catName.replace(/\\s+/g, '-')}">
+            <div class="section-heading-group">
+              <h2 class="section-title" id="heading-${catName.replace(/\\s+/g, '-')}">
+                ${getCategoryIcon(catName)} ${catName}
+              </h2>
+              <span class="section-count">${list.length} cours</span>
+            </div>
+            <div class="modules-cards-grid">
+              ${list.map(c => renderCard(c)).join('')}
+            </div>
+          </section>
+        `;
+      }
+
+      contentContainer.innerHTML = html;
+    }
+
+    function getCategoryIcon(cat) {
+      if (cat === 'Fondamentaux') return '🌱';
+      if (cat === 'Outils & Méthodes') return '📋';
+      return '🍅';
+    }
+
+    function renderCard(c) {
+      return `
+        <a href="lesson.html?course=${c.id}" class="course-card" aria-label="Cours : ${c.title}">
+          <div class="card-visual">
+            <span class="card-badge-tag">${c.category}</span>
+            <img src="${c.cover_image}" 
+                 alt="${c.title}" 
+                 loading="lazy" 
+                 onerror="this.onerror=null; this.src='assets/images/placeholder-seed.svg';">
+          </div>
+          <div class="card-content">
+            <div class="card-module-id">${c.id.split('_')[0].toUpperCase()}</div>
+            <h3 class="card-heading">${c.title}</h3>
+            <p class="card-desc">${c.summary || 'Guide pas à pas pour réussir la production et la sélection de semences paysannes saines.'}</p>
+            <div class="card-footer">
+              <span class="card-steps-count">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                ${c.total_pages} parties
+              </span>
+              <span class="card-action-cta">
+                Consulter le cours
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </span>
+            </div>
+          </div>
+        </a>
+      `;
+    }
+
+    function setupFilters() {
+      const searchInput = document.getElementById('course-search-input');
+      const clearBtn = document.getElementById('search-clear-btn');
+
+      searchInput.addEventListener('input', () => {
+        renderCatalog();
+      });
+
+      clearBtn.addEventListener('click', () => {
+        searchInput.value = '';
+        renderCatalog();
+        searchInput.focus();
+      });
+
+      const pills = document.querySelectorAll('.pill-filter-btn');
+      pills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          pills.forEach(p => {
+            p.classList.remove('active');
+            p.setAttribute('aria-selected', 'false');
+          });
+          pill.classList.add('active');
+          pill.setAttribute('aria-selected', 'true');
+          currentFilter = pill.getAttribute('data-cat');
+          renderCatalog();
+        });
+      });
+    }
+
+    function resetSearch() {
+      document.getElementById('course-search-input').value = '';
+      currentFilter = 'all';
+      document.querySelectorAll('.pill-filter-btn').forEach(p => {
+        p.classList.toggle('active', p.getAttribute('data-cat') === 'all');
+      });
+      renderCatalog();
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return str.replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+  </script>
+</body>
+</html>

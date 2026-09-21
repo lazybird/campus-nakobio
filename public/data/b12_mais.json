@@ -1,0 +1,93 @@
+{
+  "id": "b12_mais",
+  "title": "Produire ses semences de Maïs",
+  "category": "Production par Légume",
+  "summary": "Apprenez à sélectionner et reproduire vos variétés paysannes de maïs : comprenez la pollinisation massive par le vent (anémophilie), la nécessité absolue de cultiver en bloc d'au moins 50 à 100 plants pour éviter la dégénérescence, la technique de pollinisation manuelle sous sachets, et le séchage traditionnel en chapelets avec protection anti-charançons.",
+  "total_pages": 12,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Bienvenue dans la production de semences de maïs",
+      "text": "Le maïs est une céréale reine de nos champs et de nos assiettes, qu'il soit consommé grillé, bouilli, en farine pour la bouillie ou en couscous.  \nMais trop souvent, les semences commerciales hybrides F1 forcent les paysans à racheter des graines chaque année.  \nProduire vos propres semences paysannes de maïs vous rend libre, autonome et résistant aux aléas climatiques !",
+      "illustration_description": "Plan moyen dans un champ de maïs majestueux :\n- Un paysan entouré de hauts plants de maïs vigoureux au feuillage vert éclatant.\n- Il tient dans ses mains deux magnifiques épis bien pleins aux grains dorés et serrés.\n- Titre : \"Module B12 : Réussir ses semences de maïs paysan\".",
+      "image": "assets/images/b12_mais/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Ce que nous allons apprendre",
+      "text": "Dans cette formation pratique, vous découvrirez :\n1. Comment le vent transporte des millions de grains de pollen d'un plant à l'autre.\n2. Pourquoi il ne faut JAMAIS faire sa semence sur quelques plants isolés (la force du groupe de 50 à 100 pieds).\n3. Les distances de sécurité ou le décalage des semis pour éviter les pollens extérieurs.\n4. Le moment exact où l'épi est sec et mûr sur pied.\n5. Pourquoi il faut égrener **le milieu de l'épi** et comment vaincre les charançons.",
+      "illustration_description": "Frise pédagogique en 5 étapes :\n1. Le panache du maïs secoué par le vent au-dessus des épis.\n2. Un champ carré de 100 pieds de maïs formant un bloc uni.\n3. Un calendrier montrant le décalage de semis de 3 semaines.\n4. Un épi sec aux spathes marron paille avec un ongle testant la dureté du grain.\n5. Les mains égrenant seulement le centre d'un bel épi au-dessus d'une calebasse.",
+      "image": "assets/images/b12_mais/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Étape 1 : Le panache et les soies — La fécondation par le vent",
+      "text": "Le maïs porte deux sortes de fleurs sur le même pied :\n- **En haut de la tige** : le panache est la fleur mâle. Il produit jusqu'à 18 millions de grains de poussière de pollen !\n- **Au milieu de la tige** : le futur épi est la fleur femelle. Il est enveloppé de feuilles d'où sortent de longs fils soyeux : les **soies**.\nChaque fil de soie est relié à un seul grain de maïs !  \nLe vent secoue le panache et fait voler le pollen qui vient se poser sur les soies. C'est ce qu'on appelle la pollinisation par le vent (**anémophile**).",
+      "illustration_description": "Gros plan sur un plant de maïs entier :\n- En haut : le panache émet un nuage de poussière dorée emporté par une flèche de vent.\n- Au milieu : l'épi en formation avec sa touffe de soies soyeuses qui dépassent de la pointe.\n- Une loupe montre qu'un grain de pollen posé sur une soie descend le long du fil pour féconder un grain sur l'épi !",
+      "image": "assets/images/b12_mais/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Semer en carré, jamais sur une seule ligne !",
+      "text": "Comme c'est le vent qui fait tout le travail :\n❌ Si vous semez le maïs sur une seule longue ligne isolée, le vent chassera le pollen sur les côtés et les soies ne recevront presque rien. Vos épis seront troués et à moitié vides !  \n✅ Semez toujours le maïs porte-graines **en bloc carré (au minimum 4 à 5 rangs côte à côte)**.  \nAinsi, quelle que soit la direction du vent, le pollen d'un pied retombe toujours sur les soies de ses voisins !",
+      "illustration_description": "Comparaison vue de dessus :\n- À gauche : une ligne unique avec le vent soufflant sur le côté ; l'épi récolté en dessous a plein de trous vides avec une croix rouge ❌.\n- À droite : une parcelle carrée de 5 rangs bien serrés ; le nuage de pollen reste piégé au milieu des plants ; l'épi récolté est plein et régulier avec une coche verte ✅.",
+      "image": "assets/images/b12_mais/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Étape 2 : La force du grand nombre — Au moins 50 à 100 plants",
+      "text": "Le maïs a une règle absolue : il a horreur de la consanguinité !  \n❌ Si vous récoltez vos semences sur seulement 5 ou 10 pieds, l'année suivante les plants deviendront nains, sensibles aux maladies et les épis minuscules.  \n✅ Pour garder un maïs géant, vigoureux et résistant, sélectionnez vos épis porte-graines sur une population d'au moins **50 à 100 plants vigoureux** de la même variété.  \nMélangez toujours les graines de plusieurs dizaines de beaux épis.",
+      "illustration_description": "Comparaison des descendances :\n- À gauche : semence tirée de 5 épis seulement = plants chétifs, épis rabougris ❌.\n- À droite : semence tirée d'un mélange de 50 épis = champ vigoureux, grands plants solides avec de multiples épis lourds ✅.",
+      "image": "assets/images/b12_mais/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Protéger sa variété des pollens voisins",
+      "text": "Le vent peut transporter le pollen de maïs à plus d'un kilomètre de distance !  \nSi le champ du voisin cultive un maïs différent ou un hybride F1 :\n- Isolez votre parcelle d'au moins **500 m à 1 km** en terrain découvert.\n- **Astuce paysanne du décalage dans le temps** : semez votre maïs semencier 3 à 4 semaines avant ou après les champs voisins. Ainsi, lorsque votre maïs sera en pleine floraison, les maïs des voisins n'auront ni panache ni soies, et aucun mélange ne pourra se produire !",
+      "illustration_description": "Schéma de gestion du temps :\n- Deux calendriers comparés :\n  - Champ voisin semé le 1er mai (floraison début juillet).\n  - Champ de semences semé le 25 mai (floraison fin juillet).\n- Pas de croisement possible car les floraisons ne se croisent jamais dans le temps !",
+      "image": "assets/images/b12_mais/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Étape 3 : Sélectionner au champ et récolter sec sur pied",
+      "text": "Observez vos plants pendant la saison pour choisir les meilleurs épis :\n- Marquez les pieds solides, qui ne versent pas au vent et n'ont aucune maladie sur les feuilles.\n- Choisissez des épis bien enveloppés par leurs feuilles protectrices (spathes serrées) pour empêcher les oiseaux et chenilles d'entrer.\n- Laissez les épis sécher directement sur la tige au champ : les feuilles de l'épi deviennent marron paille et l'épi se penche vers le bas.\n- Faites le **test de l'ongle** : enfoncez votre ongle dans un grain. L'ongle ne doit plus du tout pouvoir entamer le grain devenu dur comme une pierre.",
+      "illustration_description": "Détails de sélection :\n- Le paysan noue un ruban rouge sur la tige d'un beau plant dont l'épi s'incline vers le bas.\n- Gros plan sur les feuilles de l'épi : couleur beige parcheminée bien sèche.\n- L'ongle glisse sur le grain sans laisser de marque : \"Grain dur = maturité complète ✅\".",
+      "image": "assets/images/b12_mais/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Séchage en chapelets à l'abri",
+      "text": "Après avoir cassé les épis mûrs :\n1. Retroussez les feuilles de l'épi vers l'arrière sans les arracher.\n2. Nouez les feuilles de 4 ou 5 épis ensemble pour former une tresse ou un chapelet.\n3. Suspendez ces chapelets d'épis sous un hangar bien ventilé, sous l'auvent de la maison ou au-dessus du foyer de cuisine.\n4. La fumée douce du foyer repousse naturellement les insectes sans abîmer le pouvoir germinatif des grains !",
+      "illustration_description": "Scène traditionnelle de séchage :\n- De magnifiques chapelets d'épis de maïs jaunes et blancs suspendus à une poutre en bois sous un toit de chaume ou de tôle bien aéré.\n- Un léger filet de fumée d'un foyer traditionnel passe sous les épis (\"La fumée protège contre les insectes\").",
+      "image": "assets/images/b12_mais/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Étape 4 : Égrener le milieu de l'épi",
+      "text": "Voici le grand secret des maîtres semenciers traditionnels :  \nTous les grains d'un épi ne se valent pas !\n- ❌ Les grains situés **à la pointe** sont souvent trop petits ou mal fécondés.\n- ❌ Les grains situés **à la base** sont irréguliers et parfois aplatis.\n- ✅ Les grains du **milieu de l'épi** sont les plus gros, les plus réguliers et les plus riches en réserves d'énergie !\nÉgrenez la pointe et la base séparément pour la cuisine, et gardez **uniquement le milieu de l'épi** pour votre réserve de semences.",
+      "illustration_description": "Schéma détaillé d'un épi de maïs découpé en 3 zones :\n- Le tiers supérieur (pointe) avec une flèche : \"Petits grains = pour la farine ou les volailles 🐔\".\n- Le tiers inférieur (base) avec une flèche : \"Grains déformés = pour la cuisine 🍲\".\n- Le tiers central avec une grande coche verte ✅ : \"Gros grains parfaits du milieu = pour la semence !\".",
+      "image": "assets/images/b12_mais/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Étape 5 : L'égrenage manuel et le tri",
+      "text": "Pour préserver l'embryon vivant sans le briser :\n- Égrenez à la main en portant un gant ou en frottant deux épis l'un contre l'autre.\n- Évitez les batteuses mécaniques agressives qui fêlent la coque du grain.\n- Éliminez à la main tous les grains piqués, noircis ou troués.\n- Vanner les grains dans une calebasse au vent pour évacuer les poussières et débris de rafles.",
+      "illustration_description": "Mains au travail :\n- L'opérateur frotte deux épis de maïs l'un contre l'autre au-dessus d'une grande calebasse : les grains jaunes se détachent facilement en pluie dorée.\n- En cartouche : tri manuel éliminant un grain percé d'un trou de charançon ❌.",
+      "image": "assets/images/b12_mais/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Protection radicale contre les charançons",
+      "text": "Le charançon du maïs est le pire ennemi du paysan : il peut dévorer toute votre réserve en quelques semaines !  \nVoici les techniques naturelles éprouvées pour l'étouffer :\n1. Stockez vos grains parfaitement secs dans des **récipients 100 % étanches à l'air** : bidons en plastique à couvercle vissé, fûts métalliques ou sacs hermétiques triple épaisseur (sacs PICS).\n2. Remplissez le bidon à ras bord pour chasser tout l'air. Sans oxygène, les insectes meurent !\n3. Mélangez aux grains 2 à 3 poignées de **cendre de bois fine tamisée** ou de poudre de feuilles de **neem** sèches.",
+      "illustration_description": "Méthode de stockage hermétique :\n- Un bidon en plastique bleu étanche rempli de grains de maïs mélangés à de la cendre grise.\n- Le couvercle est vissé fermement avec un joint étanche.\n- Mention : \"Zéro air = étouffement immédiat des charançons\".\n- Étiquette : *\"Maïs blanc paysan — Récolte 2026 — 80 épis mélangés\"*.",
+      "image": "assets/images/b12_mais/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Bravo ! Vous préservez votre semence de maïs",
+      "text": "Félicitations ! Vous maîtrisez désormais la reproduction de votre maïs paysan.  \nVous conservez des variétés vigoureuses, nourricières et parfaitement adaptées à votre terroir sans dépendre des achats coûteux d'hybrides.\n\nCe qu'il faut toujours appliquer :\n- ✅ Semer en bloc carré (au moins 4 à 5 rangs) pour que le vent féconde tous les grains.\n- ✅ Récolter et mélanger les semences d'au moins **50 à 100 beaux plants**.\n- ✅ Isoler de 1 km des autres maïs ou décaler les semis de 3 semaines.\n- ✅ Conserver pour la semence uniquement les grains du **milieu de l'épi**.\n- ✅ Stocker en bidon hermétique étanche avec de la cendre protectrice.\n- 🌱 Les graines de maïs se conservent très bien pendant **3 à 5 ans**.",
+      "illustration_description": "Le paysan fier et souriant devant son grenier traditionnel bien garni de fûts de semences :\n- Dans le champ, les jeunes plants de maïs vigoureux lèvent en rangs réguliers.\n- Grand panneau de réussite avec une coche verte ✅ : \"Autonomie alimentaire & semencière — Liberté paysanne retrouvée !\".",
+      "image": "assets/images/b12_mais/page_12.jpg"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <!-- Arrière-plan dégradé terreux & lumineux -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="50%" stop-color="#f5efe4"/>
+      <stop offset="100%" stop-color="#ebe2d1"/>
+    </linearGradient>
+
+    <!-- Trame subtile de carnet de croquis -->
+    <pattern id="sketch-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#dcd3c0" stroke-width="0.75" stroke-dasharray="2,3" opacity="0.6"/>
+    </pattern>
+
+    <!-- Dégradé halo végétal -->
+    <radialGradient id="halo-plant" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#7bb02a" stop-opacity="0.18"/>
+      <stop offset="65%" stop-color="#7bb02a" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#7bb02a" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Ombre douce carnet -->
+    <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#2d3b1e" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Fond -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)"/>
+  <rect width="100%" height="100%" fill="url(#sketch-grid)"/>
+
+  <!-- Halo d'ambiance -->
+  <circle cx="600" cy="270" r="320" fill="url(#halo-plant)"/>
+
+  <!-- Cadre artistique carnet de terrain -->
+  <rect x="36" y="36" width="1128" height="603" rx="20" fill="none" stroke="#c8bc9f" stroke-width="1.8" stroke-dasharray="10 8" opacity="0.8"/>
+  <rect x="44" y="44" width="1112" height="587" rx="16" fill="none" stroke="#e4dcce" stroke-width="1" opacity="0.6"/>
+
+  <!-- Coins de fixation carnet -->
+  <path d="M 36 66 L 66 36 M 1164 66 L 1134 36 M 36 609 L 66 639 M 1164 609 L 1134 639" stroke="#b0a282" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Badge Supérieur Nakôbio Pédagogie -->
+  <g transform="translate(600, 80)">
+    <rect x="-140" y="-18" width="280" height="36" rx="18" fill="#ffffff" stroke="#7bb02a" stroke-width="1.5" filter="url(#soft-shadow)"/>
+    <circle cx="-110" cy="0" r="6" fill="#7bb02a"/>
+    <text x="-94" y="5" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="12" font-weight="800" fill="#385125" letter-spacing="1.5">ILLUSTRATION PÉDAGOGIQUE</text>
+  </g>
+
+  <!-- Illustration Centrale Stylisée : Graine Vivante & Germination Nakôbio -->
+  <g id="central-artwork" transform="translate(600, 265)" filter="url(#soft-shadow)">
+    <!-- Sol fertile nourricier (forme organique) -->
+    <path d="M -160,110 C -90,95 90,95 160,110 C 130,128 -130,128 -160,110 Z" fill="#6e4e37" opacity="0.35"/>
+    <path d="M -120,105 C -60,98 60,98 120,105 C 90,115 -90,115 -120,105 Z" fill="#4a5545" opacity="0.4"/>
+
+    <!-- Racines souterraines vivantes -->
+    <path d="M 0,70 C -15,95 -45,115 -70,135 M -5,75 C 5,100 20,125 45,145 M 0,72 C -5,98 -15,130 -10,155 M 10,80 C 35,95 65,110 80,125" 
+          fill="none" stroke="#979743" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- La Graine Protectrice (symbole universel) -->
+    <path d="M 0,-40 C 50,-40 75,20 0,75 C -75,20 -50,-40 0,-40 Z" 
+          fill="#c85a2b" opacity="0.9"/>
+    <!-- Reflet & nervure intérieure de la graine -->
+    <path d="M -5,-30 C 35,-30 55,15 0,60 C -30,25 -20,-15 -5,-30 Z" 
+          fill="#e29d2b" opacity="0.85"/>
+    <path d="M 0,-25 C 15,-10 20,20 0,50" 
+          fill="none" stroke="#fff5ea" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- La Jeune Pousse Vigoureuse émergeant vers la lumière -->
+    <path d="M 0,-15 C 5,-50 -25,-85 -20,-125 C -15,-140 10,-130 5,-105 C 0,-85 5,-40 0,-15" 
+          fill="none" stroke="#7bb02a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 0,-15 C 5,-50 -25,-85 -20,-125 C -15,-140 10,-130 5,-105 C 0,-85 5,-40 0,-15" 
+          fill="none" stroke="#a3d944" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Feuille 1 (Goutte de sève verte) -->
+    <path d="M -20,-125 C -60,-150 -75,-110 -35,-95 C -20,-90 -18,-115 -20,-125 Z" 
+          fill="#7bb02a" stroke="#385125" stroke-width="2"/>
+    <path d="M -22,-120 C -45,-130 -55,-110 -30,-100" 
+          fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Feuille 2 (Pleine croissance) -->
+    <path d="M -15,-115 C 25,-155 60,-120 15,-90 C 0,-80 -10,-105 -15,-115 Z" 
+          fill="#979743" stroke="#385125" stroke-width="2"/>
+    <path d="M -10,-110 C 18,-132 38,-112 10,-95" 
+          fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Petites graines satellites flottantes (richesse génétique) -->
+    <circle cx="-130" cy="-30" r="14" fill="#e29d2b" opacity="0.75"/>
+    <circle cx="140" cy="-10" r="11" fill="#7bb02a" opacity="0.75"/>
+    <circle cx="-160" cy="50" r="8" fill="#c85a2b" opacity="0.65"/>
+    <circle cx="155" cy="65" r="9" fill="#979743" opacity="0.65"/>
+  </g>
+
+  <!-- Typographie & Message Pédagogique -->
+  <g transform="translate(600, 480)" text-anchor="middle">
+    <!-- Titre d'indication -->
+    <text y="0" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#1e3b17" letter-spacing="-0.5">
+      Croquis Pédagogique &amp; Guide de Terrain
+    </text>
+
+    <!-- Sous-titre explicatif -->
+    <text y="38" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="16" font-weight="500" fill="#4a5545">
+      Ce support visuel est en cours d'illustration d'après le descriptif technique du cours.
+    </text>
+
+    <!-- Légende stylisée en bas -->
+    <g transform="translate(0, 75)">
+      <rect x="-180" y="-16" width="360" height="32" rx="16" fill="#ffffff" stroke="#e6e4dc" stroke-width="1"/>
+      <text y="5" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#73806f">
+        🌱 Consultez les instructions détaillées ci-dessous
+      </text>
+    </g>
+  </g>
+
+  <!-- Petit logo Nakôbio discret dans le coin inférieur droit -->
+  <g transform="translate(1020, 595)">
+    <text font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="13" font-weight="800" fill="#7bb02a" letter-spacing="1">NAKÔBIO</text>
+    <text x="64" y="0" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="600" fill="#979743">ACADÉMIE</text>
+  </g>
+</svg>

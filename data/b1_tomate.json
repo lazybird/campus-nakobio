@@ -1,0 +1,128 @@
+{
+  "id": "b1_tomate",
+  "title": "Produire ses semences de tomate",
+  "category": "Production par Légume",
+  "summary": "Apprenez à sélectionner vos meilleurs plants de tomates, à maîtriser la pollinisation en climat chaud, et à extraire les graines par fermentation pour obtenir des semences vigoureuses et saines année après année.",
+  "total_pages": 17,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Bienvenue dans la production de semences de tomate",
+      "text": "La tomate est l'un des légumes les plus cultivés au potager. Produire ses propres semences permet de choisir des variétés adaptées à votre sol, très résistantes à la chaleur et aux maladies locales. À la fin de ce module, vous saurez récolter et conserver des graines de tomate saines et très productives.",
+      "illustration_description": "- Type : Vue d'ensemble chaleureuse et valorisante.\n- Éléments : Un maraîcher ou une maraîchère souriant(e) au milieu d'une belle parcelle de tomates bien garnie de fruits mûrs (rouges et jaunes). Dans une main, un panier de tomates saines ; dans l'autre main, un petit sachet de semences bien rempli.\n- Contexte : Plein air, soleil matinal, potager luxuriant.",
+      "image": "assets/images/b1_tomate/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Ce que vous allez apprendre",
+      "text": "Dans cette fiche pratique, nous verrons ensemble :\n1️⃣ Comment fonctionne la fleur de tomate et comment éviter les mélanges involontaires.  \n2️⃣ Comment repérer et marquer vos meilleurs pieds porte-graines.  \n3️⃣ Quand et comment récolter les tomates pour la semence.  \n4️⃣ La méthode infaillible d'extraction par fermentation dans l'eau.  \n5️⃣ Le séchage rapide à l'ombre et le stockage longue durée.",
+      "illustration_description": "- Type : Schéma pas-à-pas avec 5 vignettes illustrées.\n- Éléments : \n  1. Gros plan sur une fleur jaune de tomate.\n  2. Ruban rouge noué sur un plant vigoureux.\n  3. Récolte d'une tomate bien mûre.\n  4. Bocal d'eau avec fermentation de pulpe et graines au fond.\n  5. Graines étalées sur tissu à l'ombre.\n- Annotations : Numéros 1 à 5 bien visibles.",
+      "image": "assets/images/b1_tomate/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Le matériel nécessaire",
+      "text": "Pour récolter et préparer vos semences de tomate, préparez :\n- Un couteau propre pour couper les fruits.\n- Des bocaux ou verres propres pour la fermentation.\n- De l'eau propre (sans savon).\n- Une passoire fine pour rincer.\n- Du tissu fin, une assiette ou du papier absorbant pour sécher les graines.\n- Des étiquettes et un feutre pour noter le nom et l'année.",
+      "illustration_description": "- Type : Vue à plat d'inventaire sur une table en bois propre.\n- Éléments : Un couteau bien aiguisé, deux bocaux en verre, une bouteille d'eau, une passoire fine en inox ou plastique, un coupon de tissu coton blanc, des étiquettes et un marqueur noir.\n- Annotations : Flèches désignant chaque objet avec son nom écrit lisiblement.",
+      "image": "assets/images/b1_tomate/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "La fleur de tomate : comment elle se reproduit",
+      "text": "La fleur de tomate possède à la fois les organes mâles (qui fabriquent le pollen) et l'organe femelle (le pistil). Le pollen féconde directement le pistil de la même fleur. C'est ce qu'on appelle une plante **autoféconde** ou **autogame**.  \nLe vent et les mouvements des tiges suffisent souvent à assurer la fécondation.",
+      "illustration_description": "- Type : Schéma simplifié en coupe d'une fleur jaune de tomate.\n- Éléments : Au centre, le cône formé par les étamines jaunes soudées (organe mâle). Au milieu, le pistil (organe femelle). Une brise légère fait trembler la fleur et une fine poussière de pollen tombe à l'intérieur.\n- Annotations : \"Étamines (pollen)\", \"Pistil (centre)\", \"Fécondation à l'intérieur de la fleur\".",
+      "image": "assets/images/b1_tomate/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Attention au climat chaud et aux insectes !",
+      "text": "⚠️ Dans les régions chaudes, deux phénomènes augmentent le risque de croisements entre variétés :\n- La chaleur fait souvent sortir le pistil hors du cône de la fleur.\n- Les abeilles et bourdons sauvages visitent activement les fleurs.  \nSi un insecte apporte le pollen d'une autre variété de tomate, vos graines seront mélangées.",
+      "illustration_description": "- Type : Comparaison visuelle de deux fleurs.\n- Éléments : \n  - À gauche : fleur fermée avec pistil court bien protégé (croisement rare).\n  - À droite : fleur sous soleil chaud avec pistil qui dépasse nettement du cône jaune, et un bourdon qui vient s'y poser avec du pollen d'une autre fleur.\n- Annotations : \"Pistil court = protégé\", \"Pistil qui dépasse = risque de croisement par les insectes ⚠️\".",
+      "image": "assets/images/b1_tomate/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Comment isoler vos variétés de tomate",
+      "text": "Pour garder vos variétés de tomates pures :\n- Laissez au moins **20 à 50 mètres** entre deux variétés si des arbres, des haies ou d'autres cultures forment un obstacle.\n- En terrain complètement ouvert et très chaud, comptez jusqu'à **200 mètres** pour une pureté totale.\n- Pour sécuriser un plant précis, vous pouvez aussi ensacher un bouquet floral dans une moustiquaire fine avant l'ouverture des fleurs.",
+      "illustration_description": "- Type : Vue aérienne d'un plan de parcelle potagère.\n- Éléments : Deux parcelles de tomates séparées par une haie d'arbres ou une culture haute (maïs, gombo). Une flèche mesure la distance de sécurité entre les deux. En encart : un bouquet floral de tomate enveloppé dans un petit sac en voile blanc translucide.\n- Annotations : \"Variété A\", \"Haie protectrice\", \"Variété B\", \"Ensachage du bouquet\".",
+      "image": "assets/images/b1_tomate/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Étape 1 : Observer et sélectionner les plants au champ",
+      "text": "Ne choisissez jamais vos tomates pour la semence uniquement dans la cagette après la récolte !  \nObservez la plante pendant toute sa croissance dans la parcelle. Choisissez des plants :\n- Très vigoureux et sans aucune trace de maladie.\n- Bien feuillus pour protéger les fruits des brûlures du soleil.\n- Qui produisent régulièrement même en période de forte chaleur.",
+      "illustration_description": "- Type : Scène de terrain, maraîcher en observation.\n- Éléments : Un maraîcher debout dans l'allée d'un champ de tomates, observant attentivement la tige, les feuilles vertes intactes et la charge en fruits d'un plant remarquable.\n- Annotations : Picto 👍 avec critères : \"Feuillage sain\", \"Bonne charge de fruits\", \"Résiste à la chaleur\".",
+      "image": "assets/images/b1_tomate/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Étape 2 : Marquer les plants choisis",
+      "text": "Dès que vous repérez un plant exceptionnel, marquez-le immédiatement avec un ruban de tissu de couleur vive ou un piquet solide.  \nExpliquez à toutes les personnes qui travaillent sur la parcelle : « Ce plant est réservé pour la semence, interdiction de cueillir ses fruits pour la vente ou la cuisine ! »  \nSélectionnez au moins **6 à 10 plants différents** de la même variété pour préserver la richesse de vos graines.",
+      "illustration_description": "- Type : Vue rapprochée d'un plant de tomate tuteuré.\n- Éléments : Un morceau de tissu rouge vif solidement noué sur le tuteur en haut du plant. Un écriteau en bois au pied avec le dessin d'une graine barrée pour la cueillette de table.\n- Annotations : \"Ruban visible = plant semencier réservé !\", \"Garder 6 à 10 plants par variété\".",
+      "image": "assets/images/b1_tomate/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Étape 3 : Récolter les tomates au bon moment",
+      "text": "Récoltez les tomates quand elles sont **parfaitement mûres**, tendres sous le doigt et affichant leur belle couleur finale (rouge vif, jaune ou orangée).  \nPrélevez les fruits de préférence sur les premiers et deuxièmes bouquets floraux : ils sont plus vigoureux et moins exposés aux croisements tardifs.  \n❌ Éliminez tout fruit abîmé, pourri ou piqué par des vers.",
+      "illustration_description": "- Type : Gros plan sur la cueillette à la main.\n- Éléments : Une main cueillant une belle tomate bien ronde, brillante, rouge éclatante, arrivant à complète maturité. À côté sur le même rameau, une tomate encore verte qui reste en place.\n- Annotations : \"Tomate bien mûre = graines formées et vivantes\", \"Cueillette délicate avec le pédoncule\".",
+      "image": "assets/images/b1_tomate/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Pourquoi fermenter la graine de tomate ?",
+      "text": "Chaque graine de tomate est enveloppée dans une petite poche de gelée transparente. Cette gelée contient un produit naturel qui empêche la graine de germer tant qu'elle est dans le fruit.  \nPour libérer la graine et éliminer certains microbes collés sur l'écorce, nous devons dissoudre cette gelée grâce à une **fermentation naturelle** de quelques jours dans l'eau.",
+      "illustration_description": "- Type : Schéma microscopique pédagogique simplifié.\n- Éléments : À gauche, une graine de tomate entourée de sa coque gélatineuse visqueuse avec une loupe. À droite, après fermentation, une graine nue, veloutée, complètement propre et dégagée de sa gangue.\n- Annotations : \"Gaine gélatineuse protectrice\", \"Fermentation = graine libérée et propre\".",
+      "image": "assets/images/b1_tomate/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Étape 4A : Presser les graines dans le bocal",
+      "text": "Coupez la tomate mûre en deux moitiés dans le sens de la largeur.  \nPressez chaque moitié au-dessus de votre bocal propre : faites tomber les graines, le jus et un peu de pulpe. Vous pouvez utiliser une petite cuillère pour bien vider les alvéoles.  \nConsommez ou préparez la chair restante de la tomate : rien n'est gaspillé !  \nN'ajoutez pas trop d'eau, le jus naturel de la tomate suffit.",
+      "illustration_description": "- Type : Vue de dessus des mains au travail.\n- Éléments : Deux moitiés de tomates coupées en travers montrant les cavités. Deux mains pressant doucement une moitié au-dessus d'un bocal en verre. Les pépins et le jus coulent directement au fond.\n- Annotations : \"Couper en travers\", \"Presser les graines et le jus\", \"La chair reste disponible pour cuisiner\".",
+      "image": "assets/images/b1_tomate/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Étape 4B : Laisser fermenter au bon endroit",
+      "text": "Posez le bocal dans une pièce aérée, à l'ombre, hors de portée des enfants et des animaux.  \nSous climat chaud, la fermentation est très rapide : elle prend généralement **24 à 48 heures** (1 à 2 jours au maximum).  \nQuand une fine pellicule blanche ou un voile grisâtre apparaît à la surface et qu'une odeur aigrelette commence, la fermentation est terminée !  \n⚠️ Ne laissez pas plus de 3 jours, sinon les graines risquent de germer dans le bocal.",
+      "illustration_description": "- Type : Gros plan sur le bocal après 36 heures.\n- Éléments : Le bocal en verre posé sur une étagère à l'ombre. À la surface du liquide, un fin voile blanchâtre/mousseux s'est formé. Les graines commencent à se détacher et à descendre au fond.\n- Annotations : \"À l'ombre, 24 à 48 h\", \"Pellicule blanche = fermentation réussie\", \"Attention : ne pas oublier le bocal !\".",
+      "image": "assets/images/b1_tomate/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Étape 4C : Le rinçage et le tri à l'eau",
+      "text": "1️⃣ Ajoutez de l'eau claire dans le bocal et remuez vivement avec un bâtonnet propre.  \n2️⃣ Laissez reposer 1 minute : les **bonnes graines fécondes et lourdes coulent au fond**.  \n3️⃣ Videz délicatement le liquide : la pulpe, les peaux et les graines vides légères flottent et s'en vont.  \n4️⃣ Répétez 2 ou 3 fois avec de l'eau fraîche, puis versez les graines propres dans une passoire fine.",
+      "illustration_description": "- Type : Schéma de tri par décantation en 3 étapes.\n- Éléments : \n  - Bocal avec eau ajoutée : pulpe et graines creuses en surface, graines pleines au fond du bocal.\n  - Main vidant doucement l'eau trouble supérieure sans perdre le fond.\n  - Passoire fine recueillant les graines propres, jaune doré, brillantes.\n- Annotations : \"Graines creuses et pulpe = flottent (à jeter)\", \"Bonnes graines lourdes = au fond (à garder)\".",
+      "image": "assets/images/b1_tomate/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Étape 5A : Sécher rapidement à l'ombre",
+      "text": "Égouttez bien les graines, puis étalez-les en couche très fine sur un tissu propre, une moustiquaire, une assiette ou un papier absorbant non collant.  \nFaites sécher dans un endroit **très chaud, sec et bien ventilé**, mais **toujours à l'ombre**.  \n❌ Ne séchez JAMAIS vos graines en plein soleil brûlant : la forte chaleur directe tuerait le germe vivant à l'intérieur !",
+      "illustration_description": "- Type : Vue d'un espace de séchage bien aménagé.\n- Éléments : Un cadre en bois avec toile moustiquaire ou un linge propre tendu sur une table sous un auvent ventilé. Les graines de tomate sont réparties sans former de paquets. Un soleil vif brille au loin, mais l'espace est bien abrité sous l'ombre.\n- Annotations : \"Séchage à l'ombre + courant d'air ✅\", \"Soleil direct interdit ❌\".",
+      "image": "assets/images/b1_tomate/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Étape 5B : Le test de séchage complet",
+      "text": "Laissez sécher vos graines pendant **4 à 7 jours**. Remuez-les délicatement avec les doigts chaque jour pour éviter qu'elles ne se collent entre elles.  \nPour savoir si la graine est parfaitement sèche :\n- Pressez-la avec votre ongle : elle doit être dure comme une perle de bois et ne pas s'écraser.\n- Si vous la pliez, elle doit casser net sans ployer.  \nSi elle reste souple, laissez sécher encore 2 jours.",
+      "illustration_description": "- Type : Deux gros plans pédagogiques de vérification.\n- Éléments : \n  - À gauche : un pouce appuyant avec l'ongle sur une graine sur une table en bois (la graine ne s'enfonce pas, aucune trace humide).\n  - À droite : deux doigts pliant une graine qui casse nettement en deux sans mollesse.\n- Annotations : \"Test de l'ongle : graine rigide et dure\", \"Cassure nette = séchage parfait\".",
+      "image": "assets/images/b1_tomate/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Le conditionnement et le stockage",
+      "text": "Placez vos graines sèches dans un bocal en verre hermétique ou un sachet étanche.  \nGlissez à l'intérieur une étiquette écrite au crayon avec :\n- L'espèce et le nom de la variété (ex : *Tomate Roma*, *Tomate locale ronde*).\n- Le lieu de récolte et l'année de production.  \nAjoutez une pincée de cendre propre ou quelques grains de riz très secs pour absorber l'humidité de l'air.  \nConservez au frais et dans l'obscurité. Les graines de tomate restent vivantes **4 à 6 ans**.",
+      "illustration_description": "- Type : Vue d'ensemble du conditionnement soigné.\n- Éléments : Un petit bocal en verre transparent avec couvercle vissé à joint en caoutchouc. À l'intérieur, une étiquette blanche bien lisible et un lit de graines avec quelques grains de riz blancs au fond. Le bocal est rangé dans un placard sombre.\n- Annotations : \"Bocal hermétique fermé\", \"Étiquette : Variété + Année\", \"Conservation : 4 à 6 ans\".",
+      "image": "assets/images/b1_tomate/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "Résumé et félicitations",
+      "text": "Bravo ! Vous maîtrisez désormais toutes les étapes pour produire vos semences de tomate de qualité paysanne :\n✅ Repérer les pieds sains, productifs et adaptés à votre terroir.  \n✅ Respecter les distances d'isolement ou l'ensachage contre les croisements.  \n✅ Récolter les fruits à pleine maturité.  \n✅ Réaliser une fermentation courte de 24 à 48 heures pour nettoyer les graines.  \n✅ Sécher toujours à l'ombre et stocker dans un récipient étanche.  \n\nVous êtes autonome pour semer vos tomates d'une saison à l'autre !",
+      "illustration_description": "- Type : Composition visuelle finale festive et valorisante.\n- Éléments : Le maraîcher montrant fièrement un plateau de plants de tomates vigoureux issus de ses propres graines, avec des encadrés cochés de vert symbolisant les réussites techniques du module.\n- Annotations : \"Autonomie semencière réussie ! ✅\".",
+      "image": "assets/images/b1_tomate/page_17.jpg"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "b7_concombre",
+  "title": "Produire ses semences de Concombre",
+  "category": "Production par Légume",
+  "summary": "Apprenez à sélectionner et récolter les graines de concombres en les laissant mûrir jusqu'au stade jaune doré ou brun, et maîtrisez l'extraction par courte fermentation dans l'eau pour éliminer la pulpe gélatineuse et garantir des semences propres et fertiles.",
+  "total_pages": 12,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Bienvenue dans la production de semences de concombre",
+      "text": "Le concombre est un légume très rafraîchissant et très recherché sur les marchés pour sa saveur douce et son croquant.  \nProduire vos propres semences paysannes de concombre vous permet de choisir des plants résistants à la chaleur et aux maladies de vos parcelles.  \nDécouvrons ensemble comment récolter et préparer des graines de première qualité.",
+      "illustration_description": "Plan moyen dans un potager soigné :\n- Une maraîchère présente un beau concombre de table vert et croquant, et à côté un gros concombre porte-graines devenu complètement doré et brillant.\n- À l'arrière, les lianes de concombres grimpent sur un treillage en bambou, couvertes de fleurs jaunes lumineuses.\n- Titre : \"Module B7 : Réussir ses graines de concombre\".",
+      "image": "assets/images/b7_concombre/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Ce que nous allons apprendre",
+      "text": "Au cours de cette leçon pratique, nous allons découvrir :\n1. Comment reconnaître les fleurs mâles et les fleurs femelles sur la même liane.\n2. Avec qui le concombre peut se croiser (et les faux amis qui ne se croisent jamais).\n3. Pourquoi il faut attendre que le concombre devienne jaune ou marron avant de le récolter.\n4. La méthode de la courte fermentation pour nettoyer la graine sans effort.\n5. Le séchage et la conservation garantie pendant 6 à 10 ans.",
+      "illustration_description": "Frise en 5 étapes illustrées :\n1. Deux fleurs jaunes de concombre (l'une avec un mini concombre en dessous, l'autre sans).\n2. Un panneau rassurant : concombre séparé de la courge et du melon sans risque de croisement.\n3. Un concombre devenu jaune-orange avec un ruban d'identification.\n4. Un bocal en verre avec de l'eau où la pulpe fermente doucement.\n5. Des graines beiges qui sèchent sur une claie à l'ombre.",
+      "image": "assets/images/b7_concombre/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Étape 1 : Fleurs mâles et femelles sur la même plante",
+      "text": "Le concombre porte deux sortes de fleurs sur le même pied :\n- Les **fleurs mâles**, les premières à s'ouvrir, sont perchées sur une tige mince. Elles fabriquent le pollen jaune.\n- Les **fleurs femelles** sont reconnaissables entre mille : elles portent un petit concombre miniature juste en dessous de la corolle !\nLa plante porte les deux sexes séparés sur le même pied. C'est ce qu'on appelle une plante **monoïque**.  \nCe sont les insectes (abeilles, bourdons) qui transportent le pollen des fleurs mâles vers les fleurs femelles pour faire grossir le fruit.",
+      "illustration_description": "Comparaison détaillée en gros plan des deux fleurs :\n- À gauche : une fleur mâle sur son pédoncule fin, avec les étamines dorées bien visibles.\n- À droite : une fleur femelle avec un mini concombre velu très net sous les pétales jaunes.\n- Une abeille volante fait la liaison entre les deux avec une flèche jaune : \"Pollinisation par les insectes\".",
+      "image": "assets/images/b7_concombre/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Risques de croisements : avec qui le concombre se mélange-t-il ?",
+      "text": "Une bonne nouvelle pour le maraîcher :  \n✅ Le concombre (*Cucumis sativus*) **ne se croise jamais** avec les courges, les courgettes, les melons ou les pastèques ! Vous pouvez les cultiver à côté sans aucune crainte.  \n⚠️ En revanche, toutes les variétés de concombres et de cornichons se croisent très facilement entre elles.  \nPour garder votre variété pure, cultivez une seule variété de concombre à la fois, ou séparez deux variétés d'au moins **500 mètres** (ou **1 kilomètre** si le terrain est tout plat et sans haie d'arbres).",
+      "illustration_description": "Tableau visuel des compatibilités :\n- Concombre + Courge / Melon / Pastèque = coche verte ✅ \"Pas de croisement possible !\".\n- Concombre + autre Concombre ou Cornichon = croix rouge ❌ \"Croisement immédiat par les abeilles ! Isoler de 500 m\".",
+      "image": "assets/images/b7_concombre/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Étape 2 : Sélectionner les meilleurs plants au champ",
+      "text": "Pour garantir des semences vigoureuses et productives :\n- Réservez au moins **6 à 12 plants porte-graines** dans votre parcelle pour préserver la santé génétique.\n- Choisissez des lianes vigoureuses, au feuillage bien vert et résistant aux champignons (oïdium, mildiou).\n- Repérez les plants qui ont produit rapidement de beaux concombres réguliers et sans amertume.\n- Nouez un morceau de ruban en plastique ou de tissu rouge à la base de la tige pour que personne ne cueille le fruit par erreur !",
+      "illustration_description": "La maraîchère inspecte ses lianes de concombres :\n- Elle noue un ruban rouge sur une tige vigoureuse portant un très beau fruit.\n- Un panneau en bois planté au pied : \"Concombre porte-graines — Défense de couper\".\n- Une coche verte ✅ valide le feuillage dense et sain.",
+      "image": "assets/images/b7_concombre/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Étape 3 : Attendre la surmaturité complète du fruit",
+      "text": "Attention, c'est l'étape la plus importante :  \n❌ Le concombre vert et croquant que l'on vend au marché est **immature**. Si vous l'ouvrez, les graines sont molles et transparentes : elles ne germeront jamais !  \n✅ Pour faire de la graine, il faut laisser le concombre mûrir sur le pied jusqu'à ce que :\n- Sa peau perde complètement sa couleur verte pour devenir **jaune foncé, orange ou marron clair**.\n- La peau devienne plus dure et le pédoncule (la queue du fruit) commence à se dessécher.\n- Le fruit semble plus lourd et son parfum devienne très puissant.",
+      "illustration_description": "Comparaison saisissante de deux concombres :\n- À gauche : un concombre vert classique croqué. Légende : \"Stade salade 🥗 — Graines creuses et blanches ❌\".\n- À droite : un concombre énorme devenu entièrement jaune d'or avec des marbrures brunes. Légende : \"Stade semence ✅ — Graines épaisses et fécondes !\".",
+      "image": "assets/images/b7_concombre/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Étape 4 : Récolter et ouvrir le concombre",
+      "text": "Quand le fruit a pris sa belle teinte dorée :\n1. Coupez le concombre du pied en laissant un petit bout de tige.  \n*(Astuce : vous pouvez le laisser reposer encore 1 à 2 semaines dans un endroit tempéré pour parfaire la fécondité des graines).*\n2. Fendez le concombre en deux dans la longueur avec un couteau.\n3. À l'aide d'une cuillère, raclez le cœur central contenant les graines et la pulpe juteuse dans un bol ou un bocal en verre.",
+      "illustration_description": "Deux vignettes pratiques :\n1. Coupe longitudinale du concombre mûr : les graines beiges et fermes sont logées au centre au milieu d'un suc transparent.\n2. Une cuillère racle doucement les graines qui glissent dans un bocal en verre posé sur la table.",
+      "image": "assets/images/b7_concombre/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "La courte fermentation pour dissoudre la gaine gélatineuse",
+      "text": "Chaque graine de concombre est emprisonnée dans une petite poche gluante qui empêche la graine de germer et la colle aux doigts.  \nPour la retirer facilement :\n- Ajoutez un peu d'eau claire dans le bocal avec les graines et la pulpe.\n- Laissez le bocal à l'ombre à température ambiante pendant **24 à 48 heures** (1 à 2 jours en climat chaud).\n- La fermentation commence : un léger voile blanc apparaît en surface. Les ferments naturels dissolvent la gélatine et détruisent les bactéries néfastes !\n- ⚠️ Ne laissez pas fermenter plus de 2 jours sous forte chaleur, sinon les graines commenceraient à germer dans le bocal !",
+      "illustration_description": "Gros plan sur le bocal de fermentation :\n- Le mélange graines et jus avec une fine pellicule blanche qui se forme sur le dessus.\n- Des petites bulles de fermentation s'élèvent le long de la paroi.\n- Horloge indiquant : \"24 à 48 heures maximum\".\n- Panneau d'attention ⚠️ : \"Dès que le voile blanc apparaît, rincer sans attendre\".",
+      "image": "assets/images/b7_concombre/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Le tri des graines pleines par décantation dans l'eau",
+      "text": "Après 2 jours de fermentation :\n1. Versez un grand volume d'eau propre dans le récipient et brassez vivement avec la main.\n2. ✅ Les **bonnes graines bien formées**, plus denses, tombent immédiatement au fond du seau.\n3. ❌ La pulpe dissoute, le voile blanc et les graines creuses ou avortées **flottent à la surface**.\n4. Inclinez doucement le seau pour vider l'eau du dessus avec tous les déchets.\n5. Répétez avec un peu d'eau propre : au fond, vos graines apparaissent d'une propreté parfaite !",
+      "illustration_description": "Coupe vue de côté d'un récipient en verre rempli d'eau :\n- Déchets et graines plates évacués par le bord verseur dans un flot d'eau trouble.\n- Au fond : une couche dense de graines beiges allongées et propres, annotées \"Graines pleines et fertiles à garder ✅\".",
+      "image": "assets/images/b7_concombre/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Étape 5 : Le séchage rapide à l'ombre ventilée",
+      "text": "Versez les graines propres dans une passoire, puis étalez-les immédiatement :\n- Répartissez les graines en couche très fine sur un tamis, une claie moustiquaire ou une assiette propre.\n- Frottez-les doucement entre vos mains après quelques heures pour éviter qu'elles ne restent collées en bloc.\n- ❌ Pas de soleil direct : séchez toujours à l'ombre sous un hangar ou sous un arbre bien aéré.\n- Le séchage complet doit prendre **2 à 3 jours maximum**.",
+      "illustration_description": "Installation de séchage abritée :\n- Une claie grillagée posée sur deux caisses en bois à l'ombre d'un auvent.\n- Les graines de concombre sont étalées bien à plat sans se superposer.\n- Des flèches d'air montrent la ventilation constante.\n- Symbole d'interdiction de soleil brûlant ☀️❌.",
+      "image": "assets/images/b7_concombre/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Le test de cassure et la conservation longue durée",
+      "text": "Pour vérifier que vos graines de concombre sont prêtes à être conservées :\n- Prenez une graine et essayez de la plier en deux entre vos pouces :\n  - ✅ Si elle **casse net d'un coup sec**, elle est parfaitement sèche à cœur !\n  - ❌ Si elle plie doucement sans casser, elle contient encore de l'eau. Poursuivez le séchage.\n- Rangez vos semences dans un récipient étanche avec une cuillère de cendre de bois tamisée.\n- 🌱 Les graines de concombre ont une vitalité exceptionnelle : elles restent capables de germer pendant **6 à 10 ans** si elles restent bien au sec !",
+      "illustration_description": "Deux détails visuels :\n- En haut : les doigts cassent une graine sèche en deux avec le son \"CLAC !\".\n- En bas : le bocal hermétique étiqueté : *\"Concombre maraîcher résistant — Récolte 2026 — Germination 6 à 10 ans\"*.",
+      "image": "assets/images/b7_concombre/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Bravo ! Vous maîtrisez la semence de concombre",
+      "text": "Félicitations ! Vous savez désormais récolter et nettoyer des semences de concombre de haute qualité.  \nVous conservez vos meilleures lignées adaptées au climat local et gagnez une totale liberté semencière.\n\nPoints clés à ne jamais oublier :\n- ✅ Pas de risque de croisement avec courges ni melons ; isoler seulement des autres concombres (500 m).\n- ✅ Sélectionner sur au moins 6 à 12 plants résistants et productifs.\n- ✅ Laisser le fruit devenir jaune ou marron (surmaturité semence).\n- ✅ Courte fermentation de 24 à 48 heures pour enlever le gel protecteur.\n- ✅ Trier par flottaison dans l'eau et sécher à l'ombre.\n- ✅ Test de cassure net avant mise en bocal étanche.",
+      "illustration_description": "Scène finale gratifiante :\n- La maraîchère montre à son groupe de travail un bocal de graines de concombres d'une blancheur et pureté impeccables.\n- Les autres membres acquiescent avec le pouce levé 👍.\n- Coche verte géante ✅ : \"Semences paysannes réussies — Zéro dépense — Haute vitalité\".",
+      "image": "assets/images/b7_concombre/page_12.jpg"
+    }
+  ]
+}

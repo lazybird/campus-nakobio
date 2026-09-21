@@ -1,0 +1,136 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Maraîchage Bio-Intensif en Sol Vivant — Bientôt disponible">
+  <div class="container wait-container">
+    <div class="wait-card">
+      <span class="badge badge-earth">Parcours en cours de numérisation</span>
+      <h1 class="wait-title">Maraîchage Bio-Intensif en Sol Vivant</h1>
+      <p class="wait-intro">
+        Les modules de formation théoriques et pratiques sur le maraîchage bio-intensif sont actuellement en phase de préparation et de finalisation.
+      </p>
+
+      <div class="topics-overview">
+        <h3>Au programme de cette formation :</h3>
+        <div class="topics-grid">
+          <div class="topic-box">
+            <span class="topic-icon">🪱</span>
+            <strong>Le Sol Vivant</strong>
+            <p>Régénérer l'activité biologique, les champignons mycorhiziens et la faune du sol sans intrants chimiques.</p>
+          </div>
+          <div class="topic-box">
+            <span class="topic-icon">📏</span>
+            <strong>Planches de Culture Permanentes</strong>
+            <p>Conception, dimensions optimisées, passe-pieds actifs et techniques anti-tassement.</p>
+          </div>
+          <div class="topic-box">
+            <span class="topic-icon">💧</span>
+            <strong>Techniques d'Irrigation</strong>
+            <p>Optimiser la consommation d'eau en climat aride : goutte-à-goutte, aspersion douce et micro-cuvettes.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="wait-cta-box">
+        <p>En attendant la mise en ligne des modules web interactifs, explorez nos formations sur les semences :</p>
+        <a href="/semences" class="btn btn-primary">
+          Découvrir les cours sur les Semences Paysannes →
+        </a>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .wait-container {
+    padding: 4rem 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .wait-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 3.5rem 2.5rem;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .wait-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--color-primary-deep);
+    margin: 1.25rem 0 0.85rem;
+    line-height: 1.25;
+  }
+
+  .wait-intro {
+    font-size: 1.1rem;
+    color: var(--color-text-secondary);
+    max-width: 620px;
+    margin: 0 auto 2.5rem;
+    line-height: 1.6;
+  }
+
+  .topics-overview {
+    background: #f8f6f1;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 2rem;
+    text-align: left;
+    margin-bottom: 2.5rem;
+  }
+
+  .topics-overview h3 {
+    font-size: 1.15rem;
+    color: var(--color-primary-deep);
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+
+  .topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .topic-box {
+    background: #ffffff;
+    padding: 1.25rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-border);
+  }
+
+  .topic-icon {
+    font-size: 1.75rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .topic-box strong {
+    display: block;
+    color: var(--color-primary-deep);
+    font-size: 0.95rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .topic-box p {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    line-height: 1.45;
+  }
+
+  .wait-cta-box {
+    padding-top: 1rem;
+  }
+
+  .wait-cta-box p {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    margin-bottom: 1.25rem;
+  }
+</style>

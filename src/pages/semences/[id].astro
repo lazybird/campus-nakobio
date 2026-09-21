@@ -1,0 +1,406 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+export async function getStaticPaths() {
+  const dataDir = path.resolve('./src/data');
+  const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'catalog.json');
+
+  return files.map(file => {
+    const filePath = path.join(dataDir, file);
+    const content = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    const id = file.replace('.json', '');
+    return {
+      params: { id },
+      props: { course: content }
+    };
+  });
+}
+
+const { course } = Astro.props;
+---
+
+<Layout title={course.title} description={course.summary || "Module de formation pratique sur les semences paysannes."}>
+  <!-- En-tête de navigation du cours avec action PDF -->
+  <div class="lesson-topbar no-print">
+    <div class="container lesson-topbar-inner">
+      <a href="/semences" class="btn btn-outline back-btn">
+        ← Catalogue
+      </a>
+      <div class="lesson-title-meta">
+        <span class="badge badge-primary">{course.category || 'Semences Paysannes'}</span>
+        <h1 class="lesson-header-title">{course.title}</h1>
+      </div>
+      <div class="lesson-actions">
+        <button type="button" class="btn btn-primary" id="btn-print-lesson">
+          🖨️ Imprimer / PDF
+        </button>
+      </div>
+    </div>
+    <div class="scroll-progress-container" aria-hidden="true">
+      <div class="scroll-progress-bar" id="scroll-progress"></div>
+    </div>
+  </div>
+
+  <div class="container lesson-container">
+    <!-- Introduction / Hero du cours -->
+    <header class="lesson-hero">
+      <div class="lesson-badge-row">
+        <span class="badge badge-primary">{course.category || 'Semences'}</span>
+        <span class="badge badge-neutral">📖 {course.total_pages} étapes</span>
+        <span class="badge badge-neutral">☀️ Climat tropical & sahélien</span>
+      </div>
+      <h2 class="hero-course-title">{course.title}</h2>
+      {course.summary && <p class="hero-course-summary">{course.summary}</p>}
+    </header>
+
+    <!-- Séquence des diapositives / étapes -->
+    <div class="slides-flow">
+      {course.slides && course.slides.map((slide: any) => (
+        <article class="slide-block" id={`slide-${slide.page}`}>
+          <div class="slide-header">
+            <span class="slide-number">Étape {slide.page} / {course.total_pages}</span>
+            <h3 class="slide-title">{slide.title}</h3>
+          </div>
+
+          <!-- Zone Visuelle / Illustration -->
+          <div class="slide-media">
+            {slide.illustration_status === 'ok' && slide.illustration_path ? (
+              <img 
+                src={`/${slide.illustration_path}`} 
+                alt={slide.title} 
+                loading="lazy" 
+                class="slide-img" 
+                onerror="this.onerror=null; this.closest('.slide-media').classList.add('media-fallback');"
+              />
+            ) : (
+              <div class="illustration-pending-box">
+                <div class="pending-icon">🎨</div>
+                <div class="pending-title">Illustration en préparation</div>
+                <div class="pending-desc">
+                  {slide.illustration_description || 'Scène pédagogique illustrée pour la compréhension de cette étape.'}
+                </div>
+              </div>
+            )}
+          </div>
+
+          <!-- Contenu texte pédagogique -->
+          <div class="slide-content">
+            {slide.text_blocks && slide.text_blocks.map((block: any) => (
+              <div class="text-block">
+                {block.title && <h4 class="text-block-title">{block.title}</h4>}
+                <div class="text-block-content" set:html={block.content.replace(/\\n/g, '<br/>')} />
+              </div>
+            ))}
+
+            {slide.key_points && slide.key_points.length > 0 && (
+              <div class="key-points-box">
+                <h4 class="key-points-title">À retenir pour cette étape :</h4>
+                <ul>
+                  {slide.key_points.map((pt: string) => (
+                    <li>{pt}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <!-- Pied de page du cours -->
+    <div class="lesson-end-card no-print">
+      <div class="end-icon">🎉</div>
+      <h3>Fin de ce module de formation</h3>
+      <p>Vous avez terminé le parcours pour <strong>{course.title}</strong>.</p>
+      <div class="end-actions">
+        <a href="/semences" class="btn btn-primary">Retour au catalogue</a>
+        <a href="/" class="btn btn-outline">Page d'accueil</a>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<script>
+  // Gestion de l'impression
+  document.getElementById('btn-print-lesson')?.addEventListener('click', () => {
+    window.print();
+  });
+
+  // Barre de défilement
+  window.addEventListener('scroll', () => {
+    const progressBar = document.getElementById('scroll-progress');
+    if (!progressBar) return;
+    const winScroll = document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+    progressBar.style.width = scrolled + '%';
+  });
+</script>
+
+<style>
+  .lesson-topbar {
+    position: sticky;
+    top: 70px;
+    background: #ffffff;
+    border-bottom: 1px solid var(--color-border);
+    z-index: 90;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .lesson-topbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    gap: 1rem;
+  }
+
+  .lesson-title-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .lesson-header-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--color-primary-deep);
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .scroll-progress-container {
+    width: 100%;
+    height: 3px;
+    background: transparent;
+  }
+
+  .scroll-progress-bar {
+    height: 100%;
+    background: var(--color-primary);
+    width: 0%;
+    transition: width 0.1s ease;
+  }
+
+  .lesson-container {
+    max-width: 860px;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+  }
+
+  .lesson-hero {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 2.25rem 2rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .lesson-badge-row {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-course-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-primary-deep);
+    margin-bottom: 0.75rem;
+    line-height: 1.25;
+  }
+
+  .hero-course-summary {
+    color: var(--color-text-secondary);
+    font-size: 1.05rem;
+    max-width: 680px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  .slides-flow {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .slide-block {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .slide-header {
+    background: #faf8f4;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+  }
+
+  .slide-number {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    background: var(--color-primary-light);
+    padding: 0.2rem 0.6rem;
+    border-radius: var(--radius-pill);
+    white-space: nowrap;
+  }
+
+  .slide-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-primary-deep);
+  }
+
+  .slide-media {
+    background-color: #f6f3eb;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .slide-img {
+    width: 100%;
+    max-height: 520px;
+    object-fit: contain;
+    background: #ffffff;
+  }
+
+  .illustration-pending-box {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    max-width: 540px;
+  }
+
+  .pending-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .pending-title {
+    font-weight: 700;
+    color: var(--color-primary-deep);
+    margin-bottom: 0.35rem;
+  }
+
+  .pending-desc {
+    font-size: 0.88rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+    line-height: 1.45;
+  }
+
+  .slide-content {
+    padding: 1.75rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .text-block-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--color-primary-dark);
+    margin-bottom: 0.35rem;
+  }
+
+  .text-block-content {
+    color: var(--color-text);
+    font-size: 0.98rem;
+    line-height: 1.65;
+  }
+
+  .key-points-box {
+    background: var(--color-primary-light);
+    border: 1px solid var(--color-primary-border);
+    border-radius: var(--radius-sm);
+    padding: 1.25rem;
+    margin-top: 0.5rem;
+  }
+
+  .key-points-title {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--color-primary-deep);
+    margin-bottom: 0.5rem;
+  }
+
+  .key-points-box ul {
+    margin-left: 1.25rem;
+    color: var(--color-primary-deep);
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .lesson-end-card {
+    text-align: center;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 3rem 1.5rem;
+    margin-top: 3rem;
+  }
+
+  .end-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .end-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  /* Rendu Impression Papier / PDF */
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+    body {
+      background: white !important;
+      color: black !important;
+    }
+    .slide-block {
+      page-break-inside: avoid;
+      break-inside: avoid;
+      box-shadow: none !important;
+      border: 1px solid #ccc !important;
+      margin-bottom: 2rem;
+    }
+    .lesson-container {
+      max-width: 100% !important;
+      padding: 0 !important;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .lesson-topbar-inner {
+      flex-wrap: wrap;
+      height: auto;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    .lesson-title-meta {
+      order: 3;
+      width: 100%;
+    }
+  }
+</style>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formation Semences Paysannes — Module Carotte</title>
+  <link rel="stylesheet" href="assets/css/viewer.css">
+  <link rel="stylesheet" href="assets/css/print.css" media="print">
+</head>
+<body>
+
+  <!-- En-tête de navigation -->
+  <header class="header">
+    <div class="header-left">
+      <span class="badge">🌱 SEMENCES PAYSANNES</span>
+      <h1 class="title" id="module-title">Chargement du module...</h1>
+    </div>
+    <div class="header-actions">
+      <button class="btn btn-outline" id="btn-toggle-layout" title="Basculer l'orientation portrait/paysage">
+        🔄 Disposition
+      </button>
+      <button class="btn btn-primary" id="btn-pdf" title="Télécharger ou imprimer ce cours en PDF">
+        📥 Télécharger PDF
+      </button>
+    </div>
+  </header>
+
+  <!-- Contenu Principal : Slide Viewport -->
+  <main class="main-container">
+    <div class="slide-viewport" id="slide-viewport">
+      <!-- Rendu dynamique par viewer.js -->
+    </div>
+
+    <!-- Barre d'avancement -->
+    <div class="progress-bar-container">
+      <div class="progress-bar-fill" id="progress-bar" style="width: 8%;"></div>
+    </div>
+
+    <!-- Barre de contrôle basse -->
+    <div class="nav-toolbar no-print">
+      <div class="nav-status">
+        Page <span id="current-page-num">1</span> sur <span id="total-pages">12</span>
+      </div>
+      <div class="nav-buttons">
+        <button class="btn btn-outline" id="btn-prev" disabled>
+          ◀ Précédent
+        </button>
+        <button class="btn btn-primary" id="btn-next">
+          Suivant ▶
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/js/viewer.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+{
+  "id": "b10_pasteque",
+  "title": "Produire ses semences de Pastèque",
+  "category": "Production par Légume",
+  "summary": "Apprenez à sélectionner et récolter les graines de pastèque : identifiez les 3 signes infaillibles de maturité au champ (vrille sèche, tache jaune au sol, bruit sourd), découvrez la grande famille des pastèques (chair douce ou graines comestibles riches en huile) et séparez facilement les semences pleines par flottaison dans l'eau.",
+  "total_pages": 12,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Bienvenue dans la production de semences de pastèque",
+      "text": "Originaire d'Afrique, la pastèque est la reine des terres chaudes et ensoleillées !  \nSes fruits gorgés d'eau désaltèrent les familles et se vendent très bien sur les marchés.  \nFaire vos propres semences de pastèque est très facile et économique : les graines sont déjà parfaitement mûres quand le fruit est délicieux à manger !",
+      "illustration_description": "Plan moyen dans un champ sous un grand soleil :\n- Une maraîchère coupe une tranche généreuse dans une énorme pastèque rouge et sucrée, parsemée de graines noires brillantes.\n- Autour d'elle, les lianes de pastèques courent sur le sol sablonneux, chargées de gros fruits ronds et allongés.\n- Titre : \"Module B10 : Réussir ses graines de pastèque\".",
+      "image": "assets/images/b10_pasteque/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Ce que nous allons apprendre",
+      "text": "Au fil de ce tutoriel, vous apprendrez :\n1. Comment reconnaître la fleur femelle de la pastèque et son mode de fécondation.\n2. Avec qui la pastèque peut se croiser (et pourquoi elle ignore les courges et concombres).\n3. Les deux grands usages : pastèques à chair douce et pastèques cultivées pour leurs graines d'huile.\n4. Les 3 astuces infaillibles pour récolter la pastèque pile au bon moment.\n5. L'extraction simple à la main, le tri par l'eau et la conservation pour 5 à 10 ans.",
+      "illustration_description": "Frise visuelle en 5 vignettes :\n1. Une petite fleur jaune de pastèque avec une mini pastèque ronde en dessous.\n2. Un schéma montrant l'absence de croisement avec le melon et la courge.\n3. Deux types de pastèques : une à chair rouge sucrée et une à graines blanches consommables.\n4. Une main tapotant une pastèque avec l'oreille attentive et une flèche sur la vrille sèche.\n5. Des graines noires qui coulent au fond d'un saladier d'eau claire.",
+      "image": "assets/images/b10_pasteque/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Étape 1 : Fleurs et pollinisation de la pastèque",
+      "text": "La pastèque porte des fleurs mâles et des fleurs femelles séparées sur la même liane. C'est ce qu'on appelle une plante **monoïque**.  \n- La **fleur femelle** porte une petite pastèque en miniature juste sous ses pétales jaunes.\n- La **fleur mâle** n'a pas de petit fruit et produit la poussière de pollen.\nChaque fleur ne s'ouvre que pendant une seule matinée !  \nCe sont les insectes (les abeilles) qui assurent le transport du pollen d'une fleur à l'autre.",
+      "illustration_description": "Gros plan sur deux fleurs jaunes de pastèque :\n- À gauche : la fleur mâle érigée sur sa petite tige fine.\n- À droite : la fleur femelle avec une petite bille verte duvetée (l'ovaire) nettement visible à la base de la fleur.\n- Une abeille vient se poser sur la fleur femelle en apportant du pollen doré.",
+      "image": "assets/images/b10_pasteque/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Isolement : aucun croisement avec les courges ou melons !",
+      "text": "Une excellente nouvelle pour votre jardin maraîcher :  \n✅ La pastèque (*Citrullus lanatus*) **ne se croise jamais** avec les courges, courgettes, concombres ou melons ! Vous pouvez les semer côte à côte sans danger.  \n⚠️ En revanche, toutes les variétés de pastèques s'hybrident facilement entre elles, y compris avec les pastèques sauvages locales.  \nPour garder une variété pure, séparez deux variétés de pastèques d'au moins **500 m à 1 km** en terrain découvert.",
+      "illustration_description": "Tableau d'avertissement simple et clair :\n- Pastèque + Melon / Courge / Concombre = coche verte ✅ \"Zéro croisement ! Voisins sans risque\".\n- Pastèque + autre Pastèque (ou pastèque sauvage amère) = croix rouge ❌ \"Croisement assuré par les abeilles ! Éloigner de 500 m à 1 km\".",
+      "image": "assets/images/b10_pasteque/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Étape 2 : Deux types de pastèques très utiles",
+      "text": "Savez-vous qu'il existe deux types principaux de pastèques traditionnelles ?\n1. **Les pastèques de bouche** : à chair rouge, jaune ou rose très sucrée, désaltérante.\n2. **Les pastèques à graines oléagineuses** (comme le *goussi* ou *egusi*) : la chair est souvent blanche et amère, mais leurs grosses graines sont décortiquées, grillées ou pilées pour faire des sauces onctueuses et riches en protéines.  \nLes règles de production de semences sont exactement les mêmes pour les deux types !",
+      "illustration_description": "Comparaison des deux usages :\n- À gauche : une pastèque fendue à chair rouge vif, croquée avec plaisir par un enfant (\"Pastèque douce à manger\").\n- À droite : une pastèque ouverte à chair blanche avec une calebasse pleine de grosses graines plates décortiquées destinées à la cuisine (\"Pastèque à graines / Egusi pour la sauce\").",
+      "image": "assets/images/b10_pasteque/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Étape 3 : Sélectionner au champ",
+      "text": "Ne prélevez pas vos graines au hasard sur une seule pastèque :\n- Choisissez au moins **6 à 12 plants porte-graines** bien vigoureux au milieu de votre champ.\n- Retenez les plants qui supportent vaillamment la sécheresse et la chaleur sans flétrir.\n- Privilégiez les pieds qui portent plusieurs beaux fruits réguliers, avec un feuillage dense qui protège les fruits des brûlures du soleil.\n- Nouez un chiffon coloré sur la liane retenue pour la réserver.",
+      "illustration_description": "Le maraîcher au milieu de sa parcelle :\n- Il examine une liane très saine qui porte 3 grosses pastèques bien rondes.\n- Il attache un ruban jaune vif à la tige principale.\n- Les feuilles forment un parasol naturel au-dessus des pastèques pour éviter les coups de soleil.\n- Coche verte ✅ d'approbation.",
+      "image": "assets/images/b10_pasteque/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Étape 4 : Les 3 signes infaillibles de maturité",
+      "text": "Contrairement à la courgette ou à l'aubergine, la pastèque donne des graines mûres dès que le fruit est délicieux à déguster !  \nPour ne pas couper une pastèque trop tôt, vérifiez ces **3 signes magiques** :\n1. **La vrille et la petite feuille** situées à l'attache du fruit sont complètement sèches et marron.\n2. **La tache au sol** : le dessous de la pastèque posé sur la terre n'est plus blanc mais devient **jaune crémeux ou doré**.\n3. **Le son sourd** : tapez doucement avec le plat de la main. Un son creux et résonnant annonce un fruit mûr à point !",
+      "illustration_description": "Gros plan décomposé en 3 loupes explicatives :\n- Loupe 1 : la petite vrille en tire-bouchon à côté de la queue est brune et craquante (\"Vrille sèche ✅\").\n- Loupe 2 : le maraîcher soulève délicatement la pastèque pour montrer la \"tache de terre\" devenue jaune paille (\"Ventre jaune ✅\").\n- Loupe 3 : la main frappe la pastèque qui émet des ondes sonores graves (\"Son sourd 'POUM-POUM' ✅\").",
+      "image": "assets/images/b10_pasteque/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Étape 5 : Récolter et extraire sans gaspillage",
+      "text": "L'extraction de la pastèque est un moment de fête partagé !  \nLe fruit se mange en même temps qu'on récupère la semence :\n1. Coupez la pastèque en tranches pour la famille ou le groupe.\n2. À l'aide d'un couteau ou des doigts, dégagez les graines noires ou beiges dans un bol.\n3. ⚠️ Pas besoin de fermentation ! La graine de pastèque n'a pas de gangue collante.\n4. Les enfants et les voisins peuvent déguster la chair sucrée en crachant proprement les graines dans une calebasse réservée.",
+      "illustration_description": "Scène conviviale à l'ombre d'un manguier :\n- La famille partage des tranches de pastèque rouge.\n- Un bol au centre recueille toutes les graines noires extraites au fur et à mesure sans abîmer la pulpe.\n- Ambiance joyeuse et sans aucun gaspillage de nourriture !",
+      "image": "assets/images/b10_pasteque/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Le tri par flottaison dans l'eau",
+      "text": "Même dans une très belle pastèque, certaines graines sont plates et sans vie :\n1. Versez toutes les graines récoltées dans une bassine ou un seau d'eau propre.\n2. Brassez doucement avec la main pour rincer les traces de sucre.\n3. ✅ Les **bonnes graines lourdes et fécondes tombent au fond**.\n4. ❌ Les graines blanches stériles et les morceaux de pulpe rouge flottent à la surface.\n5. Retirez les débris flottants avec une passoire, puis égouttez les graines du fond.",
+      "illustration_description": "Coupe d'un récipient en verre transparent rempli d'eau :\n- À la surface : graines blanches plates et filaments rouges évacués par une écumoire ❌.\n- Au fond : un tapis dense de graines noires et fermes bien regroupées ✅.\n- Flèche : \"Les graines fécondes sont lourdes et coulent immédiatement\".",
+      "image": "assets/images/b10_pasteque/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Le séchage rapide à l'ombre",
+      "text": "Dès la sortie de l'eau :\n- Égouttez les graines et étalez-les en une couche fine sur un tamis, une claie moustiquaire ou une natte propre.\n- Évitez le papier absorbant ordinaire sur lequel les graines colleraient.\n- ❌ Ne séchez jamais en plein soleil direct pour ne pas tuer l'embryon vivant.\n- Placez la claie dans un endroit chaud, ombragé et balayé par un bon courant d'air pendant **2 à 4 jours**.\n- Remuez les graines chaque jour avec la main.",
+      "illustration_description": "Claie de séchage surélevée :\n- Une claie en toile moustiquaire posée sur des tréteaux à l'ombre d'un auvent aéré.\n- Les graines de pastèque noires et luisantes sont bien dispersées.\n- Flèches de brise d'air traversant la claie.\n- Soleil barré d'une croix rouge ☀️❌.",
+      "image": "assets/images/b10_pasteque/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Le test de l'ongle et la conservation longue durée",
+      "text": "Pour vérifier la fin du séchage :\n- Prenez une graine et appuyez fermement votre ongle sur la coque :\n  - ✅ Si l'ongle glisse sans laisser aucune trace ni empreinte, la graine est parfaitement sèche à cœur !\n  - ❌ Si l'ongle s'enfonce ou marque la coque, séchez encore 1 ou 2 jours.\n- Rangez vos semences dans un bocal en verre hermétique avec une cuillère de cendre de bois tamisée.\n- 🌱 Les graines de pastèque ont une longévité remarquable : elles restent très fertiles pendant **5 à 10 ans** !",
+      "illustration_description": "Détails de clôture :\n- Un gros plan sur un ongle pressant la graine dure sans faire d'encoche.\n- Le bocal en verre hermétique avec son étiquette : *\"Pastèque sucrée du terroir — Récolte 2026 — Germination 5 à 10 ans\"*.",
+      "image": "assets/images/b10_pasteque/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Bravo ! Vous maîtrisez la semence de pastèque",
+      "text": "Félicitations ! Vous possédez maintenant le savoir-faire pour multiplier vos propres pastèques avec succès.  \nC'est une semence généreuse, facile à extraire et qui conserve sa vitalité pendant de nombreuses années.\n\nLes règles d'or à retenir :\n- ✅ Pas de croisement avec melons ni courges ; isoler de 500 m des autres pastèques.\n- ✅ Sélectionner au moins 6 à 12 plants résistants et productifs.\n- ✅ Récolter quand la vrille est sèche, la tache au sol bien jaune et le son sourd.\n- ✅ Extraction directe sans fermentation et tri des graines lourdes dans l'eau.\n- ✅ Sécher à l'ombre et stocker au sec avec de la cendre protectrice.",
+      "illustration_description": "La maraîchère souriante tenant un bocal de belles graines noires de pastèque :\n- Derrière elle, la récolte de pastèques prêtes pour le marché.\n- Tampon vert de réussite ✅ : \"Autonomie paysanne — Semences gratuites, saines et durables\".",
+      "image": "assets/images/b10_pasteque/page_12.jpg"
+    }
+  ]
+}

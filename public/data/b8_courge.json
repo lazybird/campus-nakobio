@@ -1,0 +1,107 @@
+{
+  "id": "b8_courge",
+  "title": "Produire ses semences de courge",
+  "category": "Production par Légume",
+  "summary": "Maîtrisez la production de semences de courges : distinguer les trois grandes espèces pour éviter les hybridations involontaires, reconnaître fleurs mâles et femelles, pratiquer la pollinisation manuelle matinale et réussir l'extraction sans fermentation.",
+  "total_pages": 14,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Bienvenue dans la production de semences de courge",
+      "text": "Les courges nourrissent généreusement les familles grâce à leur chair nutritive et à leurs graines riches en huile et en protéines. Elles se conservent plusieurs mois après la récolte. En produisant vous-même vos semences, vous garantissez la pureté de vos variétés préférées et une abondance de fruits vigoureux pour les prochaines saisons !",
+      "illustration_description": "- Type : Vue d'ensemble conviviale et chaleureuse.\n- Éléments : Une famille maraîchère souriante assise devant une maison rurale, entourée de courges bien rondes et de courges allongées. Devant eux, une grande calebasse pleine de semences de courges blanc crème, bien sèches et luisantes.\n- Contexte : Lumière dorée de fin de journée, ambiance d'abondance.",
+      "image": "assets/images/b8_courge/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Ce que vous allez apprendre",
+      "text": "Dans cette fiche pratique, nous apprendrons pas à pas à :\n1️⃣ Distinguer les 3 familles de courges pour savoir lesquelles peuvent pousser ensemble sans se croiser.  \n2️⃣ Identifier les fleurs mâles et les fleurs femelles sur la liane.  \n3️⃣ Réaliser la pollinisation manuelle pour être sûr de garder la variété pure.  \n4️⃣ Savoir quand le fruit est mûr pour donner des graines vivantes.  \n5️⃣ Récupérer, laver et sécher les semences sans les abîmer.",
+      "illustration_description": "- Type : Schéma séquentiel en 5 vignettes.\n- Éléments : \n  1. Comparaison de 3 formes de courges et pédoncules.\n  2. Deux fleurs (mâle et femelle avec mini-fruit).\n  3. Fleur femelle fécondée délicatement à la main avec une fleur mâle.\n  4. Courge posée sur paille avec pédoncule sec et boisé.\n  5. Graines lavées à l'eau claire sur plateau en bambou.\n- Annotations : Numéros 1 à 5 bien visibles.",
+      "image": "assets/images/b8_courge/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Le matériel nécessaire",
+      "text": "Pour sécuriser et récolter vos graines de courge :\n- De petits liens (bouts de ficelle, pinces ou ruban) pour fermer les corolles de fleurs la veille au soir.\n- Un couteau solide pour fendre les courges dures.\n- Une cuillère pour racler les graines sans entamer la chair.\n- Une cuvette d'eau propre pour le rinçage.\n- Un plateau en bois ou une natte à mailles fines pour le séchage.\n- Un bocal étanche pour conserver vos précieuses graines.",
+      "illustration_description": "- Type : Inventaire à plat des outils.\n- Éléments : Pince à linge en bois, bobine de ficelle de jute, grand couteau de cuisine, cuillère en métal, récipient d'eau claire, cadre de séchage grillagé et bocal en verre fermé.\n- Annotations : Flèches avec noms de chaque outil.",
+      "image": "assets/images/b8_courge/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Les 3 grandes espèces de courges : la clé des croisements",
+      "text": "Toutes les courges ne se croisent pas entre elles ! Elles se divisent en 3 espèces principales :\n- **Cucurbita pepo** : courgettes, pâtissons, courges de forme ovale à pédoncule anguleux à 5 côtés sans élargissement.\n- **Cucurbita moschata** (Courge musquée, Butternut) : adore la forte chaleur, pédoncule évasé en patte d'éléphant là où il touche le fruit.\n- **Cucurbita maxima** (Giraumon, Potiron) : gros fruits, pédoncule rond et liégeux comme du liège doux.  \nDeux variétés d'espèces différentes peuvent pousser côte à côte sans jamais se croiser !",
+      "illustration_description": "- Type : Schéma comparatif des pédoncules (tiges de fixation du fruit).\n- Éléments : \n  - À gauche (*pepo*) : tige à 5 arêtes nettes et piquante.\n  - Au centre (*moschata*) : tige s'élargissant nettement en entonnoir sur la peau de la courge.\n  - À droite (*maxima*) : tige cylindrique ronde, spongieuse comme du bouchon.\n- Annotations : \"Pepo : anguleux\", \"Moschata : évasé en trompette\", \"Maxima : gros et rond\".",
+      "image": "assets/images/b8_courge/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Reconnaître la fleur mâle et la fleur femelle",
+      "text": "La courge porte des fleurs mâles et des fleurs femelles séparées sur le même pied. C'est une plante **monoïque**.  \n- La **fleur femelle** a une petite courge miniature bien visible juste sous la fleur jaune. C'est elle qui deviendra le gros légume.  \n- La **fleur mâle** pousse au bout d'une longue tige fine et droite, sans petite courge en dessous. Elle ne donne jamais de fruit mais fournit le pollen.",
+      "illustration_description": "- Type : Dessin côte à côte de deux fleurs épanouies sur une même tige rampante.\n- Éléments : \n  - Fleur femelle à gauche : fleur jaune éclatante posée sur une petite courge miniature verte de la taille d'une noix.\n  - Fleur mâle à droite : fleur jaune identique portée sur une haute tige mince de 20 cm.\n- Annotations : \"Fleur femelle (avec mini-courge)\", \"Fleur mâle (tige simple)\".",
+      "image": "assets/images/b8_courge/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Pourquoi faire la pollinisation manuelle ?",
+      "text": "Les fleurs de courges ne s'ouvrent que pendant une seule matinée ! Les abeilles adorent visiter les fleurs et transportent le pollen sur plusieurs kilomètres.  \nSi deux variétés de la même espèce fleurissent dans les environs, les insectes les croiseront.  \nPour obtenir des graines **100 % pures**, la pollinisation manuelle faite par le maraîcher est la méthode la plus simple et la plus sûre !",
+      "illustration_description": "- Type : Scène de terrain matinale.\n- Éléments : Une abeille couverte de pollen jaune s'envolant d'une fleur de courge. En arrière-plan, le maraîcher qui observe ses fleurs au lever du jour avec le matériel de fermeture en main.\n- Annotations : \"Fleur ouverte 1 seul matin !\", \"Insectes = risque de croisement à 1 km\", \"Pollinisation manuelle = pureté garantie ✅\".",
+      "image": "assets/images/b8_courge/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Étape 1 : Préparer les fleurs la veille au soir",
+      "text": "En fin d'après-midi, observez vos lianes porte-graines :\n- Repérez une fleur femelle et deux fleurs mâles qui sont grosses, jaunes mais **encore fermées**, prêtes à s'ouvrir le lendemain matin.\n- Fermez délicatement l'extrémité des pétales avec une petite pince à linge, un bout de ficelle ou du ruban adhésif doux.  \nLes pétales fermés empêchent les insectes d'entrer avant vous !",
+      "illustration_description": "- Type : Deux gros plans sur les gestes du soir.\n- Éléments : \n  - Vue d'une fleur femelle dont le bout des pétales jaunes est noué avec une boucle de ficelle douce.\n  - Vue d'une fleur mâle attachée de la même façon avec une pince à linge.\n- Contexte : Crépuscule, soleil couchant.\n- Annotations : \"Fermer la veille au soir\", \"Pétale noué = aucun insecte ne peut entrer\".",
+      "image": "assets/images/b8_courge/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Étape 2 : Féconder la fleur au petit matin",
+      "text": "Le lendemain matin, avant que le soleil ne soit trop chaud (entre 6h et 8h) :\n1️⃣ Cueillez la fleur mâle fermée et retirez délicatement ses pétales jaunes pour mettre à nu la colonne de pollen jaune vif.  \n2️⃣ Ouvrez la fleur femelle protégée.  \n3️⃣ Frottez doucement la fleur mâle sur le centre de la fleur femelle : déposez une généreuse couche de pollen jaune.  \n4️⃣ Refermez immédiatement la fleur femelle avec le lien.",
+      "illustration_description": "- Type : Gros plan sur l'action de pollinisation manuelle.\n- Éléments : Deux mains expertes. La main gauche maintient la fleur femelle ouverte. La main droite tient la tige de la fleur mâle effeuillée et frotte doucement l'extrémité couverte de pollen doré sur les lobes du pistil au fond de la fleur femelle.\n- Annotations : \"Frotter le pollen mâle sur le cœur femelle\", \"Refermer aussitôt après la fécondation\".",
+      "image": "assets/images/b8_courge/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Étape 3 : Marquer le jeune fruit fécondé",
+      "text": "Attachez un ruban de couleur vive ou un morceau de tissu rouge autour de la tige du fruit que vous venez de féconder.  \nDeux à trois jours plus tard, la fleur fane et la petite courge commence à gonfler : la fécondation a réussi !  \nVous pouvez retirer le lien sur la fleur fanée, mais laissez le ruban de couleur sur la tige jusqu'à la récolte finale pour éviter que quelqu'un ne cueille le fruit par mégarde.",
+      "illustration_description": "- Type : Gros plan sur la jeune courge quelques jours plus tard.\n- Éléments : La petite courge a doublé de taille. Les pétales sont maintenant secs et noircis au bout du fruit. Un ruban rouge vif bien noué sur la tige indique que ce fruit est réservé pour la semence.\n- Annotations : \"Fécondation réussie : le fruit grossit\", \"Ruban rouge maintenu jusqu'à la récolte\".",
+      "image": "assets/images/b8_courge/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Étape 4 : Récolter et laisser maturer le fruit",
+      "text": "Laissez la courge mûrir au champ le plus longtemps possible :\n- Récoltez quand la peau est devenue très dure (l'ongle ne peut plus la rayer) et que la tige qui la relie à la liane (le pédoncule) est complètement sèche, grisâtre et ligneuse comme du bois.  \n- Coupez en gardant 5 cm de tige sur le fruit.  \nStockez la courge dans une pièce ventilée pendant **au moins 1 mois** avant de l'ouvrir : les graines continuent à s'enrichir et deviennent beaucoup plus fertiles !",
+      "illustration_description": "- Type : Vue d'une courge à parfaite maturité de semence.\n- Éléments : Une grosse courge posée sur un lit de paille sèche. Le pédoncule est ridé, sec et beige clair. Une main essaye d'enfoncer l'ongle dans la peau de la courge sans y parvenir.\n- Annotations : \"Pédoncule liégeux et sec\", \"Peau dure comme du bois\", \"Laisser reposer 1 mois au sec\".",
+      "image": "assets/images/b8_courge/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Étape 5A : Ouvrir et extraire les graines",
+      "text": "Ouvrez la courge en deux moitiés avec un couteau solide en faisant attention à ne pas couper les graines au milieu.  \nAvec une cuillère, raclez le cœur fibreux pour détacher les graines.  \nMettez les graines dans une bassine d'eau claire et frottez-les entre vos doigts : les filaments et débris de chair se séparent facilement.  \n❌ Les graines de courge n'ont pas besoin de fermentation ! Un simple lavage à l'eau suffit.",
+      "illustration_description": "- Type : Vue plongeante sur l'extraction.\n- Éléments : Deux demi-courges montrant la chair orange et la cavité remplie de belles graines blanches entourées de fibres. Une cuillère racle doucement les graines qui tombent dans une cuvette d'eau.\n- Annotations : \"Fendre en deux sans abîmer le centre\", \"Raclage à la cuillère\", \"Lavage simple sans fermentation\".",
+      "image": "assets/images/b8_courge/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Étape 5B : Le séchage et le test de cassure",
+      "text": "Égouttez les graines et étalez-les en couche fine sur une claie grillagée ou une natte tressée.  \nFaites sécher à l'ombre dans un lieu très aéré pendant **1 à 2 semaines**. Remuez souvent.  \nPour vérifier que la semence est prête à être conservée :\n- Prenez une graine sèche entre vos deux pouces et pliez-la.\n- Elle doit **casser net avec un petit claquement sec**. Si elle plie sans rompre, elle contient encore de l'eau : poursuivez le séchage.",
+      "illustration_description": "- Type : Deux vignettes explicatives.\n- Éléments : \n  - À gauche : graines étalées sur une claie surélevée sous un hangar bien ventilé.\n  - À droite : gros plan sur une graine brisée net en deux morceaux nets entre deux doigts.\n- Annotations : \"Séchage à l'ombre ventilée\", \"Test de cassure nette = graine parfaitement sèche ✅\".",
+      "image": "assets/images/b8_courge/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Stockage et longue longévité",
+      "text": "Enfermez vos semences de courge bien sèches dans un récipient étanche (bocal en verre ou boîte métallique hermétique).  \nNotez sur une étiquette le nom de la variété, l'espèce exacte (*pepo*, *moschata* ou *maxima*) et l'année.  \nAjoutez un peu de cendre tamisée pour bloquer toute humidité.  \nLes semences de courge ont une vitalité exceptionnelle : elles peuvent germer vigoureusement pendant **6 à 10 ans** !",
+      "illustration_description": "- Type : Présentation du stockage dans une réserve fraîche et sèche.\n- Éléments : Un grand bocal en verre transparent rempli de grosses graines de courge blanc crème immaculées, avec une étiquette extérieure et intérieure claire. À l'arrière, les étagères de la réserve paysanne.\n- Annotations : \"Bocal hermétique\", \"Graines vivantes pendant 6 à 10 ans !\".",
+      "image": "assets/images/b8_courge/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Résumé et félicitations",
+      "text": "Félicitations ! Vous savez désormais produire des semences de courge fidèles, généreuses et durables :\n✅ Vous distinguez les 3 espèces pour cultiver plusieurs types de courges sans risque de mélange.  \n✅ Vous reconnaissez les fleurs mâles et femelles dès le premier coup d'œil.  \n✅ Vous maîtrisez la pollinisation manuelle du matin pour sécuriser vos variétés paysannes.  \n✅ Vous laissez mûrir la courge jusqu'au pédoncule sec avec son mois de garde.  \n✅ Vous séchez les graines à l'ombre jusqu'au test de cassure nette.  \n\nVos parcelles porteront d'abondantes récoltes de courges saison après saison !",
+      "illustration_description": "- Type : Composition visuelle finale festive et gratifiante.\n- Éléments : Le maraîcher souriant entouré de magnifiques courges bien pleines, montrant une poignée de semences impeccables prêtes pour la prochaine campagne de semis.\n- Annotations : \"Félicitations ! Semences de courge paysannes réussies ✅\".",
+      "image": "assets/images/b8_courge/page_14.jpg"
+    }
+  ]
+}

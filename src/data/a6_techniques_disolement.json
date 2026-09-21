@@ -1,0 +1,121 @@
+{
+  "id": "a6_techniques_disolement",
+  "title": "Les techniques d'isolement",
+  "category": "Fondamentaux",
+  "summary": "Découvrez comment protéger vos variétés de semences paysannes contre les croisements indésirables grâce à 3 techniques simples et concrètes : la distance dans le champ, le décalage dans le temps, et la barrière mécanique avec un voile moustiquaire.",
+  "total_pages": 16,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Protéger la pureté de nos semences",
+      "text": "Au village ou sur le périmètre maraîcher, beaucoup de voisins cultivent des légumes proches des vôtres.\nSi le vent ou les abeilles transportent le pollen entre deux variétés différentes, vos semences perdront leurs qualités !\nPour garder une semence fidèle à elle-même, nous devons l'isoler.\nDans ce module, nous allons découvrir 3 façons très simples d'empêcher les mélanges indésirables !",
+      "illustration_description": "Deux parcelles de courges voisines séparées : un point d'interrogation et un panneau de garde stylisé symbolisant la protection entre les deux cultures.",
+      "image": "assets/images/a6_techniques_disolement/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Première méthode : l'isolement dans l'espace (la distance)",
+      "text": "La façon la plus naturelle d'éviter les croisements est d'éloigner les parcelles !\nSi deux variétés de la même espèce sont plantées assez loin l'une de l'autre, le pollen de l'une ne pourra pas atteindre l'autre.\nC'est ce qu'on appelle **l'isolement dans l'espace**.\nMais à quelle distance faut-il les séparer ?",
+      "illustration_description": "Vue aérienne d'un domaine maraîcher montrant deux parcelles éloignées avec une flèche de mesure entre les deux.",
+      "image": "assets/images/a6_techniques_disolement/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Les distances pour les insectes et pour le vent",
+      "text": "La distance dépend de la façon dont le pollen voyage :\n- **Insectes** (courges, oignons, choux) : séparez les parcelles d'au moins 300 à 500 mètres.\n- **Vent** (maïs, épinard) : le pollen vole très loin ! Il faut au moins 500 mètres à 1 kilomètre d'éloignement.\n- **Fleurs fidèles** (tomate, niébé) : quelques dizaines de mètres suffisent sous nos climats, ou une simple barrière végétale.",
+      "illustration_description": "Schéma récapitulatif avec 3 repères :\n1. Une abeille volant avec une ligne pointillée de 500 m.\n2. Une bourrasque de vent emportant le pollen de maïs avec une ligne pointillée de 1 km ⚠️.\n3. Un plant de haricot avec une ligne de 10 à 20 m ✅.",
+      "image": "assets/images/a6_techniques_disolement/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Les haies vivantes : le brise-vent et le piège à abeilles",
+      "text": "Si votre terrain est trop petit pour respecter 500 mètres de distance :\nPlantez une haie dense d'arbres, de graminées hautes ou de bananiers entre vos parcelles !\nLa haie brise le souffle du vent et retient le pollen volant.\nDe plus, en semant beaucoup de fleurs mellifères autour de la haie, les abeilles butinent sur place et ne vont pas plus loin !",
+      "illustration_description": "Coupe transversale de terrain :\nUne haie dense et haute (bananiers, vétiver ou arbustes locaux) dressée entre deux petites planches. Le vent et les insectes sont déviés ou arrêtés au niveau de la haie.",
+      "image": "assets/images/a6_techniques_disolement/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Deuxième méthode : l'isolement dans le temps (le décalage)",
+      "text": "Si vous manquez de place pour éloigner vos parcelles :\nFaites fleurir vos légumes à des moments différents !\nC'est ce qu'on appelle **l'isolement dans le temps**.\nSi deux variétés de la même espèce ne sont jamais fleuries en même temps, aucun croisement n'est possible, même si elles sont plantées côte à côte !",
+      "illustration_description": "Calendrier illustré montrant deux variétés de laitue sur la même planche :\n- Variété A : Déjà en fleurs jaunes et graines (fin de cycle).\n- Variété B : Au tout premier stade de jeunes feuilles vertes (pas encore de fleurs).",
+      "image": "assets/images/a6_techniques_disolement/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Comment pratiquer le décalage en pratique",
+      "text": "Pour réussir l'isolement dans le temps :\n1. Semez votre première variété au début de la saison.\n2. Attendez plusieurs semaines pour semer la deuxième variété.\nQuand la première variété finit de fleurir et commence à sécher ses graines, la deuxième variété n'ouvre que ses tout premiers boutons.\nLe pollen ne peut jamais se mélanger !",
+      "illustration_description": "Frise temporelle sur 3 mois montrant le cycle décalé des deux variétés :\nMois 1 (Semis A), Mois 2 (Floraison A + Semis B), Mois 3 (Graines A mûres + Floraison B).",
+      "image": "assets/images/a6_techniques_disolement/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Troisième méthode : l'isolement mécanique (le voile)",
+      "text": "Quand on ne peut ni éloigner dans l'espace, ni décaler dans le temps :\nOn pose une barrière physique que les insectes ne peuvent pas traverser.\nC'est ce qu'on appelle **l'isolement mécanique**.\nOn utilise un tissu très léger et ajouré : le **voile moustiquaire** (filet anti-insectes ou tulle fin).",
+      "illustration_description": "Gros plan sur un morceau de voile moustiquaire tenu en main : le tissu laisse passer l'air et la lumière du soleil, mais les mailles sont trop serrées pour laisser passer la moindre fourmi ou abeille.",
+      "image": "assets/images/a6_techniques_disolement/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Ensacher une fleur unique (pour les plantes fidèles)",
+      "text": "Pour une petite récolte de semences sur tomate, piment ou aubergine :\nVous pouvez protéger une seule fleur ou un seul bouquet floral !\nPrenez un petit sachet de tulle fin.\nEnfilez-le sur la fleur AVANT qu'elle ne s'ouvre, puis serrez doucement avec un cordon ou un élastique à la tige.\nAucun insecte ne pourra y déposer un pollen étranger !",
+      "illustration_description": "Zoom sur une fleur de tomate encore fermée en bouton :\nUn petit sac en tulle blanc translucide est enfilé par-dessus et noué avec un brin de ficelle à la base.\nAnnotation : \"Poser le sac avant l'ouverture du bouton floral ✅\".",
+      "image": "assets/images/a6_techniques_disolement/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Retirer le sachet dès la nouaison",
+      "text": "Dès que les pétales de la fleur fanent et tombent, vous apercevez un petit fruit vert qui commence à grossir :\nLa fécondation est réussie !\nRetirez délicatement le sachet en tulle pour que le fruit profite du soleil et grandisse sans contrainte.\nNouez immédiatement un ruban de couleur au pédoncule pour ne pas l'oublier !",
+      "illustration_description": "Deux images successives :\n1. Les pétales sont secs, une petite bille verte (mini-fruit) apparaît. On retire le sac.\n2. Un ruban rouge est noué autour du pédoncule du fruit avec la mention : \"Graine pure garantie ✅\".",
+      "image": "assets/images/a6_techniques_disolement/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "La cage moustiquaire sur une planche complète",
+      "text": "Si vous voulez récolter un bol entier de graines de tomates ou de piments :\nConstruisez une cage ou un mini-tunnel sur votre planche !\nPlantez des arceaux en bambou ou en fer à béton souple au-dessus de vos plants.\nRecouvrez l'ensemble avec une grande moustiquaire et enterrez bien les bords dans la terre pour qu'aucun insecte ne passe dessous.",
+      "illustration_description": "Une planche maraîchère couverte d'un tunnel en arceaux recouvert d'un voile moustiquaire blanc bien tendu. Au sol, les bords du tissu sont recouverts de pelletées de terre bien tassées.",
+      "image": "assets/images/a6_techniques_disolement/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Le défi des plantes allogames sous abri",
+      "text": "⚠️ Attention avec les plantes qui ont BESOIN des insectes (comme les courges ou les concombres) :\nSi vous les enfermez sous une moustiquaire, les abeilles ne peuvent plus entrer.\nLa fleur femelle ne recevra aucun pollen et le fruit pourrira sans faire de graines !\nPour ces plantes sous abri, vous devez faire le travail de l'abeille vous-même : c'est la **pollinisation manuelle** !",
+      "illustration_description": "Fleur femelle de courge sous moustiquaire non visitée : le mini-fruit jaunit et commence à pourrir à l'extrémité avec un picto déçu ❌.\nBulle : \"Sans insecte ni maraîcher, pas de fécondation !\".",
+      "image": "assets/images/a6_techniques_disolement/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "La technique de l'ouverture alternée des tunnels",
+      "text": "Voici une astuce remarquable pour cultiver deux variétés de courges ou courgettes dans le même potager :\nPlacez la Variété 1 sous le Tunnel A, et la Variété 2 sous le Tunnel B.\n- **Jour 1** : Vous ouvrez le Tunnel A dès 6h du matin pour les abeilles, et vous laissez le Tunnel B fermé.\n- **Jour 2** : Vous faites l'inverse ! Vous fermez le Tunnel A et vous ouvrez le Tunnel B.\nLes abeilles ne mélangent jamais les pollens des deux variétés !",
+      "illustration_description": "Schéma à deux compartiments :\n- Lundi : Tunnel A ouvert (abeilles au travail) / Tunnel B fermé (protégé).\n- Mardi : Tunnel A fermé (protégé) / Tunnel B ouvert (abeilles au travail).\nMention : \"Zéro croisement entre les deux variétés ✅\".",
+      "image": "assets/images/a6_techniques_disolement/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Règle d'or de l'ouverture alternée : les horaires",
+      "text": "Si vous utilisez la méthode des tunnels alternés :\nOuvrez impérativement le tunnel très tôt le matin (au lever du soleil) car c'est là que les fleurs s'ouvrent et que les abeilles travaillent le plus !\nRefermez le tunnel en fin de journée quand la chaleur retombe et que les fleurs sont fanées.\nVérifiez qu'aucune abeille n'est restée prisonnière à l'intérieur avant de refermer !",
+      "illustration_description": "Le maraîcher soulève le voilage d'un tunnel dans la lumière dorée de l'aube. Une petite horloge indique 6h30 du matin.",
+      "image": "assets/images/a6_techniques_disolement/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Les erreurs fréquentes à éviter absolument",
+      "text": "Attention aux pièges courants sur le terrain :\n❌ Utiliser un filet avec des mailles trop larges où passent les petits insectes.\n❌ Laisser un trou ou un espace non enterré au bas de la moustiquaire.\n❌ Oublier de supprimer les fleurs déjà ouvertes avant de poser le sachet (elles ont peut-être déjà été visitées par une abeille !).",
+      "illustration_description": "Trois pictogrammes d'erreurs barrés d'un rond rouge :\n1. Trous larges dans le filet traversés par des guêpes.\n2. Bas de bâche flottant au vent avec une ouverture au sol.\n3. Sac posé sur une fleur déjà largement épanouie.",
+      "image": "assets/images/a6_techniques_disolement/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Choisir la technique adaptée à sa situation",
+      "text": "Comment choisir votre solution ?\n- **Grand champ dégagé** : misez sur la distance (isolement dans l'espace) ✅.\n- **Petite parcelle villageoise** : combinez le décalage des dates de semis et les haies végétales ✅.\n- **Maraîchage intensif serré** : utilisez les sachets en tulle ou les mini-tunnels voilés ✅.\nÀ chaque jardin sa solution pratique !",
+      "illustration_description": "Schéma décisionnel clair montrant les trois types de maraîchers choisissant chacun leur méthode avec le sourire selon la taille de leur terrain.",
+      "image": "assets/images/a6_techniques_disolement/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Félicitations ! Vos variétés sont en parfaite sécurité",
+      "text": "Bravo ! Vous maîtrisez les techniques d'isolement des semenciers :\n✅ Vous savez calculer les distances pour le vent et les insectes\n✅ Vous savez utiliser le décalage des périodes de semis\n✅ Vous savez protéger une fleur ou un rang complet avec une moustiquaire\nProchain module : la récolte, l'extraction, le séchage et la conservation des graines !",
+      "illustration_description": "Le maraîcher contemple ses parcelles protégées avec calme et sérénité.\nAu-dessus, un bouclier doré symbolisant la pureté variétale préservée, entouré de coches vertes ✅.",
+      "image": "assets/images/a6_techniques_disolement/page_16.jpg"
+    }
+  ]
+}

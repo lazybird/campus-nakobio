@@ -1,0 +1,128 @@
+/* Feuille de Style Impression & Export PDF (Esprit PDF Nakôbio Paysage) */
+
+@page {
+  size: A4 landscape;
+  margin: 0;
+}
+
+@media print {
+  /* Masquer les éléments interactifs d'interface */
+  .lesson-nav,
+  .btn-print,
+  .nav-back-link,
+  .scroll-progress-container,
+  .completion-actions,
+  .slide-flow-divider,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #1e2619 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .lesson-container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    gap: 0 !important;
+  }
+
+  /* Page de couverture / Intro */
+  .module-hero-intro {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    page-break-after: always;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    padding: 4rem 3rem !important;
+    background: #faf7f2 !important;
+  }
+
+  /* Chaque étape du cours = 1 diapositive PDF paysage exacte */
+  .slide-unit {
+    width: 100vw !important;
+    height: 100vh !important;
+    max-height: 100vh !important;
+    page-break-before: always;
+    page-break-after: always;
+    page-break-inside: avoid;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 0 !important;
+  }
+
+  .slide-visual-wrapper {
+    flex: 1 1 65% !important;
+    height: 65vh !important;
+    max-height: 65vh !important;
+    aspect-ratio: auto !important;
+    background: #fbf8f3 !important;
+  }
+
+  .slide-visual-wrapper img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+  }
+
+  .slide-number-tag {
+    top: 1.5rem !important;
+    left: 2rem !important;
+    font-size: 0.9rem !important;
+    background: #1e3b17 !important;
+    color: #ffffff !important;
+  }
+
+  .slide-body-text {
+    flex: 0 0 35% !important;
+    height: 35vh !important;
+    padding: 1.5rem 3rem !important;
+    border-top: 4px solid #7bb02a !important;
+    box-sizing: border-box !important;
+    background: #ffffff !important;
+    overflow: hidden !important;
+  }
+
+  .slide-step-title {
+    font-size: 1.4rem !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .slide-pedagogical-content {
+    font-size: 1.05rem !important;
+    line-height: 1.45 !important;
+  }
+
+  .slide-alert {
+    padding: 0.4rem 0.8rem !important;
+    margin-top: 0.4rem !important;
+    font-size: 0.95rem !important;
+  }
+
+  .lesson-footer-completion {
+    page-break-before: always;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+    border-radius: 0 !important;
+  }
+}

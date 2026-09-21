@@ -1,0 +1,224 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Formations Agroécologiques">
+  <section class="hero">
+    <div class="container hero-content">
+      <span class="badge badge-primary">Plateforme de formation ouverte</span>
+      <h1 class="hero-title">L'autonomie paysanne par la pratique et le vivant</h1>
+      <p class="hero-subtitle">
+        Des parcours concrets, illustrés et conçus pour le terrain en climat tropical et sahélien. 
+        Choisissez votre domaine d'apprentissage ci-dessous.
+      </p>
+    </div>
+  </section>
+
+  <section class="tracks-section">
+    <div class="container">
+      <div class="tracks-grid">
+        <!-- Carte Parcours 1: Semences -->
+        <div class="track-card">
+          <div class="track-header">
+            <div class="track-icon">🌱</div>
+            <span class="badge badge-primary">Disponible • 36 modules</span>
+          </div>
+          <h2 class="track-title">Production de Semences Paysannes</h2>
+          <p class="track-desc">
+            Apprenez à sélectionner, récolter, extraire et conserver vos propres graines 
+            reproductibles pour préserver la biodiversité potagère et assurer l'autonomie de votre exploitation.
+          </p>
+          <ul class="track-features">
+            <li>✓ Fondamentaux botaniques et pollinisation</li>
+            <li>✓ 27 fiches détaillées par espèce légumière</li>
+            <li>✓ Techniques de séchage et stockage tropical</li>
+            <li>✓ Visualiseur pas-à-pas et fiches imprimables</li>
+          </ul>
+          <div class="track-action">
+            <a href="/semences" class="btn btn-primary" style="width: 100%;">
+              Accéder aux 36 cours semences →
+            </a>
+          </div>
+        </div>
+
+        <!-- Carte Parcours 2: Maraîchage -->
+        <div class="track-card track-card-muted">
+          <div class="track-header">
+            <div class="track-icon">🌿</div>
+            <span class="badge badge-neutral">En cours de numérisation</span>
+          </div>
+          <h2 class="track-title">Maraîchage Bio-Intensif en Sol Vivant</h2>
+          <p class="track-desc">
+            Intensifiez vos récoltes légumières tout en régénérant la fertilité naturelle du sol : 
+            planches de cultures permanentes, optimisation des pépinières et gestion économe de l'eau.
+          </p>
+          <ul class="track-features">
+            <li>✓ Le sol vivant et la vie microbiologique</li>
+            <li>✓ Confection de planches permanentes non piétinées</li>
+            <li>✓ Stratégies d'arrosage et d'irrigation adaptées</li>
+            <li>✓ Multi-cultures bio-intensives à haut rendement</li>
+          </ul>
+          <div class="track-action">
+            <a href="/maraichage" class="btn btn-outline" style="width: 100%;">
+              Découvrir le programme maraîchage
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="approach-section">
+    <div class="container">
+      <div class="approach-box">
+        <h3 class="approach-title">Une méthode pédagogique adaptée au terrain</h3>
+        <div class="approach-grid">
+          <div class="approach-item">
+            <h4>Visuelle & Accessible</h4>
+            <p>Conçue avec des illustrations claires et séquencées pour être comprise rapidement par tous les maraîchers.</p>
+          </div>
+          <div class="approach-item">
+            <h4>Adaptée au Climat Chaud</h4>
+            <p>Techniques éprouvées tenant compte de la chaleur, de l'évaporation et des contraintes en eau et en électricité.</p>
+          </div>
+          <div class="approach-item">
+            <h4>100% Reproductible</h4>
+            <p>Pas de matériel hors de prix ni d'intrants chimiques : valorisation des matières et savoir-faire locaux.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    background-color: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    padding: 4.5rem 0 3.5rem;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 760px;
+  }
+
+  .hero-title {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: var(--color-primary-deep);
+    margin: 1rem 0 0.85rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+  }
+
+  .hero-subtitle {
+    font-size: 1.15rem;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+  }
+
+  .tracks-section {
+    padding: 3.5rem 0;
+  }
+
+  .tracks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+
+  .track-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .track-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--color-border-hover);
+  }
+
+  .track-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+  }
+
+  .track-icon {
+    font-size: 2rem;
+  }
+
+  .track-title {
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: var(--color-primary-deep);
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+  }
+
+  .track-desc {
+    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.55;
+    margin-bottom: 1.5rem;
+  }
+
+  .track-features {
+    list-style: none;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+  }
+
+  .track-action {
+    margin-top: auto;
+  }
+
+  .approach-section {
+    padding: 1rem 0 3rem;
+  }
+
+  .approach-box {
+    background-color: #f7f6f1;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 2.5rem 2rem;
+  }
+
+  .approach-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--color-primary-deep);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .approach-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .approach-item h4 {
+    color: var(--color-primary-deep);
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .approach-item p {
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+</style>

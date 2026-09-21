@@ -1,0 +1,93 @@
+{
+  "id": "b3_piment",
+  "title": "Produire ses semences de piment",
+  "category": "Production par Légume",
+  "summary": "Apprenez à sélectionner vos plants de piments les plus vigoureux et piquants, à gérer l'isolement face aux croisements très fréquents avec les poivrons, et à extraire les graines en toute sécurité sans vous brûler les mains ni les yeux.",
+  "total_pages": 12,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Bienvenue dans la production de semences de piment",
+      "text": "Le piment est un condiment indispensable, réputé pour sa saveur puissante, ses vertus médicinales et sa conservation facile. En produisant vous-même vos semences, vous conserverez les variétés traditionnelles les plus adaptées à votre climat, tout en préservant leur niveau exact de piquant et leur parfum unique !",
+      "illustration_description": "- Type : Vue d'ensemble attrayante et colorée.\n- Éléments : Un maraîcher souriant devant une belle haie de plants de piments chargés de petits fruits rouge écarlate et jaune vif bien brillants. Il tient un panier tressé rempli de piments mûrs.\n- Contexte : Lumière chaude du matin en bordure de potager.",
+      "image": "assets/images/b3_piment/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Ce que vous allez apprendre",
+      "text": "Dans cette fiche technique, vous découvrirez :\n1️⃣ Comment fonctionne la fleur de piment et les risques de croisements.  \n2️⃣ Les distances d'isolement strictes avec les poivrons doux.  \n3️⃣ La sélection des meilleurs pieds porte-graines au champ.  \n4️⃣ Les règles de protection impératives pour extraire les graines piquantes.  \n5️⃣ Le lavage rapide à l'eau, le séchage à l'ombre et le stockage longue durée.",
+      "illustration_description": "- Type : Schéma pas-à-pas en 5 icônes séquentielles.\n- Éléments : \n  1. Fleur blanche de piment.\n  2. Deux parcelles éloignées (piment et poivron).\n  3. Plant marqué d'un ruban avec de beaux fruits mûrs.\n  4. Mains gantées ouvrant un piment rouge.\n  5. Graines beiges étalées sur une assiette sous abri ventilé.\n- Annotations : Numéros 1 à 5.",
+      "image": "assets/images/b3_piment/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Le matériel et la sécurité indispensables",
+      "text": "⚠️ Le jus et la pulpe du piment contiennent une substance très brûlante : la **capsaïcine**.  \nPour extraire les graines sans danger :\n- Portez impérativement des **gants épais** (ou enveloppez vos mains dans des sachets plastiques étanches).\n- Ne touchez JAMAIS vos yeux, votre nez ou votre visage pendant le travail.\n- Travaillez à l'extérieur ou sous un auvent très aéré pour ne pas respirer les vapeurs piquantes.",
+      "illustration_description": "- Type : Composition visuelle d'avertissement et de sécurité.\n- Éléments : Une personne enfilant des gants solides en caoutchouc. À côté : lunettes simples, couteau propre et planche. Un panneau d'alerte avec une main barrée près des yeux pour rappeler l'interdiction formelle de se frotter le visage.\n- Annotations : \"Gants obligatoires ⚠️\", \"Ne jamais toucher les yeux ou le visage ❌\", \"Travailler à l'air libre ✅\".",
+      "image": "assets/images/b3_piment/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "La fleur de piment et sa pollinisation",
+      "text": "La fleur de piment est blanche ou violacée. Elle possède à la fois les étamines mâles et le pistil femelle dans la même fleur.  \nLa plante est **autoféconde** : le pollen féconde souvent la fleur directement lorsqu'elle bouge avec le vent.  \nSecouer doucement les tuteurs pendant la floraison favorise une excellente formation des graines !",
+      "illustration_description": "- Type : Gros plan botanique simplifié sur une fleur de piment.\n- Éléments : Une jolie petite fleur étoilée blanche. Au cœur : les étamines gris-bleuté entourant le pistil central vert pâle. Une main secouant très légèrement la tige pour libérer une fine poussière de pollen.\n- Annotations : \"Fleur hermaphrodite\", \"Secouer doucement = bonne fécondation\".",
+      "image": "assets/images/b3_piment/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Attention au grand risque de croisement !",
+      "text": "⚠️ Les piments et les poivrons appartiennent à la même espèce botanique : ils se croisent très facilement grâce aux insectes (abeilles, bourdons).  \n- Si un piment croise un poivron doux, vos futurs poivrons deviendront piquants !  \n- En zone chaude, les insectes volent loin : séparez vos variétés de piments et poivrons d'au moins **500 mètres**, ou **200 mètres** avec une haie dense.",
+      "illustration_description": "- Type : Schéma d'avertissement de croisement variétal.\n- Éléments : Un plant de piment fort à gauche et un plant de poivron doux à droite. Une abeille vole de l'un à l'autre en transportant du pollen. Au milieu, un point d'exclamation rouge d'alerte.\n- Annotations : \"Piment fort + Poivron doux = Croisement involontaire !\", \"Distance d'isolement : 500 m en climat chaud\".",
+      "image": "assets/images/b3_piment/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Étape 1 : Sélectionner les plants au potager",
+      "text": "Choisissez vos semenciers pendant la culture, jamais sur un tas de fruits récoltés :\n- Des plants solides, trapus, avec des branches robustes qui ne cassent pas sous le poids des fruits.\n- Aucun signe de jaunissement, de virus ou de feuilles rabougries.\n- Des fruits nombreux, réguliers et bien formés, typiques de la variété locale voulue.  \nMarquez au moins **6 à 10 plants** avec un ruban de couleur.",
+      "illustration_description": "- Type : Scène de sélection au champ.\n- Éléments : Le maraîcher admirant un plant de piment vigoureux au feuillage vert sombre et dense, garni de nombreux fruits réguliers. Un ruban orange est attaché au sommet d'un piquet à côté du plant.\n- Annotations : \"Branches fortes et saines\", \"Feuillage dense\", \"Ruban de repérage bien visible\".",
+      "image": "assets/images/b3_piment/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Étape 2 : Récolter à pleine maturité colorée",
+      "text": "Ne récoltez JAMAIS les piments verts pour la semence ! Les graines à l'intérieur ne sont pas encore formées et ne germeront pas.  \nAttendez que le fruit change complètement de couleur :\n- Les piments verts doivent devenir **rouge vif, orange vif ou marron chocolat** selon la variété.\n- La peau devient légèrement souple sous une pression douce des doigts.  \nRécoltez de préférence les premiers beaux fruits du milieu du pied.",
+      "illustration_description": "- Type : Comparaison visuelle de maturité sur la même tige.\n- Éléments : \n  - Un piment vert encore dur, marqué d'une croix rouge ❌ pour la semence.\n  - Un piment rouge écarlate éclatant, brillant, marqué d'une coche verte ✅ prêt à être cueilli.\n- Annotations : \"Vert = graines immatures ❌\", \"Totalement rouge/coloré = graines mûres ✅\".",
+      "image": "assets/images/b3_piment/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Étape 3 : L'extraction manuelle sécurisée",
+      "text": "Installez-vous à l'extérieur sur une table à l'ombre.  \n1️⃣ Enfilez vos gants de protection.  \n2️⃣ Avec le couteau, fendez le piment en deux dans le sens de la longueur.  \n3️⃣ Avec la pointe du couteau ou le pouce, détachez délicatement les graines fixées sur la colonne centrale blanche.  \nFaites tomber les graines directement dans un récipient d'eau propre. La chair du piment peut être séchée ou cuisinée.",
+      "illustration_description": "- Type : Gros plan sur les gestes techniques d'ouverture.\n- Éléments : Mains gantées tenant un couteau. Le piment rouge est ouvert en deux moitiés. Les graines blanc cassé fixées sur la partie centrale tombent dans une coupelle en verre contenant de l'eau.\n- Annotations : \"Gants étanches\", \"Fendre en deux\", \"Détacher les graines au couteau\".",
+      "image": "assets/images/b3_piment/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Étape 4 : Le nettoyage et le tri par flottaison",
+      "text": "Pas besoin de faire fermenter les graines de piment !  \n1️⃣ Brassez énergiquement les graines dans l'eau avec les doigts gantés.  \n2️⃣ Les mauvaises graines (vides, plates ou immatures) ainsi que les petits morceaux de peau **flottent à la surface** : écumez-les et jetez-les.  \n3️⃣ Les bonnes graines bien rondes et fécondes **coulent immédiatement au fond**.  \n4️⃣ Videz les bonnes graines dans une passoire fine et rincez une dernière fois à l'eau claire.",
+      "illustration_description": "- Type : Coupe d'une bassine d'eau claire en action de tri.\n- Éléments : Des graines légères et débris flottent en haut (éliminés avec une écumoire). Des graines beiges charnues et denses tapissent le fond de la bassine.\n- Annotations : \"Graines plates qui flottent = à jeter ❌\", \"Graines lourdes au fond = à garder ✅\".",
+      "image": "assets/images/b3_piment/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Étape 5A : Sécher rapidement à l'ombre ventilée",
+      "text": "Égouttez parfaitement les graines dans la passoire.  \nÉtalez-les immédiatement en une seule couche sur une assiette plate, une natte ou un filtre en papier non collant.  \nPlacez-les dans un endroit **sec, bien ventilé et chaud (25° à 30°C), mais toujours à l'abri du soleil direct**.  \nLe séchage doit être rapide : sous climat chaud, comptez **3 à 5 jours**. Remuez-les tous les jours.",
+      "illustration_description": "- Type : Vue du séchoir abrité.\n- Éléments : Des assiettes plates contenant les graines de piment bien étalées, posées sur une étagère en bois sous un hangar aéré. Le vent traverse la pièce sans laisser entrer le soleil brûlant.\n- Annotations : \"Étalage en couche mince\", \"Ombre bien aérée\", \"Séchage en 3 à 5 jours\".",
+      "image": "assets/images/b3_piment/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Étape 5B : Tester la sécheresse et stocker",
+      "text": "Quand les graines sont dures sous l'ongle et tintent comme de petites perles de verre quand vous les agitez :\n- Rangez-les dans un bocal en verre ou un flacon en plastique hermétiquement fermé.\n- Glissez une étiquette avec la variété et l'année de récolte.  \n- Ajoutez une cuillère de cendre de bois tamisée bien sèche pour chasser l'humidité et les insectes.  \nLes semences de piment bien gardées conservent leur force germinative pendant **3 à 6 ans** !",
+      "illustration_description": "- Type : Présentation du conditionnement fini et sécurisé.\n- Éléments : Un bocal transparent rempli de belles graines jaune paille, avec son étiquette intérieure bien lisible (\"Piment Habanero - Récolte 2026\"). Couvercle fermé hermétiquement.\n- Annotations : \"Graines dures et sèches\", \"Bocal hermétique\", \"Durée : 3 à 6 ans de germination\".",
+      "image": "assets/images/b3_piment/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Résumé et félicitations",
+      "text": "Bravo ! Vous savez maintenant récolter vos graines de piment en toute sécurité et avec une excellente qualité germinative :\n✅ Vous protégez vos mains et vos yeux lors de l'extraction.  \n✅ Vous évitez les croisements en isolant piments et poivrons.  \n✅ Vous récoltez uniquement des fruits parvenus à leur couleur finale.  \n✅ Vous triez facilement les semences fécondes par flottaison dans l'eau.  \n✅ Vous séchez à l'ombre pour préserver la vie de la graine.  \n\nVos piments conserveront leur force et leur goût authentique d'une génération à la suivante !",
+      "illustration_description": "- Type : Image de clôture positive et réussie.\n- Éléments : Le maraîcher retirant ses gants avec précaution, montrant un bocal étiqueté de ses propres semences de piments, avec à l'arrière-plan une belle récolte de piments rouges brillants sur un marché local.\n- Annotations : \"Bravo ! Semences paysannes préservées et réussies ✅\".",
+      "image": "assets/images/b3_piment/page_12.jpg"
+    }
+  ]
+}

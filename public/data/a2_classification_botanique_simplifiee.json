@@ -1,0 +1,121 @@
+{
+  "id": "a2_classification_botanique_simplifiee",
+  "title": "Classification botanique simplifiée",
+  "category": "Fondamentaux",
+  "summary": "Apprenez à reconnaître les grandes familles de légumes du potager pour comprendre qui peut se croiser avec qui, et éviter les mauvais mélanges au champ sans jargon compliqué.",
+  "total_pages": 16,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Éviter les mauvaises surprises au champ",
+      "text": "Pourquoi deux concombres plantés à côté d'un melon ne donnent aucun problème, alors que deux piments différents changent complètement de goût ?\nDans ce module, vous allez apprendre à reconnaître les familles de plantes pour protéger la pureté de vos semences.",
+      "illustration_description": "Plan moyen : deux paysans observant avec curiosité deux parcelles voisines. Au milieu, un panneau avec un point d'interrogation et deux légumes illustrés (concombre et melon) avec un grand sourire complice.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Comme une grande famille humaine",
+      "text": "Dans le règne des plantes, c'est comme dans une grande famille humaine :\n- Les plantes d'une même **famille** sont comme des cousins : elles ont des formes de fleurs ou de feuilles similaires.\n- Dans chaque famille, il y a des **espèces** différentes : comme des frères et sœurs.\n- Et dans chaque espèce, il y a différentes **variétés** locales : comme des personnes uniques.",
+      "illustration_description": "Arbre généalogique visuel simplifié :\n- En haut : le grand groupe \"Famille\"\n- Au milieu : deux branches \"Espèces\" (par exemple Espèce Poivron/Piment et Espèce Tomate)\n- En bas : les feuilles avec des photos de légumes réels représentant les \"Variétés\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "La règle d'or des croisements",
+      "text": "Retenez cette règle fondamentale :\nSeules les variétés d'une **MÊME ESPÈCE** peuvent facilement s'accoupler et se croiser.\nDes plantes d'espèces différentes ou de familles différentes ne se croisent JAMAIS naturellement entre elles.\nC'est la nature qui pose cette barrière protectrice.",
+      "illustration_description": "Schéma clair avec pictogrammes :\n- Deux variétés de tomates qui échangent du pollen : flèche verte avec mention \"Se croisent facilement ⚠️\".\n- Une tomate et une carotte côte à côte : grand bouclier infranchissable avec mention \"Croisement impossible ❌\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Première famille : Les Cucurbitacées (la famille des courges)",
+      "text": "Reconnaissables à leurs grandes feuilles rugueuses et leurs tiges qui rampent ou grimpent.\nC'est la famille des **Cucurbitacées**.\nElle regroupe les courges, les courgettes, les concombres, les pastèques et les melons.",
+      "illustration_description": "Vue d'ensemble d'une liane vigoureuse au sol portant des feuilles palmées et une belle fleur jaune en cloche. Autour, vignettes montrant un concombre, une tranche de pastèque, un melon et une courge locale.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Attention aux espèces dans la famille des courges !",
+      "text": "Dans la famille des courges, le concombre et le melon sont des espèces différentes :\n✅ Le concombre ne se croise JAMAIS avec le melon.\n✅ La pastèque ne se croise JAMAIS avec la courge.\n⚠️ Mais deux variétés de melons plantées côte à côte vont TOUJOURS se croiser !",
+      "illustration_description": "Tableau visuel simple :\n- Concombre ↔️ Melon = Croix rouge \"Pas de croisement ✅\"\n- Melon de variété A ↔️ Melon de variété B = Flèche d'avertissement \"Croisement immédiat ⚠️\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Deuxième famille : Les Solanacées (la famille de la tomate)",
+      "text": "Ce sont des plantes aux fleurs en forme de petites étoiles :\nC'est la famille des **Solanacées**.\nElle regroupe la tomate, l'aubergine, le piment, le poivron et la pomme de terre.",
+      "illustration_description": "Gros plan sur une jolie fleur de tomate en étoile à 5 pétales jaunes pointus. Autour, disposition harmonieuse d'un piment rouge vif, d'une tomate bien mûre et d'une aubergine violette brillante.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Piments et poivrons : même espèce !",
+      "text": "Attention danger pour le goût !\nLe piment fort et le poivron doux font partie de la **même espèce**.\nSi vous les plantez trop près, les insectes vont transporter le pollen :\nVos graines de poivron donneront des fruits piquants à la saison suivante !",
+      "illustration_description": "Une abeille volant d'un plant de piment rouge vers une fleur de poivron.\nBulle montrant un paysan croquant dans un poivron doux devenu brûlant de piment avec de la fumée qui sort des oreilles (touche pédagogique et humoristique).",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Troisième famille : Les Fabacées (les mange-tout et haricots)",
+      "text": "Leurs fleurs ressemblent à des petits papillons et leurs graines grandissent dans des gousses.\nC'est la famille des **Fabacées** (ou légumineuses).\nElle regroupe le niébé (vigna), l'arachide, le haricot et le pois.\nCes plantes ont le pouvoir d'enrichir votre sol en nourriture !",
+      "illustration_description": "Rameau de niébé en fleur :\n- Zoom sur la fleur en papillon\n- Longue gousse suspendue contenant les graines\n- Petit médaillon sous terre montrant les petites billes (nodosités) sur les racines qui nourrissent la terre.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Les haricots préfèrent rester fidèles",
+      "text": "Bonne nouvelle pour le paysan :\nChez la plupart des haricots et niébés, la fleur se féconde elle-même avant même de s'ouvrir !\nC'est ce qu'on appelle une plante **autogame**.\nLes risques de croisement avec le voisin sont donc beaucoup plus faibles que chez les courges.",
+      "illustration_description": "Coupe en gros plan d'une fleur de haricot encore fermée comme un cocon : les organes mâles déposent déjà le pollen directement sur l'organe femelle à l'abri du vent et des insectes.\nPicto : cadenas fermé \"Fidélité garantie ✅\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Quatrième famille : Les Brassicacées (la famille des choux)",
+      "text": "Leurs fleurs ont 4 pétales disposés en forme de croix.\nC'est la famille des **Brassicacées** (les choux).\nElle regroupe le chou cabu, le chou feuille (sukuma wiki), le radis et la moutarde.",
+      "illustration_description": "Gros plan sur une hampe florale de chou portant des fleurs jaunes à 4 pétales nettement disposés en croix (+).\nEn bas, une pomme de chou cabu et des feuilles de chou cavalier.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Les choux aiment se mélanger",
+      "text": "À l'inverse du haricot, le chou refuse souvent son propre pollen.\nIl a besoin du vent et des abeilles pour apporter le pollen d'autres pieds de choux :\nC'est ce qu'on appelle une plante **allogame**.\nTous les choux de la même espèce se croisent très facilement entre eux !",
+      "illustration_description": "Rafale de vent et insectes transportant des nuages de pollen doré entre plusieurs plants de choux en fleurs espacés dans un champ.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Pourquoi donner un nom précis aux semences ?",
+      "text": "Le mot courant peut tromper. Quand on dit \"courge\", cela peut désigner 3 espèces totalement différentes qui ne se mélangent pas.\nLes semenciers utilisent donc parfois deux mots précis pour désigner l'espèce exacte.\nMais sur votre parcelle, un bon carnet et des étiquettes claires suffisent pour vous repérer !",
+      "illustration_description": "Carnet de culture ouvert avec des dessins simples de feuilles et de fruits, annoté avec soin :\n- \"Courge calebasse locale\"\n- \"Courge musquée sucrée\"\nChacune sur sa ligne bien distincte.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Tableau mémo : Qui se croise avec qui ?",
+      "text": "Pour savoir quoi isoler :\n- Piment ❌ Poivron : Se croisent à 100% ! (Isoler impérativement)\n- Melon ❌ Concombre : Ne se croisent JAMAIS (Culture côte à côte possible)\n- Deux variétés de tomates : Se croisent peu, sauf par forte chaleur\n- Deux variétés de maïs : Se croisent très facilement avec le vent",
+      "illustration_description": "Tableau récapitulatif ultra-visuel avec deux colonnes :\n- Colonne de gauche (vert ✅) : \"Peuvent être voisins sans risque\" (ex : Carotte + Tomate + Melon).\n- Colonne de droite (rouge ⚠️) : \"Danger de croisement / Isoler\" (ex : Piment doux + Piment fort / Maïs blanc + Maïs jaune).",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Comment appliquer cela sur votre parcelle ?",
+      "text": "Pour produire des graines pures :\n1. Regroupez vos cultures par famille sur votre plan de jardin.\n2. Ne cultivez qu'UNE SEULE variété à graine de la même espèce en même temps sur la même parcelle.\n3. Si vous voulez deux variétés différentes, séparez-les d'une grande distance ou semez-les à des mois différents.",
+      "illustration_description": "Plan vu du dessus d'un potager maraîcher divisé en planches de culture :\n- Planche 1 : Une variété unique de tomate sélectionnée pour les graines.\n- Planche 2 : Des oignons.\n- Planche 3 : Des haricots.\nToutes les planches sont bien ordonnées et espacées.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "L'astuce du maraîcher : le calendrier décalé",
+      "text": "Vous n'avez pas assez d'espace pour éloigner vos cultures de plusieurs centaines de mètres ?\nDécallez simplement la date de semis !\nSi la première variété finit de fleurir avant que la deuxième ne commence à ouvrir ses fleurs, aucun croisement n'est possible.",
+      "illustration_description": "Frise chronologique sur 4 mois :\n- Mois 1 et 2 : Variété A en fleurs, Variété B à peine semée (en herbe).\n- Mois 3 et 4 : Variété A en fruits bien formés (fleurs fanées), Variété B qui commence à fleurir.\nMention : \"Zéro croisement grâce au temps ✅\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Félicitations ! Vous parlez le langage des familles",
+      "text": "Bravo ! Vous avez compris comment les plantes s'associent :\n✅ Vous savez que seules les plantes d'une même espèce se croisent\n✅ Vous savez que piment et poivron doivent être bien surveillés\n✅ Vous savez décaler vos cultures dans le temps pour protéger vos graines\nProchain module : comment choisir les meilleures semences de départ pour démarrer son autonomie !",
+      "illustration_description": "Le maraîcher montre fièrement un panneau en bois planté au bout de sa planche indiquant la famille et la variété, avec le pouce levé 👍.\nPlusieurs légumes des 4 familles forment une couronne protectrice tout autour du dessin.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_16.jpg"
+    }
+  ]
+}

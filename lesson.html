@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formation Semences Paysannes — Module de Formation</title>
+  <meta name="description" content="Support pédagogique pratique sur les semences paysannes : lecture fluide au défilement vertical, illustrations détaillées et export PDF pour le terrain.">
+  
+  <!-- Feuille de style charte Nakôbio et scroll continu -->
+  <link rel="stylesheet" href="assets/css/nakobio-theme.css">
+  <link rel="stylesheet" href="assets/css/course-scroll.css">
+  <link rel="stylesheet" href="assets/css/print.css" media="print">
+</head>
+<body>
+
+  <!-- Lien direct accessibilité -->
+  <a href="#lesson-main" class="skip-to-main">Passer directement au contenu du cours</a>
+
+  <!-- Barre de Navigation Sticky avec Logo Nakôbio -->
+  <header class="lesson-nav no-print">
+    <div class="lesson-nav-inner">
+      <div class="lesson-nav-left">
+        <a href="index.html" class="nav-back-link" title="Retourner au catalogue complet des cours">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          <span>Catalogue</span>
+        </a>
+
+        <div class="nav-brand-small">
+          <img src="assets/images/brand/Logo_color(rgb).svg" alt="Nakôbio Logo" class="nav-logo-icon">
+        </div>
+      </div>
+
+      <div class="lesson-header-meta">
+        <span class="lesson-category-tag" id="nav-category-tag">Semences Paysannes</span>
+        <h1 class="lesson-header-title" id="nav-course-title">Chargement de la formation...</h1>
+      </div>
+
+      <div class="lesson-nav-actions">
+        <button class="btn-print" id="btn-print-lesson" title="Télécharger ou imprimer ce cours en PDF">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Version PDF</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Barre de progression discrète de scroll -->
+    <div class="scroll-progress-container" aria-hidden="true">
+      <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+    </div>
+  </header>
+
+  <!-- Contenu Principal du Cours (Séquence Défilement Vertical) -->
+  <main class="lesson-container" id="lesson-main" tabindex="-1">
+    <!-- En-tête d'introduction du module -->
+    <section id="lesson-hero"></section>
+
+    <!-- Séquence des diapositives + texte en dessous -->
+    <section id="lesson-slides-container" aria-label="Parties de la formation"></section>
+
+    <!-- Écran de fin de cours -->
+    <section id="lesson-footer"></section>
+  </main>
+
+  <!-- Script d'alimentation dynamique et interactions -->
+  <script src="assets/js/lesson.js"></script>
+</body>
+</html>

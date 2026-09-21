@@ -1,0 +1,135 @@
+{
+  "id": "a1_cest_quoi_une_graine",
+  "title": "C'est quoi une graine ?",
+  "category": "Fondamentaux",
+  "summary": "Découvrez ce qui se cache dans une graine, comment tester sa capacité à germer avec trois fois rien, et comment la conserver vivante en climat chaud sans électricité.",
+  "total_pages": 18,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "La graine, le trésor du paysan",
+      "text": "Chaque récolte commence par une graine.\nDans ce module, vous allez découvrir comment fonctionne une graine, comment vérifier si elle est bien vivante avant de semer, et comment la conserver longtemps au village sans frigo ni congélateur.",
+      "illustration_description": "Plan moyen chaleureux en extérieur : une paysanne ou un maraîcher souriant, paumes ouvertes montrant de belles graines saines et variées. En arrière-plan, une parcelle maraîchère verdoyante baignée de soleil.",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Les 3 trésors cachés dans la graine",
+      "text": "Sous sa peau protectrice, la graine cache un bébé plante endormi et un garde-manger.\nElle contient :\n1. Une peau protectrice qui la protège des chocs.\n2. Un bébé plante : c'est ce qu'on appelle l'**embryon**.\n3. Une réserve de nourriture qui lui donnera la force de grandir au début.",
+      "illustration_description": "Gros plan en coupe schématique d'une grosse graine (type haricot) bien lisible :\n- Flèche 1 pointant la couche extérieure : \"Peau protectrice (tégument)\"\n- Flèche 2 pointant le germe miniature : \"Bébé plante (embryon)\"\n- Flèche 3 pointant la partie charnue blanche : \"Réserve de nourriture\"",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Le sommeil de la graine",
+      "text": "Tant qu'elle reste au sec, la graine dort tranquillement. Elle respire très lentement. C'est ce qu'on appelle la **dormance**.\nElle attend le bon moment : de l'eau, de la chaleur et de l'air pour se réveiller et faire sortir sa racine.\nSi l'air est trop humide ou trop chaud pendant le stockage, elle s'épuise et meurt.",
+      "illustration_description": "Dessin en deux temps :\n- À gauche : graine au sec dans un bocal, dessinée avec un symbole \"Zzz\" pour montrer qu'elle dort paisiblement.\n- À droite : graine mise en terre, recevant une goutte d'eau, qui commence à s'ouvrir en laissant sortir un germe vert vif vers le haut et une petite racine blanche vers le bas.",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Toutes les graines n'ont pas le même âge",
+      "text": "Chaque espèce a sa propre durée de vie :\n- Certaines vieillissent très vite (1 à 2 ans) comme l'oignon ou le panais.\n- D'autres restent vivantes très longtemps (4 à 8 ans) comme la courge, la tomate ou le gombo.\n⚠️ Attention : plus une graine est vieille, moins elle a de chances de germer.",
+      "illustration_description": "Comparaison visuelle de deux sachets ou jarres :\n- À gauche : dessin d'un oignon avec une étiquette \"1 à 2 ans seulement ⚠️\".\n- À droite : dessin d'une courge et d'une tomate avec une étiquette \"4 à 8 ans de vie ✅\".",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Pourquoi faire un test avant de semer ?",
+      "text": "Avant de gaspiller votre temps, votre compost et votre eau sur toute une planche de culture, vérifiez vos graines !\nUn simple test permet de savoir à l'avance si vos semences vont bien lever.\nC'est ce qu'on appelle le **test de germination**.",
+      "illustration_description": "Scène sur une table maraîchère : le paysan prépare un test avec sérieux devant lui.\nBulle de pensée au-dessus de sa tête montrant une planche de culture avec plein de manques (levée irrégulière barrée d'une croix rouge ❌) à côté d'une belle planche homogène et verte validée d'un crochet vert ✅.",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Matériel pour le test de germination",
+      "text": "Pour tester vos graines, vous avez besoin de :\n- 10 graines (ou 20 graines pour plus de précision)\n- 1 morceau de tissu en coton propre ou un chiffon\n- 1 assiette ou 1 petite boîte\n- De l'eau propre pour humidifier",
+      "illustration_description": "Vue du dessus des 4 éléments posés proprement sur une natte ou une table en bois :\n- Une coupelle avec exactement 10 graines alignées\n- Un tissu en coton plié\n- Une assiette plate\n- Une gourde ou petite bouteille d'eau",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Étape 1 : Disposer les graines sur le tissu humide",
+      "text": "1. Mouillez le tissu avec de l'eau propre, puis pressez-le : il doit être bien humide, mais sans goutter.\n2. Posez le tissu dans l'assiette.\n3. Disposez vos 10 graines sur une moitié du tissu, sans qu'elles se touchent.",
+      "illustration_description": "Vue rapprochée des deux mains du maraîcher posant soigneusement les graines bien espacées sur la moitié d'un chiffon blanc humide posé dans une assiette creuse.",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Étape 2 : Couvrir et placer à l'ombre tiède",
+      "text": "1. Repliez l'autre moitié du tissu par-dessus les graines.\n2. Placez l'assiette à l'ombre, dans un endroit tiède et aéré de la maison.\n3. Vérifiez chaque jour : le tissu doit toujours rester humide. Rajoutez quelques gouttes d'eau si nécessaire.",
+      "illustration_description": "- Vignette 1 : le tissu replié en deux recouvrant les graines comme une couverture.\n- Vignette 2 : l'assiette posée sur une étagère à l'ombre dans une pièce aérée de la maison.\n- Symbole thermomètre indiquant une chaleur modérée (pas en plein soleil).",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Étape 3 : Compter les graines qui germent",
+      "text": "Au bout de 4 à 8 jours (selon les légumes), ouvrez le tissu et comptez les graines qui ont sorti une petite racine.\n- 8 à 10 graines germées sur 10 : excellent ! Vos semences sont vigoureuses ✅.\n- 5 à 7 graines germées sur 10 : moyen. Semez un peu plus serré ⚠️.\n- Moins de 5 graines germées : le lot est trop fatigué, évitez de l'utiliser ❌.",
+      "illustration_description": "Gros plan sur le tissu ouvert révélant 8 graines avec de jolies racines blanches qui pointent et 2 graines non réveillées.\nUn compteur en gros caractères : \"8 / 10 = 80% ✅ Excellent pour le semis !\".",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Les trois ennemis mortels de la graine",
+      "text": "En climat chaud, trois ennemis détruisent rapidement vos réserves de semences :\n1. L'**humidité de l'air** : elle réveille la graine ou la fait moisir.\n2. La **forte chaleur** : elle épuise son garde-manger interne.\n3. Les **charançons et petits insectes** : ils percent la peau et dévorent le bébé plante.",
+      "illustration_description": "Dessin percutant avec 3 loupes d'alerte :\n1. Goutte d'eau avec moisissure bleue ❌\n2. Soleil brûlant avec flammes de chaleur ❌\n3. Petit insecte/charançon grignotant une graine trouée ❌",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "La règle d'or : sécher avant de stocker",
+      "text": "Ne mettez JAMAIS une graine encore humide dans un récipient fermé !\nFaites sécher vos graines à l'ombre, dans un endroit très aéré, sur une moustiquaire, une natte ou un tissu.\nPour savoir si une graine est assez sèche : essayez de la rayer avec l'ongle. Si elle ne marque pas, elle est prête !",
+      "illustration_description": "Vue d'une claie de séchage surélevée sous un abri ombragé et ventilé.\nEn encadré zoom : un doigt appuyant fermement son ongle sur une graine de haricot ou de maïs avec la mention \"L'ongle ne laisse aucune trace = bien sec ✅\".",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Choisir des récipients bien étanches",
+      "text": "Pour bloquer l'air humide, utilisez des récipients étanches :\n- Des bocaux en verre avec joint ou couvercle métallique bien vissé ✅\n- Des bouteilles ou bidons en plastique épais fermés hermétiquement ✅\n- Des canaris ou jarres en terre cuite bien fermés et scellés avec un peu d'argile ou de cire ✅",
+      "illustration_description": "Rangée de récipients adéquats posés sur une étagère propre :\n- Bocal en verre avec rondelle caoutchouc\n- Bouteille plastique propre et opaque bien vissée\n- Jarre en argile traditionnelle fermée d'un couvercle scellé\nAnnotation : \"Air et humidité bloqués à l'extérieur ✅\".",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Chasser les insectes avec de la cendre",
+      "text": "Pour protéger vos graines des insectes sans utiliser de produits chimiques dangereux :\nPrenez de la cendre de bois de cuisine bien refroidie et tamisée très finement.\nMélangez 1 verre de cendre pour 4 verres de graines dans votre récipient.\nLa fine poussière de cendre étouffe et blesse les petits insectes.",
+      "illustration_description": "Séquence en 2 étapes :\n1. Un tamis fin versant une poudre grise soyeuse (cendre tamisée) dans une calebasse.\n2. Main mélangeant les graines et la cendre dans un bocal en verre, formant une pellicule protectrice grise sur les graines.",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Les feuilles de neem, répulsif naturel",
+      "text": "Vous pouvez aussi utiliser les feuilles du margousier, qu'on appelle souvent le **neem**.\n1. Faites sécher des feuilles vertes de neem à l'ombre.\n2. Émiettez les feuilles sèches et mélangez-les à vos semences dans le récipient.\nLeur odeur amère repousse les ravageurs et protège vos réserves naturellement.",
+      "illustration_description": "- Rameau de feuilles de neem fraîches facilement reconnaissables.\n- Feuilles sèches émiettées entre les doigts au-dessus d'un lot de graines de légumineuses.\n- Picto insecte fuyant avec un symbole d'interdiction.",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Où placer vos réserves au village ?",
+      "text": "Stockez vos récipients dans la pièce la plus fraîche et la plus sombre de la maison :\n- Posez les récipients en hauteur sur une étagère (loin du sol humide et des souris).\n- Évitez les tôles brûlantes du toit et la proximité des foyers de cuisine.\n- Ne laissez jamais vos semences en plein soleil.",
+      "illustration_description": "Intérieur d'une maison en terre ou bâtiment de stockage bien ventilé :\n- Une étagère en bois solide à mi-hauteur.\n- Flèche montrant la fraîcheur du bas de la pièce et l'éloignement du toit en tôle chaud.\n- Croix rouge sur le sol et sur la zone sous le toit ❌.",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Étiquetez toujours vos graines !",
+      "text": "Une graine sans nom est une graine perdue.\nSur chaque bocal ou sachet, écrivez au marqueur ou glissez un papier avec :\n- Le nom exact du légume et de la variété\n- Le lieu de récolte (votre village ou votre parcelle)\n- Le mois et l'année de récolte",
+      "illustration_description": "Gros plan sur une étiquette blanche collée sur un bocal transparent :\n- \"Tomate locale précoce\"\n- \"Parcelle Nord - Mopti\"\n- \"Récolte : Mars 2026\"\nÉcriture très lisible et claire.",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "Resemer régulièrement pour garder la force",
+      "text": "La meilleure façon de conserver une semence, c'est de la faire vivre !\nResemez vos variétés locales chaque année ou tous les deux ans.\nEn vivant au champ, la plante s'habitue au climat qui change, aux fortes chaleurs et aux maladies de votre terroir.",
+      "illustration_description": "Dessin cyclique avec 3 flèches formant une boucle :\n1. Récolte de belles semences au champ\n2. Conservation soignée au village pendant la saison sèche\n3. Semis et floraison en saison des pluies\nTitre de la boucle : \"Le cycle perpétuel de la semence vivante\".",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "Félicitations ! Vous connaissez le secret des graines",
+      "text": "Bravo ! Vous savez maintenant protéger le premier capital de votre exploitation :\n✅ Vous comprenez la vie cachée à l'intérieur de la graine\n✅ Vous savez tester la germination avant tout semis\n✅ Vous savez chasser l'humidité et les insectes avec la cendre et le neem\nProchaine étape : apprendre à reconnaître les familles de plantes pour éviter les mauvais croisements !",
+      "illustration_description": "Le maraîcher brandit fièrement un canari bien scellé et étiqueté au milieu de son jardin luxuriant.\nAutour de lui flottent 3 coches vertes éclatantes ✅ symbolisant la maîtrise de la graine, du test et de la conservation villageoise.",
+      "image": "assets/images/a1_cest_quoi_une_graine/page_18.jpg"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "a4_la_pollinisation",
+  "title": "La pollinisation — Comment les plantes se reproduisent",
+  "category": "Fondamentaux",
+  "summary": "Découvrez comment les fleurs se fécondent pour fabriquer des graines, apprenez à distinguer les plantes fidèles (autogames) des plantes qui aiment voyager (allogames), et comprenez l'impact des fortes chaleurs sur les croisements.",
+  "total_pages": 17,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Le grand mystère de la fleur",
+      "text": "Sans fleur, pas de fruit. Sans fruit, pas de graine !\nPour devenir un bon producteur de semences, vous devez comprendre comment les plantes font des bébés.\nDans ce module, nous allons regarder de tout près ce qui se passe à l'intérieur des fleurs au soleil levant.",
+      "illustration_description": "Plan rapproché : une belle fleur jaune de courge baignée par les premiers rayons du soleil matinal, couverte de rosée, avec une abeille entrant à l'intérieur.",
+      "image": "assets/images/a4_la_pollinisation/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "La poussière dorée et le bébé graine",
+      "text": "Pour fabriquer une graine vivante, deux éléments indispensables doivent se rencontrer :\n1. Une fine poussière dorée : c'est le **pollen** produit par la partie mâle de la fleur.\n2. Un œuf minuscule caché au cœur de la fleur : c'est l'**ovule** dans la partie femelle.\nQuand le pollen touche la partie femelle, l'ovule est fécondé et commence à grandir !",
+      "illustration_description": "Dessin schématique épuré et poétique :\n- Grains de pollen dorés tombant comme des paillettes lumineuses sur l'entrée de la fleur femelle.\n- Au fond de la fleur, plusieurs petits ovales blancs qui s'illuminent en vert : les futures graines.",
+      "image": "assets/images/a4_la_pollinisation/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Les organes mâles : les étamines",
+      "text": "Regardez au cœur de la fleur :\nVous voyez ces petites tiges couronnées de têtes jaunes poudrées ?\nCe sont les **étamines**.\nCe sont les organes mâles de la plante qui fabriquent et libèrent le pollen au vent ou aux insectes.",
+      "illustration_description": "Zoom pédagogique sur une étamine :\n- Tige fine (\"le filet\")\n- Tête bombée recouverte d'un tapis de poudre jaune (\"l'anthère avec le pollen\")\nAnnotation simple : \"Partie mâle (fabrique le pollen)\".",
+      "image": "assets/images/a4_la_pollinisation/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "L'organe femelle : le pistil",
+      "text": "Au centre exact de la fleur se dresse une tige souvent plus épaisse, avec une tête collante ou gluante.\nC'est le **pistil**.\nC'est l'organe femelle : sa tête collante attrape le pollen, qui descend ensuite jusqu'à la base pour féconder les graines dans l'ovaire.",
+      "illustration_description": "Zoom pédagogique sur le pistil :\n- Tête supérieure collante (\"le stigmate\") recevant un grain de pollen\n- Tube conducteur\n- Base renflée (\"l'ovaire\") contenant les futurs pépins ou graines.",
+      "image": "assets/images/a4_la_pollinisation/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Les fleurs \"deux-en-un\" (hermaphrodites)",
+      "text": "La plupart des légumes ont des fleurs qui portent à la fois l'organe mâle et l'organe femelle sous les mêmes pétales.\nC'est ce qu'on appelle des fleurs **hermaphrodites**.\nC'est le cas de la tomate, de l'aubergine, du piment, du haricot et de la laitue.",
+      "illustration_description": "Coupe transversale d'une fleur d'aubergine :\n- Au milieu : le pistil vert (femelle)\n- Tout autour en cercle protecteur : les étamines jaunes dressées (mâles).\nMention : \"Mâle et femelle réunis dans la même fleur ✅\".",
+      "image": "assets/images/a4_la_pollinisation/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Les fleurs fidèles : l'autogamie",
+      "text": "Chez certaines fleurs à deux organes, le pollen tombe tout seul sur son propre pistil sans sortir de la fleur.\nLa fleur se féconde elle-même !\nC'est ce qu'on appelle une plante **autogame** (comme le haricot, le pois ou la laitue).\nCes plantes sont faciles à multiplier car elles se croisent très peu avec les voisines.",
+      "illustration_description": "Gros plan d'une fleur de haricot : les étamines secouent leur pollen directement sur le pistil à l'intérieur des pétales fermés.\nPicto cadenas : \"Fécondation fermée et protégée ✅\".",
+      "image": "assets/images/a4_la_pollinisation/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Les fleurs voyageuses : l'allogamie",
+      "text": "Chez d'autres plantes, le pollen de la fleur ne peut pas féconder son propre pistil.\nLa fleur exige le pollen d'une autre fleur ou d'un autre plant voisin !\nC'est ce qu'on appelle une plante **allogame** (comme le chou, l'oignon ou le maïs).\nLe pollen doit impérativement voyager d'un plant à l'autre.",
+      "illustration_description": "Deux pieds de maïs voisins dans un champ : le panache supérieur (fleur mâle) libère un nuage de pollen qui vole dans l'air pour atterrir sur les soies (fleurs femelles) de l'épi du pied d'à côté.",
+      "image": "assets/images/a4_la_pollinisation/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Les fleurs séparées : le cas des courges",
+      "text": "Certaines plantes portent des fleurs mâles et des fleurs femelles distinctes sur le même pied :\n- La fleur mâle n'a qu'une tige fine et du pollen.\n- La fleur femelle porte un mini-fruit renflé juste en dessous de ses pétales !\nC'est le cas de la courge, du concombre, du melon et de la pastèque.\nLa fleur femelle ne donnera rien si personne ne lui apporte du pollen mâle !",
+      "illustration_description": "Comparaison côte à côte très nette sur la même tige de courge :\n- À gauche : fleur mâle sur longue tige fine.\n- À droite : fleur femelle avec une mini-courge verte bombée sous les pétales jaunes.",
+      "image": "assets/images/a4_la_pollinisation/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Les deux grands facteurs du voyage : le vent",
+      "text": "Comment voyage le pollen voyageur ?\nPremier grand facteur : le **vent**.\nLes plantes comme le maïs, le sorgho ou l'épinard ont un pollen très léger et invisible qui vole sur des centaines de mètres.\nSi votre voisin cultive un maïs différent à 200 mètres, le vent mélangera vos graines !",
+      "illustration_description": "Un champ de maïs ondulant sous une brise soutenue : une brume dorée de pollen s'envole en vague au-dessus des cultures vers une parcelle voisine.\nIndication : \"Le vent porte le pollen à plus de 200 mètres ⚠️\".",
+      "image": "assets/images/a4_la_pollinisation/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Le second facteur : les insectes pollinisateurs",
+      "text": "Deuxième grand messager : les **insectes** (abeilles, bourdons, guêpes, petits coléoptères).\nAttirés par les couleurs vives et le nectar sucré des fleurs, ils se couvrent de poudre dorée sans le savoir.\nEn butinant de fleur en fleur, ils assurent la reproduction de vos courges, piments et oignons !",
+      "illustration_description": "Gros plan magnifique sur une abeille couverte de grains de pollen jaunes sur ses pattes et son ventre velu, passant d'une fleur d'oignon à une autre.\nMention : \"Les meilleurs alliés du jardinier semencier !\".",
+      "image": "assets/images/a4_la_pollinisation/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Attention au climat chaud : les fleurs changent de comportement !",
+      "text": "⚠️ Attention ! Ce qui est vrai en climat tempéré change sous le soleil tropical !\nSous les fortes chaleurs :\n1. Les fleurs s'ouvrent plus largement.\n2. Chez la tomate, le pistil grandit et dépasse hors des pétales.\n3. Les insectes sont beaucoup plus nombreux et excités.\nUne tomate réputée \"fidèle\" peut se croiser très facilement sous le soleil chaud !",
+      "illustration_description": "Schéma comparatif d'une fleur de tomate :\n- À gauche (climat frais) : le pistil est caché à l'intérieur du cône jaune protecteur.\n- À droite (climat très chaud) : le pistil vert émerge et pointe à l'extérieur des étamines, exposé aux insectes pollinisateurs qui tournent autour.",
+      "image": "assets/images/a4_la_pollinisation/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Que se passe-t-il en cas de croisement indésirable ?",
+      "text": "Si une fleur femelle de courge douce reçoit du pollen d'une courge amère sauvage :\nLe fruit récolté cette année aura l'air normal.\nMais les graines contenues dedans produiront l'année prochaine des courges dures, sans goût ou immangeables !\nLe résultat d'une erreur de pollinisation ne se voit qu'à la génération suivante !",
+      "illustration_description": "Chronologie en deux images :\n1. Saison 1 : La courge a un aspect tout à fait normal et beau.\n2. Saison 2 : Le paysan goûte la courge issue des graines récoltées, grimace de dégoût et recrache à cause de l'amertume extrême ❌.",
+      "image": "assets/images/a4_la_pollinisation/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Observer l'activité au lever du soleil",
+      "text": "Pour savoir comment se comportent vos plantes :\nFaites un tour au jardin au lever du soleil (entre 6h et 8h du matin).\nRegardez quelles fleurs sont grandes ouvertes.\nObservez quels insectes visitent vos parcelles et de quelle fleur vers quelle fleur ils volent !",
+      "illustration_description": "Le paysan accroupi dans la douce lumière du matin, observant avec attention et bienveillance les allées et venues des abeilles entre ses rangées de cultures.",
+      "image": "assets/images/a4_la_pollinisation/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Quand et comment intervenir ?",
+      "text": "Quand vous comprenez comment la plante est pollinisée, vous savez quoi faire :\n- Plante fidèle (autogame) : vous pouvez cultiver plusieurs variétés avec un simple espacement.\n- Plante voyageuse par le vent (maïs) : séparez les variétés par de longues distances ou des haies brise-vent.\n- Plante voyageuse par insectes (courges) : isolez ou protégez les fleurs avant leur ouverture !",
+      "illustration_description": "Trois pictogrammes d'action :\n1. Petite haie protectrice entre deux planches.\n2. Grande distance dans le champ.\n3. Petit sachet en tulle fin protégeant une fleur de courge.",
+      "image": "assets/images/a4_la_pollinisation/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Respecter et choyer les insectes du jardin",
+      "text": "Les insectes pollinisateurs sont indispensables pour obtenir des graines abondantes et bien formées.\nSi vous pulvérisez des insecticides chimiques sur vos parcelles, vous tuez vos précieux ouvriers !\nSemez des bandes de fleurs mélangées et offrez un point d'eau à l'ombre pour attirer les abeilles.",
+      "illustration_description": "Une coupelle d'eau peu profonde avec des cailloux pour que les abeilles boivent sans se noyer, posée au milieu d'une bande de basilic et de cosmos fleuris.\nPanneau \"Zéro pesticide chimique ✅\".",
+      "image": "assets/images/a4_la_pollinisation/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Résumé des modes de fécondation",
+      "text": "À mémoriser facilement :\n- **Haricots, niébés, pois** : Fleurs fermées, très fidèles, faciles pour débuter ✅.\n- **Tomates, piments** : Fidèles en théorie, mais prudence sous forte chaleur ⚠️.\n- **Choux, oignons, maïs, courges** : Voyageurs passionnés, demandent de la distance ou des protections ⚠️ !",
+      "illustration_description": "Tableau récapitulatif coloré avec les dessins des légumes classés en 3 niveaux de difficulté de pollinisation (Vert = Très facile / Orange = Surveillance chaleur / Rouge = Précautions indispensables).",
+      "image": "assets/images/a4_la_pollinisation/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "Félicitations ! Vous comprenez le secret de la floraison",
+      "text": "Bravo ! Vous avez percé le secret intime des fleurs de votre jardin :\n✅ Vous reconnaissez les étamines à pollen et le pistil récepteur\n✅ Vous savez que la chaleur du soleil augmente les croisements\n✅ Vous distinguez les plantes faciles des plantes voyageuses\nProchain module : comment sélectionner les meilleures plantes porte-graines sur votre parcelle !",
+      "illustration_description": "Le maraîcher regarde une belle fleur épanouie avec un grand sourire d'admiration.\nAutour de lui flottent des coches vertes ✅ et une médaille symbolique d'observateur de la nature.",
+      "image": "assets/images/a4_la_pollinisation/page_17.jpg"
+    }
+  ]
+}

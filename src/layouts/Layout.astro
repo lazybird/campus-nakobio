@@ -1,0 +1,37 @@
+---
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/theme.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { 
+  title, 
+  description = "Plateforme de formation agroécologique : Production de semences paysannes et Maraîchage bio-intensif en sol vivant." 
+} = Astro.props;
+
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} — Nakôbio</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/brand/Logo_color(rgb).svg" />
+    <meta property="og:title" content={`${title} — Nakôbio`} />
+    <meta property="og:description" content={description} />
+  </head>
+  <body>
+    <Navbar currentPath={currentPath} />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

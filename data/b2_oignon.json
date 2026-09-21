@@ -1,0 +1,128 @@
+{
+  "id": "b2_oignon",
+  "title": "Produire ses semences d'oignon",
+  "category": "Production par Légume",
+  "summary": "Découvrez comment mener la culture de l'oignon jusqu'à la production de graines : sélection des meilleurs bulbes après récolte, replantation pour la montaison en ombelles, tuteurage, récolte et battage des graines noires.",
+  "total_pages": 17,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Bienvenue dans la production de semences d'oignon",
+      "text": "L'oignon est un légume essentiel dans toutes les cuisines et sur tous les marchés. Mais beaucoup de producteurs achètent leurs graines très cher chaque année. Produire ses propres semences d'oignon est tout à fait possible : cela demande simplement de la patience et de la méthode pour accompagner la plante sur ses deux années de cycle !",
+      "illustration_description": "- Type : Vue valorisante et attractive au champ.\n- Éléments : Une maraîchère souriante tenant fièrement dans une main une tresse d'oignons bien secs, et dans l'autre main une magnifique ombelle d'oignon parsemée de graines noires brillantes prêtes à être récoltées.\n- Contexte : Bordure de parcelle avec ciel clair.",
+      "image": "assets/images/b2_oignon/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Ce que vous allez apprendre",
+      "text": "Dans ce tutoriel pratique, nous allons voir pas à pas :\n1️⃣ Le cycle particulier de l'oignon en deux saisons.  \n2️⃣ La sélection rigoureuse des bulbes après la récolte.  \n3️⃣ Le stockage et la replantation des bulbes porte-graines.  \n4️⃣ La gestion de la floraison et l'isolement contre les croisements.  \n5️⃣ La récolte des ombelles, le battage et le tri des graines noires.",
+      "illustration_description": "- Type : Frise chronologique illustrée en 5 étapes.\n- Éléments : \n  1. Bulbe rond en terre.\n  2. Tri manuel des bulbes sains sur natte.\n  3. Replantation d'un oignon qui repousse.\n  4. Grande ombelle fleurie avec des abeilles.\n  5. Graines noires tombant dans un bol d'eau propre.\n- Annotations : Numéros 1 à 5 bien visibles.",
+      "image": "assets/images/b2_oignon/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Le matériel nécessaire",
+      "text": "Pour mener à bien la production de vos graines d'oignon :\n- Des tuteurs en bois et de la ficelle (pour maintenir les hautes tiges florales).\n- Des sacs en tissu ou papier kraft pour la récolte des têtes fleuries.\n- Un bâtonnet propre ou un petit rouleau en bois pour écraser les capsules sèches.\n- Une bassine d'eau propre pour le tri par flottaison.\n- Une assiette ou un tissu fin pour le séchage des graines.\n- Des contenants hermétiques bien étiquetés.",
+      "illustration_description": "- Type : Vue à plat d'inventaire sur table de travail.\n- Éléments : Piquets en bois taillés, pelote de ficelle naturelle, grand sac en toile de jute ou coton, petit rouleau en bois, cuvette d'eau propre, assiette plate et bocal hermétique.\n- Annotations : Flèches claires désignant chaque outil.",
+      "image": "assets/images/b2_oignon/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Comprendre le cycle en deux temps",
+      "text": "L'oignon est une plante **bisannuelle** :\n- **Saison 1** : La graine semée développe des feuilles et grossit sous terre pour former un beau bulbe.  \n- **Saison 2** : Après une période de repos, le bulbe replanté produit une ou plusieurs grandes tiges avec des fleurs pour fabriquer les graines.  \nIl faut donc deux saisons pour obtenir vos semences.",
+      "illustration_description": "- Type : Schéma du cycle de vie divisé en deux volets distincts.\n- Éléments : \n  - À gauche (Saison 1) : semis -> petite plantule -> gros bulbe mûr récolté.\n  - Au milieu : flèche de repos (bulbe stocké au sec).\n  - À droite (Saison 2) : bulbe replanté -> tige florale de 1 mètre -> grosse boule de fleurs (ombelle).\n- Annotations : \"Saison 1 : fabrication du bulbe\", \"Saison 2 : floraison et graines\".",
+      "image": "assets/images/b2_oignon/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Attention au piège de la montaison précoce !",
+      "text": "⚠️ Si un oignon monte en fleur dès sa première saison de culture dans votre parcelle maraîchère :\n- Ne gardez JAMAIS ses graines !  \nCes oignons ont un défaut génétique : leurs descendants feront des bulbes minuscules et monteront toujours trop vite en fleur.  \nConsommez-les ou arrachez-les, et produisez vos semences uniquement avec des bulbes normaux de deuxième saison.",
+      "illustration_description": "- Type : Comparaison visuelle avec mise en garde claire.\n- Éléments : Un plant d'oignon fluet avec un petit bulbe avorté et une fleur précoce, barré d'une grande croix rouge ❌. À côté, un beau bulbe dodu récolté normalement sans fleur, marqué d'une coche verte ✅.\n- Annotations : \"Montaison en 1ère année = À éliminer ❌\", \"Beau bulbe régulier = À garder pour la semence ✅\".",
+      "image": "assets/images/b2_oignon/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Une floraison très visitée par les insectes",
+      "text": "La tête fleurie de l'oignon forme une grosse boule appelée **ombelle**. Elle regroupe des centaines de petites fleurs très mellifères qui attirent irrésistiblement les abeilles.  \nLes fleurs ne peuvent pas se féconder seules : elles dépendent entièrement du passage des insectes. L'oignon est une plante **allogame**.",
+      "illustration_description": "- Type : Gros plan sur une ombelle d'oignon en pleine floraison.\n- Éléments : Une belle ombelle sphérique blanche ou vert très pâle. Plusieurs abeilles et insectes butineurs se déplacent d'une fleurlette à une autre, transportant des grains de pollen jaunes sur leurs pattes.\n- Annotations : \"Ombelle sphérique\", \"Abeilles indispensables pour féconder les fleurs\".",
+      "image": "assets/images/b2_oignon/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Éviter les croisements entre variétés d'oignon",
+      "text": "Comme les insectes voyagent sur de longues distances, différentes variétés d'oignons peuvent très facilement se croiser entre elles (par exemple oignon rouge et oignon blanc).  \nPour garantir la pureté de votre variété :\n- Isolez votre parcelle de porte-graines d'au moins **500 mètres à 1 kilomètre** de toute autre floraison d'oignon.\n- Ou cultivez une seule variété d'oignon pour la semence dans tout le village la même année.",
+      "illustration_description": "- Type : Schéma paysager de distance de sécurité.\n- Éléments : Deux parcelles villageoises éloignées. Sur la parcelle de gauche : oignons rouges en ombelles. Sur la parcelle de droite : oignons blancs en ombelles. Une longue flèche indique la distance minimale de 500 m à 1 km.\n- Annotations : \"Distance d'isolement : 500 m à 1 km\", \"Ou entente communautaire pour une seule variété\".",
+      "image": "assets/images/b2_oignon/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Étape 1 : Récolter et sélectionner les bulbes mères",
+      "text": "À la récolte de votre parcelle maraîchère, sélectionnez les plus beaux oignons :\n- Parfaitement sains, sans aucune blessure, pourriture ni tache.\n- Très fermes au toucher, avec un collet bien serré et sec.\n- Représentatifs de la variété (belle couleur rouge, jaune ou blanche, forme bien régulière).  \n❌ Rejetez systématiquement les bulbes doubles ou fendus.  \nGardez au moins **20 à 30 bulbes** pour assurer une bonne diversité.",
+      "illustration_description": "- Type : Vue de tri minutieux sur une natte tressée.\n- Éléments : Deux paniers. Dans le bon panier : des oignons réguliers, bien ronds, à peau sèche et brillante. À l'écart : un oignon difforme double et un oignon blessé mis au rebut pour la cuisine immédiate.\n- Annotations : \"Sélectionner 20 à 30 beaux bulbes réguliers\", \"Rejeter les bulbes doubles ou mous\".",
+      "image": "assets/images/b2_oignon/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Étape 2 : Le séchage et le repos des bulbes",
+      "text": "Faites sécher vos bulbes sélectionnés pendant **10 à 15 jours** dans un endroit sec, chaud et très bien aéré, à l'ombre.  \nStockez-les ensuite dans un local frais et ventilé (suspendus en tresses ou étalés sur claies).  \nVérifiez régulièrement l'état des bulbes pendant les semaines de conservation et retirez immédiatement tout bulbe qui ramollit.",
+      "illustration_description": "- Type : Scène de stockage traditionnel adapté.\n- Éléments : Des oignons suspendus sous l'auvent bien ombragé et ventilé d'un bâtiment agricole, tressés avec leurs feuilles sèches. En dessous, des oignons étalés sur une claie surélevée en bambou ou en bois aéré.\n- Annotations : \"Séchage à l'ombre bien ventilée\", \"Contrôler la fermeté chaque semaine\".",
+      "image": "assets/images/b2_oignon/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Étape 3 : Replanter les bulbes porte-graines",
+      "text": "Au début de la nouvelle saison de culture, replantez vos bulbes sélectionnés :\n- Espacez-les de **25 à 30 cm** en tous sens dans une terre bien meuble et fertile.\n- N'enfoncez pas le bulbe trop profondément : laissez juste dépasser la pointe au ras du sol.  \nArrosez modérément au démarrage. Très vite, des pousses vertes vigoureuses vont jaillir du cœur de l'oignon.",
+      "illustration_description": "- Type : Coupe de terrain montrant la mise en terre.\n- Éléments : Une planche maraîchère bien alignée. Un maraîcher agenouillé déposant un oignon dans la terre meuble. La pointe supérieure du bulbe reste à la lumière du soleil.\n- Annotations : \"Écartement : 25 à 30 cm\", \"Pointe affleurante au ras du sol\".",
+      "image": "assets/images/b2_oignon/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Étape 4 : Tuteurer les tiges florales",
+      "text": "Chaque bulbe va émettre une à trois tiges vigoureuses qui peuvent dépasser **1 mètre de haut**.  \nAu sommet, la boule de fleurs devient lourde et peut facilement ployer ou se briser sous l'effet du vent fort ou d'une grosse averse.  \n⚠️ Enfoncez des tuteurs solides en bois le long des rangs et reliez-les avec des ficelles pour entourer et soutenir fermement les hampes florales.",
+      "illustration_description": "- Type : Vue technique d'un système de tuteurage.\n- Éléments : Un rang d'oignons en fleurs dressés. Deux piquets solides en bois plantés aux extrémités et au milieu du rang. Deux rangées horizontales de ficelle tendue maintiennent les tiges bien droites face au vent.\n- Annotations : \"Tuteurage indispensable !\", \"Les ombelles lourdes ne doivent pas toucher terre\".",
+      "image": "assets/images/b2_oignon/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Étape 5 : Observer la maturité des graines",
+      "text": "La floraison dure environ un mois, puis les fleurs fanent et laissent place à de petites capsules vertes à trois compartiments.  \nLes semences sont prêtes à être récoltées quand :\n- Les tiges et les têtes commencent à jaunir et à sécher.\n- Les petites capsules s'ouvrent naturellement.\n- On aperçoit à l'intérieur les graines devenues **noir corbeau**.",
+      "illustration_description": "- Type : Deux gros plans comparatifs d'ombelles.\n- Éléments : \n  - À gauche : ombelle encore trop verte avec fleurs fanées (attendre).\n  - À droite : ombelle sèche et beige clair avec capsules ouvertes laissant voir des petits points noirs luisants.\n- Annotations : \"Graines noires visibles = Signal de récolte !\".",
+      "image": "assets/images/b2_oignon/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Étape 6A : Couper et sécher les têtes fleuries",
+      "text": "Par temps sec et ensoleillé, coupez les ombelles avec 10 à 15 cm de tige à l'aide d'un couteau ou d'un sécateur.  \nPlacez immédiatement les têtes coupées dans un sac en tissu ou un panier propre pour ne pas perdre les graines qui s'échappent déjà.  \nTerminez le séchage complet des ombelles pendant **7 à 10 jours** à l'ombre, sur une bâche propre ou dans des sacs suspendus dans un local aéré.",
+      "illustration_description": "- Type : Scène de récolte soignée au champ.\n- Éléments : Les mains du maraîcher coupant une tige d'ombelle sèche au-dessus d'un grand sac en toile de coton bien ouvert pour recueillir instantanément toute graine qui tomberait.\n- Annotations : \"Couper avec 15 cm de tige\", \"Récolter dans un sac pour ne rien perdre\".",
+      "image": "assets/images/b2_oignon/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Étape 6B : Le battage et le premier tri",
+      "text": "Quand les ombelles sont cassantes et croustillantes sous les doigts :\n- Enfermez-les dans un grand sac en tissu et battez doucement avec un bâton, ou frottez les têtes entre vos mains.\n- Les petites graines noires se détachent facilement de leurs capsules.  \nPassez le tout à travers un tamis ou une passoire : les débris grossiers de paille restent sur le dessus et les graines tombent en dessous.",
+      "illustration_description": "- Type : Deux vignettes d'action séquentielle.\n- Éléments : \n  - À gauche : une personne frottant vigoureusement des têtes sèches au-dessus d'une grande calebasse ou cuvette.\n  - À droite : passage dans un tamis grillagé qui sépare la paille des semences noires.\n- Annotations : \"Frottement ou battage doux\", \"Tamisage grossier pour éliminer les tiges\".",
+      "image": "assets/images/b2_oignon/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Étape 6C : Le tri final à l'eau (flottaison)",
+      "text": "Pour éliminer les graines vides et les dernières poussières :\n1️⃣ Versez vos graines d'oignon dans une bassine d'eau propre et brassez avec la main.  \n2️⃣ Les graines bien formées et lourdes **tombent immédiatement au fond**.  \n3️⃣ Les graines creuses, les poussières et les brindilles flottent à la surface : retirez-les à l'aide d'une écumoire ou videz l'eau du dessus.  \n4️⃣ Récupérez les bonnes graines du fond et étalez-les immédiatement sur un tissu sec.",
+      "illustration_description": "- Type : Schéma didactique de flottaison dans une bassine transparente.\n- Éléments : Déchets et graines immatures flottant en surface (flèche rouge vers la sortie). Bonnes graines noires denses reposant au fond (flèche verte de conservation).\n- Annotations : \"Flotte = Mauvais (graines vides et paille)\", \"Coule au fond = Excellent (graines vivantes)\".",
+      "image": "assets/images/b2_oignon/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Séchage ultra-sec et conservation délicate",
+      "text": "⚠️ Attention : la graine d'oignon perd son pouvoir de germination plus vite que les autres légumes (elle ne dure que **1 à 2 ans** à température ambiante).  \n- Séchez-les 4 à 5 jours à l'ombre ventilée jusqu'à ce qu'elles coulent entre les doigts comme des grains de sable sec.\n- Conservez-les dans un bocal en verre scellé avec de la cendre tamisée très sèche pour bloquer toute reprise d'humidité.\n- Stockez au point le plus frais et sombre de votre bâtiment.",
+      "illustration_description": "- Type : Gros plan sur les graines séchées et le bocal scellé.\n- Éléments : Une poignée de graines noires tombant en filet fluide d'une main à une autre comme du sable fin. À côté, un bocal étiqueté avec un sachet de cendre dessiccatrice au couvercle.\n- Annotations : \"Graines coulantes comme du sable\", \"Conservation courte : semer dans les 1 à 2 ans ! ⚠️\".",
+      "image": "assets/images/b2_oignon/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "Résumé et félicitations",
+      "text": "Félicitations ! Vous connaissez maintenant tout le parcours pour produire vos propres graines d'oignon :\n✅ Respecter le cycle en deux saisons de la plante.  \n✅ Éliminer sans hésiter toute montaison prématurée de première année.  \n✅ Sélectionner 20 à 30 bulbes mères bien fermes, sains et réguliers.  \n✅ Tuteurer solidement les ombelles et respecter les distances d'isolement.  \n✅ Récolter dès l'apparition des graines noires et trier par flottaison dans l'eau.  \n\nVos cultures d'oignon sont prêtes à prospérer avec des semences paysannes fidèles et vigoureuses !",
+      "illustration_description": "- Type : Image finale de réussite et de transmission.\n- Éléments : Le maraîcher montrant à un groupe de voisins apprenants une coupelle de graines noires d'oignon d'une grande pureté, avec un fond de parcelle d'oignons bien droits et verdoyants.\n- Annotations : \"Félicitations ! Autonomie semencière en marche ✅\".",
+      "image": "assets/images/b2_oignon/page_17.jpg"
+    }
+  ]
+}
