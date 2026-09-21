@@ -19,13 +19,73 @@ export async function getStaticPaths() {
 }
 
 const { course } = Astro.props;
+
+// Fonction de formatage du texte pédagogique (gras, listes, alertes)
+function formatPedagogicalText(rawText: string) {
+  if (!rawText) return '<p><em>Contenu technique en cours de finalisation</em></p>';
+
+  let html = rawText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  const lines = html.split('\n');
+  let inList = false;
+  let listType = 'ul';
+  let formattedLines: string[] = [];
+
+  for (let line of lines) {
+    line = line.trim();
+    if (!line) continue;
+
+    if (line.startsWith('⚠️') || line.toLowerCase().startsWith('attention')) {
+      if (inList) { formattedLines.push(`</${listType}>`); inList = false; }
+      formattedLines.push(`<div class="slide-alert">${line}</div>`);
+      continue;
+    }
+
+    const numMatch = line.match(/^(\d+)\.\s+(.*)/);
+    if (numMatch) {
+      if (!inList || listType !== 'ol') {
+        if (inList) formattedLines.push(`</${listType}>`);
+        formattedLines.push('<ol>');
+        inList = true;
+        listType = 'ol';
+      }
+      formattedLines.push(`<li>${numMatch[2]}</li>`);
+      continue;
+    }
+
+    const bulletMatch = line.match(/^[-•]\s+(.*)/);
+    if (bulletMatch) {
+      if (!inList || listType !== 'ul') {
+        if (inList) formattedLines.push(`</${listType}>`);
+        formattedLines.push('<ul>');
+        inList = true;
+        listType = 'ul';
+      }
+      formattedLines.push(`<li>${bulletMatch[1]}</li>`);
+      continue;
+    }
+
+    if (inList) {
+      formattedLines.push(`</${listType}>`);
+      inList = false;
+    }
+    formattedLines.push(`<p>${line}</p>`);
+  }
+
+  if (inList) {
+    formattedLines.push(`</${listType}>`);
+  }
+
+  return formattedLines.join('');
+}
+
+const pagesList = course.pages || [];
 ---
 
 <Layout title={course.title} description={course.summary || "Module de formation pratique sur les semences paysannes."}>
-  <!-- En-tête de navigation du cours avec action PDF -->
+  <!-- En-tête fixe avec bouton retour et déclencheur d'impression PDF -->
   <div class="lesson-topbar no-print">
     <div class="container lesson-topbar-inner">
-      <a href="/semences" class="btn btn-outline back-btn">
+      <a href="/semences" class="btn btn-outline back-btn" title="Retourner au catalogue des formations">
         ← Catalogue
       </a>
       <div class="lesson-title-meta">
@@ -33,8 +93,8 @@ const { course } = Astro.props;
         <h1 class="lesson-header-title">{course.title}</h1>
       </div>
       <div class="lesson-actions">
-        <button type="button" class="btn btn-primary" id="btn-print-lesson">
-          🖨️ Imprimer / PDF
+        <button type="button" class="btn btn-primary" id="btn-print-lesson" title="Télécharger ou imprimer ce cours en PDF">
+          🖨️ Version PDF
         </button>
       </div>
     </div>
@@ -44,91 +104,146 @@ const { course } = Astro.props;
   </div>
 
   <div class="container lesson-container">
-    <!-- Introduction / Hero du cours -->
+    <!-- Hero d'introduction du module -->
     <header class="lesson-hero">
       <div class="lesson-badge-row">
-        <span class="badge badge-primary">{course.category || 'Semences'}</span>
-        <span class="badge badge-neutral">📖 {course.total_pages} étapes</span>
-        <span class="badge badge-neutral">☀️ Climat tropical & sahélien</span>
+        <span class="badge badge-primary">🌱 {course.category || 'Semences Paysannes'}</span>
+        <span class="badge badge-neutral">📖 {course.total_pages || pagesList.length} parties</span>
+        <span class="badge badge-neutral">☀️ Terroir tropical &amp; sahélien</span>
       </div>
       <h2 class="hero-course-title">{course.title}</h2>
       {course.summary && <p class="hero-course-summary">{course.summary}</p>}
+
+      <!-- Sommaire dépliable -->
+      {pagesList.length > 0 && (
+        <details class="lesson-quick-toc no-print">
+          <summary class="toc-summary-toggle">
+            <span class="toc-summary-label">
+              📋 Sommaire des chapitres ({pagesList.length} parties)
+            </span>
+            <span class="toc-toggle-hint">Afficher / Masquer</span>
+          </summary>
+          <div class="toc-pills-list">
+            {pagesList.map((p: any) => (
+              <a href={`#partie-${p.page_number}`} class="toc-step-chip">
+                <span class="toc-num">{p.page_number}</span>
+                <span class="toc-title">{p.title}</span>
+              </a>
+            ))}
+          </div>
+        </details>
+      )}
     </header>
 
-    <!-- Séquence des diapositives / étapes -->
+    <!-- Séquence des fiches / parties du cours -->
     <div class="slides-flow">
-      {course.slides && course.slides.map((slide: any) => (
-        <article class="slide-block" id={`slide-${slide.page}`}>
-          <div class="slide-header">
-            <span class="slide-number">Étape {slide.page} / {course.total_pages}</span>
-            <h3 class="slide-title">{slide.title}</h3>
-          </div>
+      {pagesList.map((page: any, idx: number) => {
+        const hasImage = page.image && page.image.length > 0;
+        const formattedHtml = formatPedagogicalText(page.text);
+        const nextPage = pagesList[idx + 1];
 
-          <!-- Zone Visuelle / Illustration -->
-          <div class="slide-media">
-            {slide.illustration_status === 'ok' && slide.illustration_path ? (
-              <img 
-                src={`/${slide.illustration_path}`} 
-                alt={slide.title} 
-                loading="lazy" 
-                class="slide-img" 
-                onerror="this.onerror=null; this.closest('.slide-media').classList.add('media-fallback');"
-              />
-            ) : (
-              <div class="illustration-pending-box">
-                <div class="pending-icon">🎨</div>
-                <div class="pending-title">Illustration en préparation</div>
-                <div class="pending-desc">
-                  {slide.illustration_description || 'Scène pédagogique illustrée pour la compréhension de cette étape.'}
+        return (
+          <article class="slide-unit" id={`partie-${page.page_number}`}>
+            <!-- En-tête d'étape -->
+            <div class="slide-step-header-bar">
+              <div class="step-badge-circle">
+                <span class="step-badge-num">{page.page_number}</span>
+              </div>
+              <div class="step-badge-meta">
+                <span class="step-meta-label">PARTIE {page.page_number} SUR {course.total_pages || pagesList.length}</span>
+                <span class="step-meta-name">{page.title}</span>
+              </div>
+            </div>
+
+            <!-- Zone Visuelle : Image du cours ou carnet de croquis pédagogique -->
+            <div class="slide-visual-wrapper">
+              {hasImage ? (
+                <img 
+                  src={`/${page.image}`} 
+                  alt={page.title} 
+                  loading={idx < 2 ? "eager" : "lazy"}
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                />
+              ) : null}
+
+              <div 
+                class="sketch-placeholder-container" 
+                style={hasImage ? "display: none;" : "display: flex;"}
+              >
+                <div class="sketch-board-frame">
+                  <div class="sketch-frame-top">
+                    <span class="sketch-type-badge">
+                      🎨 Croquis Pédagogique en Préparation
+                    </span>
+                    <span class="sketch-format-tag">Format 16:9 • Planche Terrain</span>
+                  </div>
+
+                  <div class="sketch-desc-body">
+                    <div class="sketch-desc-title">Descriptif technique de l'illustration :</div>
+                    <blockquote class="sketch-desc-text">
+                      « {page.illustration_description || 'Dessin technique de terrain illustrant les gestes clés et observations pratiques de cette étape.'} »
+                    </blockquote>
+                  </div>
+
+                  <div class="sketch-frame-bottom">
+                    <span class="sketch-author-note">
+                      Illustration en cours de réalisation par l'équipe graphique
+                    </span>
+                    <span class="sketch-brand-watermark">NAKÔBIO ACADÉMIE</span>
+                  </div>
                 </div>
               </div>
-            )}
-          </div>
+            </div>
 
-          <!-- Contenu texte pédagogique -->
-          <div class="slide-content">
-            {slide.text_blocks && slide.text_blocks.map((block: any) => (
-              <div class="text-block">
-                {block.title && <h4 class="text-block-title">{block.title}</h4>}
-                <div class="text-block-content" set:html={block.content.replace(/\\n/g, '<br/>')} />
-              </div>
-            ))}
+            <!-- Fiche texte pédagogique sous l'image -->
+            <div class="slide-body-text">
+              <h3 class="slide-step-title">{page.title}</h3>
+              <div class="slide-pedagogical-content" set:html={formattedHtml} />
+            </div>
 
-            {slide.key_points && slide.key_points.length > 0 && (
-              <div class="key-points-box">
-                <h4 class="key-points-title">À retenir pour cette étape :</h4>
-                <ul>
-                  {slide.key_points.map((pt: string) => (
-                    <li>{pt}</li>
-                  ))}
-                </ul>
+            <!-- Séparateur vers l'étape suivante -->
+            {nextPage && (
+              <div class="pedagogical-step-divider no-print">
+                <div class="divider-line"></div>
+                <a href={`#partie-${nextPage.page_number}`} class="divider-milestone-link">
+                  <span class="milestone-next-label">
+                    Partie suivante : <strong>{nextPage.page_number}. {nextPage.title}</strong>
+                  </span>
+                  <span class="milestone-action-arrow" aria-hidden="true">➔</span>
+                </a>
+                <div class="divider-line"></div>
               </div>
             )}
-          </div>
-        </article>
-      ))}
+          </article>
+        );
+      })}
     </div>
 
-    <!-- Pied de page du cours -->
-    <div class="lesson-end-card no-print">
-      <div class="end-icon">🎉</div>
-      <h3>Fin de ce module de formation</h3>
-      <p>Vous avez terminé le parcours pour <strong>{course.title}</strong>.</p>
-      <div class="end-actions">
+    <!-- Écran de fin de cours -->
+    <div class="lesson-footer-completion no-print">
+      <div class="completion-icon">🌾</div>
+      <h3 class="completion-title">Formation complétée avec succès !</h3>
+      <p class="completion-desc">
+        Vous avez parcouru l'ensemble des {course.total_pages || pagesList.length} parties de « {course.title} ». 
+        Vous pouvez télécharger ce support au format PDF pour vos interventions au champ ou explorer un autre module.
+      </p>
+      <div class="completion-actions">
         <a href="/semences" class="btn btn-primary">Retour au catalogue</a>
-        <a href="/" class="btn btn-outline">Page d'accueil</a>
+        <button type="button" class="btn btn-outline" onclick="window.print()">
+          Imprimer la version PDF
+        </button>
       </div>
     </div>
   </div>
 </Layout>
 
 <script>
-  // Gestion de l'impression
+  // Gestion impression
   document.getElementById('btn-print-lesson')?.addEventListener('click', () => {
     window.print();
   });
 
-  // Barre de défilement
+  // Barre de défilement dynamique
   window.addEventListener('scroll', () => {
     const progressBar = document.getElementById('scroll-progress');
     if (!progressBar) return;
@@ -143,7 +258,8 @@ const { course } = Astro.props;
   .lesson-topbar {
     position: sticky;
     top: 70px;
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--color-border);
     z-index: 90;
     box-shadow: var(--shadow-sm);
@@ -187,30 +303,31 @@ const { course } = Astro.props;
   }
 
   .lesson-container {
-    max-width: 860px;
+    max-width: 920px;
     padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
   }
 
+  /* Hero Intro */
   .lesson-hero {
-    background: var(--color-surface);
+    background: #ffffff;
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
     padding: 2.25rem 2rem;
     margin-bottom: 2.5rem;
-    text-align: center;
+    border-left: 6px solid var(--color-primary);
+    box-shadow: var(--shadow-sm);
   }
 
   .lesson-badge-row {
     display: flex;
-    justify-content: center;
     gap: 0.5rem;
     margin-bottom: 1rem;
     flex-wrap: wrap;
   }
 
   .hero-course-title {
-    font-size: 2rem;
+    font-size: clamp(1.8rem, 3vw, 2.3rem);
     font-weight: 800;
     color: var(--color-primary-deep);
     margin-bottom: 0.75rem;
@@ -220,156 +337,346 @@ const { course } = Astro.props;
   .hero-course-summary {
     color: var(--color-text-secondary);
     font-size: 1.05rem;
-    max-width: 680px;
-    margin: 0 auto;
-    line-height: 1.6;
+    line-height: 1.65;
+    margin-bottom: 1.25rem;
   }
 
+  /* Sommaire */
+  .lesson-quick-toc {
+    border-top: 1px solid var(--color-border);
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .toc-summary-toggle {
+    cursor: pointer;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--color-primary-deep);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+  }
+
+  .toc-toggle-hint {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    font-weight: 500;
+  }
+
+  .toc-pills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.85rem;
+    max-height: 240px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+  }
+
+  .toc-step-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    background: var(--color-bg);
+    border: 1px solid var(--color-border);
+    padding: 0.35rem 0.75rem;
+    border-radius: var(--radius-pill);
+    font-size: 0.82rem;
+    color: var(--color-text);
+    transition: all 0.15s ease;
+  }
+
+  .toc-step-chip:hover {
+    border-color: var(--color-primary);
+    background: var(--color-primary-light);
+    color: var(--color-primary-deep);
+  }
+
+  .toc-num {
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+
+  /* Séquence des Fiches */
   .slides-flow {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 2.75rem;
   }
 
-  .slide-block {
-    background: var(--color-surface);
+  .slide-unit {
+    background: #ffffff;
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
     overflow: hidden;
     box-shadow: var(--shadow-sm);
   }
 
-  .slide-header {
-    background: #faf8f4;
-    padding: 1rem 1.5rem;
-    border-bottom: 1px solid var(--color-border);
+  .slide-step-header-bar {
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    background: #fbf9f5;
+    border-bottom: 1.5px solid var(--color-border);
+    padding: 0.85rem 1.5rem;
     gap: 1rem;
   }
 
-  .slide-number {
-    font-size: 0.8rem;
-    font-weight: 700;
-    color: var(--color-primary-dark);
-    background: var(--color-primary-light);
-    padding: 0.2rem 0.6rem;
-    border-radius: var(--radius-pill);
-    white-space: nowrap;
-  }
-
-  .slide-title {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--color-primary-deep);
-  }
-
-  .slide-media {
-    background-color: #f6f3eb;
-    min-height: 200px;
+  .step-badge-circle {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--color-primary-deep);
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid var(--color-border);
+    font-weight: 800;
+    font-size: 1.05rem;
+    flex-shrink: 0;
   }
 
-  .slide-img {
-    width: 100%;
-    max-height: 520px;
-    object-fit: contain;
-    background: #ffffff;
-  }
-
-  .illustration-pending-box {
-    padding: 3rem 1.5rem;
-    text-align: center;
-    max-width: 540px;
-  }
-
-  .pending-icon {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .pending-title {
-    font-weight: 700;
-    color: var(--color-primary-deep);
-    margin-bottom: 0.35rem;
-  }
-
-  .pending-desc {
-    font-size: 0.88rem;
-    color: var(--color-text-muted);
-    font-style: italic;
-    line-height: 1.45;
-  }
-
-  .slide-content {
-    padding: 1.75rem 1.5rem;
+  .step-badge-meta {
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    overflow: hidden;
   }
 
-  .text-block-title {
+  .step-meta-label {
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    color: var(--color-primary-dark);
+    text-transform: uppercase;
+  }
+
+  .step-meta-name {
     font-size: 1.05rem;
     font-weight: 700;
-    color: var(--color-primary-dark);
+    color: var(--color-primary-deep);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Zone Image 16:9 */
+  .slide-visual-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #ede6d8;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slide-visual-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Carnet de croquis pour illustrations en attente */
+  .sketch-placeholder-container {
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 2rem;
+    background: #fbf7ee;
+    background-image: radial-gradient(#e4dac8 1px, transparent 1px);
+    background-size: 18px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sketch-board-frame {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px dashed #bcaa8c;
+    border-radius: 12px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .sketch-frame-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ebdcc5;
+    padding-bottom: 0.6rem;
+  }
+
+  .sketch-type-badge {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: var(--color-primary-deep);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .sketch-format-tag {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+  }
+
+  .sketch-desc-title {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: var(--color-earth);
+    text-transform: uppercase;
     margin-bottom: 0.35rem;
   }
 
-  .text-block-content {
-    color: var(--color-text);
-    font-size: 0.98rem;
-    line-height: 1.65;
+  .sketch-desc-text {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    line-height: 1.55;
+    color: #2b3324;
+    font-style: italic;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
-  .key-points-box {
-    background: var(--color-primary-light);
-    border: 1px solid var(--color-primary-border);
-    border-radius: var(--radius-sm);
-    padding: 1.25rem;
-    margin-top: 0.5rem;
-  }
-
-  .key-points-title {
-    font-size: 0.92rem;
-    font-weight: 700;
-    color: var(--color-primary-deep);
-    margin-bottom: 0.5rem;
-  }
-
-  .key-points-box ul {
-    margin-left: 1.25rem;
-    color: var(--color-primary-deep);
-    font-size: 0.9rem;
+  .sketch-frame-bottom {
     display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    border-top: 1px dashed #ebdcc5;
+    padding-top: 0.5rem;
+    font-weight: 600;
   }
 
-  .lesson-end-card {
+  .sketch-brand-watermark {
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+
+  /* Corps de texte sous l'image */
+  .slide-body-text {
+    padding: 2rem 2rem 2.25rem;
+    background: #ffffff;
+    border-top: 3px solid var(--color-primary);
+  }
+
+  .slide-step-title {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--color-primary-deep);
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+
+  .slide-pedagogical-content {
+    font-size: 1.08rem;
+    line-height: 1.75;
+    color: var(--color-text);
+  }
+
+  .slide-pedagogical-content :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .slide-pedagogical-content :global(ol),
+  .slide-pedagogical-content :global(ul) {
+    margin: 0.75rem 0 1rem 1.5rem;
+  }
+
+  .slide-pedagogical-content :global(li) {
+    margin-bottom: 0.45rem;
+  }
+
+  .slide-pedagogical-content :global(strong) {
+    color: var(--color-primary-deep);
+    font-weight: 700;
+  }
+
+  .slide-pedagogical-content :global(.slide-alert) {
+    background: var(--color-earth-light);
+    border-left: 4px solid var(--color-earth);
+    padding: 0.9rem 1.25rem;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    margin: 1.15rem 0;
+    font-size: 0.98rem;
+    color: var(--color-earth);
+    font-weight: 600;
+  }
+
+  /* Séparateur entre étapes */
+  .pedagogical-step-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    background: #fbf9f5;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .divider-line {
+    flex: 1;
+    height: 1px;
+    background: var(--color-border);
+  }
+
+  .divider-milestone-link {
+    font-size: 0.88rem;
+    color: var(--color-primary-deep);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .divider-milestone-link:hover {
+    color: var(--color-primary);
+  }
+
+  /* Écran de fin */
+  .lesson-footer-completion {
     text-align: center;
-    background: var(--color-surface);
+    background: #ffffff;
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
-    padding: 3rem 1.5rem;
-    margin-top: 3rem;
+    padding: 3rem 2rem;
+    margin-top: 3.5rem;
+    box-shadow: var(--shadow-sm);
   }
 
-  .end-icon {
-    font-size: 2.5rem;
+  .completion-icon {
+    font-size: 2.75rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .completion-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-primary-deep);
     margin-bottom: 0.5rem;
   }
 
-  .end-actions {
+  .completion-desc {
+    color: var(--color-text-secondary);
+    max-width: 580px;
+    margin: 0 auto 1.75rem;
+    line-height: 1.6;
+  }
+
+  .completion-actions {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1.5rem;
+    flex-wrap: wrap;
   }
 
-  /* Rendu Impression Papier / PDF */
+  /* Optimisation impression papier et PDF */
   @media print {
     .no-print {
       display: none !important;
@@ -378,16 +685,19 @@ const { course } = Astro.props;
       background: white !important;
       color: black !important;
     }
-    .slide-block {
-      page-break-inside: avoid;
-      break-inside: avoid;
-      box-shadow: none !important;
-      border: 1px solid #ccc !important;
-      margin-bottom: 2rem;
-    }
     .lesson-container {
       max-width: 100% !important;
       padding: 0 !important;
+    }
+    .slide-unit {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      margin-bottom: 2.5rem;
+      border: 1px solid #ddd !important;
+      box-shadow: none !important;
+    }
+    .slide-visual-wrapper {
+      max-height: 380px;
     }
   }
 
