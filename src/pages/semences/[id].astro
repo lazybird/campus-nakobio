@@ -104,7 +104,19 @@ function formatPedagogicalText(rawText: string) {
 
 const pagesList = course.pages || [];
 
-// Un repère (tick) pour CHAQUE partie du cours
+// Extraction de toutes les vidéos (niveau cours + niveau parties)
+const courseMedia = course.media || null;
+const sectionVideos = pagesList
+  .filter((p: any) => p.media && p.media.url)
+  .map((p: any) => ({
+    ...p.media,
+    page_number: p.page_number,
+    page_title: p.title
+  }));
+const allVideos = [
+  ...(courseMedia ? [{ ...courseMedia, is_main: true, page_title: course.title }] : []),
+  ...sectionVideos
+];
 const totalSteps = pagesList.length;
 const milestones: any[] = [];
 if (totalSteps > 1) {
@@ -234,6 +246,44 @@ if (totalSteps > 1) {
           </div>
         </details>
       )}
+
+      {/* Hub Vidéos simplifié : Vidéo globale du cours + raccourci vers les vidéos de démonstrations */}
+      {allVideos.length > 0 && (
+        <section class="lesson-video-hub no-print" aria-label="Supports Vidéos de la formation">
+          <div class="video-hub-header">
+            <h3 class="video-hub-title">🎥 Démonstrations et Pratiques Vidéo ({allVideos.length})</h3>
+            <span class="video-hub-subtitle">Visualisez directement les gestes techniques au champ</span>
+          </div>
+
+          <div class="video-hub-grid">
+            {allVideos.map((vid: any) => {
+              const videoId = vid.url.includes('v=') ? vid.url.split('v=')[1].split('&')[0] : vid.url.split('/').pop();
+              return (
+                <div class="video-card-item">
+                  <div class="video-embed-box">
+                    <iframe 
+                      src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0`} 
+                      title={vid.title || vid.page_title}
+                      loading="lazy"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="video-card-meta">
+                    <span class="video-card-tag">{vid.is_main ? '⭐ Vidéo Complète' : `Partie ${vid.page_number}`}</span>
+                    <h4 class="video-card-name">{vid.title || vid.page_title}</h4>
+                    {vid.page_number && (
+                      <a href={`#partie-${vid.page_number}`} class="video-link-step">
+                         Accéder à l'étape écrite →
+                      </a>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
     </header>
 
     <!-- Séquence des fiches / parties du cours -->
@@ -263,6 +313,7 @@ if (totalSteps > 1) {
                   src={`/${page.image}`} 
                   alt={page.title} 
                   loading={idx < 2 ? "eager" : "lazy"}
+                  decoding="async"
                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                 />
               ) : null}
@@ -582,6 +633,106 @@ if (totalSteps > 1) {
     color: var(--color-brand-primary);
     font-weight: bold;
     font-size: 0.85rem;
+  }
+
+  /* Video Hub */
+  .lesson-video-hub {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: var(--color-surface-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .video-hub-header {
+    margin-bottom: 1.25rem;
+  }
+
+  .video-hub-title {
+    font-family: var(--font-serif);
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    margin-bottom: 0.25rem;
+  }
+
+  .video-hub-subtitle {
+    font-size: 0.9rem;
+    color: var(--color-ink-soft);
+  }
+
+  .video-hub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .video-card-item {
+    background: var(--color-surface-sunken);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .video-embed-box {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .video-embed-box iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .video-card-meta {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    flex: 1;
+  }
+
+  .video-card-tag {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-brand-primary);
+    background: rgba(46, 125, 50, 0.1);
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--radius-sm);
+    align-self: flex-start;
+  }
+
+  .video-card-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--color-ink);
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .video-link-step {
+    margin-top: auto;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-brand-primary);
+    text-decoration: none;
+    padding-top: 0.5rem;
+  }
+
+  .video-link-step:hover {
+    text-decoration: underline;
   }
 
   /* Support RTL & Typographie N'ko */
