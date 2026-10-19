@@ -51,14 +51,14 @@
     {
       "page_number": 7,
       "title": "Vous aurez besoins des outils suivants : Un mètre, 40 piquets de 40-50 cm, 30 mètres de ficelle, une pelle ou une",
-      "text": "houe, une pioche si la terre est dure, un râteau, une grelinette (fourche large) ou une pioche, un arrosoir ou un\ntuyau pour arroser.",
+      "text": "houe, une pioche si la terre est dure, un râteau, une grelinette (fourche large) ou une pioche, un arrosoir ou un tuyau pour arroser.",
       "illustration_description": "Illustration pédagogique pour Vous aurez besoins des outils suivants : Un mètre, 40 piquets de 40-50 cm, 30 mètres de ficelle, une pelle ou une",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_07.jpg"
     },
     {
       "page_number": 8,
       "title": "Si vous avez du compost ou du fumier, prévoyez 4 brouettes par planche. Vous aurez également besoin de matière",
-      "text": "sèche comme de la paille, des feuilles sèches ou des résidus de cultures secs. Il en faut environ 5 brouettes par\npasse-pieds.",
+      "text": "sèche comme de la paille, des feuilles sèches ou des résidus de cultures secs. Il en faut environ 5 brouettes par passe-pieds.",
       "illustration_description": "Illustration pédagogique pour Si vous avez du compost ou du fumier, prévoyez 4 brouettes par planche. Vous aurez également besoin de matière",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_08.jpg"
     },
@@ -79,7 +79,7 @@
     {
       "page_number": 11,
       "title": "12 m",
-      "text": "12 m\nChoisissez une parcelle de 12 m de long par 12 m de large, de préférence à proximité d’une source d’eau.",
+      "text": "12 m Choisissez une parcelle de 12 m de long par 12 m de large, de préférence à proximité d’une source d’eau.",
       "illustration_description": "Illustration pédagogique pour 12 m",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_11.jpg"
     },
@@ -121,7 +121,7 @@
     {
       "page_number": 17,
       "title": "10 PLANCHES",
-      "text": "11 PASSE-PIEDS\nPuis répétez ces opérations : planche/passe-pied sur toute la largeur de la parcelle, jusqu'à l'obtention des 10\nplanches et des 11 passe-pieds.",
+      "text": "11 PASSE-PIEDS Puis répétez ces opérations : planche/passe-pied sur toute la largeur de la parcelle, jusqu'à l'obtention des 10 planches et des 11 passe-pieds.",
       "illustration_description": "Illustration pédagogique pour 10 PLANCHES",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_17.jpg"
     },
@@ -177,7 +177,7 @@
     {
       "page_number": 25,
       "title": "Il est essentiel d’enrichir le sol et d’améliorer sa texture. Pour cela vous pouvez utiliser du compost ou du fumier. Il",
-      "text": "faut environ 4 brouettes de compost par planche. Répartissez-le uniformément sur toute la surface avec un râteau\nou à la main.",
+      "text": "faut environ 4 brouettes de compost par planche. Répartissez-le uniformément sur toute la surface avec un râteau ou à la main.",
       "illustration_description": "Illustration pédagogique pour Il est essentiel d’enrichir le sol et d’améliorer sa texture. Pour cela vous pouvez utiliser du compost ou du fumier. Il",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_25.jpg"
     },
@@ -191,7 +191,7 @@
     {
       "page_number": 27,
       "title": "Cette étape permet à la fois d’aérer le sol et de mélanger la terre avec le compost ou le fumier déposé à l’étape",
-      "text": "précédente. L’aération du sol se fait avec une grelinette ou une grande fourche. Si vous n’en avez pas, vous pouvez\nutiliser une pioche.",
+      "text": "précédente. L’aération du sol se fait avec une grelinette ou une grande fourche. Si vous n’en avez pas, vous pouvez utiliser une pioche.",
       "illustration_description": "Illustration pédagogique pour Cette étape permet à la fois d’aérer le sol et de mélanger la terre avec le compost ou le fumier déposé à l’étape",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_27.jpg"
     },
@@ -233,7 +233,7 @@
     {
       "page_number": 33,
       "title": "Cette paille va se tasser avec le temps et au fur et à mesure que vous marcherez dessus. Son rôle est d’éviter les",
-      "text": "mauvaises herbes dans les passe-pieds et de retenir l’excès d’eau. De plus, cette matière sèche se transformera\nen compost au fil du temps.",
+      "text": "mauvaises herbes dans les passe-pieds et de retenir l’excès d’eau. De plus, cette matière sèche se transformera en compost au fil du temps.",
       "illustration_description": "Illustration pédagogique pour Cette paille va se tasser avec le temps et au fur et à mesure que vous marcherez dessus. Son rôle est d’éviter les",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_33.jpg"
     },

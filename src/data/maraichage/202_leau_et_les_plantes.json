@@ -9,7 +9,7 @@
     {
       "page_number": 1,
       "title": "Ce module vous aide à comprendre comment l’eau entre, circule et ressort de la plante.",
-      "text": "Il vous apprend aussi à optimiser l’arrosage de vos cultures, à repérer si une plante a trop ou pas assez d’eau, et\nà garder l’humidité dans le sol grâce à des techniques simples.",
+      "text": "Il vous apprend aussi à optimiser l’arrosage de vos cultures, à repérer si une plante a trop ou pas assez d’eau, et à garder l’humidité dans le sol grâce à des techniques simples.",
       "illustration_description": "Illustration pédagogique pour Ce module vous aide à comprendre comment l’eau entre, circule et ressort de la plante.",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_01.jpg"
     },
@@ -30,21 +30,21 @@
     {
       "page_number": 4,
       "title": "P",
-      "text": "Fe\nCa\nK\nMg\nN\nL’eau aide à transporter les éléments minéraux présents dans le sol, comme l’azote, le phosphore, le potassium, le\ncalcium. De même, l’eau transporte aussi les oligoéléments tels que le bore, le zinc, et d’autres encore.\nCes éléments jouent un rôle essentiel dans la photosynthèse et d'autres fonctions vitales de la plante.",
+      "text": "L’eau aide à transporter les éléments minéraux présents dans le sol, comme l’azote, le phosphore, le potassium, le calcium. De même, l’eau transporte aussi les oligoéléments tels que le bore, le zinc, et d’autres encore.\n\nCes éléments jouent un rôle essentiel dans la photosynthèse et d'autres fonctions vitales de la plante.",
       "illustration_description": "Illustration pédagogique pour P",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "Transpiration",
-      "text": "par les stomates\nstoma\nte\nDistribution\ndans les feuilles\nCa\nP\nFe\nN\nK\nMg\nAbsorption\npar les racines\nL’eau entre dans la plante par les racines. Elle transporte avec elle les éléments minéraux présents dans le sol.\nElle remonte jusqu’aux feuilles en circulant dans de très fins tuyaux appelés xylèmes.\nCe mouvement est possible grâce à un phénomène clé : l’évapotranspiration.\nL’évapotranspiration, c’est la perte d’eau :\npar les feuilles, à travers de petites ouvertures appelées stomates. On parle alors de transpiration.\net par le sol, sous forme d’évaporation.\nQuand l’eau s’échappe par les stomates, cela crée un effet d’aspiration, comme une pompe. La plante tire alors de\nl’eau depuis les racines pour compenser cette perte. C’est ce qui fait circuler l’eau dans toute la plante.\n👉",
+      "title": "L’évapotranspiration et la circulation de l’eau",
+      "text": "L’eau entre dans la plante par les racines. Elle transporte avec elle les éléments minéraux présents dans le sol.\nElle remonte jusqu’aux feuilles en circulant dans de très fins tuyaux appelés xylèmes.\n\nCe mouvement est possible grâce à un phénomène clé : **l’évapotranspiration**.\n\nL’évapotranspiration, c’est la perte d’eau :\n- par les feuilles, à travers de petites ouvertures appelées **stomates** (on parle alors de transpiration) ;\n- et par le sol, sous forme d’évaporation.\n\nQuand l’eau s’échappe par les stomates, cela crée un effet d’aspiration, comme une pompe : la plante tire alors l’eau depuis les racines pour compenser cette perte, faisant circuler l’eau et les nutriments dans toute la plante.",
       "illustration_description": "Illustration pédagogique pour Transpiration",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_05.jpg"
     },
     {
       "page_number": 6,
       "title": "Capillarité",
-      "text": "Pression racinaire\nD’autres phénomènes aident ce mouvement de pompe :\nla pression racinaire : pousse l’eau vers le haut.\nla capillarité : permet à l’eau de monter dans les xylèmes.\nCe système est essentiel pour que la plante transporte l’eau et les nutriments dont elle a besoin.",
+      "text": "Pression racinaire\n\nD’autres phénomènes aident ce mouvement de pompe :\n\nla pression racinaire : pousse l’eau vers le haut.\n\nla capillarité : permet à l’eau de monter dans les xylèmes.\n\nCe système est essentiel pour que la plante transporte l’eau et les nutriments dont elle a besoin.",
       "illustration_description": "Illustration pédagogique pour Capillarité",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_06.jpg"
     },
@@ -58,14 +58,14 @@
     {
       "page_number": 8,
       "title": "Finalement, la feuille de la plante c’est un peu comme notre peau :",
-      "text": "Elle respire par des petits trous invisibles, comme les pores de la peau.\nElle laisse sortir de l’eau, comme de la sueur. Si l’air est trop sec ou chaud, elle perd trop d’eau, comme nous\nquand on transpire beaucoup.\nSi on a trop chaud ou pas assez bu, on devient fatigué : c’est pareil pour la plante !",
+      "text": "Elle respire par des petits trous invisibles, comme les pores de la peau.\n\nElle laisse sortir de l’eau, comme de la sueur. Si l’air est trop sec ou chaud, elle perd trop d’eau, comme nous quand on transpire beaucoup.\n\nSi on a trop chaud ou pas assez bu, on devient fatigué : c’est pareil pour la plante !",
       "illustration_description": "Illustration pédagogique pour Finalement, la feuille de la plante c’est un peu comme notre peau :",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_08.jpg"
     },
     {
       "page_number": 9,
       "title": "Et comme notre peau, la feuille a besoin d’être protégée :",
-      "text": "du soleil brûlant,\ndu vent,\ndu manque d’eau.",
+      "text": "- du soleil brûlant,\n- du vent,\n- du manque d’eau.",
       "illustration_description": "Illustration pédagogique pour Et comme notre peau, la feuille a besoin d’être protégée :",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_09.jpg"
     },
@@ -79,7 +79,7 @@
     {
       "page_number": 11,
       "title": "La présence",
-      "text": "de paillage\nLa culture\nLES BESOINS EN EAU\nDÉPENDENT DE\nLe stade de\ncroissance\nLe sol\nLa culture: certaines plantes ont besoin de plus d’eau que d’autres.\nLe stade de la croissance : un petit plant a besoin de plus d’eau.\nLe sol argileux garde l’eau tandis que le sol sableux la laisse fuir.\nLa température, le vent, l’humidité de l’air.\nLa présence de paillage, de compost et de charbon dans le sol.\nLa météo",
+      "text": "- de paillage La culture LES BESOINS EN EAU DÉPENDENT DE Le stade de croissance Le sol La culture: certaines plantes ont besoin de plus d’eau que d’autres.\n\nLe stade de la croissance : un petit plant a besoin de plus d’eau.\n\nLe sol argileux garde l’eau tandis que le sol sableux la laisse fuir.\n\nLa température, le vent, l’humidité de l’air.\n\nLa présence de paillage, de compost et de charbon dans le sol.\n\nLa météo",
       "illustration_description": "Illustration pédagogique pour La présence",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_11.jpg"
     },
@@ -93,7 +93,7 @@
     {
       "page_number": 13,
       "title": "Si la plante manque d’eau :",
-      "text": "Sol sec en profondeur.\nFeuilles molles, tristes ou qui tombent ou\njaunissent.\nCroissance lente.\nSi la plante a trop d’eau :\nFeuilles qui fanent alors que le sol est mouillé.\nOdeur désagréable : racines pourries et racines\nétouffées.\nChampignons ou taches suspectes.",
+      "text": "Sol sec en profondeur.\n\nFeuilles molles, tristes ou qui tombent ou jaunissent.\n\nCroissance lente.\n\nSi la plante a trop d’eau :\n\nFeuilles qui fanent alors que le sol est mouillé.\n\nOdeur désagréable : racines pourries et racines étouffées.\n\nChampignons ou taches suspectes.",
       "illustration_description": "Illustration pédagogique pour Si la plante manque d’eau :",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_13.jpg"
     },
@@ -107,7 +107,7 @@
     {
       "page_number": 15,
       "title": "Arroser le matin ou le soir, jamais en plein soleil.",
-      "text": "Mettre du paillage pour retenir l’eau : paille, feuilles sèches, coques.\nUtiliser du compost pour garder l’humidité.\nArroser suffisamment pour que le sol soit humide en profondeur, et pas juste en surface.",
+      "text": "Mettre du paillage pour retenir l’eau : paille, feuilles sèches, coques.\n\nUtiliser du compost pour garder l’humidité.\n\nArroser suffisamment pour que le sol soit humide en profondeur, et pas juste en surface.",
       "illustration_description": "Illustration pédagogique pour Arroser le matin ou le soir, jamais en plein soleil.",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_15.jpg"
     },
@@ -121,21 +121,21 @@
     {
       "page_number": 17,
       "title": "Retient l’eau comme une éponge",
-      "text": "Renforce les cultures\nFavorise la vie du sol\nLe charbon de bois broyé, appelé biochar, est un excellent allié pour :\nRetenir l’eau : Le charbon fonctionne comme une éponge qui permet de retenir l’eau et les nutriments dans\nses cavités. Il garde l’humidité, puis la relâche lentement quand le sol est sec. Il peut retenir jusqu’à 5 fois\nson poids en eau.\nNourrir le sol : Le charbon sert de refuge aux micro-organismes utiles, comme les bactéries et les\nchampignons, qui aident les plantes à se nourrir et renforcent la vie du sol.\nRenforcer la résistance des cultures : Le charbon améliore la rétention d’eau et la stabilité du sol, ce qui aide\nles plantes à mieux supporter la sécheresse.",
+      "text": "Renforce les cultures Favorise la vie du sol\n\nLe charbon de bois broyé, appelé biochar, est un excellent allié pour :\n\nRetenir l’eau : Le charbon fonctionne comme une éponge qui permet de retenir l’eau et les nutriments dans ses cavités. Il garde l’humidité, puis la relâche lentement quand le sol est sec. Il peut retenir jusqu’à 5 fois son poids en eau.\n\nNourrir le sol : Le charbon sert de refuge aux micro-organismes utiles, comme les bactéries et les champignons, qui aident les plantes à se nourrir et renforcent la vie du sol.\n\nRenforcer la résistance des cultures : Le charbon améliore la rétention d’eau et la stabilité du sol, ce qui aide les plantes à mieux supporter la sécheresse.",
       "illustration_description": "Illustration pédagogique pour Retient l’eau comme une éponge",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_17.jpg"
     },
     {
       "page_number": 18,
       "title": "OU",
-      "text": "Utilisez du charbon de bois bien refroidi, puis broyé finement, en poudre ou en petits morceaux de 1 à 10 mm.\nSi vous fabriquez votre compost :\nSi vous avez déjà du compost prêt à l’emploi :\nAjoutez-y du charbon broyé à raison de 10 à 20 %\nAjoutez un peu de charbon à chaque couche, en\ndu volume total. Par exemple : pour 1 brouette de\nl’alternant avec les matières brunes (feuilles,\ncompost (80 L) : ajoutez 8 à 16 L de charbon, soit\npaille…) et vertes(déchets de cuisine, tontes…).\nenviron 1 à 2 seaux.\nHumidifiez si besoin : le charbon est très\nMélangez bien pour une bonne répartition.\nabsorbant.\nLaissez mûrir.",
+      "text": "Utilisez du charbon de bois bien refroidi, puis broyé finement, en poudre ou en petits morceaux de 1 à 10 mm.\n\nSi vous fabriquez votre compost :\n\nSi vous avez déjà du compost prêt à l’emploi :\n\nAjoutez-y du charbon broyé à raison de 10 à 20 % Ajoutez un peu de charbon à chaque couche, en\n\n- du volume total. Par exemple : pour 1 brouette de\n- l’alternant avec les matières brunes (feuilles,\n\ncompost (80 L) : ajoutez 8 à 16 L de charbon, soit paille…) et vertes(déchets de cuisine, tontes…).\n\nenviron 1 à 2 seaux.\n\nHumidifiez si besoin : le charbon est très Mélangez bien pour une bonne répartition.\n\nabsorbant.\n\nLaissez mûrir.",
       "illustration_description": "Illustration pédagogique pour OU",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_18.jpg"
     },
     {
       "page_number": 19,
       "title": "L’eau est essentielle à la vie de la plante : elle entre par les racines, circule jusqu’aux feuilles et ressort par les",
-      "text": "stomates.\nComprendre ce chemin permet de mieux arroser, au bon moment et en bonne quantité.\nGrâce à quelques gestes simples – observer la plante, adapter l’arrosage, pailler le sol, enrichir le compost –\nvous pouvez aider vos cultures à mieux pousser, même en période sèche.",
+      "text": "stomates.\n\nComprendre ce chemin permet de mieux arroser, au bon moment et en bonne quantité.\n\nGrâce à quelques gestes simples – observer la plante, adapter l’arrosage, pailler le sol, enrichir le compost – vous pouvez aider vos cultures à mieux pousser, même en période sèche.",
       "illustration_description": "Illustration pédagogique pour L’eau est essentielle à la vie de la plante : elle entre par les racines, circule jusqu’aux feuilles et ressort par les",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_19.jpg"
     }
