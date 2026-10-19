@@ -132,6 +132,7 @@ if (totalSteps > 1) {
         ← Catalogue
       </a>
       <div class="lesson-title-meta">
+        {course.course_code && <span class="badge badge-code" style="background:#e8f5e9;color:#2e7d32;font-weight:700;">{course.course_code}</span>}
         <span class="badge badge-primary">{course.category || 'Semences Paysannes'}</span>
         <h1 class="lesson-header-title">{course.title}</h1>
         <span class="lesson-reading-progress" id="lesson-reading-progress">

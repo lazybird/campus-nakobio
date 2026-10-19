@@ -92,7 +92,7 @@ const categories = [
               </div>
               <div class="card-body">
                 <div class="card-top-meta">
-                  <span class="card-code">{course.id.split('_')[0].toUpperCase()}</span>
+                  <span class="card-code">{course.course_code || course.id.split('_')[0].toUpperCase()}</span>
                   <span class="card-pages">📄 {course.total_pages} étapes</span>
                 </div>
                 <h2 class="card-title">{course.title}</h2>

@@ -5,7 +5,8 @@
     "category": "Fondements & Sol",
     "summary": "Découvrez les piliers du maraîchage bio-intensif en sol vivant : planches permanentes, irrigation globale douce, compost autonome et intensification écologique.",
     "total_pages": 30,
-    "cover_image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_01.jpg"
+    "cover_image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_01.jpg",
+    "course_code": "M1.1"
   },
   {
     "id": "201_sols_vivants",
@@ -13,7 +14,8 @@
     "category": "Fondements & Sol",
     "summary": "Comprenez la vie biologique du sol (vers, champignons, bactéries, humus) et comment le système des planches permanentes nourrit naturellement vos cultures.",
     "total_pages": 35,
-    "cover_image": "assets/images/maraichage/201_sols_vivants/page_01.jpg"
+    "cover_image": "assets/images/maraichage/201_sols_vivants/page_01.jpg",
+    "course_code": "M2.1"
   },
   {
     "id": "202_leau_et_les_plantes",
@@ -21,7 +23,8 @@
     "category": "Fondements & Sol",
     "summary": "Comment l'eau circule dans la plante, repérer les signaux de soif ou d'excès d'eau, et optimiser l'arrosage pour conserver l'humidité en climat chaud.",
     "total_pages": 19,
-    "cover_image": "assets/images/maraichage/202_leau_et_les_plantes/page_01.jpg"
+    "cover_image": "assets/images/maraichage/202_leau_et_les_plantes/page_01.jpg",
+    "course_code": "M2.2"
   },
   {
     "id": "301_realiser_les_planches_de_cultures",
@@ -29,7 +32,8 @@
     "category": "Techniques & Pratiques",
     "summary": "Toutes les étapes pour mesurer, tracer, creuser les passe-pieds, amender, aérer et pailler vos planches de culture permanentes de 75 cm.",
     "total_pages": 36,
-    "cover_image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_01.jpg"
+    "cover_image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_01.jpg",
+    "course_code": "M3.1"
   },
   {
     "id": "302_mettre_en_place_lirrigation",
@@ -37,7 +41,8 @@
     "category": "Techniques & Pratiques",
     "summary": "Planification, choix du matériel de plomberie, montage des cannes d'aspersion et entretien pour une couverture d'eau homogène et douce.",
     "total_pages": 40,
-    "cover_image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_01.jpg"
+    "cover_image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_01.jpg",
+    "course_code": "M3.2"
   },
   {
     "id": "303_realiser_un_compost",
@@ -45,7 +50,8 @@
     "category": "Techniques & Pratiques",
     "summary": "Fabrication de compost d'hivernage pas à pas (vert/brun/fumier, humidité, montée en température) et fabrication d'une compostière locale en bois ou grillagée.",
     "total_pages": 35,
-    "cover_image": "assets/images/maraichage/303_realiser_un_compost/page_01.jpg"
+    "cover_image": "assets/images/maraichage/303_realiser_un_compost/page_01.jpg",
+    "course_code": "M3.3"
   },
   {
     "id": "304_mettre_en_place_les_cultures",
@@ -53,7 +59,8 @@
     "category": "Techniques & Pratiques",
     "summary": "Préparation du lit de semence, aération à la grelinette, nivellement, semis en lignes régulières et transplantation sans stress pour les jeunes plants.",
     "total_pages": 13,
-    "cover_image": "assets/images/maraichage/304_mettre_en_place_les_cultures/page_01.jpg"
+    "cover_image": "assets/images/maraichage/304_mettre_en_place_les_cultures/page_01.jpg",
+    "course_code": "M3.4"
   },
   {
     "id": "305_produire_des_jeunes_plants",
@@ -61,7 +68,8 @@
     "category": "Techniques & Pratiques",
     "summary": "Choisir sa technique de pépinière (plaques alvéolées, terrines, pépinière de pleine terre), fabrication de terreau riche, gestion de l'ombre et arrosage fin.",
     "total_pages": 13,
-    "cover_image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_01.jpg"
+    "cover_image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_01.jpg",
+    "course_code": "M3.5"
   },
   {
     "id": "306_recolter_conserver_conditionner",
@@ -69,7 +77,8 @@
     "category": "Techniques & Pratiques",
     "summary": "Les critères de maturité, récolte aux heures fraîches avec les bons gestes, lavage, égouttage, tri de calibrage et stockage optimal.",
     "total_pages": 21,
-    "cover_image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_01.jpg"
+    "cover_image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_01.jpg",
+    "course_code": "M3.6"
   },
   {
     "id": "401_proteger_la_sante_des_plantes",
@@ -77,7 +86,8 @@
     "category": "Protection & Conception",
     "summary": "Identifier maladies, ravageurs, carences et stress hydrique. Recettes naturelles de biopesticides et biofertilisants (ail, neem, extraits fermentés).",
     "total_pages": 30,
-    "cover_image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_01.jpg"
+    "cover_image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_01.jpg",
+    "course_code": "M4.1"
   },
   {
     "id": "402_planifier_les_cultures",
@@ -85,7 +95,8 @@
     "category": "Protection & Conception",
     "summary": "Maîtriser les rotations pluriannuelles et successions rapides pour ne jamais épuiser le sol et couper le cycle des maladies.",
     "total_pages": 31,
-    "cover_image": "assets/images/maraichage/402_planifier_les_cultures/page_01.jpg"
+    "cover_image": "assets/images/maraichage/402_planifier_les_cultures/page_01.jpg",
+    "course_code": "M4.2"
   },
   {
     "id": "403_design_dune_micro_ferme",
@@ -93,6 +104,7 @@
     "category": "Protection & Conception",
     "summary": "Agencement spatial ergonomique, orientation des planches, brise-vents, gestion des flux d'eau, chemins et optimisation de chaque zone.",
     "total_pages": 18,
-    "cover_image": "assets/images/maraichage/403_design_dune_micro_ferme/page_01.jpg"
+    "cover_image": "assets/images/maraichage/403_design_dune_micro_ferme/page_01.jpg",
+    "course_code": "M4.3"
   }
 ]
