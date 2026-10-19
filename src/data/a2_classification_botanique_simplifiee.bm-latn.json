@@ -1,0 +1,122 @@
+{
+  "id": "a2_classification_botanique_simplifiee",
+  "title": "Yiriw ka dɔnniya nɔgɔman",
+  "category": "Dɔnniya kunkankaw",
+  "summary": "Aw ka dɔn yiriw ka denbaya belebeleba minnu bɛ jɛgɛnna, walasa ka dɔn o yiriw la minnu bɛ se ka fara ɲɔgɔn kan, ani ka kɛlɛya nɔgɔmanw bali ka kɛ fɛnsɛnna.",
+  "total_pages": 16,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "K'a kɛ i kana kɔnɔnaɲɛgɛn sɔrɔ i ka fɛnɲɛnama yɔrɔ la",
+      "text": "Mun na **kɔkɔnburuji** fila minnu jala yɔrɔ kelen na ni **mɛlɔn** ye, olu tɛ problemu si di, nka **piman** fila minnu tɛ kelen ye, olu ka dɔgɔya bɛ kɛ yɛlɛma kora la?\n\nModulu nin kɔnɔ, i bɛna **yiriw ka denbaya** dɔn walasa i ka i ka **jiɲɛw ka kɔrɔnfɛnw** lakana.",
+      "illustration_description": "Plan moyen : deux paysans observant avec curiosité deux parcelles voisines. Au milieu, un panneau avec un point d'interrogation et deux légumes illustrés (concombre et melon) avec un grand sourire complice.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Kumaɲɔgɔnya bɛɛ ye ɲɔgɔn fɛ",
+      "text": "Jiriw ka mara kɔnɔ, o bɛɛ ye ɲɔgɔn fɛ i n'a fɔ kumaɲɔgɔnya bɛɛ:\n- Jiriw minnu bɛ **kumaɲɔgɔnya** kelen na, olu ye i n'a fɔ mɔgɔw ka dɔgɔkunw: u ka fɛnɲɛnama walima u ka filaw ka kɔnɔkow bɛ ɲɔgɔn cɛ.\n- Kumaɲɔgɔnya kelen-kelen bɛɛ kɔnɔ, **jiriw** wɛrɛw bɛ yen: i n'a fɔ balimaw ni balimamuso.\n- Wa jiriw kelen-kelen bɛɛ kɔnɔ, **jiriw** wɛrɛw bɛ yen minnu bɛ yɔrɔ la: i n'a fɔ mɔgɔ kelen-kelen.",
+      "illustration_description": "Arbre généalogique visuel simplifié :\n- En haut : le grand groupe \"Famille\"\n- Au milieu : deux branches \"Espèces\" (par exemple Espèce Poivron/Piment et Espèce Tomate)\n- En bas : les feuilles avec des photos de légumes réels représentant les \"Variétés\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Ɲɛgɛn-kɔrɔba ka sɔgɔsɔgɔli sariya",
+      "text": "Aw ye nin sariya kulu dɔn:\n\n**JURU KƐLƐN** ka fura dɔrɔn de bɛ se ka fara ɲɔgɔn kan ka sɔgɔsɔgɔli kɛ ka nɔgɔn.\n\nFura minnu bɔra juru wɛrɛw la walima denbaya wɛrɛw la, olu tɛ sɔgɔsɔgɔli kɛ ɲɔgɔn fɛ ABADA ka kɛɲɛ ni sigida ye.\n\nSigida de bɛ nin bali-yɔrɔ in sigi.",
+      "illustration_description": "Schéma clair avec pictogrammes :\n- Deux variétés de tomates qui échangent du pollen : flèche verte avec mention \"Se croisent facilement ⚠️\".\n- Une tomate et une carotte côte à côte : grand bouclier infranchissable avec mention \"Croisement impossible ❌\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Famili fɔlɔ: Cucurbitacées (kaba-famili)",
+      "text": "U bɛ dɔn ni u ka **wara-yiri** belebelew ni u ka **yiri-kɔnɔw** ye minnu bɛ yiriw la walima minnu bɛ yiriw kan.\nO ye **Cucurbitacées** famili ye.\nO bɛ kaba, kaba-fitini, concombre, jɔgɔ, ni melon bɛɛ lajɛ.",
+      "illustration_description": "Vue d'ensemble d'une liane vigoureuse au sol portant des feuilles palmées et une belle fleur jaune en cloche. Autour, vignettes montrant un concombre, une tranche de pastèque, un melon et une courge locale.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Kɔngɔnɔ kulu denw ka fɛnw na kɔlɔsi!",
+      "text": "Kɔngɔnɔ kulu denw na, **kɔngɔnɔ** ni **sɔgɔ** ye fɛn wɛrɛw ye:\n✅ Kɔngɔnɔ tɛ sigi **sɔgɔ** kan ABADA.\n✅ Jaba tɛ sigi **kɔngɔnɔ** kan ABADA.\n⚠️ Nka sɔgɔ suguya fila nuguya minnu lajɛlen bɛ sigi ɲɔgɔn kan WAKATI BEELAA!",
+      "illustration_description": "Tableau visuel simple :\n- Concombre ↔️ Melon = Croix rouge \"Pas de croisement ✅\"\n- Melon de variété A ↔️ Melon de variété B = Flèche d'avertissement \"Croisement immédiat ⚠️\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Famili filanan: Solanaceae (tomati ka famili)",
+      "text": "U ye yiriw ye minnu ka fura bɛ kɛra dolow ye, n'a bɛ i n'a fɔ dɔlɔw dɔgɔmanw:\nO ye **Solanaceae** ka famili ye.\nO bɛ tomati, jaba, foronto, foronto-jaba ani patati bɛɛ lajɛ.",
+      "illustration_description": "Gros plan sur une jolie fleur de tomate en étoile à 5 pétales jaunes pointus. Autour, disposition harmonieuse d'un piment rouge vif, d'une tomate bien mûre et d'une aubergine violette brillante.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Foronto ni foronto-fin: bɔgɔ-juru kelen!",
+      "text": "Kɔnɔna: ɲɔgɔnna! \nForonto jɛgɛnnen ni foronto-fin duman bɛ **bɔgɔ-juru kelen** na.\nN'i y'u yɛlɛn ɲɔgɔn cɛma, sansanw bɛ fulenw fili:\nI ka foronto-fin nɛgɛnw bɛ di yɛlɛnba jɛgɛnnenw na san nata!",
+      "illustration_description": "Une abeille volant d'un plant de piment rouge vers une fleur de poivron.\nBulle montrant un paysan croquant dans un poivron doux devenu brûlant de piment avec de la fumée qui sort des oreilles (touche pédagogique et humoristique).",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Saba-nan fami: Fabacées (mange-tout ni haricots)",
+      "text": "U ka **fɛrɛw** bɛ kɛ ka kɔnɔntɔn dɔgɔw ye, wa u ka **njɛw** bɛ bonya **gousses** kɔnɔ.\nO ye **Fabacées** (walima **légumineuses**) ka fami ye.\nO bɛ niébé (vigna), arachide, haricot ni pois jɛn.\nNin **yiridenw** bɛ se ka i ka **dugukolo** fa ni **ɲamɔgɔ** ye!",
+      "illustration_description": "Rameau de niébé en fleur :\n- Zoom sur la fleur en papillon\n- Longue gousse suspendue contenant les graines\n- Petit médaillon sous terre montrant les petites billes (nodosités) sur les racines qui nourrissent la terre.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Nɛrɛ ye a ka daɲɛ sɔn",
+      "text": "Farmaɲɔgɔn ye kibaru duman sɔrɔ:\n\nNɛrɛ ni digi caaman na, a ka fɛnɲɛ ye a yɛrɛ bonya fɔlɔ a ma yɛlɛn fɔlɔ!\n\nin ye min fɔ ko **duguma-yɛrɛ-bonya-jigin**.\n\nO la, kɛɲɛ ni jiranin cɛ ka kɛɲɛ ni ɲɔgɔn ye ka dɔgɔ kosɛbɛ ni kaba ye.",
+      "illustration_description": "Coupe en gros plan d'une fleur de haricot encore fermée comme un cocon : les organes mâles déposent déjà le pollen directement sur l'organe femelle à l'abri du vent et des insectes.\nPicto : cadenas fermé \"Fidélité garantie ✅\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Naani denbaya: Burasikasee (chou denbaya)",
+      "text": "U ka seginkurunw ye seginkurun naani ye minnu sigilen bɛ kurusi kɔnɔ.\nO ye **Burasikasee** (chou) denbaya ye.\nO bɛ chou cabu, chou feuille (sukuma wiki), radis ni moutarde jɛn.",
+      "illustration_description": "Gros plan sur une hampe florale de chou portant des fleurs jaunes à 4 pétales nettement disposés en croix (+).\nEn bas, une pomme de chou cabu et des feuilles de chou cavalier.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Chou ye ka jɛn-jɛn fɛ",
+      "text": "Ka fara faso kan, chou bɛ a yɛrɛ ka fura gbɛlɛn. A ka kan ka fɛnɛ ni kɔnɔnw sɔrɔ walasa u ka chou wɛrɛw ka fura bila a kan:\nO de ye a ye min bɛ wele ko **allogame** jikin.\nChou bɛɛ minnu ka jɛnɲɔgɔn kelen ye, olu bɛ jɛnɲɔgɔn fɛ ni nɔgɔya ye!",
+      "illustration_description": "Rafale de vent et insectes transportant des nuages de pollen doré entre plusieurs plants de choux en fleurs espacés dans un champ.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Munna i b'i siimɛn in tɔgɔ da ka ɲɛ?",
+      "text": "Kumajago tɔgɔ bɛ se ka mɔgɔ nɔgɔn. Ni i ko \"ŋɔn\", o bɛ se ka kɔrɔya jɛnɛ saba ye minnu tɛ sigi ɲɔgɔn kan.\n\nO la, siimɛnfɔla dɔw bɛ kumajago fila di ka ɲɛsigi jɛnɛ yɛlɛma.\n\nNka i ka foroba la, gafe ɲuman ni tɔgɔɲɛsigi jɛlenw ka di i ye ka i yɛrɛ dɔn!",
+      "illustration_description": "Carnet de culture ouvert avec des dessins simples de feuilles et de fruits, annoté avec soin :\n- \"Courge calebasse locale\"\n- \"Courge musquée sucrée\"\nChacune sur sa ligne bien distincte.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Tabali dɔnniya: Jɔn bɛ jɔn fɛ?",
+      "text": "Walasa k'a dɔn k'i kɛ n'i ye min kɛ: \n- **Piman** ❌ **Poivron**: U bɛ kɛɲɛ 100% ! (A ka fisa k'u kɛ yɔrɔ **kelen** na)\n- **Melon** ❌ **Concombre**: U tɛ kɛɲɛ **tumayaa si** (U ka di k'u kɛ yɔrɔ **kelen** na)\n- **Tomati** **ɲɔgɔnna fila**: U tɛ kɛɲɛ kosɛbɛ, fɔ n'a ka jɔli kɛ\n- **Maaro** **ɲɔgɔnna fila**: U bɛ kɛɲɛ kosɛbɛ ni **fɛn** ye",
+      "illustration_description": "Tableau récapitulatif ultra-visuel avec deux colonnes :\n- Colonne de gauche (vert ✅) : \"Peuvent être voisins sans risque\" (ex : Carotte + Tomate + Melon).\n- Colonne de droite (rouge ⚠️) : \"Danger de croisement / Isoler\" (ex : Piment doux + Piment fort / Maïs blanc + Maïs jaune).",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Oli o bɛ kɛ cogo di i ka foroba la?",
+      "text": "Ka nɛnɛn jiinw dilan:\n1. I ka jiinw laban ka ɲɔgɔn sɔrɔ i ka foroba plan kan.\n2. I kana jiinw kɛ walima ka jiinw jala bɛɛ kɛ yɔrɔ kelen na tuma kelen na.\n3. Ni i b'a fɛ ka jiinw fila kɛ, i ka u tɛmɛn ɲɔgɔn na yɔrɔ jan walima ka u jala kalo wɛrɛw la.",
+      "illustration_description": "Plan vu du dessus d'un potager maraîcher divisé en planches de culture :\n- Planche 1 : Une variété unique de tomate sélectionnée pour les graines.\n- Planche 2 : Des oignons.\n- Planche 3 : Des haricots.\nToutes les planches sont bien ordonnées et espacées.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "**Marakafɛn-kɛla ka dɔnniya:** Sanfɛn-kalanda min bɛ yɛlɛman",
+      "text": "I tɛ yɔrɔ dɔgɔya ka i ka walawala-fɛnw bila ka bɔ yɔrɔ jan ni kɛmɛya-mitiri caman ye?\n\nI ka jɔli-don yɛlɛman dɔrɔn!\n\nNi fɛn-wɔrɔwɔrɔ fɔlɔ ka fɛn-kɔnɔ-jɔli laban ka fɔlɔ ka ban fɔlɔ, ka fɛn-wɔrɔwɔrɔ filanan ma fɛn-kɔnɔ-jɔli daminɛ fɔlɔ, fɛn-kɔnɔ-jɔli si tɛ se ka kɛ.",
+      "illustration_description": "Frise chronologique sur 4 mois :\n- Mois 1 et 2 : Variété A en fleurs, Variété B à peine semée (en herbe).\n- Mois 3 et 4 : Variété A en fruits bien formés (fleurs fanées), Variété B qui commence à fleurir.\nMention : \"Zéro croisement grâce au temps ✅\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Ayiwa ! I be kuma ni denbaya kumakan ye",
+      "text": "Ayiwa ! I ye a faamu cogo min na jiriw be fara ɲɔgɔn kan:\n✅ I be a dɔn ko jiri kɛɲɛ kelen kɛrɛnkɛrɛnnenw dɔrɔn de be fara ɲɔgɔn kan\n✅ I be a dɔn ko foronto ni foronto-ba ka kan ka lajɛ kosɛbɛ\n✅ I be a dɔn i ka sɛnɛnw ka teli ka kɛ tuma wɛrɛw la walasa i ka nɛgɛnw ka kisi\n\nKalan wɛrɛ: cogo di i be sɛnɛnkuluw labanw sugandi walasa ka i yɛrɛ ka mara daminɛ !",
+      "illustration_description": "Le maraîcher montre fièrement un panneau en bois planté au bout de sa planche indiquant la famille et la variété, avec le pouce levé 👍.\nPlusieurs légumes des 4 familles forment une couronne protectrice tout autour du dessin.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_16.jpg"
+    }
+  ],
+  "course_code": "S1.02"
+}

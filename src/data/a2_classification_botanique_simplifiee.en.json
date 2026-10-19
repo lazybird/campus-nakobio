@@ -1,0 +1,122 @@
+{
+  "id": "a2_classification_botanique_simplifiee",
+  "title": "Simplified Botanical Classification",
+  "category": "Fundamentals",
+  "summary": "Learn to recognize the main vegetable families in the garden to understand which can cross-pollinate with each other, and avoid bad mixtures in the field without complicated jargon.",
+  "total_pages": 16,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Avoiding Unpleasant Surprises in the Field",
+      "text": "Why do two cucumbers planted next to a melon cause no problems, while two different peppers completely change their taste?\nIn this module, you will learn to recognize plant families to protect the purity of your seeds.",
+      "illustration_description": "Plan moyen : deux paysans observant avec curiosité deux parcelles voisines. Au milieu, un panneau avec un point d'interrogation et deux légumes illustrés (concombre et melon) avec un grand sourire complice.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Like a Big Human Family",
+      "text": "In the plant kingdom, it's like a big human family:\n- Plants of the same **family** are like cousins: they have similar flower or leaf shapes.\n- Within each family, there are different **species**: like brothers and sisters.\n- And within each species, there are different local **varieties**: like unique individuals.",
+      "illustration_description": "Arbre généalogique visuel simplifié :\n- En haut : le grand groupe \"Famille\"\n- Au milieu : deux branches \"Espèces\" (par exemple Espèce Poivron/Piment et Espèce Tomate)\n- En bas : les feuilles avec des photos de légumes réels représentant les \"Variétés\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "The Golden Rule of Cross-Pollination",
+      "text": "Remember this fundamental rule:\nOnly varieties of the **SAME SPECIES** can easily mate and cross-pollinate.\nPlants of different species or different families NEVER naturally cross-pollinate with each other.\nNature establishes this protective barrier.",
+      "illustration_description": "Schéma clair avec pictogrammes :\n- Deux variétés de tomates qui échangent du pollen : flèche verte avec mention \"Se croisent facilement ⚠️\".\n- Une tomate et une carotte côte à côte : grand bouclier infranchissable avec mention \"Croisement impossible ❌\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "First Family: Cucurbitaceae (the squash family)",
+      "text": "Recognizable by their large, rough leaves and creeping or climbing stems.\nThis is the **Cucurbitaceae** family.\nIt includes squashes, zucchinis, cucumbers, watermelons, and melons.",
+      "illustration_description": "Vue d'ensemble d'une liane vigoureuse au sol portant des feuilles palmées et une belle fleur jaune en cloche. Autour, vignettes montrant un concombre, une tranche de pastèque, un melon et une courge locale.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Beware of species in the squash family!",
+      "text": "In the squash family, cucumber and melon are different species:\n✅ **Cucumber** NEVER crosses with **melon**.\n✅ **Watermelon** NEVER crosses with **squash**.\n⚠️ But two varieties of **melons** planted side-by-side will ALWAYS cross!",
+      "illustration_description": "Tableau visuel simple :\n- Concombre ↔️ Melon = Croix rouge \"Pas de croisement ✅\"\n- Melon de variété A ↔️ Melon de variété B = Flèche d'avertissement \"Croisement immédiat ⚠️\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Second Family: Solanaceae (the Tomato Family)",
+      "text": "These are plants with star-shaped flowers:\nThis is the **Solanaceae** family.\nIt includes tomatoes, eggplants, chili peppers, bell peppers, and potatoes.",
+      "illustration_description": "Gros plan sur une jolie fleur de tomate en étoile à 5 pétales jaunes pointus. Autour, disposition harmonieuse d'un piment rouge vif, d'une tomate bien mûre et d'une aubergine violette brillante.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Chili peppers and bell peppers: same species!",
+      "text": "Beware of flavor danger!\nHot chili peppers and sweet bell peppers belong to the **same species**.\nIf you plant them too close, insects will transport pollen:\nYour bell pepper seeds will produce spicy fruits next season!",
+      "illustration_description": "Une abeille volant d'un plant de piment rouge vers une fleur de poivron.\nBulle montrant un paysan croquant dans un poivron doux devenu brûlant de piment avec de la fumée qui sort des oreilles (touche pédagogique et humoristique).",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Third Family: Fabaceae (Snap Peas and Beans)",
+      "text": "Their flowers resemble small butterflies and their seeds grow in pods.\nThis is the **Fabaceae** family (or legumes).\nIt includes cowpea (vigna), peanut, bean, and pea.\nThese plants have the power to enrich your soil with nutrients!",
+      "illustration_description": "Rameau de niébé en fleur :\n- Zoom sur la fleur en papillon\n- Longue gousse suspendue contenant les graines\n- Petit médaillon sous terre montrant les petites billes (nodosités) sur les racines qui nourrissent la terre.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Beans Prefer to Stay True",
+      "text": "Good news for the farmer:\nIn most beans and cowpeas, the flower self-pollinates even before it opens!\nThis is called an **autogamous** plant.\nThe risks of cross-pollination with a neighbor are therefore much lower than with squash.",
+      "illustration_description": "Coupe en gros plan d'une fleur de haricot encore fermée comme un cocon : les organes mâles déposent déjà le pollen directement sur l'organe femelle à l'abri du vent et des insectes.\nPicto : cadenas fermé \"Fidélité garantie ✅\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Fourth Family: Brassicaceae (the Cabbage Family)",
+      "text": "Their flowers have 4 petals arranged in a cross shape.\nThis is the **Brassicaceae** family (the cabbages).\nIt includes head cabbage, leaf cabbage (sukuma wiki), radish, and mustard.",
+      "illustration_description": "Gros plan sur une hampe florale de chou portant des fleurs jaunes à 4 pétales nettement disposés en croix (+).\nEn bas, une pomme de chou cabu et des feuilles de chou cavalier.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Cabbages like to mix",
+      "text": "Unlike beans, cabbage often rejects its own pollen.\nIt needs wind and bees to bring pollen from other cabbage plants:\nThis is called an **allogamous** plant.\nAll cabbages of the same species cross-pollinate very easily with each other!",
+      "illustration_description": "Rafale de vent et insectes transportant des nuages de pollen doré entre plusieurs plants de choux en fleurs espacés dans un champ.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Why give seeds a precise name?",
+      "text": "The common word can be misleading. When we say \"squash,\" it can refer to 3 totally different species that do not cross-pollinate.\nSeed producers therefore sometimes use two precise words to designate the exact species.\nBut on your plot, a good notebook and clear labels are enough to find your way around!",
+      "illustration_description": "Carnet de culture ouvert avec des dessins simples de feuilles et de fruits, annoté avec soin :\n- \"Courge calebasse locale\"\n- \"Courge musquée sucrée\"\nChacune sur sa ligne bien distincte.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Memo Table: Who Cross-Pollinates With Whom?",
+      "text": "To know what to isolate:\n- **Chili Pepper** ❌ **Bell Pepper**: Cross-pollinate 100%! (Isolate imperatively)\n- **Melon** ❌ **Cucumber**: NEVER cross-pollinate (Can be grown side-by-side)\n- **Two tomato varieties**: Cross-pollinate little, except in high heat\n- **Two corn varieties**: Cross-pollinate very easily with the wind",
+      "illustration_description": "Tableau récapitulatif ultra-visuel avec deux colonnes :\n- Colonne de gauche (vert ✅) : \"Peuvent être voisins sans risque\" (ex : Carotte + Tomate + Melon).\n- Colonne de droite (rouge ⚠️) : \"Danger de croisement / Isoler\" (ex : Piment doux + Piment fort / Maïs blanc + Maïs jaune).",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "How to apply this to your plot?",
+      "text": "To produce pure seeds:\n1. Group your crops by family on your garden plan.\n2. Grow ONLY ONE seed variety of the same species at a time on the same plot.\n3. If you want two different varieties, separate them by a long distance or sow them in different months.",
+      "illustration_description": "Plan vu du dessus d'un potager maraîcher divisé en planches de culture :\n- Planche 1 : Une variété unique de tomate sélectionnée pour les graines.\n- Planche 2 : Des oignons.\n- Planche 3 : Des haricots.\nToutes les planches sont bien ordonnées et espacées.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "The Market Gardener's Trick: Staggered Planting",
+      "text": "Don't have enough space to separate your crops by several hundred meters?\nSimply **stagger your sowing dates**!\nIf the first variety finishes flowering before the second begins to open its flowers, no cross-pollination is possible.",
+      "illustration_description": "Frise chronologique sur 4 mois :\n- Mois 1 et 2 : Variété A en fleurs, Variété B à peine semée (en herbe).\n- Mois 3 et 4 : Variété A en fruits bien formés (fleurs fanées), Variété B qui commence à fleurir.\nMention : \"Zéro croisement grâce au temps ✅\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Congratulations! You speak the language of families",
+      "text": "Well done! You understand how plants associate:\n✅ You know that only plants of the same species cross-pollinate\n✅ You know that chili peppers and bell peppers must be closely monitored\n✅ You know how to stagger your crops over time to protect your seeds\n\nNext module: how to choose the best starter seeds to begin your autonomy!",
+      "illustration_description": "Le maraîcher montre fièrement un panneau en bois planté au bout de sa planche indiquant la famille et la variété, avec le pouce levé 👍.\nPlusieurs légumes des 4 familles forment une couronne protectrice tout autour du dessin.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_16.jpg"
+    }
+  ],
+  "course_code": "S1.02"
+}

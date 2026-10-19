@@ -1,0 +1,122 @@
+{
+  "id": "a2_classification_botanique_simplifiee",
+  "title": "Vereinfachte botanische Klassifizierung",
+  "category": "Grundlagen",
+  "summary": "Lernen Sie, die Hauptfamilien von Gemüsepflanzen im Garten zu erkennen, um zu verstehen, welche sich miteinander kreuzen können, und um schlechte Mischungen auf dem Feld ohne komplizierten Fachjargon zu vermeiden.",
+  "total_pages": 16,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Unerwartete Überraschungen auf dem Feld vermeiden",
+      "text": "Warum zwei Gurken, die neben einer Melone gepflanzt werden, keine Probleme verursachen, während zwei verschiedene Paprikasorten ihren Geschmack komplett verändern?\nIn diesem Modul lernen Sie, Pflanzenfamilien zu erkennen, um die Reinheit Ihres Saatguts zu schützen.",
+      "illustration_description": "Plan moyen : deux paysans observant avec curiosité deux parcelles voisines. Au milieu, un panneau avec un point d'interrogation et deux légumes illustrés (concombre et melon) avec un grand sourire complice.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Wie eine große menschliche Familie",
+      "text": "Im Pflanzenreich ist es wie in einer großen menschlichen Familie:\n- Pflanzen derselben **Familie** sind wie Cousins: Sie haben ähnliche Blüten- oder Blattformen.\n- In jeder Familie gibt es verschiedene **Arten**: wie Geschwister.\n- Und in jeder Art gibt es verschiedene lokale **Sorten**: wie einzigartige Menschen.",
+      "illustration_description": "Arbre généalogique visuel simplifié :\n- En haut : le grand groupe \"Famille\"\n- Au milieu : deux branches \"Espèces\" (par exemple Espèce Poivron/Piment et Espèce Tomate)\n- En bas : les feuilles avec des photos de légumes réels représentant les \"Variétés\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Die goldene Regel der Kreuzungen",
+      "text": "Merken Sie sich diese grundlegende Regel:\nNur Sorten einer **SELBEN ART** können sich leicht paaren und kreuzen.\nPflanzen verschiedener Arten oder verschiedener Familien kreuzen sich NIEMALS natürlich miteinander.\nDie Natur errichtet diese Schutzbarriere.",
+      "illustration_description": "Schéma clair avec pictogrammes :\n- Deux variétés de tomates qui échangent du pollen : flèche verte avec mention \"Se croisent facilement ⚠️\".\n- Une tomate et une carotte côte à côte : grand bouclier infranchissable avec mention \"Croisement impossible ❌\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Erste Familie: Die Kürbisgewächse (die Kürbisfamilie)",
+      "text": "Erkennbar an ihren großen, rauen Blättern und ihren kriechenden oder kletternden Stängeln.\nDies ist die Familie der **Cucurbitaceae** (Kürbisgewächse).\nSie umfasst Kürbisse, Zucchini, Gurken, Wassermelonen und Melonen.",
+      "illustration_description": "Vue d'ensemble d'une liane vigoureuse au sol portant des feuilles palmées et une belle fleur jaune en cloche. Autour, vignettes montrant un concombre, une tranche de pastèque, un melon et une courge locale.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Vorsicht bei Kürbisgewächsen!",
+      "text": "Innerhalb der Familie der Kürbisgewächse sind Gurke und Melone verschiedene Arten:\n✅ Die Gurke kreuzt sich NIEMALS mit der Melone.\n✅ Die Wassermelone kreuzt sich NIEMALS mit dem Kürbis.\n⚠️ Aber zwei Melonensorten, die nebeneinander gepflanzt werden, kreuzen sich IMMER!",
+      "illustration_description": "Tableau visuel simple :\n- Concombre ↔️ Melon = Croix rouge \"Pas de croisement ✅\"\n- Melon de variété A ↔️ Melon de variété B = Flèche d'avertissement \"Croisement immédiat ⚠️\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Zweite Familie: Die Nachtschattengewächse (die Tomatenfamilie)",
+      "text": "Dies sind Pflanzen mit sternförmigen Blüten:\nEs ist die Familie der **Nachtschattengewächse**.\nSie umfasst Tomaten, Auberginen, Chilis, Paprika und Kartoffeln.",
+      "illustration_description": "Gros plan sur une jolie fleur de tomate en étoile à 5 pétales jaunes pointus. Autour, disposition harmonieuse d'un piment rouge vif, d'une tomate bien mûre et d'une aubergine violette brillante.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Chilis und Paprika: dieselbe Art!",
+      "text": "Achtung, Gefahr für den Geschmack!\nDer scharfe Chili und die milde Paprika gehören zur **selben Art**.\nPflanzen Sie sie zu nah beieinander, transportieren Insekten den Pollen:\nIhre Paprikasamen ergeben in der nächsten Saison scharfe Früchte!",
+      "illustration_description": "Une abeille volant d'un plant de piment rouge vers une fleur de poivron.\nBulle montrant un paysan croquant dans un poivron doux devenu brûlant de piment avec de la fumée qui sort des oreilles (touche pédagogique et humoristique).",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Dritte Familie: Die Fabaceae (Zuckererbsen und Bohnen)",
+      "text": "Ihre Blüten sehen aus wie kleine Schmetterlinge und ihre Samen wachsen in Schoten.\nDies ist die Familie der **Fabaceae** (oder Hülsenfrüchtler).\nSie umfasst Augenbohnen (Vigna), Erdnüsse, Bohnen und Erbsen.\nDiese Pflanzen haben die Fähigkeit, Ihren Boden mit Nährstoffen anzureichern!",
+      "illustration_description": "Rameau de niébé en fleur :\n- Zoom sur la fleur en papillon\n- Longue gousse suspendue contenant les graines\n- Petit médaillon sous terre montrant les petites billes (nodosités) sur les racines qui nourrissent la terre.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Bohnen bleiben lieber treu",
+      "text": "Gute Nachrichten für den Landwirt:\nBei den meisten Bohnen und Augenbohnen befruchtet sich die Blüte selbst, noch bevor sie sich öffnet!\nMan spricht hier von einer **selbstbefruchtenden** Pflanze.\nDas Risiko einer Kreuzung mit dem Nachbarn ist daher viel geringer als bei Kürbissen.",
+      "illustration_description": "Coupe en gros plan d'une fleur de haricot encore fermée comme un cocon : les organes mâles déposent déjà le pollen directement sur l'organe femelle à l'abri du vent et des insectes.\nPicto : cadenas fermé \"Fidélité garantie ✅\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Vierte Familie: Die Brassicaceae (die Kohlfamilie)",
+      "text": "Ihre Blüten haben 4 Blütenblätter, die kreuzförmig angeordnet sind.\nDies ist die Familie der **Brassicaceae** (Kohlsorten).\nSie umfasst Kopfkohl, Blattkohl (Sukuma Wiki), Radieschen und Senf.",
+      "illustration_description": "Gros plan sur une hampe florale de chou portant des fleurs jaunes à 4 pétales nettement disposés en croix (+).\nEn bas, une pomme de chou cabu et des feuilles de chou cavalier.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Kohlsorten lieben die Mischung",
+      "text": "Im Gegensatz zur Bohne lehnt der Kohl oft seinen eigenen Pollen ab.\nEr braucht Wind und Bienen, um den Pollen von anderen Kohlpflanzen zu übertragen:\nDies wird als **Fremdbefruchter** bezeichnet.\nAlle Kohlsorten derselben Art kreuzen sich sehr leicht untereinander!",
+      "illustration_description": "Rafale de vent et insectes transportant des nuages de pollen doré entre plusieurs plants de choux en fleurs espacés dans un champ.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Warum den Samen einen genauen Namen geben?",
+      "text": "Das gebräuchliche Wort kann irreführend sein. Wenn man „Kürbis“ sagt, kann dies drei völlig verschiedene Arten bezeichnen, die sich nicht kreuzen.\nSamenhändler verwenden daher manchmal zwei genaue Wörter, um die exakte Art zu bezeichnen.\nAber auf Ihrem Feld genügen ein gutes Notizbuch und klare Etiketten, um sich zurechtzufinden!",
+      "illustration_description": "Carnet de culture ouvert avec des dessins simples de feuilles et de fruits, annoté avec soin :\n- \"Courge calebasse locale\"\n- \"Courge musquée sucrée\"\nChacune sur sa ligne bien distincte.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Merkblatt: Wer kreuzt sich mit wem?",
+      "text": "Um zu wissen, was isoliert werden muss:\n- **Chili** ❌ **Paprika**: Kreuzen sich zu 100 %! (Muss unbedingt isoliert werden)\n- **Melone** ❌ **Gurke**: Kreuzen sich NIEMALS (Anbau nebeneinander möglich)\n- Zwei **Tomatensorten**: Kreuzen sich selten, außer bei starker Hitze\n- Zwei **Maissorten**: Kreuzen sich sehr leicht durch den Wind",
+      "illustration_description": "Tableau récapitulatif ultra-visuel avec deux colonnes :\n- Colonne de gauche (vert ✅) : \"Peuvent être voisins sans risque\" (ex : Carotte + Tomate + Melon).\n- Colonne de droite (rouge ⚠️) : \"Danger de croisement / Isoler\" (ex : Piment doux + Piment fort / Maïs blanc + Maïs jaune).",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Wie wendet man das auf dem eigenen Beet an?",
+      "text": "Um sortenreines Saatgut zu erzeugen:\n1. Gruppieren Sie Ihre Kulturen nach Familien auf Ihrem Gartenplan.\n2. Bauen Sie nur EINE SAMENFESTE Sorte derselben Art gleichzeitig auf demselben Beet an.\n3. Wenn Sie zwei verschiedene Sorten wünschen, trennen Sie diese durch einen großen Abstand oder säen Sie sie in verschiedenen Monaten aus.",
+      "illustration_description": "Plan vu du dessus d'un potager maraîcher divisé en planches de culture :\n- Planche 1 : Une variété unique de tomate sélectionnée pour les graines.\n- Planche 2 : Des oignons.\n- Planche 3 : Des haricots.\nToutes les planches sont bien ordonnées et espacées.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Der Gärtnertrick: Der versetzte Kalender",
+      "text": "Sie haben nicht genug Platz, um Ihre Kulturen um mehrere hundert Meter zu versetzen?\n\nVersetzen Sie einfach das Aussaatdatum!\n\nWenn die erste Sorte mit dem Blühen fertig ist, bevor die zweite ihre Blüten zu öffnen beginnt, ist keine Kreuzung möglich.",
+      "illustration_description": "Frise chronologique sur 4 mois :\n- Mois 1 et 2 : Variété A en fleurs, Variété B à peine semée (en herbe).\n- Mois 3 et 4 : Variété A en fruits bien formés (fleurs fanées), Variété B qui commence à fleurir.\nMention : \"Zéro croisement grâce au temps ✅\".",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Glückwunsch! Sie sprechen die Sprache der Pflanzenfamilien",
+      "text": "Bravo! Sie haben verstanden, wie Pflanzen sich verbinden:\n✅ Sie wissen, dass sich nur Pflanzen derselben Art kreuzen\n✅ Sie wissen, dass Chili und Paprika gut überwacht werden müssen\n✅ Sie wissen, wie Sie Ihre Kulturen zeitlich versetzen, um Ihre Samen zu schützen\n\nNächstes Modul: Wie wählt man die besten Startsaatgüter aus, um seine Autonomie zu beginnen!",
+      "illustration_description": "Le maraîcher montre fièrement un panneau en bois planté au bout de sa planche indiquant la famille et la variété, avec le pouce levé 👍.\nPlusieurs légumes des 4 familles forment une couronne protectrice tout autour du dessin.",
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_16.jpg"
+    }
+  ],
+  "course_code": "S1.02"
+}
