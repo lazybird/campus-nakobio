@@ -1,0 +1,263 @@
+{
+  "id": "301_realiser_les_planches_de_cultures",
+  "title": "Ka yɔrɔw labɛn ka baara kɛ u la tuma bɛɛ",
+  "category": "Baara & Dabaw",
+  "summary": "Baara yɔrɔw bɛɛ lajɛ: a surun, a jira, a dogo, a suma, a nɛnɛ, ani a bon, i ka baara yɔrɔw la tuma bɛɛ minnu ka bon santimɛtɛrɛ 75.",
+  "total_pages": 36,
+  "cover_image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_01.jpg",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "An bɛna a jira i la cogo min na ka baara kɛ ni sɛnɛ-yɔrɔw ye ka ɲɛsin baara kɛcogo ma",
+      "text": "maraîchère bio intensive ka bonya dugukolo barikama kan.",
+      "illustration_description": "Illustration pédagogique pour Nous allons vous montrer comment mettre en place des planches de culture pour une entreprise",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Baara-yɔrɔw, jeli don? O ye baara-kɛcogo dɔ ye min b'a to i ka fɛn-ɲɛnama-baara ka bonya ani ka",
+      "text": "dugukolo ka ɲɛnamaya mara.",
+      "illustration_description": "Illustration pédagogique pour Les planches de culture, qu’est-ce que c’est ? C’est une façon de cultiver qui permet d’optimiser le rendement et de",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "PLANSHEW",
+      "text": "Se **planshew** ye dugukolo dancɛw ye minnu kan i bɛ ka foroba baara kɛ, u bɛ jɔlen.",
+      "illustration_description": "Illustration pédagogique pour PLANCHES",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "PASI-KUN",
+      "text": "U bɛ sigi yɛrɛ la ni **pasi-kunw** ye, minnu bɛ kɛ **juru** ye.",
+      "illustration_description": "Illustration pédagogique pour PASSE-PIED",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Kalan kɛli kama, i mago bɛ yɔrɔ dɔ la min tenten bɛ se ka kɛ mɛtɛrɛ 12 x 12 ye.",
+      "text": "Kalan kɛli kama, i mago bɛ yɔrɔ dɔ la min tenten bɛ se ka kɛ mɛtɛrɛ **12 x 12** ye.",
+      "illustration_description": "Illustration pédagogique pour Pour la formation vous avez besoin d’une parcelle d'environ 12 x 12 m.",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Plansi tan",
+      "text": "I bɛ plansi tan kɛ ka jɔli kɛ u kan, u ka tenten kɛ mɛtɛrɛ tan ye, yɔrɔ nin kɔnɔ.",
+      "illustration_description": "Illustration pédagogique pour 10 planches",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "I yɛrɛ ka baara la, i ka kan ka baarakɛminɛn ninnu sɔrɔ:",
+      "text": "houe, **pioche** ni dugukolo ka gɛlɛn, **râteau**, **grelinette** (forcheba) walima **pioche**, **arrosoir** walima **tuyau** ka ji la.",
+      "illustration_description": "Illustration pédagogique pour Vous aurez besoins des outils suivants : Un mètre, 40 piquets de 40-50 cm, 30 mètres de ficelle, une pelle ou une",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "N'i ye komposti walima fumiyɛ sɔrɔ, i ka kariden naani sigi buruwɛti tɛmɛn fɛ. I mago bɛ fɛn",
+      "text": "wɔrɔnɔn na fana i n'a fɔ **kulu**, **yiriwɔrɔnɔn** walima **binwɔrɔnɔn**. O bɛɛ lajɛn, i mago bɛ buruwɛti duuru la pasɛ-piyɛ kelen-kelen bɛɛ kan.",
+      "illustration_description": "Illustration pédagogique pour Si vous avez du compost ou du fumier, prévoyez 4 brouettes par planche. Vous aurez également besoin de matière",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Planchew labɛnna ni teliya ye, a bɛ kɛ ni teliya ye. Ni fɛn bɛɛ dabɔra, o bɛ kɛ ni teliya ye.",
+      "text": "don kelen kɔnɔ mɔgɔ fila fɛ.",
+      "illustration_description": "Illustration pédagogique pour La mise en place des planches se fait en 7 étapes. Si tout le matériel est réuni, c’est un travail qui ne prend pas",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "ÉTAPE 1 : YƆRƆ SƆRƆ K'A DABALI KAN KAN",
+      "text": "ÉTAPE 1 : YƆRƆ SƆRƆ K'A DABALI KAN KAN",
+      "illustration_description": "Illustration pédagogique pour ÉTAPE 1 : BIEN CHOISIR ET PRÉPARER SA PARCELLE",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Baara kɛcogo 12 m",
+      "text": "Baara kɛcogo 12 m\n\n**Baara kɛcogo 12 m**\n\n- Aw ye yɔrɔ dɔ sugandi min ka jan mɛtɛrɛ 12 ani a ka fa mɛtɛrɛ 12, n’a ba fɛ, a ka kɛ yɔrɔ dɔ la min ka surun ji sigilen na.",
+      "illustration_description": "Illustration pédagogique pour 12 m",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "N'a ko, i ka dugukolo kɛɲɛya.",
+      "text": "N'a ko dugukolo ka jajuya kojugu, i ka yɔrɔ in ji minɛ kosɛbɛ walasa ka baara nataw nɔgɔya.",
+      "illustration_description": "Illustration pédagogique pour Si besoin, égalisez la surface du sol.",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "ETAPE 2 : PLANKIW KA SEGINI KƐ",
+      "text": "ETAPE 2 : PLANKIW KA SEGINI KƐ",
+      "illustration_description": "Illustration pédagogique pour ÉTAPE 2 : FAIRE LES MESURES DES PLANCHES",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "I k'a fɔ i ka laɲiniw kɛ fɔlɔ ka taa yɔrɔ min na, o ye baara kɛcogo ye. Baara kɛcogo ye santimɛtɛrɛ 75 ye ka fara",
+      "text": "Pasɛ-piyɛw ye santimɛtɛrɛ 40 ye. I ka bidon ka daminɛ ni pasɛ-piyɛ ye, ka ban ni pasɛ-piyɛ ye.",
+      "illustration_description": "Illustration pédagogique pour Vous devez d’abord faire les mesures nécessaires à la réalisation des planches. Les planches font 75 cm de large,",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "A daminɛ fɛnsɛn dancɛ kelen na. Jira jiri. Kɛ mɛtɛri ye ka cm 40 yɛrɛw ka janya la.",
+      "text": "Jira jiri filanan. I ye nɛgɛsira fɔlɔ daɲɛ.",
+      "illustration_description": "Illustration pédagogique pour Commencez à une extrémité du terrain. Plantez un piquet. Utilisez un mètre pour mesurer 40 cm en largeur.",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Sisan 75 cm, danbelekan doni kɔnɔntɔn, kɔ saba kɛrɛkɛla kɛ",
+      "text": "Sisan 75 cm, danbelekan doni kɔnɔntɔn, kɔ saba kɛrɛkɛla kɛ",
+      "illustration_description": "Illustration pédagogique pour Mesurez ensuite 75 cm, la largeur de la première planche, plantez un 3ème piquet.",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "PLANSI 10",
+      "text": "PASI-SEN 11\nO kɔfɛ, i ka o baara ninnu labɛn tugun: plansi/pasi-sen ka tɛmɛ foroba fɛ, fo ni i ye plansi 10 ni pasi-sen 11 sɔrɔ.",
+      "illustration_description": "Illustration pédagogique pour 10 PLANCHES",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "Kɛɲɛ bɛɛ la, i ka dugukolo tɛmɛ metɛrɛ tan (10) kan. I ka taabolo ni sen-tɛmɛsira lajɛ i n'a fɔ o.",
+      "text": "ka sigi yɔrɔ la ni **kulu** ye.",
+      "illustration_description": "Illustration pédagogique pour Traversez le terrain dans la longueur, sur 10 mètres. Mesurez de la même manière les planches et les passe-pieds",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_18.jpg"
+    },
+    {
+      "page_number": 19,
+      "title": "ÉTAPE 3 : PASI-KƆRƆW BƐ KƆN ƝƐ, KA DUGU LA",
+      "text": "PLANSENW KAN",
+      "illustration_description": "Illustration pédagogique pour ÉTAPE 3 : CREUSER LES PASSE-PIEDS ET METTRE",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_19.jpg"
+    },
+    {
+      "page_number": 20,
+      "title": "Ka **plansi** ni **sɛn-ɲɛda** sigi sen kan ka ɲɛ, ani ka sira teliyalenw kɛ, i bɛ i jija ni",
+      "text": "juru min bɛ tali kɛ **piye**w cɛ ka jan. I ka juru ta ka tali kɛ **piye**w cɛ minnu bɛ **sɛn-ɲɛda** sigi sen kan.",
+      "illustration_description": "Illustration pédagogique pour Pour bien délimiter les planches et les passe-pieds, et faire des tracés bien droits, vous allez vous aider d’une",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_20.jpg"
+    },
+    {
+      "page_number": 21,
+      "title": "**Passe-pied** laɲini ka kɛ ni sege ye ka labato teliw kɔlɔsi. Ka dugukolo n’i ye sɔrɔ ye yɛrɛyɛrɛ ka bɔ",
+      "text": "kinin ni numan fɛ taamasiyɛn kan.",
+      "illustration_description": "Illustration pédagogique pour Creusez le passe-pied à l’aide d’une pelle en suivant les cordes. Distribuez équitablement la terre récupérée à",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_21.jpg"
+    },
+    {
+      "page_number": 22,
+      "title": "Taama-yɔrɔw ka gɛlɛya ka kɛ cm 10 ni 20 cɛ.",
+      "text": "Taama-yɔrɔw ka gɛlɛya ka kɛ cm 10 ni 20 cɛ.",
+      "illustration_description": "Illustration pédagogique pour Les passe-pieds doivent avoir une profondeur de 10 à 20 cm.",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_22.jpg"
+    },
+    {
+      "page_number": 23,
+      "title": "11 PASSE-PIEDS",
+      "text": "Aw ye o kɛ **passe-pied** 11 bɛɛ kan.",
+      "illustration_description": "Illustration pédagogique pour 11 PASSE-PIEDS",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_23.jpg"
+    },
+    {
+      "page_number": 24,
+      "title": "ÉTAPE 4 : BAARA KƐ FENW KAN",
+      "text": "ÉTAPE 4 : BAARA KƐ FENW KAN",
+      "illustration_description": "Illustration pédagogique pour ÉTAPE 4 : AMENDER LES PLANCHES DE CULTURES",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_24.jpg"
+    },
+    {
+      "page_number": 25,
+      "title": "Faso ka bonya ni a ka nɔgɔya ka fisa. O kama i ye se ka komposti walima dugaw ka fɛnɲɛnɛw lajɛ. A",
+      "text": "ka kan ka komposti buruwati naani kɛ foroba kelen kan. I ye o yala yɔrɔ bɛɛ la ni râteau ye walima ni i bolo ye.",
+      "illustration_description": "Illustration pédagogique pour Il est essentiel d’enrichir le sol et d’améliorer sa texture. Pour cela vous pouvez utiliser du compost ou du fumier. Il",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_25.jpg"
+    },
+    {
+      "page_number": 26,
+      "title": "TAAN 5: KA FARANFIN SƆGƆNTA N'A",
+      "text": "KA KƆMPƆSTI WALIMA FƆNI DON DUGU KƆNƆ",
+      "illustration_description": "Illustration pédagogique pour ÉTAPE 5 : AÉRER LE SOL DES PLANCHES ET",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_26.jpg"
+    },
+    {
+      "page_number": 27,
+      "title": "Nin tɔnɔ in bɛ dugukolo lafiya ani ka dugukolo ni komposti walima fumiyɛ labɛnlen bɛɛ lajɛn fɔlɔfɔlɔ tɔnɔ kɔnɔ.",
+      "text": "Fɔlɔfɔlɔ tɔnɔ kɔnɔ. Dugukolo lafiyali bɛ kɛ ni **grelinɛti** walima **fɔrɔsi belebele** ye. Ni i tɛ o la, i bɛ se ka **pɛnɛ** (pioche) baara kɛ.",
+      "illustration_description": "Illustration pédagogique pour Cette étape permet à la fois d’aérer le sol et de mélanger la terre avec le compost ou le fumier déposé à l’étape",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_27.jpg"
+    },
+    {
+      "page_number": 28,
+      "title": "Kɛrɛnkɛrɛnnenya la, a ka kan ka baara kɛ ni yɔrɔ bɛɛ ye min bɛ se ka don dugukolo kɔnɔ.",
+      "text": "Kɛrɛnkɛrɛnnenya la, a ka kan ka baara kɛ ni yɔrɔ bɛɛ ye min bɛ se ka don dugukolo kɔnɔ.",
+      "illustration_description": "Illustration pédagogique pour Enfoncez l’outil le plus profondément possible dans le sol.",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_28.jpg"
+    },
+    {
+      "page_number": 29,
+      "title": "Dugukolo in ka cɛɲi ka yɛlɛn, i kana a bin. I ye i janto ka dugukolo laɲiniw kana tiɲɛn.",
+      "text": "dugukolo, dugukolo-falen-nafa bɛ don kɛrɛnkɛrɛnnenw kɔnɔ minnu dabɔra ni i ye baara-juru yɛlɛn.",
+      "illustration_description": "Illustration pédagogique pour Soulevez délicatement la terre, en veillant à ne pas la retourner. Faites attention à ne pas perturber les couches du",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_29.jpg"
+    },
+    {
+      "page_number": 30,
+      "title": "Rato ka baara ni a ye ka jala-yɔrɔw ka duguma kɛ kelen ye.",
+      "text": "Rato ka baara ni a ye ka jala-yɔrɔw ka duguma kɛ kelen ye.",
+      "illustration_description": "Illustration pédagogique pour Utilisez un râteau pour égaliser le sol des planches.",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_30.jpg"
+    },
+    {
+      "page_number": 31,
+      "title": "ÉTAPE 6 : PASI-JUKUMUNIW BAƝAN",
+      "text": "ÉTAPE 6 : PASI-JUKUMUNIW BAƝAN",
+      "illustration_description": "Illustration pédagogique pour ÉTAPE 6 : PAILLER LES PASSE-PIEDS",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_31.jpg"
+    },
+    {
+      "page_number": 32,
+      "title": "I yɛ **pasɛ-pi**w fa ni **duguma-joli** wulalen ye. O bɛ se ka kɛ **bana**, **yiri-nkala** walima **joli-ɲɔgɔn** ye.",
+      "text": "**ɲɔgɔn-joli** wulalen. O ka kan ka kɛ **santimɛtɛrɛ** 30 fo 40 **surun** ye.",
+      "illustration_description": "Illustration pédagogique pour Remplissez les passe-pieds avec de la matière organique sèche. Cela peut être de la paille, des feuilles ou des",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_32.jpg"
+    },
+    {
+      "page_number": 33,
+      "title": "Nin buɲɛ bɛna yɛlɛn ka dɔgɔya waatiw kɔnɔ ani ni i taama-taama b'a kan. A ka baara ye ka",
+      "text": "Fɛn wɛlɛw bali taama-yɔrɔw la ani ka ji ba caman minɛ. O kɔ fana, nin fɛnw bɛna kɛ **komposi** ye waatiw kɔnɔ.",
+      "illustration_description": "Illustration pédagogique pour Cette paille va se tasser avec le temps et au fur et à mesure que vous marcherez dessus. Son rôle est d’éviter les",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_33.jpg"
+    },
+    {
+      "page_number": 34,
+      "title": "TAAN 7: JII",
+      "text": "TAAN 7: JII",
+      "illustration_description": "Illustration pédagogique pour ÉTAPE 7 : ARROSER",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_34.jpg"
+    },
+    {
+      "page_number": 35,
+      "title": "Ni i ye taa-yɔrɔw labɛn kɔfɛ, i ka dugu bɛɛ ji niɲɛ.",
+      "text": "Ni i ye taa-yɔrɔw labɛn kɔfɛ, i ka dugu bɛɛ ji niɲɛ.",
+      "illustration_description": "Illustration pédagogique pour Une fois que vous avez fini de préparer les planches, arrosez généreusement l’intégralité de la parcelle.",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_35.jpg"
+    },
+    {
+      "page_number": 36,
+      "title": "Ayiwa, i ka fɛn-yɔrɔ bɛ sisan ka baara kɛ ni **planches** tan ye minnu labɛnna ka kɛ **maraîchage bio intensif** ye",
+      "text": "dugukolo hɛrɛw la.",
+      "illustration_description": "Illustration pédagogique pour Félicitation, votre parcelle dispose maintenant de 10 planches prêtes pour la culture maraîchère bio intensive en",
+      "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_36.jpg"
+    }
+  ],
+  "course_code": "M3.1"
+}
