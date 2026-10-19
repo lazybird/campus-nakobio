@@ -1,0 +1,122 @@
+{
+  "id": "a6_techniques_disolement",
+  "title": "Isolation Techniques",
+  "category": "Fundamentals",
+  "summary": "Learn how to protect your open-pollinated seed varieties from unwanted cross-pollination using 3 simple and practical techniques: spatial isolation, temporal isolation, and mechanical barriers with insect netting.",
+  "total_pages": 16,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Protecting the Purity of Our Seeds",
+      "text": "In the village or on the market garden perimeter, many neighbors grow vegetables similar to yours.\nIf wind or bees carry pollen between two different varieties, your seeds will lose their qualities!\nTo keep a seed true-to-type, we must isolate it.\nIn this module, we will discover 3 very simple ways to prevent undesirable cross-pollination!",
+      "illustration_description": "Deux parcelles de courges voisines séparées : un point d'interrogation et un panneau de garde stylisé symbolisant la protection entre les deux cultures.",
+      "image": "assets/images/a6_techniques_disolement/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "First method: Spatial isolation (distance)",
+      "text": "The most natural way to prevent cross-pollination is to separate plots!\nIf two varieties of the same species are planted far enough apart, pollen from one will not be able to reach the other.\nThis is called **spatial isolation**.\nBut how far apart should they be separated?",
+      "illustration_description": "Vue aérienne d'un domaine maraîcher montrant deux parcelles éloignées avec une flèche de mesure entre les deux.",
+      "image": "assets/images/a6_techniques_disolement/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Distances for Insects and Wind",
+      "text": "The distance depends on how the pollen travels:\n- **Insects** (squash, onions, cabbage): separate plots by at least 300 to 500 meters.\n- **Wind** (corn, spinach): pollen travels very far! At least 500 meters to 1 kilometer of separation is needed.\n- **Flower faithful** (tomato, cowpea): a few tens of meters are sufficient in our climates, or a simple plant barrier.",
+      "illustration_description": "Schéma récapitulatif avec 3 repères :\n1. Une abeille volant avec une ligne pointillée de 500 m.\n2. Une bourrasque de vent emportant le pollen de maïs avec une ligne pointillée de 1 km ⚠️.\n3. Un plant de haricot avec une ligne de 10 à 20 m ✅.",
+      "image": "assets/images/a6_techniques_disolement/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Living Hedges: The Windbreak and Bee Trap",
+      "text": "If your plot is too small to maintain a 500-meter distance:\n\n- Plant a dense hedge of trees, tall grasses, or banana plants between your plots!\n\nThe hedge breaks the force of the wind and traps airborne pollen.\n\nFurthermore, by sowing many **nectar-rich flowers** around the hedge, bees forage on site and don't travel further afield!",
+      "illustration_description": "Coupe transversale de terrain :\nUne haie dense et haute (bananiers, vétiver ou arbustes locaux) dressée entre deux petites planches. Le vent et les insectes sont déviés ou arrêtés au niveau de la haie.",
+      "image": "assets/images/a6_techniques_disolement/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Second method: isolation in time (staggering)",
+      "text": "If you lack space to distance your plots:\n\nMake your vegetables flower at different times!\n\nThis is called **isolation in time**.\n\nIf two varieties of the same species never flower at the same time, no cross-pollination is possible, even if they are planted side-by-side!",
+      "illustration_description": "Calendrier illustré montrant deux variétés de laitue sur la même planche :\n- Variété A : Déjà en fleurs jaunes et graines (fin de cycle).\n- Variété B : Au tout premier stade de jeunes feuilles vertes (pas encore de fleurs).",
+      "image": "assets/images/a6_techniques_disolement/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "How to Practice Staggering in Practice",
+      "text": "To successfully achieve isolation in time:\n1. Sow your first variety early in the season.\n2. Wait several weeks to sow the second variety.\nWhen the first variety finishes flowering and starts drying its seeds, the second variety is only just opening its very first buds.\nPollen can never mix!",
+      "illustration_description": "Frise temporelle sur 3 mois montrant le cycle décalé des deux variétés :\nMois 1 (Semis A), Mois 2 (Floraison A + Semis B), Mois 3 (Graines A mûres + Floraison B).",
+      "image": "assets/images/a6_techniques_disolement/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Third Method: Mechanical Isolation (Netting)",
+      "text": "When you can neither distance in space nor stagger in time:\nWe place a physical barrier that insects cannot cross.\nThis is called **mechanical isolation**.\nWe use a very light and open-weave fabric: **insect netting** (insect mesh or fine tulle).",
+      "illustration_description": "Gros plan sur un morceau de voile moustiquaire tenu en main : le tissu laisse passer l'air et la lumière du soleil, mais les mailles sont trop serrées pour laisser passer la moindre fourmi ou abeille.",
+      "image": "assets/images/a6_techniques_disolement/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Bagging a Single Flower (for True-to-Type Plants)",
+      "text": "For a small seed harvest of **tomato**, **pepper**, or **eggplant**:\n- You can protect a single flower or a single flower cluster!\n- Take a small bag of **fine tulle**.\n- Slip it over the flower **BEFORE** it opens, then gently tighten it to the stem with a string or elastic band.\n- No insects will be able to deposit foreign pollen there!",
+      "illustration_description": "Zoom sur une fleur de tomate encore fermée en bouton :\nUn petit sac en tulle blanc translucide est enfilé par-dessus et noué avec un brin de ficelle à la base.\nAnnotation : \"Poser le sac avant l'ouverture du bouton floral ✅\".",
+      "image": "assets/images/a6_techniques_disolement/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Remove the bag as soon as fruit set occurs",
+      "text": "As soon as the flower petals wilt and fall, you will see a small green fruit beginning to swell:\nFertilization has been successful!\nCarefully remove the tulle bag so that the fruit can benefit from the sun and grow without constraint.\nImmediately tie a colored ribbon to the peduncle so you don't forget it!",
+      "illustration_description": "Deux images successives :\n1. Les pétales sont secs, une petite bille verte (mini-fruit) apparaît. On retire le sac.\n2. Un ruban rouge est noué autour du pédoncule du fruit avec la mention : \"Graine pure garantie ✅\".",
+      "image": "assets/images/a6_techniques_disolement/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "The Net Cage on a Full Bed",
+      "text": "If you want to harvest a whole bowl of tomato or pepper seeds:\nBuild a cage or mini-tunnel over your bed!\n- Plant bamboo or flexible rebar hoops over your plants.\n- Cover the entire structure with a large mosquito net and bury the edges well in the soil so that no insects can get underneath.",
+      "illustration_description": "Une planche maraîchère couverte d'un tunnel en arceaux recouvert d'un voile moustiquaire blanc bien tendu. Au sol, les bords du tissu sont recouverts de pelletées de terre bien tassées.",
+      "image": "assets/images/a6_techniques_disolement/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "The Challenge of Outcrossing Plants Under Cover",
+      "text": "⚠️ Be careful with plants that NEED insects (like squash or cucumbers):\nIf you enclose them under a mosquito net, bees can no longer enter.\nThe female flower will not receive any pollen and the fruit will rot without producing seeds!\nFor these plants under cover, you must do the bee's work yourself: this is **hand pollination**!",
+      "illustration_description": "Fleur femelle de courge sous moustiquaire non visitée : le mini-fruit jaunit et commence à pourrir à l'extrémité avec un picto déçu ❌.\nBulle : \"Sans insecte ni maraîcher, pas de fécondation !\".",
+      "image": "assets/images/a6_techniques_disolement/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "The alternating tunnel opening technique",
+      "text": "Here's a remarkable trick for growing two varieties of squash or zucchini in the same garden:\nPlace Variety 1 under Tunnel A, and Variety 2 under Tunnel B.\n- **Day 1**: You open Tunnel A at 6 AM for the bees, and you leave Tunnel B closed.\n- **Day 2**: You do the opposite! You close Tunnel A and open Tunnel B.\nThe bees never mix the pollens from the two varieties!",
+      "illustration_description": "Schéma à deux compartiments :\n- Lundi : Tunnel A ouvert (abeilles au travail) / Tunnel B fermé (protégé).\n- Mardi : Tunnel A fermé (protégé) / Tunnel B ouvert (abeilles au travail).\nMention : \"Zéro croisement entre les deux variétés ✅\".",
+      "image": "assets/images/a6_techniques_disolement/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Golden Rule of Alternate Opening: Timing",
+      "text": "If you are using the alternate tunnel method:\n- **Imperatively open the tunnel very early in the morning (at sunrise)** because that's when the flowers open and bees are most active!\n- **Close the tunnel at the end of the day** when the heat subsides and the flowers have wilted.\n- **Check that no bees are trapped inside** before closing!",
+      "illustration_description": "Le maraîcher soulève le voilage d'un tunnel dans la lumière dorée de l'aube. Une petite horloge indique 6h30 du matin.",
+      "image": "assets/images/a6_techniques_disolement/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Common Mistakes to Absolutely Avoid",
+      "text": "Beware of common pitfalls in the field:\n❌ Using a net with mesh that is too wide, allowing small insects to pass through.\n❌ Leaving a hole or an unburied gap at the bottom of the mosquito net.\n❌ Forgetting to remove already open flowers before bagging (they may have already been visited by a bee!).",
+      "illustration_description": "Trois pictogrammes d'erreurs barrés d'un rond rouge :\n1. Trous larges dans le filet traversés par des guêpes.\n2. Bas de bâche flottant au vent avec une ouverture au sol.\n3. Sac posé sur une fleur déjà largement épanouie.",
+      "image": "assets/images/a6_techniques_disolement/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Choosing the Right Technique for Your Situation",
+      "text": "How to choose your solution?\n- **Large open field**: focus on distance (spatial isolation) ✅.\n- **Small village plot**: combine staggered sowing dates and living fences/hedges ✅.\n- **Intensive market gardening in close proximity**: use tulle bags or veiled mini-tunnels ✅.\nTo each garden its practical solution!",
+      "illustration_description": "Schéma décisionnel clair montrant les trois types de maraîchers choisissant chacun leur méthode avec le sourire selon la taille de leur terrain.",
+      "image": "assets/images/a6_techniques_disolement/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Congratulations! Your Varieties Are Perfectly Safe",
+      "text": "Well done! You have mastered the techniques for isolating seed crops:\n✅ You know how to calculate distances for wind and insects\n✅ You know how to use staggered planting times\n✅ You know how to protect a flower or an entire row with netting\n\nNext module: harvesting, extraction, drying, and storing seeds!",
+      "illustration_description": "Le maraîcher contemple ses parcelles protégées avec calme et sérénité.\nAu-dessus, un bouclier doré symbolisant la pureté variétale préservée, entouré de coches vertes ✅.",
+      "image": "assets/images/a6_techniques_disolement/page_16.jpg"
+    }
+  ],
+  "course_code": "S1.06"
+}
