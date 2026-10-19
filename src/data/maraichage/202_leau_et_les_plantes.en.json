@@ -1,0 +1,144 @@
+{
+  "id": "202_leau_et_les_plantes",
+  "title": "Water and Plants",
+  "category": "Fondements & Sol",
+  "summary": "Comment l'eau circule dans la plante, repérer les signaux de soif ou d'excès d'eau, et optimiser l'arrosage pour conserver l'humidité en climat chaud.",
+  "total_pages": 19,
+  "cover_image": "assets/images/maraichage/202_leau_et_les_plantes/page_01.jpg",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "This module helps you understand how water enters, circulates, and exits plants.",
+      "text": "It also teaches you how to optimize watering for your crops, identify whether a plant has too much or too little\n\nwater, and maintain soil moisture using simple techniques.",
+      "illustration_description": "Illustration pédagogique pour Ce module vous aide à comprendre comment l’eau entre, circule et ressort de la plante.",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "MARKET GARDENING",
+      "text": "TRAINING\n\nWATER AND PLANTS",
+      "illustration_description": "Illustration pédagogique pour L’EAU ET LES PLANTES",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "How does water circulate within the plant?",
+      "text": "How does water circulate within the plant?",
+      "illustration_description": "Illustration pédagogique pour Comment l’eau circule dans la plante ?",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "P",
+      "text": "Fe\n\nCa\n\nK\n\nMg\n\nN\n\nWater helps transport minerals present in the soil, such as nitrogen, phosphorus, potassium, and calcium.\n\nSimilarly, water also transports trace elements such as boron, zinc, and others.\n\nThese elements play an essential role in photosynthesis and other vital plant functions.",
+      "illustration_description": "Illustration pédagogique pour P",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Transpiration",
+      "text": "through stomata\n\nstoma\n\nta\n\nDistribution in\n\nleaves\n\nCa\n\nP\n\nFe\n\nN\n\nK\n\nMg\n\nAbsorption\n\nby the roots\n\nWater enters the plant through the roots. It carries with it the minerals present in the soil.\n\nIt travels up to the leaves through very fine tubes called xylem.\n\nThis movement is made possible by a key phenomenon: evapotranspiration.\n\nEvapotranspiration is the loss of water:\n\nthrough the leaves, via small openings called stomata. This is known as transpiration.\n\nand through the soil, in the form of evaporation.\n\nWhen water escapes through the stomata, it creates a suction effect, like a pump. The plant then draws water\n\nfrom the roots to compensate for this loss. This is what causes water to circulate throughout the plant.\n\n👉",
+      "illustration_description": "Illustration pédagogique pour Transpiration",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Capillarity",
+      "text": "Root pressure\n\nOther phenomena contribute to this pumping action:\n\nroot pressure: pushes water upward.\n\ncapillarity: allows water to rise in the xylem.\n\nThis system is essential for the plant to transport the water and nutrients it needs.",
+      "illustration_description": "Illustration pédagogique pour Capillarité",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "But if evapotranspiration becomes too strong (in hot, windy, or dry conditions), the plant can lose too much",
+      "text": "water... and become dehydrated.",
+      "illustration_description": "Illustration pédagogique pour Mais si l’évapotranspiration devient trop forte (en cas de chaleur, vent, sécheresse), la plante peut perdre trop",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Ultimately, the leaves of plants are a bit like our skin:",
+      "text": "They breathe through tiny invisible holes, like the pores in our skin.\n\nThey release water, like sweat. If the air is too dry or hot, they lose too much water, just like us when we sweat\n\na lot.\n\nIf we are too hot or haven't drunk enough, we become tired: it's the same for plants!",
+      "illustration_description": "Illustration pédagogique pour Finalement, la feuille de la plante c’est un peu comme notre peau :",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "And just like our skin, leaves need protection:",
+      "text": "from the scorching sun,\n\nfrom the wind,\n\nfrom lack of water.",
+      "illustration_description": "Illustration pédagogique pour Et comme notre peau, la feuille a besoin d’être protégée :",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "What influences water requirements?",
+      "text": "What influences water requirements?",
+      "illustration_description": "Illustration pédagogique pour Qu’est ce qui influence les besoins en eau ?",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "The presence of",
+      "text": "mulch\n\nCulture\n\nWATER NEEDS\n\nDEPEND ON\n\nStage of\n\ngrowth\n\nSoil\n\nCulture: some plants need more water than others.\n\nStage of growth: a small plant needs more water.\n\nClay soil retains water, while sandy soil allows it to drain away.\n\nTemperature, wind, and air humidity.\n\nThe presence of mulch, compost, and charcoal in the soil.\n\nThe weather",
+      "illustration_description": "Illustration pédagogique pour La présence",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "How can you spot the signs of water stress?",
+      "text": "How can you spot the signs of water stress?",
+      "illustration_description": "Illustration pédagogique pour Comment repérer les signes de stress hydrique ?",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "If the plant lacks water:",
+      "text": "Soil is dry deep down.\n\nLeaves are limp, drooping, falling off, or turning\n\nyellow.\n\nGrowth is slow.\n\nIf the plant has too much water:\n\nLeaves wilting even though the soil is wet.\n\nUnpleasant odor: rotten roots and suffocated\n\nroots.\n\nFungi or suspicious spots.",
+      "illustration_description": "Illustration pédagogique pour Si la plante manque d’eau :",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "How to water properly and retain water in the soil?",
+      "text": "How to water properly and retain water in the soil?",
+      "illustration_description": "Illustration pédagogique pour Comment bien arroser et garder l’eau dans le sol ?",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Water in the morning or evening, never in direct sunlight.",
+      "text": "Add mulch to retain water: straw, dry leaves, shells.\n\nUse compost to retain moisture.\n\nWater sufficiently so that the soil is moist deep down, not just on the surface.",
+      "illustration_description": "Illustration pédagogique pour Arroser le matin ou le soir, jamais en plein soleil.",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Why add charcoal to the soil?",
+      "text": "Why add charcoal to the soil?",
+      "illustration_description": "Illustration pédagogique pour Pourquoi ajouter du charbon dans le sol ?",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "Retains water like a sponge",
+      "text": "Strengthens crops\n\nPromotes soil life\n\nGround charcoal, known as biochar, is an excellent ally for:\n\nWater retention: Charcoal acts like a sponge, retaining water and nutrients in its cavities. It stores moisture\n\nand then slowly releases it when the soil is dry. It can retain up to five times its weight in water.\n\nNourishing the soil: Charcoal provides a refuge for beneficial microorganisms, such as bacteria and fungi,\n\nwhich help plants to feed and enhance soil life.\n\nStrengthening crop resistance: Charcoal improves water retention and soil stability, which helps plants to\n\nbetter withstand drought.",
+      "illustration_description": "Illustration pédagogique pour Retient l’eau comme une éponge",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "OR",
+      "text": "Use charcoal that has cooled completely, then grind it finely into powder or small pieces measuring 1 to 10 mm.\n\nIf you already have compost ready to use:\n\nAdd crushed charcoal at a rate of 10 to 20% of the\n\ntotal volume. For example: for 1 wheelbarrow of\n\ncompost (80 L): add 8 to 16 L of charcoal, or about\n\n1 to 2 buckets.\n\nMix well for even distribution.\n\nIf you make your own compost:\n\nAdd a little charcoal to each layer, alternating it\n\nwith brown materials (leaves, straw, etc.) and green\n\nmaterials (kitchen waste, grass clippings, etc.).\n\nMoisten if necessary: charcoal is very absorbent.\n\nLeave to mature.",
+      "illustration_description": "Illustration pédagogique pour OU",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_18.jpg"
+    },
+    {
+      "page_number": 19,
+      "title": "Water is essential to plant life: it enters through the roots, circulates to the leaves, and exits through the stomata.",
+      "text": "Understanding this process allows you to water more effectively, at the right time and in the right amount.\n\nWith a few simple steps—observing the plant, adjusting watering, mulching the soil, enriching the compost—you\n\ncan help your crops grow better, even during dry periods.",
+      "illustration_description": "Illustration pédagogique pour L’eau est essentielle à la vie de la plante : elle entre par les racines, circule jusqu’aux feuilles et ressort par les",
+      "image": "assets/images/maraichage/202_leau_et_les_plantes/page_19.jpg"
+    }
+  ],
+  "course_code": "M2.2"
+}

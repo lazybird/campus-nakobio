@@ -1,0 +1,256 @@
+{
+  "id": "201_sols_vivants",
+  "title": "Living Soils",
+  "category": "Fondements & Sol",
+  "summary": "Comprenez la vie biologique du sol (vers, champignons, bactéries, humus) et comment le système des planches permanentes nourrit naturellement vos cultures.",
+  "total_pages": 35,
+  "cover_image": "assets/images/maraichage/201_sols_vivants/page_01.jpg",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "We are going to show you how cultivation beds help keep the soil alive to ensure the good health",
+      "text": "and growth of plants and vegetables.",
+      "illustration_description": "Illustration pédagogique pour Nous allons vous montrer comment les planches de cultures permettent de garder le sol vivant",
+      "image": "assets/images/maraichage/201_sols_vivants/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "FOR SOIL TO BE FERTILE, IT MUST BE ALIVE",
+      "text": "FOR SOIL TO BE FERTILE, IT MUST BE ALIVE",
+      "illustration_description": "Illustration pédagogique pour POUR QUE LE SOL SOIT FERTILE, IL FAUT QU’IL SOIT",
+      "image": "assets/images/maraichage/201_sols_vivants/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "For growth and good health, vegetable plants need light, water, and nutrients. They feed in the upper part of the",
+      "text": "soil (between 10 and 20 cm deep).",
+      "illustration_description": "Illustration pédagogique pour Pour pousser et être en bonne santé les plantes maraîchères ont besoin de lumière, d’eau et de nutriments. Elles",
+      "image": "assets/images/maraichage/201_sols_vivants/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Fertile soil is rich in humus, which comes from decomposing organic matter (crop residues, leaves, dead insects,",
+      "text": "excrement…).",
+      "illustration_description": "Illustration pédagogique pour Un sol fertile est riche en humus, issu de la matière organique en décomposition (résidus de cultures, feuilles,",
+      "image": "assets/images/maraichage/201_sols_vivants/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Humus",
+      "text": "Fertile soil is rich in humus, which comes from decomposing organic matter (crop residues, leaves, dead insects,\n\nexcrement…).",
+      "illustration_description": "Illustration pédagogique pour Humus",
+      "image": "assets/images/maraichage/201_sols_vivants/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "The soil consists of:",
+      "text": "solid elements such as organic matter and stones,\n\nwater containing minerals,\n\nand air.",
+      "illustration_description": "Illustration pédagogique pour Le sol est constitué :",
+      "image": "assets/images/maraichage/201_sols_vivants/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "mycelium",
+      "text": "bacteria\n\nIt also hosts living organisms :\n\ninvisible microorganisms like bacteria and fungi with white filaments, called mycelium.",
+      "illustration_description": "Illustration pédagogique pour mycélium",
+      "image": "assets/images/maraichage/201_sols_vivants/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "mites",
+      "text": "nematodes\n\nlarvae\n\nIt also hosts living organisms :\n\norganisms a few millimeters in size like mites, small worms (called nematodes), or insect larvae.",
+      "illustration_description": "Illustration pédagogique pour acariens",
+      "image": "assets/images/maraichage/201_sols_vivants/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "termites",
+      "text": "earthworms\n\nmillipedes\n\nwoodlice\n\nspiders\n\nIt also hosts living organisms :\n\nand insects : such as woodlice, earthworms, termites, ants, millipedes, or spiders.",
+      "illustration_description": "Illustration pédagogique pour termites",
+      "image": "assets/images/maraichage/201_sols_vivants/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "It’s a very rich and varied ecosystem where everyone plays their role, even the slug !",
+      "text": "It’s a very rich and varied ecosystem where everyone plays their role, even the slug !",
+      "illustration_description": "Illustration pédagogique pour C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
+      "image": "assets/images/maraichage/201_sols_vivants/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "It’s a very rich and varied ecosystem where everyone plays their role, even the slug !",
+      "text": "It’s a very rich and varied ecosystem where everyone plays their role, even the slug !",
+      "illustration_description": "Illustration pédagogique pour C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
+      "image": "assets/images/maraichage/201_sols_vivants/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "All these elements interact together to regenerate the soil, keep it healthy, moist, aerated, and stable to support",
+      "text": "plant growth.\n\nThis biological activity is the engine of soil fertility.",
+      "illustration_description": "Illustration pédagogique pour Tous ces éléments interagissent ensemble pour régénérer le sol, le garder en bonne santé, le maintenir humide,",
+      "image": "assets/images/maraichage/201_sols_vivants/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "HOW DOES THE CULTIVATION BED SYSTEM MAINTAIN",
+      "text": "LIVING AND THEREFORE FERTILE SOIL?",
+      "illustration_description": "Illustration pédagogique pour COMMENT LE SYSTÈME DES PLANCHES DE CULTURES",
+      "image": "assets/images/maraichage/201_sols_vivants/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Initially, the plot is covered with a thin layer of fertile soil. By digging the walkways, this soil is moved onto the beds.",
+      "text": "This concentrates all the fertile soil where the plants will grow.",
+      "illustration_description": "Illustration pédagogique pour Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les passe-pieds, on déplace cette",
+      "image": "assets/images/maraichage/201_sols_vivants/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Initially, the plot is covered with a thin layer of fertile soil. By digging the walkways, this soil is moved onto the beds.",
+      "text": "This concentrates all the fertile soil where the plants will grow.",
+      "illustration_description": "Illustration pédagogique pour Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les passe-pieds, on déplace cette",
+      "image": "assets/images/maraichage/201_sols_vivants/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "The role of mulching",
+      "text": "Mulching in the walkways is essential :\n\nIt retains water like a sponge, keeping the soil moist.\n\nIt slows down the flow of water during heavy rain, which limits erosion.",
+      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "image": "assets/images/maraichage/201_sols_vivants/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "The role of mulching",
+      "text": "Mulching in the walkways is essential :\n\nIt retains water like a sponge, keeping the soil moist.\n\nIt slows down the flow of water during heavy rain, which limits erosion.",
+      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "image": "assets/images/maraichage/201_sols_vivants/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "The role of mulching",
+      "text": "Mulching in the walkways is essential :\n\nIt retains water like a sponge, keeping the soil moist.\n\nIt slows down the flow of water during heavy rain, which limits erosion.",
+      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "image": "assets/images/maraichage/201_sols_vivants/page_18.jpg"
+    },
+    {
+      "page_number": 19,
+      "title": "The role of mulching",
+      "text": "Mulching in the walkways is essential :\n\nIt retains water like a sponge, keeping the soil moist.\n\nIt slows down the flow of water during heavy rain, which limits erosion.",
+      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "image": "assets/images/maraichage/201_sols_vivants/page_19.jpg"
+    },
+    {
+      "page_number": 20,
+      "title": "The role of micro-organisms and",
+      "text": "insects\n\nMicroorganisms (bacteria and filamentous fungi) feed on the mulch.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_20.jpg"
+    },
+    {
+      "page_number": 21,
+      "title": "The role of micro-organisms and",
+      "text": "insects\n\nThey become food for woodlice, insects (termites, spiders, millipedes...) and earthworms.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_21.jpg"
+    },
+    {
+      "page_number": 22,
+      "title": "The role of micro-organisms and",
+      "text": "insects\n\nAll these organisms participate in the decomposition of the mulch into compost. We can thus speak of surface\n\ncompost in the walkways. The excrements and corpses of microorganisms and insects decompose and in turn\n\nnourish the compost.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_22.jpg"
+    },
+    {
+      "page_number": 23,
+      "title": "The role of micro-organisms and",
+      "text": "insects\n\nBy digging tunnels, earthworms and termites also facilitate the circulation of air and water and help the roots of\n\nplants find their way.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_23.jpg"
+    },
+    {
+      "page_number": 24,
+      "title": "The role of micro-organisms and",
+      "text": "insects\n\nThe decomposition of organic matter releases mineral elements that add to those already present in the soil and\n\nessential for plant growth.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_24.jpg"
+    },
+    {
+      "page_number": 25,
+      "title": "The role of micro-organisms and",
+      "text": "insects\n\nNitrogen promotes the development of leaves, phosphorus that of roots, potassium acts on fruit-vegetables, but\n\nalso calcium, magnesium, iron, and other trace elements, essential for good growth and health of the plant.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_25.jpg"
+    },
+    {
+      "page_number": 26,
+      "title": "HOW DO PLANTS ALSO CONTRIBUTE TO THE",
+      "text": "BIOLOGICAL ACTIVITY OF THE SOIL AND PROTECT IT ?",
+      "illustration_description": "Illustration pédagogique pour COMMENT LES PLANTES PARTICIPENT AUSSI À",
+      "image": "assets/images/maraichage/201_sols_vivants/page_26.jpg"
+    },
+    {
+      "page_number": 27,
+      "title": "Once the plants have grown they protect the soil from the sun and wind.",
+      "text": "Once the plants have grown they protect the soil from the sun and wind.",
+      "illustration_description": "Illustration pédagogique pour Une fois que les plantes ont poussée elles protègent le sol du soleil et du vent.",
+      "image": "assets/images/maraichage/201_sols_vivants/page_27.jpg"
+    },
+    {
+      "page_number": 28,
+      "title": "PHOTOSYNTHESIS",
+      "text": "The upper part of the plants interacts with light. The photosynthesis reaction produces sugar that will feed the\n\nfungi and bacteria in the soil.",
+      "illustration_description": "Illustration pédagogique pour PHOTOSYNTHÈSE",
+      "image": "assets/images/maraichage/201_sols_vivants/page_28.jpg"
+    },
+    {
+      "page_number": 29,
+      "title": "In exchange for the sugar it provides, some fungi act as a mouth for the plant: they absorb soil elements on its",
+      "text": "behalf. This win-win relationship is called a symbiosis. When it is established between a plant and a fungus, it is\n\nthen called mycorrhiza.",
+      "illustration_description": "Illustration pédagogique pour En échange du sucre qu’elle leur fournit , certains champignons agissent comme une bouche pour la plante : ils",
+      "image": "assets/images/maraichage/201_sols_vivants/page_29.jpg"
+    },
+    {
+      "page_number": 30,
+      "title": "Plants benefit from the water and nutrients stored in the walkways. To access them, they expand their root",
+      "text": "system. The roots stabilize the soil, protect it from erosion, and leaching by heavy rains.",
+      "illustration_description": "Illustration pédagogique pour Les plantes profitent de l’eau et des nutriments stockés dans les passe-pieds. Pour y accéder elles élargissent leur",
+      "image": "assets/images/maraichage/201_sols_vivants/page_30.jpg"
+    },
+    {
+      "page_number": 31,
+      "title": "Once the harvest is over, the roots remaining in the soil decompose and contribute to enriching the soil with",
+      "text": "organic matter that will feed the microorganisms. In some crops, the roots can reach several kilometers long: the\n\norganic matter they bring in decomposing is therefore not negligible !",
+      "illustration_description": "Illustration pédagogique pour Une fois la récolte passée, les racines qui restent dans le sol se décomposent et participent à enrichir le sol en",
+      "image": "assets/images/maraichage/201_sols_vivants/page_31.jpg"
+    },
+    {
+      "page_number": 32,
+      "title": "Harvest residues provide organic matter. Depending on the amount, it can be added either to our compost bin to",
+      "text": "obtain compost or under the mulch of the walkways for surface compost.",
+      "illustration_description": "Illustration pédagogique pour Les résidus de récoltes fournissent de la matière organique. Selon la quantité, on peut l’ajouter soit dans notre",
+      "image": "assets/images/maraichage/201_sols_vivants/page_32.jpg"
+    },
+    {
+      "page_number": 33,
+      "title": "Before starting a new crop, this compost can be laid on the surface without being compacted, to not damage the",
+      "text": "soil structure and let life organize itself.",
+      "illustration_description": "Illustration pédagogique pour Avant de lancer une nouvelle culture, ce compost pourra être déposé en surface sans être tassé, pour ne pas",
+      "image": "assets/images/maraichage/201_sols_vivants/page_33.jpg"
+    },
+    {
+      "page_number": 34,
+      "title": "X3",
+      "text": "The technique of intensive organic gardening in living soil with permanent beds and mulching improves soil\n\nfertility while tripling the production of vegetables compared to conventional methods.",
+      "illustration_description": "Illustration pédagogique pour X3",
+      "image": "assets/images/maraichage/201_sols_vivants/page_34.jpg"
+    },
+    {
+      "page_number": 35,
+      "title": "The cultivation bed technique has many advantages: by preserving the soil, it allows for a reduction in inputs of",
+      "text": "compost and organic matter, thus saving money, while increasing productivity and producing healthy food.",
+      "illustration_description": "Illustration pédagogique pour La technique des planches de culture a beaucoup d’avantages : en préservant le sol, elle permet de réduire les",
+      "image": "assets/images/maraichage/201_sols_vivants/page_35.jpg"
+    }
+  ],
+  "course_code": "M2.1"
+}
