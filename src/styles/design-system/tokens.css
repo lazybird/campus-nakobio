@@ -11,6 +11,7 @@
      ------------------------------------------------------------------------ */
   --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
   --font-sans: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-nko: "Noto Sans NKo", "Kigelia", sans-serif;
   --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
 
   /* Échelle modulaire */

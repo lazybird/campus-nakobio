@@ -1,0 +1,93 @@
+{
+  "id": "b14_carotte",
+  "title": "Eigene Karottensamen vermehren",
+  "category": "Saatgutproduktion nach Kultur",
+  "summary": "Lernen Sie, Ihr eigenes Karottensaatgut auszuwählen und zu vermehren: Verstehen Sie den Unterschied zwischen tropischen/orientalischen einjährigen und zweijährigen Sorten, beherrschen Sie die Ausgrabung zur Selektion süßer, wohlgeformter Pfahlwurzeln und ernten Sie reife Hauptdolden für einfaches Dreschen und Entgrannen.",
+  "total_pages": 12,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Willkommen zur Karottensaatgut-Produktion",
+      "text": "Die Karotte (Möhre) ist ein knackiges, süßes und vitaminreiches Wurzelgemüse, das auf Märkten sehr gefragt ist.  \nEigenes Karottensaatgut zu gewinnen erfordert Methode: Um zu wissen, ob eine Karotte gut ist, muss man sie zuerst ausgraben und die Wurzel begutachten!  \nEntdecken Sie alle fachmännischen Handgriffe, um reichlich an Ihren Standort angepasstes Saatgut zu gewinnen.",
+      "illustration_description": "Mittelaufnahme in einem Gemüsegarten: Ein Gärtner zieht eine wohlgeformte orangefarbene Karotte aus der Erde, im Hintergrund blühende Karottenpflanzen mit weißen Dolden.",
+      "image": "assets/images/placeholder-seed.svg"
+    },
+    {
+      "page_number": 2,
+      "title": "Was wir lernen werden",
+      "text": "In dieser praktischen Lektion lernen wir 5 wichtige Schritte:\n1. Den Doldenblütenstand und das Risiko der Einkreuzung mit der Wilden Möhre verstehen.\n2. Hitzeangepasste Sorten (tropische/einjährige Typen) bevorzugen.\n3. Das Geheimnis des Saatgutzüchters: Karotten ausgraben, die Wurzelspitze probieren und die besten selektieren.\n4. Mutterwurzeln wiedereinpflanzen und Blütentriebe anbinden.\n5. Hauptdolden ernten, bestachelte Samen entgrannen und bis zu 5 Jahre lagern.",
+      "illustration_description": "Fünfteilige Bildfolge der Arbeitsschritte von der Blüte über die Selektion bis zur Saatgutreinigung.",
+      "image": "assets/images/placeholder-seed.svg"
+    },
+    {
+      "page_number": 3,
+      "title": "Schritt 1: Die Dolde und die Fremdbefruchtung",
+      "text": "Der Blütenstand der Karotte bildet einen schirmförmigen Verbund aus Hunderten kleiner weißer Blüten: eine **Dolde**.  \nIn jeder kleinen Blüte reift der Pollen, bevor die weibliche Narbe empfängnisbereit ist.  \nDie Blüte kann sich daher nicht selbst bestäuben; sie ist auf Insekten (Fliegen, kleine Bienen, Käfer) angewiesen. Karotten sind **fremdbefruchtend (allogam)**.",
+      "illustration_description": "Nahaufnahme einer Karottendolde mit bestäubenden Insekten.",
+      "image": "assets/images/placeholder-seed.svg"
+    },
+    {
+      "page_number": 4,
+      "title": "Achtung vor der Wilden Möhre!",
+      "text": "⚠️ Kulturmöhren verkreuzen sich sehr leicht mit der **Wilden Möhre**, die häufig an Wegrändern wächst.  \nDie Wilde Möhre besitzt dominante Gene: Kreuzt sie sich ein, werden Ihre Karotten in der nächsten Generation zäh, weiß, holzig und ungenießbar!  \nErkennungsmerkmal: Die Dolde der Wilden Möhre trägt fast immer eine **winzige dunkle (schwarze oder dunkelrote) Scheinblüte im Zentrum**.  \n✅ Entfernen Sie alle wilden Möhren im Umkreis von **500 m bis 1 km** um Ihre Saatgutparzelle.",
+      "illustration_description": "Vergleich zwischen Kulturdolde (reinweiß) und Wilder Möhre (mit dunklem Punkt in der Mitte).",
+      "image": "assets/images/placeholder-seed.svg"
+    },
+    {
+      "page_number": 5,
+      "title": "Schritt 2: Sorten für warmes Klima",
+      "text": "Es gibt zwei Haupttypen von Karotten:\n- **Westliche Karotten** (wie Nantes): Sie benötigen zwingend einen Kältereiz (Vernalisation) im Winter, um zu blühen. Im tropischen Tiefland schießen sie fast nie in Blüte!\n- **Orientalische / tropische Karotten** (Typ Kuroda, New Kuroda): Sehr wüchsig, hitzetolerant und fähig, bereits in der ersten Saison ohne Kälteperiode zu blühen.  \n✅ Wählen Sie für den erfolgreichen Samenbau in warmen Regionen stets tropisch angepasste Sorten.",
+      "illustration_description": "Vergleichskarte zwischen kältebedürftigen westlichen Sorten und hitzetoleranten tropischen Kuroda-Sorten.",
+      "image": "assets/images/placeholder-seed.svg"
+    },
+    {
+      "page_number": 6,
+      "title": "Schritt 3: Die Selektion durch Ausgraben",
+      "text": "Wie erkennt man eine schöne Karotte, ohne sie zu sehen? Das ist unmöglich!  \nDaher führt der Saatgutproduzent eine **Selektionsausgrabung** durch:\n1. Bei Genussreife graben Sie vorsichtig 50 bis 100 Karotten mit der Grabegabel aus, ohne die Haut zu verletzen.\n2. Entfernen Sie grobe Erde von Hand (nicht mit Wasser waschen).\n3. Behalten Sie mindestens **30 bis 50 der besten Wurzeln**: kräftige Farbe, gerade kegelförmige Form, oranger Kragen (kein bitterer grüner Kragen), keine Beinigkeit.\n4. Schneiden Sie das Kraut 3 bis 5 cm über dem Wurzelkopf ab, ohne das Herz zu verletzen.",
+      "illustration_description": "Gärtner sortiert Karotten auf einer Plane und schneidet das Blattgrün zurück.",
+      "image": "assets/images/placeholder-seed.svg"
+    },
+    {
+      "page_number": 7,
+      "title": "Karotten vor dem Wiedereinpflanzen verkosten!",
+      "text": "Hier ist ein bewährter Geheimtipp erfahrener Gärtner:  \nJede Karotte schmeckt anders: manche sind süß, andere fade oder bitter!  \n- Schneiden Sie mit einem sauberen Messer die unterste Wurzelspitze ab (1 bis 2 cm).\n- Probieren Sie diese Spitze: behalten Sie nur zarte, aromatische und süße Wurzeln.\n- Tauchen Sie die Schnittfläche sofort in **feine Holzasche**: Die Asche desinfiziert die Wunde und verhindert Fäulnis im Boden!",
+      "illustration_description": "Geschmackstest der Wurzelspitze und Wundverschluss mit feiner Holzasche.",
+      "image": "assets/images/placeholder-seed.svg"
+    },
+    {
+      "page_number": 8,
+      "title": "Schritt 4: Sammenträger einpflanzen und stützen",
+      "text": "Pflanzen Sie die selektierten Karotten sofort in lockeren, nährstoffreichen Boden:\n- Pflanzabstand: 40 cm in der Reihe und 60 cm zwischen den Reihen.\n- Die Wurzel bis zum Wurzelhals setzen, Herzblätter frei lassen und kräftig angießen.\n- Nach wenigen Wochen wachsen Blütentriebe heran, die **1,20 m bis 1,50 m** hoch werden!\n- Setzen Sie stabile Stäbe und binden Sie die Triebe an, damit sie bei Wind und Regen nicht umknicken.",
+      "illustration_description": "Saatgutbeet mit gestützten, hochwachsenden Blütentrieben.",
+      "image": "assets/images/placeholder-seed.svg"
+    },
+    {
+      "page_number": 9,
+      "title": "Schritt 5: Ernte der Hauptdolden",
+      "text": "Nicht alle Dolden liefern dieselbe Samenqualität:\n- ✅ **Die Hauptdolde** (die allererste, die sich an der Spitze des Haupttriebs öffnet) erzeugt die größten, schwersten und keimfähigsten Samen. Ernten Sie diese bevorzugt!\n- ⚠️ Spätere Seitendolden liefern kleinere Samen mit geringerer Keimkraft.\n- Ernten Sie, sobald sich die Dolde wie ein Vogelnest einrollt und eine trockene **beige oder braune Färbung** annimmt.\n- Schneiden Sie die Dolden mit 10 cm Stängel ab und lassen Sie sie 1 bis 2 Wochen im Schatten nachtrocknen.",
+      "illustration_description": "Vergleich der Hauptdolde mit Seitendolden und Ernte mit der Gartenschere.",
+      "image": "assets/images/placeholder-seed.svg"
+    },
+    {
+      "page_number": 10,
+      "title": "Entgrannen und Dreschen der Samen",
+      "text": "Karottensamen haben eine Besonderheit: Sie besitzen winzige Hakenborsten, durch die sie klumpenartig aneinander haften!  \nFür leicht zu säendes Saatgut:\n1. Handschuhe anziehen, um die Hände zu schützen.\n2. Reiben Sie die trockenen Dolden kräftig zwischen den Händen oder an einem Küchen-Drahtsieb.\n3. Diese Reibung bricht die Hakenhaare ab – man nennt dies **Entgrannen**.\n4. Die Samen trennen sich sauber voneinander und sind glatt und streufähig.",
+      "illustration_description": "Reiben der trockenen Dolden über einem Drahtgitter zum Entgrannen der Samen.",
+      "image": "assets/images/placeholder-seed.svg"
+    },
+    {
+      "page_number": 11,
+      "title": "Windsichtung und Aufbewahrung",
+      "text": "Für die abschließende Reinigung:\n1. Geben Sie die entgrannten Samen in eine flache Schale oder Kalebasse.\n2. Pusten Sie vorsichtig darüber oder schwenken Sie bei leichtem Wind, um Stängelreste und Staub zu entfernen.\n3. Bewahren Sie das Saatgut in einem luftdichten Glas mit etwas gesiebter Holzasche auf.\n4. Sorte und Erntejahr auf dem Etikett notieren.\n5. 🌱 Karottensamen behalten ihre Keimfähigkeit für **4 bis 5 Jahre**.",
+      "illustration_description": "Windsichtung und dicht verschlossenes Saatgutglas mit Keimprobe.",
+      "image": "assets/images/placeholder-seed.svg"
+    },
+    {
+      "page_number": 12,
+      "title": "Glückwunsch! Sie beherrschen den Karottensamenbau",
+      "text": "Herzlichen Glückwunsch! Sie verfügen nun über ein wertvolles gärtnerisches Wissen: die eigenständige Vermehrung von hochwertigem Karottensaatgut!  \nSie können Ihre Sorte von Jahr zu Jahr weiter an Ihren Boden anpassen und veredeln.\n\nDas Wichtigste im Überblick:\n- ✅ Tropische Sorten wählen, die in warmem Klima willig blühen.\n- ✅ Mindestens 30 bis 50 Wurzeln ausgraben, um Form, Farbe und Geschmack zu prüfen.\n- ✅ Wurzelspitze vor dem Einpflanzen in Holzasche tauchen.\n- ✅ 500 m bis 1 km Abstand zu Wilder Möhre einhalten.\n- ✅ Bevorzugt braune Hauptdolden ernten und über einem Sieb entgrannen.",
+      "illustration_description": "Erfolgreicher Gärtner mit reicher Karottenernte aus eigenem Saatgut.",
+      "image": "assets/images/placeholder-seed.svg"
+    }
+  ]
+}

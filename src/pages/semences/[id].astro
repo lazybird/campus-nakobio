@@ -2,23 +2,47 @@
 import Layout from '../../layouts/Layout.astro';
 import fs from 'node:fs';
 import path from 'node:path';
+import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from '../../utils/languages';
+import { getAvailableTranslations } from '../../utils/courseTranslations';
 
 export async function getStaticPaths() {
   const dataDir = path.resolve('./src/data');
-  const files = fs.readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'catalog.json');
+  const allJsonFiles = fs.readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'catalog.json');
 
-  return files.map(file => {
-    const filePath = path.join(dataDir, file);
-    const content = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-    const id = file.replace('.json', '');
-    return {
-      params: { id },
-      props: { course: content }
-    };
+  // Trouver tous les IDs de cours de base (sans code langue)
+  const baseFiles = allJsonFiles.filter(f => {
+    // Exclure les fichiers avec une extension de langue type .en.json, .bm-nko.json
+    const parts = f.replace('.json', '').split('.');
+    return parts.length === 1;
   });
+
+  const paths: any[] = [];
+
+  for (const baseFile of baseFiles) {
+    const courseId = baseFile.replace('.json', '');
+    const availableTranslations = getAvailableTranslations(dataDir, courseId, '/semences');
+
+    // Route par défaut (français) : /semences/[id]
+    const defaultFilePath = path.join(dataDir, baseFile);
+    const defaultContent = JSON.parse(fs.readFileSync(defaultFilePath, 'utf-8'));
+
+    paths.push({
+      params: { id: courseId },
+      props: { 
+        course: defaultContent,
+        currentLang: DEFAULT_LANGUAGE,
+        courseId,
+        availableTranslations
+      }
+    });
+  }
+
+  return paths;
 }
 
-const { course } = Astro.props;
+const { course, currentLang = DEFAULT_LANGUAGE, courseId = course?.id, availableTranslations = [] } = Astro.props;
+const langConfig = SUPPORTED_LANGUAGES[currentLang] || SUPPORTED_LANGUAGES[DEFAULT_LANGUAGE];
+const isRtl = langConfig.dir === 'rtl';
 
 // Fonction de formatage du texte pédagogique (gras, listes, alertes)
 function formatPedagogicalText(rawText: string) {
@@ -115,8 +139,42 @@ if (totalSteps > 1) {
         </span>
       </div>
       <div class="lesson-actions">
+        {availableTranslations.length > 1 && (
+          <div class="custom-lang-dropdown" id="custom-lang-dropdown">
+            <button 
+              type="button" 
+              class="custom-lang-trigger" 
+              id="custom-lang-trigger" 
+              aria-haspopup="listbox" 
+              aria-expanded="false"
+              aria-label="Changer la langue du cours"
+            >
+              <span class="custom-lang-globe" aria-hidden="true">🌐</span>
+              <span class="custom-lang-current">{langConfig.nativeName}</span>
+              <svg class="custom-lang-caret" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+            <div class="custom-lang-menu" id="custom-lang-menu" role="listbox" tabindex="-1">
+              {availableTranslations.map(tr => (
+                <a 
+                  href={tr.url} 
+                  class:list={['custom-lang-item', { active: tr.lang === currentLang }]}
+                  role="option"
+                  aria-selected={tr.lang === currentLang}
+                  lang={tr.lang}
+                >
+                  <span class="lang-item-name">{tr.config.nativeName}</span>
+                  {tr.lang === currentLang && (
+                    <span class="lang-item-check" aria-hidden="true">✓</span>
+                  )}
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
         <button type="button" class="btn btn-primary" id="btn-print-lesson" title="Télécharger ou imprimer ce cours en PDF">
-          🖨️ Version PDF
+          🖨️ PDF {langConfig.shortLabel ? `(${langConfig.shortLabel})` : ''}
         </button>
       </div>
     </div>
@@ -140,13 +198,18 @@ if (totalSteps > 1) {
     </div>
   </div>
 
-  <div class="container lesson-container">
+  <div class:list={['container', 'lesson-container', { 'is-rtl': isRtl }]} dir={isRtl ? 'rtl' : 'ltr'} lang={currentLang}>
     <!-- Hero d'introduction du module -->
     <header class="lesson-hero">
       <div class="lesson-badge-row">
         <span class="badge badge-primary">🌱 {course.category || 'Semences Paysannes'}</span>
         <span class="badge badge-neutral">📖 {course.total_pages || pagesList.length} parties</span>
         <span class="badge badge-neutral">☀️ Terroir tropical &amp; sahélien</span>
+        {availableTranslations.length > 1 && (
+          <span class="badge badge-accent">
+            🌐 {langConfig.nativeName}
+          </span>
+        )}
       </div>
       <h2 class="hero-course-title">{course.title}</h2>
       {course.summary && <p class="hero-course-summary">{course.summary}</p>}
@@ -347,6 +410,33 @@ if (totalSteps > 1) {
   window.addEventListener('resize', updateProgress, { passive: true });
   // Appel initial
   updateProgress();
+
+  // Gestion du menu déroulant de langues personnalisé
+  const langDropdown = document.getElementById('custom-lang-dropdown');
+  const langTrigger = document.getElementById('custom-lang-trigger');
+
+  if (langDropdown && langTrigger) {
+    langTrigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = langDropdown.classList.toggle('open');
+      langTrigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!langDropdown.contains(e.target as Node)) {
+        langDropdown.classList.remove('open');
+        langTrigger.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && langDropdown.classList.contains('open')) {
+        langDropdown.classList.remove('open');
+        langTrigger.setAttribute('aria-expanded', 'false');
+        langTrigger.focus();
+      }
+    });
+  }
 </script>
 
 <style>
@@ -376,6 +466,154 @@ if (totalSteps > 1) {
     overflow: hidden;
     white-space: nowrap;
     flex: 1;
+  }
+
+  .lesson-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+  }
+
+  /* Dropdown Langue Personnalisé & Élégant */
+  .custom-lang-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .custom-lang-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    background: var(--color-surface-sunken);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    padding: 0.35rem 0.85rem;
+    font-family: var(--font-nko), var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--color-ink);
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-fast);
+  }
+
+  .custom-lang-trigger:hover,
+  .custom-lang-dropdown.open .custom-lang-trigger {
+    border-color: var(--color-brand-primary);
+    background: #ffffff;
+    box-shadow: var(--shadow-md);
+  }
+
+  .custom-lang-globe {
+    font-size: 0.95rem;
+    line-height: 1;
+  }
+
+  .custom-lang-caret {
+    color: var(--color-ink-soft);
+    transition: transform var(--transition-fast);
+  }
+
+  .custom-lang-dropdown.open .custom-lang-caret {
+    transform: rotate(180deg);
+    color: var(--color-brand-primary);
+  }
+
+  .custom-lang-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    min-width: 175px;
+    background: #ffffff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: 0 10px 25px rgba(27, 35, 24, 0.12);
+    padding: 0.35rem;
+    display: none;
+    flex-direction: column;
+    gap: 0.2rem;
+    z-index: 100;
+  }
+
+  .custom-lang-dropdown.open .custom-lang-menu {
+    display: flex;
+    animation: dropdownPop 0.18s ease-out;
+  }
+
+  @keyframes dropdownPop {
+    from {
+      opacity: 0;
+      transform: translateY(-4px) scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .custom-lang-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.45rem 0.75rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    font-family: var(--font-nko), var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-ink-soft);
+    transition: all var(--transition-fast);
+  }
+
+  .custom-lang-item:hover {
+    background: var(--color-surface-sunken);
+    color: var(--color-brand-primary);
+  }
+
+  .custom-lang-item.active {
+    background: var(--color-surface-sunken);
+    color: var(--color-brand-primary);
+    font-weight: 800;
+  }
+
+  .lang-item-check {
+    color: var(--color-brand-primary);
+    font-weight: bold;
+    font-size: 0.85rem;
+  }
+
+  /* Support RTL & Typographie N'ko */
+  .lesson-container.is-rtl {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .lesson-container.is-rtl .hero-course-title,
+  .lesson-container.is-rtl .slide-step-title,
+  .lesson-container.is-rtl .step-meta-name {
+    font-family: var(--font-nko), var(--font-sans);
+    letter-spacing: normal;
+  }
+
+  .lesson-container.is-rtl .slide-pedagogical-content,
+  .lesson-container.is-rtl .hero-course-summary,
+  .lesson-container.is-rtl .completion-desc {
+    font-family: var(--font-nko), var(--font-sans);
+    line-height: 1.8;
+  }
+
+  .lesson-container.is-rtl .lesson-hero {
+    border-left: 1px solid var(--color-border);
+    border-right: 6px solid var(--color-brand-primary);
+  }
+
+  .lesson-container.is-rtl .slide-step-header-bar {
+    flex-direction: row-reverse;
+  }
+
+  .lesson-container.is-rtl .milestone-action-arrow {
+    transform: rotate(180deg);
   }
 
   .lesson-header-title {

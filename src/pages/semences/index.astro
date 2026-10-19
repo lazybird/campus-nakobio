@@ -1,6 +1,17 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import catalog from '../../data/catalog.json';
+import path from 'node:path';
+import { getAvailableTranslations } from '../../utils/courseTranslations';
+
+const dataDir = path.resolve('./src/data');
+const coursesWithTranslations = catalog.map(course => {
+  const translations = getAvailableTranslations(dataDir, course.id, '/semences');
+  return {
+    ...course,
+    translations
+  };
+});
 
 const categories = [
   { id: 'all', label: 'Toutes les formations' },
@@ -63,7 +74,7 @@ const categories = [
   <section class="catalog-grid-section">
     <div class="container">
       <div class="courses-grid" id="courses-grid">
-        {catalog.map((course) => (
+        {coursesWithTranslations.map((course) => (
           <article 
             class="course-card card card-interactive scroll-reveal" 
             data-category={course.category} 
@@ -86,6 +97,21 @@ const categories = [
                 </div>
                 <h2 class="card-title">{course.title}</h2>
                 <p class="card-summary">{course.summary || 'Formation pratique sur les semences paysannes.'}</p>
+                
+                {/* Badges langues disponibles si multi-traductions */}
+                {course.translations && course.translations.length > 1 && (
+                  <div class="card-languages-row" aria-label="Langues disponibles">
+                    <span class="card-languages-label">Disponible en :</span>
+                    <div class="card-languages-tags">
+                      {course.translations.map((tr) => (
+                        <span class="badge-lang-tag" title={tr.config.name}>
+                          {tr.config.shortLabel}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
                 <div class="card-meta">
                   <span class="card-tag">Agroécologie</span>
                   <span class="card-cta">Consulter le cours →</span>
@@ -425,6 +451,37 @@ const categories = [
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+
+  .card-languages-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+    font-size: 0.78rem;
+  }
+
+  .card-languages-label {
+    font-family: var(--font-sans);
+    color: var(--color-ink-faint);
+    font-weight: 600;
+  }
+
+  .card-languages-tags {
+    display: flex;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+  }
+
+  .badge-lang-tag {
+    font-family: var(--font-sans);
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.15rem 0.5rem;
+    border-radius: var(--radius-full);
+    background: var(--color-surface-sunken);
+    color: var(--color-brand-primary);
+    border: 1px solid var(--color-border);
   }
 
   .card-meta {
