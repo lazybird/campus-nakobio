@@ -1,0 +1,136 @@
+{
+  "id": "a7_extraction_sechage_tri_et_conservation",
+  "title": "Extraktion, Trocknung, Sortierung und Lagerung in heißem Klima",
+  "category": "Grundlagen",
+  "summary": "Lernen Sie, wie Sie Ihre Samen mit zwei bewährten Methoden (mit oder ohne Fermentation) sauber extrahieren, sie schnell im Schatten trocknen, ohne sie zu verbrennen, Verunreinigungen aussortieren und sie mit lokalen Ressourcen vor Feuchtigkeit und Rüsselkäfern schützen.",
+  "total_pages": 18,
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Von der reifen Frucht zum Samenschatz",
+      "text": "Ihr samenfester Gemüse ist perfekt auf dem Feld gereift!\nEs ist Zeit, die im Herzen der Früchte eingeschlossenen Samen zu ernten und freizulegen.\nIn diesem Modul lernen Sie, wie Sie Ihre Samen **extrahieren**, **waschen**, **trocknen** und **lagern**, ohne ihre Keimfähigkeit zu verlieren.\nBefolgen Sie die Schritte genau, um diesen lebendigen Schatz zu bewahren!",
+      "illustration_description": "Une belle table de travail en bois sous un préau ombragé : fruits mûrs colorés (tomates bien rouges, courge dorée, piments), couteau, cuillère, récipients d'eau claire et bocaux en verre.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Zwei große Fruchtfamilien: feucht und trocken",
+      "text": "Je nach Gemüseart ändert sich die Extraktionsmethode:\n1. **Trockenfrüchte** (Bohnen, Augenbohnen, Mais, Okra): Die Hülsen werden direkt an der Pflanze getrocknet, bevor sie trocken enthülst werden.\n2. **Fleischige Früchte** (Tomaten, Gurken, Kürbisse, Auberginen): Die Samen schwimmen in Saft oder Fruchtfleisch und müssen mit Wasser gereinigt werden.\nBeginnen wir mit den fleischigen Früchten!",
+      "illustration_description": "Comparaison en deux groupes sur une table :\n- Groupe 1 : Gousses de niébé et de haricot toutes sèches et craquantes.\n- Groupe 2 : Tomates mûres juteuses et melon ouvert montrant les pépins humides.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Extraktion mit Fermentation (für Tomate und Gurke)",
+      "text": "Jeder Tomaten- und Gurkensamen ist in einer kleinen, glitschigen Geleetasche eingeschlossen.\nDieses Gelee verhindert, dass der Samen keimt, solange er sich in der Frucht befindet.\nUm diese Hülle zu entfernen, ohne den Samen zu beschädigen, wird die **Fermentation** eingesetzt.\nDie Fermentation löst das Gelee auf und zerstört mikroskopisch kleine Krankheiten, die an der Samenhaut haften!",
+      "illustration_description": "Gros plan sur une graine de tomate entourée de sa capsule gélatineuse translucide, puis une flèche montrant la même graine débarrassée de sa gelée, nette et poilue.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Die 3 Fermentationsschritte",
+      "text": "So einfach geht's:\n1. Schneiden Sie die Frucht in zwei Hälften und drücken Sie die Samen mit ihrem Saft in ein Glasgefäß.\n2. Geben Sie nicht zu viel Wasser hinzu (nur einen Löffel, wenn der Saft zu dickflüssig ist).\n3. Decken Sie das Glas mit einem dünnen Tuch ab und befestigen Sie es, um Fruchtfliegen fernzuhalten.\nLassen Sie es an einem warmen Ort (zwischen 25° und 30°C) im Schatten ruhen.",
+      "illustration_description": "Schéma séquentiel en trois étapes :\n- Étape 1 : Pressage des demi-tomates au-dessus d'un bocal en verre.\n- Étape 2 : Le bocal contient le jus et les graines.\n- Étape 3 : Tissu fin noué sur le bocal avec un élastique, placé sur une étagère à l'ombre.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Vorsicht bei langer Hitzeeinwirkung!",
+      "text": "⚠️ Achtung! In unseren warmen Klimazonen geht die Fermentation sehr schnell:\n- Innerhalb von 24 bis 48 Stunden bildet sich ein dünner weißer Film auf der Oberfläche.\n- Einmal täglich mit einem sauberen Stäbchen umrühren.\nSobald sich die Samen lösen und auf den Boden des Glases sinken: sofort abspülen!\nWenn Sie zu lange warten, keimen die Samen im Glas und sind verloren!",
+      "illustration_description": "Vue à travers le bocal en verre :\n- En haut : fine pellicule blanche et débris flottants.\n- Au fond : les bonnes graines propres tombées au fond.\nUne horloge affiche : \"24 à 48h maximum sous climat chaud ⚠️\".",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Die Extraktion ohne Fermentation (Kürbisse, Auberginen, Wassermelonen)",
+      "text": "Für Kürbisse, Melonen, Wassermelonen und Auberginen ist keine Fermentation nötig!\n1. Öffnen Sie die reife Frucht in zwei Hälften.\n2. Entnehmen Sie die Samen mit einem Löffel oder von Hand.\n3. Legen Sie sie in ein Sieb und reiben Sie sie vorsichtig unter fließendem, sauberem Wasser ab, um das Fruchtfleisch zu entfernen.\nBei Auberginen zerdrücken Sie das Fruchtfleisch in einem Eimer Wasser: Die Samen sinken auf den Boden!",
+      "illustration_description": "Une personne passe les graines de courge sous l'eau dans une passoire en frottant avec les doigts pour détacher les filaments oranges. Les graines ressortent toutes blanches et propres.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Das abschließende Spülen mit klarem Wasser",
+      "text": "Ob nach einer Fermentation oder einem einfachen Waschvorgang:\n- Geben Sie Ihre Samen in ein Sieb oder ein feinmaschiges Passiersieb.\n- Lassen Sie reichlich klares Wasser darüber laufen und rühren Sie dabei mit der Hand um.\n- Entfernen Sie alle Fruchtfleischreste und Häutchen.\nIhre Samen müssen sich beim Anfassen vollkommen sauber anfühlen, ohne schleimige Spuren!",
+      "illustration_description": "Gros plan sur les mains du maraîcher rinçant une passoire pleine de graines sous un robinet ou une gourde d'eau propre. L'eau qui s'écoule est limpide.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Goldene Regel der Trocknung: NIEMALS in der prallen Sonne!",
+      "text": "⚠️ Achtung! Hier entscheidet sich das Leben Ihres Samens:\nNiemals Ihre Samen in direkter praller Sonne trocknen!\nDie brennende Sonne kocht den lebenden Embryo, der im Samen verborgen ist, und zerstört seine Keimfähigkeit.\nTrocknen Sie Ihre Samen immer **im Schatten**, an einem sehr luftigen und gut belüfteten Ort!",
+      "illustration_description": "Panneau comparatif choc :\n- À gauche (gros soleil brûlant avec croix rouge ❌) : graines noircies ou cuites sur une tôle au soleil.\n- À droite (coche verte ✅) : graines étalées sous un abri ombragé et bien balayé par une brise légère.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Die idealen Unterlagen für eine schnelle Trocknung",
+      "text": "Breiten Sie Ihre Samen in einer sehr dünnen Schicht aus:\n- Auf einem feinen Sieb, einem Terrakottateller oder einem sauberen Flechtrahmen.\n- Trocknen Sie **NICHT** auf Zeitungspapier: Die Samen kleben am Papier fest und reißen ab!\nFür kleine Mengen sind ungebleichte braune Kaffeefilter aus Papier perfekt, da sie Wasser aufnehmen, ohne an den Samen zu kleben.",
+      "illustration_description": "Deux bons supports illustrés :\n1. Une claie tressée traditionnelle à mailles fines surélevée du sol.\n2. Des filtres à café suspendus à une corde à linge avec des pinces sous un préau.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Der Nageltest zur Überprüfung der Trockenheit",
+      "text": "Wie lässt sich feststellen, ob der Samen perfekt trocken ist?\nFühren Sie den **Nageltest** durch:\nNehmen Sie einen großen Samen (Kürbis, Mais oder Bohne) und drücken Sie kräftig mit dem Rand Ihres Nagels darauf.\n- Wenn Ihr Nagel eine Markierung hinterlässt oder einsinkt: Es ist noch Wasser vorhanden, setzen Sie die Trocknung fort!\n- Wenn der Samen steinhart ist und der Nagel abrutscht: Er ist bereit für die Lagerung!",
+      "illustration_description": "Zoom sur un doigt appuyant fermement l'ongle sur une graine de courge :\n- Cas A : empreinte marquée (légende : \"Encore humide ❌\").\n- Cas B : graine rigide, ongle qui glisse sans laisser de trace (légende : \"Parfaitement sèche ✅\").",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Die Samensortierung: Die Windmethode",
+      "text": "Für gedroschenes Saatgut (Bohnen, Mais, Okra, Zwiebeln):\nEs bleiben oft viel Staub und Stücke trockener Hülsen zurück.\n\n- Wählen Sie einen Tag mit einer leichten, gleichmäßigen Brise.\n- Lassen Sie Ihre Samen langsam aus einer Kalebasse in eine andere fließen, die auf einer sauberen Matte auf dem Boden steht.\n- Der Wind trägt die leichten Spreu weg, und die schweren Samen fallen direkt in den Korb!",
+      "illustration_description": "Le geste traditionnel du vannage :\nUne maraîchère debout verse une pluie de graines depuis une calebasse haute. La brise dévie les débris légers sur le côté, tandis que les belles graines denses retombent en ligne droite dans la bassine au sol.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Die Schwimmtrennung in Wasser",
+      "text": "Für bestimmte Samen (wie Zwiebeln, Lauch oder getrocknete Tomaten):\nSie können diese in eine Schüssel mit kaltem Wasser tauchen:\n- Die vollen, schweren und fruchtbaren Samen sinken auf den Boden des Behälters.\n- Leere, verschrumpelte Samen und Abfälle schwimmen an der Oberfläche.\nSchöpfen Sie alles Schwimmende ab, entnehmen Sie dann die guten Samen vom Boden und trocknen Sie diese sofort wieder!",
+      "illustration_description": "Un bol transparent en verre rempli d'eau :\n- À la surface flottent quelques cosses et graines creuses avec une cuillère qui les retire.\n- Au fond reposent les graines noires et denses.\nMention : \"Graines lourdes au fond = graines vivantes ✅\".",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Die drei Todfeinde der Konservierung",
+      "text": "Sobald Ihr Saatgut sauber und trocken ist, müssen Sie es vor seinen 3 großen Feinden schützen:\n1. **Luftfeuchtigkeit**: Sie lässt die Samen schimmeln und verrotten.\n2. **Übermäßige Hitze**: Sie erschöpft die Energiereserven des Samens.\n3. **Schadinsekten**: Rüsselkäfer und Bruchkäfer bohren die Samen von innen an.",
+      "illustration_description": "Trois vignettes d'alerte :\n1. Goutte d'eau avec moisissure verte ⚠️\n2. Thermomètre qui explose sous la canicule ⚠️\n3. Charançon grignotant un grain de haricot ⚠️",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "100 % luftdichte Behälter",
+      "text": "Lassen Sie Ihre Samen NIEMALS während der Regenzeit in Stoffbeuteln oder offenen Kartons!\nVerwenden Sie luftdichte Behälter, die perfekt schließen:\n- **Gläser** mit einer sauberen Gummidichtung.\n- **Dicke Plastikflaschen**, die fest verschraubt sind.\n- **Traditionelle Kalebassen**, die mit Ton oder Wachs versiegelt sind.\nDie Außenluft darf niemals eindringen können!",
+      "illustration_description": "Trois contenants modèles bien fermés posés sur une étagère :\n1. Bocal en verre à joint hermétique.\n2. Bouteille plastique type soda bien lavée et vissée à fond.\n3. Calebasse traditionnelle avec bouchon scellé.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Asche und schützende Blätter gegen Insekten",
+      "text": "Um Ihre Bohnen, Mais und Augenbohnen ohne Chemikalien vor Bruchkäfern zu schützen:\n\n1. **Gesiebte Holzasche**: Mischen Sie ein Drittel sehr trockene, feine Asche mit zwei Dritteln Samen im Glas. Die Asche erstickt die Insekten und trocknet die Luft aus!\n2. **Abstoßende Blätter**: Geben Sie getrocknete Neemblätter oder scharfen getrockneten Chili in den Behälter.\n\nIhre Samen bleiben monatelang intakt!",
+      "illustration_description": "Gros plan sur la préparation :\nLe maraîcher verse de la cendre de bois très fine et tamisée sur des haricots dans un bocal, puis pose deux piments rouges très secs sur le dessus avant de fermer le couvercle.\nAnnotation : \"100 % naturel et zéro insecte ✅\".",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Die präzise Etikettierung: Das Gedächtnis Ihrer Arbeit",
+      "text": "Ein Samen ohne Etikett ist ein verlorener Samen!\nKleben Sie auf jedes Glas ein Etikett mit folgenden Angaben:\n1. Der Name des Gemüses und der Sorte (z.B. **Runde Lokaltomate**).\n2. Der Ernteort (Ihr Feld oder Dorf).\n3. Monat und Jahr der Ernte (z.B. **März 2026**).\nStecken Sie auch einen kleinen, identischen Zettel ins Glas, falls sich das äußere Etikett ablösen sollte.",
+      "illustration_description": "Bocal de semences avec une belle étiquette lisible scotchée dessus :\n\"Piment doux d'hivernage — Parcelle du bas — Récolte Février 2026 — Germination 90%\".\nUn double du papier est visible à l'intérieur contre la paroi vitrée.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "Wo lagern Sie Ihre wertvollen Gläser?",
+      "text": "Bewahren Sie Ihre Saatgutbehälter immer auf:\n- Im kühlsten und dunkelsten Raum des Hauses (z.B. am Fuß einer Lehmwand oder in einem vergrabenen Tontopf).\n- Vom Boden entfernt, um Nagetiere und direkte Feuchtigkeit zu vermeiden.\n- Legen Sie Ihre Samen niemals in den Gefrierschrank, wenn Sie häufige Stromausfälle haben: Das Auftauen erzeugt tödliche Kondensation!",
+      "illustration_description": "Intérieur d'une maison traditionnelle fraîche : une grande jarre en terre cuite posée sur un support surélevé contenant les bocaux hermétiques bien rangés, loin de la fenêtre et du soleil.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "Herzlichen Glückwunsch! Ihre zukünftigen Ernten sind in guten Händen",
+      "text": "Herzlichen Glückwunsch! Sie beherrschen die gesamte Produktionskette der Saatgutgewinnung:\n- Sie wissen, wie man Tomaten fermentiert und Kürbisse wäscht\n- Sie trocknen im Schatten, ohne die Keimfähigkeit zu beeinträchtigen\n- Sie sortieren Ihr Saatgut mit Wind und durch Schwimmprüfung\n- Sie lagern luftdicht mit Asche und Neem\nDer Grundbaustein A ist validiert! Sie sind bereit für die praktischen Gemüse-Merkblätter!",
+      "illustration_description": "Le maraîcher contemple une belle étagère remplie de bocaux de graines étiquetés et scellés. Les pots rayonnent d'une douce lueur dorée, symbolisant la richesse et l'autonomie paysanne. Grandes coches vertes ✅ et banderole de réussite du socle fondamental.",
+      "image": "assets/images/a7_extraction_sechage_tri_et_conservation/page_18.jpg"
+    }
+  ],
+  "course_code": "S1.07"
+}
