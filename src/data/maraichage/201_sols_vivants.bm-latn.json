@@ -1,0 +1,256 @@
+{
+  "id": "201_sols_vivants",
+  "title": "Dugu Hɛrɛw",
+  "category": "Dabali & Dugu",
+  "summary": "I laɲini ye ka dugu ni ɲɛnamaya (ŋɔnɔ, ɲɛgɛnɛ, bakitɛri, humus) faamuya ani fɛn caman dabɔli dugu kɔnɔ ka baara kɛ ni yɔrɔ kelen ye ka i ka fɛnɲɛnamafɛnw bonya.",
+  "total_pages": 35,
+  "cover_image": "assets/images/maraichage/201_sols_vivants/page_01.jpg",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "An bɛna a jira i la cogo min na, sɛnɛfɛnsɛnɛw bɛ se ka dugukolo ta ka a kɛ a ka ɲi ka balo",
+      "text": "walasa ka se ka fɛnɲɛnama n’a ka fɛnɲɛnamaya ni nɛgɛnɛw ka kɛnɛya ni a ka bonya ɲuman garanti.",
+      "illustration_description": "Illustration pédagogique pour Nous allons vous montrer comment les planches de cultures permettent de garder le sol vivant",
+      "image": "assets/images/maraichage/201_sols_vivants/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "WALASA DUGU KA KƐ JOLIYALEN YE, A KA KƐ",
+      "text": "NIƝANIN YE",
+      "illustration_description": "Illustration pédagogique pour POUR QUE LE SOL SOIT FERTILE, IL FAUT QU’IL SOIT",
+      "image": "assets/images/maraichage/201_sols_vivants/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Nàfama jɛgɛnna jiminiw ka bonya ni ka kɛnɛya, u ka kan ni kɛnɛ ye, ji, ani balo ye. U",
+      "text": "balila dugukolo sanfɛla fɛ (cɛntimɛtɛrɛ 10-20 gɛrɛn).",
+      "illustration_description": "Illustration pédagogique pour Pour pousser et être en bonne santé les plantes maraîchères ont besoin de lumière, d’eau et de nutriments. Elles",
+      "image": "assets/images/maraichage/201_sols_vivants/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Dugu nɔgɔn ka bon ni **humus** ye, o bɔra dugukolo laɲiniw ni fɛnɲɔgɔnw ka sa kɔfɛ (jɛgɛnni fɛnɲɔgɔnw, filaworo, ",
+      "text": "sɔgɔsɔgɔbaga saaba, bɔnɔw…).\n",
+      "illustration_description": "Illustration pédagogique pour Un sol fertile est riche en humus, issu de la matière organique en décomposition (résidus de cultures, feuilles,",
+      "image": "assets/images/maraichage/201_sols_vivants/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "**Humus**",
+      "text": "Dugu min ka di, o ka di ni **humus** ye. O bɔra dugukolo laɲiniw ni fɛn camanw ka sa-sa-sa la (sege-sege-len yiriw, wulawula-wulawula-w, fɛnɲɛnɛw minnu sara, bɔnɔw…).\n",
+      "illustration_description": "Illustration pédagogique pour Humus",
+      "image": "assets/images/maraichage/201_sols_vivants/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Dugu ka kɛ: ",
+      "text": "ka kɛ ni **dugukolo lajɛlen** ye i n’a fɔ **dugukolo ni yiriw ka fɛnɲɛnɛ** ani **kabakurunw**,\n\n- ka kɛ ni **ji** ye min bɛ **dugukolo lajɛlen** ni **yɛlɛmafɛnw** jira, ani **kɔnɔkow**.",
+      "illustration_description": "Illustration pédagogique pour Le sol est constitué :",
+      "image": "assets/images/maraichage/201_sols_vivants/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Misɛli",
+      "text": "bakteri\n\nA ka sigi yɛrɛ ka walew ba fana kɛ:\n\n- Walew dɔw minnu ma yɛlɛn jii la i n'a fɔ **bakteri** ni **fɔn** minnu ka fari fɛfɛnw ka diɲɛ, o de bɛ wele ko **misɛli**.",
+      "illustration_description": "Illustration pédagogique pour mycélium",
+      "image": "assets/images/maraichage/201_sols_vivants/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "acariens",
+      "text": "nématodes larves\n\nA accueille également des organismes vivants :\n\n- des organismes de quelques millimètres comme des **acariens**, des petits vers (appelés **nématodes**) ou des **larves** d’insectes.",
+      "illustration_description": "Illustration pédagogique pour acariens",
+      "image": "assets/images/maraichage/201_sols_vivants/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "**Termitiw**",
+      "text": "dugukolo jɔn, kɛrɛkɛrɛkɛ, dugukolo nɛnɛ,ɲininkali\n\nA bɛ sigi di fana dugukolo bɛnbaliw ma:\n\nani **sɛgɛsɛgɛw**: i n'a fɔ **dugukolo nɛnɛw**, **dugukolo jɔnw**, **termitiw**, **sɛgɛsɛgɛw**, **kɛrɛkɛrɛkɛw** walima **ɲininkaliw**.",
+      "illustration_description": "Illustration pédagogique pour termites",
+      "image": "assets/images/maraichage/201_sols_vivants/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "O bɛ wele ko sigida dɔ ye min ka **nafa ka bon** ani a ka **kɛɲɛ ka ca**, o la mɔgɔ bɛɛ bɛ a ka baara kɛ, hali **limace**!",
+      "text": "O bɛ wele ko sigida dɔ ye min ka **nafa ka bon** ani a ka **kɛɲɛ ka ca**, o la mɔgɔ bɛɛ bɛ a ka baara kɛ, hali **limace**!",
+      "illustration_description": "Illustration pédagogique pour C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
+      "image": "assets/images/maraichage/201_sols_vivants/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "O bɛ wele ko sigida dɔ ye min ka bon ani ka kɛɲɛɲɛ, o la mɔgɔ bɛɛ bɛ a ka baara kɛ, hali limace!",
+      "text": "O bɛ wele ko sigida dɔ ye min ka bon ani ka kɛɲɛɲɛ, o la mɔgɔ bɛɛ bɛ a ka baara kɛ, hali **limace**!",
+      "illustration_description": "Illustration pédagogique pour C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
+      "image": "assets/images/maraichage/201_sols_vivants/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Fɛn ninnu bɛɛ bɛ baara kɛ ɲɔgɔn fɛ walasa ka dugukolo labɛn kokura, ka a mara ka kɛ hɛrɛ ye, ka a to ka kɛ nɔgɔ ye,",
+      "text": "ka kɛ fɛn ye min bɛ fɛnɲɛnɛn kɛ ani ka sigi sen kan walasa ka jiriw n’a fɛnɲɛnɛnw dabɔ.\n\nO ni fɛnɲɛnɛn baara ye dugukolo nafa sigiɲɔgɔnna ye.",
+      "illustration_description": "Illustration pédagogique pour Tous ces éléments interagissent ensemble pour régénérer le sol, le garder en bonne santé, le maintenir humide,",
+      "image": "assets/images/maraichage/201_sols_vivants/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "WALIMA BAARA MIN BƐ KƐ BAARA-JURU KAN",
+      "text": "O BƐ DUGU DAKAN K’A KƐ FƐN-KUNBA YE, O KƆRƆ YE KO A BƐ DUGU DAKAN K’A KƐ FƐN-KUNBA YE WA?\n",
+      "illustration_description": "Illustration pédagogique pour COMMENT LE SYSTÈME DES PLANCHES DE CULTURES",
+      "image": "assets/images/maraichage/201_sols_vivants/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "A bɛ daminɛ na, yɔrɔ fitinin dɔ bɛ dugukolo nafama dɔw labɔ. Ni i bɛ taama-yɔrɔw fɛn, i bɛ o dugukolo ta ka don",
+      "text": "dugukolo kan. O bɛ kɛ ka dugukolo nafama bɛɛ lajɛ yɔrɔ min na jɛgɛnw bɛ bon.",
+      "illustration_description": "Illustration pédagogique pour Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les passe-pieds, on déplace cette",
+      "image": "assets/images/maraichage/201_sols_vivants/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "A daminɛ na, yɔrɔ fitinin dɔ ka dugukolo ɲuman dɔ bila a kan. Ni i bɛ taama-yɔrɔw fɛn, i bɛ o",
+      "text": "dugukolo in jigin yɔrɔw kan. O bɛ dugukolo ɲuman bɛɛ lajɛ yɔrɔ min na jikinɛw bɛna bon.",
+      "illustration_description": "Illustration pédagogique pour Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les passe-pieds, on déplace cette",
+      "image": "assets/images/maraichage/201_sols_vivants/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Dugukolo datugu-kulu ka baara",
+      "text": "Dugukolo datugu-kulu (mulch) ka fisa ni a bɛ kɛ yɔrɔ minnu bɛ taa-ɲɔgɔn na:\n\n* A bɛ ji minɛ i n’a fɔ ɛpɔn, walasa dugukolo ka sigi nɔgɔn na.\n* A bɛ ji boli gɛlɛya ni sanji baa bɔra, o bɛ dugukolo boli bali.",
+      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "image": "assets/images/maraichage/201_sols_vivants/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "Paillage ka baara",
+      "text": "Paillage (mulch) min bɛ kɛ yɔrɔ minnu na, o ka fisa:\n\n- A bɛ ji minɛ i n’a fɔ espɔnzi, walasa dugukolo ka kɛ jida ye.\n- A bɛ ji boli gɛlɛya ni sanji gɛlɛn bɔra, o bɛ dugukolo gɛlɛya dɔgɔya.",
+      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "image": "assets/images/maraichage/201_sols_vivants/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "Paillage ka baara",
+      "text": "Paillage (mulch) min bɛ kɛ yɔrɔ minnu na, o ka fisa ka kɛ: \n\n- A bɛ ji minɛ i n’a fɔ espɔnzi, walasa dugukolo ka kɛ jikɔrɔ. \n- A bɛ ji boli gɛlɛya ni sanji gɛlɛn bɔra, o bɛ dugukolo tiɲɛni dɔgɔya.",
+      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "image": "assets/images/maraichage/201_sols_vivants/page_18.jpg"
+    },
+    {
+      "page_number": 19,
+      "title": "Paillage ka baara",
+      "text": "Paillage (mulch) ka baara ka bon kosɛbɛ:\n\n* A bɛ ji minɛ i n’a fɛ ɛpɔn bɛ ji minɛ cogo min, walasa dugukolo ka kɛ nɔgɔn ye.\n* A bɛ ji boli gɛlɛya ni sanji ka bon, o bɛ dugukolo bali ka bɔ.",
+      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "image": "assets/images/maraichage/201_sols_vivants/page_19.jpg"
+    },
+    {
+      "page_number": 20,
+      "title": "Kaaberɛ nin siranw donsoya",
+      "text": "Siranw donsoya (bakteriɛw kaɛ fungiɛw) ye paali kan siran mena",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_20.jpg"
+    },
+    {
+      "page_number": 21,
+      "title": "**Mikoro-organismu ni**",
+      "text": "**Dusukunw ka baara**\n\nU bɛ kɛ **kloporow**, **dusukunw** (termitiw, nankurunw, kɔnɔntɔnw…) ni **dugukolo-ɲɔgɔnw** ka dumuni ye.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_21.jpg"
+    },
+    {
+      "page_number": 22,
+      "title": "Mikoro-organisime ni",
+      "text": "Kabakurunba bɛɛ bɛ barika don paillage ka bonya la ka kɛ **komposi** ye. O la, an bɛ se ka kuma **komposi** kan min bɛ yɔrɔ la minnu bɛ taama. Mikoro-organisime ni kabakurunba ka **nɔgɔ** ni u ka **sugu** bɛ bonya ka kɛ **komposi** ye, o bɛ kɛ ka **komposi** lajɛ.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_22.jpg"
+    },
+    {
+      "page_number": 23,
+      "title": "Mikoro-organismu ni",
+      "text": "Dusukunw ka baara\n\n- **Dugukolo dusukunw** ni **terimitiw** bɛ dugukolo lafili-lafili, o bɛ **jii** ni **hakili** ka taama nɔgɔya, wa a bɛ segeɲɔgɔnw dɛmɛ u ka u ka **ɲɛsin** sɔrɔ.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_23.jpg"
+    },
+    {
+      "page_number": 24,
+      "title": "Micro-organismes ni nɛrɛw ye",
+      "text": "Nɛrɛw ni nɛrɛw dɔnniya kɛlɛbɔ bɛɛ kɔnɔ, o bɛ se ka kɛlɛbɔ tɛmɛlenw ka kɛlɛbɔ kɔnɔ tɛmɛlenw bɛɛ kɔnɔ, o ye ka kɛlɛbɔ tɛmɛlenw ka kɛlɛbɔ kɔnɔ tɛmɛlenw bɛɛ kɔnɔ, ka kɛlɛbɔ tɛmɛlenw bɛɛ kɔnɔ tɛmɛlenw bɛɛ kɔnɔ, o ye ka kɛlɛbɔ tɛmɛlenw ka kɛlɛbɔ kɔnɔ tɛmɛlenw bɛɛ kɔnɔ.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_24.jpg"
+    },
+    {
+      "page_number": 25,
+      "title": "Mikoro-organismu ni",
+      "text": "Dusukunw ka baara **Dusukunw** ni **sekɛnɛw** ka baara. **Azote** b’a to **yiridenw** ka bonya, **phosphore** b’a to **juruw** ka bonya, **potassium** b’a to **yiridenw** ka bonya, nka **calcium**, **magnésium**, **fer** ni **oligo-éléments** wɛrɛw fana bɛ baara kɛ, minnu ka fisa yiri ka bonya ni ka kɛnɛya.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "image": "assets/images/maraichage/201_sols_vivants/page_25.jpg"
+    },
+    {
+      "page_number": 26,
+      "title": "BUGUNU JIRIWALAW KA DƆN KƐ SO KƆNƆ NI U KA SƆGƆSƆGƆLI NI U KA BAARA KƐCOGO YE?",
+      "text": "DUGUKOLO NI A KƆNƆ BAARA KƐCOGO NI A DUGUKOLO DƐMƐNNA?",
+      "illustration_description": "Illustration pédagogique pour COMMENT LES PLANTES PARTICIPENT AUSSI À",
+      "image": "assets/images/maraichage/201_sols_vivants/page_26.jpg"
+    },
+    {
+      "page_number": 27,
+      "title": "Bi fura bɛ bonya, u bɛ dugukolo kɔlɔsi ni tile ni hura ye.",
+      "text": "Bi fura bɛ bonya, u bɛ dugukolo kɔlɔsi ni tile ni hura ye.",
+      "illustration_description": "Illustration pédagogique pour Une fois que les plantes ont poussée elles protègent le sol du soleil et du vent.",
+      "image": "assets/images/maraichage/201_sols_vivants/page_27.jpg"
+    },
+    {
+      "page_number": 28,
+      "title": "FOTOZAN",
+      "text": "Jikin bi kulu ka dankanba ye **kɛnɛ** ye. Fotozan ka baara ye **sukuru** dilan ye min bɛ na **fɔn** ni **bakteri** dun dugu kɔnɔ.",
+      "illustration_description": "Illustration pédagogique pour PHOTOSYNTHÈSE",
+      "image": "assets/images/maraichage/201_sols_vivants/page_28.jpg"
+    },
+    {
+      "page_number": 29,
+      "title": "Ni yɛlɛma sugari la min bɛ di u ma, sigi dɔw bɛ kɛ a ka da ye funtigi kama: u bɛ",
+      "text": "dugukolo ka fɛnɲɛnama dɔw minɛ a nɔ na. O walewari min bɛ se ka kɛ ni mɔgɔ fila bɛ se ka nafa sɔrɔ, o bɛ wele ko **symbiose**. Ni o kɛra funtigi ni sigi cɛ, o bɛ wele ko **mycorhize**.",
+      "illustration_description": "Illustration pédagogique pour En échange du sucre qu’elle leur fournit , certains champignons agissent comme une bouche pour la plante : ils",
+      "image": "assets/images/maraichage/201_sols_vivants/page_29.jpg"
+    },
+    {
+      "page_number": 30,
+      "title": "Jiridenw bɛ ji ni balo sɔrɔ dugukolo kɔnɔ. O kama u bɛ u",
+      "text": "jijiw bonya. Jijiw bɛ dugukolo sin, u bɛ dugukolo gɛnɛ ka bonya ka u tanga baara ni kɔnɔna ma.",
+      "illustration_description": "Illustration pédagogique pour Les plantes profitent de l’eau et des nutriments stockés dans les passe-pieds. Pour y accéder elles élargissent leur",
+      "image": "assets/images/maraichage/201_sols_vivants/page_30.jpg"
+    },
+    {
+      "page_number": 31,
+      "title": "Ni sɛnɛnna kɔfɛ, jijiw bɛ to duguma ka bɔ, o bɛ dugu barika bonya ni",
+      "text": "dugu bɛɛ la **dugukolo-jijikulu** (matière organique) min bɛ **dugukolo-ɲɛnajalaninw** (micro-organismes) bɔn. Sɛnɛw dɔw la, jijiw bɛ se ka taa kilomɛtɛrɛ caaman na: dugukolo-jijikulu min b’u la ni u bɛ bɔ, o tɛ foyi ye dɛ!",
+      "illustration_description": "Illustration pédagogique pour Une fois la récolte passée, les racines qui restent dans le sol se décomposent et participent à enrichir le sol en",
+      "image": "assets/images/maraichage/201_sols_vivants/page_31.jpg"
+    },
+    {
+      "page_number": 32,
+      "title": "Sankalaɲɔgɔnɲɔgɔn bɛ dugukolo di ni dugukolo-ɲɛfɛn ye. A bɛ se ka don",
+      "text": "compostière kɔnɔ walima ka don dugukolo-ɲɛfɛn na min bɛ dugukolo-ɲɛfɛn di.",
+      "illustration_description": "Illustration pédagogique pour Les résidus de récoltes fournissent de la matière organique. Selon la quantité, on peut l’ajouter soit dans notre",
+      "image": "assets/images/maraichage/201_sols_vivants/page_32.jpg"
+    },
+    {
+      "page_number": 33,
+      "title": "N'i sɔnna ka bin kura dabali, i ka fange-joli in laban duguma n'i ma a faga, walasa",
+      "text": "ka dugu-yɛrɛyɛrɛ in n’a ka ɲɛnamaya in to ka laban.",
+      "illustration_description": "Illustration pédagogique pour Avant de lancer une nouvelle culture, ce compost pourra être déposé en surface sans être tassé, pour ne pas",
+      "image": "assets/images/maraichage/201_sols_vivants/page_33.jpg"
+    },
+    {
+      "page_number": 34,
+      "title": "X3",
+      "text": "Maraîchage bio intensif ka baara kɛcogo min bɛ kɛ dugukolo hɛrɛma kan ni **planche permanentes** ni **paillage** ye, o bɛ dugukolo ka nafa bonya, wa a bɛ fɛnɲɛnama jɛnsɛn kɛ sisan **sii saba** ka tɛmɛ baara kɛcogo kɔrɔw kan.",
+      "illustration_description": "Illustration pédagogique pour X3",
+      "image": "assets/images/maraichage/201_sols_vivants/page_34.jpg"
+    },
+    {
+      "page_number": 35,
+      "title": "Baara min bɛ kɛ ni **planches de culture** ye, o ka bon ni fɛn caman ye: a bɛ dugukolo diɲɛ, o la a bɛ se ka dɔgɔya",
+      "text": "fɛnɲɛnɛn caman na **compost** ni **matière organique** na, o la a bɛ se ka nafa sɔrɔ, k’a sɔrɔ a bɛ se ka fɛn caman dilan ani ka dumuniɲɛnɛn duman dilan.",
+      "illustration_description": "Illustration pédagogique pour La technique des planches de culture a beaucoup d’avantages : en préservant le sol, elle permet de réduire les",
+      "image": "assets/images/maraichage/201_sols_vivants/page_35.jpg"
+    }
+  ],
+  "course_code": "M2.1"
+}
