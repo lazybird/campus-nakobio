@@ -1,0 +1,445 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import catalog from '../../data/maraichage/catalog.json';
+
+const categories = [
+  { id: 'all', label: 'Toutes les formations' },
+  { id: 'Fondements & Sol', label: '🪱 Fondements & Sol' },
+  { id: 'Techniques & Pratiques', label: '🌱 Techniques & Pratiques' },
+  { id: 'Protection & Conception', label: '🛡️ Protection & Conception' }
+];
+---
+
+<Layout title="Catalogue Maraîchage Bio-Intensif en Sol Vivant" description="Découvrez les 12 modules de formation pratique pour maîtriser le maraîchage bio-intensif en sol vivant.">
+  <section class="catalog-hero">
+    <div class="container">
+      <div class="hero-top">
+        <a href="/" class="back-link">← Retour au campus</a>
+        <div class="hero-badges">
+          <span class="badge badge-accent">
+            <span class="badge-dot"></span>
+            12 Modules Pratiques
+          </span>
+          <span class="badge badge-bio">
+            <span class="badge-dot"></span>
+            Sol Vivant & Bio-Intensif
+          </span>
+        </div>
+      </div>
+      <h1 class="page-title scroll-reveal">Maraîchage Bio-Intensif en Sol Vivant</h1>
+      <p class="page-subtitle scroll-reveal delay-1">
+        Modules illustrés étape par étape pour intensifier les rendements maraîchers tout en régénérant la fertilité et la microbiologie du sol en climat tropical et sahélien.
+      </p>
+
+      <!-- Barre de recherche et filtres -->
+      <div class="search-bar-wrapper scroll-reveal delay-2">
+        <div class="search-input-box">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="search" 
+            id="course-search" 
+            placeholder="Rechercher un module, un geste technique (ex: planches, irrigation, compost, pépinière)..." 
+            aria-label="Rechercher une formation"
+          />
+        </div>
+
+        <div class="filter-pills" role="tablist">
+          {categories.map((cat, idx) => (
+            <button 
+              type="button" 
+              class:list={['filter-pill', { active: idx === 0 }]} 
+              data-cat={cat.id}
+            >
+              {cat.label}
+            </button>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalog-grid-section">
+    <div class="container">
+      <div class="courses-grid" id="courses-grid">
+        {catalog.map((course) => (
+          <article 
+            class="course-card card card-interactive scroll-reveal" 
+            data-category={course.category} 
+            data-search={`${course.title.toLowerCase()} ${course.summary?.toLowerCase() || ''} ${course.id.toLowerCase()}`}
+          >
+            <a href={`/maraichage/${course.id}`} class="card-link">
+              <div class="card-media">
+                <span class="card-badge badge badge-brand">{course.category}</span>
+                <img 
+                  src={`/${course.cover_image}`} 
+                  alt={course.title} 
+                  loading="lazy" 
+                  onerror="this.onerror=null; this.src='/assets/images/photos/track-maraichage.jpg';"
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-top-meta">
+                  <span class="card-code">{course.id.split('_')[0].toUpperCase()}</span>
+                  <span class="card-pages">📄 {course.total_pages} étapes</span>
+                </div>
+                <h2 class="card-title">{course.title}</h2>
+                <p class="card-summary">{course.summary || 'Formation pratique sur le maraîchage bio-intensif.'}</p>
+                <div class="card-meta">
+                  <span class="card-tag">Maraîchage</span>
+                  <span class="card-cta">Consulter le cours →</span>
+                </div>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+
+      <div id="no-results" class="no-results" style="display: none;">
+        <p>Aucune formation ne correspond à votre recherche.</p>
+        <button id="reset-filter-btn" class="btn btn-secondary" style="margin-top: 1rem;">Réinitialiser les filtres</button>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  function setupSearchAndFilters() {
+    const searchInput = document.getElementById('course-search') as HTMLInputElement | null;
+    const filterPills = document.querySelectorAll<HTMLButtonElement>('.filter-pill');
+    const cards = document.querySelectorAll<HTMLElement>('.course-card');
+    const noResults = document.getElementById('no-results');
+    const resetBtn = document.getElementById('reset-filter-btn');
+
+    let currentCategory = 'all';
+
+    function applyFilters() {
+      const query = (searchInput?.value || '').trim().toLowerCase();
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        const cat = card.getAttribute('data-category') || '';
+        const searchTarget = card.getAttribute('data-search') || '';
+
+        const matchCat = currentCategory === 'all' || cat === currentCategory;
+        const matchQuery = !query || searchTarget.includes(query);
+
+        if (matchCat && matchQuery) {
+          card.style.display = 'flex';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      if (noResults) {
+        noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+      }
+    }
+
+    searchInput?.addEventListener('input', applyFilters);
+
+    filterPills.forEach((pill) => {
+      pill.addEventListener('click', () => {
+        filterPills.forEach((p) => p.classList.remove('active'));
+        pill.classList.add('active');
+        currentCategory = pill.getAttribute('data-cat') || 'all';
+        applyFilters();
+      });
+    });
+
+    resetBtn?.addEventListener('click', () => {
+      if (searchInput) searchInput.value = '';
+      filterPills.forEach((p, idx) => {
+        if (idx === 0) p.classList.add('active');
+        else p.classList.remove('active');
+      });
+      currentCategory = 'all';
+      applyFilters();
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupSearchAndFilters);
+  } else {
+    setupSearchAndFilters();
+  }
+</script>
+
+<style>
+  .catalog-hero {
+    background: linear-gradient(180deg, #F0FDF4 0%, #DCFCE7 100%);
+    border-bottom: 1px solid var(--color-border);
+    padding: 3.5rem 0 2.5rem;
+  }
+
+  .hero-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .hero-badges {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .back-link {
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--color-brand-primary);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+  }
+
+  .back-link:hover {
+    color: var(--color-brand-secondary);
+    transform: translateX(-2px);
+  }
+
+  .page-title {
+    font-family: var(--font-serif);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    margin-bottom: 0.65rem;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+
+  .page-subtitle {
+    font-family: var(--font-sans);
+    color: var(--color-ink-soft);
+    font-size: 1.08rem;
+    max-width: 780px;
+    line-height: 1.6;
+    margin-bottom: 2.25rem;
+  }
+
+  .search-bar-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .search-input-box {
+    position: relative;
+    max-width: 640px;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 1.1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-ink-faint);
+    pointer-events: none;
+  }
+
+  .search-input-box input {
+    width: 100%;
+    min-height: 48px;
+    padding: 0.85rem 1.2rem 0.85rem 3rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    color: var(--color-ink);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+    transition: all 0.2s ease;
+  }
+
+  .search-input-box input:focus {
+    outline: none;
+    border-color: var(--color-brand-secondary);
+    box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.15);
+  }
+
+  .filter-pills {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .filter-pill {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    padding: 0.45rem 1.1rem;
+    border-radius: 9999px;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--color-ink-soft);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .filter-pill:hover {
+    border-color: var(--color-brand-secondary);
+    color: var(--color-brand-primary);
+  }
+
+  .filter-pill.active {
+    background-color: var(--color-brand-primary);
+    color: #FFFFFF;
+    border-color: var(--color-brand-primary);
+  }
+
+  .catalog-grid-section {
+    padding: 3rem 0 5rem;
+  }
+
+  .courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.75rem;
+  }
+
+  .course-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    background-color: var(--color-surface);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .course-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+  }
+
+  .card-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card-media {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+    background-color: var(--color-surface-sunken);
+  }
+
+  .card-media img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .course-card:hover .card-media img {
+    transform: scale(1.04);
+  }
+
+  .card-badge {
+    position: absolute;
+    top: 0.85rem;
+    left: 0.85rem;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  }
+
+  .card-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .card-top-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--color-brand-secondary);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .card-pages {
+    color: var(--color-ink-muted);
+  }
+
+  .card-title {
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-summary {
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: var(--color-ink-soft);
+    margin-bottom: 1.25rem;
+    flex-grow: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--color-border);
+    padding-top: 0.85rem;
+    font-size: 0.82rem;
+  }
+
+  .card-tag {
+    color: var(--color-ink-muted);
+    font-weight: 500;
+  }
+
+  .card-cta {
+    font-weight: 600;
+    color: var(--color-brand-primary);
+  }
+
+  .course-card:hover .card-cta {
+    color: var(--color-brand-secondary);
+  }
+
+  .no-results {
+    text-align: center;
+    padding: 4rem 1rem;
+    color: var(--color-ink-soft);
+    font-family: var(--font-sans);
+  }
+
+  @media (max-width: 640px) {
+    .catalog-hero {
+      padding: 2.5rem 0 2rem;
+    }
+    .courses-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
