@@ -210,6 +210,21 @@ def generate_pdf_for_course(chrome_bin, course):
     legacy_file = course["legacy_output"]
     out_file.parent.mkdir(parents=True, exist_ok=True)
     
+    # Nettoyage automatique des anciens fichiers si le titre du cours a été modifié :
+    # On identifie les fichiers existants qui partagent le même Cursus, le même Code/Numéro et la même Langue.
+    cursus_prefix = "Maraichage" if course["cursus"] == "maraichage" else "Semences"
+    clean_code = re.sub(r"[^a-zA-Z0-9.-]", "", course["code"])
+    lang_label = LANG_SUFFIXES.get(course["lang"], course["lang"].upper())
+    old_pattern = f"{cursus_prefix}-{clean_code}-*-{lang_label}.pdf"
+    
+    for old_pdf in out_file.parent.glob(old_pattern):
+        if old_pdf.name != out_file.name and old_pdf.is_file():
+            try:
+                old_pdf.unlink()
+                print(f"\n   ♻️ Ancien fichier remplacé : {old_pdf.name}")
+            except Exception:
+                pass
+
     cmd = [
         chrome_bin,
         "--headless=new",
