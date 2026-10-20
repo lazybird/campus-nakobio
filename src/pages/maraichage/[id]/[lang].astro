@@ -276,7 +276,22 @@ if (totalSteps > 1) {
   <div class:list={['container', 'lesson-container', { 'is-rtl': isRtl }]} dir={isRtl ? 'rtl' : 'ltr'} lang={currentLang}>
     <!-- Hero d'introduction du module -->
     <header class="lesson-hero">
+      <!-- Cartouche d'en-tête officiel pour l'impression A4 et export PDF -->
+      <div class="print-official-banner only-print" aria-hidden="true">
+        <div class="print-banner-brand">
+          <span class="print-brand-name">CAMPUS NAKÔBIO</span>
+          <span class="print-brand-sub">Plateforme Pédagogique Agroécologique &bull; Sahel &amp; Terroirs Tropicaux</span>
+        </div>
+        <div class="print-banner-meta">
+          <span class="print-code-pill">{course.course_code || courseId.split('_')[0].toUpperCase()}</span>
+          <span class="print-lang-pill">{langConfig.nativeName}</span>
+        </div>
+      </div>
+
       <div class="lesson-badge-row">
+        {course.course_code && (
+          <span class="badge badge-code" style="background:#e8f5e9;color:#2e7d32;font-weight:700;">{course.course_code}</span>
+        )}
         <span class="badge badge-primary">🌱 {course.category || 'Maraîchage Bio-Intensif'}</span>
         <span class="badge badge-neutral">📖 {course.total_pages || pagesList.length} parties</span>
         <span class="badge badge-neutral">☀️ Terroir tropical &amp; sahélien</span>
@@ -305,6 +320,51 @@ if (totalSteps > 1) {
                 <span class="toc-title">{p.title}</span>
               </a>
             ))}
+          </div>
+        </details>
+      )}
+
+      {/* Hub Vidéos dans un accordéon placé sous le sommaire */}
+      {allVideos.length > 0 && (
+        <details class="video-accordion-hub no-print" aria-label="Supports Vidéos de la formation">
+          <summary class="video-accordion-summary">
+            <div class="video-summary-left">
+              <span class="video-hub-badge-icon">🎥</span>
+              <span class="video-hub-summary-title">
+                {isRtl ? 'ߖߌ߬ߦߊ߬ߖߟߎ ߣߌ߫ ߓߊ߯ߙߊߢߐ߲߯ߦߊ ߟߎ߬' : currentLang === 'en' ? 'Videos & Practical Demonstrations' : 'Vidéos & Démonstrations pratiques'} ({allVideos.length})
+              </span>
+              <span class="video-hub-lang-tag">{langConfig.shortLabel || currentLang.toUpperCase()}</span>
+            </div>
+            <span class="video-hub-toggle-hint">{isRtl ? 'ߊ߬ ߦߌ߬ߘߊ߬ / ߊ߬ ߘߏ߲߰' : 'Afficher / Masquer'}</span>
+          </summary>
+
+          <div class="video-hub-content">
+            <p class="video-hub-intro-text">
+              {isRtl 
+                ? 'ߞߊ߬ߙߊ߲߬ߕߊ ߣߌ߲߬ ߟߊ߫ ߖߌ߬ߦߊ߬ߖߟߎ ߣߌ߫ ߘߐ߬ߛߊ߬ߡߊ߲߬ߠߌ߲ ߓߍ߯ ߟߊߞߊ߬ߝߏ߬ߣߍ߲ ߡߊߝߟߍ߫ :' 
+                : currentLang === 'en' 
+                  ? 'Find all video tutorials, field techniques, and related podcasts for this module:' 
+                  : 'Retrouvez l\'ensemble des tutoriels, gestes techniques au champ et podcasts associés à ce module :'}
+            </p>
+            <div class="video-hub-grid">
+              {allVideos.map((vid: any) => (
+                <div class="video-card-item">
+                  <LiteYouTube 
+                    videoId={vid.videoId} 
+                    title={vid.title || vid.page_title}
+                  />
+                  <div class="video-card-meta">
+                    <span class="video-card-tag">{vid.is_main ? '⭐ Vidéo du Module' : `Partie ${vid.page_number}`}</span>
+                    <h4 class="video-card-name">{vid.title || vid.page_title}</h4>
+                    {vid.page_number && (
+                      <a href={`#partie-${vid.page_number}`} class="video-link-step">
+                        {isRtl ? 'ߞߍߦߙߐ ߡߊߜߍ߲߫ ←' : "Accéder à l'étape écrite →"}
+                      </a>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </details>
       )}
@@ -376,19 +436,52 @@ if (totalSteps > 1) {
               <div class="slide-pedagogical-content" set:html={formattedHtml} />
             </div>
 
-            <!-- Séparateur vers l'étape suivante -->
-            {nextPage && (
-              <div class="pedagogical-step-divider no-print">
-                <div class="divider-line"></div>
-                <a href={`#partie-${nextPage.page_number}`} class="divider-milestone-link">
-                  <span class="milestone-next-label">
-                    Partie suivante : <strong>{nextPage.page_number}. {nextPage.title}</strong>
-                  </span>
-                  <span class="milestone-action-arrow" aria-hidden="true">➔</span>
-                </a>
-                <div class="divider-line"></div>
-              </div>
-            )}
+            {/* Zone Bas de Section : Accordéon vidéo de la section (si présente) ou séparateur élégant */}
+            {(() => {
+              const pageVideos = normalizeMediaList(page.media)
+                .filter((m: any) => m && (m.url || m.id))
+                .map((m: any) => ({
+                  ...m,
+                  videoId: m.id || (m.url?.includes('v=') ? m.url.split('v=')[1].split('&')[0] : m.url?.split('/').pop())
+                }))
+                .filter((m: any) => !m.lang || m.lang === langKey || m.lang === currentLang);
+
+              if (pageVideos.length > 0) {
+                return (
+                  <div class="section-media-container no-print">
+                    <details class="section-media-accordion">
+                      <summary class="section-media-summary">
+                        <div class="section-media-summary-content">
+                          <span class="media-icon-pulse">🎬</span>
+                          <span class="section-media-prompt">
+                            {isRtl ? 'ߖߌ߬ߦߊ߬ߖߟߎ ߓߊ߯ߙߊߢߐ߲߯ߦߊ : ' : currentLang === 'en' ? 'Video demonstration: ' : 'Démonstration vidéo de cette étape : '}
+                            <strong>{pageVideos[0].title || page.title}</strong>
+                          </span>
+                        </div>
+                        <span class="section-media-toggle-btn">
+                          {isRtl ? `ߖߌ߬ߦߊ߬ߖߟߎ ߡߊߝߟߍ߫ (${pageVideos.length})` : currentLang === 'en' ? `Watch video (${pageVideos.length})` : `Voir la vidéo (${pageVideos.length})`}
+                        </span>
+                      </summary>
+                      <div class="section-media-body">
+                        {pageVideos.map((vid: any) => (
+                          <div class="section-media-item">
+                            <LiteYouTube videoId={vid.videoId} title={vid.title || page.title} />
+                          </div>
+                        ))}
+                      </div>
+                    </details>
+                  </div>
+                );
+              }
+
+              return (
+                <div class="pedagogical-step-divider no-print">
+                  <div class="divider-line"></div>
+                  <span class="divider-dot" aria-hidden="true">•</span>
+                  <div class="divider-line"></div>
+                </div>
+              );
+            })()}
           </article>
         );
       })}
@@ -815,6 +908,230 @@ if (totalSteps > 1) {
     color: #ffffff;
     padding: 0.1rem 0.4rem;
     border-radius: var(--radius-full);
+  }
+
+  /* Hub Vidéos sous le sommaire (Accordéon) */
+  .video-accordion-hub {
+    margin-top: 1.25rem;
+    background: var(--color-surface-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    transition: border-color var(--transition-fast);
+  }
+
+  .video-accordion-hub[open] {
+    border-color: rgba(47, 74, 52, 0.3);
+  }
+
+  .video-accordion-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.95rem 1.25rem;
+    background: linear-gradient(to right, rgba(47, 74, 52, 0.05), transparent);
+    cursor: pointer;
+    user-select: none;
+    font-family: var(--font-sans);
+    transition: background var(--transition-fast);
+  }
+
+  .video-accordion-summary:hover {
+    background: linear-gradient(to right, rgba(47, 74, 52, 0.09), transparent);
+  }
+
+  .video-summary-left {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+  }
+
+  .video-hub-badge-icon {
+    font-size: 1.2rem;
+  }
+
+  .video-hub-summary-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+  }
+
+  .video-hub-lang-tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    background: rgba(47, 74, 52, 0.12);
+    padding: 0.15rem 0.45rem;
+    border-radius: var(--radius-full);
+    text-transform: uppercase;
+  }
+
+  .video-hub-toggle-hint {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--color-ink-soft);
+  }
+
+  .video-hub-content {
+    padding: 1.25rem;
+    border-top: 1px solid var(--color-border);
+    background: var(--color-surface);
+  }
+
+  .video-hub-intro-text {
+    font-size: 0.9rem;
+    color: var(--color-ink-soft);
+    margin-bottom: 1.25rem;
+  }
+
+  .video-hub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .video-card-item {
+    background: var(--color-surface-sunken);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .video-card-meta {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    flex: 1;
+  }
+
+  .video-card-tag {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-brand-primary);
+    background: rgba(46, 125, 50, 0.1);
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: var(--radius-sm);
+    align-self: flex-start;
+  }
+
+  .video-card-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--color-ink);
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .video-link-step {
+    margin-top: auto;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-brand-primary);
+    text-decoration: none;
+    padding-top: 0.5rem;
+  }
+
+  .video-link-step:hover {
+    text-decoration: underline;
+  }
+
+  /* Zone Vidéo de Section (remplace 'Partie suivante') */
+  .section-media-container {
+    background: var(--color-surface-sunken);
+    border-top: 1px solid var(--color-border);
+    padding: 0.75rem 1.25rem;
+  }
+
+  .section-media-accordion {
+    border: 1px solid rgba(47, 74, 52, 0.2);
+    border-radius: var(--radius-md);
+    background: var(--color-surface-card);
+    overflow: hidden;
+    transition: all var(--transition-fast);
+  }
+
+  .section-media-accordion[open] {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    border-color: var(--color-brand-primary);
+  }
+
+  .section-media-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 1.15rem;
+    cursor: pointer;
+    user-select: none;
+    background: linear-gradient(to right, rgba(46, 125, 50, 0.05), transparent);
+    transition: background var(--transition-fast);
+  }
+
+  .section-media-summary:hover {
+    background: linear-gradient(to right, rgba(46, 125, 50, 0.1), transparent);
+  }
+
+  .section-media-summary-content {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+  }
+
+  .media-icon-pulse {
+    font-size: 1.15rem;
+  }
+
+  .section-media-prompt {
+    font-size: 0.92rem;
+    color: var(--color-ink);
+  }
+
+  .section-media-prompt strong {
+    color: var(--color-brand-primary);
+  }
+
+  .section-media-toggle-btn {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    background: rgba(47, 74, 52, 0.08);
+    padding: 0.3rem 0.65rem;
+    border-radius: var(--radius-sm);
+    white-space: nowrap;
+    transition: background var(--transition-fast);
+  }
+
+  .section-media-accordion[open] .section-media-toggle-btn {
+    background: var(--color-brand-primary);
+    color: #ffffff;
+  }
+
+  .section-media-body {
+    padding: 1.25rem;
+    background: var(--color-surface-sunken);
+    border-top: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .section-media-item {
+    border-radius: var(--radius-md);
+    overflow: hidden;
+  }
+
+  .divider-dot {
+    color: var(--color-border);
+    font-size: 1.2rem;
+    line-height: 1;
+    padding: 0 0.5rem;
   }
 
   /* Support RTL & Typographie N'ko */

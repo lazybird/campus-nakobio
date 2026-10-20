@@ -252,7 +252,22 @@ if (totalSteps > 1) {
   <div class:list={['container', 'lesson-container', { 'is-rtl': isRtl }]} dir={isRtl ? 'rtl' : 'ltr'} lang={currentLang}>
     <!-- Hero d'introduction du module -->
     <header class="lesson-hero">
+      <!-- Cartouche d'en-tête officiel pour l'impression A4 et export PDF -->
+      <div class="print-official-banner only-print" aria-hidden="true">
+        <div class="print-banner-brand">
+          <span class="print-brand-name">CAMPUS NAKÔBIO</span>
+          <span class="print-brand-sub">Plateforme Pédagogique Agroécologique &bull; Sahel &amp; Terroirs Tropicaux</span>
+        </div>
+        <div class="print-banner-meta">
+          <span class="print-code-pill">{course.course_code || courseId.split('_')[0].toUpperCase()}</span>
+          <span class="print-lang-pill">{langConfig.nativeName}</span>
+        </div>
+      </div>
+
       <div class="lesson-badge-row">
+        {course.course_code && (
+          <span class="badge badge-code" style="background:#e8f5e9;color:#2e7d32;font-weight:700;">{course.course_code}</span>
+        )}
         <span class="badge badge-primary">🌱 {course.category || 'Semences Paysannes'}</span>
         <span class="badge badge-neutral">📖 {course.total_pages || pagesList.length} parties</span>
         <span class="badge badge-neutral">☀️ Terroir tropical &amp; sahélien</span>

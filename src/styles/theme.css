@@ -123,3 +123,14 @@ img {
   color: var(--color-ink-faint);
   border: 1px solid var(--color-border);
 }
+
+/* Utilitaires d'impression vs écran */
+.only-print {
+  display: none !important;
+}
+
+@media print {
+  .only-print {
+    display: block !important;
+  }
+}

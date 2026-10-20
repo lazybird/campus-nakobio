@@ -144,6 +144,71 @@
     padding: 0 !important;
   }
 
+  /* Cartouche d'en-tête officiel d'impression */
+  .print-official-banner {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding-bottom: 4mm !important;
+    margin-bottom: 4mm !important;
+    border-bottom: 1.5pt solid #2F4A34 !important;
+  }
+
+  .print-banner-brand {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.5mm !important;
+  }
+
+  .print-brand-name {
+    font-family: var(--font-serif, "Playfair Display", Georgia, serif) !important;
+    font-size: 14pt !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.08em !important;
+    color: #2F4A34 !important;
+    text-transform: uppercase !important;
+  }
+
+  .print-brand-sub {
+    font-family: var(--font-sans, "Quicksand", sans-serif) !important;
+    font-size: 8pt !important;
+    color: #6B684E !important;
+    font-weight: 600 !important;
+  }
+
+  .print-banner-meta {
+    display: flex !important;
+    align-items: center !important;
+    gap: 3mm !important;
+  }
+
+  .print-code-pill {
+    display: inline-block !important;
+    background: #2F4A34 !important;
+    color: #FFFFFF !important;
+    font-family: var(--font-sans, sans-serif) !important;
+    font-size: 10pt !important;
+    font-weight: 800 !important;
+    padding: 1.5mm 3.5mm !important;
+    border-radius: 3px !important;
+    letter-spacing: 0.04em !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-lang-pill {
+    display: inline-block !important;
+    background: #E8E4D5 !important;
+    color: #1B2318 !important;
+    font-family: var(--font-nko), var(--font-sans, sans-serif) !important;
+    font-size: 8.5pt !important;
+    font-weight: 700 !important;
+    padding: 1.5mm 3mm !important;
+    border-radius: 3px !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
   .lesson-hero {
     page-break-after: avoid;
     break-after: avoid;
@@ -303,6 +368,16 @@
   .is-rtl .lesson-hero {
     border-left: 1pt solid #D4CEB8 !important;
     border-right: 5pt solid #2F4A34 !important;
+  }
+
+  [dir="rtl"] .print-official-banner,
+  .is-rtl .print-official-banner {
+    flex-direction: row-reverse !important;
+  }
+
+  [dir="rtl"] .print-banner-brand,
+  .is-rtl .print-banner-brand {
+    text-align: right !important;
   }
 }
 

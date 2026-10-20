@@ -12,13 +12,23 @@ Ce document centralise les fonctionnalités planifiées et les spécifications t
 - Téléchargement direct ou impression dans la langue sélectionnée par l'utilisateur (consultation web et menu déroulant multilingue de téléchargement PDF immédiat en FR, EN, DE, Bamanankan Latin, ߒߞߏ).
 
 ### Implémentation réalisée :
-1. **Support complet du N'ko (ߒߞߏ) :**
+1. **Support complet du N'ko (ߒߞߏ) & Mise en page Premium A4 :**
    - Écriture de droite à gauche (**RTL**) nativement gérée dans les fiches et feuilles de style print (`[dir="rtl"]`, `.is-rtl`).
+   - Cartouche d'en-tête officiel Nakôbio dédié au print (`.print-official-banner`) avec logo/titre officiel, code module et langue.
    - Embarquement local de la police vectorielle *Noto Sans NKo* dans `public/assets/fonts/` avec `@font-face` assurant une indépendance réseau totale et des ligatures parfaites en impression/PDF.
 2. **Architecture de rendu & Ergonomie UI :**
    - Rendu d'impression `@media print` unifié dans `src/styles/design-system/print.css` (mise en page A4 sans coupure de carte, suppression automatique des barres de navigation et vidéos interactives, ajustement des contrastes et paddings).
-   - Menu déroulant intelligent dans la barre supérieure de chaque leçon (`/semences/[id]`, `/semences/[id]/[lang]`, `/maraichage/[id]`, `/maraichage/[id]/[lang]`) permettant l'impression instantanée et le téléchargement direct du PDF dans toutes les langues disponibles pour le cours.
-   - Script d'automatisation et de pré-génération statique headless (`.dev/scripts/generate_pdf.py` et `npm run generate:pdf`) utilisant Chrome/Chromium headless pour exporter l'ensemble des modules en PDF vectoriels haute fidélité.
+   - Menu déroulant intelligent dans la barre supérieure de chaque leçon (`/semences/[id]`, `/semences/[id]/[lang]`, `/maraichage/[id]`, `/maraichage/[id]/[lang]`) permettant à la fois le **téléchargement direct en 1 clic** avec noms explicites pour mobile/iPhone (ex: `Semences-S2.14-Produire-ses-semences-de-Carotte-FR.pdf`) et l'impression native locale/AirPrint.
+3. **Outil CLI local puissant & incrémental (`.dev/scripts/generate_pdf.py`) :**
+   - Conçu pour l'exécution locale sur machine de dev avant commit git.
+   - **Détection intelligente par hash MD5** : ne recalcule que les cours dont le contenu source JSON a changé ou dont le PDF manque.
+   - **Options de filtrage flexibles** :
+     * `python3 .dev/scripts/generate_pdf.py` (incrémental)
+     * `python3 .dev/scripts/generate_pdf.py -f` (force la régénération complète)
+     * `python3 .dev/scripts/generate_pdf.py -c b14,101,302` (ciblage par numéros de cours ou codes)
+     * `python3 .dev/scripts/generate_pdf.py -l bm-nko` (ciblage linguistique)
+     * `python3 .dev/scripts/generate_pdf.py --cursus maraichage` (ciblage par cursus)
+   - Maintien du cache dans `.dev/pdf_build_cache.json`.
 
 ---
 
@@ -26,29 +36,56 @@ Ce document centralise les fonctionnalités planifiées et les spécifications t
 
 ### Contexte & Objectif
 - Renforcer la transmission des savoirs agroécologiques auprès des apprenants et maraîchers sur le terrain (tradition orale forte, contextualisation visuelle des gestes techniques).
-- Associer des contenus multimédias (vidéos / audios hébergés notamment sur YouTube) aux leçons.
+- Associer des contenus multimédias (vidéos / podcasts hébergés sur la chaîne officielle YouTube [@nakobio](https://www.youtube.com/@nakobio)) aux cours et à leurs étapes.
+- Prise en compte rigoureuse de la langue active : les vidéos/audios présentés doivent correspondre à la langue de consultation sélectionnée (FR, EN, Bamanankan Latin & N'ko ߒߞߏ). *Note : le contenu Swahili de la chaîne n'est pas diffusé sur le campus.*
 
-### Spécifications fonctionnelles
-1. **Granularité d'intégration :**
-   - **Niveau cours :** Vidéo d'introduction globale du module.
-   - **Niveau étape / section :** Possibilité de lier un extrait ou une vidéo spécifique à une étape précise d'un parcours (ex: le geste de pollinisation ou l'extraction des graines).
-2. **Schéma de données (JSON) :**
-   - Prévoir dans le schéma des leçons des champs optionnels :
-     ```json
-     {
-       "media": {
-         "type": "youtube",
-         "url": "https://www.youtube.com/watch?v=...",
-         "timestamp_start": 45,
-         "title": "Démonstration du geste de sélection"
-       }
-     }
-     ```
-3. **UX & Performance :**
-   - Chargement différé (*lazy-loading* / façade lite-youtube) pour préserver la bande passante sur mobile et connexions limitées en zone rurale.
-   - Intégration ergonomique dans le visualiseur pas-à-pas (onglet ou volet média sans casser le flux de lecture).
+### 1. Granularité & Règle d'agrégation
+- **Niveau cours (global) :** Zone multimédia située sous le sommaire des chapitres. Elle regroupe :
+  1. Les vidéos générales / tutoriels liés au thème global du cours.
+  2. Par agrégation automatique, toutes les vidéos rattachées aux différentes sections/parties du cours.
+- **Niveau section / étape (local) :** Remplacement ergonomique de la zone "Partie suivante" (en bas de fiche) par un accordéon vidéo contextuel pour la section en cours.
+- **Filtrage linguistique dynamique :**
+  - Si l'utilisateur consulte le cours en **FR** ➔ vidéos/podcasts en français.
+  - Si l'utilisateur consulte le cours en **EN** ➔ vidéos/podcasts en anglais (ex: *Harvest Preservation...* `mtrg--oDvFQ`, tutoriel maïs `l-XX1z31YZI`).
+  - Si l'utilisateur consulte le cours en **Bambara (Latin ou N'ko ߒߞߏ)** ➔ vidéos et podcasts en bamanankan (ex: Épisodes 5 à 17 avec Seydou, formation Kalaban Koura `lfFnV5h3nS0`).
+  - Fallback intelligent : possibilité d'afficher en second plan les versions originales si une langue n'a pas encore de vidéo dédiée.
 
-=> Il serait logique que les vidéos "niveau cours" inclue par défaut toutes les vidéos du "niveau étape/section".
+### 2. Schéma de données (JSON de cours et pages)
+Champs optionnels supportant le multilinguisme :
+```json
+{
+  "media": [
+    {
+      "type": "youtube",
+      "id": "INE31nI_iTI",
+      "url": "https://www.youtube.com/watch?v=INE31nI_iTI",
+      "lang": "fr",
+      "category": "cours", // "cours" | "podcast" | "tutoriel"
+      "title": "Conserver et Gérer les Récoltes : Méthodes et Bonnes Pratiques",
+      "timestamp_start": 0
+    }
+  ]
+}
+```
+*Note : peut être placé à la racine du JSON (cours) et/ou dans les objets `pages[]` (sections).*
+
+### 3. Emplacements UX / UI retenus (Validés sur maquettes)
+1. **Zone A — Hub vidéo sous le sommaire (`lesson-video-hub`) :**
+   - Placée directement sous le bloc *« Sommaire des chapitres »*.
+   - Dépliée/repliée via un composant accordéon `<details class="video-accordion-hub">` pour ne pas alourdir la page verticalement.
+   - Affiche le compteur de vidéos disponibles dans la langue courante (ex: `🎥 Vidéos & Podcasts associés (3)`).
+   - Onglets ou badges de filtre optionnels : "Tous", "Pratique / Terrain", "Podcasts d'échange".
+
+2. **Zone B — En bas de chaque section (remplace le séparateur "Partie suivante") :**
+   - La zone du lien "Partie suivante" (non indispensable grâce au défilement continu et aux repères de navigation) est remplacée ou enrichie par un panneau accordéon compact.
+   - Accordéon fermé par défaut : *"🎥 Voir la démonstration pratique en vidéo (1)"*.
+   - Une fois ouvert : lecteur vidéo intégré sans distraction.
+
+### 4. Performance & Économie de bande passante (Connexions sahéliennes)
+- **Façade Lite-YouTube (Zero-JS initial) :**
+  - **Ne jamais charger l'iframe YouTube directement** au chargement de la page (économise ~1,2 Mo de JS et 15 requêtes Google par vidéo).
+  - Utiliser une vignette WebP/JPEG légère (`https://i.ytimg.com/vi/{ID}/hqdefault.jpg`) avec un bouton de lecture central stylisé.
+  - L'iframe YouTube n'est injectée dans le DOM **qu'au clic actif de l'apprenant** (`autoplay=1`).
 
 ---
 
