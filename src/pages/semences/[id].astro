@@ -280,6 +280,31 @@ if (totalSteps > 1) {
       <h2 class="hero-course-title">{course.title}</h2>
       {course.summary && <p class="hero-course-summary">{course.summary}</p>}
 
+      <!-- Visuel d'illustration de couverture en impression A4 -->
+      {(course.cover_image || (pagesList[0] && pagesList[0].image)) && (
+        <div class="print-cover-visual only-print" aria-hidden="true">
+          <img 
+            src={`/${(course.cover_image || pagesList[0].image).replace(/^\//, '')}`} 
+            alt={course.title}
+          />
+        </div>
+      )}
+
+      <!-- Table des matières imprimée officielle -->
+      {pagesList.length > 0 && (
+        <div class="print-table-of-contents only-print" aria-hidden="true">
+          <div class="print-toc-title">PROGRAMME DÉTAILLÉ DE LA FORMATION :</div>
+          <div class="print-toc-grid">
+            {pagesList.map((p: any) => (
+              <div class="print-toc-item">
+                <span class="print-toc-num">{p.page_number}</span>
+                <span class="print-toc-name">{p.title}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       <!-- Sommaire dépliable -->
       {pagesList.length > 0 && (
         <details class="lesson-quick-toc no-print">

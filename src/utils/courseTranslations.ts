@@ -39,25 +39,27 @@ export function slugify(text: string): string {
     .replace(/[-\s]+/g, '-');
 }
 
-const LANG_SUFFIXES: Record<string, string> = {
-  fr: 'FR',
-  en: 'EN',
-  de: 'DE',
-  'bm-latn': 'Bamanankan',
-  'bm-nko': 'Nko'
+export const LANG_FILE_CODES: Record<string, string> = {
+  fr: 'fr',
+  en: 'en',
+  de: 'de',
+  'bm-latn': 'bm',
+  'bm-nko': 'nko'
 };
 
 /**
- * Calcule le nom de fichier PDF clair et standardisé
- * Format : [Cursus]-[Code]-[Titre]-[Langue].pdf
- * Exemple : Semences-S2.14-Produire-ses-semences-de-Carotte-FR.pdf
+ * Calcule le nom de fichier PDF clair, indexé par code langue et code cours :
+ * Format : [code-lang]_[code-cours]_[nom-cours-dans-la-langue].pdf
+ * Exemples :
+ *   fr_S2.14_Produire-ses-semences-de-Carotte.pdf
+ *   nko_S2.14_ߞߊߙߐߕߌ-ߞߦߐ-ߟߊߓߐ-ߢߊ.pdf
+ *   bm_S2.14_Karɔti-kison-laseginnikow.pdf
  */
 export function buildPdfFileName(cursusName: string, courseCode: string, title: string, lang: string): string {
-  const cleanCursus = cursusName === 'maraichage' ? 'Maraichage' : 'Semences';
+  const langCode = LANG_FILE_CODES[lang] || lang;
   const cleanCode = courseCode.replace(/[^a-zA-Z0-9.-]/g, '');
-  const cleanTitle = slugify(title) || 'Cours';
-  const langLabel = LANG_SUFFIXES[lang] || lang.toUpperCase();
-  return `${cleanCursus}-${cleanCode}-${cleanTitle}-${langLabel}.pdf`;
+  const cleanTitle = slugify(title) || 'cours';
+  return `${langCode}_${cleanCode}_${cleanTitle}.pdf`;
 }
 
 /**

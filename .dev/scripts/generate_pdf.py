@@ -44,12 +44,12 @@ CACHE_FILE = BASE_DIR / ".dev" / "pdf_build_cache.json"
 PORT = 4399
 SERVER_URL = f"http://127.0.0.1:{PORT}"
 
-LANG_SUFFIXES = {
-    "fr": "FR",
-    "en": "EN",
-    "de": "DE",
-    "bm-latn": "Bamanankan",
-    "bm-nko": "Nko"
+LANG_FILE_CODES = {
+    "fr": "fr",
+    "en": "en",
+    "de": "de",
+    "bm-latn": "bm",
+    "bm-nko": "nko"
 }
 
 def slugify(text: str) -> str:
@@ -58,11 +58,10 @@ def slugify(text: str) -> str:
     return re.sub(r"[-\s]+", "-", text)
 
 def build_pdf_filename(cursus: str, course_code: str, title: str, lang: str) -> str:
-    clean_cursus = "Maraichage" if cursus == "maraichage" else "Semences"
+    lang_code = LANG_FILE_CODES.get(lang, lang)
     clean_code = re.sub(r"[^a-zA-Z0-9.-]", "", course_code)
-    clean_title = slugify(title) or "Cours"
-    lang_label = LANG_SUFFIXES.get(lang, lang.upper())
-    return f"{clean_cursus}-{clean_code}-{clean_title}-{lang_label}.pdf"
+    clean_title = slugify(title) or "cours"
+    return f"{lang_code}_{clean_code}_{clean_title}.pdf"
 
 def compute_source_hash(file_path: Path) -> str:
     try:
@@ -211,11 +210,10 @@ def generate_pdf_for_course(chrome_bin, course):
     out_file.parent.mkdir(parents=True, exist_ok=True)
     
     # Nettoyage automatique des anciens fichiers si le titre du cours a été modifié :
-    # On identifie les fichiers existants qui partagent le même Cursus, le même Code/Numéro et la même Langue.
-    cursus_prefix = "Maraichage" if course["cursus"] == "maraichage" else "Semences"
+    # On identifie les fichiers existants qui partagent le même Code de cours et la même Langue (ex: fr_S2.14_*.pdf)
+    lang_code = LANG_FILE_CODES.get(course["lang"], course["lang"])
     clean_code = re.sub(r"[^a-zA-Z0-9.-]", "", course["code"])
-    lang_label = LANG_SUFFIXES.get(course["lang"], course["lang"].upper())
-    old_pattern = f"{cursus_prefix}-{clean_code}-*-{lang_label}.pdf"
+    old_pattern = f"{lang_code}_{clean_code}_*.pdf"
     
     for old_pdf in out_file.parent.glob(old_pattern):
         if old_pdf.name != out_file.name and old_pdf.is_file():
