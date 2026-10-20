@@ -1,0 +1,102 @@
+{
+  "id": "305_produire_des_jeunes_plants",
+  "title": "Jungpflanzenanzucht in der Baumschule",
+  "category": "Techniken & Praktiken",
+  "summary": "Auswahl der Anzuchttechnik (Multitopfplatten, Saatschalen, Freilandbaumschule), Herstellung von nährstoffreicher Erde, Schattenmanagement und feine Bewässerung.",
+  "total_pages": 13,
+  "cover_image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_01.jpg",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "FREILAND",
+      "text": "ERDLOS, GEFOLGT VON VERPFLANZUNG\n\nFür die Produktion Ihrer Jungpflanzen werden üblicherweise drei Techniken angewendet:\n\n1) Die Pflanzen in einer Freilandbaumschule produzieren.\n2) Die Pflanzen in einer erdlose Baumschule produzieren.\n3) Die Pflanzen vor dem Umpflanzen in Töpfe pikieren.\n\nJede Methode hat ihre Vor- und Nachteile. Wir zeigen Ihnen, wie Sie je nach Ihren Bedürfnissen auswählen können!",
+      "illustration_description": "Illustration pédagogique pour PLEINE TERRE",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "1. DAS ANBAUBEET IM FREILAND",
+      "text": "1. DAS ANBAUBEET IM FREILAND\n",
+      "illustration_description": "Illustration pédagogique pour 1. LA PÉPINIÈRE DE DÉMARRAGE PLEINE TERRE",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Was ist eine Anzuchtgärtnerei im Freiland?",
+      "text": "Die Samen werden direkt in vorbereiteten Boden gesät. Die Jungpflanzen wachsen dort heran, bevor sie verpflanzt werden.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce qu’une pépinière de démarrage pleine terre?",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "👍",
+      "text": "Was sind die Vorteile der Freilandbaumschule?\n\n- Einfach und schnell einzurichten\n- Benötigt wenig Material ✅\n\n✅ 👎 Was sind die Nachteile?\n\n- Zerbrechliche Wurzeln beim Umpflanzen\n- Ein höheres Risiko für schnelle Austrocknung\n- Die Anfälligkeit für Bodenkrankheiten ❌\n\n❌ ❌",
+      "illustration_description": "Illustration pédagogique pour 👍",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "2. DIE ERDLOS ANBAU ANZUCHT",
+      "text": "2. DIE ERDLOS ANBAU ANZUCHT",
+      "illustration_description": "Illustration pédagogique pour 2. LA PÉPINIÈRE DE DÉMARRAGE HORS SOL",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Was ist eine Anzuchtgärtnerei ohne Bodenkontakt?",
+      "text": "Die Samen werden in Behälter gesät, bevor die Pflanzen umgepflanzt werden: **Kästen**, **Kanister**, **Schalen**. Diese Behälter werden mit **Pflanzerde** gefüllt.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce qu’une pépinière de démarrage hors sol?",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Sie benötigen folgende Materialien:",
+      "text": "Eine hochwertige Blumenerde\nEin Schutznetz gegen Insekten\nSand oder Kieselsteine zur Drainage 🪴 🛑 💧",
+      "illustration_description": "Illustration pédagogique pour Vous aurez besoin du matériel suivant :",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "👍",
+      "text": "👎 ++ + 👍 **Welche Vorteile hat die Anzucht in Töpfen (Containerbaumschule)?**\n\n* Bessere Kontrolle der Wurzeln\n* Die Baumschule ist leicht transportierbar ✅ ✅\n\n**Welche Nachteile gibt es?**\n\n* Häufigeres Gießen\n* Benötigt zusätzliche Ausrüstung ❌ ❌",
+      "illustration_description": "Illustration pédagogique pour 👍",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "3. DIE PFLANZENSCHULE, GEFOLGT VON EINER UMPFLANZUNG",
+      "text": "3. DIE PFLANZENSCHULE, GEFOLGT VON EINER UMPFLANZUNG",
+      "illustration_description": "Illustration pédagogique pour 3. LA PÉPINIÈRE SUIVI D’UN REPIQUAGE",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Umpflanzen",
+      "text": "Was ist Umpflanzen?\n\nDie Jungpflanzen werden zuerst im Freiland oder erdelos aufgezogen und dann in Töpfe **umpflanzt**, bevor sie endgültig verpflanzt werden.\n\nDiese Technik wird üblicherweise für Baumschulen und Gemüsepflanzen verwendet.",
+      "illustration_description": "Illustration pédagogique pour OU",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Sie benötigen folgende Materialien:",
+      "text": "Töpfe oder Plastiktüten\nNährstoffreiche Erde 🪴 🌱",
+      "illustration_description": "Illustration pédagogique pour Vous aurez besoin du matériel suivant :",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "👍",
+      "text": "💪 👎 STRESS Was sind die Vorteile des Verpflanzens?\n\n- Stärkere Wurzeln\n- Besseres Anwachsen nach der Transplantation\n- Kürzere Zeit auf dem Feld\n- Geringerer Wasserbedarf ✅ ✅ ✅ ✅ Was sind die Nachteile?\n\n- Zusätzlicher Arbeitsaufwand\n- Stressrisiko bei schlechtem Verpflanzen ❌ ❌",
+      "illustration_description": "Illustration pédagogique pour 👍",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "FREILAND",
+      "text": "ERDLOS Wählen Sie Ihre Technik entsprechend Ihren Ressourcen und Zielen.\n\nNACHFOLGENDES VERPFLANZEN",
+      "illustration_description": "Illustration pédagogique pour PLEINE TERRE",
+      "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_13.jpg"
+    }
+  ],
+  "course_code": "M3.5"
+}
