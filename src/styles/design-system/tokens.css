@@ -5,6 +5,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+/* Définition locale de la police N'ko pour garantie d'embarquement print & PDF */
+@font-face {
+  font-family: 'Noto Sans NKo';
+  src: url('/assets/fonts/NotoSansNKo-Regular.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* ------------------------------------------------------------------------
      1. Fonderie typographique (Playfair Display × Quicksand)

@@ -6,4 +6,6 @@ dist/
 npm-debug.log*
 .dev/*
 !.dev/TODO.md
+!.dev/scripts/
+public/pdf/
 

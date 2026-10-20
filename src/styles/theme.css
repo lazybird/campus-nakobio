@@ -15,6 +15,7 @@
 @import './design-system/tables.css';
 @import './design-system/forms.css';
 @import './design-system/animations.css';
+@import './design-system/print.css';
 
 /* 3. Variables de compatibilité et alignement de marque Nakôbio */
 :root {

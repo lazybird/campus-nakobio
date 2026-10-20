@@ -186,9 +186,47 @@ if (totalSteps > 1) {
             </div>
           </div>
         )}
-        <button type="button" class="btn btn-primary" id="btn-print-lesson" title="Télécharger ou imprimer ce cours en PDF">
-          🖨️ PDF {langConfig.shortLabel ? `(${langConfig.shortLabel})` : ''}
-        </button>
+        <div class="custom-pdf-dropdown" id="custom-pdf-dropdown">
+          <button 
+            type="button" 
+            class="btn btn-primary custom-pdf-trigger" 
+            id="custom-pdf-trigger"
+            aria-haspopup="listbox" 
+            aria-expanded="false"
+            title="Télécharger ou imprimer ce cours en PDF"
+          >
+            🖨️ PDF {langConfig.shortLabel ? `(${langConfig.shortLabel})` : ''}
+            <svg class="custom-pdf-caret" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="custom-pdf-menu" id="custom-pdf-menu" role="listbox" tabindex="-1">
+            <button type="button" class="custom-pdf-item" id="btn-print-active" role="option">
+              <span class="pdf-item-title">🖨️ Imprimer la vue actuelle ({langConfig.nativeName})</span>
+              <span class="pdf-item-subtitle">Ouvre la boîte d'impression du navigateur</span>
+            </button>
+            <div class="pdf-menu-divider"></div>
+            <div class="pdf-menu-section-label">Fiches PDF prêtes à télécharger :</div>
+            {availableTranslations.map(tr => {
+              const pdfFileName = tr.lang === 'fr' ? `${courseId}.pdf` : `${courseId}.${tr.lang}.pdf`;
+              const pdfUrl = `/pdf/maraichage/${pdfFileName}`;
+              return (
+                <a 
+                  href={pdfUrl} 
+                  download={pdfFileName}
+                  class:list={['custom-pdf-item', { active: tr.lang === currentLang }]}
+                  role="option"
+                >
+                  <span class="pdf-item-title">
+                    📥 Télécharger en {tr.config.nativeName}
+                    {tr.lang === currentLang && <span class="badge-active-lang">Actuelle</span>}
+                  </span>
+                  <span class="pdf-item-subtitle">{tr.config.name} ({tr.config.shortLabel}) • A4 Print</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
       </div>
     </div>
     <div class="scroll-progress-container" aria-label="Progression de lecture">
@@ -470,6 +508,9 @@ if (totalSteps > 1) {
   if (langDropdown && langTrigger) {
     langTrigger.addEventListener('click', (e) => {
       e.stopPropagation();
+      pdfDropdown?.classList.remove('open');
+      pdfTrigger?.setAttribute('aria-expanded', 'false');
+
       const isOpen = langDropdown.classList.toggle('open');
       langTrigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
@@ -486,6 +527,43 @@ if (totalSteps > 1) {
         langDropdown.classList.remove('open');
         langTrigger.setAttribute('aria-expanded', 'false');
         langTrigger.focus();
+      }
+    });
+  }
+
+  // Gestion du menu déroulant PDF & Impression
+  const pdfDropdown = document.getElementById('custom-pdf-dropdown');
+  const pdfTrigger = document.getElementById('custom-pdf-trigger');
+  const btnPrintActive = document.getElementById('btn-print-active');
+
+  btnPrintActive?.addEventListener('click', () => {
+    pdfDropdown?.classList.remove('open');
+    pdfTrigger?.setAttribute('aria-expanded', 'false');
+    window.print();
+  });
+
+  if (pdfDropdown && pdfTrigger) {
+    pdfTrigger.addEventListener('click', (e) => {
+      e.stopPropagation();
+      langDropdown?.classList.remove('open');
+      langTrigger?.setAttribute('aria-expanded', 'false');
+
+      const isOpen = pdfDropdown.classList.toggle('open');
+      pdfTrigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!pdfDropdown.contains(e.target as Node)) {
+        pdfDropdown.classList.remove('open');
+        pdfTrigger.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && pdfDropdown.classList.contains('open')) {
+        pdfDropdown.classList.remove('open');
+        pdfTrigger.setAttribute('aria-expanded', 'false');
+        pdfTrigger.focus();
       }
     });
   }
@@ -626,6 +704,110 @@ if (totalSteps > 1) {
     color: var(--color-brand-primary);
     font-weight: bold;
     font-size: 0.85rem;
+  }
+
+  /* Dropdown PDF & Impression Multilingue */
+  .custom-pdf-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .custom-pdf-trigger {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    cursor: pointer;
+  }
+
+  .custom-pdf-caret {
+    transition: transform var(--transition-fast);
+  }
+
+  .custom-pdf-dropdown.open .custom-pdf-caret {
+    transform: rotate(180deg);
+  }
+
+  .custom-pdf-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    min-width: 250px;
+    background: #ffffff;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    box-shadow: 0 10px 25px rgba(27, 35, 24, 0.15);
+    padding: 0.5rem;
+    display: none;
+    flex-direction: column;
+    gap: 0.25rem;
+    z-index: 100;
+  }
+
+  .custom-pdf-dropdown.open .custom-pdf-menu {
+    display: flex;
+    animation: dropdownPop 0.18s ease-out;
+  }
+
+  .custom-pdf-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius-sm);
+    text-decoration: none;
+    text-align: left;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all var(--transition-fast);
+  }
+
+  .custom-pdf-item:hover {
+    background: var(--color-surface-sunken);
+  }
+
+  .custom-pdf-item.active {
+    background: rgba(47, 74, 52, 0.08);
+  }
+
+  .pdf-item-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .pdf-item-subtitle {
+    font-size: 0.75rem;
+    color: var(--color-ink-soft);
+  }
+
+  .pdf-menu-divider {
+    height: 1px;
+    background: var(--color-border);
+    margin: 0.25rem 0;
+  }
+
+  .pdf-menu-section-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--color-ink-faint);
+    padding: 0.25rem 0.75rem 0.15rem;
+  }
+
+  .badge-active-lang {
+    font-size: 0.68rem;
+    font-weight: 700;
+    background: var(--color-brand-primary);
+    color: #ffffff;
+    padding: 0.1rem 0.4rem;
+    border-radius: var(--radius-full);
   }
 
   /* Video Hub */
@@ -1302,31 +1484,6 @@ if (totalSteps > 1) {
     flex-wrap: wrap;
   }
 
-  /* Optimisation impression papier et PDF */
-  @media print {
-    .no-print {
-      display: none !important;
-    }
-    body {
-      background: white !important;
-      color: black !important;
-    }
-    .lesson-container {
-      max-width: 100% !important;
-      padding: 0 !important;
-    }
-    .slide-unit {
-      break-inside: avoid;
-      page-break-inside: avoid;
-      margin-bottom: 2.5rem;
-      border: 1px solid #ddd !important;
-      box-shadow: none !important;
-    }
-    .slide-visual-wrapper {
-      max-height: 380px;
-    }
-  }
-
   @media (max-width: 640px) {
     .lesson-topbar {
       top: 70px;
@@ -1390,6 +1547,16 @@ if (totalSteps > 1) {
       right: 0;
       top: calc(100% + 4px);
       min-width: 155px;
+    }
+    .custom-pdf-trigger {
+      padding: 0.3rem 0.55rem;
+      font-size: 0.75rem;
+      min-height: 34px;
+    }
+    .custom-pdf-menu {
+      right: 0;
+      top: calc(100% + 4px);
+      min-width: 220px;
     }
     .lesson-actions button {
       min-height: 34px;

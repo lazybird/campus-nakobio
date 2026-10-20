@@ -83,13 +83,24 @@
   }
 
   /* Masquer les éléments purement web/interactifs */
+  header,
   nav,
+  .header,
   .site-header,
   .site-footer,
+  .footer,
+  footer,
   .no-print,
   button,
   .video-player,
-  .interactive-control {
+  .interactive-control,
+  .lesson-topbar,
+  .lesson-quick-toc,
+  .lesson-video-hub,
+  .pedagogical-step-divider,
+  .lesson-footer-completion,
+  .custom-lang-dropdown,
+  .scroll-progress-container {
     display: none !important;
   }
 
@@ -118,11 +129,180 @@
 
   /* Numérotation d'étapes print */
   .step-number {
-    font-family: "Newsreader", serif !important;
+    font-family: var(--font-serif, serif) !important;
     font-size: 16pt !important;
     font-weight: bold !important;
     color: #2F4A34 !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
+
+  /* --- Support spécifique des cours et fiches (Semences & Maraîchage) --- */
+  .lesson-container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .lesson-hero {
+    page-break-after: avoid;
+    break-after: avoid;
+    margin-bottom: 6mm !important;
+    padding: 6mm 8mm !important;
+    background: #F7F4EA !important;
+    border: 1pt solid #D4CEB8 !important;
+    border-radius: 4px !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .lesson-badge-row {
+    margin-bottom: 3mm !important;
+    gap: 2mm !important;
+  }
+
+  .lesson-hero .hero-course-title {
+    font-size: 18pt !important;
+    margin-bottom: 2mm !important;
+    color: #2F4A34 !important;
+  }
+
+  .lesson-hero .hero-course-summary {
+    font-size: 10pt !important;
+    line-height: 1.4 !important;
+    color: #43492F !important;
+  }
+
+  .slide-unit {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    margin-bottom: 6mm !important;
+    border: 1pt solid #D4CEB8 !important;
+    border-radius: 4px !important;
+    overflow: hidden !important;
+    background: #FFFFFF !important;
+  }
+
+  .slide-step-header-bar {
+    padding: 3mm 5mm !important;
+    background: #F7F4EA !important;
+    border-bottom: 1pt solid #D4CEB8 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .step-badge-circle {
+    width: 24px !important;
+    height: 24px !important;
+    font-size: 10pt !important;
+    background: #2F4A34 !important;
+    color: #FFFFFF !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .step-meta-label {
+    font-size: 7pt !important;
+    letter-spacing: 0.05em !important;
+    color: #6B684E !important;
+  }
+
+  .step-meta-name {
+    font-size: 11pt !important;
+    font-weight: 700 !important;
+    color: #1B2318 !important;
+  }
+
+  .slide-visual-wrapper {
+    max-height: 260px !important;
+    text-align: center !important;
+    background: #FAF8F0 !important;
+    border-bottom: 1pt solid #E8E4D5 !important;
+    page-break-inside: avoid !important;
+  }
+
+  .slide-visual-wrapper img {
+    max-height: 250px !important;
+    width: auto !important;
+    object-fit: contain !important;
+    margin: 0 auto !important;
+  }
+
+  .slide-body-text {
+    padding: 4mm 6mm !important;
+  }
+
+  .slide-step-title {
+    font-size: 12pt !important;
+    margin-bottom: 2mm !important;
+    color: #2F4A34 !important;
+  }
+
+  .slide-pedagogical-content {
+    font-size: 9.5pt !important;
+    line-height: 1.45 !important;
+  }
+
+  .slide-pedagogical-content p {
+    margin-bottom: 2mm !important;
+  }
+
+  .slide-pedagogical-content ul,
+  .slide-pedagogical-content ol {
+    margin: 2mm 0 2mm 5mm !important;
+  }
+
+  .slide-pedagogical-content li {
+    margin-bottom: 1mm !important;
+  }
+
+  .slide-pedagogical-content .slide-alert {
+    padding: 2.5mm 4mm !important;
+    margin: 3mm 0 !important;
+    font-size: 8.5pt !important;
+    background: #FDF4E7 !important;
+    border-left: 3pt solid #C86832 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Support RTL et typographie N'ko en print */
+  [dir="rtl"],
+  .is-rtl {
+    direction: rtl !important;
+    text-align: right !important;
+    font-family: "Noto Sans NKo", var(--font-nko), sans-serif !important;
+  }
+
+  [dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3,
+  [dir="rtl"] .hero-course-title, [dir="rtl"] .slide-step-title,
+  [dir="rtl"] .step-meta-name, [dir="rtl"] .slide-pedagogical-content,
+  .is-rtl h1, .is-rtl h2, .is-rtl h3,
+  .is-rtl .hero-course-title, .is-rtl .slide-step-title,
+  .is-rtl .step-meta-name, .is-rtl .slide-pedagogical-content {
+    font-family: "Noto Sans NKo", var(--font-nko), sans-serif !important;
+    letter-spacing: normal !important;
+  }
+
+  [dir="rtl"] .slide-pedagogical-content ul,
+  [dir="rtl"] .slide-pedagogical-content ol,
+  .is-rtl .slide-pedagogical-content ul,
+  .is-rtl .slide-pedagogical-content ol {
+    margin: 2mm 5mm 2mm 0 !important;
+    padding-right: 4mm !important;
+    padding-left: 0 !important;
+  }
+
+  [dir="rtl"] .slide-pedagogical-content .slide-alert,
+  .is-rtl .slide-pedagogical-content .slide-alert {
+    border-left: none !important;
+    border-right: 3pt solid #C86832 !important;
+  }
+
+  [dir="rtl"] .lesson-hero,
+  .is-rtl .lesson-hero {
+    border-left: 1pt solid #D4CEB8 !important;
+    border-right: 5pt solid #2F4A34 !important;
+  }
 }
+

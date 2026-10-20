@@ -4,21 +4,21 @@ Ce document centralise les fonctionnalités planifiées et les spécifications t
 
 ---
 
-## 1. Génération dynamique des PDF multilingues (FR, EN, DE, Bambara Latin, Bambara N'ko)
+## 1. Génération dynamique des PDF multilingues (FR, EN, DE, Bambara Latin, Bambara N'ko) — ✅ RÉALISÉ
 
 ### Contexte & Objectif
 - Les supports de formation au format PDF doivent être générés **dynamiquement** à partir du contenu source de la leçon (fichiers JSON de données).
-- Lorsqu'une mise à jour est apportée au texte ou aux étapes d'un cours (en français ou en traduction), le PDF correspondant doit être automatiquement synchronisé et à jour sans intervention manuelle.
-- Permettre le téléchargement dans la langue sélectionnée par l'utilisateur (ex. consultation du site en français/anglais, mais téléchargement direct du PDF en ߒߞߏ ou Bamanankan).
+- Lorsqu'une mise à jour est apportée au texte ou aux étapes d'un cours (en français ou en traduction), le PDF correspondant est automatiquement synchronisé et à jour sans intervention manuelle.
+- Téléchargement direct ou impression dans la langue sélectionnée par l'utilisateur (consultation web et menu déroulant multilingue de téléchargement PDF immédiat en FR, EN, DE, Bamanankan Latin, ߒߞߏ).
 
-### Spécifications & Défis techniques
+### Implémentation réalisée :
 1. **Support complet du N'ko (ߒߞߏ) :**
-   - Écriture de droite à gauche (**RTL** - Right-To-Left).
-   - Embarquement de polices compatibles (ex: *Noto Sans NKo*, *Kigelia*).
-   - Gestion du rendu et ligatures N'ko lors de la conversion PDF (via Puppeteer/Playwright headless, Typst, Weasyprint ou template HTML d'impression).
-2. **Architecture de rendu :**
-   - Endpoint de rendu / page dédiée d'impression (ex: `/semences/[id]/print?lang=bm-nko`) stylisée avec les règles CSS `@media print`.
-   - Pipeline de génération statique au build ou à la demande selon les performances souhaitées.
+   - Écriture de droite à gauche (**RTL**) nativement gérée dans les fiches et feuilles de style print (`[dir="rtl"]`, `.is-rtl`).
+   - Embarquement local de la police vectorielle *Noto Sans NKo* dans `public/assets/fonts/` avec `@font-face` assurant une indépendance réseau totale et des ligatures parfaites en impression/PDF.
+2. **Architecture de rendu & Ergonomie UI :**
+   - Rendu d'impression `@media print` unifié dans `src/styles/design-system/print.css` (mise en page A4 sans coupure de carte, suppression automatique des barres de navigation et vidéos interactives, ajustement des contrastes et paddings).
+   - Menu déroulant intelligent dans la barre supérieure de chaque leçon (`/semences/[id]`, `/semences/[id]/[lang]`, `/maraichage/[id]`, `/maraichage/[id]/[lang]`) permettant l'impression instantanée et le téléchargement direct du PDF dans toutes les langues disponibles pour le cours.
+   - Script d'automatisation et de pré-génération statique headless (`.dev/scripts/generate_pdf.py` et `npm run generate:pdf`) utilisant Chrome/Chromium headless pour exporter l'ensemble des modules en PDF vectoriels haute fidélité.
 
 ---
 
