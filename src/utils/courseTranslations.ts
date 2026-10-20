@@ -55,6 +55,31 @@ export const PRINT_TOC_LABELS: Record<string, string> = {
   'bm-nko': 'ߞߣߐߘߐߝߋ߲'
 };
 
+export const BRAND_SLOGAN_LABELS: Record<string, string> = {
+  fr: 'Apprendre, Cultiver, Partager.',
+  en: 'Learn, Grow, Share.',
+  de: 'Lernen, Anbauen, Teilen.',
+  'bm-latn': 'Kalanden, Sɛnɛ, Tilalen.',
+  'bm-nko': 'ߞߊ߬ߙߊ߲ ߸ ߛߣߍ߬ߞߍ ߸ ߕߟߊߟߌ'
+};
+
+export const CURSUS_TITLE_LABELS: Record<string, Record<string, string>> = {
+  maraichage: {
+    fr: 'Formation : Maraîchage bio-intensif en sol vivant',
+    en: 'Training: Bio-intensive market gardening in living soil',
+    de: 'Ausbildung: Biologisch-intensiver Gemüseanbau auf lebendigem Boden',
+    'bm-latn': 'Kalan: Nàkɔ siko dugu balolen kan',
+    'bm-nko': 'ߞߊ߬ߙߊ߲ : ߣߊߞߐ ߓߌߟߊߢߐ߲߯ߡߊ ߘߎ߰ߞߟߏ ߓߊߟߏߣߍ߲ ߡߊ߬'
+  },
+  semences: {
+    fr: 'Formation : Production de semences paysannes',
+    en: 'Training: Farmer seed production',
+    de: 'Ausbildung: Bäuerliche Saatgutvermehrung',
+    'bm-latn': 'Kalan: Bamanandenw ka siko labɛn',
+    'bm-nko': 'ߞߊ߬ߙߊ߲ : ߓߘߍߞߍߘߋ߲ ߛߎߡߊ ߟߊߘߊ߲'
+  }
+};
+
 /**
  * Calcule le nom de fichier PDF clair, indexé par code langue et code cours :
  * Format : [code-lang]_[code-cours]_[nom-cours-dans-la-langue].pdf

@@ -4,7 +4,7 @@ import LiteYouTube from '../../../components/LiteYouTube.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from '../../../utils/languages';
-import { getAvailableTranslations, PRINT_TOC_LABELS } from '../../../utils/courseTranslations';
+import { getAvailableTranslations, PRINT_TOC_LABELS, BRAND_SLOGAN_LABELS, CURSUS_TITLE_LABELS } from '../../../utils/courseTranslations';
 
 export async function getStaticPaths() {
   const dataDir = path.resolve('./src/data');
@@ -267,9 +267,12 @@ if (totalSteps > 1) {
     <header class="lesson-hero">
       <!-- Cartouche d'en-tête officiel pour l'impression A4 et export PDF -->
       <div class="print-official-banner only-print" aria-hidden="true">
-        <div class="print-banner-brand">
+        <div class="print-banner-left">
           <img src="/assets/images/brand/Logo_color(rgb).svg" alt="Nakôbio" class="print-brand-logo" width="140" height="29" />
-          <span class="print-brand-badge">Campus</span>
+          <div class="print-banner-text">
+            <span class="print-banner-slogan">{BRAND_SLOGAN_LABELS[currentLang] || BRAND_SLOGAN_LABELS.fr}</span>
+            <span class="print-banner-cursus">{CURSUS_TITLE_LABELS.semences[currentLang] || CURSUS_TITLE_LABELS.semences.fr}</span>
+          </div>
         </div>
         <div class="print-banner-meta">
           <span class="print-code-pill">{course.course_code || courseId.split('_')[0].toUpperCase()}</span>
@@ -317,6 +320,12 @@ if (totalSteps > 1) {
           </div>
         </div>
       )}
+
+      <!-- Pied de page officiel de la couverture A4 -->
+      <div class="print-cover-footer only-print" aria-hidden="true">
+        <span class="print-cover-footer-note">Campus nakôbio</span>
+        <span class="print-brand-url">www.nako.bio</span>
+      </div>
 
       <!-- Sommaire dépliable -->
       {pagesList.length > 0 && (

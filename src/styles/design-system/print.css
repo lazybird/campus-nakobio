@@ -5,7 +5,7 @@
 
 @page {
   size: A4 portrait;
-  margin: 12mm 12mm 15mm 12mm;
+  margin: 14mm 14mm 16mm 14mm;
   @bottom-right {
     content: counter(page) " / " counter(pages);
     font-family: var(--font-sans, "Quicksand", sans-serif);
@@ -146,47 +146,70 @@
   }
 
   /* Cartouche d'en-tête officiel d'impression */
-  .print-official-banner {
+  div.print-official-banner {
     display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
     align-items: center !important;
     justify-content: space-between !important;
-    padding-bottom: 3.5mm !important;
-    margin-bottom: 5mm !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding-top: 2mm !important;
+    padding-bottom: 5mm !important;
+    margin-bottom: 7mm !important;
     border-bottom: 1.5pt solid #2F4A34 !important;
   }
 
-  .print-banner-brand {
+  .print-banner-left {
     display: flex !important;
     align-items: center !important;
-    gap: 3mm !important;
+    gap: 4mm !important;
   }
 
   .print-brand-logo {
-    height: 9mm !important;
+    height: 11mm !important;
     width: auto !important;
     display: block !important;
   }
 
-  .print-brand-badge {
-    display: inline-block !important;
-    font-family: var(--font-sans, "Quicksand", sans-serif) !important;
-    font-size: 7.5pt !important;
+  .print-banner-text {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    gap: 0.8mm !important;
+  }
+
+  .print-banner-slogan {
+    font-family: var(--font-serif, "Playfair Display", Georgia, serif) !important;
+    font-size: 8.5pt !important;
     font-weight: 700 !important;
-    color: #43492F !important;
-    background: #E8E4D5 !important;
-    border: 0.5pt solid #D4CEB8 !important;
-    padding: 0.8mm 2.2mm !important;
-    border-radius: 3px !important;
-    letter-spacing: 0.05em !important;
-    text-transform: uppercase !important;
+    font-style: italic !important;
+    color: #2F4A34 !important;
+    letter-spacing: 0.02em !important;
+    line-height: 1.2 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-banner-cursus {
+    font-family: var(--font-sans, "Quicksand", sans-serif) !important;
+    font-size: 8pt !important;
+    font-weight: 600 !important;
+    color: #6B684E !important;
+    letter-spacing: 0.01em !important;
+    line-height: 1.2 !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
 
   .print-banner-meta {
     display: flex !important;
-    align-items: center !important;
-    gap: 2mm !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+    gap: 1.2mm !important;
+    margin-left: auto !important;
+    flex-shrink: 0 !important;
   }
 
   .print-code-pill {
@@ -196,8 +219,19 @@
     font-family: var(--font-sans, sans-serif) !important;
     font-size: 9.5pt !important;
     font-weight: 800 !important;
-    padding: 1.2mm 3.2mm !important;
+    padding: 1.2mm 3.5mm !important;
     border-radius: 3px !important;
+    letter-spacing: 0.04em !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-brand-url {
+    display: inline-block !important;
+    font-family: var(--font-sans, "Quicksand", sans-serif) !important;
+    font-size: 7.5pt !important;
+    font-weight: 700 !important;
+    color: #6B684E !important;
     letter-spacing: 0.04em !important;
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
@@ -209,12 +243,12 @@
     page-break-inside: avoid !important;
     break-inside: avoid !important;
     box-sizing: border-box !important;
-    min-height: 260mm !important;
+    min-height: 250mm !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: space-between !important;
     margin: 0 !important;
-    padding: 10mm 12mm 12mm 12mm !important;
+    padding: 8mm 10mm 8mm 10mm !important;
     background: #F7F4EA !important;
     border: 1.5pt solid #D4CEB8 !important;
     border-radius: 6px !important;
@@ -223,43 +257,48 @@
   }
 
   .lesson-hero .hero-course-title {
-    font-size: 21pt !important;
+    font-size: 20pt !important;
     line-height: 1.25 !important;
-    margin-bottom: 3.5mm !important;
+    margin-bottom: 2.5mm !important;
     color: #2F4A34 !important;
   }
 
   .lesson-hero .hero-course-summary {
-    font-size: 10.5pt !important;
-    line-height: 1.45 !important;
+    font-size: 10pt !important;
+    line-height: 1.4 !important;
     color: #43492F !important;
-    margin-bottom: 4mm !important;
+    margin-bottom: 3.5mm !important;
   }
 
   .print-cover-visual {
-    height: 52mm !important;
-    max-height: 52mm !important;
+    height: 48mm !important;
+    max-height: 48mm !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    margin: 2mm 0 4mm 0 !important;
+    margin: 2mm auto 3.5mm auto !important;
+    width: 100% !important;
     background: #FAF8F0 !important;
     border: 1pt solid #D4CEB8 !important;
     border-radius: 4px !important;
     overflow: hidden !important;
-    padding: 2mm !important;
+    padding: 1.5mm !important;
+    box-sizing: border-box !important;
   }
 
   .print-cover-visual img {
-    max-height: 48mm !important;
+    max-height: 44mm !important;
     width: auto !important;
+    max-width: 100% !important;
     object-fit: contain !important;
     margin: 0 auto !important;
+    display: block !important;
   }
 
   .print-table-of-contents {
-    margin-top: 3mm !important;
-    padding: 3.5mm 5mm !important;
+    display: block !important;
+    margin-top: 2.5mm !important;
+    padding: 3mm 4.5mm !important;
     background: #FFFFFF !important;
     border: 1pt solid #D4CEB8 !important;
     border-radius: 4px !important;
@@ -271,7 +310,7 @@
     font-weight: 800 !important;
     letter-spacing: 0.05em !important;
     color: #2F4A34 !important;
-    margin-bottom: 2mm !important;
+    margin-bottom: 1.5mm !important;
     border-bottom: 1pt solid #E8E4D5 !important;
     padding-bottom: 1mm !important;
   }
@@ -279,14 +318,14 @@
   .print-toc-grid {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
-    gap: 1.5mm 4mm !important;
+    gap: 1.2mm 4mm !important;
   }
 
   .print-toc-item {
     display: flex !important;
     align-items: baseline !important;
     gap: 1.5mm !important;
-    font-size: 8pt !important;
+    font-size: 7.5pt !important;
     color: #1B2318 !important;
     line-height: 1.25 !important;
   }
@@ -295,7 +334,7 @@
     display: inline-block !important;
     font-weight: 800 !important;
     color: #2F4A34 !important;
-    min-width: 16px !important;
+    min-width: 15px !important;
   }
 
   .print-toc-name {
@@ -305,13 +344,44 @@
     white-space: nowrap !important;
   }
 
+  div.print-cover-footer {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding-top: 2.5mm !important;
+    margin-top: 3mm !important;
+    border-top: 0.5pt solid #D4CEB8 !important;
+  }
+
+  .print-cover-footer-note {
+    font-family: var(--font-serif, "Playfair Display", serif) !important;
+    font-size: 7.5pt !important;
+    font-style: italic !important;
+    color: #6B684E !important;
+    display: inline-block !important;
+  }
+
+  .print-cover-footer .print-brand-url {
+    font-family: var(--font-sans, "Quicksand", sans-serif) !important;
+    font-size: 8pt !important;
+    font-weight: 700 !important;
+    color: #2F4A34 !important;
+    letter-spacing: 0.03em !important;
+    margin-left: auto !important;
+    display: inline-block !important;
+    text-align: right !important;
+  }
+
   .slide-unit {
     page-break-inside: avoid !important;
     break-inside: avoid !important;
     page-break-before: always !important;
     break-before: page !important;
     margin-bottom: 0 !important;
-    min-height: 255mm !important;
+    min-height: 250mm !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: flex-start !important;
@@ -465,14 +535,27 @@
     border-right: 5pt solid #2F4A34 !important;
   }
 
-  [dir="rtl"] .print-official-banner,
-  .is-rtl .print-official-banner {
+  [dir="rtl"] div.print-official-banner,
+  .is-rtl div.print-official-banner {
     flex-direction: row-reverse !important;
   }
 
-  [dir="rtl"] .print-banner-brand,
-  .is-rtl .print-banner-brand {
+  [dir="rtl"] .print-banner-left,
+  .is-rtl .print-banner-left {
+    flex-direction: row-reverse !important;
+  }
+
+  [dir="rtl"] .print-banner-text,
+  .is-rtl .print-banner-text {
     text-align: right !important;
+    align-items: flex-end !important;
+  }
+
+  [dir="rtl"] .print-banner-meta,
+  .is-rtl .print-banner-meta {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    align-items: flex-start !important;
   }
 }
 
