@@ -73,9 +73,10 @@ Ce document centralise les fonctionnalités planifiées et les spécifications t
    - Associer les 18 illustrations déjà finalisées aux 18 étapes du module fondamental `a1_cest_quoi_une_graine`.
    - Renommer et déplacer dans `public/assets/images/a1_cest_quoi_une_graine/page_01.jpg` à `page_18.jpg` (en complétant les images 4, 5, 7 à 17 actuellement absentes).
 2. **Poursuite de la génération d'images via OpenRouter :**
-   - ✅ **Fondamentaux Semences (`a1` à `a7`) : 100% illustrés en production** (116 illustrations uniques au style aquarelle botanique sahélienne, sans texte).
-   - Reste : Traiter les fiches espèces potagères (`b1` à `b27`) et les modules Maraîchage complémentaires.
-   - Lier automatiquement les nouvelles images générées aux fichiers JSON correspondants et optimiser leur poids (WebP/compression).
+   - ✅ **Fondamentaux Semences (`a1` à `a7`) : 100% illustrés en production** (116 illustrations uniques).
+   - ✅ **Fiches Légumes Semences (`b1` à `b27`) : 100% illustrées en production** (345 illustrations uniques au style aquarelle botanique sans texte réparties sur les 27 fiches potagères).
+   - **Total Cursus Semences Paysannes : 461 illustrations originales en ligne.**
+   - Reste : Traiter les modules Maraîchage complémentaires.
 
 ---
 
