@@ -204,25 +204,25 @@ if (totalSteps > 1) {
           <div class="custom-pdf-menu" id="custom-pdf-menu" role="listbox" tabindex="-1">
             <button type="button" class="custom-pdf-item" id="btn-print-active" role="option">
               <span class="pdf-item-title">🖨️ Imprimer la vue actuelle ({langConfig.nativeName})</span>
-              <span class="pdf-item-subtitle">Ouvre la boîte d'impression du navigateur</span>
+              <span class="pdf-item-subtitle">Ouvre la boîte d'impression du navigateur (A4 / Enregistrer en PDF)</span>
             </button>
             <div class="pdf-menu-divider"></div>
-            <div class="pdf-menu-section-label">Fiches PDF prêtes à télécharger :</div>
+            <div class="pdf-menu-section-label">Imprimer / Exporter en PDF dans une autre langue :</div>
             {availableTranslations.map(tr => {
-              const pdfFileName = tr.lang === 'fr' ? `${courseId}.pdf` : `${courseId}.${tr.lang}.pdf`;
-              const pdfUrl = `/pdf/semences/${pdfFileName}`;
+              const isCurrent = tr.lang === currentLang;
+              const printUrl = `${tr.url}${tr.url.includes('?') ? '&' : '?'}print=1`;
               return (
                 <a 
-                  href={pdfUrl} 
-                  download={pdfFileName}
-                  class:list={['custom-pdf-item', { active: tr.lang === currentLang }]}
+                  href={isCurrent ? '#print' : printUrl} 
+                  class:list={['custom-pdf-item', { active: isCurrent }]}
                   role="option"
+                  data-print-lang={tr.lang}
                 >
                   <span class="pdf-item-title">
-                    📥 Télécharger en {tr.config.nativeName}
-                    {tr.lang === currentLang && <span class="badge-active-lang">Actuelle</span>}
+                    📄 {tr.config.nativeName}
+                    {isCurrent && <span class="badge-active-lang">Actuelle</span>}
                   </span>
-                  <span class="pdf-item-subtitle">{tr.config.name} ({tr.config.shortLabel}) • A4 Print</span>
+                  <span class="pdf-item-subtitle">{tr.config.name} ({tr.config.shortLabel}) • Export PDF / Print</span>
                 </a>
               );
             })}
@@ -553,6 +553,19 @@ if (totalSteps > 1) {
       pdfTrigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
 
+    // Fermeture automatique du menu après un clic sur un choix ou téléchargement/impression
+    pdfDropdown.querySelectorAll('.custom-pdf-item').forEach((item) => {
+      item.addEventListener('click', (e) => {
+        const href = item.getAttribute('href');
+        pdfDropdown.classList.remove('open');
+        pdfTrigger.setAttribute('aria-expanded', 'false');
+        if (href === '#print') {
+          e.preventDefault();
+          window.print();
+        }
+      });
+    });
+
     document.addEventListener('click', (e) => {
       if (!pdfDropdown.contains(e.target as Node)) {
         pdfDropdown.classList.remove('open');
@@ -566,6 +579,15 @@ if (totalSteps > 1) {
         pdfTrigger.setAttribute('aria-expanded', 'false');
         pdfTrigger.focus();
       }
+    });
+  }
+
+  // Déclenchement automatique de l'impression si l'URL contient ?print=1
+  if (new URLSearchParams(window.location.search).has('print')) {
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        window.print();
+      }, 350);
     });
   }
 </script>
