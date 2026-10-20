@@ -202,30 +202,29 @@ if (totalSteps > 1) {
             </svg>
           </button>
           <div class="custom-pdf-menu" id="custom-pdf-menu" role="listbox" tabindex="-1">
-            <button type="button" class="custom-pdf-item" id="btn-print-active" role="option">
-              <span class="pdf-item-title">🖨️ Imprimer la vue actuelle ({langConfig.nativeName})</span>
-              <span class="pdf-item-subtitle">Ouvre la boîte d'impression du navigateur (A4 / Enregistrer en PDF)</span>
-            </button>
-            <div class="pdf-menu-divider"></div>
-            <div class="pdf-menu-section-label">Imprimer / Exporter en PDF dans une autre langue :</div>
+            <div class="pdf-menu-section-label">📥 Fiches PDF prêtes à télécharger :</div>
             {availableTranslations.map(tr => {
               const isCurrent = tr.lang === currentLang;
-              const printUrl = `${tr.url}${tr.url.includes('?') ? '&' : '?'}print=1`;
               return (
                 <a 
-                  href={isCurrent ? '#print' : printUrl} 
+                  href={tr.pdfUrl} 
+                  download={tr.pdfFileName}
                   class:list={['custom-pdf-item', { active: isCurrent }]}
                   role="option"
-                  data-print-lang={tr.lang}
                 >
                   <span class="pdf-item-title">
-                    📄 {tr.config.nativeName}
+                    📥 Télécharger en {tr.config.nativeName}
                     {isCurrent && <span class="badge-active-lang">Actuelle</span>}
                   </span>
-                  <span class="pdf-item-subtitle">{tr.config.name} ({tr.config.shortLabel}) • Export PDF / Print</span>
+                  <span class="pdf-item-subtitle">{tr.config.name} ({tr.config.shortLabel}) • {tr.pdfFileName}</span>
                 </a>
               );
             })}
+            <div class="pdf-menu-divider"></div>
+            <button type="button" class="custom-pdf-item" id="btn-print-active" role="option">
+              <span class="pdf-item-title">🖨️ Imprimer la vue actuelle ({langConfig.nativeName})</span>
+              <span class="pdf-item-subtitle">Ouvre la boîte d'impression du navigateur (AirPrint / Imprimante locale)</span>
+            </button>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
+import LiteYouTube from '../../../components/LiteYouTube.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from '../../../utils/languages';
@@ -101,6 +102,45 @@ function formatPedagogicalText(rawText: string) {
 
 const pagesList = course.pages || [];
 
+// Extraction et normalisation des médias (support d'objet unique ou de tableau de médias)
+function normalizeMediaList(mediaData: any): any[] {
+  if (!mediaData) return [];
+  if (Array.isArray(mediaData)) return mediaData;
+  return [mediaData];
+}
+
+// Extraction de toutes les vidéos (niveau cours + niveau parties)
+const courseMediaList = normalizeMediaList(course.media).map(m => ({
+  ...m,
+  is_main: true,
+  page_title: course.title,
+  videoId: m.id || (m.url?.includes('v=') ? m.url.split('v=')[1].split('&')[0] : m.url?.split('/').pop())
+}));
+
+const sectionVideos: any[] = [];
+pagesList.forEach((p: any) => {
+  normalizeMediaList(p.media).forEach((m: any) => {
+    if (m && (m.url || m.id)) {
+      sectionVideos.push({
+        ...m,
+        page_number: p.page_number,
+        page_title: p.title,
+        videoId: m.id || (m.url?.includes('v=') ? m.url.split('v=')[1].split('&')[0] : m.url?.split('/').pop())
+      });
+    }
+  });
+});
+
+// Toutes les vidéos du cours (niveau global + sections)
+const allVideosRaw = [...courseMediaList, ...sectionVideos];
+
+// Filtrage linguistique
+const langKey = currentLang.startsWith('bm') ? 'bm' : currentLang;
+const allVideos = allVideosRaw.filter((v: any) => {
+  if (!v.lang) return true;
+  return v.lang === langKey || v.lang === currentLang;
+});
+
 // Un repère (tick) pour CHAQUE partie du cours
 const totalSteps = pagesList.length;
 const milestones: any[] = [];
@@ -186,30 +226,29 @@ if (totalSteps > 1) {
             </svg>
           </button>
           <div class="custom-pdf-menu" id="custom-pdf-menu" role="listbox" tabindex="-1">
-            <button type="button" class="custom-pdf-item" id="btn-print-active" role="option">
-              <span class="pdf-item-title">🖨️ Imprimer la vue actuelle ({langConfig.nativeName})</span>
-              <span class="pdf-item-subtitle">Ouvre la boîte d'impression du navigateur (A4 / Enregistrer en PDF)</span>
-            </button>
-            <div class="pdf-menu-divider"></div>
-            <div class="pdf-menu-section-label">Imprimer / Exporter en PDF dans une autre langue :</div>
+            <div class="pdf-menu-section-label">📥 Fiches PDF prêtes à télécharger :</div>
             {availableTranslations.map(tr => {
               const isCurrent = tr.lang === currentLang;
-              const printUrl = `${tr.url}${tr.url.includes('?') ? '&' : '?'}print=1`;
               return (
                 <a 
-                  href={isCurrent ? '#print' : printUrl} 
+                  href={tr.pdfUrl} 
+                  download={tr.pdfFileName}
                   class:list={['custom-pdf-item', { active: isCurrent }]}
                   role="option"
-                  data-print-lang={tr.lang}
                 >
                   <span class="pdf-item-title">
-                    📄 {tr.config.nativeName}
+                    📥 Télécharger en {tr.config.nativeName}
                     {isCurrent && <span class="badge-active-lang">Actuelle</span>}
                   </span>
-                  <span class="pdf-item-subtitle">{tr.config.name} ({tr.config.shortLabel}) • Export PDF / Print</span>
+                  <span class="pdf-item-subtitle">{tr.config.name} ({tr.config.shortLabel}) • {tr.pdfFileName}</span>
                 </a>
               );
             })}
+            <div class="pdf-menu-divider"></div>
+            <button type="button" class="custom-pdf-item" id="btn-print-active" role="option">
+              <span class="pdf-item-title">🖨️ Imprimer la vue actuelle ({langConfig.nativeName})</span>
+              <span class="pdf-item-subtitle">Ouvre la boîte d'impression du navigateur (AirPrint / Imprimante locale)</span>
+            </button>
           </div>
         </div>
       </div>

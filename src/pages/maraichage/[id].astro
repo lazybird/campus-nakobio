@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import LiteYouTube from '../../components/LiteYouTube.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from '../../utils/languages';
@@ -103,19 +104,47 @@ function formatPedagogicalText(rawText: string) {
 
 const pagesList = course.pages || [];
 
+// Extraction et normalisation des médias (support d'objet unique ou de tableau de médias)
+function normalizeMediaList(mediaData: any): any[] {
+  if (!mediaData) return [];
+  if (Array.isArray(mediaData)) return mediaData;
+  return [mediaData];
+}
+
 // Extraction de toutes les vidéos (niveau cours + niveau parties)
-const courseMedia = course.media || null;
-const sectionVideos = pagesList
-  .filter((p: any) => p.media && p.media.url)
-  .map((p: any) => ({
-    ...p.media,
-    page_number: p.page_number,
-    page_title: p.title
-  }));
-const allVideos = [
-  ...(courseMedia ? [{ ...courseMedia, is_main: true, page_title: course.title }] : []),
-  ...sectionVideos
-];
+const courseMediaList = normalizeMediaList(course.media).map(m => ({
+  ...m,
+  is_main: true,
+  page_title: course.title,
+  videoId: m.id || (m.url?.includes('v=') ? m.url.split('v=')[1].split('&')[0] : m.url?.split('/').pop())
+}));
+
+const sectionVideos: any[] = [];
+pagesList.forEach((p: any) => {
+  normalizeMediaList(p.media).forEach((m: any) => {
+    if (m && (m.url || m.id)) {
+      sectionVideos.push({
+        ...m,
+        page_number: p.page_number,
+        page_title: p.title,
+        videoId: m.id || (m.url?.includes('v=') ? m.url.split('v=')[1].split('&')[0] : m.url?.split('/').pop())
+      });
+    }
+  });
+});
+
+// Toutes les vidéos du cours (niveau global + sections)
+const allVideosRaw = [...courseMediaList, ...sectionVideos];
+
+// Filtrage linguistique :
+// - Si currentLang est 'bm-latn' ou 'bm-nko', on sélectionne les médias 'bm'
+// - Si un média a une langue spécifiée qui matche la langue courante (ex: 'fr', 'en')
+// - Si la langue du média n'est pas spécifiée, on l'affiche par défaut
+const langKey = currentLang.startsWith('bm') ? 'bm' : currentLang;
+const allVideos = allVideosRaw.filter((v: any) => {
+  if (!v.lang) return true;
+  return v.lang === langKey || v.lang === currentLang;
+});
 const totalSteps = pagesList.length;
 const milestones: any[] = [];
 if (totalSteps > 1) {
@@ -201,30 +230,29 @@ if (totalSteps > 1) {
             </svg>
           </button>
           <div class="custom-pdf-menu" id="custom-pdf-menu" role="listbox" tabindex="-1">
-            <button type="button" class="custom-pdf-item" id="btn-print-active" role="option">
-              <span class="pdf-item-title">🖨️ Imprimer la vue actuelle ({langConfig.nativeName})</span>
-              <span class="pdf-item-subtitle">Ouvre la boîte d'impression du navigateur (A4 / Enregistrer en PDF)</span>
-            </button>
-            <div class="pdf-menu-divider"></div>
-            <div class="pdf-menu-section-label">Imprimer / Exporter en PDF dans une autre langue :</div>
+            <div class="pdf-menu-section-label">📥 Fiches PDF prêtes à télécharger :</div>
             {availableTranslations.map(tr => {
               const isCurrent = tr.lang === currentLang;
-              const printUrl = `${tr.url}${tr.url.includes('?') ? '&' : '?'}print=1`;
               return (
                 <a 
-                  href={isCurrent ? '#print' : printUrl} 
+                  href={tr.pdfUrl} 
+                  download={tr.pdfFileName}
                   class:list={['custom-pdf-item', { active: isCurrent }]}
                   role="option"
-                  data-print-lang={tr.lang}
                 >
                   <span class="pdf-item-title">
-                    📄 {tr.config.nativeName}
+                    📥 Télécharger en {tr.config.nativeName}
                     {isCurrent && <span class="badge-active-lang">Actuelle</span>}
                   </span>
-                  <span class="pdf-item-subtitle">{tr.config.name} ({tr.config.shortLabel}) • Export PDF / Print</span>
+                  <span class="pdf-item-subtitle">{tr.config.name} ({tr.config.shortLabel}) • {tr.pdfFileName}</span>
                 </a>
               );
             })}
+            <div class="pdf-menu-divider"></div>
+            <button type="button" class="custom-pdf-item" id="btn-print-active" role="option">
+              <span class="pdf-item-title">🖨️ Imprimer la vue actuelle ({langConfig.nativeName})</span>
+              <span class="pdf-item-subtitle">Ouvre la boîte d'impression du navigateur (AirPrint / Imprimante locale)</span>
+            </button>
           </div>
         </div>
       </div>
@@ -285,30 +313,33 @@ if (totalSteps > 1) {
         </details>
       )}
 
-      {/* Hub Vidéos simplifié : Vidéo globale du cours + raccourci vers les vidéos de démonstrations */}
+      {/* Hub Vidéos dans un accordéon placé sous le sommaire */}
       {allVideos.length > 0 && (
-        <section class="lesson-video-hub no-print" aria-label="Supports Vidéos de la formation">
-          <div class="video-hub-header">
-            <h3 class="video-hub-title">🎥 Démonstrations et Pratiques Vidéo ({allVideos.length})</h3>
-            <span class="video-hub-subtitle">Visualisez directement les gestes techniques au champ</span>
-          </div>
+        <details class="video-accordion-hub no-print" aria-label="Supports Vidéos de la formation">
+          <summary class="video-accordion-summary">
+            <div class="video-summary-left">
+              <span class="video-hub-badge-icon">🎥</span>
+              <span class="video-hub-summary-title">
+                Vidéos & Démonstrations pratiques ({allVideos.length})
+              </span>
+              <span class="video-hub-lang-tag">{langConfig.shortLabel || currentLang.toUpperCase()}</span>
+            </div>
+            <span class="video-hub-toggle-hint">Afficher / Masquer</span>
+          </summary>
 
-          <div class="video-hub-grid">
-            {allVideos.map((vid: any) => {
-              const videoId = vid.url.includes('v=') ? vid.url.split('v=')[1].split('&')[0] : vid.url.split('/').pop();
-              return (
+          <div class="video-hub-content">
+            <p class="video-hub-intro-text">
+              Retrouvez l'ensemble des tutoriels, gestes techniques au champ et podcasts associés à ce module :
+            </p>
+            <div class="video-hub-grid">
+              {allVideos.map((vid: any) => (
                 <div class="video-card-item">
-                  <div class="video-embed-box">
-                    <iframe 
-                      src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0`} 
-                      title={vid.title || vid.page_title}
-                      loading="lazy"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                      allowfullscreen
-                    ></iframe>
-                  </div>
+                  <LiteYouTube 
+                    videoId={vid.videoId} 
+                    title={vid.title || vid.page_title}
+                  />
                   <div class="video-card-meta">
-                    <span class="video-card-tag">{vid.is_main ? '⭐ Vidéo Complète' : `Partie ${vid.page_number}`}</span>
+                    <span class="video-card-tag">{vid.is_main ? '⭐ Vidéo du Module' : `Partie ${vid.page_number}`}</span>
                     <h4 class="video-card-name">{vid.title || vid.page_title}</h4>
                     {vid.page_number && (
                       <a href={`#partie-${vid.page_number}`} class="video-link-step">
@@ -317,10 +348,10 @@ if (totalSteps > 1) {
                     )}
                   </div>
                 </div>
-              );
-            })}
+              ))}
+            </div>
           </div>
-        </section>
+        </details>
       )}
     </header>
 
@@ -391,19 +422,49 @@ if (totalSteps > 1) {
               <div class="slide-pedagogical-content" set:html={formattedHtml} />
             </div>
 
-            <!-- Séparateur vers l'étape suivante -->
-            {nextPage && (
-              <div class="pedagogical-step-divider no-print">
-                <div class="divider-line"></div>
-                <a href={`#partie-${nextPage.page_number}`} class="divider-milestone-link">
-                  <span class="milestone-next-label">
-                    Partie suivante : <strong>{nextPage.page_number}. {nextPage.title}</strong>
-                  </span>
-                  <span class="milestone-action-arrow" aria-hidden="true">➔</span>
-                </a>
-                <div class="divider-line"></div>
-              </div>
-            )}
+            {/* Zone Bas de Section : Accordéon vidéo de la section (si présente) ou séparateur élégant */}
+            {(() => {
+              const pageVideos = normalizeMediaList(page.media)
+                .filter((m: any) => m && (m.url || m.id))
+                .map((m: any) => ({
+                  ...m,
+                  videoId: m.id || (m.url?.includes('v=') ? m.url.split('v=')[1].split('&')[0] : m.url?.split('/').pop())
+                }))
+                .filter((m: any) => !m.lang || m.lang === langKey || m.lang === currentLang);
+
+              if (pageVideos.length > 0) {
+                return (
+                  <div class="section-media-container no-print">
+                    <details class="section-media-accordion">
+                      <summary class="section-media-summary">
+                        <div class="section-media-summary-content">
+                          <span class="media-icon-pulse">🎬</span>
+                          <span class="section-media-prompt">
+                            Démonstration vidéo de cette étape : <strong>{pageVideos[0].title || page.title}</strong>
+                          </span>
+                        </div>
+                        <span class="section-media-toggle-btn">Voir la vidéo ({pageVideos.length})</span>
+                      </summary>
+                      <div class="section-media-body">
+                        {pageVideos.map((vid: any) => (
+                          <div class="section-media-item">
+                            <LiteYouTube videoId={vid.videoId} title={vid.title || page.title} />
+                          </div>
+                        ))}
+                      </div>
+                    </details>
+                  </div>
+                );
+              }
+
+              return (
+                <div class="pedagogical-step-divider no-print">
+                  <div class="divider-line"></div>
+                  <span class="divider-dot" aria-hidden="true">•</span>
+                  <div class="divider-line"></div>
+                </div>
+              );
+            })()}
           </article>
         );
       })}
@@ -832,36 +893,84 @@ if (totalSteps > 1) {
     border-radius: var(--radius-full);
   }
 
-  /* Video Hub */
-  .lesson-video-hub {
-    margin-top: 2rem;
-    padding: 1.5rem;
+  /* Hub Vidéos sous le sommaire (Accordéon) */
+  .video-accordion-hub {
+    margin-top: 1.25rem;
     background: var(--color-surface-card);
     border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-sm);
+    overflow: hidden;
+    transition: border-color var(--transition-fast);
   }
 
-  .video-hub-header {
-    margin-bottom: 1.25rem;
+  .video-accordion-hub[open] {
+    border-color: rgba(47, 74, 52, 0.3);
   }
 
-  .video-hub-title {
-    font-family: var(--font-serif);
-    font-size: 1.35rem;
+  .video-accordion-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.95rem 1.25rem;
+    background: linear-gradient(to right, rgba(47, 74, 52, 0.05), transparent);
+    cursor: pointer;
+    user-select: none;
+    font-family: var(--font-sans);
+    transition: background var(--transition-fast);
+  }
+
+  .video-accordion-summary:hover {
+    background: linear-gradient(to right, rgba(47, 74, 52, 0.09), transparent);
+  }
+
+  .video-summary-left {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+  }
+
+  .video-hub-badge-icon {
+    font-size: 1.2rem;
+  }
+
+  .video-hub-summary-title {
+    font-size: 1rem;
     font-weight: 700;
     color: var(--color-brand-primary);
-    margin-bottom: 0.25rem;
   }
 
-  .video-hub-subtitle {
+  .video-hub-lang-tag {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    background: rgba(47, 74, 52, 0.12);
+    padding: 0.15rem 0.45rem;
+    border-radius: var(--radius-full);
+    text-transform: uppercase;
+  }
+
+  .video-hub-toggle-hint {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--color-ink-soft);
+  }
+
+  .video-hub-content {
+    padding: 1.25rem;
+    border-top: 1px solid var(--color-border);
+    background: var(--color-surface);
+  }
+
+  .video-hub-intro-text {
     font-size: 0.9rem;
     color: var(--color-ink-soft);
+    margin-bottom: 1.25rem;
   }
 
   .video-hub-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     gap: 1.25rem;
   }
 
@@ -872,23 +981,6 @@ if (totalSteps > 1) {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-  }
-
-  .video-embed-box {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    background: #000;
-  }
-
-  .video-embed-box iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
   }
 
   .video-card-meta {
@@ -930,6 +1022,99 @@ if (totalSteps > 1) {
 
   .video-link-step:hover {
     text-decoration: underline;
+  }
+
+  /* Zone Vidéo de Section (remplace 'Partie suivante') */
+  .section-media-container {
+    background: var(--color-surface-sunken);
+    border-top: 1px solid var(--color-border);
+    padding: 0.75rem 1.25rem;
+  }
+
+  .section-media-accordion {
+    border: 1px solid rgba(47, 74, 52, 0.2);
+    border-radius: var(--radius-md);
+    background: var(--color-surface-card);
+    overflow: hidden;
+    transition: all var(--transition-fast);
+  }
+
+  .section-media-accordion[open] {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    border-color: var(--color-brand-primary);
+  }
+
+  .section-media-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 1.15rem;
+    cursor: pointer;
+    user-select: none;
+    background: linear-gradient(to right, rgba(46, 125, 50, 0.05), transparent);
+    transition: background var(--transition-fast);
+  }
+
+  .section-media-summary:hover {
+    background: linear-gradient(to right, rgba(46, 125, 50, 0.1), transparent);
+  }
+
+  .section-media-summary-content {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+  }
+
+  .media-icon-pulse {
+    font-size: 1.15rem;
+  }
+
+  .section-media-prompt {
+    font-size: 0.92rem;
+    color: var(--color-ink);
+  }
+
+  .section-media-prompt strong {
+    color: var(--color-brand-primary);
+  }
+
+  .section-media-toggle-btn {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    background: rgba(47, 74, 52, 0.08);
+    padding: 0.3rem 0.65rem;
+    border-radius: var(--radius-sm);
+    white-space: nowrap;
+    transition: background var(--transition-fast);
+  }
+
+  .section-media-accordion[open] .section-media-toggle-btn {
+    background: var(--color-brand-primary);
+    color: #ffffff;
+  }
+
+  .section-media-body {
+    padding: 1.25rem;
+    background: var(--color-surface-sunken);
+    border-top: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .section-media-item {
+    border-radius: var(--radius-md);
+    overflow: hidden;
+  }
+
+  .divider-dot {
+    color: var(--color-border);
+    font-size: 1.2rem;
+    line-height: 1;
+    padding: 0 0.5rem;
   }
 
   /* Support RTL & Typographie N'ko */
