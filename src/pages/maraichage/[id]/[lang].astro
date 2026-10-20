@@ -498,11 +498,16 @@ if (totalSteps > 1) {
       pdfTrigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
 
-    // Fermeture automatique du menu après un clic sur un choix ou téléchargement
+    // Fermeture automatique du menu après un clic sur un choix ou téléchargement/impression
     pdfDropdown.querySelectorAll('.custom-pdf-item').forEach((item) => {
-      item.addEventListener('click', () => {
+      item.addEventListener('click', (e) => {
+        const href = item.getAttribute('href');
         pdfDropdown.classList.remove('open');
         pdfTrigger.setAttribute('aria-expanded', 'false');
+        if (href === '#print') {
+          e.preventDefault();
+          window.print();
+        }
       });
     });
 
@@ -519,6 +524,15 @@ if (totalSteps > 1) {
         pdfTrigger.setAttribute('aria-expanded', 'false');
         pdfTrigger.focus();
       }
+    });
+  }
+
+  // Déclenchement automatique de l'impression si l'URL contient ?print=1
+  if (new URLSearchParams(window.location.search).has('print')) {
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        window.print();
+      }, 350);
     });
   }
 </script>
