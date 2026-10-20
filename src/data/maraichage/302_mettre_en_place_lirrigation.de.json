@@ -1,0 +1,296 @@
+{
+  "id": "302_mettre_en_place_lirrigation",
+  "title": "Beregnungsanlage installieren",
+  "category": "Techniken & Praktiken",
+  "summary": "Planung, Auswahl des Installationsmaterials, Montage der Sprührohre und Wartung für eine gleichmäßige und sanfte Wasserverteilung.",
+  "total_pages": 40,
+  "cover_image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_01.jpg",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Wir",
+      "text": "zeigen Ihnen, wie Sie ein Bewässerungssystem in einem biointensiven Gemüsebaubetrieb mit lebendigem Boden installieren.\n\n- Wir zeigen Ihnen, wie Sie ein Bewässerungssystem in einem biointensiven Gemüsebaubetrieb mit lebendigem Boden installieren.",
+      "illustration_description": "Illustration pédagogique pour Nous",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Was ist Beregnungsbewässerung?",
+      "text": "Wasser wird unter Druck gesetzt und dann in feinen Tröpfchen verteilt, die natürlichen Regen imitieren. Dies ermöglicht eine homogene Wasserverteilung, die ein Mikroklima schafft. Dieses halbautomatische System reduziert den manuellen Arbeitsaufwand und spart Zeit.",
+      "illustration_description": "Illustration pédagogique pour L’irrigation par aspersion, qu’est-ce que c’est ?",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Die Einrichtung erfolgt in 5 Schritten. Wenn alle Materialien vorhanden sind, dauert diese Arbeit für zwei Personen auf einem 100 m² großen Grundstück nicht länger als einen halben Tag.",
+      "text": "Die Einrichtung erfolgt in 5 Schritten. Wenn alle Materialien vorhanden sind, dauert diese Arbeit für zwei Personen auf einem 100 m² großen Grundstück nicht länger als einen halben Tag.",
+      "illustration_description": "Illustration pédagogique pour La mise en place se fait en 5 étapes. Si tout le matériel est réuni, c’est un travail qui ne prend pas plus d’une demijournée à deux personnes pour une parcelle de 100 m2.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "ANLAGE EINER PARZELLE MIT",
+      "text": "EINEM BEREGNUNGSSYSTEM",
+      "illustration_description": "Illustration pédagogique pour CONSTITUTION D’UNE PARCELLE DISPOSANT",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Sie benötigen eine Wasserquelle, z. B. einen Brunnen, ein Bohrloch, einen Wasserturm, einen Fluss oder einen Bach.",
+      "text": "Sie benötigen eine Wasserquelle, z. B. einen Brunnen, ein Bohrloch, einen Wasserturm, einen Fluss oder einen Bach.",
+      "illustration_description": "Illustration pédagogique pour Vous avez besoin d'une source d’eau, par exemple un puits, un forage, un château d’eau, un fleuve ou un ruisseau.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Sie benötigen auch eine Pumpstation: eine thermische oder solarbetriebene Pumpe zur Wasserentnahme.",
+      "text": "Sie benötigen auch eine Pumpstation: eine thermische oder solarbetriebene Pumpe zur Wasserentnahme.",
+      "illustration_description": "Illustration pédagogique pour Vous avez également besoin d’une station de pompage : une pompe thermique ou solaire pour extraire l’eau.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Hauptleitung",
+      "text": "Sprühlanze Sprühgestänge\n\nDann das Wasserverteilungssystem mit:\n\n- Einer Hauptleitung\n- 2 Nebenleitungen, die auch als „Sprühgestänge“ bezeichnet werden\n- 4 Sprühlanzen",
+      "illustration_description": "Illustration pédagogique pour Ligne principale",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "BENÖTIGTES SANITÄRMATERIAL",
+      "text": "BENÖTIGTES SANITÄRMATERIAL\n",
+      "illustration_description": "Illustration pédagogique pour LE MATERIEL DE PLOMBERIE NECESSAIRE",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "4x",
+      "text": "2x 1x\n\nFür die Installation der Haupt- und Nebenleitungen benötigen Sie folgendes Material:\n\n- Ein 40-mm-Rohr: Die Länge hängt vom Abstand zur Wasserquelle ab.\n\n- Ein 32-mm-Rohr mit einer Länge von 20 m\n- 2 Anschluss-T-Stücke 40/32\n- 4 Ventile 32\n- 1 Ventil 40",
+      "illustration_description": "Illustration pédagogique pour 4x",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "4x",
+      "text": "4x 4x 4x\n\nFür die Montage der Sprührohre benötigen Sie folgende Materialien:\n\n- 4 T-Stücke 32/25\n- 4 PER-Rohre, je 1 m lang\n- 4 Außengewindeanschlüsse 25/15\n- 4 Innengewindeventile 15 mm\n- 4 Pfähle, je 1 m lang\n- Dichtungs-Teflon 4x",
+      "illustration_description": "Illustration pédagogique pour 4x",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Sie benötigen folgende Werkzeuge:",
+      "text": "- Metallsäge\n- Messer\n- Flüssigseife zur leichteren Montage der Elemente\n- Maßband\n- Seil",
+      "illustration_description": "Illustration pédagogique pour Vous aurez besoin des outils suivants :",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "INSTALLATION DES BEREGNUNGSSYSTEMS AUF EINEM 100M2 GROSSEN FELD",
+      "text": "SCHRITT 1: PLANEN",
+      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "10m",
+      "text": "10m Um eine **homogene Bewässerung** zu gewährleisten, planen Sie die Anordnung der Sprinkler entsprechend ihrer Reichweite. Die **Reichweite** der Sprinkler beträgt je nach Druck 3 bis 6 m im Durchmesser.",
+      "illustration_description": "Illustration pédagogique pour 10m",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "10m",
+      "text": "10m Für ein **100 m² großes Beet**, also **10 m x 10 m**, werden Sie **4 Sprinkler** installieren.",
+      "illustration_description": "Illustration pédagogique pour 10m",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "INSTALLATION DES BEREGNUNGSSYSTEMS AUF EINER 100M2 PARZELLE",
+      "text": "SCHRITT 2: INSTALLATION DES HAUPTROHRS UND DER SEKUNDÄRROHRE",
+      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Hauptleitung",
+      "text": "Legen Sie den 40-mm-Schlauch der Hauptleitung am Parzellenrand aus.",
+      "illustration_description": "Illustration pédagogique pour Ligne principale",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "Hauptleitung",
+      "text": "1x Installieren Sie anschließend das 40-mm-Ventil am Ende des Rohrs für Wartungsarbeiten und eine eventuelle Erweiterung des Bewässerungssystems.\n\nUm das Zusammenfügen von Rohren mit Ventilen und T-Stücken zu erleichtern, geben Sie immer ein bis zwei Tropfen Seife auf die Dichtungen.",
+      "illustration_description": "Illustration pédagogique pour Ligne principale",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "Rampen",
+      "text": "Für die Nebenleitungen legen Sie ein 32-mm-Rohr in den 4. Fußdurchgang. Legen Sie dann das zweite Rohr\n\n- mit 32 mm in den 8. Fußdurchgang.",
+      "illustration_description": "Illustration pédagogique pour 1",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_18.jpg"
+    },
+    {
+      "page_number": 19,
+      "title": "Hauptrohr mit Messer oder Metallsäge am 4. und 8. Trittbrett durchtrennen",
+      "text": "wo die Nebenrohre installiert sind.",
+      "illustration_description": "Illustration pédagogique pour Sectionnez le tuyau principal à l'aide d'un couteau ou d'une scie à métaux au niveau du 4ème et 8ème passe-pieds",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_19.jpg"
+    },
+    {
+      "page_number": 20,
+      "title": "2x",
+      "text": "Installieren Sie die 2 T-Stücke 40/32 am 40-mm-Hauptrohr. Verbinden Sie anschließend die 32-mm-Nebenrohre.",
+      "illustration_description": "Illustration pédagogique pour 2x",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_20.jpg"
+    },
+    {
+      "page_number": 21,
+      "title": "4x",
+      "text": "Installieren Sie die 4x 32-mm-Ventile an den Enden und Anfängen der Nebenleitungen. Dies erleichtert Ihnen die Wartung und eine Erweiterung des Bewässerungssystems.",
+      "illustration_description": "Illustration pédagogique pour 4x",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_21.jpg"
+    },
+    {
+      "page_number": 22,
+      "title": "INSTALLATION DES BEREGNUNGSSYSTEMS AUF EINEM 100M2 GROSSEN FELD",
+      "text": "SCHRITT 3: MONTAGE DER BEREGNUNGSROHRE",
+      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_22.jpg"
+    },
+    {
+      "page_number": 23,
+      "title": "3m",
+      "text": "4m 3m 4x Messen Sie 3 m vom Anfang des Brettes aus, um den ersten Stabilisierungspfahl zu setzen. Messen Sie dann 4 m vom ersten Pfahl aus, um den zweiten Pfahl zu setzen.\n\nWiederholen Sie diese Schritte auf der zweiten Nebenlinie.",
+      "illustration_description": "Illustration pédagogique pour 3m",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_23.jpg"
+    },
+    {
+      "page_number": 24,
+      "title": "Schneiden Sie die Nebenleitungen an den Pfählen ab, um die 4 T-Stücke (30/25 mm) zu installieren.",
+      "text": "Schneiden Sie die Nebenleitungen an den Pfählen ab, um die 4 T-Stücke (30/25 mm) zu installieren.",
+      "illustration_description": "Illustration pédagogique pour Coupez les lignes secondaires aux niveaux des piquets pour installer les 4 tés de raccordement de 30/25 mm.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_24.jpg"
+    },
+    {
+      "page_number": 25,
+      "title": "T-Stück oder",
+      "text": "Anbohrschelle 30/25 Verbinden Sie das T-Stück mit der Sekundärleitung.",
+      "illustration_description": "Illustration pédagogique pour Té de raccordement ou",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_25.jpg"
+    },
+    {
+      "page_number": 26,
+      "title": "PE-X-Rohr",
+      "text": "(vernetztes Polyethylen) Schließen Sie das 1 m lange PE-X-Rohr an das T-Stück an.",
+      "illustration_description": "Illustration pédagogique pour Tuyau PER",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_26.jpg"
+    },
+    {
+      "page_number": 27,
+      "title": "Steckverbinder",
+      "text": "25/15 Verbinden Sie anschließend den Steckverbinder mit dem PER-Rohr: Der Steckverbinder wird auf die Oberseite des Rohrs gesteckt.",
+      "illustration_description": "Illustration pédagogique pour Raccord mâle",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_27.jpg"
+    },
+    {
+      "page_number": 28,
+      "title": "Überwurfmutter",
+      "text": "Kompressionsring\nO-Ring\nStützring\nKörper\n\nHier ist die Montage des männlichen Anschlusses aus der Nähe.",
+      "illustration_description": "Illustration pédagogique pour Ecrou de serrage",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_28.jpg"
+    },
+    {
+      "page_number": 29,
+      "title": "Überwurfmutter",
+      "text": "Stützring\nO-Ring\nKlemmring\nHier ist die Montage des männlichen Anschlusses aus der Nähe.\n\nPER-Rohr",
+      "illustration_description": "Illustration pédagogique pour Ecrou de serrage",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_29.jpg"
+    },
+    {
+      "page_number": 30,
+      "title": "Um die Dichtigkeit zu gewährleisten, ohne das Außengewinde zu beschädigen, wickeln Sie zwei Lagen Teflonband in Gewinderichtung auf.",
+      "text": "Um die Dichtigkeit zu gewährleisten, ohne das Außengewinde zu beschädigen, wickeln Sie zwei Lagen Teflonband in Gewinderichtung auf.",
+      "illustration_description": "Illustration pédagogique pour Pour assurer l'étanchéité, sans abîmer le filetage mâle, faîtes deux tours de téflon dans le sens du filetage.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_30.jpg"
+    },
+    {
+      "page_number": 31,
+      "title": "Ventil",
+      "text": "15mm Innengewinde. Verbinden Sie das Außengewinde mit dem Innengewinde des Ventils.",
+      "illustration_description": "Illustration pédagogique pour Vanne",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_31.jpg"
+    },
+    {
+      "page_number": 32,
+      "title": "Schließen Sie das 15-mm-Innengewindeventil für die Sprinklerköpfe an. Diese ermöglichen es Ihnen, jeden",
+      "text": "Sprinkler im Falle einer Wartung einzeln zu öffnen oder zu schließen. Sie müssen also nicht das gesamte System abschalten, wenn ein Sprinkler defekt ist oder undicht ist.",
+      "illustration_description": "Illustration pédagogique pour Connectez la vanne femelle de 15 mm pour les têtes d'arrosage. Elles vous permettront d'ouvrir ou fermer chaque",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_32.jpg"
+    },
+    {
+      "page_number": 33,
+      "title": "Wickeln Sie zwei Umdrehungen Teflonband im Uhrzeigersinn auf das Gewinde des Sprinklerkopfes.",
+      "text": "Verbinden Sie anschließend den Sprinklerkopf mit dem Ventil.",
+      "illustration_description": "Illustration pédagogique pour Faites deux tours de téflon sur le filetage de la tête d'arrosage dans le sens du filetage.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_33.jpg"
+    },
+    {
+      "page_number": 34,
+      "title": "Wiederholen Sie diese Vorgänge an den drei anderen Sprühlanzen.",
+      "text": "Wiederholen Sie diese Vorgänge an den drei anderen Sprühlanzen.",
+      "illustration_description": "Illustration pédagogique pour Répétez ces opérations sur les trois autres cannes d'aspersion.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_34.jpg"
+    },
+    {
+      "page_number": 35,
+      "title": "Befestigen Sie die Ruten mit einem Seil an den Stabilisierungspfählen.",
+      "text": "Befestigen Sie die Ruten mit einem Seil an den Stabilisierungspfählen.",
+      "illustration_description": "Illustration pédagogique pour Attachez les cannes aux piquets de stabilisation avec une corde.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_35.jpg"
+    },
+    {
+      "page_number": 36,
+      "title": "INSTALLATION DES BEREGNUNGSSYSTEMS AUF EINEM 100M2 GROSSEN FELD",
+      "text": "SCHRITT 4: INBETRIEBNAHME DES SYSTEMS UNTER DRUCK",
+      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_36.jpg"
+    },
+    {
+      "page_number": 37,
+      "title": "Testen Sie das System, um die ordnungsgemäße Funktion und Dichtheit zu gewährleisten. Dies ermöglicht es,",
+      "text": "die ordnungsgemäße Funktion der Sprinkler hinsichtlich Durchfluss und verfügbarem Druck zu überprüfen.",
+      "illustration_description": "Illustration pédagogique pour Testez le système pour assurer le bon fonctionnement et pour vérifier qu'il n'y a pas de fuite. Cela permet de",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_37.jpg"
+    },
+    {
+      "page_number": 38,
+      "title": "INSTALLATION DES BEREGNUNGSSYSTEMS AUF EINER 100M2 PARZELLE",
+      "text": "SCHRITT 5: PFLEGE DES BEWÄSSERUNGSSYSTEMS",
+      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_38.jpg"
+    },
+    {
+      "page_number": 39,
+      "title": "Stellen Sie visuell sicher, dass das System ordnungsgemäß funktioniert und keine Lecks aufweist, wenn Sie",
+      "text": "das System einschalten.\n\nFetten Sie die rotierenden Teile regelmäßig ein.\n\nStellen Sie sicher, dass die Sprühdüsen nicht durch Kalk oder organische Abfälle verstopft sind.",
+      "illustration_description": "Illustration pédagogique pour Assurez-vous visuellement que le système fonctionne correctement et qu'il n'y a pas de fuite quand vous",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_39.jpg"
+    },
+    {
+      "page_number": 40,
+      "title": "Herzlichen Glückwunsch! Sie haben gelernt, Ihr eigenes Sprinklerbewässerungssystem zu bauen.",
+      "text": "Herzlichen Glückwunsch! Sie haben gelernt, Ihr eigenes Sprinklerbewässerungssystem zu bauen.",
+      "illustration_description": "Illustration pédagogique pour Félicitations ! Vous venez d’apprendre à créer votre propre système d’irrigation par aspersion.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_40.jpg"
+    }
+  ],
+  "course_code": "M3.2",
+  "media": {
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "title": "Démonstration complète de la mise en place du réseau d'irrigation"
+  }
+}

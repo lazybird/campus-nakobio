@@ -1,0 +1,296 @@
+{
+  "id": "302_mettre_en_place_lirrigation",
+  "title": "Mettre en place le système d'irrigation par aspersion",
+  "category": "Techniques & Pratiques",
+  "summary": "Planification, choix du matériel de plomberie, montage des cannes d'aspersion et entretien pour une couverture d'eau homogène et douce.",
+  "total_pages": 40,
+  "cover_image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_01.jpg",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Anw",
+      "text": "Anw bɛna a jira i la cogo min na i ka **jifara-yɔrɔ** (système d'irrigation) sigi sen kan **maraichɛrɛ-baara** (entreprise maraîchère) kɔnɔ min bɛ baara kɛ **ɲɛnajalan** (bio intensive) ni **dugukolo-ɲɛnajalan** (sol vivant) ye.\n\n- **Jifara-yɔrɔ** (système d'irrigation) sigi sen kan **maraichɛrɛ-baara** (entreprise maraîchère) kɔnɔ min bɛ baara kɛ **ɲɛnajalan** (bio intensive) ni **dugukolo-ɲɛnajalan** (sol vivant) ye.",
+      "illustration_description": "Illustration pédagogique pour Nous",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Aspersioni kalan bɛɛ kɛlɛbɛ",
+      "text": "Ji ka kɛlɛbɛ, o bɛɛ wele ko o bɛɛ sɔrɔ, o ye ji dɔɔnin kɔnɔ, o tɛmɛna dɔɔnin dɛmɛna. Hali bɛɛ bɛ danfɛ, o bɛɛ kɛlɛbɛ dɔɔnin kɔnɔ, o tɛmɛna kɔnɔ dɛmɛna. Système semi-automatique bɛɛ bɛ danfɛ, o bɛɛ kɛlɛbɛ dɔɔnin kɔnɔ, o tɛmɛna kɔnɔ dɛmɛna, o bɛɛ sɔrɔ o bɛɛ kɛlɛbɛ dɔɔnin kɔnɔ, o tɛmɛna kɔnɔ dɛmɛna, o bɛɛ danfɛ o bɛɛ kɛlɛbɛ dɔɔnin kɔnɔ.",
+      "illustration_description": "Illustration pédagogique pour L’irrigation par aspersion, qu’est-ce que c’est ?",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Yiriwali daminɛna tila la tila 5 la.",
+      "text": "Yiriwali daminɛna tila la tila 5 la. N’i ka dɔnkilidala bɛɛ sigilen, o ye baara ye min tɛ tila kɛ ni mɔgɔ fila ye, ni yɔrɔ ye m2 100 ye.",
+      "illustration_description": "Illustration pédagogique pour La mise en place se fait en 5 étapes. Si tout le matériel est réuni, c’est un travail qui ne prend pas plus d’une demijournée à deux personnes pour une parcelle de 100 m2.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "FORO DƆ MIN BƐ BAARA KƐ NI JII-BƆLAN YE",
+      "text": "JII-BƆLAN KAN",
+      "illustration_description": "Illustration pédagogique pour CONSTITUTION D’UNE PARCELLE DISPOSANT",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "I ye ji-yɔrɔ dɔ sɔrɔ, i n’a fɔ digi, forage, ji-bon, ba walima ba-kɔrɔn.",
+      "text": "I ye ji-yɔrɔ dɔ sɔrɔ, i n’a fɔ digi, forage, ji-bon, ba walima ba-kɔrɔn.",
+      "illustration_description": "Illustration pédagogique pour Vous avez besoin d'une source d’eau, par exemple un puits, un forage, un château d’eau, un fleuve ou un ruisseau.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "I k'a fɔ ka **pompu yɔrɔ** dɔ sɔrɔ: **pompu tiyɛrmiki** walima **pompu kɔrɔn-joli** min bɛ ji bɔ.",
+      "text": "I k'a fɔ ka **pompu yɔrɔ** dɔ sɔrɔ: **pompu tiyɛrmiki** walima **pompu kɔrɔn-joli** min bɛ ji bɔ.",
+      "illustration_description": "Illustration pédagogique pour Vous avez également besoin d’une station de pompage : une pompe thermique ou solaire pour extraire l’eau.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Layini ba",
+      "text": "Aspersion ka kaniw\n\nO kɔfɛ, ji yɛlɛn-yɛlɛn sigida ni:\n\n- Layini ba kelen\n- Layini filanan fila minnu bɛ wele fana ko “aspersion ka rampe”\n- Aspersion ka kaniw naani",
+      "illustration_description": "Illustration pédagogique pour Ligne principale",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "PLOMBERIE-KƆNƆNAFƆLƆW MINNU BƐ KƐ",
+      "text": "PLOMBERIE-KƆNƆNAFƆLƆW MINNU BƐ KƐ",
+      "illustration_description": "Illustration pédagogique pour LE MATERIEL DE PLOMBERIE NECESSAIRE",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "4x",
+      "text": "2x 1x\n\n**Layini belebeleba ni layini fitininw labɛnni kama, i ka nafa ni nin na:**\n\n- **Tiyo** min ka bon **40 mm**: a ka jan ka kɛ i ka jida janin ye.\n\n- **Tiyo** min ka bon **32 mm** min ka jan **mɛtɛrɛ 20**\n- **Tee** fila minnu ka bon **40/32**\n- **Vane** naani minnu ka bon **32**\n- **Vane** kelen min ka bon **40**",
+      "illustration_description": "Illustration pédagogique pour 4x",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "4x",
+      "text": "4x 4x 4x\n\nAspersion ka **kan**w ka lajɛ la, i ka **minɛn** ninnu ye a ka **kɛnɛ** ye:\n\n- **Té** naani minnu ka **jɛn** 32/25\n- **Tuyau PER** naani minnu ka **janya** mɛtɛrɛ kelen kelen\n- **Raccord mâle** naani 25/15\n- **Vanne femelle** naani 15 mm\n- **Piquet** naani minnu ka **janya** mɛtɛrɛ kelen kelen\n- **Téflon** ka **sigi** a la\n- 4x",
+      "illustration_description": "Illustration pédagogique pour 4x",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Aw ka wolo minnu sɔrɔ ka kan :",
+      "text": " - **Misiri sawu**\n - **Muru**\n - **Sabun jii** ka dɔgɔya ka baara kɛ ni fɛn caman ye\n - **Mɛtɛrɛ**\n - **Juru**",
+      "illustration_description": "Illustration pédagogique pour Vous aurez besoin des outils suivants :",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "JIKAN-FARA LADILI NI SEBENI HEKTARI KILOMÈTRE KARE 100 KAN",
+      "text": "DABALI 1: KANW JALA",
+      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "10m",
+      "text": "10m **Joliw ka bɔnɔn ka kɛ kelen ye**, i ka joliw sigiyɔrɔ labɛn ka kɛɲɛ ni u ka **joli-yɔrɔ** ye. Joliw ka joli-yɔrɔ ye **mɛtɛrɛ 3 fo ka se mɛtɛrɛ 6 ma** ka kɛɲɛ ni **joli-fanga** ye.",
+      "illustration_description": "Illustration pédagogique pour 10m",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "Mɛtɛrɛ 10",
+      "text": "Mɛtɛrɛ 10: Mɛtɛrɛ kɛnɛ 100 (o tun ye mɛtɛrɛ 10 x mɛtɛrɛ 10) kan, i bɛ aspersɛri naani sigi.",
+      "illustration_description": "Illustration pédagogique pour 10m",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "BAJI-JIGINNA-KƆNƆKUN BA KUNBƐNNA HEKTARI KƐMƐ (100M2) KAN",
+      "text": "KUNBƐNNA FILAN: BAJI-JIGINNA-KƆNƆKUNBA NI BAJI-JIGINNA-KƆNƆKUNW LABANTAW KUNBƐN",
+      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "**Ligne principale**",
+      "text": "I k'i **tuyau** min bɛ kɛ **40 mm** ye ka bɔ **ligne principale** la ka don **parcelle** da la.",
+      "illustration_description": "Illustration pédagogique pour Ligne principale",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "Layini ba",
+      "text": "1x O kɔfɛ, i ka **van** min ye **40 mm** ye, i ka o sigi **tuyau** da la walasa ka baara kɛ ni a ye ani ka **irrigation** lajɛlenba sɔrɔ ni a ka kan.\n\nWalasa ka **tuyau** ni **van** ani **té** sigi yɔrɔ kelen, i ka sabun jigin a da la siɲɛ kelen walima fila.",
+      "illustration_description": "Illustration pédagogique pour Ligne principale",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "Rampes",
+      "text": "Ligne kuraw ka ta ye, i ka **tuyau** min ye **32 mm** ye, i ka don **passe-pieds** na min ye **4nan** ye. O kɔfɛ, i ka **tuyau** filanan min ye **32 mm** ye, i ka don\n\n- **passe-pieds** na min ye **8nan** ye.",
+      "illustration_description": "Illustration pédagogique pour 1",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_18.jpg"
+    },
+    {
+      "page_number": 19,
+      "title": "**Baara kɛ ni sekeseke ye walima ni sɛnɛkɛ minɛn ye ka baara kɛ ni dɔgɔkun fila ni naani ye ani seegin ye**",
+      "text": "minnu na **tuyau secondaire**w sigilen bɛ.",
+      "illustration_description": "Illustration pédagogique pour Sectionnez le tuyau principal à l'aide d'un couteau ou d'une scie à métaux au niveau du 4ème et 8ème passe-pieds",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_19.jpg"
+    },
+    {
+      "page_number": 20,
+      "title": "2x",
+      "text": "Aw ye **tée** fila (40/32) don **tuyo** ba la (40 mm). O kɔfɛ, aw ye **tuyo** fitininw (32 mm) jɔn.",
+      "illustration_description": "Illustration pédagogique pour 2x",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_20.jpg"
+    },
+    {
+      "page_number": 21,
+      "title": "4x",
+      "text": "Aw ye **van** (vannes) naani (4) minnu ka bon **milimɛtɛrɛ** (millimètres) bisaba (32) ye, olu sigi **lɛni** (lignes) dancɛw ni a daminɛw kan. O bɛna a kɛ aw ka nɔgɔya ka **sistɛmu** (système) in **kɔlɔsi** (entretenir) ani ka a **kɔrɔtalen** (prolonger) kɛ.",
+      "illustration_description": "Illustration pédagogique pour 4x",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_21.jpg"
+    },
+    {
+      "page_number": 22,
+      "title": "ASPERSION SYSTEME BA BOLI NI SEBEN KAN HEKTARI KƐMƐ KAN",
+      "text": "ÉTAPE 3 : ASPERSION KAN BA BOLI",
+      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_22.jpg"
+    },
+    {
+      "page_number": 23,
+      "title": "3m",
+      "text": "4m 3m 4x **Kalan 3 m** ka daminɛ **plank** daminɛ na walasa ka **piquet** fɔlɔ bila. O kɔ ka **kalan 4 m** ka bɔ **piquet** fɔlɔ la walasa ka **piquet** filanan bila.\n\nO kɛ **ligne secondaire** filanan kan.",
+      "illustration_description": "Illustration pédagogique pour 3m",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_23.jpg"
+    },
+    {
+      "page_number": 24,
+      "title": "Yɛlɛn baara-joliw jigin-yɔrɔw la walasa ka 30/25 mm tée-nafolo naani sigi.",
+      "text": "Yɛlɛn baara-joliw jigin-yɔrɔw la walasa ka 30/25 mm tée-nafolo naani sigi.",
+      "illustration_description": "Illustration pédagogique pour Coupez les lignes secondaires aux niveaux des piquets pour installer les 4 tés de raccordement de 30/25 mm.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_24.jpg"
+    },
+    {
+      "page_number": 25,
+      "title": "Té de raccordement walima",
+      "text": "collier de prise 30/25 Iri té de raccordement ni rampe secondaire bɛn.",
+      "illustration_description": "Illustration pédagogique pour Té de raccordement ou",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_25.jpg"
+    },
+    {
+      "page_number": 26,
+      "title": "PER tɔnɔ",
+      "text": "(polyéthylène réticulé) I PER tɔnɔ min ka bon mɛtɛrɛ kelen, i k’o jɔnɔn jɔnɔnni té la.",
+      "illustration_description": "Illustration pédagogique pour Tuyau PER",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_26.jpg"
+    },
+    {
+      "page_number": 27,
+      "title": "Cɛ-raccord",
+      "text": "25/15 O kɔfɛ, i ka cɛ-raccord ni PER-tuyo fara ɲɔgɔn kan: cɛ-raccord bɛ don tuyo kɔnɔ a sanfɛ fɛ.",
+      "illustration_description": "Illustration pédagogique pour Raccord mâle",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_27.jpg"
+    },
+    {
+      "page_number": 28,
+      "title": "Kɔrigibolo",
+      "text": "Minɛn-kɔrigi\nO-jɔn\nMagasi-kɔrigi\nFari\nNin ye cɛ-jɔnba ka lajɛ ye ni ɲɛsigi ye.",
+      "illustration_description": "Illustration pédagogique pour Ecrou de serrage",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_28.jpg"
+    },
+    {
+      "page_number": 29,
+      "title": "**Ecrou de serrage**",
+      "text": "Bague d’appui\nJoint torique\nBague de compression\n\nVoici le montage du raccord mâle de près.\n\nTuyau PER",
+      "illustration_description": "Illustration pédagogique pour Ecrou de serrage",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_29.jpg"
+    },
+    {
+      "page_number": 30,
+      "title": "Walasa ka dugu-juru laban, i kana cɛ-juru tiɲɛ, i ka teflon yɛlɛn fila kɛ juru-yɛlɛn fɛ.",
+      "text": "Walasa ka dugu-juru laban, i kana cɛ-juru tiɲɛ, i ka teflon yɛlɛn fila kɛ juru-yɛlɛn fɛ.",
+      "illustration_description": "Illustration pédagogique pour Pour assurer l'étanchéité, sans abîmer le filetage mâle, faîtes deux tours de téflon dans le sens du filetage.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_30.jpg"
+    },
+    {
+      "page_number": 31,
+      "title": "Vanne",
+      "text": "muso 15mm **Jɛn** cɛkɛnɛ ni vanne muso ye.",
+      "illustration_description": "Illustration pédagogique pour Vanne",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_31.jpg"
+    },
+    {
+      "page_number": 32,
+      "title": "A ka **vanɛ fɛmɛlɛ** min ka bon ni **kɛrɛntɛn fila** ye, o fara **jifaga-kunw** kan. O b'a to i bɛ se ka **jifaga** kelen-kelen bɛɛ dayɛlɛn walima ka da, ni baara bɛ kɛ u kan.",
+      "text": "I tɛna **sistɛmu** bɛɛ dabɔ ka tɛmɛ, ni **jifaga** kelen falen don walima ni jii bɛ bɔ yen.",
+      "illustration_description": "Illustration pédagogique pour Connectez la vanne femelle de 15 mm pour les têtes d'arrosage. Elles vous permettront d'ouvrir ou fermer chaque",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_32.jpg"
+    },
+    {
+      "page_number": 33,
+      "title": "Iri-kɔnɔ-juru fila don i ka ji-don-kun kan, juru bɛ taa cogo min na, i bɛ o cogo kelen na.",
+      "text": "O kɔ, i ka ji-don-kun ni van bɛɛ jɛn.",
+      "illustration_description": "Illustration pédagogique pour Faites deux tours de téflon sur le filetage de la tête d'arrosage dans le sens du filetage.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_33.jpg"
+    },
+    {
+      "page_number": 34,
+      "title": "Aw ye o baara kɛ fana jii-falen wɛrɛ saba kan.",
+      "text": "Aw ye o baara kɛ fana jii-falen wɛrɛ saba kan.",
+      "illustration_description": "Illustration pédagogique pour Répétez ces opérations sur les trois autres cannes d'aspersion.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_34.jpg"
+    },
+    {
+      "page_number": 35,
+      "title": "Yiriw laban ni jiriw ye ni jɔli-kɔnɔ-juru ye.",
+      "text": "Yiriw laban ni jiriw ye ni jɔli-kɔnɔ-juru ye.",
+      "illustration_description": "Illustration pédagogique pour Attachez les cannes aux piquets de stabilisation avec une corde.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_35.jpg"
+    },
+    {
+      "page_number": 36,
+      "title": "ASPERSION-SISTƐMU LABANTA YANTA KAN MÈTƐRƐ KARE BA CAMAN KAN",
+      "text": "KUNTAALA 4: SISTƐMU DONI NI DUGUBA YE",
+      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_36.jpg"
+    },
+    {
+      "page_number": 37,
+      "title": "Kɔrɔsi sistɛmu ka kan ka baara kɛ ka ɲɛ ani ka laɲini kɛ ko a tɛ bɔ. O bɛ se ka",
+      "text": "kɔrɔsi ko asperseurw bɛ baara kɛ ka ɲɛ ni jiginni ni purɛsiyɔn ye.",
+      "illustration_description": "Illustration pédagogique pour Testez le système pour assurer le bon fonctionnement et pour vérifier qu'il n'y a pas de fuite. Cela permet de",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_37.jpg"
+    },
+    {
+      "page_number": 38,
+      "title": "JIKAN-JURU LADILIKAN NA BAARA KƐYƆRƆ HEKTARI KƐMƐ KAN",
+      "text": "DAMANAN 5: I KA JIKAN-JURU LADILIKAN KAN KANTAA",
+      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_38.jpg"
+    },
+    {
+      "page_number": 39,
+      "title": "Hɛrɛn ka a laɲini ko baara bɛ kɛ ka nɔgɔn, wa a ma bɔ yɔrɔ si la ni i bɛ",
+      "text": "ka baarakɛminɛn in **labɔ**.\n\n**Turu** dilen yɔrɔw la tuma bɛɛ.\n\n**Kalan** ka a laɲini ko **jifirila**w ma **datugu** ni **jida** walima **duguma**w ye.",
+      "illustration_description": "Illustration pédagogique pour Assurez-vous visuellement que le système fonctionne correctement et qu'il n'y a pas de fuite quand vous",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_39.jpg"
+    },
+    {
+      "page_number": 40,
+      "title": "Ayiwa! I ye i yɛrɛ ka jii-falen-jii-sɛnɛ-masin dilan koo kalan.",
+      "text": "Ayiwa! I ye i yɛrɛ ka jii-falen-jii-sɛnɛ-masin dilan koo kalan.",
+      "illustration_description": "Illustration pédagogique pour Félicitations ! Vous venez d’apprendre à créer votre propre système d’irrigation par aspersion.",
+      "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_40.jpg"
+    }
+  ],
+  "course_code": "M3.2",
+  "media": {
+    "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "title": "Démonstration complète de la mise en place du réseau d'irrigation"
+  }
+}
