@@ -252,5 +252,31 @@
       "image": "assets/images/maraichage/303_realiser_un_compost/page_35.jpg"
     }
   ],
-  "course_code": "M3.3"
+  "course_code": "M3.3",
+  "media": [
+    {
+      "id": "rtnGHwvWlKU",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rtnGHwvWlKU",
+      "title": "Maraîchage bio-intensif – Épisode 10 : Le compost naturel",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "TFsCoeTlj8A",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TFsCoeTlj8A",
+      "title": "Maraîchage bio-intensif – Épisode 12 : Exploiter le compost",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "nYAaVBeJXck",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nYAaVBeJXck",
+      "title": "Maraîchage bio-intensif – Épisode 13 : Avantages du compost",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

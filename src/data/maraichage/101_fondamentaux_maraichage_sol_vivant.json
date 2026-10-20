@@ -217,5 +217,71 @@
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_30.jpg"
     }
   ],
-  "course_code": "M1.1"
+  "course_code": "M1.1",
+  "media": [
+    {
+      "id": "rLocqiwMp0c",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rLocqiwMp0c",
+      "title": "Podcast 23 - Se former au maraîchage bio intensif au Mali",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "nGmuCSJjfj8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nGmuCSJjfj8",
+      "title": "Podcast 18 - Définition du maraîchage bio intensif, semences et pesticides",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "lLlEsyMOvgw",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lLlEsyMOvgw",
+      "title": "Nakôbio - Reportage sur le terrain Formation maraîchage bio intensif",
+      "lang": "fr",
+      "category": "cours"
+    },
+    {
+      "id": "lfFnV5h3nS0",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lfFnV5h3nS0",
+      "title": "Nakôbio maraîchage - Kalansen Kalaban Koura (Bamanankan)",
+      "lang": "bm",
+      "category": "cours"
+    },
+    {
+      "id": "rzMTY9bKrKk",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rzMTY9bKrKk",
+      "title": "Maraîchage bio-intensif – Épisode 8 : Différences bio et industriel",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "rA8wIeDZzjY",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rA8wIeDZzjY",
+      "title": "Maraîchage bio-intensif – Épisode 7 : Vision et enjeux avec Seydou",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "rYVhzScIX1I",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rYVhzScIX1I",
+      "title": "Maraîchage bio-intensif – Épisode 6 : Bio et santé",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "wBQMirClIdk",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=wBQMirClIdk",
+      "title": "Maraîchage bio-intensif – Épisode 11 : Mentalité et éducation",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

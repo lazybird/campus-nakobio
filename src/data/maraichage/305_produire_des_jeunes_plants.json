@@ -5,6 +5,32 @@
   "summary": "Choisir sa technique de pépinière (plaques alvéolées, terrines, pépinière de pleine terre), fabrication de terreau riche, gestion de l'ombre et arrosage fin.",
   "total_pages": 13,
   "cover_image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_01.jpg",
+  "media": [
+    {
+      "id": "njebiCW1P2Y",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=njebiCW1P2Y",
+      "title": "Podcast 19 avec Aïcha : Comprendre la méthode des pépinières",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "IS-5_OQ9uIc",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IS-5_OQ9uIc",
+      "title": "Podcast 20 avec Aïcha : Pépinières et méthodes d’arrosage",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "9lggNuzqu-8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9lggNuzqu-8",
+      "title": "Interview du formateur Siaka : Semences et maraîchage bio intensif",
+      "lang": "fr",
+      "category": "cours"
+    }
+  ],
   "pages": [
     {
       "page_number": 1,

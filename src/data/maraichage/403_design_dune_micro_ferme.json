@@ -133,5 +133,47 @@
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_18.jpg"
     }
   ],
-  "course_code": "M4.3"
+  "course_code": "M4.3",
+  "media": [
+    {
+      "id": "lLlEsyMOvgw",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lLlEsyMOvgw",
+      "title": "Nakôbio - Reportage sur terrain Formation maraîchage bio intensif",
+      "lang": "fr",
+      "category": "cours"
+    },
+    {
+      "id": "YiOZqseRFUc",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YiOZqseRFUc",
+      "title": "Maraîchage bio-intensif – Épisode 14 : Expérience et retour au bio",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "R4VtiU9lFSA",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=R4VtiU9lFSA",
+      "title": "Maraîchage bio-intensif – Épisode 15 : Encouragement et bonnes pratiques",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "sZJlazwGDWU",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=sZJlazwGDWU",
+      "title": "Maraîchage bio-intensif – Épisode 5 : Femmes et famille",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "_0Ss6_qARY4",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_0Ss6_qARY4",
+      "title": "Maraîchage bio-intensif – Épisode 17 : Dédicaces et projets futurs",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

@@ -217,5 +217,31 @@
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_30.jpg"
     }
   ],
-  "course_code": "M4.1"
+  "course_code": "M4.1",
+  "media": [
+    {
+      "id": "nXoMi9If_C8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nXoMi9If_C8",
+      "title": "Podcast 22 - Pesticides, vie du sol et vers de terre",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "nGmuCSJjfj8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nGmuCSJjfj8",
+      "title": "Podcast 18 - Maraîchage bio, semences et pesticides",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "TMFZCWG1Y2w",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TMFZCWG1Y2w",
+      "title": "Maraîchage bio-intensif – Épisode 9 : Pesticides et nouvelles pratiques",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

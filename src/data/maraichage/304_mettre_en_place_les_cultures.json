@@ -98,5 +98,39 @@
       "image": "assets/images/maraichage/304_mettre_en_place_les_cultures/page_13.jpg"
     }
   ],
-  "course_code": "M3.4"
+  "course_code": "M3.4",
+  "media": [
+    {
+      "id": "d6JysMjpROY",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=d6JysMjpROY",
+      "title": "Discussion autour de la méthode des semis direct",
+      "lang": "fr",
+      "category": "cours"
+    },
+    {
+      "id": "KPDjC9k-wHs",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=KPDjC9k-wHs",
+      "title": "Tutoriel : Utiliser une machine à semer en maraîchage bio intensif",
+      "lang": "fr",
+      "category": "pratique"
+    },
+    {
+      "id": "l-XX1z31YZI",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=l-XX1z31YZI",
+      "title": "Tutorial: Maize Planting in Bio-Intensive Farming",
+      "lang": "en",
+      "category": "pratique"
+    },
+    {
+      "id": "2NAJHGvCtB4",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2NAJHGvCtB4",
+      "title": "Maraîchage bio-intensif – Épisode 16 : Souveraineté des semences",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

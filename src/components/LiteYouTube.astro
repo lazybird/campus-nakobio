@@ -1,0 +1,167 @@
+---
+interface Props {
+  videoId: string;
+  title: string;
+  aspectRatio?: string;
+  className?: string;
+}
+
+const { videoId, title, aspectRatio = '16/9', className = '' } = Astro.props;
+---
+
+<div 
+  class:list={['lite-yt-player', className]} 
+  data-video-id={videoId}
+  data-video-title={title}
+  style={`aspect-ratio: ${aspectRatio};`}
+>
+  <img 
+    src={`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`} 
+    alt={title}
+    loading="lazy"
+    decoding="async"
+    class="lite-yt-thumbnail"
+    onerror="this.src='https://i.ytimg.com/vi/' + this.parentElement.dataset.videoId + '/mqdefault.jpg'"
+  />
+  <button type="button" class="lite-yt-play-btn" aria-label={`Lire la vidéo : ${title}`}>
+    <svg viewBox="0 0 68 48" width="56" height="40" aria-hidden="true">
+      <path class="lite-yt-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path>
+      <path class="lite-yt-icon" d="M 45,24 27,14 27,34"></path>
+    </svg>
+  </button>
+  <div class="lite-yt-title-bar">
+    <span class="lite-yt-title-text">{title}</span>
+  </div>
+</div>
+
+<script>
+  function setupLiteYouTube() {
+    document.querySelectorAll('.lite-yt-player:not([data-initialized])').forEach(player => {
+      player.setAttribute('data-initialized', 'true');
+      player.addEventListener('click', () => {
+        const videoId = player.getAttribute('data-video-id');
+        const title = player.getAttribute('data-video-title') || 'Vidéo YouTube';
+        if (!videoId) return;
+
+        const iframe = document.createElement('iframe');
+        iframe.setAttribute('src', `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1`);
+        iframe.setAttribute('title', title);
+        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+        iframe.setAttribute('allowfullscreen', 'true');
+        iframe.className = 'lite-yt-iframe';
+
+        player.innerHTML = '';
+        player.appendChild(iframe);
+      }, { once: true });
+    });
+  }
+
+  // Initialisation au chargement et lors des navigations Astro
+  setupLiteYouTube();
+  document.addEventListener('astro:page-load', setupLiteYouTube);
+</script>
+
+<style>
+  .lite-yt-player {
+    position: relative;
+    width: 100%;
+    background-color: #1a1a1a;
+    border-radius: var(--radius-md, 8px);
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform var(--transition-fast, 0.2s ease), box-shadow var(--transition-fast, 0.2s ease);
+  }
+
+  .lite-yt-player:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+  }
+
+  .lite-yt-thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.92);
+    transition: filter 0.25s ease, transform 0.3s ease;
+  }
+
+  .lite-yt-player:hover .lite-yt-thumbnail {
+    filter: brightness(1.02);
+    transform: scale(1.02);
+  }
+
+  .lite-yt-play-btn {
+    position: relative;
+    z-index: 2;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .lite-yt-play-btn svg {
+    width: 38px;
+    height: 27px;
+    display: block;
+  }
+
+  .lite-yt-bg {
+    fill: rgba(33, 33, 33, 0.82);
+    transition: fill 0.2s ease;
+  }
+
+  .lite-yt-icon {
+    fill: #ffffff;
+  }
+
+  .lite-yt-player:hover .lite-yt-play-btn {
+    transform: scale(1.15);
+  }
+
+  .lite-yt-player:hover .lite-yt-bg {
+    fill: #cc181e;
+  }
+
+  .lite-yt-title-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.35rem 0.5rem;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, transparent 100%);
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .lite-yt-title-text {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  :global(.lite-yt-iframe) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style>

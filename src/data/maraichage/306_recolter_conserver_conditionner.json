@@ -5,6 +5,40 @@
   "summary": "Les critères de maturité, récolte aux heures fraîches avec les bons gestes, lavage, égouttage, tri de calibrage et stockage optimal.",
   "total_pages": 21,
   "cover_image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_01.jpg",
+  "media": [
+    {
+      "id": "INE31nI_iTI",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=INE31nI_iTI",
+      "title": "Conserver et Gérer les Récoltes : Méthodes et Bonnes Pratiques",
+      "lang": "fr",
+      "category": "cours"
+    },
+    {
+      "id": "pZYgh_qb39I",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pZYgh_qb39I",
+      "title": "Discussion autour de la gestion et de la conservation des récoltes",
+      "lang": "fr",
+      "category": "pratique"
+    },
+    {
+      "id": "mtrg--oDvFQ",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mtrg--oDvFQ",
+      "title": "Harvest Preservation and Management Methods and Best Practices",
+      "lang": "en",
+      "category": "cours"
+    },
+    {
+      "id": "lfFnV5h3nS0",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lfFnV5h3nS0",
+      "title": "Nakôbio maraîchage - Kalansen Kalaban Koura (Bamanankan)",
+      "lang": "bm",
+      "category": "cours"
+    }
+  ],
   "pages": [
     {
       "page_number": 1,

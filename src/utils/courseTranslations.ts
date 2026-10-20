@@ -47,6 +47,14 @@ export const LANG_FILE_CODES: Record<string, string> = {
   'bm-nko': 'nko'
 };
 
+export const PRINT_TOC_LABELS: Record<string, string> = {
+  fr: 'SOMMAIRE',
+  en: 'CONTENTS',
+  de: 'INHALTSVERZEICHNIS',
+  'bm-latn': 'KƆNƆKOW',
+  'bm-nko': 'ߞߣߐߘߐߝߋ߲'
+};
+
 /**
  * Calcule le nom de fichier PDF clair, indexé par code langue et code cours :
  * Format : [code-lang]_[code-cours]_[nom-cours-dans-la-langue].pdf

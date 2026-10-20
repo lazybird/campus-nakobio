@@ -5,6 +5,32 @@
   "summary": "Toutes les étapes pour mesurer, tracer, creuser les passe-pieds, amender, aérer et pailler vos planches de culture permanentes de 75 cm.",
   "total_pages": 36,
   "cover_image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_01.jpg",
+  "media": [
+    {
+      "id": "ScqNNV6QLpo",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=ScqNNV6QLpo",
+      "title": "Formation maraîchage bio intensif en sol vivant - Sikasso",
+      "lang": "fr",
+      "category": "pratique"
+    },
+    {
+      "id": "0k4SA_8Zd9s",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=0k4SA_8Zd9s",
+      "title": "Podcast 21 - Utilisation de la grelinette et préparation des planches",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "lfFnV5h3nS0",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lfFnV5h3nS0",
+      "title": "Nakôbio maraîchage - Démonstrations pratiques (Bamanankan)",
+      "lang": "bm",
+      "category": "cours"
+    }
+  ],
   "pages": [
     {
       "page_number": 1,

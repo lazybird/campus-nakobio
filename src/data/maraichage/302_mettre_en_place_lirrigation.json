@@ -287,5 +287,23 @@
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_40.jpg"
     }
   ],
-  "course_code": "M3.2"
+  "course_code": "M3.2",
+  "media": [
+    {
+      "id": "SxeW4aoAV3w",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SxeW4aoAV3w",
+      "title": "Discussion autour de l’arrosage des plantes en maraîchage",
+      "lang": "fr",
+      "category": "pratique"
+    },
+    {
+      "id": "IS-5_OQ9uIc",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IS-5_OQ9uIc",
+      "title": "Podcast 20 - Pépinières et méthodes d’arrosage",
+      "lang": "fr",
+      "category": "podcast"
+    }
+  ]
 }

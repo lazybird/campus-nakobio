@@ -287,10 +287,5 @@
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_40.jpg"
     }
   ],
-  "course_code": "M3.2",
-  "media": {
-    "type": "youtube",
-    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "title": "Démonstration complète de la mise en place du réseau d'irrigation"
-  }
+  "course_code": "M3.2"
 }

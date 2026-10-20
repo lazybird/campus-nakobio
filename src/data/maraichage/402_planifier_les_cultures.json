@@ -224,5 +224,23 @@
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_31.jpg"
     }
   ],
-  "course_code": "M4.2"
+  "course_code": "M4.2",
+  "media": [
+    {
+      "id": "9lggNuzqu-8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9lggNuzqu-8",
+      "title": "Interview du formateur Siaka : Semences et maraîchage bio intensif",
+      "lang": "fr",
+      "category": "cours"
+    },
+    {
+      "id": "2NAJHGvCtB4",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2NAJHGvCtB4",
+      "title": "Maraîchage bio-intensif – Épisode 16 : Souveraineté des semences",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

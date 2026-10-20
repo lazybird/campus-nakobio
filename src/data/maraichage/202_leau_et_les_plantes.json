@@ -140,5 +140,15 @@
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_19.jpg"
     }
   ],
-  "course_code": "M2.2"
+  "course_code": "M2.2",
+  "media": [
+    {
+      "id": "SxeW4aoAV3w",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SxeW4aoAV3w",
+      "title": "Discussion autour de l’arrosage des plantes en maraîchage",
+      "lang": "fr",
+      "category": "pratique"
+    }
+  ]
 }

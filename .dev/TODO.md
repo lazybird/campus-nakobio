@@ -32,60 +32,26 @@ Ce document centralise les fonctionnalités planifiées et les spécifications t
 
 ---
 
-## 2. Intégration Multimédia : Vidéos & Audio (YouTube / Médias enrichis)
+## 2. Intégration Multimédia : Vidéos & Audio (YouTube / Médias enrichis) — ✅ RÉALISÉ
 
 ### Contexte & Objectif
 - Renforcer la transmission des savoirs agroécologiques auprès des apprenants et maraîchers sur le terrain (tradition orale forte, contextualisation visuelle des gestes techniques).
-- Associer des contenus multimédias (vidéos / podcasts hébergés sur la chaîne officielle YouTube [@nakobio](https://www.youtube.com/@nakobio)) aux cours et à leurs étapes.
-- Prise en compte rigoureuse de la langue active : les vidéos/audios présentés doivent correspondre à la langue de consultation sélectionnée (FR, EN, Bamanankan Latin & N'ko ߒߞߏ). *Note : le contenu Swahili de la chaîne n'est pas diffusé sur le campus.*
+- Associer des contenus multimédias (vidéos / podcasts hébergés sur la chaîne officielle YouTube [@nakobio](https://www.youtube.com/@nakobio)) aux cours.
+- Prise en compte rigoureuse de la langue active : les vidéos/audios présentés correspondent à la langue de consultation sélectionnée (FR, EN, Bamanankan Latin & N'ko ߒߞߏ). *Le contenu Swahili de la chaîne est exclu du campus.*
 
-### 1. Granularité & Règle d'agrégation
-- **Niveau cours (global) :** Zone multimédia située sous le sommaire des chapitres. Elle regroupe :
-  1. Les vidéos générales / tutoriels liés au thème global du cours.
-  2. Par agrégation automatique, toutes les vidéos rattachées aux différentes sections/parties du cours.
-- **Niveau section / étape (local) :** Remplacement ergonomique de la zone "Partie suivante" (en bas de fiche) par un accordéon vidéo contextuel pour la section en cours.
-- **Filtrage linguistique dynamique :**
-  - Si l'utilisateur consulte le cours en **FR** ➔ vidéos/podcasts en français.
-  - Si l'utilisateur consulte le cours en **EN** ➔ vidéos/podcasts en anglais (ex: *Harvest Preservation...* `mtrg--oDvFQ`, tutoriel maïs `l-XX1z31YZI`).
-  - Si l'utilisateur consulte le cours en **Bambara (Latin ou N'ko ߒߞߏ)** ➔ vidéos et podcasts en bamanankan (ex: Épisodes 5 à 17 avec Seydou, formation Kalaban Koura `lfFnV5h3nS0`).
-  - Fallback intelligent : possibilité d'afficher en second plan les versions originales si une langue n'a pas encore de vidéo dédiée.
-
-### 2. Schéma de données (JSON de cours et pages)
-Champs optionnels supportant le multilinguisme :
-```json
-{
-  "media": [
-    {
-      "type": "youtube",
-      "id": "INE31nI_iTI",
-      "url": "https://www.youtube.com/watch?v=INE31nI_iTI",
-      "lang": "fr",
-      "category": "cours", // "cours" | "podcast" | "tutoriel"
-      "title": "Conserver et Gérer les Récoltes : Méthodes et Bonnes Pratiques",
-      "timestamp_start": 0
-    }
-  ]
-}
-```
-*Note : peut être placé à la racine du JSON (cours) et/ou dans les objets `pages[]` (sections).*
-
-### 3. Emplacements UX / UI retenus (Validés sur maquettes)
-1. **Zone A — Hub vidéo sous le sommaire (`lesson-video-hub`) :**
-   - Placée directement sous le bloc *« Sommaire des chapitres »*.
-   - Dépliée/repliée via un composant accordéon `<details class="video-accordion-hub">` pour ne pas alourdir la page verticalement.
-   - Affiche le compteur de vidéos disponibles dans la langue courante (ex: `🎥 Vidéos & Podcasts associés (3)`).
-   - Onglets ou badges de filtre optionnels : "Tous", "Pratique / Terrain", "Podcasts d'échange".
-
-2. **Zone B — En bas de chaque section (remplace le séparateur "Partie suivante") :**
-   - La zone du lien "Partie suivante" (non indispensable grâce au défilement continu et aux repères de navigation) est remplacée ou enrichie par un panneau accordéon compact.
-   - Accordéon fermé par défaut : *"🎥 Voir la démonstration pratique en vidéo (1)"*.
-   - Une fois ouvert : lecteur vidéo intégré sans distraction.
-
-### 4. Performance & Économie de bande passante (Connexions sahéliennes)
-- **Façade Lite-YouTube (Zero-JS initial) :**
-  - **Ne jamais charger l'iframe YouTube directement** au chargement de la page (économise ~1,2 Mo de JS et 15 requêtes Google par vidéo).
-  - Utiliser une vignette WebP/JPEG légère (`https://i.ytimg.com/vi/{ID}/hqdefault.jpg`) avec un bouton de lecture central stylisé.
-  - L'iframe YouTube n'est injectée dans le DOM **qu'au clic actif de l'apprenant** (`autoplay=1`).
+### Implémentation réalisée :
+1. **Généralisation à l'ensemble du catalogue maraîchage :**
+   - 100% des 30 vidéos officielles inventoriées ont été réparties pédagogiquement sur les 12 modules de maraîchage (`101` à `403`).
+   - Prise en charge des cours en français, en anglais (`mtrg--oDvFQ`, `l-XX1z31YZI`) et en bambara (épisodes 5 à 17 avec Seydou, formation Kalaban Koura `lfFnV5h3nS0`).
+   - Fallback automatique dans les gabarits multilingues : si un fichier traduit ne redéfinit pas son propre tableau `media`, il hérite dynamiquement des vidéos du cours de base filtrées selon la langue (`fr`, `en`, `bm`).
+2. **Architecture UI / UX & Compacité :**
+   - Zone multimédia sous forme d'accordéon repliable `<details class="video-accordion-hub">` placé directement sous le sommaire des chapitres.
+   - Les vidéos de section ont été retirées (jugées superflues et encombrantes), garantissant un flux de lecture fluide.
+   - Format de galerie compacte : vignettes plafonnées à **155px** de largeur max (`minmax(130px, 155px)`), bouton de lecture allégé (38×27px) et métadonnées courtes. Jusqu'à 5 vignettes s'alignent proprement sur une seule ligne.
+   - Indicateur visuel d'état interactif (`▾` pivotant à 180° à l'ouverture) harmonisé avec le sommaire.
+3. **Performance & Façade Zero-JS initiale (`LiteYouTube.astro`) :**
+   - Zéro iframe et zéro requête Google au chargement initial de la page (économie de ~1,2 Mo par vidéo sur réseau sahélien).
+   - Chargement de l'iframe YouTube uniquement au clic de l'utilisateur avec `autoplay=1`.
 
 ---
 

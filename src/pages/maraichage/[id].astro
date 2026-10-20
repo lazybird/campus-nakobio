@@ -4,7 +4,7 @@ import LiteYouTube from '../../components/LiteYouTube.astro';
 import fs from 'node:fs';
 import path from 'node:path';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from '../../utils/languages';
-import { getAvailableTranslations } from '../../utils/courseTranslations';
+import { getAvailableTranslations, PRINT_TOC_LABELS } from '../../utils/courseTranslations';
 
 export async function getStaticPaths() {
   const dataDir = path.resolve('./src/data/maraichage');
@@ -258,16 +258,15 @@ if (totalSteps > 1) {
       <!-- Cartouche d'en-tête officiel pour l'impression A4 et export PDF -->
       <div class="print-official-banner only-print" aria-hidden="true">
         <div class="print-banner-brand">
-          <span class="print-brand-name">CAMPUS NAKÔBIO</span>
-          <span class="print-brand-sub">Plateforme Pédagogique Agroécologique &bull; Sahel &amp; Terroirs Tropicaux</span>
+          <img src="/assets/images/brand/Logo_color(rgb).svg" alt="Nakôbio" class="print-brand-logo" width="140" height="29" />
+          <span class="print-brand-badge">Campus</span>
         </div>
         <div class="print-banner-meta">
           <span class="print-code-pill">{course.course_code || courseId.split('_')[0].toUpperCase()}</span>
-          <span class="print-lang-pill">{langConfig.nativeName}</span>
         </div>
       </div>
 
-      <div class="lesson-badge-row">
+      <div class="lesson-badge-row no-print">
         {course.course_code && (
           <span class="badge badge-code" style="background:#e8f5e9;color:#2e7d32;font-weight:700;">{course.course_code}</span>
         )}
@@ -297,7 +296,7 @@ if (totalSteps > 1) {
       <!-- Table des matières imprimée officielle -->
       {pagesList.length > 0 && (
         <div class="print-table-of-contents only-print" aria-hidden="true">
-          <div class="print-toc-title">PROGRAMME DÉTAILLÉ DE LA FORMATION :</div>
+          <div class="print-toc-title">{PRINT_TOC_LABELS[currentLang] || 'SOMMAIRE'}</div>
           <div class="print-toc-grid">
             {pagesList.map((p: any) => (
               <div class="print-toc-item">
@@ -886,12 +885,21 @@ if (totalSteps > 1) {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.95rem 1.25rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.85rem 1.15rem;
     background: linear-gradient(to right, rgba(47, 74, 52, 0.05), transparent);
     cursor: pointer;
     user-select: none;
     font-family: var(--font-sans);
+    list-style: none;
     transition: background var(--transition-fast);
+  }
+
+  .video-accordion-summary::-webkit-details-marker,
+  .video-accordion-summary::marker {
+    display: none;
+    content: "";
   }
 
   .video-accordion-summary:hover {
@@ -909,7 +917,7 @@ if (totalSteps > 1) {
   }
 
   .video-hub-summary-title {
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 700;
     color: var(--color-brand-primary);
   }
@@ -925,45 +933,59 @@ if (totalSteps > 1) {
   }
 
   .video-hub-toggle-hint {
-    font-size: 0.82rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.8rem;
     font-weight: 600;
     color: var(--color-ink-soft);
+    white-space: nowrap;
+  }
+
+  .video-hub-toggle-hint::after {
+    content: "▾";
+    font-size: 0.85rem;
+    transition: transform var(--transition-fast);
+  }
+
+  .video-accordion-hub[open] .video-hub-toggle-hint::after {
+    transform: rotate(180deg);
   }
 
   .video-hub-content {
-    padding: 1.25rem;
+    padding: 1.15rem;
     border-top: 1px solid var(--color-border);
     background: var(--color-surface);
   }
 
   .video-hub-intro-text {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: var(--color-ink-soft);
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   .video-hub-grid {
     display: grid;
-    gap: 0.75rem;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 180px));
+    gap: 0.65rem;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 155px));
     justify-content: start;
   }
 
   /* Adaptation selon le nombre de vidéos */
   .video-hub-grid.video-count-1 {
-    grid-template-columns: minmax(150px, 240px);
+    grid-template-columns: minmax(130px, 175px);
     justify-content: start;
   }
 
   .video-hub-grid.video-count-2 {
-    grid-template-columns: repeat(2, minmax(150px, 180px));
+    grid-template-columns: repeat(2, minmax(130px, 155px));
   }
 
   .video-hub-grid.video-count-3,
   .video-hub-grid.video-count-4,
   .video-hub-grid.video-count-5,
   .video-hub-grid.video-count-6 {
-    grid-template-columns: repeat(auto-fill, minmax(150px, 180px));
+    grid-template-columns: repeat(auto-fill, minmax(130px, 155px));
     gap: 0.65rem;
   }
 
@@ -975,7 +997,7 @@ if (totalSteps > 1) {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 180px;
+    max-width: 155px;
     transition: transform var(--transition-fast), box-shadow var(--transition-fast);
   }
 
@@ -1242,8 +1264,10 @@ if (totalSteps > 1) {
   /* Sommaire */
   .lesson-quick-toc {
     border-top: 1px solid var(--color-border);
-    padding-top: 1.25rem;
-    margin-top: 0.75rem;
+    padding-top: 1.15rem;
+    margin-top: 0.85rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .toc-summary-toggle {
@@ -1255,13 +1279,17 @@ if (totalSteps > 1) {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
     padding: 0.4rem 0;
     list-style: none;
     user-select: none;
   }
 
-  .toc-summary-toggle::-webkit-details-marker {
+  .toc-summary-toggle::-webkit-details-marker,
+  .toc-summary-toggle::marker {
     display: none;
+    content: "";
   }
 
   .toc-summary-label {
@@ -1271,10 +1299,23 @@ if (totalSteps > 1) {
   }
 
   .toc-toggle-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
     font-size: 0.8rem;
     color: var(--color-ink-faint);
     font-weight: 500;
     white-space: nowrap;
+  }
+
+  .toc-toggle-hint::after {
+    content: "▾";
+    font-size: 0.85rem;
+    transition: transform var(--transition-fast);
+  }
+
+  .lesson-quick-toc[open] .toc-toggle-hint::after {
+    transform: rotate(180deg);
   }
 
   .toc-pills-list {
