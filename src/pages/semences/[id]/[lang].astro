@@ -323,9 +323,9 @@ if (totalSteps > 1) {
         <details class="lesson-quick-toc no-print">
           <summary class="toc-summary-toggle">
             <span class="toc-summary-label">
-              📋 {isRtl ? `ߞߊ߬ߙߊ߲ ߞߎ߲߬ߕߐ߮ ߟߎ߬ (${pagesList.length} ߝߊ߲߭)` : currentLang === 'en' ? `Table of contents (${pagesList.length} parts)` : currentLang === 'de' ? `Inhaltsverzeichnis (${pagesList.length} Teile)` : currentLang === 'bm-latn' ? `Kalansen kuntigɛw (${pagesList.length})` : `Sommaire des chapitres (${pagesList.length} parties)`}
+              📋 Sommaire des chapitres ({pagesList.length} parties)
             </span>
-            <span class="toc-toggle-hint">{isRtl ? 'ߊ߬ ߦߌ߬ߘߊ߬ / ߊ߬ ߘߏ߲߰' : currentLang === 'en' ? 'Show / Hide' : currentLang === 'de' ? 'Anzeigen / Ausblenden' : currentLang === 'bm-latn' ? 'A jira / A dɔgɔ' : 'Afficher / Masquer'}</span>
+            <span class="toc-toggle-hint">Afficher / Masquer</span>
           </summary>
           <div class="toc-pills-list">
             {pagesList.map((p: any) => (
@@ -345,20 +345,16 @@ if (totalSteps > 1) {
             <div class="video-summary-left">
               <span class="video-hub-badge-icon">🎥</span>
               <span class="video-hub-summary-title">
-                {isRtl ? 'ߖߌ߬ߦߊ߬ߖߟߎ ߣߌ߫ ߓߊ߯ߙߊߢߐ߲߯ߦߊ ߟߎ߬' : currentLang === 'en' ? 'Videos & Practical Demonstrations' : 'Vidéos & Démonstrations pratiques'} ({allVideos.length})
+                Vidéos & Démonstrations pratiques ({allVideos.length})
               </span>
               <span class="video-hub-lang-tag">{langConfig.shortLabel || currentLang.toUpperCase()}</span>
             </div>
-            <span class="video-hub-toggle-hint">{isRtl ? 'ߊ߬ ߦߌ߬ߘߊ߬ / ߊ߬ ߘߏ߲߰' : 'Afficher / Masquer'}</span>
+            <span class="video-hub-toggle-hint">Afficher / Masquer</span>
           </summary>
 
           <div class="video-hub-content">
             <p class="video-hub-intro-text">
-              {isRtl 
-                ? 'ߞߊ߬ߙߊ߲߬ߕߊ ߣߌ߲߬ ߟߊ߫ ߖߌ߬ߦߊ߬ߖߟߎ ߣߌ߫ ߘߐ߬ߛߊ߬ߡߊ߲߬ߠߌ߲ ߓߍ߯ ߟߊߞߊ߬ߝߏ߬ߣߍ߲ ߡߊߝߟߍ߫ :' 
-                : currentLang === 'en' 
-                  ? 'Find all video tutorials, field techniques, and related podcasts for this module:' 
-                  : 'Retrouvez l\'ensemble des tutoriels, gestes techniques au champ et podcasts associés à ce module :'}
+              Retrouvez l'ensemble des tutoriels, gestes techniques au champ et podcasts associés à ce module :
             </p>
             <div class={`video-hub-grid video-count-${Math.min(allVideos.length, 6)}`}>
               {allVideos.map((vid: any) => (
