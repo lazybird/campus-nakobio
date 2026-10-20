@@ -1,0 +1,221 @@
+{
+  "id": "401_proteger_la_sante_des_plantes",
+  "title": "Pflanzengesundheit schützen",
+  "category": "Schutz & Gestaltung",
+  "summary": "Krankheiten, Schädlinge, Mangelerscheinungen und Wasserstress erkennen. Natürliche Rezepte für Biopestizide und Biodünger (Knoblauch, Neem, fermentierte Extrakte).",
+  "total_pages": 30,
+  "cover_image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_01.jpg",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Für reiche Ernten braucht es gesunde Pflanzen.",
+      "text": "Dieses Modul zeigt Ihnen, wie Sie Warnzeichen erkennen, natürliche Lösungen einsetzen und Problemen vorbeugen können.",
+      "illustration_description": "Illustration pédagogique pour Pour des récoltes abondantes, il faut des plantes en bonne santé.",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "PFLANZENGESUNDHEIT SCHÜTZEN",
+      "text": "PFLANZEN",
+      "illustration_description": "Illustration pédagogique pour PROTÉGER LA SANTÉ DES",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Verstehen, dass es verschiedene Arten von Problemen gibt",
+      "text": "Verstehen, dass es verschiedene Arten von Problemen gibt",
+      "illustration_description": "Illustration pédagogique pour Comprendre qu’il existe différents types de problèmes",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "KRANKHEIT",
+      "text": "MANGEL\n\nEs gibt 4 Haupttypen von Pflanzenkrankheiten:\n\nKrankheit Mangel Schädlinge Stress SCHÄDLINGE STRESS",
+      "illustration_description": "Illustration pédagogique pour MALADIE",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Problemtyp identifizieren",
+      "text": "**EIN KRANKHEITSBEDINGTES PROBLEM ERKENNEN**",
+      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Pilz",
+      "text": "Virus Bakterium Eine Krankheit wird durch einen Pilz, ein Bakterium oder ein Virus verursacht.",
+      "illustration_description": "Illustration pédagogique pour Champignon",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "AUFGABEN",
+      "text": "FÄULNIS VERFORMUNG\n\nEine Pflanze kann krank sein, wenn Sie Folgendes beobachten:\n\nFlecken auf den Blättern (schwarz, weiß oder braun), Anzeichen von Fäulnis an Früchten oder Wurzeln,\n\n- verformte oder gekräuselte Blätter, dauerhaftes Welken, auch wenn die Pflanze genug Wasser erhalten hat.\n\nWELKEN",
+      "illustration_description": "Illustration pédagogique pour TÂCHES",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "ZU VIEL WASSER",
+      "text": "ZU TROCKEN ZU HEISS/KALT ZU DICHT\n\nKrankheiten entwickeln sich, wenn:\n\n- **Zu viel Wasser**: zu häufiges Gießen, ständig nasser Boden, lange Regenperioden.\n\n- **Zu wenig Wasser**: Eine durstige Pflanze ist weniger widerstandsfähig gegen Krankheiten.\n\n- **Große Hitze oder Kälteeinbruch**: Plötzliche Schwankungen können die Pflanze schwächen und Krankheiten aktivieren.\n\n- **Mangel an Luft zwischen den Pflanzen**: Ein zu enger Stand fördert Staunässe und somit Krankheiten.",
+      "illustration_description": "Illustration pédagogique pour TROP D’EAU",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "SCHNEIDEN",
+      "text": "ENTFERNEN STÄRKEN BEHANDELN Was tun, wenn eine Pflanze krank ist?\n\n- **Betroffene Teile entfernen**: Schneiden Sie kranke Blätter, Stängel oder Früchte ab, um eine Ausbreitung zu verhindern.\n\n- **Entfernen Sie die gesamte Pflanze**, wenn sie zu krank ist und nicht mehr gerettet werden kann.\n\n- **Stärken Sie die Pflanze und den Boden** mit einer leichten Gabe von Kompost oder Kompostjauche.\n\n- **Wenden Sie eine natürliche Behandlung an**: Knoblauchsud, Neemjauche, Natron…",
+      "illustration_description": "Illustration pédagogique pour COUPER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "BLÄTTER AUSLICHTEN",
+      "text": "BEWÄSSERUNG ANPASSEN +\n\nUm ein Wiederauftreten der Krankheit zu vermeiden, können Sie:\n\n* Das Laub auslichten, um Luft und Licht hereinzulassen und Staunässe zu begrenzen.\n* Die Bewässerung anpassen",
+      "illustration_description": "Illustration pédagogique pour ÉCLAIRCIR LE FEUILLAGE",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Problemtyp identifizieren",
+      "text": "EIN MANGELBEDINGTES PROBLEM ERKENNEN",
+      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Gelbe Blätter",
+      "text": "Deformierte Früchte Langsames Wachstum Violette Stängel Trockene Ränder Wenn eine Pflanze nicht alle Nährstoffe erhält, die sie benötigt, ist dies sichtbar.\n\nEine Pflanze kann mangelhaft sein, wenn Sie Folgendes beobachten:\n\n- Gelbe Blätter (oft unten)\n- Kleine oder deformierte Früchte\n- Rote oder violette Stängel\n- Blätter mit trockenen, roten oder violetten Rändern\n- Langsames Wachstum, kümmerliche Pflanzen",
+      "illustration_description": "Illustration pédagogique pour Feuilles jaunes",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "SCHLECHTER BODEN",
+      "text": "VERDICHTETER BODEN, UNGLEICHGEWICHTIGER PH-WERT\n\nMangelerscheinungen treten auf, wenn:\n\n- Der Boden nährstoffarm ist und Kompost fehlt oder von schlechter Qualität ist.\n\n- Der Boden zu verdichtet oder schlecht belüftet ist: Wasser und Nährstoffe können die Wurzeln nicht richtig erreichen.\n\n- Der pH-Wert (Säure- oder Basenwert) des Bodens unausgeglichen ist: Zu sauer oder zu basisch kann er bestimmte Nährstoffe blockieren, selbst wenn diese im Boden vorhanden sind.",
+      "illustration_description": "Illustration pédagogique pour SOL PAUVRE",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "STÄRKEN",
+      "text": "BEHANDELN TESTEN GRUNDLEGENDE IDEE AC pH IDEE AC GRUNDLEGENDE NEUTRAL pH NEUTRAL ANALYSIEREN\n\nUm einen Mangel zu beheben, kann man:\n\n- Regelmäßig reifen Kompost hinzufügen: 1 bis 2 Schubkarren pro Beet, je nach Kultur\n- Blätterjauche (Brennnessel, Beinwell, Neem…) verwenden, um das Wachstum anzuregen\n- Den pH-Wert des Bodens testen, wenn das Problem weiterhin besteht (pH-Papier oder einfaches Kit). Wenn er zu sauer ist, kann man ihn mit einer kleinen Menge **landwirtschaftlichem Kalk** korrigieren.\n\n- Eine Bodenanalyse durchführen, um die fehlenden Elemente zuzuführen",
+      "illustration_description": "Illustration pédagogique pour RENFORCER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Problemtyp identifizieren",
+      "text": "**EIN PROBLEM ERKENNEN, DAS DURCH SCHÄDLICHE INSEKTEN VERURSACHT WIRD**",
+      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Sichtbare Insekten",
+      "text": "Schädliche Insekten schwächen Pflanzen, reduzieren Ernten und übertragen Krankheiten. Es ist besser, sie frühzeitig zu erkennen, um die Schäden zu begrenzen:\n\n- **Sichtbare Insekten**: Raupen, Weiße Fliegen, Blattläuse, Heuschrecken, Maden…\n- **Löcher in den Blättern**: angefressene Ränder oder runde Löcher in der Mitte\n- **Durchbohrte, verfaulte oder vor der Reife angefressene Früchte**\n- **Deformierte oder klebrige Blätter**: Vorhandensein von Blattläusen\n- **Kleine Gänge in Blättern oder Wurzeln**: Würmer, Nematoden\n- **Vorhandensein von Eiern an Stängeln oder unter Blättern**",
+      "illustration_description": "Illustration pédagogique pour Insectes visibles",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "GENAU BEOBACHTEN:",
+      "text": "Jungpflanzen Gestresste Pflanzen\n\n- Kohl-, Tomaten-, Bohnen- und Okrakulturen\n\nEinige Pflanzen sind anfälliger und müssen genau beobachtet werden:\n\nJunge Sämlinge und Jungpflanzen mit zarten Blättern, die für Insekten sehr attraktiv sind\nGestresste oder geschwächte Pflanzen, die sich schlechter wehren können\nKulturen wie Kohl, Tomaten, Bohnen oder Okra werden häufiger angegriffen",
+      "illustration_description": "Illustration pédagogique pour SURVEILLER DE PRÈS :",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "SCHNEIDEN",
+      "text": "SPRÜHEN\n\nWenn Sie Anzeichen von Schädlingsbefall festgestellt haben:\n\n- Entfernen Sie stark befallene Blätter, um die Ausbreitung zu verlangsamen\n- Besprühen Sie die Pflanzen, um Schadinsekten zu entfernen\n- Installieren Sie feine Netze oder Gitter gegen fliegende Insekten\nSCHÜTZEN",
+      "illustration_description": "Illustration pédagogique pour COUPER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_18.jpg"
+    },
+    {
+      "page_number": 19,
+      "title": "ÜBERWACHEN",
+      "text": "PFLANZEN SIE ABWEHRMITTEL AN, ZIEHEN SIE NÜTZLICHE INSEKTEN AN BASILIKUM MINZE ZITRONENGRAS WESPE MARIENKÄFER\n\nUm die Rückkehr von Schädlingen zu vermeiden:\n\n- Beobachten Sie regelmäßig die Unterseiten der Blätter und die jungen Triebe. Dies hilft, Probleme frühzeitig zu erkennen.\n\n- Pflanzen Sie abwehrende Pflanzen wie Basilikum, Minze, Zitronengras oder Studentenblumen neben die Kulturen.\n\n- Ziehen Sie nützliche Insekten wie Marienkäfer oder bestimmte Wespen an, die Schädlinge fressen. Legen Sie schädliche Insekten auf einen Teller in der Nähe der Kulturen mit Samen, um Vögel anzulocken. Diese suchen dann die schädlichen Insekten direkt an den Pflanzen.",
+      "illustration_description": "Illustration pédagogique pour SURVEILLER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_19.jpg"
+    },
+    {
+      "page_number": 20,
+      "title": "Den Problemtyp identifizieren",
+      "text": "EIN STRESSBEDINGTES PROBLEM ERKENNEN",
+      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_20.jpg"
+    },
+    {
+      "page_number": 21,
+      "title": "Die Pflanze scheint zu leiden, aber es sind keine Schädlinge oder Krankheiten sichtbar. Was, wenn es Stress ist? Dies zeigt sich durch:",
+      "text": "Sie welkt mitten am Tag, besonders bei Hitze.\n\nSie hat aufgehört zu wachsen.",
+      "illustration_description": "Illustration pédagogique pour La plante semble aller mal, mais aucun ravageur ni maladie n’est visible. Et si c’était du stress ? Cela est visible par :",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_21.jpg"
+    },
+    {
+      "page_number": 22,
+      "title": "ZU HEISS/KALT",
+      "text": "ZU TROCKEN / ZU FEUCHT\nSCHLECHT DURCHGEFÜHRTES VERPFLANZEN IN DER VOLLEN SONNE\nZU FRÜH/SPÄT\n\nWas bei der Pflanze Stress verursacht:\n\n- Ein zu heißer oder zu kalter Boden\n- Extreme Schwankungen: zu trocken, zu feucht\n- Schlecht durchgeführtes Verpflanzen oder in der vollen Sonne\n- Eine zu frühe oder zu späte Transplantation\n- Ein zu kompakter Boden: die Wurzeln haben Schwierigkeiten, sich auszubreiten\n**VERDICHTETER BODEN**",
+      "illustration_description": "Illustration pédagogique pour TROP CHAUD/FROID",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_22.jpg"
+    },
+    {
+      "page_number": 23,
+      "title": "MULCHEN",
+      "text": "GIESSEN + SCHATTENNETZ SCHÜTZEN\n\nWarten Sie mit der Behandlung: Stress verschwindet in 1–2 Tagen, wenn die Pflanze wieder gute Bedingungen vorfindet. Wenn der Stress anhält:\n\n- Eine Mulchschicht anbringen, um die Bodenfeuchtigkeit zu erhalten\n- Regelmäßig und ohne Überschuss gießen\n- Pflanzen mit einem Schattenspender schützen",
+      "illustration_description": "Illustration pédagogique pour PAILLER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_23.jpg"
+    },
+    {
+      "page_number": 24,
+      "title": "Probleme durch Bio-Gemüseanbau begrenzen",
+      "text": "intensiv im lebendigen Boden",
+      "illustration_description": "Illustration pédagogique pour Limiter les problèmes grâce au maraîchage bio",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_24.jpg"
+    },
+    {
+      "page_number": 25,
+      "title": "Bio-intensiver Gemüsebau auf lebendigem Boden stärkt Pflanzen und Boden auf natürliche Weise.",
+      "text": "Ergebnis: Die Pflanzen sind gesund und es gibt seltener Probleme.",
+      "illustration_description": "Illustration pédagogique pour Le maraîchage bio-intensif en sol vivant renforce naturellement les plantes et le sol.",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_25.jpg"
+    },
+    {
+      "page_number": 26,
+      "title": "SORTENWAHL",
+      "text": "SORTEN WÄHLEN PFLANZABSTÄNDE EINHALTEN Wie pflanzt man richtig im bio-intensiven Anbau?\n\n- Die Sorten je nach Saison gut auswählen\n- Die Pflanzabstände einhalten\n- Kulturen assoziieren\n- Fruchtwechsel durchführen\nKULTUREN ASSOZIIEREN FRUCHTWECHSEL DURCHFÜHREN",
+      "illustration_description": "Illustration pédagogique pour CHOISIR SES",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_26.jpg"
+    },
+    {
+      "page_number": 27,
+      "title": "ANPASSEN",
+      "text": "BEWÄSSERUNG MULCH KOMPOST + SCHONENDE BEWÄSSERUNG\n\nWie man seine Kulturen in lebendigem Boden pflegt:\n\n- Regelmäßig Kompost / Kompostsaft ausbringen\n- Reichlich mulchen\n- Beete und Wege mit schonender Bewässerung gießen\n- Insektenschutznetze verwenden\n- Die Wasserzufuhr an das Wachstumsstadium der Pflanze anpassen\n- NETZE",
+      "illustration_description": "Illustration pédagogique pour ADAPTER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_27.jpg"
+    },
+    {
+      "page_number": 28,
+      "title": "Ein natürliches Behandlungsmittel herstellen",
+      "text": "Ein natürliches Behandlungsmittel herstellen",
+      "illustration_description": "Illustration pédagogique pour Fabriquer un traitement naturel",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_28.jpg"
+    },
+    {
+      "page_number": 29,
+      "title": "Wenn das Problem weiterhin besteht, muss eine natürliche Behandlung angewendet werden.",
+      "text": "Man kann bestimmte Pflanzen zu **Jauchen**, **Aufgüssen** oder **Abkochungen** verarbeiten, um die Kulturen zu schützen.",
+      "illustration_description": "Illustration pédagogique pour Si le problème persiste, il faut utiliser un traitement naturel.",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_29.jpg"
+    },
+    {
+      "page_number": 30,
+      "title": "Mit lebendigem, gut genährtem Boden, Schutznetzen für Kulturen und angepassten natürlichen Behandlungen können wir vorbeugen",
+      "text": "und die meisten Probleme ohne den Einsatz von Chemikalien bewältigen.\n\nDurch eine gute Fruchtfolge und eine intelligente Sortenwahl fördern wir auch widerstandsfähigere Pflanzen und bessere Ernten.",
+      "illustration_description": "Illustration pédagogique pour Avec un sol vivant et bien nourri, des filets pour protéger les cultures, et des traitements naturels adaptés, on peut prévenir",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_30.jpg"
+    }
+  ],
+  "course_code": "M4.1"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "403_design_dune_micro_ferme",
+  "title": "Designprinzipien für eine Mikrofarm",
+  "category": "Schutz & Gestaltung",
+  "summary": "Ergonomische Raumaufteilung, Ausrichtung der Beete, Windschutz, Wassermanagement, Wege und Optimierung jeder Zone.",
+  "total_pages": 18,
+  "cover_image": "assets/images/maraichage/403_design_dune_micro_ferme/page_01.jpg",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Das Design einer Mikrofarm hilft, besser zu produzieren, sich weniger zu ermüden und eine dauerhafte Farm zu erhalten",
+      "text": "Dieses Modul zeigt Ihnen, wie Sie Ihre Farm entsprechend Ihren Bedürfnissen und Ihrem Gelände organisieren können.",
+      "illustration_description": "Illustration pédagogique pour Le design d’une micro-ferme aide à mieux produire, à moins se fatiguer et à garder une ferme qui dure dans le",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "DIE DESIGNPRINZIPIEN EINER",
+      "text": "MIKROFARM",
+      "illustration_description": "Illustration pédagogique pour LES PRINCIPES DE DESIGN D’UNE",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "In einem biointensiven Marktgartensystem mit lebendigem Boden ermöglicht eine gute Raumorganisation Folgendes:",
+      "text": "Arbeitsaufwand zu reduzieren und die Arbeitszeit zu optimieren,\n\n- den Boden zu schützen und zu verbessern,\n- die Gesundheit der Kulturen zu gewährleisten,\n\nsich an Klima und verfügbare Ressourcen anzupassen.",
+      "illustration_description": "Illustration pédagogique pour Dans un système de maraîchage bio-intensif en sol vivant, une bonne organisation de l’espace permet de :",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Die Prinzipien einer effektiven Organisation",
+      "text": "Die Prinzipien einer effektiven Organisation",
+      "illustration_description": "Illustration pédagogique pour Les principes d’une organisation efficace",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Eine gute Raumorganisation ermöglicht schnelleres und müheloseres Arbeiten. Ziel ist es, die",
+      "text": "unnötigen Wege zu reduzieren und die täglichen Handgriffe zu erleichtern.\n\nEinige Prinzipien zur Anwendung:\n\n- Wasser, Kompost und Werkzeuge in unmittelbarer Nähe der Kulturbeete platzieren.\n\n- Arbeitsbereiche logisch und kompakt organisieren.\n\n- Freie Wege vorsehen, die zu Fuß oder mit der Schubkarre zugänglich sind.\n\n- Einfache und sichtbare Ablageflächen schaffen.",
+      "illustration_description": "Illustration pédagogique pour Une bonne organisation de l’espace permet de travailler plus vite, avec moins d’efforts. L’objectif est de réduire les",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Die Zoning-Technik anwenden",
+      "text": "Die Zoning-Technik anwenden",
+      "illustration_description": "Illustration pédagogique pour Utiliser la technique du zoning",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "ZONE 0",
+      "text": "ZONE 1 ZONE 2 ZONE 3 Zoning bedeutet, jedes Element des Hofes nach seiner Nutzungshäufigkeit zu platzieren: Je häufiger es genutzt wird, desto näher ist es.\n\nHier ist eine typische Organisation:\n\n- Zone 0: Zentraler Bereich für Verwaltung, Lagerung und Ruhe.\n\n- Zone 1: Intensive Anbauflächen, die tägliche Überwachung erfordern.\n\n- Zone 2: Kulturen mit langem Zyklus, Obstbäume, Gründüngung, Kompostieranlage.\n\n- Zone 3: Lagerung von organischem Material oder Erweiterungsfläche.\n\nZum Beispiel in der Praxis:\n\n- Die Parzellen mit 10 Beeten werden um die Zonen 0 und 1 herum gruppiert, um die Wege zu verkürzen.\n\n- Kompostieranlagen und Wasserreserven sind für mehrere Parzellen zugänglich.\n\n- Bäume auf permanenten Beeten am Rand bieten Schatten, Schutz und Produktion.",
+      "illustration_description": "Illustration pédagogique pour ZONE 0",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "Das Klima in der Betriebsorganisation berücksichtigen",
+      "text": "Das Klima in der Betriebsorganisation berücksichtigen",
+      "illustration_description": "Illustration pédagogique pour Tenir compte du climat dans son organisation",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "1",
+      "text": "5 4 3 2 Sobald der Raum gut organisiert ist, muss man über die Ausrichtung und den Schutz der Kulturen vor dem Klima nachdenken.\n\n1. Richten Sie die Beete entsprechend dem Sonnenverlauf aus (Nord-Süd oder Ost-West je nach Kulturen).\n2. Schützen Sie empfindliche Bereiche (Baumschulen, Salate…) mit natürlichem Schatten oder Schattiernetzen.\n3. Schützen Sie vor Wind und Staub mit Windschutzhecken oder Bäumen am Rand.\n4. Managen Sie Regenwasser mit Gräben, Hochbeeten oder einer guten Drainage.\n5. Installieren Sie kleine Unterstände für Werkzeuge, Jungpflanzen oder Saatgut.\n\nDiese Elemente bereits beim Design zu berücksichtigen, gewährleistet ein gutes Wachstum der Kulturen und begrenzt Verluste.",
+      "illustration_description": "Illustration pédagogique pour 1",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "Die wichtigsten Einrichtungen einer Mikrofarm",
+      "text": "Die wichtigsten Einrichtungen einer Mikrofarm",
+      "illustration_description": "Illustration pédagogique pour Les aménagements clés d’une micro-ferme",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "UNTERSTAND UND LAGERUNG",
+      "text": "ZUGÄNGLICHE WASSERSTELLEN\nSobald der Raum organisiert und geschützt ist, müssen die wesentlichen Strukturen für das reibungslose Funktionieren der Mikrofarm geplant werden.\n\n- **Lagerung**: Saatgut und Werkzeuge vor Feuchtigkeit geschützt. Erntegut vor dem Verkauf oder der Verarbeitung im Schatten lagern.\n\n- **Werkzeugunterstände**: Große Werkzeuge unter einem einfachen Dach. Kleine Werkzeuge aufgehängt oder verstaut, um zugänglich zu bleiben.\n\n- **Wasser**: Hauptreserve + kleine Wasserstellen in der Nähe der Kulturen.",
+      "illustration_description": "Illustration pédagogique pour ABRI ET STOCKAGE",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "KOMPOSTANLAGE",
+      "text": "OBSTBÄUME ZAUN Kompost: **1 Kompostanlage** für einen kleinen Betrieb, **2** für einen mittleren, bis zu **4** für einen großen.\n\nObstbäume: **Ein Beet am Rand** vor den Kulturen und **ein weiteres am Ende des Grundstücks** (im Abstand von 1,5 m). Sie spenden Schatten, Früchte und Schutz.\n\nZaun: **Robust, gut platziert**, mit einem **leicht zugänglichen Tor**.\n\nDie **Antizipation dieser Elemente** vermeidet kostspielige Umstrukturierungen und macht das System von Anfang an **flüssiger**.",
+      "illustration_description": "Illustration pédagogique pour COMPOSTIÈRE",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "Beispiele für Organisationsmodelle",
+      "text": "Beispiele für Organisationsmodelle",
+      "illustration_description": "Illustration pédagogique pour Exemples de modèles d’organisation",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "SUBSISTENZFARM",
+      "text": "MITTLERE FARM GROSSE BETRIEBSFARM SCHULUNGSFARM AUSBILDUNGSBEREICH Es gibt nicht das eine gute Modell: Die Organisation einer Farm hängt von den Zielen, Ressourcen und dem Gelände ab.\n\nHier sind 4 konkrete Beispiele, die je nach Bedarf angepasst werden können.\n\nWichtig ist, ein kohärentes, funktionales und skalierbares System zu entwerfen, das an Ihre Realitäten angepasst ist.",
+      "illustration_description": "Illustration pédagogique pour FERME DE SUBSISTANCE",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "SUBSISTENZFARM",
+      "text": "DAUERHAFTES BEET EINGEZÄUNT\nSubsistenzfarm\n- 1 Parzelle (10 Beete) + 1 Komposthaufen\n- Obstbäume am Rand\n\nMITTLERE FARM\nOBSTBAUM\nWASSERRESERVOIR\nKOMPOSTHAUFEN\nGERÄTESCHUPPEN\nMittlere Farm\n- 3 Parzellen (je 10 Beete) + 2 Komposthaufen\n- Gemeinsames Wasserreservoir für alle Parzellen",
+      "illustration_description": "Illustration pédagogique pour FERME DE SUBSISTANCE",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "GROSSER BETRIEBSHOF",
+      "text": "LEHRBETRIEB SCHULUNGSBEREICH EINGEZÄUNTES GELÄNDE DAUERBEET OBSTBAUM Großer Betriebshof 12 Parzellen + 4 Kompostanlagen auf dem Gelände verteilt Erleichterter Verkehr für Schubkarren und Karren WASSERRESERVOIR KOMPOSTANLAGE GERÄTESCHUPPEN Lehrbetrieb Produktionsbereich (6 bis 12 Parzellen) Schulungsbereich (Unterstand, pädagogische Lagerung) 3 bis 4 Kompostanlagen + Baumbestand",
+      "illustration_description": "Illustration pédagogique pour GRANDE FERME-ENTREPRISE",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "FAZIT",
+      "text": "FAZIT",
+      "illustration_description": "Illustration pédagogique pour CONCLUSION",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "Gutes Design bedeutet ein kohärentes und praktisches System. Es vereinfacht Ihre tägliche Arbeit.",
+      "text": "Effizienz: Den Raum so organisieren, dass Wege verkürzt werden und Werkzeuge, Wasser und Kompost immer griffbereit sind.\n\nAnpassung: Bei der Gestaltung Klima, verfügbare Ressourcen und Geländebeschränkungen berücksichtigen.\n\nSkalierbarkeit: Ein flexibles Design entwickeln, das im Laufe der Zeit wachsen oder angepasst werden kann.",
+      "illustration_description": "Illustration pédagogique pour Un bon design, c’est un système cohérent et pratique. Il vous simplifie le travail au quotidien.",
+      "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_18.jpg"
+    }
+  ],
+  "course_code": "M4.3"
+}

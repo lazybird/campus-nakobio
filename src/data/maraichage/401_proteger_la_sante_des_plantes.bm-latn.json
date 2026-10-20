@@ -1,0 +1,221 @@
+{
+  "id": "401_proteger_la_sante_des_plantes",
+  "title": "Jiginɛw ka kɛnɛya lakana",
+  "category": "Lakana & Dabali",
+  "summary": "Jiginɛw ka bana, dunanw, fɛn caman ka faga ani ji ka gɛlɛya dɔn. Biopesticides ani biofertilisants nɔnɔw (layiri, nim, fɛn fura minnu bɛ jɛn).",
+  "total_pages": 30,
+  "cover_image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_01.jpg",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Sɛnɛnaw ka kɛɲɛ, a ka kan ka jɛgɛya.",
+      "text": "Modulu nin bɛ a jira i la cogo min na i bɛ se ka kɔrɔbɔli dɔnniya dɔn, ka fura nɔgɔnɲɔgɔnw kɛ, ani ka kɔrɔbɔliw bali.",
+      "illustration_description": "Illustration pédagogique pour Pour des récoltes abondantes, il faut des plantes en bonne santé.",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "DUGUKOLO NI JIRIW HƐƐRƐ DƐMƐ",
+      "text": "JIRIW",
+      "illustration_description": "Illustration pédagogique pour PROTÉGER LA SANTÉ DES",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Ka faamu ko kɛlɛya caman bɛ tɔrɔw la",
+      "text": "Ka faamu ko kɛlɛya caman bɛ tɔrɔw la",
+      "illustration_description": "Illustration pédagogique pour Comprendre qu’il existe différents types de problèmes",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "BAANA",
+      "text": "FURA\n\nKuma kɛrɛnkɛrɛnnen na, dibi la, dumuni la, ani yɔrɔ la, baana bɛ se ka kɛ ni sababu naani ye:\n\nBaana Fura Nɛnɛw Teliya Nɛnɛw Teliya\n",
+      "illustration_description": "Kalan kɔlɔsili ja baana kama",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Kajɛn ka bana kɛlɛyara",
+      "text": "KA BANA KƐLƐYARA JAA KAN K’A DƆN",
+      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Fɛnɲɛ",
+      "text": " **Virus** **Bactérie** Maladi bɛ kɛ fɛnɲɛ, bactérie walima virus fɛ.",
+      "illustration_description": "Illustration pédagogique pour Champignon",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "BAARAW",
+      "text": "**FURUYA NI JUGUYALEN**\n\nJardin bɛ se ka kɛ **banaba** ye ni i ye a ye ko:\n\n- **Juruya** bɛ a ka **yiridenw** kan (fiɲɛ, jɛ, walima **kɔgɔba**), **furuyalen** bɛ a ka **denw** walima a ka **juruw** kan,\n- **Yiridenw** **juguyalen** walima **gɔngɔlɔnnen**, **ɲɛgɛnɛlen** tuma bɛɛ, hali ni **jardin** ye **ji** sɔrɔ ka ca.\n\n**ƝƐGƐNƐLEN**",
+      "illustration_description": "Illustration pédagogique pour TÂCHES",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "JI CAMAN",
+      "text": "JINYE CAMAN/GELEN CAMAN/NWOLON CAMAN\n\nBanaw be bonya ni :\n\n- Ji caman : ji-donni ka ca, dugujukɔrɔ ka nɔgɔ tuma bɛɛ, sanji ka gɛlɛn.\n\n- Ji riɲan : yiri min ka miɲɛn, o tɛ se ka banabaara kɛ kosɛbɛ.\n\n- Hɛɛrɛba walima nwolonba : nɔgɔya ninnu be se ka yiri barika gɛn ka bana kɛcogo bonya.\n\n- Hakɛ riɲan yiriw cɛ : yiriw ka surunbaara be se ka nɔgɔya bonya ani o be bana kɛcogo bonya.",
+      "illustration_description": "Illustration pédagogique pour TROP D’EAU",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "KƆN",
+      "text": "BƆ - MAGAN - KAN\n**Mun ka kan ka kɛ ni jiri dɔ tɔrɔna ye**?\n\n- **Bɔ a yɔrɔ minnu tɔrɔna**: i ka a bla, a wisiw, walima a denninw minnu tɔrɔna ka bɔ, walasa a kana taga yɔrɔ wɛrɛ la.\n\n- **Bɔ jiri bɛɛ lajɛnni na** ni a tɔrɔra kosɛbɛ ka se ka kisi.\n\n- **Magan jiri la** ani dugukolo la ni **compost** walima **compost jus** dɔɔnin ye.\n\n- **Kɛ dɔgɔya kɛcogo yɛrɛyɛrɛ dɔ la**: jaba jus, nim purin, bicarbonate…",
+      "illustration_description": "Illustration pédagogique pour COUPER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "JIRITIGƐLA",
+      "text": "JINJINNI KƐLI KAN KƐ KAN SƆRƆ\n\nNafolo ka ban ka segin, i bɛ se ka kɛ:\n\n* Jiritigɛla walasa ka fɛnɲɛnɛ ni yeelen bila ka tɛmɛ, ani ka jinjinni dɔgɔya min bɛ sigi.\n* Jinjinni kɛli kan kɛ kan sɔrɔ",
+      "illustration_description": "Illustration pédagogique pour ÉCLAIRCIR LE FEUILLAGE",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Kajɔnɔgɔn sɔrɔli",
+      "text": "KUNJAA JUKƆRƆYA SABABU JUKƆRƆYA SƆRƆLI",
+      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Wolo-finiw",
+      "text": "Yiridenw kɔrɔtalenw\nDenbaya gɛlɛya\nBana-juruw nɛnɛmanw\nFolifoliw dafara\nNi yiri ma nafa bɛɛ sɔrɔ minnu ka kan ni a ye, o bɛ yirila.\n\nNi i ye ninw ye, yiri bɛ se ka kɔrɔtɔ:\n\n- Wolo-finiw (sɔɔlɔn yiri jukɔrɔ)\n- Yiridenw dɔgɔmanw walima kɔrɔtalenw\n- Bana-juruw jɛmanw walima nɛnɛmanw\n- Folifoliw dafara, jɛmanw walima nɛnɛmanw\n- Denbaya gɛlɛya, yiriw dɔgɔmanw",
+      "illustration_description": "Illustration pédagogique pour Feuilles jaunes",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "DUGUKOLO JUGU",
+      "text": "DUGUKOLO MIN BƐ KAN, A KA PH (ASIDI NI BASI) MA SƆN KAN\n\nKɔrɔnfɛn caman bɛ labɛn tuma min na:\n\n- Dugukolo ka jugu ani kompost bɛ faga walima a ka nɔgɔ.\n\n- Dugukolo ka kan kosɛbɛ walima a tɛ fɛn caman sɔrɔ: ji ni fɛnɲɛnɛn tɛ se ka se jijiw ma ka nɔgɔya.\n\n- Dugukolo ka pH (asidi walima basi) ma sɔn kan: a ka asidi kosɛbɛ walima a ka basi kosɛbɛ, o bɛ se ka fɛnɲɛnɛn dɔw bali, hali ni u bɛ dugukolo kɔnɔ.",
+      "illustration_description": "Illustration pédagogique pour SOL PAUVRE",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "KA FAHAMU",
+      "text": "TRAITER TESTER BASIQ U IDE AC pH IDE AC BASIQ UE NEUTRE pH NEUTRE E ANALYSER\n\nNi dɔgɔya bɛɛ bɛ kɛ, an bɛ se ka kɛ:\n\n- Ka **kɔmpɔs** nɔgɔn caman lajɛ tuma o tuma: buruwɛti 1-2 fɛnsɛn kan, jɛgɛ lajɛlenw kɔnɔ.\n- Ka **yiriba fura** (nɛnɛ, kɔnsɔn, nimba…) lajɛ walasa ka bonya dɛmɛ.\n- Ka **dugukolo pH** lajɛ ni kɔrɔbɔli tɛ ban (pH kɔgɔrɔ walima kit dɔgɔ). Ni a ka nɔgɔn kosɛbɛ, an bɛ se ka a labɛn ni **dugukolo chaux** dɔgɔya ye.\n\n- Ka dugukolo lajɛ walasa ka fɛn dɔgɔya lajɛ.",
+      "illustration_description": "Illustration pédagogique pour RENFORCER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Kajɛnɛ kɛlɛya min bɛ kɛ",
+      "text": "**KƐLƐYA MIN BƐ KƐ, KA A DƆN KO JOLIW DE Y'A KƐ**",
+      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Ɲɛgɛnɛw minnu bɛ yɛlɛn",
+      "text": "Kuluw, Lafinɛw minnu bɛ kɛɲɛ walima minnu bɛ nɔgɔn, Dibiw minnu bɛ nɔgɔn, Jɔli. Ɲɛgɛnɛw minnu bɛ dibi kɛ bɛ dibi kɛ yiriw la, u bɛ sɔgɔsɔgɔninjɛ dɔgɔya ani u bɛ bana don. A ka fisa ka u dɔn fɔlɔ walasa ka dibi dɔgɔya:\n\nƝɛgɛnɛw minnu bɛ yɛlɛn: cɛnɛw, nɛgɛnɛw jɛw, pucerons, cɛnɛw, asticots… Yirifoliw la: yɔrɔw minnu bɛ dugu walima yɔrɔw minnu bɛ cɛmancɛ la Dibiw minnu bɛ bɔ, minnu bɛ nɔgɔn walima minnu bɛ dugu kɔfɛ Lafinɛw minnu bɛ kɛɲɛ walima minnu bɛ nɔgɔn: pucerons bɛ yen Jɔli dɔgɔw lafinɛw kɔnɔ walima jɔliw kɔnɔ: wɛrɛw, nématodes Kuluw bɛ yen yiriw kan walima lafinɛw kɔnɔ",
+      "illustration_description": "Kalan-kɛcogo nɔgɔnɛw minnu bɛ yɛlɛn na",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "K'AN YƐLƐMA KAN :",
+      "text": "Denmisɛnw Jiridenw minnu tɛ fanga sɔrɔ\n\n- Choux, tomate, fɛnɛ ni gombo walima gban kɔnɔna\n\nJiriden dɔw ka gɛlɛn ka ban, o la, a ka kan ka yɛlɛma kan kosɛbɛ :\n\nDenmisɛnw ni jiridenw, u ka bla ka nɔgɔn kosɛbɛ, o la, sansanw b'u fɛ kosɛbɛ. Jiridenw minnu tɛ fanga sɔrɔ walima minnu ka dɔgɔ, u tɛ se ka u yɛrɛ tanga koɲuman. Jiridenw i n'a fɔ choux, tomate, fɛnɛ walima gombo, u bɛ sɔrɔ ka kɛ fɛnɛw ye tuma caman.",
+      "illustration_description": "Kalan-yɔrɔ kɔlɔsili K'AN YƐLƐMA KAN :",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "KƆRƆBƆLI",
+      "text": "ASPERGER\n\nNi i ye fɛn caman ye minnu bɛ nafa bɔ i ka fɛnnu la:\n\n- **Bɔ wolo caman minnu bɛ kɔrɔbɔli dɔgɔya**\n- **Fɛn caman bɔ fɛn caman na walasa ka fɛn caman bɔ**\n- **Dafa jɔli walima jɔli dɔgɔya ka kɛɲɛ ni fɛn caman ye minnu bɛ wuli**\nPROTÉGER",
+      "illustration_description": "Illustration pédagogique pour COUPER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_18.jpg"
+    },
+    {
+      "page_number": 19,
+      "title": "KƆLƆSI",
+      "text": "PLANTER DES RÉPULSIFS ATTIRER LES INSECTES UTILES BASILIC MENTHE CITRONNELLE GUÊPE COCCINELLE\n\nWalasa ka fiyɛnɲɛnɛw kana segin:\n\n- I k'a kɔlɔsi tuma bɛɛ yiridunba kɔfɛ ani yiri kura kan. O b'a to i bɛ problemuw dɔn fɔlɔfɔlɔ.\n\n- I ka yiriw dugu minnu bɛ fiyɛnɲɛnɛw gɛn, i n'a fɔ **basilic**, **menthe**, **citronnelle** walima **œillets d’Inde**, ka olu dugu sɛnɛkɛyɔrɔ daminɛ na.\n\n- I ka fiyɛnɲɛnɛ nafaw ka na, i n'a fɔ **coccinelles** walima **guêpes** dɔw, minnu bɛ fiyɛnɲɛnɛw dumu. I ka fiyɛnɲɛnɛ juguw bila tasuma kan sɛnɛkɛyɔrɔ daminɛ na ni nɔgɔw ye walasa ka kɔnɔw ja. O kɔnɔw bɛna na ka fiyɛnɲɛnɛ juguw ɲini yiriw kan kɛrɛnkɛrɛnnenya la.",
+      "illustration_description": "Illustration pédagogique pour SURVEILLER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_19.jpg"
+    },
+    {
+      "page_number": 20,
+      "title": "Kɔrɔsi kojugu kɛcogo",
+      "text": "KƆRƆSI KOJUGU MIN BƐ BƆ ƝƐNACI LA",
+      "illustration_description": "Kalan-jaatigui min bɛ kojugu kɛcogo kɔrɔsi",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_20.jpg"
+    },
+    {
+      "page_number": 21,
+      "title": "Jardin bɛ kɛɲɛ, nka fɛn o fɛn tɛ a kan min bɛ a halaki walima ka bana don a la. Nka, stress de? Nin bɛ yɛlɛn kɛ nin fɛ:",
+      "text": "- A bɛ fɛnɛfɛnɛ tile fɛ, kɛrɛnkɛrɛnnenya la tuma min na a bɛ jɛn.\n\n- A ma a ka bonya daminɛ tugun.",
+      "illustration_description": "Illustration pédagogique pour La plante semble aller mal, mais aucun ravageur ni maladie n’est visible. Et si c’était du stress ? Cela est visible par :",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_21.jpg"
+    },
+    {
+      "page_number": 22,
+      "title": "KA JANYAN/KA JANYAN",
+      "text": "KA JANYAN /KA NƆGƆN\n\n* **Jigɛli** ka kɛ koɲuman o kɛra tile kɔnɔ\n* **Jigɛli** ka kɛ fɔlɔfɔlɔ walima a laban\n\nNin ye sababu ye min bɛ fɛnɲɛnɛ dɔgɔya:\n\n* Dugukolo ka janyan walima ka janyan\n* Jɔnya caman: ka janyan, ka nɔgɔn\n* Jigɛli ka kɛ koɲuman o kɛra tile kɔnɔ\n* Jigɛli ka kɛ fɔlɔfɔlɔ walima a laban\n* Dugukolo ka gɛlɛn: jijiw bɛ teliya ka sigi\n\n**DUGUKOLO GƐLƐN**",
+      "illustration_description": "Illustration pédagogique pour TROP CHAUD/FROID",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_22.jpg"
+    },
+    {
+      "page_number": 23,
+      "title": "PAILLER",
+      "text": "JI KAN + SUNZAN JIRIW KA JIRIBA\n\nK’a kalon ka teli ka faga: **jiri ka teli ka kɛnɛya** ni a ye **yɔrɔɲuman** sɔrɔ. Ni a ma kɛnɛya:\n\n- **Paillage** don ka **dugujukɔnɔko** mara\n- **Ji kan** tuma bɛɛ nka **dɔɔnin dɔɔnin**\n- **Sunzan jiriw** ni **jiriba** ye",
+      "illustration_description": "Illustration pédagogique pour PAILLER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_23.jpg"
+    },
+    {
+      "page_number": 24,
+      "title": "Fɛɛrɛw ka dɔgɔya ni maraîchage bio ye",
+      "text": "ka bonya ni **dugukolo hɛrɛma** ye",
+      "illustration_description": "Illustration pédagogique pour Limiter les problèmes grâce au maraîchage bio",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_24.jpg"
+    },
+    {
+      "page_number": 25,
+      "title": "Jardinage biologique intensif en sol vivant renforce naturellement les plantes et le sol. -> **Fɛnsɛn-jardinage** min bɛ kɛ **dugukolo ɲɛnaman** kan, o bɛ **jardin-jardin** ni **dugukolo** barika bonya yɛrɛmahɔnɔn.",
+      "text": "Sɛmɛntiya: **Jardin-jardin** bɛ kɛ **ɲɛnaman** ye, wa **kɔrɔbɔli** bɛ dɔgɔya.",
+      "illustration_description": "Illustration pédagogique pour Le maraîchage bio-intensif en sol vivant renforce naturellement les plantes et le sol.",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_25.jpg"
+    },
+    {
+      "page_number": 26,
+      "title": "A KA FURA",
+      "text": "FURA JOLI KA KAN KA KUN, YƆRƆW KA KAN KA KUN\n\nBio-intensif la, cɛn ka kan ka laɲini cogo di?\n\n- Fura joli ka kan ka kun, waati bɛɛ la\n- Yɔrɔw ka kan ka kun\n- Jiridenw ka kan ka ɲɔgɔn fɛ\n- Jiridenw ka kan ka yɛlɛn yɛlɛn\n\nJIRIDENW KA KAN KA ƝƆGƆN FƐ\nJIRIDENW KA KAN KA YƐLƐN YƐLƐN",
+      "illustration_description": "Illustration pédagogique pour CHOISIR SES",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_26.jpg"
+    },
+    {
+      "page_number": 27,
+      "title": "K'A LABANTA",
+      "text": "JINJI N'A KUNBƐN N'A KƆNƆJURU + JINJI DƆGƆYA\n\nFaso jɛlɛn na, i ka foroba ka diɲɛ kɛɲɛ ka kɛɲɛ ni diɲɛ ye cogo di :\n\n- I ka kɔnɔjuru / kɔnɔjuru ji di a ma tuma bɛɛ\n- I ka a kunbɛn kosɛbɛ\n- I ka jinji dɔgɔya ka jinji di foroba ni sigi-yɔrɔw ma\n- I ka nɛgɛso-juruw (filets) kɛ ka yɛlɛw bali\n- I ka ji diɲɛ labanta ni a ka bonya ye\n- NƐGƐSO-JURUW",
+      "illustration_description": "Illustration pédagogique pour ADAPTER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_27.jpg"
+    },
+    {
+      "page_number": 28,
+      "title": "Fura yɛlɛma-yɛlɛma dilan",
+      "text": "Fura yɛlɛma-yɛlɛma dilan",
+      "illustration_description": "Illustration pédagogique pour Fabriquer un traitement naturel",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_28.jpg"
+    },
+    {
+      "page_number": 29,
+      "title": "Ni kɔrɔbɔli in tɛ ban, a ka kan ka fura yɛlɛmanin dɔw kɛ.",
+      "text": "Dankun dɔw bɛ se ka kɛ **purin**, **infusion**, walima **décoction** ye walasa ka walawala jɛnsɛn.",
+      "illustration_description": "Illustration pédagogique pour Si le problème persiste, il faut utiliser un traitement naturel.",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_29.jpg"
+    },
+    {
+      "page_number": 30,
+      "title": "Ni dugukolo ye ɲɛnamaya la ani ka sɔn ka dun, ni sege ye ka jɛgɛnna kɔrɔsi, ani ni fura nɔgɔmanw ka kan ni o ye, an bɛ se ka",
+      "text": "ka kɔrɔbɔliw caman bali ani ka u lakana ni an ma farikoloɲɛnajɛ fɛnw (produits chimiques) kɛ.\n\nNi an ye jɛgɛnna yɛrɛyɛrɛli kɛ ka ɲɛ ani ka jɛgɛnna wɛrɛw sugandi ka ɲɛ, an bɛ se ka jɛgɛnna minnu ka gɛlɛn ani ka sɔn ka dun ka ɲɛ, olu dɛmɛ.",
+      "illustration_description": "Illustration pédagogique pour Avec un sol vivant et bien nourri, des filets pour protéger les cultures, et des traitements naturels adaptés, on peut prévenir",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_30.jpg"
+    }
+  ],
+  "course_code": "M4.1"
+}

@@ -1,0 +1,221 @@
+{
+  "id": "401_proteger_la_sante_des_plantes",
+  "title": "Protecting Plant Health",
+  "category": "Protection & Design",
+  "summary": "Identify diseases, pests, deficiencies, and water stress. Natural recipes for biopesticides and biofertilizers (garlic, neem, fermented extracts).",
+  "total_pages": 30,
+  "cover_image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_01.jpg",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "For Abundant Harvests, Healthy Plants are Essential.",
+      "text": "This module shows you how to recognize warning signs, use natural solutions, and prevent problems.",
+      "illustration_description": "Illustration pédagogique pour Pour des récoltes abondantes, il faut des plantes en bonne santé.",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "PROTECTING PLANT HEALTH",
+      "text": "PLANTS",
+      "illustration_description": "Illustration pédagogique pour PROTÉGER LA SANTÉ DES",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Understanding that there are different types of problems",
+      "text": "Understanding that there are different types of problems",
+      "illustration_description": "Illustration pédagogique pour Comprendre qu’il existe différents types de problèmes",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "DISEASE",
+      "text": "DEFICIENCY\n\nThere are 4 main types of plant health problems:\n\nDisease Deficiency Pests Stress PESTS STRESS",
+      "illustration_description": "Illustration pédagogique pour MALADIE",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Identifying the Type of Problem",
+      "text": "RECOGNIZING A DISEASE-RELATED PROBLEM",
+      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Fungus",
+      "text": "Virus Bacterium A disease is caused by a fungus, a bacterium, or a virus.",
+      "illustration_description": "Illustration pédagogique pour Champignon",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "TASKS",
+      "text": "ROT DEFORMATION\n\nA plant may be sick if you observe:\n\nspots on the leaves (black, white, or brown), signs of rot on the fruits or roots,\n\n- deformed or curled leaves, permanent wilting, even if the plant has received enough water.\n\nWILTING",
+      "illustration_description": "Illustration pédagogique pour TÂCHES",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "TOO MUCH WATER",
+      "text": "TOO DRY TOO HOT/COLD TOO CROWDED\n\nDiseases develop if:\n\n- **Too much water**: overly frequent watering, constantly wet soil, prolonged rain.\n\n- **Not enough water**: a thirsty plant is less resistant to diseases.\n\n- **Intense heat or cold snap**: sudden variations can weaken the plant and activate diseases.\n\n- **Lack of air between plants**: overly crowded spacing promotes stagnant humidity and thus diseases.",
+      "illustration_description": "Illustration pédagogique pour TROP D’EAU",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "CUT",
+      "text": "REMOVE STRENGTHEN TREAT What to do when a plant is sick?\n\n- Eliminate affected parts: cut off diseased leaves, stems, or fruits to prevent spread.\n\n- Remove the entire plant if it is too sick and cannot be saved.\n\n- Strengthen the plant and soil with a light application of compost or compost tea.\n\n- Apply a natural treatment: garlic infusion, neem slurry, baking soda…",
+      "illustration_description": "Illustration pédagogique pour COUPER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "THINNING THE FOLIAGE",
+      "text": "ADAPT WATERING +\n\nTo prevent the disease from returning, you can:\n\n- Thin the foliage to allow air and light to pass through, and limit stagnant humidity.\n\n- Adapt watering",
+      "illustration_description": "Illustration pédagogique pour ÉCLAIRCIR LE FEUILLAGE",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Identifying the Type of Problem",
+      "text": "RECOGNIZING A DEFICIENCY-RELATED PROBLEM",
+      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Yellow Leaves",
+      "text": "Deformed fruits\nSlow growth\nPurple stems\nDry edges\nWhen a plant doesn't receive all the nutrients it needs, it shows.\n\nA plant may be deficient if you observe:\n\n- Yellow leaves (often at the bottom)\n- Small or deformed fruits\n- Red or purple stems\n- Leaves with dry, red, or purple edges\n- Slow growth, stunted plants",
+      "illustration_description": "Illustration pédagogique pour Feuilles jaunes",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_12.jpg"
+    },
+    {
+      "page_number": 13,
+      "title": "POOR SOIL",
+      "text": "COMPACT SOIL UNBALANCED PH\n\nDeficiencies appear when:\n\n- The soil is poor and compost is absent or of poor quality.\n\n- The soil is too compact or poorly aerated: water and nutrients cannot properly reach the roots.\n\n- The soil's pH (acidity or basicity) is unbalanced: too acidic or too basic, it can block certain nutrients, even if they are present in the soil.",
+      "illustration_description": "Illustration pédagogique pour SOL PAUVRE",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_13.jpg"
+    },
+    {
+      "page_number": 14,
+      "title": "STRENGTHEN",
+      "text": "TREAT TEST BASIC U IDE AC pH IDE AC BASIC NEUTRAL pH NEUTRAL E ANALYZE\n\nTo correct a deficiency, one can:\n\n- Add mature compost regularly: 1 to 2 wheelbarrows per bed depending on the crop\n- Use leaf manure (nettle, comfrey, neem, etc.) to stimulate growth\n- Test the soil pH if the problem persists (pH paper or simple kit). If it is too acidic, it can be corrected with a small amount of agricultural lime.\n\n- Perform a soil analysis to provide missing elements",
+      "illustration_description": "Illustration pédagogique pour RENFORCER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_14.jpg"
+    },
+    {
+      "page_number": 15,
+      "title": "Identifying the Type of Problem",
+      "text": "RECOGNIZING A PROBLEM CAUSED BY INSECT PESTS",
+      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_15.jpg"
+    },
+    {
+      "page_number": 16,
+      "title": "Visible Insects",
+      "text": "Eggs Deformed or sticky leaves Damaged fruits Galleries\n\nPest insects weaken plants, reduce harvests, and transmit diseases. It's best to spot them early to limit damage:\n\n- **Visible insects**: caterpillars, whiteflies, aphids, locusts, maggots…\n- **Holes in leaves**: eaten edges or round holes in the center\n- **Pierced, rotten, or gnawed fruits** before maturity\n- **Deformed or sticky leaves**: presence of aphids\n- **Small galleries** in leaves or roots: worms, nematodes\n- **Presence of eggs** on stems or under leaves",
+      "illustration_description": "Illustration pédagogique pour Insectes visibles",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_16.jpg"
+    },
+    {
+      "page_number": 17,
+      "title": "MONITOR CLOSELY:",
+      "text": "Young seedlings Stressed plants\n\n- Cabbage, tomato, bean, and okra crops\n\nCertain plants are more vulnerable and must be monitored closely:\n\nYoung seedlings and transplants, with tender leaves very attractive to insects\nStressed or weakened plants, which defend themselves less effectively\nCrops like cabbage, tomatoes, beans, or okra are more frequently attacked",
+      "illustration_description": "Illustration pédagogique pour SURVEILLER DE PRÈS :",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_17.jpg"
+    },
+    {
+      "page_number": 18,
+      "title": "CUT",
+      "text": "SPRAY\n\nIf you have spotted signs of pests:\n\n- Remove heavily infested leaves to slow down the infestation\n- Spray plants to dislodge harmful insects\n- Install fine nets or screens against flying insects\nPROTECT",
+      "illustration_description": "Illustration pédagogique pour COUPER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_18.jpg"
+    },
+    {
+      "page_number": 19,
+      "title": "MONITORING",
+      "text": "PLANT REPELLENTS ATTRACT BENEFICIAL INSECTS BASIL MINT LEMONGRASS WASP LADYBUG\n\nTo prevent pests from returning:\n\n- Regularly observe under the leaves and on young shoots. This allows early detection of problems.\n\n- Plant repellent plants such as basil, mint, lemongrass, or marigolds next to your crops.\n\n- Attract beneficial insects, like ladybugs or certain wasps, which eat pests. Place harmful insects on a plate near the crops with seeds to attract birds. They will then come and pick the harmful insects directly from the plants.",
+      "illustration_description": "Illustration pédagogique pour SURVEILLER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_19.jpg"
+    },
+    {
+      "page_number": 20,
+      "title": "Identifying the Type of Problem",
+      "text": "RECOGNIZING A STRESS-RELATED PROBLEM",
+      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_20.jpg"
+    },
+    {
+      "page_number": 21,
+      "title": "The plant seems to be doing poorly, but no pests or diseases are visible. What if it's stress? This is visible through:",
+      "text": "- It wilts in the middle of the day, especially during hot weather.\n\n- It has stopped growing.",
+      "illustration_description": "Illustration pédagogique pour La plante semble aller mal, mais aucun ravageur ni maladie n’est visible. Et si c’était du stress ? Cela est visible par :",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_21.jpg"
+    },
+    {
+      "page_number": 22,
+      "title": "TOO HOT/COLD",
+      "text": "TOO DRY/WET\nPOOR TRANSPLANTING IN FULL SUN\nTOO EARLY/LATE\n\nWhat causes stress in plants:\n\n- Soil that is too hot or too cold\n- Extreme variations: too dry, too wet\n- Poor transplanting or transplanting in full sun\n- Transplanting too early or too late\n- Compact soil: roots struggle to establish themselves\nCOMPACT SOIL",
+      "illustration_description": "Illustration pédagogique pour TROP CHAUD/FROID",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_22.jpg"
+    },
+    {
+      "page_number": 23,
+      "title": "MULCHING",
+      "text": "WATER + PROTECT SHADE NET\n\nWait before treating: stress disappears in 1–2 days if the plant returns to good conditions. If stress persists:\n\n- Mulch to retain soil moisture\n- Water regularly without excess\n- Protect plants with a shade cloth",
+      "illustration_description": "Illustration pédagogique pour PAILLER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_23.jpg"
+    },
+    {
+      "page_number": 24,
+      "title": "Limiting Problems Through Organic Market Gardening",
+      "text": "intensive in living soil",
+      "illustration_description": "Illustration pédagogique pour Limiter les problèmes grâce au maraîchage bio",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_24.jpg"
+    },
+    {
+      "page_number": 25,
+      "title": "Bio-intensive Market Gardening in Living Soil Naturally Strengthens Plants and Soil.",
+      "text": "Result: plants are healthy and problems occur less frequently.",
+      "illustration_description": "Illustration pédagogique pour Le maraîchage bio-intensif en sol vivant renforce naturellement les plantes et le sol.",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_25.jpg"
+    },
+    {
+      "page_number": 26,
+      "title": "CHOOSING YOUR",
+      "text": "VARIETIES RESPECTING DISTANCES How to plant well in bio-intensive? \n\n- Choose your varieties according to the seasons\n- Respect planting distances\n- Associate crops\n- Practice crop rotations\n\nASSOCIATE CROPS PRACTICE ROTATIONS",
+      "illustration_description": "Illustration pédagogique pour CHOISIR SES",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_26.jpg"
+    },
+    {
+      "page_number": 27,
+      "title": "ADAPT",
+      "text": "WATERING MULCH COMPOST + GENTLE IRRIGATION\n\nHow to maintain your crops in living soil:\n\n- Regularly apply compost / compost tea\n- Mulch abundantly\n- Water beds and pathways with gentle irrigation\n- Use insect netting\n- Adapt water supply according to the plant's growth stage\nNETTING",
+      "illustration_description": "Illustration pédagogique pour ADAPTER",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_27.jpg"
+    },
+    {
+      "page_number": 28,
+      "title": "Making a Natural Treatment",
+      "text": "Making a Natural Treatment",
+      "illustration_description": "Illustration pédagogique pour Fabriquer un traitement naturel",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_28.jpg"
+    },
+    {
+      "page_number": 29,
+      "title": "If the problem persists, a natural treatment must be used.",
+      "text": "Certain plants can be transformed into **manures**, **infusions**, or **decoctions** to protect crops.",
+      "illustration_description": "Illustration pédagogique pour Si le problème persiste, il faut utiliser un traitement naturel.",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_29.jpg"
+    },
+    {
+      "page_number": 30,
+      "title": "With living, well-nourished soil, netting to protect crops, and appropriate natural treatments, we can prevent",
+      "text": "and manage most problems without using chemical products.\n\nBy practicing good crop rotation and making intelligent variety choices, we also promote more resilient plants and better harvests.",
+      "illustration_description": "Illustration pédagogique pour Avec un sol vivant et bien nourri, des filets pour protéger les cultures, et des traitements naturels adaptés, on peut prévenir",
+      "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_30.jpg"
+    }
+  ],
+  "course_code": "M4.1"
+}
