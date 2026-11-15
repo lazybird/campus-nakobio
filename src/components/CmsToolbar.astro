@@ -165,17 +165,46 @@ const gitEnabled =
 <script>
   import { getAdminCookieToken } from '../utils/auth';
 
-  const root = document.getElementById('nakobio-cms-root');
-  if (root) {
-    const expectedSecret = root.getAttribute('data-secret');
+  async function checkAndInitCms() {
+    const root = document.getElementById('nakobio-cms-root');
+    if (!root) return;
+
+    let expectedSecret = root.getAttribute('data-secret');
     const token = getAdminCookieToken();
 
-    // On n'active la barre que si un secret valide est configuré côté serveur ET que le cookie correspond
+    // Si la page a été pré-rendue statiquement sans le secret au build time,
+    // ou pour valider dynamiquement la session, on interroge /api/cms/status
+    let isAuthorized = false;
     if (expectedSecret && token && token === expectedSecret) {
+      isAuthorized = true;
+    } else if (token) {
+      try {
+        const res = await fetch('/api/cms/status', {
+          headers: {
+            'Authorization': `Bearer ${token}`
+          }
+        });
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data.authenticated) {
+            isAuthorized = true;
+            if (data.git && data.git.enabled !== undefined) {
+              root.setAttribute('data-git-enabled', String(data.git.enabled));
+            }
+          }
+        }
+      } catch (err) {
+        // En cas d'erreur réseau, on ignore silencieusement
+      }
+    }
+
+    if (isAuthorized) {
       root.classList.remove('hidden');
       initCmsToolbar();
     }
   }
+
+  checkAndInitCms();
 
   function initCmsToolbar() {
     let mode: 'preview' | 'edit' = 'preview';
