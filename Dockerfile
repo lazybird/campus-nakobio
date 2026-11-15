@@ -5,17 +5,21 @@ WORKDIR /app
 # Copie des fichiers de dépendances
 COPY package*.json ./
 
-# Installation des dépendances et sirv-cli pour le service statique
-RUN npm install -g sirv-cli && npm install
+# Installation des dépendances
+RUN npm install
 
 # Copie de tout le code source
 COPY . .
 
-# Construction du site statique Astro
+# Construction du site Astro (mode hybrid)
 RUN npm run build
+
+# Variables d'environnement serveur Astro Node
+ENV HOST=0.0.0.0
+ENV PORT=3000
 
 # Port Dokploy standard
 EXPOSE 3000
 
-# Démarrage du serveur statique compatible Traefik / Dokploy
-CMD ["sirv", "dist", "--port", "3000", "--host", "0.0.0.0", "--cors", "--single"]
+# Démarrage du serveur Node Astro
+CMD ["node", "dist/server/entry.mjs"]

@@ -11,6 +11,9 @@
     "generate:pdf": "python3 .dev/scripts/generate_pdf.py"
   },
   "dependencies": {
+    "@astrojs/node": "^8.3.4",
+    "@malihub/git-headless-cms-astro": "file:../../malihub/git-headless-cms/packages/astro",
+    "@malihub/git-headless-cms-core": "file:../../malihub/git-headless-cms/packages/core",
     "astro": "^4.16.18"
   },
   "devDependencies": {

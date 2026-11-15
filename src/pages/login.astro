@@ -1,0 +1,240 @@
+---
+export const prerender = false;
+
+import Layout from '../layouts/Layout.astro';
+import { hashSha256 } from '../utils/auth';
+
+const rawSecret =
+  import.meta.env.CMS_ADMIN_SECRET ||
+  process.env.CMS_ADMIN_SECRET ||
+  '';
+
+const isConfigured = Boolean(rawSecret && rawSecret.trim().length > 0);
+const hashedSecret = isConfigured ? await hashSha256(rawSecret) : '';
+---
+
+<Layout title="Espace Pédagogique — Connexion">
+  <div class="login-wrapper">
+    <div class="login-card">
+      <div class="login-header">
+        <div class="login-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+          </svg>
+        </div>
+        <h1 class="login-title">Espace Éditeur Pédagogique</h1>
+        <p class="login-subtitle">Connectez-vous pour éditer les cours, textes et visuels des modules.</p>
+      </div>
+
+      {!isConfigured ? (
+        <div class="unconfigured-warning">
+          <p class="warning-title">⚠️ Espace éditeur non configuré</p>
+          <p class="warning-desc">
+            Aucun mot de passe n'a été défini pour cet environnement. Veuillez configurer la variable d'environnement <code>CMS_ADMIN_SECRET</code> sur le serveur pour débloquer l'accès.
+          </p>
+        </div>
+      ) : (
+        <form id="admin-login-form" data-secret={hashedSecret} class="login-form">
+          <div class="form-group">
+            <label for="admin-password">Mot de passe éditeur</label>
+            <input
+              type="password"
+              id="admin-password"
+              name="password"
+              required
+              placeholder="••••••••••••"
+              autocomplete="current-password"
+            />
+            <p id="admin-login-error" class="login-error hidden"></p>
+          </div>
+
+          <button type="submit" id="admin-login-submit" class="btn-submit">
+            Se connecter à l'éditeur
+          </button>
+        </form>
+      )}
+    </div>
+  </div>
+</Layout>
+
+<script>
+  import { hashSha256, setAdminCookieToken } from '../utils/auth';
+
+  const form = document.getElementById('admin-login-form') as HTMLFormElement | null;
+  const input = document.getElementById('admin-password') as HTMLInputElement | null;
+  const errorMsg = document.getElementById('admin-login-error');
+  const submitBtn = document.getElementById('admin-login-submit') as HTMLButtonElement | null;
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (submitBtn) submitBtn.disabled = true;
+
+    const entered = input?.value || '';
+    const hash = await hashSha256(entered);
+    const expected = form.getAttribute('data-secret');
+
+    if (hash === expected) {
+      setAdminCookieToken(hash);
+      const urlParams = new URLSearchParams(window.location.search);
+      const redirect = urlParams.get('redirect') || '/maraichage';
+      window.location.href = redirect;
+    } else {
+      if (errorMsg) {
+        errorMsg.textContent = 'Mot de passe incorrect.';
+        errorMsg.classList.remove('hidden');
+      }
+      if (input) {
+        input.value = '';
+        input.focus();
+      }
+      if (submitBtn) submitBtn.disabled = false;
+    }
+  });
+</script>
+
+<style>
+  .login-wrapper {
+    min-height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    background: var(--color-bg, #fbfbf9);
+  }
+
+  .login-card {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border: 1px solid var(--color-border, #e2e8f0);
+    border-radius: 1rem;
+    padding: 2.25rem;
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  }
+
+  .login-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .login-icon {
+    width: 3rem;
+    height: 3rem;
+    background: #ecfdf5;
+    color: #059669;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+  }
+
+  .login-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--color-text-main, #1e293b);
+    margin: 0 0 0.5rem;
+  }
+
+  .login-subtitle {
+    font-size: 0.875rem;
+    color: var(--color-text-muted, #64748b);
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .form-group label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #334155;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    box-sizing: border-box;
+  }
+
+  .form-group input:focus {
+    border-color: #059669;
+    box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.15);
+  }
+
+  .login-error {
+    color: #e11d48;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin: 0.25rem 0 0;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .btn-submit {
+    background: #059669;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+
+  .btn-submit:hover {
+    background: #047857;
+  }
+
+  .btn-submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .unconfigured-warning {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: #92400e;
+    font-size: 0.85rem;
+    text-align: left;
+  }
+
+  .warning-title {
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+  }
+
+  .warning-desc {
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .warning-desc code {
+    background: #fef3c7;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.25rem;
+    font-family: monospace;
+    font-size: 0.8rem;
+  }
+</style>

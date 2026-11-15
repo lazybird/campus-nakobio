@@ -1,6 +1,7 @@
 ---
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+import CmsToolbar from '../components/CmsToolbar.astro';
 import '../styles/theme.css';
 
 interface Props {
@@ -37,6 +38,7 @@ const currentPath = Astro.url.pathname;
       <slot />
     </main>
     <Footer />
+    <CmsToolbar />
 
     <!-- Script d'apparition progressive au scroll -->
     <script>

@@ -1,0 +1,601 @@
+---
+import { hashSha256 } from '../utils/auth';
+
+interface Props {
+  adminSecret?: string;
+  gitEnabled?: boolean;
+}
+
+const rawSecret =
+  Astro.props.adminSecret ||
+  import.meta.env.CMS_ADMIN_SECRET ||
+  process.env.CMS_ADMIN_SECRET ||
+  '';
+const hashedSecret = rawSecret ? await hashSha256(rawSecret) : '';
+
+const envGitEnabled =
+  import.meta.env.CMS_GIT_ENABLED ?? process.env.CMS_GIT_ENABLED;
+const gitEnabled =
+  Astro.props.gitEnabled !== undefined
+    ? Astro.props.gitEnabled
+    : String(envGitEnabled).toLowerCase() === 'true' || String(envGitEnabled) === '1';
+---
+
+<div
+  id="nakobio-cms-root"
+  data-secret={hashedSecret}
+  data-git-enabled={gitEnabled ? 'true' : 'false'}
+  class="hidden"
+>
+  <div class="cms-bar">
+    <div class="cms-left">
+      <span class="cms-badge">
+        <span class="cms-dot"></span>
+        Éditeur Pédagogique
+      </span>
+      <div class="cms-modes">
+        <button type="button" id="cms-btn-preview" class="cms-btn active">
+          Aperçu
+        </button>
+        <button type="button" id="cms-btn-edit" class="cms-btn">
+          Éditer le cours
+        </button>
+      </div>
+    </div>
+
+    <div class="cms-right">
+      <span id="cms-draft-indicator" class="cms-draft-pill hidden">0 modif(s)</span>
+      <button type="button" id="cms-btn-reset" class="cms-btn cms-btn-danger" title="Annuler les brouillons locaux">
+        Annuler
+      </button>
+      <button type="button" id="cms-btn-save" class="cms-btn cms-btn-primary">
+        Enregistrer
+      </button>
+      <button type="button" id="cms-btn-publish" class="cms-btn cms-btn-success" title="Publier sur Git">
+        Publier Git
+      </button>
+      <a href="/api/auth/logout" class="cms-btn-logout" title="Déconnexion">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+          <polyline points="16 17 21 12 16 7"></polyline>
+          <line x1="21" y1="12" x2="9" y2="12"></line>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Modal pour remplacer une image de slide -->
+  <dialog id="cms-image-modal" class="cms-modal">
+    <div class="cms-modal-box">
+      <h3>Modifier l'illustration de la page</h3>
+      <p id="cms-image-target-label" class="cms-modal-sub"></p>
+      
+      <div class="cms-upload-area">
+        <label for="cms-image-file-input" class="cms-upload-label">
+          <span>Sélectionner une nouvelle image (PNG, JPG, WebP)</span>
+          <input type="file" id="cms-image-file-input" accept="image/*" />
+        </label>
+        <div id="cms-image-preview-box" class="hidden">
+          <img id="cms-image-preview" src="" alt="Aperçu" />
+        </div>
+      </div>
+
+      <div class="cms-modal-actions">
+        <button type="button" id="cms-image-cancel" class="cms-modal-btn">Annuler</button>
+        <button type="button" id="cms-image-save" class="cms-modal-btn cms-btn-primary">Valider l'image</button>
+      </div>
+    </div>
+  </dialog>
+</div>
+
+<script>
+  import { getAdminCookieToken } from '../utils/auth';
+
+  const root = document.getElementById('nakobio-cms-root');
+  if (root) {
+    const expectedSecret = root.getAttribute('data-secret');
+    const token = getAdminCookieToken();
+
+    // On n'active la barre que si un secret valide est configuré côté serveur ET que le cookie correspond
+    if (expectedSecret && token && token === expectedSecret) {
+      root.classList.remove('hidden');
+      initCmsToolbar();
+    }
+  }
+
+  function initCmsToolbar() {
+    let mode: 'preview' | 'edit' = 'preview';
+    const btnPreview = document.getElementById('cms-btn-preview');
+    const btnEdit = document.getElementById('cms-btn-edit');
+    const btnReset = document.getElementById('cms-btn-reset');
+    const btnSave = document.getElementById('cms-btn-save');
+    const btnPublish = document.getElementById('cms-btn-publish');
+    const draftIndicator = document.getElementById('cms-draft-indicator');
+
+    function getDrafts(): Record<string, string> {
+      try {
+        return JSON.parse(localStorage.getItem('campus_cms_drafts') || '{}');
+      } catch {
+        return {};
+      }
+    }
+
+    function setDrafts(drafts: Record<string, string>) {
+      localStorage.setItem('campus_cms_drafts', JSON.stringify(drafts));
+      updateDraftUI();
+    }
+
+    function updateDraftUI() {
+      const drafts = getDrafts();
+      const count = Object.keys(drafts).length;
+      if (draftIndicator) {
+        if (count > 0) {
+          draftIndicator.textContent = `${count} modif(s)`;
+          draftIndicator.classList.remove('hidden');
+        } else {
+          draftIndicator.classList.add('hidden');
+        }
+      }
+
+      // Appliquer les brouillons visuellement dans la page
+      document.querySelectorAll('[data-cms-bind]').forEach((el) => {
+        const bindKey = el.getAttribute('data-cms-bind');
+        if (bindKey && drafts[bindKey] !== undefined) {
+          if (el.tagName === 'IMG') {
+            (el as HTMLImageElement).src = drafts[bindKey];
+          } else {
+            el.innerHTML = drafts[bindKey];
+          }
+          el.setAttribute('data-cms-has-draft', 'true');
+        } else {
+          el.removeAttribute('data-cms-has-draft');
+        }
+      });
+    }
+
+    function setMode(newMode: 'preview' | 'edit') {
+      mode = newMode;
+      if (mode === 'edit') {
+        document.body.classList.add('cms-mode-editing');
+        btnEdit?.classList.add('active');
+        btnPreview?.classList.remove('active');
+        enableInlineEditing();
+      } else {
+        document.body.classList.remove('cms-mode-editing');
+        btnPreview?.classList.add('active');
+        btnEdit?.classList.remove('active');
+        disableInlineEditing();
+      }
+    }
+
+    btnPreview?.addEventListener('click', () => setMode('preview'));
+    btnEdit?.addEventListener('click', () => setMode('edit'));
+
+    function enableInlineEditing() {
+      document.querySelectorAll('[data-cms-bind]').forEach((el) => {
+        if (el.tagName === 'IMG') {
+          el.setAttribute('title', 'Cliquez pour changer cette image');
+          el.addEventListener('click', onImageClick as any);
+        } else {
+          el.setAttribute('contenteditable', 'true');
+          el.addEventListener('input', onTextInput as any);
+        }
+      });
+    }
+
+    function disableInlineEditing() {
+      document.querySelectorAll('[data-cms-bind]').forEach((el) => {
+        if (el.tagName === 'IMG') {
+          el.removeEventListener('click', onImageClick as any);
+        } else {
+          el.removeAttribute('contenteditable');
+          el.removeEventListener('input', onTextInput as any);
+        }
+      });
+    }
+
+    function onTextInput(e: Event) {
+      const target = e.currentTarget as HTMLElement;
+      const bindKey = target.getAttribute('data-cms-bind');
+      if (!bindKey) return;
+
+      const drafts = getDrafts();
+      drafts[bindKey] = target.innerHTML;
+      setDrafts(drafts);
+    }
+
+    // Gestion de l'upload d'image
+    const imageModal = document.getElementById('cms-image-modal') as HTMLDialogElement | null;
+    const imageFileInput = document.getElementById('cms-image-file-input') as HTMLInputElement | null;
+    const imagePreviewBox = document.getElementById('cms-image-preview-box');
+    const imagePreview = document.getElementById('cms-image-preview') as HTMLImageElement | null;
+    const imageLabel = document.getElementById('cms-image-target-label');
+    const imageCancel = document.getElementById('cms-image-cancel');
+    const imageSaveBtn = document.getElementById('cms-image-save');
+    let currentImageBindKey: string | null = null;
+    let currentImageElement: HTMLImageElement | null = null;
+    let selectedFile: File | null = null;
+
+    function onImageClick(e: MouseEvent) {
+      if (mode !== 'edit') return;
+      e.preventDefault();
+      e.stopPropagation();
+
+      currentImageElement = e.currentTarget as HTMLImageElement;
+      currentImageBindKey = currentImageElement.getAttribute('data-cms-bind');
+      if (imageLabel && currentImageBindKey) {
+        imageLabel.textContent = `Champ : ${currentImageBindKey}`;
+      }
+      if (imageFileInput) imageFileInput.value = '';
+      if (imagePreviewBox) imagePreviewBox.classList.add('hidden');
+      selectedFile = null;
+
+      imageModal?.showModal();
+    }
+
+    imageCancel?.addEventListener('click', () => {
+      imageModal?.close();
+    });
+
+    imageFileInput?.addEventListener('change', () => {
+      if (imageFileInput.files && imageFileInput.files[0]) {
+        selectedFile = imageFileInput.files[0];
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          if (imagePreview && e.target?.result) {
+            imagePreview.src = e.target.result as string;
+            imagePreviewBox?.classList.remove('hidden');
+          }
+        };
+        reader.readAsDataURL(selectedFile);
+      }
+    });
+
+    imageSaveBtn?.addEventListener('click', async () => {
+      if (!selectedFile || !currentImageBindKey) {
+        alert('Veuillez sélectionner un fichier image.');
+        return;
+      }
+
+      if (imageSaveBtn) {
+        imageSaveBtn.textContent = 'Envoi en cours...';
+        imageSaveBtn.setAttribute('disabled', 'true');
+      }
+
+      try {
+        const formData = new FormData();
+        formData.append('file', selectedFile);
+
+        const res = await fetch('/api/cms/upload', {
+          method: 'POST',
+          body: formData,
+        });
+
+        const data = await res.json();
+        if (data.success && data.fileUrl) {
+          const drafts = getDrafts();
+          // Le chemin public relatif attendu
+          drafts[currentImageBindKey] = data.fileUrl.replace(/^\//, '');
+          setDrafts(drafts);
+          if (currentImageElement) {
+            currentImageElement.src = data.fileUrl;
+          }
+          imageModal?.close();
+        } else {
+          alert(`Erreur lors de l'upload : ${data.message || 'Inconnue'}`);
+        }
+      } catch (err: any) {
+        alert(`Erreur réseau : ${err.message}`);
+      } finally {
+        if (imageSaveBtn) {
+          imageSaveBtn.textContent = "Valider l'image";
+          imageSaveBtn.removeAttribute('disabled');
+        }
+      }
+    });
+
+    // Reset des brouillons
+    btnReset?.addEventListener('click', () => {
+      if (confirm('Voulez-vous annuler toutes les modifications locales en attente ?')) {
+        localStorage.removeItem('campus_cms_drafts');
+        window.location.reload();
+      }
+    });
+
+    // Enregistrement sur le disque local
+    btnSave?.addEventListener('click', async () => {
+      const drafts = getDrafts();
+      if (Object.keys(drafts).length === 0) {
+        alert('Aucune modification à enregistrer.');
+        return;
+      }
+
+      if (btnSave) {
+        btnSave.textContent = 'Sauvegarde...';
+        btnSave.setAttribute('disabled', 'true');
+      }
+
+      try {
+        const res = await fetch('/api/cms/save', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ drafts }),
+        });
+
+        const data = await res.json();
+        if (data.success) {
+          alert('Modifications enregistrées avec succès sur les fichiers du cours !');
+          localStorage.removeItem('campus_cms_drafts');
+          window.location.reload();
+        } else {
+          alert(`Erreur d'enregistrement : ${data.message || 'Erreur inconnue'}`);
+        }
+      } catch (err: any) {
+        alert(`Erreur réseau : ${err.message}`);
+      } finally {
+        if (btnSave) {
+          btnSave.textContent = 'Enregistrer';
+          btnSave.removeAttribute('disabled');
+        }
+      }
+    });
+
+    // Publication sur Git
+    btnPublish?.addEventListener('click', async () => {
+      if (confirm('Voulez-vous publier les modifications sur le dépôt Git (branche distante) ?')) {
+        if (btnPublish) {
+          btnPublish.textContent = 'Publication...';
+          btnPublish.setAttribute('disabled', 'true');
+        }
+        try {
+          const res = await fetch('/api/cms/publish', { method: 'POST' });
+          const data = await res.json();
+          if (data.success) {
+            alert(data.message || 'Cours publié avec succès sur Git !');
+          } else {
+            alert(`Erreur de publication Git : ${data.message}`);
+          }
+        } catch (err: any) {
+          alert(`Erreur réseau : ${err.message}`);
+        } finally {
+          if (btnPublish) {
+            btnPublish.textContent = 'Publier Git';
+            btnPublish.removeAttribute('disabled');
+          }
+        }
+      }
+    });
+
+    // Appliquer l'état initial des brouillons
+    updateDraftUI();
+  }
+</script>
+
+<style is:global>
+  body.cms-mode-editing [data-cms-bind] {
+    position: relative;
+    outline: 2px dashed #059669;
+    outline-offset: 2px;
+    border-radius: 4px;
+    cursor: text;
+    transition: all 0.15s ease;
+  }
+  body.cms-mode-editing [data-cms-bind]:hover {
+    outline: 2px solid #047857;
+    background-color: rgba(5, 150, 105, 0.08);
+  }
+  body.cms-mode-editing img[data-cms-bind] {
+    cursor: pointer;
+  }
+  body.cms-mode-editing [data-cms-has-draft="true"] {
+    outline: 2px dashed #d97706 !important;
+    background-color: rgba(217, 119, 6, 0.06);
+  }
+</style>
+
+<style>
+  #nakobio-cms-root {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99999;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  .cms-bar {
+    background: #0f172a;
+    color: #f8fafc;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 9999px;
+    padding: 0.5rem 0.85rem;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  .cms-left, .cms-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .cms-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #cbd5e1;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-right: 0.5rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .cms-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #10b981;
+    box-shadow: 0 0 8px #10b981;
+  }
+
+  .cms-modes {
+    display: flex;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 9999px;
+    padding: 2px;
+  }
+
+  .cms-btn {
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    padding: 0.35rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .cms-btn:hover {
+    color: #ffffff;
+  }
+
+  .cms-btn.active {
+    background: #ffffff;
+    color: #0f172a;
+  }
+
+  .cms-draft-pill {
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: #f59e0b;
+    color: #78350f;
+    padding: 0.2rem 0.6rem;
+    border-radius: 9999px;
+  }
+
+  .cms-btn-primary {
+    background: #0284c7;
+    color: #ffffff;
+    border: 1px solid #0284c7;
+  }
+  .cms-btn-primary:hover {
+    background: #0369a1;
+  }
+
+  .cms-btn-success {
+    background: #059669;
+    color: #ffffff;
+    border: 1px solid #059669;
+  }
+  .cms-btn-success:hover {
+    background: #047857;
+  }
+
+  .cms-btn-danger {
+    background: rgba(225, 29, 72, 0.2);
+    color: #fca5a5;
+    border: 1px solid rgba(225, 29, 72, 0.4);
+  }
+  .cms-btn-danger:hover {
+    background: rgba(225, 29, 72, 0.4);
+    color: #ffffff;
+  }
+
+  .cms-btn-logout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    color: #94a3b8;
+    background: rgba(255, 255, 255, 0.08);
+    transition: all 0.15s;
+    text-decoration: none;
+  }
+  .cms-btn-logout:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+  /* Image Modal */
+  .cms-modal {
+    border: none;
+    border-radius: 1rem;
+    padding: 0;
+    background: transparent;
+  }
+  .cms-modal::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+  }
+  .cms-modal-box {
+    background: #ffffff;
+    padding: 1.75rem;
+    border-radius: 1rem;
+    width: 440px;
+    max-width: 90vw;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+  }
+  .cms-modal-box h3 {
+    margin: 0 0 0.25rem;
+    font-size: 1.15rem;
+    color: #0f172a;
+  }
+  .cms-modal-sub {
+    font-size: 0.75rem;
+    color: #64748b;
+    word-break: break-all;
+    margin: 0 0 1.25rem;
+  }
+  .cms-upload-area {
+    border: 2px dashed #cbd5e1;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  .cms-upload-label {
+    display: block;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: #059669;
+    font-weight: 600;
+  }
+  .cms-upload-label input {
+    display: none;
+  }
+  #cms-image-preview-box {
+    margin-top: 1rem;
+  }
+  #cms-image-preview {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+  }
+  .cms-modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+  .cms-modal-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #cbd5e1;
+    background: #ffffff;
+  }
+</style>

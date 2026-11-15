@@ -45,6 +45,9 @@ const { course, currentLang = DEFAULT_LANGUAGE, courseId = course?.id, available
 const langConfig = SUPPORTED_LANGUAGES[currentLang] || SUPPORTED_LANGUAGES[DEFAULT_LANGUAGE];
 const isRtl = langConfig.dir === 'rtl';
 
+// Chemin relatif du fichier source JSON pour le CMS
+const courseJsonRelPath = `src/data/${courseId}.json`;
+
 // Fonction de formatage du texte pédagogique (gras, listes, alertes)
 function formatPedagogicalText(rawText: string) {
   if (!rawText) return '<p><em>Contenu technique en cours de finalisation</em></p>';
@@ -283,8 +286,8 @@ if (totalSteps > 1) {
         )}
       </div>
 
-      <h2 class="hero-course-title">{course.title}</h2>
-      {course.summary && <p class="hero-course-summary">{course.summary}</p>}
+      <h2 class="hero-course-title" data-cms-bind={`${courseJsonRelPath}::title`}>{course.title}</h2>
+      {course.summary && <p class="hero-course-summary" data-cms-bind={`${courseJsonRelPath}::summary`}>{course.summary}</p>}
 
       <!-- Visuel d'illustration de couverture en impression A4 -->
       {(course.cover_image || (pagesList[0] && pagesList[0].image)) && (
@@ -402,6 +405,7 @@ if (totalSteps > 1) {
                   alt={page.title} 
                   loading={idx < 2 ? "eager" : "lazy"}
                   decoding="async"
+                  data-cms-bind={`${courseJsonRelPath}::pages.${idx}.image`}
                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
                 />
               ) : null}
@@ -437,8 +441,8 @@ if (totalSteps > 1) {
 
             <!-- Fiche texte pédagogique sous l'image -->
             <div class="slide-body-text">
-              <h3 class="slide-step-title">{page.title}</h3>
-              <div class="slide-pedagogical-content" set:html={formattedHtml} />
+              <h3 class="slide-step-title" data-cms-bind={`${courseJsonRelPath}::pages.${idx}.title`}>{page.title}</h3>
+              <div class="slide-pedagogical-content" data-cms-bind={`${courseJsonRelPath}::pages.${idx}.text`} set:html={formattedHtml} />
             </div>
 
             <!-- Séparateur vers l'étape suivante -->
