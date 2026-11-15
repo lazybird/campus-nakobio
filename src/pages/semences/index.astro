@@ -82,7 +82,10 @@ const categories = [
           >
             <a href={`/semences/${course.id}`} class="card-link">
               <div class="card-media">
-                <span class="card-badge badge badge-brand">{course.category}</span>
+                <span class:list={['card-badge', course.category === 'Fondamentaux' ? 'card-badge-fondamentaux' : 'card-badge-legumes']}>
+                  <span class="badge-icon">{course.category === 'Fondamentaux' ? '🌱' : '🍅'}</span>
+                  <span class="badge-text">{course.category}</span>
+                </span>
                 <img 
                   src={`/${course.cover_image}`} 
                   alt={course.title} 
@@ -399,7 +402,48 @@ const categories = [
     top: 0.85rem;
     left: 0.85rem;
     z-index: 2;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.32rem 0.72rem;
+    border-radius: var(--radius-full);
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    background: rgba(255, 255, 255, 0.86);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.08);
+    pointer-events: none;
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+  }
+
+  .card-badge-fondamentaux {
+    color: #1e4620;
+    border: 1px solid rgba(46, 125, 50, 0.25);
+  }
+
+  .card-badge-legumes {
+    color: #8c3a10;
+    border: 1px solid rgba(200, 104, 50, 0.25);
+  }
+
+  .course-card:hover .card-badge {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.16);
+  }
+
+  .badge-icon {
+    font-size: 0.85rem;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .badge-text {
+    display: inline-block;
   }
 
   .card-body {
