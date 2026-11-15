@@ -64,11 +64,85 @@ const gitEnabled =
     </div>
   </div>
 
+  <!-- Modal pour modifier le contenu Texte / Rich Text -->
+  <dialog id="cms-text-modal" class="cms-modal">
+    <div class="cms-modal-box cms-modal-box--rich">
+      <div class="cms-modal-header">
+        <div class="cms-modal-title-area">
+          <svg class="cms-modal-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2">
+            <path d="M12 20h9"></path>
+            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+          </svg>
+          <h3 id="cms-text-modal-title">Édition du contenu</h3>
+        </div>
+        <span id="cms-text-target-badge" class="cms-field-badge">champ</span>
+        <button type="button" id="cms-text-close" class="cms-modal-close-btn" aria-label="Fermer (Échap)">&times;</button>
+      </div>
+
+      <div class="cms-modal-body">
+        <!-- Champ Input Simple pour Titres courts -->
+        <div id="cms-input-simple-container" class="cms-form-group">
+          <label for="cms-text-input-simple" class="cms-form-label">Texte du titre</label>
+          <input
+            type="text"
+            id="cms-text-input-simple"
+            class="cms-form-input"
+            placeholder="Titre..."
+          />
+        </div>
+
+        <!-- Éditeur Rich Text complet (Inspiré de sites-faciles / Tiptap) -->
+        <div id="cms-richtext-container" class="cms-form-group hidden">
+          <label class="cms-form-label">Contenu formaté (Rich Text)</label>
+          <div class="cms-richtext-toolbar" role="toolbar" aria-label="Outils de mise en forme">
+            <button type="button" class="cms-tool-btn" data-action="bold" title="Gras (Ctrl+B)"><b>B</b></button>
+            <button type="button" class="cms-tool-btn" data-action="italic" title="Italique (Ctrl+I)"><i>I</i></button>
+            <button type="button" class="cms-tool-btn" data-action="strike" title="Barré"><s>S</s></button>
+            <span class="cms-tool-sep"></span>
+            <button type="button" class="cms-tool-btn" data-action="h2" title="Titre de section H2">H2</button>
+            <button type="button" class="cms-tool-btn" data-action="h3" title="Sous-titre H3">H3</button>
+            <button type="button" class="cms-tool-btn" data-action="p" title="Paragraphe normal">P</button>
+            <span class="cms-tool-sep"></span>
+            <button type="button" class="cms-tool-btn" data-action="bulletList" title="Liste à puces">• Liste</button>
+            <button type="button" class="cms-tool-btn" data-action="orderedList" title="Liste numérotée">1. Liste</button>
+            <button type="button" class="cms-tool-btn" data-action="blockquote" title="Citation / Bloc note">« » Note</button>
+            <span class="cms-tool-sep"></span>
+            <button type="button" class="cms-tool-btn" data-action="undo" title="Annuler (Ctrl+Z)">↩</button>
+            <button type="button" class="cms-tool-btn" data-action="redo" title="Rétablir (Ctrl+Y)">↪</button>
+          </div>
+
+          <div
+            id="cms-richtext-editor"
+            class="cms-richtext-content"
+            contenteditable="true"
+            role="textbox"
+            aria-multiline="true"
+          ></div>
+        </div>
+      </div>
+
+      <div class="cms-modal-actions">
+        <button type="button" id="cms-text-cancel" class="cms-modal-btn">Annuler (Échap)</button>
+        <button type="button" id="cms-text-save" class="cms-modal-btn cms-btn-primary">Appliquer</button>
+      </div>
+    </div>
+  </dialog>
+
   <!-- Modal pour remplacer une image de slide -->
   <dialog id="cms-image-modal" class="cms-modal">
     <div class="cms-modal-box">
-      <h3>Modifier l'illustration de la page</h3>
-      <p id="cms-image-target-label" class="cms-modal-sub"></p>
+      <div class="cms-modal-header">
+        <div class="cms-modal-title-area">
+          <svg class="cms-modal-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+          <h3>Modifier l'illustration de la page</h3>
+        </div>
+        <span id="cms-image-target-label" class="cms-field-badge">image</span>
+        <button type="button" id="cms-image-close" class="cms-modal-close-btn" aria-label="Fermer (Échap)">&times;</button>
+      </div>
       
       <div class="cms-upload-area">
         <label for="cms-image-file-input" class="cms-upload-label">
@@ -81,7 +155,7 @@ const gitEnabled =
       </div>
 
       <div class="cms-modal-actions">
-        <button type="button" id="cms-image-cancel" class="cms-modal-btn">Annuler</button>
+        <button type="button" id="cms-image-cancel" class="cms-modal-btn">Annuler (Échap)</button>
         <button type="button" id="cms-image-save" class="cms-modal-btn cms-btn-primary">Valider l'image</button>
       </div>
     </div>
@@ -111,6 +185,35 @@ const gitEnabled =
     const btnSave = document.getElementById('cms-btn-save');
     const btnPublish = document.getElementById('cms-btn-publish');
     const draftIndicator = document.getElementById('cms-draft-indicator');
+
+    // Modales
+    const textModal = document.getElementById('cms-text-modal') as HTMLDialogElement | null;
+    const textModalTitle = document.getElementById('cms-text-modal-title');
+    const textTargetBadge = document.getElementById('cms-text-target-badge');
+    const textInputSimpleContainer = document.getElementById('cms-input-simple-container');
+    const textInputSimple = document.getElementById('cms-text-input-simple') as HTMLInputElement | null;
+    const richtextContainer = document.getElementById('cms-richtext-container');
+    const richtextEditor = document.getElementById('cms-richtext-editor') as HTMLDivElement | null;
+    const textCloseBtn = document.getElementById('cms-text-close');
+    const textCancelBtn = document.getElementById('cms-text-cancel');
+    const textSaveBtn = document.getElementById('cms-text-save');
+
+    const imageModal = document.getElementById('cms-image-modal') as HTMLDialogElement | null;
+    const imageFileInput = document.getElementById('cms-image-file-input') as HTMLInputElement | null;
+    const imagePreviewBox = document.getElementById('cms-image-preview-box');
+    const imagePreview = document.getElementById('cms-image-preview') as HTMLImageElement | null;
+    const imageLabel = document.getElementById('cms-image-target-label');
+    const imageCloseBtn = document.getElementById('cms-image-close');
+    const imageCancel = document.getElementById('cms-image-cancel');
+    const imageSaveBtn = document.getElementById('cms-image-save');
+
+    let currentActiveElement: HTMLElement | null = null;
+    let currentBindKey: string | null = null;
+    let isRichText = false;
+
+    let currentImageBindKey: string | null = null;
+    let currentImageElement: HTMLImageElement | null = null;
+    let selectedFile: File | null = null;
 
     function getDrafts(): Record<string, string> {
       try {
@@ -159,63 +262,176 @@ const gitEnabled =
         document.body.classList.add('cms-mode-editing');
         btnEdit?.classList.add('active');
         btnPreview?.classList.remove('active');
-        enableInlineEditing();
+        enableClickEditing();
       } else {
         document.body.classList.remove('cms-mode-editing');
         btnPreview?.classList.add('active');
         btnEdit?.classList.remove('active');
-        disableInlineEditing();
+        disableClickEditing();
+        closeModals();
       }
     }
 
     btnPreview?.addEventListener('click', () => setMode('preview'));
     btnEdit?.addEventListener('click', () => setMode('edit'));
 
-    function enableInlineEditing() {
+    function enableClickEditing() {
       document.querySelectorAll('[data-cms-bind]').forEach((el) => {
         if (el.tagName === 'IMG') {
-          el.setAttribute('title', 'Cliquez pour changer cette image');
+          el.setAttribute('title', 'Cliquez pour changer cette illustration (Modale)');
           el.addEventListener('click', onImageClick as any);
         } else {
-          el.setAttribute('contenteditable', 'true');
-          el.addEventListener('input', onTextInput as any);
+          el.setAttribute('title', 'Cliquez pour éditer ce contenu en modale');
+          el.addEventListener('click', onTextElementClick as any);
         }
       });
     }
 
-    function disableInlineEditing() {
+    function disableClickEditing() {
       document.querySelectorAll('[data-cms-bind]').forEach((el) => {
-        if (el.tagName === 'IMG') {
-          el.removeEventListener('click', onImageClick as any);
-        } else {
-          el.removeAttribute('contenteditable');
-          el.removeEventListener('input', onTextInput as any);
-        }
+        el.removeAttribute('title');
+        el.removeEventListener('click', onImageClick as any);
+        el.removeEventListener('click', onTextElementClick as any);
+        el.removeAttribute('data-cms-active');
       });
     }
 
-    function onTextInput(e: Event) {
-      const target = e.currentTarget as HTMLElement;
-      const bindKey = target.getAttribute('data-cms-bind');
-      if (!bindKey) return;
+    // Gestion de l'ouverture de la modale de texte / richtext
+    function onTextElementClick(e: MouseEvent) {
+      if (mode !== 'edit') return;
+      e.preventDefault();
+      e.stopPropagation();
+
+      const el = e.currentTarget as HTMLElement;
+      currentActiveElement = el;
+      currentBindKey = el.getAttribute('data-cms-bind');
+      if (!currentBindKey) return;
+
+      document.querySelectorAll('[data-cms-active]').forEach(activeEl => activeEl.removeAttribute('data-cms-active'));
+      el.setAttribute('data-cms-active', 'true');
+
+      if (textTargetBadge) textTargetBadge.textContent = currentBindKey;
+
+      // Détecter si le champ nécessite le mode Rich Text ou un Input simple
+      // Par exemple : .slide-pedagogical-content, textes longs ou résumés multi-lignes
+      isRichText = el.classList.contains('slide-pedagogical-content') || 
+                   el.tagName === 'DIV' || 
+                   currentBindKey.endsWith('.text') ||
+                   (el.textContent && el.textContent.length > 80);
 
       const drafts = getDrafts();
-      drafts[bindKey] = target.innerHTML;
-      setDrafts(drafts);
+      const currentVal = drafts[currentBindKey] ?? el.innerHTML.trim();
+
+      if (isRichText) {
+        if (textModalTitle) textModalTitle.textContent = "Éditeur de texte pédagogique (Rich Text)";
+        textInputSimpleContainer?.classList.add('hidden');
+        richtextContainer?.classList.remove('hidden');
+        if (richtextEditor) {
+          richtextEditor.innerHTML = currentVal;
+        }
+      } else {
+        if (textModalTitle) textModalTitle.textContent = "Édition du titre";
+        richtextContainer?.classList.add('hidden');
+        textInputSimpleContainer?.classList.remove('hidden');
+        if (textInputSimple) {
+          textInputSimple.value = drafts[currentBindKey] ?? el.textContent?.trim() ?? '';
+        }
+      }
+
+      textModal?.showModal();
+
+      // Focus
+      setTimeout(() => {
+        if (isRichText) {
+          richtextEditor?.focus();
+        } else {
+          textInputSimple?.focus();
+          textInputSimple?.select();
+        }
+      }, 50);
     }
 
-    // Gestion de l'upload d'image
-    const imageModal = document.getElementById('cms-image-modal') as HTMLDialogElement | null;
-    const imageFileInput = document.getElementById('cms-image-file-input') as HTMLInputElement | null;
-    const imagePreviewBox = document.getElementById('cms-image-preview-box');
-    const imagePreview = document.getElementById('cms-image-preview') as HTMLImageElement | null;
-    const imageLabel = document.getElementById('cms-image-target-label');
-    const imageCancel = document.getElementById('cms-image-cancel');
-    const imageSaveBtn = document.getElementById('cms-image-save');
-    let currentImageBindKey: string | null = null;
-    let currentImageElement: HTMLImageElement | null = null;
-    let selectedFile: File | null = null;
+    // Application de la modification du texte
+    textSaveBtn?.addEventListener('click', () => {
+      if (!currentBindKey || !currentActiveElement) return;
 
+      const drafts = getDrafts();
+      let newValue = '';
+
+      if (isRichText && richtextEditor) {
+        newValue = richtextEditor.innerHTML.trim();
+        currentActiveElement.innerHTML = newValue;
+      } else if (textInputSimple) {
+        newValue = textInputSimple.value.trim();
+        currentActiveElement.textContent = newValue;
+      }
+
+      drafts[currentBindKey] = newValue;
+      setDrafts(drafts);
+      closeModals();
+    });
+
+    // Raccourci Entrée pour les champs simples
+    textInputSimple?.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        textSaveBtn?.click();
+      }
+    });
+
+    // Outils de formatage Rich Text (execCommand style sites-faciles)
+    document.querySelectorAll('.cms-tool-btn').forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const action = btn.getAttribute('data-action');
+        if (!action || !richtextEditor) return;
+        richtextEditor.focus();
+
+        if (action === 'bold') document.execCommand('bold');
+        else if (action === 'italic') document.execCommand('italic');
+        else if (action === 'strike') document.execCommand('strikeThrough');
+        else if (action === 'h2') document.execCommand('formatBlock', false, '<h2>');
+        else if (action === 'h3') document.execCommand('formatBlock', false, '<h3>');
+        else if (action === 'p') document.execCommand('formatBlock', false, '<p>');
+        else if (action === 'bulletList') document.execCommand('insertUnorderedList');
+        else if (action === 'orderedList') document.execCommand('insertOrderedList');
+        else if (action === 'blockquote') document.execCommand('formatBlock', false, '<blockquote>');
+        else if (action === 'undo') document.execCommand('undo');
+        else if (action === 'redo') document.execCommand('redo');
+      });
+    });
+
+    // Fermeture des modales
+    function closeModals() {
+      textModal?.close();
+      imageModal?.close();
+      if (currentActiveElement) {
+        currentActiveElement.removeAttribute('data-cms-active');
+        currentActiveElement = null;
+      }
+    }
+
+    textCloseBtn?.addEventListener('click', closeModals);
+    textCancelBtn?.addEventListener('click', closeModals);
+    imageCloseBtn?.addEventListener('click', closeModals);
+    imageCancel?.addEventListener('click', closeModals);
+
+    // Support systématique de la touche Échap et clic backdrop
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeModals();
+      }
+    });
+
+    [textModal, imageModal].forEach((dialog) => {
+      dialog?.addEventListener('click', (e) => {
+        if (e.target === dialog) {
+          closeModals();
+        }
+      });
+    });
+
+    // Gestion de l'upload d'image
     function onImageClick(e: MouseEvent) {
       if (mode !== 'edit') return;
       e.preventDefault();
@@ -224,7 +440,7 @@ const gitEnabled =
       currentImageElement = e.currentTarget as HTMLImageElement;
       currentImageBindKey = currentImageElement.getAttribute('data-cms-bind');
       if (imageLabel && currentImageBindKey) {
-        imageLabel.textContent = `Champ : ${currentImageBindKey}`;
+        imageLabel.textContent = currentImageBindKey;
       }
       if (imageFileInput) imageFileInput.value = '';
       if (imagePreviewBox) imagePreviewBox.classList.add('hidden');
@@ -232,10 +448,6 @@ const gitEnabled =
 
       imageModal?.showModal();
     }
-
-    imageCancel?.addEventListener('click', () => {
-      imageModal?.close();
-    });
 
     imageFileInput?.addEventListener('change', () => {
       if (imageFileInput.files && imageFileInput.files[0]) {
@@ -274,13 +486,12 @@ const gitEnabled =
         const data = await res.json();
         if (data.success && data.fileUrl) {
           const drafts = getDrafts();
-          // Le chemin public relatif attendu
           drafts[currentImageBindKey] = data.fileUrl.replace(/^\//, '');
           setDrafts(drafts);
           if (currentImageElement) {
             currentImageElement.src = data.fileUrl;
           }
-          imageModal?.close();
+          closeModals();
         } else {
           alert(`Erreur lors de l'upload : ${data.message || 'Inconnue'}`);
         }
@@ -374,18 +585,19 @@ const gitEnabled =
 <style is:global>
   body.cms-mode-editing [data-cms-bind] {
     position: relative;
-    outline: 2px dashed #059669;
-    outline-offset: 2px;
-    border-radius: 4px;
-    cursor: text;
+    outline: 2px dashed #0284c7;
+    outline-offset: 3px;
+    border-radius: 6px;
+    cursor: pointer !important;
     transition: all 0.15s ease;
   }
   body.cms-mode-editing [data-cms-bind]:hover {
-    outline: 2px solid #047857;
-    background-color: rgba(5, 150, 105, 0.08);
+    outline: 2px solid #0369a1;
+    background-color: rgba(2, 132, 199, 0.08);
   }
-  body.cms-mode-editing img[data-cms-bind] {
-    cursor: pointer;
+  body.cms-mode-editing [data-cms-active="true"] {
+    outline: 2px solid #2563eb !important;
+    background-color: rgba(37, 99, 235, 0.12) !important;
   }
   body.cms-mode-editing [data-cms-has-draft="true"] {
     outline: 2px dashed #d97706 !important;
@@ -531,7 +743,7 @@ const gitEnabled =
     background: rgba(255, 255, 255, 0.2);
   }
 
-  /* Image Modal */
+  /* Modales Dialog */
   .cms-modal {
     border: none;
     border-radius: 1rem;
@@ -539,28 +751,169 @@ const gitEnabled =
     background: transparent;
   }
   .cms-modal::backdrop {
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(2px);
+    background: rgba(15, 23, 42, 0.65);
+    backdrop-filter: blur(4px);
   }
   .cms-modal-box {
     background: #ffffff;
-    padding: 1.75rem;
+    padding: 1.5rem;
     border-radius: 1rem;
-    width: 440px;
-    max-width: 90vw;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+    width: 480px;
+    max-width: 92vw;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    font-family: system-ui, -apple-system, sans-serif;
   }
-  .cms-modal-box h3 {
-    margin: 0 0 0.25rem;
-    font-size: 1.15rem;
+  .cms-modal-box--rich {
+    width: 720px;
+  }
+
+  .cms-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .cms-modal-title-area {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .cms-modal-header h3 {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 700;
     color: #0f172a;
   }
-  .cms-modal-sub {
-    font-size: 0.75rem;
-    color: #64748b;
-    word-break: break-all;
-    margin: 0 0 1.25rem;
+  .cms-field-badge {
+    background: #f1f5f9;
+    color: #475569;
+    font-size: 0.7rem;
+    font-family: monospace;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #cbd5e1;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
+  .cms-modal-close-btn {
+    background: transparent;
+    border: none;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #94a3b8;
+    cursor: pointer;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.35rem;
+  }
+  .cms-modal-close-btn:hover {
+    color: #0f172a;
+    background: #f1f5f9;
+  }
+
+  .cms-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 1.25rem;
+  }
+  .cms-form-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #475569;
+  }
+  .cms-form-input {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.15s;
+    box-sizing: border-box;
+  }
+  .cms-form-input:focus {
+    border-color: #0284c7;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+  }
+
+  /* Barre d'outils Rich Text */
+  .cms-richtext-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    padding: 0.4rem;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-bottom: none;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  .cms-tool-btn {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #cbd5e1;
+    background: #ffffff;
+    border-radius: 0.25rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #334155;
+    transition: background 0.1s;
+  }
+  .cms-tool-btn:hover {
+    background: #e2e8f0;
+    color: #0f172a;
+  }
+  .cms-tool-sep {
+    border-right: 1px solid #cbd5e1;
+    margin: 0 0.25rem;
+  }
+
+  .cms-richtext-content {
+    min-height: 220px;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #cbd5e1;
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding: 0.85rem;
+    background: #ffffff;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    color: #1e293b;
+    outline: none;
+    box-sizing: border-box;
+  }
+  .cms-richtext-content:focus {
+    border-color: #0284c7;
+  }
+  .cms-richtext-content p {
+    margin-bottom: 0.75rem;
+  }
+  .cms-richtext-content h2, .cms-richtext-content h3 {
+    margin-top: 0.85rem;
+    margin-bottom: 0.4rem;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .cms-richtext-content ul, .cms-richtext-content ol {
+    padding-left: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+  .cms-richtext-content blockquote {
+    border-left: 3px solid #0284c7;
+    padding-left: 0.75rem;
+    margin: 0.5rem 0;
+    color: #475569;
+    font-style: italic;
+    background: #f8fafc;
+    border-radius: 0 0.25rem 0.25rem 0;
+  }
+
+  /* Upload d'image */
   .cms-upload-area {
     border: 2px dashed #cbd5e1;
     border-radius: 0.75rem;
@@ -587,18 +940,25 @@ const gitEnabled =
     border-radius: 0.5rem;
     object-fit: cover;
   }
+
   .cms-modal-actions {
     display: flex;
     justify-content: flex-end;
     gap: 0.5rem;
+    padding-top: 0.5rem;
   }
   .cms-modal-btn {
-    padding: 0.5rem 1rem;
+    padding: 0.45rem 1rem;
     border-radius: 0.5rem;
     font-size: 0.85rem;
     font-weight: 600;
     cursor: pointer;
     border: 1px solid #cbd5e1;
     background: #ffffff;
+    color: #334155;
+    transition: background 0.15s;
+  }
+  .cms-modal-btn:hover {
+    background: #f1f5f9;
   }
 </style>
