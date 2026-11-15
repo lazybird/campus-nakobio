@@ -33,12 +33,12 @@ const currentPath = Astro.url.pathname;
     <meta property="og:type" content="website" />
   </head>
   <body>
+    <CmsToolbar />
     <Navbar currentPath={currentPath} />
     <main>
       <slot />
     </main>
     <Footer />
-    <CmsToolbar />
 
     <!-- Script d'apparition progressive au scroll -->
     <script>
