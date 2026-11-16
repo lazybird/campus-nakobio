@@ -8,7 +8,6 @@ export default defineConfig({
   adapter: node({
     mode: 'standalone'
   }),
-  integrations: [gitCms()],
   server: {
     port: 3000,
     host: true
