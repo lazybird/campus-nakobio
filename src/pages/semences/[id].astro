@@ -330,12 +330,22 @@ if (totalSteps > 1) {
             <span class="toc-toggle-hint">Afficher / Masquer</span>
           </summary>
           <div class="toc-pills-list">
-            {pagesList.map((p: any) => (
-              <a href={`#partie-${p.page_number}`} class="toc-step-chip">
-                <span class="toc-num">{p.page_number}</span>
-                <span class="toc-title">{p.title}</span>
-              </a>
-            ))}
+            {pagesList.map((p: any, pIdx: number) => {
+              const pFlags = Array.isArray(p?.editorial?.flags) ? p.editorial.flags : [];
+              const pComment = typeof p?.editorial?.comment === 'string' ? p.editorial.comment.trim() : '';
+              const hasPReview = pFlags.length > 0 || pComment.length > 0;
+              return (
+                <a href={`#partie-${p.page_number}`} class="toc-step-chip">
+                  <span class="toc-num">{p.page_number}</span>
+                  <span class="toc-title">{p.title}</span>
+                  {hasPReview && (
+                    <span class="toc-editorial-badge editorial-auth-only" data-page-index={pIdx} title="Chapitre marqué pour revue">
+                      ⚠️ À revoir
+                    </span>
+                  )}
+                </a>
+              );
+            })}
           </div>
         </details>
       )}
@@ -395,7 +405,56 @@ if (totalSteps > 1) {
                 <span class="step-meta-label">PARTIE {page.page_number} SUR {course.total_pages || pagesList.length}</span>
                 <span class="step-meta-name">{page.title}</span>
               </div>
+              <div class="slide-editorial-ctrl editorial-auth-only no-print">
+                <button
+                  type="button"
+                  class="editorial-edit-btn"
+                  data-page-index={idx}
+                  data-page-title={page.title}
+                  data-editorial-bind={`${courseJsonRelPath}::pages.${idx}.editorial`}
+                  data-editorial-flags={JSON.stringify(page?.editorial?.flags || [])}
+                  data-editorial-comment={page?.editorial?.comment || ''}
+                  title="Éditer les drapeaux et commentaires de cette page"
+                >
+                  <span>🏷️</span>
+                  <span>Revue éditoriale</span>
+                </button>
+              </div>
             </div>
+
+            <!-- Fiche d'alerte éditoriale (visibles connectés si flags ou commentaire) -->
+            {(() => {
+              const eFlags: string[] = Array.isArray(page?.editorial?.flags) ? page.editorial.flags : [];
+              const eComment: string = typeof page?.editorial?.comment === 'string' ? page.editorial.comment.trim() : '';
+              const hasTextFlag = eFlags.includes('text_review');
+              const hasImageFlag = eFlags.includes('image_review');
+              const hasAny = eFlags.length > 0 || eComment.length > 0;
+              if (!hasAny) return null;
+              return (
+                <div class="slide-editorial-card editorial-auth-only no-print" data-editorial-display={idx}>
+                  <div class="slide-editorial-header">
+                    <span class="slide-editorial-title">
+                      <span>⚠️ Note pour l'équipe d'édition</span>
+                    </span>
+                    <div class="slide-editorial-flags">
+                      {hasTextFlag && (
+                        <span class="editorial-badge-pill editorial-badge-pill--text">
+                          ✏️ Texte à revoir
+                        </span>
+                      )}
+                      {hasImageFlag && (
+                        <span class="editorial-badge-pill editorial-badge-pill--image">
+                          🖼️ Image à revoir
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                  {eComment && (
+                    <p class="slide-editorial-comment">{eComment}</p>
+                  )}
+                </div>
+              );
+            })()}
 
             <!-- Zone Visuelle : Image du cours ou carnet de croquis pédagogique -->
             <div class="slide-visual-wrapper">

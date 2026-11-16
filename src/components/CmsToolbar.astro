@@ -161,6 +161,60 @@ const gitEnabled =
     </div>
   </dialog>
 
+  <!-- Modal pour les Labels & Commentaires Éditoriaux de Chapitre -->
+  <dialog id="cms-editorial-modal" class="cms-modal">
+    <div class="cms-modal-box">
+      <div class="cms-modal-header">
+        <div class="cms-modal-title-area">
+          <svg class="cms-modal-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2">
+            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+            <line x1="7" y1="7" x2="7.01" y2="7"></line>
+          </svg>
+          <h3 id="cms-editorial-modal-title">Revue éditoriale du chapitre</h3>
+        </div>
+        <span id="cms-editorial-target-badge" class="cms-field-badge">page</span>
+        <button type="button" id="cms-editorial-close" class="cms-modal-close-btn" aria-label="Fermer (Échap)">&times;</button>
+      </div>
+
+      <div class="cms-modal-body">
+        <div class="cms-form-group">
+          <label class="cms-form-label">Drapeaux de révision (Labels)</label>
+          <div class="cms-flags-selector">
+            <label class="cms-flag-item">
+              <input type="checkbox" id="cms-flag-text" value="text_review" />
+              <span class="cms-flag-label">
+                <span class="cms-flag-icon">✏️</span>
+                <span>Texte à revoir</span>
+              </span>
+            </label>
+            <label class="cms-flag-item">
+              <input type="checkbox" id="cms-flag-image" value="image_review" />
+              <span class="cms-flag-label">
+                <span class="cms-flag-icon">🖼️</span>
+                <span>Image à revoir</span>
+              </span>
+            </label>
+          </div>
+        </div>
+
+        <div class="cms-form-group">
+          <label for="cms-editorial-comment" class="cms-form-label">Commentaire réservé à l'équipe éditoriale</label>
+          <textarea
+            id="cms-editorial-comment"
+            class="cms-form-textarea"
+            rows="4"
+            placeholder="Notes internes, consignes de retouche ou remarques sur cette page..."
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="cms-modal-actions">
+        <button type="button" id="cms-editorial-cancel" class="cms-modal-btn">Annuler (Échap)</button>
+        <button type="button" id="cms-editorial-save" class="cms-modal-btn cms-btn-primary">Appliquer les retours</button>
+      </div>
+    </div>
+  </dialog>
+
   <!-- Modal de confirmation moderne intégrée (remplace window.confirm) -->
   <dialog id="cms-confirm-modal" class="cms-modal">
     <div class="cms-modal-box cms-modal-box--confirm">
@@ -219,6 +273,7 @@ const gitEnabled =
     }
 
     if (isAuthorized) {
+      document.body.classList.add('cms-auth-active');
       root.classList.remove('hidden');
       initCmsToolbar();
     }
@@ -255,6 +310,17 @@ const gitEnabled =
     const imageCloseBtn = document.getElementById('cms-image-close');
     const imageCancel = document.getElementById('cms-image-cancel');
     const imageSaveBtn = document.getElementById('cms-image-save');
+
+    // Modale Revue Éditoriale
+    const editorialModal = document.getElementById('cms-editorial-modal') as HTMLDialogElement | null;
+    const editorialModalTitle = document.getElementById('cms-editorial-modal-title');
+    const editorialTargetBadge = document.getElementById('cms-editorial-target-badge');
+    const editorialFlagText = document.getElementById('cms-flag-text') as HTMLInputElement | null;
+    const editorialFlagImage = document.getElementById('cms-flag-image') as HTMLInputElement | null;
+    const editorialComment = document.getElementById('cms-editorial-comment') as HTMLTextAreaElement | null;
+    const editorialCloseBtn = document.getElementById('cms-editorial-close');
+    const editorialCancelBtn = document.getElementById('cms-editorial-cancel');
+    const editorialSaveBtn = document.getElementById('cms-editorial-save');
 
     // Dialogue de confirmation intégré
     const confirmModal = document.getElementById('cms-confirm-modal') as HTMLDialogElement | null;
@@ -376,6 +442,10 @@ const gitEnabled =
     let currentImageElement: HTMLImageElement | null = null;
     let selectedFile: File | null = null;
 
+    let currentEditorialBtn: HTMLElement | null = null;
+    let currentEditorialBindKey: string | null = null;
+    let currentEditorialPageIndex: string | null = null;
+
     function getDrafts(): Record<string, string> {
       try {
         return JSON.parse(localStorage.getItem('campus_cms_drafts') || '{}');
@@ -413,6 +483,95 @@ const gitEnabled =
           el.setAttribute('data-cms-has-draft', 'true');
         } else {
           el.removeAttribute('data-cms-has-draft');
+        }
+      });
+
+      // Appliquer les brouillons éditoriaux (drapeaux et commentaires)
+      document.querySelectorAll('.editorial-edit-btn').forEach((btn) => {
+        const bindKey = btn.getAttribute('data-editorial-bind');
+        const pageIdx = btn.getAttribute('data-page-index');
+        if (bindKey && drafts[bindKey] !== undefined) {
+          try {
+            const data = JSON.parse(drafts[bindKey]);
+            const flags: string[] = Array.isArray(data.flags) ? data.flags : [];
+            const comment: string = typeof data.comment === 'string' ? data.comment.trim() : '';
+
+            // Mise à jour des attributs sur le bouton
+            btn.setAttribute('data-editorial-flags', JSON.stringify(flags));
+            btn.setAttribute('data-editorial-comment', comment);
+
+            // Mise à jour de la carte éditoriale dans la page
+            const card = document.querySelector(`.slide-editorial-card[data-editorial-display="${pageIdx}"]`) as HTMLElement | null;
+            const hasAny = flags.length > 0 || comment.length > 0;
+
+            if (card) {
+              if (hasAny) {
+                card.style.display = 'block';
+                const flagsContainer = card.querySelector('.slide-editorial-flags');
+                if (flagsContainer) {
+                  let html = '';
+                  if (flags.includes('text_review')) html += '<span class="editorial-badge-pill editorial-badge-pill--text">✏️ Texte à revoir</span> ';
+                  if (flags.includes('image_review')) html += '<span class="editorial-badge-pill editorial-badge-pill--image">🖼️ Image à revoir</span>';
+                  flagsContainer.innerHTML = html;
+                }
+                let commentP = card.querySelector('.slide-editorial-comment');
+                if (comment) {
+                  if (!commentP) {
+                    commentP = document.createElement('p');
+                    commentP.className = 'slide-editorial-comment';
+                    card.appendChild(commentP);
+                  }
+                  commentP.textContent = comment;
+                } else if (commentP) {
+                  commentP.remove();
+                }
+              } else {
+                card.style.display = 'none';
+              }
+            } else if (hasAny && pageIdx !== null) {
+              // Créer la carte dynamiquement si elle n'existait pas au rendu initial
+              const article = document.querySelector(`.slide-unit#partie-${parseInt(pageIdx, 10) + 1}`) ||
+                              document.querySelectorAll('.slide-unit')[parseInt(pageIdx, 10)];
+              if (article) {
+                const headerBar = article.querySelector('.slide-step-header-bar');
+                if (headerBar) {
+                  const newCard = document.createElement('div');
+                  newCard.className = 'slide-editorial-card editorial-auth-only no-print';
+                  newCard.setAttribute('data-editorial-display', pageIdx);
+                  let flagsHtml = '';
+                  if (flags.includes('text_review')) flagsHtml += '<span class="editorial-badge-pill editorial-badge-pill--text">✏️ Texte à revoir</span> ';
+                  if (flags.includes('image_review')) flagsHtml += '<span class="editorial-badge-pill editorial-badge-pill--image">🖼️ Image à revoir</span>';
+
+                  newCard.innerHTML = `
+                    <div class="slide-editorial-header">
+                      <span class="slide-editorial-title"><span>⚠️ Note pour l'équipe d'édition</span></span>
+                      <div class="slide-editorial-flags">${flagsHtml}</div>
+                    </div>
+                    ${comment ? `<p class="slide-editorial-comment">${comment}</p>` : ''}
+                  `;
+                  headerBar.insertAdjacentElement('afterend', newCard);
+                }
+              }
+            }
+
+            // Mise à jour du badge dans le sommaire rapide
+            const tocBadge = document.querySelector(`.toc-editorial-badge[data-page-index="${pageIdx}"]`) as HTMLElement | null;
+            if (tocBadge) {
+              tocBadge.style.display = hasAny ? 'inline-flex' : 'none';
+            } else if (hasAny && pageIdx !== null) {
+              const chip = document.querySelectorAll('.toc-step-chip')[parseInt(pageIdx, 10)];
+              if (chip) {
+                const newBadge = document.createElement('span');
+                newBadge.className = 'toc-editorial-badge editorial-auth-only';
+                newBadge.setAttribute('data-page-index', pageIdx);
+                newBadge.setAttribute('title', 'Chapitre marqué pour revue');
+                newBadge.textContent = '⚠️ À revoir';
+                chip.appendChild(newBadge);
+              }
+            }
+          } catch (e) {
+            // Ignorer si format invalide
+          }
         }
       });
     }
@@ -566,16 +725,22 @@ const gitEnabled =
     function closeModals() {
       textModal?.close();
       imageModal?.close();
+      editorialModal?.close();
       if (currentActiveElement) {
         currentActiveElement.removeAttribute('data-cms-active');
         currentActiveElement = null;
       }
+      currentEditorialBtn = null;
+      currentEditorialBindKey = null;
+      currentEditorialPageIndex = null;
     }
 
     textCloseBtn?.addEventListener('click', closeModals);
     textCancelBtn?.addEventListener('click', closeModals);
     imageCloseBtn?.addEventListener('click', closeModals);
     imageCancel?.addEventListener('click', closeModals);
+    editorialCloseBtn?.addEventListener('click', closeModals);
+    editorialCancelBtn?.addEventListener('click', closeModals);
 
     // Support systématique de la touche Échap et clic backdrop
     window.addEventListener('keydown', (e) => {
@@ -584,12 +749,89 @@ const gitEnabled =
       }
     });
 
-    [textModal, imageModal].forEach((dialog) => {
+    [textModal, imageModal, editorialModal].forEach((dialog) => {
       dialog?.addEventListener('click', (e) => {
         if (e.target === dialog) {
           closeModals();
         }
       });
+    });
+
+    // Gestion de l'ouverture de la modale éditoriale
+    function onEditorialBtnClick(e: MouseEvent) {
+      e.preventDefault();
+      e.stopPropagation();
+
+      const btn = e.currentTarget as HTMLElement;
+      currentEditorialBtn = btn;
+      currentEditorialBindKey = btn.getAttribute('data-editorial-bind');
+      currentEditorialPageIndex = btn.getAttribute('data-page-index');
+      const pageTitle = btn.getAttribute('data-page-title') || 'Chapitre';
+
+      if (!currentEditorialBindKey) return;
+
+      if (editorialModalTitle) {
+        editorialModalTitle.textContent = `Revue éditoriale : ${pageTitle}`;
+      }
+      if (editorialTargetBadge) {
+        editorialTargetBadge.textContent = currentEditorialBindKey;
+      }
+
+      // Lire les valeurs actuelles (brouillons ou attributs du bouton)
+      const drafts = getDrafts();
+      let currentFlags: string[] = [];
+      let currentComment = '';
+
+      if (drafts[currentEditorialBindKey] !== undefined) {
+        try {
+          const parsed = JSON.parse(drafts[currentEditorialBindKey]);
+          currentFlags = Array.isArray(parsed.flags) ? parsed.flags : [];
+          currentComment = typeof parsed.comment === 'string' ? parsed.comment : '';
+        } catch {
+          currentFlags = [];
+          currentComment = '';
+        }
+      } else {
+        try {
+          const rawFlags = btn.getAttribute('data-editorial-flags') || '[]';
+          currentFlags = JSON.parse(rawFlags);
+        } catch {
+          currentFlags = [];
+        }
+        currentComment = btn.getAttribute('data-editorial-comment') || '';
+      }
+
+      if (editorialFlagText) editorialFlagText.checked = currentFlags.includes('text_review');
+      if (editorialFlagImage) editorialFlagImage.checked = currentFlags.includes('image_review');
+      if (editorialComment) editorialComment.value = currentComment;
+
+      editorialModal?.showModal();
+    }
+
+    // Sauvegarde de la modale éditoriale
+    editorialSaveBtn?.addEventListener('click', () => {
+      if (!currentEditorialBindKey) return;
+
+      const flags: string[] = [];
+      if (editorialFlagText?.checked) flags.push('text_review');
+      if (editorialFlagImage?.checked) flags.push('image_review');
+
+      const comment = (editorialComment?.value || '').trim();
+
+      const drafts = getDrafts();
+      drafts[currentEditorialBindKey] = JSON.stringify({
+        flags,
+        comment,
+      });
+
+      setDrafts(drafts);
+      closeModals();
+      showToast('Retours éditoriaux enregistrés dans le brouillon.', 'success');
+    });
+
+    // Attacher les écouteurs sur tous les boutons de revue éditoriale
+    document.querySelectorAll('.editorial-edit-btn').forEach((btn) => {
+      btn.addEventListener('click', onEditorialBtnClick as any);
     });
 
     confirmModal?.addEventListener('click', (e) => {
@@ -1210,6 +1452,60 @@ const gitEnabled =
   .cms-btn-danger-solid:hover {
     background: #b91c1c;
     color: #ffffff;
+  }
+
+  /* Formulaires et Drapeaux Éditoriaux */
+  .cms-flags-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.25rem;
+  }
+  .cms-flag-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  .cms-flag-item input[type="checkbox"] {
+    display: none;
+  }
+  .cms-flag-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.45rem 0.85rem;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #475569;
+    background: #f8fafc;
+    border: 1.5px solid #cbd5e1;
+    transition: all 0.15s ease;
+  }
+  .cms-flag-item input[type="checkbox"]:checked + .cms-flag-label {
+    background: #fef3c7;
+    border-color: #f59e0b;
+    color: #92400e;
+    box-shadow: 0 1px 3px rgba(245, 158, 11, 0.2);
+  }
+  .cms-form-textarea {
+    width: 100%;
+    padding: 0.65rem 0.75rem;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 0.5rem;
+    font-size: 0.92rem;
+    font-family: inherit;
+    line-height: 1.5;
+    outline: none;
+    resize: vertical;
+    box-sizing: border-box;
+    transition: border-color 0.15s;
+  }
+  .cms-form-textarea:focus {
+    border-color: #d97706;
+    box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.15);
   }
 
   /* Toasts et Notifications intégrées */
