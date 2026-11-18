@@ -45,14 +45,14 @@ const gitEnabled =
 
     <div class="cms-right">
       <span id="cms-draft-indicator" class="cms-draft-pill hidden">0 modif(s)</span>
-      <button type="button" id="cms-btn-reset" class="cms-btn cms-btn-danger" title="Annuler les brouillons locaux">
+      <button type="button" id="cms-btn-reset" class="cms-btn cms-btn-danger" title="Annuler les modifications locales en attente">
         Annuler
       </button>
-      <button type="button" id="cms-btn-save" class="cms-btn cms-btn-primary">
+      <button type="button" id="cms-btn-save" class="cms-btn cms-btn-primary" title="Enregistrer les modifications sur le serveur">
         Enregistrer
       </button>
-      <button type="button" id="cms-btn-publish" class="cms-btn cms-btn-success" title="Publier sur Git">
-        Publier Git
+      <button type="button" id="cms-btn-publish" class="cms-btn cms-btn-success" title="Publier les modifications en ligne">
+        Publier
       </button>
       <a href="/api/auth/logout" class="cms-btn-logout" title="Déconnexion">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -974,12 +974,17 @@ const gitEnabled =
       }
     });
 
-    // Publication sur Git avec boîte de confirmation moderne
+    // Publication avec boîte de confirmation moderne
     btnPublish?.addEventListener('click', async () => {
+      const drafts = getDrafts();
+      const hasUnsavedDrafts = Object.keys(drafts).length > 0;
+
       const confirmed = await showConfirm({
-        title: 'Publier sur le dépôt Git',
-        message: 'Voulez-vous publier et commiter les modifications sur le dépôt distant (branche active) ?',
-        confirmText: 'Publier sur Git',
+        title: 'Publier les modifications',
+        message: hasUnsavedDrafts
+          ? 'Des modifications locales sont en attente. Elles seront automatiquement enregistrées puis publiées en ligne. Continuer ?'
+          : 'Voulez-vous publier les modifications du cours en ligne ?',
+        confirmText: 'Publier maintenant',
         cancelText: 'Annuler',
         isDanger: false,
       });
@@ -989,20 +994,47 @@ const gitEnabled =
           btnPublish.textContent = 'Publication...';
           btnPublish.setAttribute('disabled', 'true');
         }
+        if (btnSave) {
+          btnSave.setAttribute('disabled', 'true');
+        }
+
         try {
+          // Si des modifications locales existent dans les brouillons, on les sauvegarde d'abord sur le serveur
+          if (hasUnsavedDrafts) {
+            const saveRes = await fetch('/api/cms/save', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ drafts }),
+            });
+            const saveData = await saveRes.json();
+            if (!saveData.success) {
+              throw new Error(saveData.message || 'Erreur lors de la sauvegarde préalable des modifications.');
+            }
+            localStorage.removeItem('campus_cms_drafts');
+            updateDraftUI();
+          }
+
           const res = await fetch('/api/cms/publish', { method: 'POST' });
           const data = await res.json();
           if (data.success) {
-            showToast(data.message || 'Cours publié avec succès sur Git !', 'success', 5000);
+            showToast(data.message || 'Cours publié avec succès en ligne !', 'success', 5000);
+            if (hasUnsavedDrafts) {
+              setTimeout(() => {
+                window.location.reload();
+              }, 1200);
+            }
           } else {
-            showToast(`Erreur de publication Git : ${data.message}`, 'error', 6000);
+            showToast(`Erreur de publication : ${data.message}`, 'error', 6000);
           }
         } catch (err: any) {
-          showToast(`Erreur réseau : ${err.message}`, 'error', 6000);
+          showToast(`Erreur : ${err.message}`, 'error', 6000);
         } finally {
           if (btnPublish) {
-            btnPublish.textContent = 'Publier Git';
+            btnPublish.textContent = 'Publier';
             btnPublish.removeAttribute('disabled');
+          }
+          if (btnSave) {
+            btnSave.removeAttribute('disabled');
           }
         }
       }
