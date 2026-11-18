@@ -1498,9 +1498,10 @@ if (totalSteps > 1) {
     text-overflow: ellipsis;
   }
 
-  /* Zone Image Panoramique (respect du ratio natif des planches maraîchage) */
+  /* Zone Image 16:9 Standardisée */
   .slide-visual-wrapper {
     width: 100%;
+    aspect-ratio: 16 / 9;
     background: #ffffff;
     position: relative;
     overflow: hidden;
@@ -1511,9 +1512,8 @@ if (totalSteps > 1) {
 
   .slide-visual-wrapper img {
     width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
   }
 
   /* Carnet de croquis pour illustrations en attente */
