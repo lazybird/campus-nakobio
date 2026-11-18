@@ -3,7 +3,7 @@ import { extractAuthToken, hashSha256 } from '@malihub/git-headless-cms-core';
 
 export const prerender = false;
 
-export const POST: APIRoute = async ({ request }) => {
+async function handleStatus(request: Request) {
   const token = extractAuthToken(request);
   const rawSecret = process.env.CMS_ADMIN_SECRET || '';
   const expectedHash = await hashSha256(rawSecret);
@@ -26,4 +26,12 @@ export const POST: APIRoute = async ({ request }) => {
     }),
     { status: 200, headers: { 'Content-Type': 'application/json' } }
   );
+}
+
+export const GET: APIRoute = async ({ request }) => {
+  return handleStatus(request);
+};
+
+export const POST: APIRoute = async ({ request }) => {
+  return handleStatus(request);
 };
