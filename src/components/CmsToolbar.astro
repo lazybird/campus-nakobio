@@ -48,11 +48,8 @@ const gitEnabled =
       <button type="button" id="cms-btn-reset" class="cms-btn cms-btn-danger" title="Annuler les modifications locales en attente">
         Annuler
       </button>
-      <button type="button" id="cms-btn-save" class="cms-btn cms-btn-primary" title="Enregistrer les modifications sur le serveur">
+      <button type="button" id="cms-btn-save" class="cms-btn cms-btn-primary" title="Enregistrer et mettre en ligne les modifications">
         Enregistrer
-      </button>
-      <button type="button" id="cms-btn-publish" class="cms-btn cms-btn-success" title="Publier les modifications en ligne">
-        Publier
       </button>
       <a href="/api/auth/logout" class="cms-btn-logout" title="Déconnexion">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -287,7 +284,6 @@ const gitEnabled =
     const btnEdit = document.getElementById('cms-btn-edit');
     const btnReset = document.getElementById('cms-btn-reset');
     const btnSave = document.getElementById('cms-btn-save');
-    const btnPublish = document.getElementById('cms-btn-publish');
     const draftIndicator = document.getElementById('cms-draft-indicator');
 
     // Modales
@@ -934,108 +930,64 @@ const gitEnabled =
       }
     });
 
-    // Enregistrement sur le disque local
+    // Enregistrement et mise en ligne des modifications avec confirmation
     btnSave?.addEventListener('click', async () => {
       const drafts = getDrafts();
-      if (Object.keys(drafts).length === 0) {
-        showToast('Aucune modification à enregistrer.', 'info');
-        return;
-      }
-
-      if (btnSave) {
-        btnSave.textContent = 'Sauvegarde...';
-        btnSave.setAttribute('disabled', 'true');
-      }
-
-      try {
-        const res = await fetch('/api/cms/save', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ drafts }),
-        });
-
-        const data = await res.json();
-        if (data.success) {
-          showToast('Modifications enregistrées avec succès sur les fichiers du cours !', 'success', 3000);
-          localStorage.removeItem('campus_cms_drafts');
-          setTimeout(() => {
-            window.location.reload();
-          }, 800);
-        } else {
-          showToast(`Erreur d'enregistrement : ${data.message || 'Erreur inconnue'}`, 'error', 6000);
-        }
-      } catch (err: any) {
-        showToast(`Erreur réseau : ${err.message}`, 'error', 6000);
-      } finally {
-        if (btnSave) {
-          btnSave.textContent = 'Enregistrer';
-          btnSave.removeAttribute('disabled');
-        }
-      }
-    });
-
-    // Publication avec boîte de confirmation moderne
-    btnPublish?.addEventListener('click', async () => {
-      const drafts = getDrafts();
-      const hasUnsavedDrafts = Object.keys(drafts).length > 0;
+      const hasDrafts = Object.keys(drafts).length > 0;
 
       const confirmed = await showConfirm({
-        title: 'Publier les modifications',
-        message: hasUnsavedDrafts
-          ? 'Des modifications locales sont en attente. Elles seront automatiquement enregistrées puis publiées en ligne. Continuer ?'
-          : 'Voulez-vous publier les modifications du cours en ligne ?',
-        confirmText: 'Publier maintenant',
+        title: 'Enregistrer les modifications',
+        message: hasDrafts
+          ? 'Voulez-vous enregistrer et mettre en ligne immédiatement les modifications apportées à ce cours ?'
+          : 'Voulez-vous synchroniser et actualiser le cours en ligne ?',
+        confirmText: 'Enregistrer et publier',
         cancelText: 'Annuler',
         isDanger: false,
       });
 
-      if (confirmed) {
-        if (btnPublish) {
-          btnPublish.textContent = 'Publication...';
-          btnPublish.setAttribute('disabled', 'true');
+      if (!confirmed) return;
+
+      if (btnSave) {
+        btnSave.textContent = 'Enregistrement...';
+        btnSave.setAttribute('disabled', 'true');
+      }
+
+      try {
+        // 1. Sauvegarde des brouillons sur les fichiers du serveur
+        if (hasDrafts) {
+          const saveRes = await fetch('/api/cms/save', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ drafts }),
+          });
+
+          const saveData = await saveRes.json();
+          if (!saveData.success) {
+            throw new Error(saveData.message || "Erreur lors de l'enregistrement des fichiers.");
+          }
+
+          localStorage.removeItem('campus_cms_drafts');
+          updateDraftUI();
         }
+
+        // 2. Publication / synchronisation en ligne
+        const pubRes = await fetch('/api/cms/publish', { method: 'POST' });
+        const pubData = await pubRes.json();
+
+        if (pubData.success) {
+          showToast('Modifications enregistrées et mises en ligne avec succès !', 'success', 5000);
+          setTimeout(() => {
+            window.location.reload();
+          }, 1200);
+        } else {
+          showToast(`Erreur de mise en ligne : ${pubData.message}`, 'error', 6000);
+        }
+      } catch (err: any) {
+        showToast(`Erreur : ${err.message}`, 'error', 6000);
+      } finally {
         if (btnSave) {
-          btnSave.setAttribute('disabled', 'true');
-        }
-
-        try {
-          // Si des modifications locales existent dans les brouillons, on les sauvegarde d'abord sur le serveur
-          if (hasUnsavedDrafts) {
-            const saveRes = await fetch('/api/cms/save', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ drafts }),
-            });
-            const saveData = await saveRes.json();
-            if (!saveData.success) {
-              throw new Error(saveData.message || 'Erreur lors de la sauvegarde préalable des modifications.');
-            }
-            localStorage.removeItem('campus_cms_drafts');
-            updateDraftUI();
-          }
-
-          const res = await fetch('/api/cms/publish', { method: 'POST' });
-          const data = await res.json();
-          if (data.success) {
-            showToast(data.message || 'Cours publié avec succès en ligne !', 'success', 5000);
-            if (hasUnsavedDrafts) {
-              setTimeout(() => {
-                window.location.reload();
-              }, 1200);
-            }
-          } else {
-            showToast(`Erreur de publication : ${data.message}`, 'error', 6000);
-          }
-        } catch (err: any) {
-          showToast(`Erreur : ${err.message}`, 'error', 6000);
-        } finally {
-          if (btnPublish) {
-            btnPublish.textContent = 'Publier';
-            btnPublish.removeAttribute('disabled');
-          }
-          if (btnSave) {
-            btnSave.removeAttribute('disabled');
-          }
+          btnSave.textContent = 'Enregistrer';
+          btnSave.removeAttribute('disabled');
         }
       }
     });
