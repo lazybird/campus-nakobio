@@ -889,12 +889,13 @@ const gitEnabled =
         });
 
         const data = await res.json();
-        if (data.success && data.fileUrl) {
+        const uploadedUrl = data.fileUrl || data.url;
+        if (data.success && uploadedUrl) {
           const drafts = getDrafts();
-          drafts[currentImageBindKey] = data.fileUrl.replace(/^\//, '');
+          drafts[currentImageBindKey] = uploadedUrl.replace(/^\//, '');
           setDrafts(drafts);
           if (currentImageElement) {
-            currentImageElement.src = data.fileUrl;
+            currentImageElement.src = uploadedUrl;
           }
           closeModals();
           showToast('Image mise à jour dans le brouillon.', 'success');
