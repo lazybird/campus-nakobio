@@ -12,10 +12,8 @@
       "illustration_description": "Plan moyen : deux paysans observant avec curiosité deux parcelles voisines. Au milieu, un panneau avec un point d'interrogation et deux légumes illustrés (concombre et melon) avec un grand sourire complice.",
       "image": "assets/images/a2_classification_botanique_simplifiee/page_01.jpg",
       "editorial": {
-        "flags": [
-          "image_review"
-        ],
-        "comment": "retirer bardage en bois et mieux placer les pictogrammes"
+        "flags": [],
+        "comment": "Nouvelle version disponible"
       }
     },
     {
@@ -30,13 +28,7 @@
       "title": "La règle d'or des croisements",
       "text": "Retenez cette règle fondamentale :\nSeules les variétés d'une **MÊME ESPÈCE** peuvent facilement s'accoupler et se croiser.\nDes plantes d'espèces différentes ou de familles différentes ne se croisent JAMAIS naturellement entre elles.\nC'est la nature qui pose cette barrière protectrice.",
       "illustration_description": "Schéma clair avec pictogrammes :\n- Deux variétés de tomates qui échangent du pollen : flèche verte avec mention \"Se croisent facilement ⚠️\".\n- Une tomate et une carotte côte à côte : grand bouclier infranchissable avec mention \"Croisement impossible ❌\".",
-      "image": "assets/images/a2_classification_botanique_simplifiee/page_03.jpg",
-      "editorial": {
-        "flags": [
-          "image_review"
-        ],
-        "comment": "pas encore générée"
-      }
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_03.jpg"
     },
     {
       "page_number": 4,
@@ -45,10 +37,8 @@
       "illustration_description": "Vue d'ensemble d'une liane vigoureuse au sol portant des feuilles palmées et une belle fleur jaune en cloche. Autour, vignettes montrant un concombre, une tranche de pastèque, un melon et une courge locale.",
       "image": "assets/images/a2_classification_botanique_simplifiee/page_04.jpg",
       "editorial": {
-        "flags": [
-          "image_review"
-        ],
-        "comment": "ajouter les fleurs femelle"
+        "flags": [],
+        "comment": "Nouvelle version disponible"
       }
     },
     {
@@ -56,14 +46,7 @@
       "title": "Attention aux espèces dans la famille des courges !",
       "text": "Dans la famille des courges, le concombre et le melon sont des espèces différentes :\n✅ Le concombre ne se croise JAMAIS avec le melon.\n✅ La pastèque ne se croise JAMAIS avec la courge.\n⚠️ Mais deux variétés de melons plantées côte à côte vont TOUJOURS se croiser !",
       "illustration_description": "Tableau visuel simple :\n- Concombre ↔️ Melon = Croix rouge \"Pas de croisement ✅\"\n- Melon de variété A ↔️ Melon de variété B = Flèche d'avertissement \"Croisement immédiat ⚠️\".",
-      "image": "assets/images/a2_classification_botanique_simplifiee/page_05.jpg",
-      "editorial": {
-        "flags": [
-          "text_review",
-          "image_review"
-        ],
-        "comment": ""
-      }
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_05.jpg"
     },
     {
       "page_number": 6,
@@ -91,26 +74,14 @@
       "title": "Les haricots préfèrent rester fidèles",
       "text": "Bonne nouvelle pour le paysan :\nChez la plupart des haricots et niébés, la fleur se féconde elle-même avant même de s'ouvrir !\nC'est ce qu'on appelle une plante **autogame**.\nLes risques de croisement avec le voisin sont donc beaucoup plus faibles que chez les courges.",
       "illustration_description": "Coupe en gros plan d'une fleur de haricot encore fermée comme un cocon : les organes mâles déposent déjà le pollen directement sur l'organe femelle à l'abri du vent et des insectes.\nPicto : cadenas fermé \"Fidélité garantie ✅\".",
-      "image": "assets/images/a2_classification_botanique_simplifiee/page_09.jpg",
-      "editorial": {
-        "flags": [
-          "image_review"
-        ],
-        "comment": "Tristan : \"la fleur au milieu elle ne correspond pas à une fleur de harico et j'ai l'impression que les plantes le champ que tu as dessiné c'est pas un champ de haricots peut-être qu'on pourrait mettre des haricots grimpants à la place\""
-      }
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_09.jpg"
     },
     {
       "page_number": 10,
       "title": "Quatrième famille : Les Brassicacées (la famille des choux)",
       "text": "Leurs fleurs ont 4 pétales disposés en forme de croix.\nC'est la famille des **Brassicacées** (les choux).\nElle regroupe le chou cabu, le chou feuille (sukuma wiki), le radis et la moutarde.",
       "illustration_description": "Gros plan sur une hampe florale de chou portant des fleurs jaunes à 4 pétales nettement disposés en croix (+).\nEn bas, une pomme de chou cabu et des feuilles de chou cavalier.",
-      "image": "assets/images/a2_classification_botanique_simplifiee/page_10.jpg",
-      "editorial": {
-        "flags": [
-          "image_review"
-        ],
-        "comment": "Tristan : \"Dans dans l'image la deuxième plante ne ressemble pas à un choux kale c'est une plante qui n'existe pas la plante entre le radis et le choux pomme\""
-      }
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_10.jpg"
     },
     {
       "page_number": 11,
@@ -145,26 +116,14 @@
       "title": "L'astuce du maraîcher : le calendrier décalé",
       "text": "Vous n'avez pas assez d'espace pour éloigner vos cultures de plusieurs centaines de mètres ?\nDécallez simplement la date de semis !\nSi la première variété finit de fleurir avant que la deuxième ne commence à ouvrir ses fleurs, aucun croisement n'est possible.",
       "illustration_description": "Frise chronologique sur 4 mois :\n- Mois 1 et 2 : Variété A en fleurs, Variété B à peine semée (en herbe).\n- Mois 3 et 4 : Variété A en fruits bien formés (fleurs fanées), Variété B qui commence à fleurir.\nMention : \"Zéro croisement grâce au temps ✅\".",
-      "image": "assets/images/a2_classification_botanique_simplifiee/page_15.jpg",
-      "editorial": {
-        "flags": [
-          "image_review"
-        ],
-        "comment": "Tristan \"ajouter du paillage\""
-      }
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_15.jpg"
     },
     {
       "page_number": 16,
       "title": "Félicitations ! Vous parlez le langage des familles",
       "text": "Bravo ! Vous avez compris comment les plantes s'associent :\n✅ Vous savez que seules les plantes d'une même espèce se croisent\n✅ Vous savez que piment et poivron doivent être bien surveillés\n✅ Vous savez décaler vos cultures dans le temps pour protéger vos graines\nProchain module : comment choisir les meilleures semences de départ pour démarrer son autonomie !",
       "illustration_description": "Le maraîcher montre fièrement un panneau en bois planté au bout de sa planche indiquant la famille et la variété, avec le pouce levé 👍.\nPlusieurs légumes des 4 familles forment une couronne protectrice tout autour du dessin.",
-      "image": "assets/images/a2_classification_botanique_simplifiee/page_16.jpg",
-      "editorial": {
-        "flags": [
-          "image_review"
-        ],
-        "comment": "Tristan : \"Moi les planches ne ressemblent pas à ce qu'on enseigne j'ai l'impression que le cadre et en bois ça serait bien de mettre de la paille et du paillage un peu parpartou\""
-      }
+      "image": "assets/images/a2_classification_botanique_simplifiee/page_16.jpg"
     }
   ],
   "course_code": "S1.02",
