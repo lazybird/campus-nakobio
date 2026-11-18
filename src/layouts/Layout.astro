@@ -38,7 +38,7 @@ const currentPath = Astro.url.pathname;
     <main>
       <slot />
     </main>
-    <Footer />
+    <Footer currentPath={currentPath} />
 
     <!-- Script d'apparition progressive au scroll -->
     <script>
