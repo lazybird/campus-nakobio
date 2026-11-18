@@ -151,6 +151,20 @@ body.cms-auth-active span.editorial-auth-only {
   display: inline-flex !important;
 }
 
+/* Bascule des liens et boutons Connexion / Déconnexion dans Navbar et Footer */
+.nav-auth-only {
+  display: none !important;
+}
+body.cms-auth-active .nav-auth-only {
+  display: inline-flex !important;
+}
+body.cms-auth-active .mobile-nav .nav-auth-only {
+  display: flex !important;
+}
+body.cms-auth-active .nav-guest-only {
+  display: none !important;
+}
+
 /* Bloc d'en-tête éditorial dans l'étape */
 .slide-editorial-ctrl {
   display: flex;
