@@ -52,7 +52,13 @@
       "title": "Où trouver de bonnes semences de départ ?",
       "text": "Pour constituer votre premier stock de départ :\n1. Demandez aux anciens et aux maraîchers réputés de votre village ou des villages voisins.\n2. Participez aux foires aux semences paysannes et aux bourses d'échange.\n3. Rapprochez-vous d'associations de semenciers paysans ou de fermes agroécologiques locales.",
       "illustration_description": "Scène conviviale sous l'arbre à palabres : échange amical de petites bourses de graines entre paysans de différentes générations, avec des sourires et des poignées de main chaleureuses.",
-      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_07.jpg"
+      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_07.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "retirer les bardages en bois"
+      }
     },
     {
       "page_number": 8,
@@ -94,7 +100,11 @@
       "title": "Ce qu'il faut absolument éviter",
       "text": "Pour préserver votre autonomie :\n❌ Ne récoltez jamais de graines sur des légumes achetés au marché sans connaître leur origine (souvent issus d'hybrides F1 traités).\n❌ Ne partez pas de semences traitées avec des poudres chimiques colorées toxiques.\n❌ Ne gardez pas de semences issues de parcelles où sévissait une grave maladie virale.",
       "illustration_description": "Trois signaux d'alerte barrés d'un grand cercle rouge d'interdiction :\n1. Légumes anonymes du supermarché\n2. Graines enrobées de poudre chimique rouge ou rose fluo\n3. Feuille de tomate rabougrie et tachetée de virus.",
-      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_13.jpg"
+      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_13.jpg",
+      "editorial": {
+        "flags": [],
+        "comment": "retirer les bardages en bois"
+      }
     },
     {
       "page_number": 14,
