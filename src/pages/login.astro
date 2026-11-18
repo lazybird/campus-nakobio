@@ -77,8 +77,24 @@ const hashedSecret = isConfigured ? await hashSha256(rawSecret) : '';
     if (hash === expected) {
       setAdminCookieToken(hash);
       const urlParams = new URLSearchParams(window.location.search);
-      const redirect = urlParams.get('redirect') || '/maraichage';
-      window.location.href = redirect;
+      let redirect = urlParams.get('redirect');
+
+      // Si pas de paramètre de redirection ou s'il pointe sur login, tenter le referrer
+      if (!redirect || redirect === '/login' || redirect === window.location.pathname) {
+        if (document.referrer) {
+          try {
+            const referrerUrl = new URL(document.referrer);
+            if (referrerUrl.origin === window.location.origin && referrerUrl.pathname !== '/login') {
+              redirect = referrerUrl.pathname + referrerUrl.search;
+            }
+          } catch {
+            // Ignorer si url invalide
+          }
+        }
+      }
+
+      // Par défaut si aucune page d'origine n'est identifiée, retour naturel à l'accueil
+      window.location.href = redirect || '/';
     } else {
       if (errorMsg) {
         errorMsg.textContent = 'Mot de passe incorrect.';

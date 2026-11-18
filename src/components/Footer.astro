@@ -1,3 +1,11 @@
+---
+interface Props {
+  currentPath?: string;
+}
+
+const { currentPath = '/' } = Astro.props;
+---
+
 <footer class="footer">
   <div class="container footer-inner">
     <div class="footer-info">
@@ -29,7 +37,7 @@
         <a href="https://nako.bio" target="_blank" rel="noopener noreferrer">Portail Nakôbio ↗</a>
         <a href="https://biosain.at" target="_blank" rel="noopener noreferrer">Ferme Biosain (Autriche) ↗</a>
         <a href="https://github.com/malibub-digital" target="_blank" rel="noopener noreferrer">Ressources Libres Malihub ↗</a>
-        <a href="/login" class="footer-admin-link nav-guest-only">Espace Éditeur (CMS) 🔒</a>
+        <a href={`/login?redirect=${encodeURIComponent(currentPath)}`} class="footer-admin-link nav-guest-only">Espace Éditeur (CMS) 🔒</a>
         <a href="/api/auth/logout" class="footer-admin-link nav-auth-only">Déconnexion Éditeur 🔓</a>
       </div>
     </div>
