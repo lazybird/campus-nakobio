@@ -6,44 +6,31 @@ import path from 'node:path';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from '../../../utils/languages';
 import { getAvailableTranslations, PRINT_TOC_LABELS, BRAND_SLOGAN_LABELS, CURSUS_TITLE_LABELS } from '../../../utils/courseTranslations';
 
-export async function getStaticPaths() {
-  const dataDir = path.resolve('./src/data/maraichage');
-  const allJsonFiles = fs.readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'catalog.json');
+export const prerender = false;
 
-  const paths: any[] = [];
+const { id, lang } = Astro.params;
+const courseId = id || '';
+const currentLang = (lang && SUPPORTED_LANGUAGES[lang]) ? lang : DEFAULT_LANGUAGE;
 
-  // Trouver tous les fichiers traduits du type courseId.lang.json
-  for (const file of allJsonFiles) {
-    const parts = file.replace('.json', '').split('.');
-    if (parts.length === 2) {
-      const [courseId, langCode] = parts;
-      if (SUPPORTED_LANGUAGES[langCode]) {
-        const filePath = path.join(dataDir, file);
-        const content = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-        const availableTranslations = getAvailableTranslations(dataDir, courseId, '/maraichage');
+const dataDir = path.resolve('./src/data/maraichage');
+const defaultFilePath = path.join(dataDir, `${courseId}.json`);
+const langFilePath = path.join(dataDir, `${courseId}.${currentLang}.json`);
 
-        paths.push({
-          params: { id: courseId, lang: langCode },
-          props: {
-            course: content,
-            currentLang: langCode,
-            courseId,
-            availableTranslations
-          }
-        });
-      }
-    }
-  }
-
-  return paths;
+if (!courseId || !fs.existsSync(defaultFilePath)) {
+  return Astro.redirect('/maraichage');
 }
 
-const { course, currentLang = DEFAULT_LANGUAGE, courseId = course?.id, availableTranslations = [] } = Astro.props;
+const targetPath = (currentLang !== DEFAULT_LANGUAGE && fs.existsSync(langFilePath)) ? langFilePath : defaultFilePath;
+const course = JSON.parse(fs.readFileSync(targetPath, 'utf-8'));
+const availableTranslations = getAvailableTranslations(dataDir, courseId, '/maraichage');
+
 const langConfig = SUPPORTED_LANGUAGES[currentLang] || SUPPORTED_LANGUAGES[DEFAULT_LANGUAGE];
 const isRtl = langConfig.dir === 'rtl';
 
 // Chemin relatif du fichier source JSON traduit pour le CMS
-const courseJsonRelPath = `src/data/maraichage/${courseId}.${currentLang}.json`;
+const courseJsonRelPath = (currentLang !== DEFAULT_LANGUAGE && fs.existsSync(langFilePath))
+  ? `src/data/maraichage/${courseId}.${currentLang}.json`
+  : `src/data/maraichage/${courseId}.json`;
 
 // Fonction de formatage du texte pédagogique (gras, listes, alertes)
 function formatPedagogicalText(rawText: string) {

@@ -6,42 +6,22 @@ import path from 'node:path';
 import { SUPPORTED_LANGUAGES, DEFAULT_LANGUAGE } from '../../utils/languages';
 import { getAvailableTranslations, PRINT_TOC_LABELS, BRAND_SLOGAN_LABELS, CURSUS_TITLE_LABELS } from '../../utils/courseTranslations';
 
-export async function getStaticPaths() {
-  const dataDir = path.resolve('./src/data');
-  const allJsonFiles = fs.readdirSync(dataDir).filter(f => f.endsWith('.json') && f !== 'catalog.json');
+export const prerender = false;
 
-  // Trouver tous les IDs de cours de base (sans code langue)
-  const baseFiles = allJsonFiles.filter(f => {
-    // Exclure les fichiers avec une extension de langue type .en.json, .bm-nko.json
-    const parts = f.replace('.json', '').split('.');
-    return parts.length === 1;
-  });
+const { id } = Astro.params;
+const courseId = id || '';
+const currentLang = DEFAULT_LANGUAGE;
 
-  const paths: any[] = [];
+const dataDir = path.resolve('./src/data');
+const defaultFilePath = path.join(dataDir, `${courseId}.json`);
 
-  for (const baseFile of baseFiles) {
-    const courseId = baseFile.replace('.json', '');
-    const availableTranslations = getAvailableTranslations(dataDir, courseId, '/semences');
-
-    // Route par défaut (français) : /semences/[id]
-    const defaultFilePath = path.join(dataDir, baseFile);
-    const defaultContent = JSON.parse(fs.readFileSync(defaultFilePath, 'utf-8'));
-
-    paths.push({
-      params: { id: courseId },
-      props: { 
-        course: defaultContent,
-        currentLang: DEFAULT_LANGUAGE,
-        courseId,
-        availableTranslations
-      }
-    });
-  }
-
-  return paths;
+if (!courseId || !fs.existsSync(defaultFilePath)) {
+  return Astro.redirect('/semences');
 }
 
-const { course, currentLang = DEFAULT_LANGUAGE, courseId = course?.id, availableTranslations = [] } = Astro.props;
+const course = JSON.parse(fs.readFileSync(defaultFilePath, 'utf-8'));
+const availableTranslations = getAvailableTranslations(dataDir, courseId, '/semences');
+
 const langConfig = SUPPORTED_LANGUAGES[currentLang] || SUPPORTED_LANGUAGES[DEFAULT_LANGUAGE];
 const isRtl = langConfig.dir === 'rtl';
 
