@@ -472,7 +472,14 @@ const gitEnabled =
         const bindKey = el.getAttribute('data-cms-bind');
         if (bindKey && drafts[bindKey] !== undefined) {
           if (el.tagName === 'IMG') {
-            (el as HTMLImageElement).src = drafts[bindKey];
+            const rawVal = drafts[bindKey];
+            const cleanSrc = rawVal.startsWith('/') ? rawVal : `/${rawVal}`;
+            (el as HTMLImageElement).src = cleanSrc;
+            (el as HTMLElement).style.display = 'block';
+            const placeholder = (el as HTMLElement).nextElementSibling as HTMLElement | null;
+            if (placeholder && placeholder.classList.contains('sketch-placeholder-container')) {
+              placeholder.style.display = 'none';
+            }
           } else {
             el.innerHTML = drafts[bindKey];
           }
@@ -891,11 +898,17 @@ const gitEnabled =
         const data = await res.json();
         const uploadedUrl = data.fileUrl || data.url;
         if (data.success && uploadedUrl) {
+          const cleanUrl = uploadedUrl.startsWith('/') ? uploadedUrl : `/${uploadedUrl}`;
           const drafts = getDrafts();
-          drafts[currentImageBindKey] = uploadedUrl.replace(/^\//, '');
+          drafts[currentImageBindKey] = cleanUrl.replace(/^\//, '');
           setDrafts(drafts);
           if (currentImageElement) {
-            currentImageElement.src = uploadedUrl;
+            currentImageElement.src = cleanUrl;
+            currentImageElement.style.display = 'block';
+            const placeholder = currentImageElement.nextElementSibling as HTMLElement | null;
+            if (placeholder && placeholder.classList.contains('sketch-placeholder-container')) {
+              placeholder.style.display = 'none';
+            }
           }
           closeModals();
           showToast('Image mise à jour dans le brouillon.', 'success');

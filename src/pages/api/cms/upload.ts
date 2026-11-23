@@ -29,20 +29,30 @@ export const POST: APIRoute = async ({ request }) => {
     }
 
     const projectRoot = process.cwd();
-    const uploadDirPath = path.join(projectRoot, 'public', 'uploads');
+    const publicUploadDir = path.join(projectRoot, 'public', 'uploads');
+    const distClientUploadDir = path.join(projectRoot, 'dist', 'client', 'uploads');
 
-    if (!fs.existsSync(uploadDirPath)) {
-      fs.mkdirSync(uploadDirPath, { recursive: true });
+    if (!fs.existsSync(publicUploadDir)) {
+      fs.mkdirSync(publicUploadDir, { recursive: true });
+    }
+    if (!fs.existsSync(distClientUploadDir)) {
+      fs.mkdirSync(distClientUploadDir, { recursive: true });
     }
 
     const fileExt = path.extname(file.name) || '.png';
     const baseName = path.basename(file.name, fileExt).replace(/[^a-zA-Z0-9_-]/g, '-').toLowerCase();
     const fileName = `${baseName}-${Date.now()}${fileExt}`;
-    const targetFilePath = path.join(uploadDirPath, fileName);
+    const targetFilePath = path.join(publicUploadDir, fileName);
+    const distTargetFilePath = path.join(distClientUploadDir, fileName);
 
     const arrayBuffer = await file.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
     fs.writeFileSync(targetFilePath, buffer);
+    try {
+      fs.writeFileSync(distTargetFilePath, buffer);
+    } catch {
+      // Ignorer si dist/client/uploads n'existe pas en dev
+    }
 
     const publicUrl = `/uploads/${fileName}`;
 
