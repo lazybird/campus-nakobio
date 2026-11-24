@@ -10,14 +10,26 @@
       "title": "Sélectionner, c'est choisir l'avenir de son jardin",
       "text": "Quand vous récoltez une semence, vous choisissez les enfants de votre jardin pour l'année prochaine !\nEn choisissant les meilleurs plants, vous adaptez vos cultures à votre sol, à votre climat et à vos goûts.\nC'est ce qu'on appelle la **sélection paysanne**.\nElle rend vos cultures plus fortes et plus autonomes d'année en année !",
       "illustration_description": "Plan moyen : Une maraîchère souriante et attentive au milieu de ses planches maraîchères en plein soleil. Elle observe avec fierté ses beaux rangs de légumes en excellente santé.",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_01.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_01.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "Planches en mode nakonio:\nsans bordure de bois\navec paillage\nchaque planche une culture:\np.e. 1 x carottes (3lignes)\n1 x choux (deux lignes)\n1x Tomates (une linge)\n1x Piment (une ligne)\n1x concombre (une ligne)\nveiller a ce que une plante porte les fruits correct"
+      }
     },
     {
       "page_number": 2,
       "title": "Le piège classique : ne regarder que le fruit",
       "text": "Beaucoup de maraîchers font cette erreur :\nIls attendent la récolte et gardent les graines du plus gros légume trouvé dans la cagette.\nC'est un piège !\nUn gros fruit peut venir d'un plant fragile, tombé malade juste après ou arrosé avec excès.\nLa graine hérite de tout le comportement du plant, pas seulement de la forme du fruit !",
       "illustration_description": "Comparaison en deux cases :\n- À gauche (barrée d'une croix rouge ❌) : Un maraîcher choisit un très gros fruit sur un plant tout jauni et attaqué par des champignons.\n- À droite (avec coche verte ✅) : Un maraîcher admire un plant vigoureux, vert foncé, dressé fièrement et portant plusieurs fruits réguliers et sains.",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_02.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_02.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "es ce que on peut lui remetre un patalon et une chemise simple\net faire en sorte que la belle plante ai des fruits qui sont tous pareille (dans l´image il y a une variation qui est trop forte) - je touve que generalment il fait bien les plantes de piment"
+      }
     },
     {
       "page_number": 3,
@@ -31,49 +43,89 @@
       "title": "Choisir ses critères : la santé d'abord",
       "text": "Le premier critère absolu, c'est la santé !\nNe gardez JAMAIS de semences sur une plante malade, rabougrie ou couverte de taches suspectes.\nLes virus et les champignons peuvent se loger dans la semence et infecter toute votre récolte suivante.\nChoisissez uniquement des plants sains, vigoureux et debout !",
       "illustration_description": "Gros plan sur deux plants côte à côte :\n- L'un présente des feuilles cloquées et tachées de noir (panneau interdit ❌ avec annotation \"Maladie — Ne pas récolter les graines !\").\n- L'autre a un feuillage lustré, bien vert et sain (panneau coché ✅).",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_04.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_04.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "peut etre on peu enlever les hutte en arrier plan\nmais ce que est important ces quil nous faut deux vrai plantes- je propose qu`on reste sur le piment"
+      }
     },
     {
       "page_number": 5,
       "title": "Choisir ses critères : la résistance à la chaleur et au manque d'eau",
       "text": "Sous le soleil ardent et en saison sèche :\nRegardez vos planches aux heures les plus chaudes de la journée (vers 13h ou 14h).\nCertains plants baissent complètement les bras et flétrissent.\nD'autres restent droits et gardent leurs feuilles fermes : ce sont eux vos champions de la résistance !",
       "illustration_description": "Deux plants sous un soleil de plomb ardent (rayons lumineux stylisés) :\n- Le premier a les feuilles totalement molles et pendantes vers le sol 👎.\n- Le second reste bien dressé, feuilles fermes et dynamiques 👍.",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_05.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_05.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "pareille- il faut  prendre des plantes qui existe - comme le piments"
+      }
     },
     {
       "page_number": 6,
       "title": "Précocité ou récolte étalée : que voulez-vous ?",
       "text": "Selon vos besoins au marché ou en famille, vous pouvez choisir ce qui compte le plus :\n- **La précocité** : vous repérez le premier plant qui donne des légumes mûrs pour vendre au meilleur prix avant tout le monde.\n- **La productivité** : vous choisissez le plant qui produit régulièrement sur une longue durée.\nNotez bien ce que vous recherchez au départ !",
       "illustration_description": "Deux paniers de récolte :\n- L'un annoté \"Précoce (premier arrivé au marché avec le meilleur prix 💰)\".\n- L'autre annoté \"Production continue (pour nourrir la famille sur plusieurs mois 🧺)\".",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_06.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_06.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "je nai pas de idee- mais ca ne represente pas bien l`aspect- \"decale\" et \" precoce\".\nca serait bien de reessayer.\nje pense qu`on doit eviter d`avoir du text dans l`image\nen tout cas dans l`image de droites - les fruits recoltee ne vont pas avec ceux de la plante.\ndans l`image de gauche:\nil nous faut un jardin nakobio en mode design de microferme:\nPlanches permanentes avec paillage, dans chaque planche une culture en soit enuite des lignes d´arbres fruitiers et puits"
+      }
     },
     {
       "page_number": 7,
       "title": "Goût, forme et fermeté : goûtez avant de récolter !",
       "text": "Pour les légumes-fruits (tomates, pastèques, concombres) :\nGoûtez toujours au moins un fruit du pied que vous souhaitez garder !\nEst-il doux ? A-t-il bon goût ? La peau est-elle assez ferme pour supporter le transport ?\nSi un fruit est amer ou farineux, ne gardez surtout pas ses graines, même si la plante est magnifique !",
       "illustration_description": "Le maraîcher coupe une tranche d'une belle tomate directement sur la planche, la goûte les yeux fermés avec un sourire satisfait.\nBulle : \"Délicieuse, sucrée et parfumée ! Ce pied donnera de superbes semences ✅\".",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_07.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_07.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "sur le principe cest bon\najouer le paillage\nenlever la main/bras de trop"
+      }
     },
     {
       "page_number": 8,
       "title": "Marquer immédiatement les plantes élues",
       "text": "Dès que vous avez repéré un plant exceptionnel, marquez-le sans attendre !\nAttachez un morceau de tissu ou un ruban de couleur vive sur la tige principale.\nPlantez un piquet bien visible à son pied.\nSans marquage, vous ou un ouvrier récolterez le fruit par réflexe pour le manger ou le vendre !",
       "illustration_description": "Le maraîcher noue un ruban rouge bien visible autour de la tige d'un pied de piment exceptionnel et enfonce un tuteur en bois peint en blanc juste à côté.\nPanneau d'avertissement accroché : \"Porte-graines — Ne pas cueillir pour la vente ⚠️\".",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_08.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_08.jpg",
+      "editorial": {
+        "flags": [],
+        "comment": "il vaut mieux lui metrre un pantalon\najouter le paillage\navoir une planche entiere de piment\n- peut etre pareille- faire une microferme a la nakobio"
+      }
     },
     {
       "page_number": 9,
       "title": "Prévenir la famille et les ouvriers",
       "text": "Dans une parcelle partagée ou avec des ouvriers :\nExpliquez clairement la signification du ruban rouge :\n« Ce plant avec le tissu rouge est notre réservoir de semences pour l'an prochain. Interdiction absolue de cueillir ses fruits ! »\nUn ruban protège des mois de travail contre une cueillette involontaire.",
       "illustration_description": "Le maraîcher montre le plant marqué d'un ruban rouge à deux ouvriers et un membre de sa famille dans le champ. Tout le monde acquiesce d'un signe de tête compréhensif.",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_09.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_09.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "cest bon\njuste le paillage et toute une planche de tomates/piments\net on peut toujours reproduire la microferme avec les planches, arbres fruites etc."
+      }
     },
     {
       "page_number": 10,
       "title": "Faire un plan simple sur carnet",
       "text": "La pluie, le soleil et le vent peuvent décolorer ou faire tomber un ruban.\nPour être sûr de ne rien perdre :\nDessinez sur un simple cahier le plan de vos planches.\nNotez où se trouvent vos porte-graines (par exemple : « Planche 3, piquet 5 : Tomate locale résistante »).\nCe plan reste à l'abri à la maison !",
       "illustration_description": "Plan en plongée sur un carnet ouvert tenu dans une main :\nDessin schématique fait à la main des planches de culture avec des petits repères colorés et le texte manuscrit clair : \"Planche Tomates — 3 porte-graines au milieu\".",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_10.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_10.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "refaire sur le modele de microferm nakobio"
+      }
     },
     {
       "page_number": 11,
@@ -87,7 +139,13 @@
       "title": "Regrouper les porte-graines dans un coin dédié",
       "text": "Pour ne pas bloquer une planche entière dont vous avez besoin pour replanter :\nQuand c'est possible, réservez un carré ou une extrémité de votre parcelle pour y regrouper vos plants porte-graines.\nVous pourrez continuer à arroser et surveiller vos semences sans déranger le reste de votre maraîchage !",
       "illustration_description": "Vue d'ensemble d'un potager organisé :\n- 4 grandes planches de maraîchage en production courante.\n- À l'extrémité, une planche délimitée annotée \"Zone des semences — Surveillance et soins spéciaux\".",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_12.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_12.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "ajouter le paillage"
+      }
     },
     {
       "page_number": 13,
@@ -101,21 +159,39 @@
       "title": "Préserver une population suffisante",
       "text": "Pour garder vos semences vigoureuses année après année :\nNe récoltez jamais les graines sur un seul pied unique !\nRécoltez des semences sur plusieurs beaux plants différents (au moins 5 à 10 pour la tomate ou le piment, 30 à 50 pour le maïs ou les choux).\nMélanger leurs graines évite ce qu'on appelle la **consanguinité** (l'épuisement de la famille).",
       "illustration_description": "Schéma simple :\nPlusieurs beaux plants marqués dans la parcelle convergent vers une même calebasse de graines.\nMention : \"Mélange des meilleurs plants = variété forte et fertile ✅\".",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_14.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_14.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "la ca etait mal interpreter-\nil faut toutes ces planches rempli d`une seul sorte de mil"
+      }
     },
     {
       "page_number": 15,
       "title": "Les 4 réflexes du maraîcher sélectionneur",
       "text": "Pour réussir votre sélection à chaque saison :\n1. **Regardez la plante entière**, pas seulement la taille du fruit.\n2. **Privilégiez la santé**, la tenue à la chaleur et le goût.\n3. **Marquez au ruban** dès que le champion est repéré.\n4. **Récoltez sur plusieurs pieds sains** pour garder la force de la variété !",
       "illustration_description": "Infographie simple en 4 vignettes avec pictos résumant les 4 étapes fondamentales (Plant entier / Soleil et santé / Ruban rouge / Panier mélangé).",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_15.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_15.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "il faut enlever l`ecriture \non echange la plante du piments (solei) avec une plantes de tomates\non enleve le gombo quelle a dans la deuxieme main\nle point nr. 4 - quelqun recolte sur plusieurs plantes (une planche avec des tomates et qqun avec une panier)"
+      }
     },
     {
       "page_number": 16,
       "title": "Félicitations ! Vous êtes le créateur de vos propres semences",
       "text": "Bravo ! Vous savez maintenant choisir vos meilleures semences :\n✅ Vous ne tombez plus dans le piège du fruit géant sur plante malade\n✅ Vous savez repérer les plants qui bravent la chaleur et les maladies\n✅ Vos porte-graines sont marqués, protégés et suivis dans le temps\nProchain module : les techniques d'isolement pour éviter les croisements indésirables !",
       "illustration_description": "Le maraîcher sourit fièrement devant sa parcelle, tenant son carnet de terrain à la main, tandis que le vent fait flotter les jolis rubans rouges sur ses plus beaux plants.\nPlusieurs coches vertes ✅ et symbole de certification paysanne.",
-      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_16.jpg"
+      "image": "assets/images/a5_la_selection_des_plantes_porte_graines/page_16.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "cest ok - juste faire les plantes - \"porte graines\" plus vigorieuse et ne pas oublier le paillage\net pourquoi pas remettre une microferme modele"
+      }
     }
   ],
   "course_code": "S1.05",
