@@ -10,35 +10,65 @@
       "title": "La première graine décide de tout",
       "text": "Produire ses propres graines demande du travail et des soins.\nPour que vos efforts portent leurs fruits, vous devez partir d'une graine capable de se reproduire fidèlement d'année en année.\nDans ce module, vous découvrirez comment choisir vos semences de départ sans tomber dans le piège des graines industrielles.",
       "illustration_description": "Plan moyen : deux mains paysannes comparant deux sachets de semences : un sachet industriel brillant avec code-barres et mention \"F1\", et une bourse en tissu traditionnel marquée à la main \"Variété locale reproductible\".",
-      "image": "uploads/la-premi-re-graine-d-cide-de-tout-1795455587550.png"
+      "image": "uploads/la-premi-re-graine-d-cide-de-tout-1795455587550.png",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "- paillage aussi dans les passe pieds\n- les semeces dans le bol ne sont pas des semences de tomate - elles sont plutot blanche et plate avec des toutes petits poils"
+      }
     },
     {
       "page_number": 2,
       "title": "Qu'est-ce qu'une semence hybride F1 ?",
       "text": "En boutique ou en coopérative, beaucoup de sachets portent la mention **\"Hybride F1\"**.\nCes semences sont créées par des industriels en croisant de force deux lignées très fermées.\nLa première année, les plants poussent vite et donnent des fruits tous identiques.\nMais c'est un piège pour l'année suivante !",
       "illustration_description": "Laboratoire industriel schématique : croisement forcé entre deux plantes fragiles donnant une graine mise dans un sachet commercial avec la mention \"Hybride F1\" entourée d'un cadenas.",
-      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_02.jpg"
+      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_02.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "il reste un rest de angle rouge"
+      }
     },
     {
       "page_number": 3,
       "title": "Le piège de la récolte F2",
       "text": "Si vous récoltez les graines d'un fruit F1 pour les resemer l'année d'après (ce qu'on appelle la **génération F2**) :\n❌ Les plants perdent leur vigueur.\n❌ Certains fruits sont petits, d'autres sans goût ou malades.\n❌ Beaucoup de graines sont stériles.\nLe paysan est alors obligé de racheter de nouvelles graines chaque saison !",
       "illustration_description": "Comparaison en 2 saisons :\n- Saison 1 (F1) : rangée de légumes bien alignés et uniformes.\n- Saison 2 (F2) : rangée très inégale, plantes rabougries, fruits difformes avec points de maladie et croix rouges ❌.",
-      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_03.jpg"
+      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_03.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "tu veut bien remplacer les \"planches de semi\" par les bac en bidon de nos pepinieres-\nsinon cest bon"
+      }
     },
     {
       "page_number": 4,
       "title": "La dépendance financière du paysan",
       "text": "Acheter des semences F1 chaque année coûte très cher.\nCela rend le producteur dépendant des magasins, des transports et des multinationales.\nSi les frontières ferment ou si les prix augmentent, le paysan ne peut plus semer sa terre.\nLa liberté commence quand on ne dépend de personne pour ses graines !",
       "illustration_description": "Dessin expressif : un paysan tendant son porte-monnaie vide vers un comptoir commercial, avec une chaîne symbolique brisée lorsqu'il tient dans son autre main ses propres graines paysannes.",
-      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_04.jpg"
+      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_04.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "- paillage dans les passe pieds\n- remplacer par le semences de tomate (si ca fait du sens - si ca fait trop pendser a du coucous - on laisse comme ca)"
+      }
     },
     {
       "page_number": 5,
       "title": "La semence paysanne : un trésor reproductible",
       "text": "À l'opposé, les **semences paysannes** (aussi appelées variétés population ou semences locales) se reproduisent fidèlement d'une génération à l'autre.\nLorsque vous semez les graines que vous avez récoltées :\n✅ Elles redonnent des plantes vigoureuses et savoureuses.\n✅ Elles appartiennent à tout le monde, sans brevet ni interdiction de resemer.",
       "illustration_description": "Une famille paysanne souriante récoltant d'abondants légumes dans son champ, avec un symbole infini (∞) reliant les graines récoltées aux semis de la saison suivante.",
-      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_05.jpg"
+      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_05.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "idem-\n- paillage des passe pieds\n- semences de tomates - ici il faut vraiment changer\n- bac de bidons pepinieres"
+      }
     },
     {
       "page_number": 6,
@@ -52,14 +82,26 @@
       "title": "Où trouver de bonnes semences de départ ?",
       "text": "Pour constituer votre premier stock de départ :\n1. Demandez aux anciens et aux maraîchers réputés de votre village ou des villages voisins.\n2. Participez aux foires aux semences paysannes et aux bourses d'échange.\n3. Rapprochez-vous d'associations de semenciers paysans ou de fermes agroécologiques locales.",
       "illustration_description": "Scène conviviale sous l'arbre à palabres : échange amical de petites bourses de graines entre paysans de différentes générations, avec des sourires et des poignées de main chaleureuses.",
-      "image": "uploads/o--trouver-de-bonnes-semences-de-d-part_2-1795455933154.png"
+      "image": "uploads/o--trouver-de-bonnes-semences-de-d-part_2-1795455933154.png",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "que ca ne soit pas que les calebase tout le temps- mais p.e. une verre/bocale, une boutaille de plastique..."
+      }
     },
     {
       "page_number": 8,
       "title": "Choisir des semences issues de l'agroécologie",
       "text": "Privilégiez toujours des semences multipliées sans engrais chimiques ni pesticides de synthèse.\nUne plante habituée à la béquille des produits chimiques devient paresseuse.\nUne graine née dans un sol vivant (avec du compost et du paillage) donnera des plantes autonomes et pleines de vie.",
       "illustration_description": "Coupe de sol maraîcher riche : paillage de paille, vers de terre actifs, racines saines d'une plante nourrie au compost naturel avec un grand papillon butinant au-dessus.",
-      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_08.jpg"
+      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_08.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "- encore une fois - mettre des semences de tomates dans la calebasse.\n aussi les proportions sont vraiment drole ca serait cool de reduire les deux plantes un peut"
+      }
     },
     {
       "page_number": 9,
@@ -73,42 +115,78 @@
       "title": "Se renseigner sur l'histoire de la variété",
       "text": "Posez toujours quelques questions à celui qui vous donne la graine :\n- \"Combien de temps faut-il entre le semis et la première récolte ?\"\n- \"Comment se comporte-t-elle pendant la saison sèche ou les fortes pluies ?\"\n- \"Quel est le goût, la texture en cuisine, la conservation du légume ?\"\nNotez ces réponses précieuses dans votre carnet !",
       "illustration_description": "Un jeune maraîcher tenant un carnet et un crayon, écoutant attentivement les explications d'un paysan expérimenté au milieu des cultures.",
-      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_10.jpg"
+      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_10.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "encore- les semences de tomates- elles sont beaucoup plus petites- donc peut etre aussi une plus petites calebase"
+      }
     },
     {
       "page_number": 11,
       "title": "Démarrer petit et tester d'abord",
       "text": "Ne changez pas toutes vos parcelles d'un seul coup avec une variété que vous ne connaissez pas encore !\nLa première saison :\n1. Semez une petite planche de test (quelques dizaines de pieds).\n2. Observez son comportement sur votre propre terre.\n3. Si le résultat est bon, récoltez les semences pour agrandir la culture la saison suivante.",
       "illustration_description": "Plan de jardin montrant une petite planche test bien étiquetée \"Test variété locale\" à côté des cultures habituelles du jardinier.",
-      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_11.jpg"
+      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_11.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "a ajouter le paillage\nsemi en pepiniers de bac de bidons\n les tomates en mode nakobio  sont planter en une ligne dans la planche (pas deux comme maintenant)"
+      }
     },
     {
       "page_number": 12,
       "title": "Partager pour multiplier",
       "text": "La nature est généreuse : un seul fruit donne souvent des dizaines, voire des centaines de graines !\nVous aurez rapidement beaucoup plus de semences que nécessaire pour votre propre consommation.\nDonnez et échangez vos surplus avec vos voisins :\nPlus une variété est cultivée dans la région, moins elle risque de disparaître !",
       "illustration_description": "Trois maraîchers se partageant des sachets de semences avec enthousiasme. Des flèches connectent les trois fermes formant un réseau de solidarité semencière.",
-      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_12.jpg"
+      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_12.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "encore\n- les semences de tomates- recipiens plus petit (je trouvrai bien - que ca ne soit pas que les calebase tout le temps- mais p.e. une verre/bocale, une boutaille de plastique...\n- et le paillage\n- dans les planche il ne faut que une linge de tomate (pas deux comme cest maintenant)"
+      }
     },
     {
       "page_number": 13,
       "title": "Ce qu'il faut absolument éviter",
       "text": "Pour préserver votre autonomie :\n❌ Ne récoltez jamais de graines sur des légumes achetés au marché sans connaître leur origine (souvent issus d'hybrides F1 traités).\n❌ Ne partez pas de semences traitées avec des poudres chimiques colorées toxiques.\n❌ Ne gardez pas de semences issues de parcelles où sévissait une grave maladie virale.",
       "illustration_description": "Trois signaux d'alerte barrés d'un grand cercle rouge d'interdiction :\n1. Légumes anonymes du supermarché\n2. Graines enrobées de poudre chimique rouge ou rose fluo\n3. Feuille de tomate rabougrie et tachetée de virus.",
-      "image": "uploads/ce-qu-il-faut-absolument--viter_v02-1795456815504.png"
+      "image": "uploads/ce-qu-il-faut-absolument--viter_v02-1795456815504.png",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "sur celle a droit et a gauche - en mode semences de tomates"
+      }
     },
     {
       "page_number": 14,
       "title": "Votre carnet de semencier",
       "text": "Dès votre premier jour de récolte de semences, tenez un petit carnet.\nInscrivez :\n- Le nom de la personne qui vous a donné la graine de départ\n- La date de réception\n- Les qualités remarquables observées pendant la saison\nC'est la mémoire vivante de votre ferme !",
       "illustration_description": "Cahier d'écolier simple posé sur une planche en bois, avec une belle écriture manuscrite et un petit échantillon de graines scotché sur le coin de la page.",
-      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_14.jpg"
+      "image": "assets/images/a3_comment_choisir_ses_semences_de_depart/page_14.jpg",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "Planches- 1 ligne de tomates\npaillage dans les passe pieds\nsemences- peut etre la dans un bocalle en verre avec des semences de tomates dedans"
+      }
     },
     {
       "page_number": 15,
       "title": "Félicitations ! Vous avez les clés de l'indépendance",
       "text": "Bravo ! Vous avez franchi le pas vers la souveraineté alimentaire :\n✅ Vous savez déjouer le piège des semences hybrides F1\n✅ Vous privilégiez les variétés locales et reproductibles\n✅ Vous savez vérifier la santé de vos graines de départ\nProchain module : comprendre la pollinisation et la fécondation des fleurs au potager !",
       "illustration_description": "Le maraîcher regarde l'horizon avec confiance, tenant dans ses mains une belle récolte variée et colorée.\nBannière flottante avec le slogan : \"Semences paysannes : autonomie, liberté et abondance !\".",
-      "image": "uploads/f-licitations---vous-avez-les-cl-s-de-l-ind-pendance-1795456864682.png"
+      "image": "uploads/f-licitations---vous-avez-les-cl-s-de-l-ind-pendance-1795456864682.png",
+      "editorial": {
+        "flags": [
+          "image_review"
+        ],
+        "comment": "paillage des passe pieds\n1 ligne de tomates dans une planche- palaille pour les poivrons\net peut etre enlever l`abaille"
+      }
     }
   ],
   "course_code": "S1.03",
