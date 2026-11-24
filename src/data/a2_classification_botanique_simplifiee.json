@@ -114,15 +114,14 @@
     {
       "page_number": 11,
       "title": "Les choux aiment se mélanger",
-      "text": "À l'inverse du haricot, le chou refuse souvent son propre pollen.\nIl a besoin du vent et des abeilles pour apporter le pollen d'autres pieds de choux :\nC'est ce qu'on appelle une plante **allogame**.\nTous les choux de la même espèce se croisent très facilement entre eux !",
+      "text": "<p>À l'inverse du haricot, le chou refuse souvent son propre pollen.</p><p>Il a besoin du vent, des abeilles et d'autres insectes pollinisateurs pour apporter le pollen d'autres pieds de choux :</p><p>C'est ce qu'on appelle une plante <strong>allogame</strong>.</p><p>Tous les choux de la même espèce se croisent très facilement entre eux !</p>",
       "illustration_description": "Rafale de vent et insectes transportant des nuages de pollen doré entre plusieurs plants de choux en fleurs espacés dans un champ.",
       "image": "assets/images/a2_classification_botanique_simplifiee/page_11.jpg",
       "editorial": {
         "flags": [
-          "text_review",
           "image_review"
         ],
-        "comment": "image: rajouter le paillage dans les passe pieds\ntexte: rajouter - abaille et d`autres insects pollonisateurs"
+        "comment": "image: rajouter le paillage dans les passe pieds"
       }
     },
     {
