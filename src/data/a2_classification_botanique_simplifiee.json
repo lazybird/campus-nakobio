@@ -10,12 +10,12 @@
       "title": "Éviter les mauvaises surprises au champ",
       "text": "Pourquoi deux concombres plantés à côté d'un melon ne donnent aucun problème, alors que deux piments différents changent complètement de goût ?\nDans ce module, vous allez apprendre à reconnaître les familles de plantes pour protéger la pureté de vos semences.",
       "illustration_description": "Plan moyen : deux paysans observant avec curiosité deux parcelles voisines. Au milieu, un panneau avec un point d'interrogation et deux légumes illustrés (concombre et melon) avec un grand sourire complice.",
-      "image": "uploads/-viter-les-mauvaises-surprises-au-champ_v02-1795455046971.png",
+      "image": "uploads/-viter-les-mauvaises-surprises-au-champ_v02-1795535271881.png",
       "editorial": {
         "flags": [
           "image_review"
         ],
-        "comment": "rajouter le paillage dans les passe pieds et dans le planches et completer \"remplir\" les ligne de planche de poivron et de piment"
+        "comment": "rajouter le paillage dans les passe pieds et dans le planches et completer \"remplir\" les ligne de planche de poivron et de piment\n\nAstrid : c'est mieux ?"
       }
     },
     {
@@ -94,12 +94,12 @@
       "title": "Les haricots préfèrent rester fidèles",
       "text": "Bonne nouvelle pour le paysan :\nChez la plupart des haricots et niébés, la fleur se féconde elle-même avant même de s'ouvrir !\nC'est ce qu'on appelle une plante **autogame**.\nLes risques de croisement avec le voisin sont donc beaucoup plus faibles que chez les courges.",
       "illustration_description": "Coupe en gros plan d'une fleur de haricot encore fermée comme un cocon : les organes mâles déposent déjà le pollen directement sur l'organe femelle à l'abri du vent et des insectes.\nPicto : cadenas fermé \"Fidélité garantie ✅\".",
-      "image": "uploads/les-haricots-pr-f-rent-rester-fid-les-1795455280064.png",
+      "image": "uploads/les-haricots-pr-f-rent-rester-fid-les-1795535569627.png",
       "editorial": {
         "flags": [
           "image_review"
         ],
-        "comment": "les planches sont magnifiques- mais la fleur n´est pas la fleur dùn fabacae typique - il vaut mieux juste reprendre une de fleurs de haricot pas decoupe comme en haut"
+        "comment": "les planches sont magnifiques- mais la fleur n´est pas la fleur dùn fabacae typique - il vaut mieux juste reprendre une de fleurs de haricot pas decoupe comme en haut\n\nAstrid : c'est mieux ?"
       }
     },
     {
@@ -114,12 +114,12 @@
       "title": "Les choux aiment se mélanger",
       "text": "<p>À l'inverse du haricot, le chou refuse souvent son propre pollen.</p><p>Il a besoin du vent, des abeilles et d'autres insectes pollinisateurs pour apporter le pollen d'autres pieds de choux :</p><p>C'est ce qu'on appelle une plante <strong>allogame</strong>.</p><p>Tous les choux de la même espèce se croisent très facilement entre eux !</p>",
       "illustration_description": "Rafale de vent et insectes transportant des nuages de pollen doré entre plusieurs plants de choux en fleurs espacés dans un champ.",
-      "image": "assets/images/a2_classification_botanique_simplifiee/page_11.jpg",
+      "image": "uploads/les-choux-aiment-se-m-langer-1795535716779.png",
       "editorial": {
         "flags": [
           "image_review"
         ],
-        "comment": "image: rajouter le paillage dans les passe pieds"
+        "comment": "image: rajouter le paillage dans les passe pieds\n\nAstrid : c'est mieux ?"
       }
     },
     {
@@ -146,15 +146,15 @@
     {
       "page_number": 14,
       "title": "Comment appliquer cela sur votre parcelle ?",
-      "text": "Pour produire des graines pures :\n1. Regroupez vos cultures par famille sur votre plan de jardin.\n2. Ne cultivez qu'UNE SEULE variété à graine de la même espèce en même temps sur la même parcelle.\n3. Si vous voulez deux variétés différentes, séparez-les d'une grande distance ou semez-les à des mois différents.",
+      "text": "<p>Pour produire des graines pures :</p><ol><li>Regroupez vos cultures par famille sur votre plan de jardin.</li><li>Ne cultivez qu'UNE SEULE variété pour la production de semence en même temps sur la même parcelle.</li><li>Si vous voulez deux variétés différentes, séparez-les d'une grande distance ou semez-les à des mois différents.</li></ol>",
       "illustration_description": "Plan vu du dessus d'un potager maraîcher divisé en planches de culture :\n- Planche 1 : Une variété unique de tomate sélectionnée pour les graines.\n- Planche 2 : Des oignons.\n- Planche 3 : Des haricots.\nToutes les planches sont bien ordonnées et espacées.",
-      "image": "assets/images/a2_classification_botanique_simplifiee/page_14.jpg",
+      "image": "uploads/comment-appliquer-cela-sur-votre-parcelle-_-1795536211859.png",
       "editorial": {
         "flags": [
           "text_review",
           "image_review"
         ],
-        "comment": "image: Paillage\ntexte: \nlle point 2 est a changer comme proposer:\nNe cultivez qu'UNE SEULE variété pour la production de semences en même temps sur la même parcelle."
+        "comment": "image: Paillage\ntexte: \nlle point 2 est a changer comme proposer:\nNe cultivez qu'UNE SEULE variété pour la production de semences en même temps sur la même parcelle.\n\nAstrid : c'est mieux ?"
       }
     },
     {
@@ -162,12 +162,12 @@
       "title": "L'astuce du maraîcher : le calendrier décalé",
       "text": "Vous n'avez pas assez d'espace pour éloigner vos cultures de plusieurs centaines de mètres ?\nDécallez simplement la date de semis !\nSi la première variété finit de fleurir avant que la deuxième ne commence à ouvrir ses fleurs, aucun croisement n'est possible.",
       "illustration_description": "Frise chronologique sur 4 mois :\n- Mois 1 et 2 : Variété A en fleurs, Variété B à peine semée (en herbe).\n- Mois 3 et 4 : Variété A en fruits bien formés (fleurs fanées), Variété B qui commence à fleurir.\nMention : \"Zéro croisement grâce au temps ✅\".",
-      "image": "uploads/l-astuce-du-mara-cher-_-le-calendrier-d-cal--1795455444364.png",
+      "image": "uploads/classification-botanique-simplifi-e_semences-paysannes-1795536802683.png",
       "editorial": {
         "flags": [
           "image_review"
         ],
-        "comment": "jaunir un peu le paillage - sinon cest tres bien"
+        "comment": "jaunir un peu le paillage - sinon cest tres bien\n\nAstrid : c'est mieux ?"
       }
     },
     {
