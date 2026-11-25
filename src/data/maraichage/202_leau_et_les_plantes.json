@@ -8,135 +8,135 @@
   "pages": [
     {
       "page_number": 1,
-      "title": "Ce module vous aide à comprendre comment l’eau entre, circule et ressort de la plante.",
-      "text": "Il vous apprend aussi à optimiser l’arrosage de vos cultures, à repérer si une plante a trop ou pas assez d’eau, et à garder l’humidité dans le sol grâce à des techniques simples.",
-      "illustration_description": "Illustration pédagogique pour Ce module vous aide à comprendre comment l’eau entre, circule et ressort de la plante.",
+      "title": "Présentation du module : l’eau et les plantes",
+      "text": "Ce module vous aide à comprendre comment l’**eau** entre, circule et ressort de la plante.\n\nIl vous apprend aussi à optimiser l’**arrosage** de vos cultures, à repérer si une plante a trop ou pas assez d’eau, et à garder l’humidité dans le sol grâce à des techniques simples.",
+      "illustration_description": "Illustration pédagogique pour Présentation du module : l’eau et les plantes",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "L’EAU ET LES PLANTES",
-      "text": "L’EAU ET LES PLANTES",
-      "illustration_description": "Illustration pédagogique pour L’EAU ET LES PLANTES",
+      "title": "L’eau et les plantes",
+      "text": "Découvrez le rôle vital de l’**eau** dans la nutrition des cultures et les bonnes pratiques pour préserver l’humidité du sol.",
+      "illustration_description": "Illustration pédagogique pour L’eau et les plantes",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_02.jpg"
     },
     {
       "page_number": 3,
       "title": "Comment l’eau circule dans la plante ?",
-      "text": "Comment l’eau circule dans la plante ?",
+      "text": "Suivons le trajet de l’**eau**, des racines jusqu’aux feuilles, pour comprendre comment la plante s’alimente et régule sa température.",
       "illustration_description": "Illustration pédagogique pour Comment l’eau circule dans la plante ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "P",
-      "text": "L’eau aide à transporter les éléments minéraux présents dans le sol, comme l’azote, le phosphore, le potassium, le calcium. De même, l’eau transporte aussi les oligoéléments tels que le bore, le zinc, et d’autres encore.\n\nCes éléments jouent un rôle essentiel dans la photosynthèse et d'autres fonctions vitales de la plante.",
-      "illustration_description": "Illustration pédagogique pour P",
+      "title": "Le transport des éléments minéraux et oligo-éléments",
+      "text": "L’eau aide à transporter les **éléments minéraux** présents dans le sol, comme l’**azote (N)**, le **phosphore (P)**, le **potassium (K)**, le **calcium (Ca)**, le **magnésium (Mg)** et le **fer (Fe)**.\n\nDe même, l’eau transporte aussi les **oligo-éléments** tels que le bore, le zinc, et d’autres encore. Ces éléments jouent un rôle essentiel dans la **photosynthèse** et d’autres fonctions vitales de la plante.",
+      "illustration_description": "Illustration pédagogique pour Le transport des éléments minéraux et oligo-éléments",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_04.jpg"
     },
     {
       "page_number": 5,
       "title": "L’évapotranspiration et la circulation de l’eau",
-      "text": "L’eau entre dans la plante par les racines. Elle transporte avec elle les éléments minéraux présents dans le sol.\nElle remonte jusqu’aux feuilles en circulant dans de très fins tuyaux appelés xylèmes.\n\nCe mouvement est possible grâce à un phénomène clé : **l’évapotranspiration**.\n\nL’évapotranspiration, c’est la perte d’eau :\n- par les feuilles, à travers de petites ouvertures appelées **stomates** (on parle alors de transpiration) ;\n- et par le sol, sous forme d’évaporation.\n\nQuand l’eau s’échappe par les stomates, cela crée un effet d’aspiration, comme une pompe : la plante tire alors l’eau depuis les racines pour compenser cette perte, faisant circuler l’eau et les nutriments dans toute la plante.",
-      "illustration_description": "Illustration pédagogique pour Transpiration",
+      "text": "L’eau entre dans la plante par les **racines**. Elle transporte avec elle les éléments minéraux présents dans le sol et remonte jusqu’aux feuilles en circulant dans de très fins tuyaux appelés **xylèmes**.\n\nCe mouvement est possible grâce à un phénomène clé : l’**évapotranspiration**. L’évapotranspiration, c’est la perte d’eau :\n\n- par les feuilles, à travers de petites ouvertures appelées **stomates** (on parle alors de **transpiration**) ;\n- et par le sol, sous forme d’**évaporation**.\n\nQuand l’eau s’échappe par les stomates, cela crée un effet d’aspiration, comme une pompe. La plante tire alors de l’eau depuis les racines pour compenser cette perte : c’est ce qui fait circuler l’eau dans toute la plante.",
+      "illustration_description": "Illustration pédagogique pour L’évapotranspiration et la circulation de l’eau",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Capillarité",
-      "text": "Pression racinaire\n\nD’autres phénomènes aident ce mouvement de pompe :\n\nla pression racinaire : pousse l’eau vers le haut.\n\nla capillarité : permet à l’eau de monter dans les xylèmes.\n\nCe système est essentiel pour que la plante transporte l’eau et les nutriments dont elle a besoin.",
-      "illustration_description": "Illustration pédagogique pour Capillarité",
+      "title": "Pression racinaire et capillarité",
+      "text": "D’autres phénomènes aident ce mouvement de pompe :\n\n- **La pression racinaire** : elle pousse l’eau vers le haut.\n- **La capillarité** : elle permet à l’eau de monter dans les xylèmes.\n\nCe système est essentiel pour que la plante transporte l’eau et les nutriments dont elle a besoin.",
+      "illustration_description": "Illustration pédagogique pour Pression racinaire et capillarité",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Mais si l’évapotranspiration devient trop forte (en cas de chaleur, vent, sécheresse), la plante peut perdre trop",
-      "text": "d’eau… et se déshydrater.",
-      "illustration_description": "Illustration pédagogique pour Mais si l’évapotranspiration devient trop forte (en cas de chaleur, vent, sécheresse), la plante peut perdre trop",
+      "title": "Le risque de déshydratation",
+      "text": "⚠️ **Point de vigilance** : si l’**évapotranspiration** devient trop forte (en cas de chaleur, vent ou sécheresse), la plante peut perdre trop d’eau… et se **déshydrater**.",
+      "illustration_description": "Illustration pédagogique pour Le risque de déshydratation",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "Finalement, la feuille de la plante c’est un peu comme notre peau :",
-      "text": "Elle respire par des petits trous invisibles, comme les pores de la peau.\n\nElle laisse sortir de l’eau, comme de la sueur. Si l’air est trop sec ou chaud, elle perd trop d’eau, comme nous quand on transpire beaucoup.\n\nSi on a trop chaud ou pas assez bu, on devient fatigué : c’est pareil pour la plante !",
-      "illustration_description": "Illustration pédagogique pour Finalement, la feuille de la plante c’est un peu comme notre peau :",
+      "title": "La feuille de la plante, comme notre peau",
+      "text": "Finalement, la feuille de la plante, c’est un peu comme notre peau :\n\n- Elle respire par de petits trous invisibles, comme les pores de la peau.\n- Elle laisse sortir de l’eau, comme de la sueur. Si l’air est trop sec ou chaud, elle perd trop d’eau, comme nous quand on transpire beaucoup.\n- Si on a trop chaud ou pas assez bu, on devient fatigué : c’est pareil pour la plante !",
+      "illustration_description": "Illustration pédagogique pour La feuille de la plante, comme notre peau",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "Et comme notre peau, la feuille a besoin d’être protégée :",
-      "text": "- du soleil brûlant,\n- du vent,\n- du manque d’eau.",
-      "illustration_description": "Illustration pédagogique pour Et comme notre peau, la feuille a besoin d’être protégée :",
+      "title": "Protéger la feuille des agressions",
+      "text": "Et comme notre peau, la feuille a besoin d’être protégée :\n\n- du **soleil brûlant** ;\n- du **vent** ;\n- du **manque d’eau**.",
+      "illustration_description": "Illustration pédagogique pour Protéger la feuille des agressions",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "Qu’est ce qui influence les besoins en eau ?",
-      "text": "Qu’est ce qui influence les besoins en eau ?",
-      "illustration_description": "Illustration pédagogique pour Qu’est ce qui influence les besoins en eau ?",
+      "title": "Qu’est-ce qui influence les besoins en eau ?",
+      "text": "Toutes les cultures n’ont pas les mêmes besoins en eau : découvrons les **cinq facteurs** qui font varier la quantité d’eau nécessaire.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce qui influence les besoins en eau ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "La présence",
-      "text": "- de paillage La culture LES BESOINS EN EAU DÉPENDENT DE Le stade de croissance Le sol La culture: certaines plantes ont besoin de plus d’eau que d’autres.\n\nLe stade de la croissance : un petit plant a besoin de plus d’eau.\n\nLe sol argileux garde l’eau tandis que le sol sableux la laisse fuir.\n\nLa température, le vent, l’humidité de l’air.\n\nLa présence de paillage, de compost et de charbon dans le sol.\n\nLa météo",
-      "illustration_description": "Illustration pédagogique pour La présence",
+      "title": "Les facteurs qui déterminent les besoins en eau",
+      "text": "Les besoins en eau dépendent de :\n\n- **La culture** : certaines plantes ont besoin de plus d’eau que d’autres.\n- **Le stade de croissance** : un petit plant a besoin de plus d’eau.\n- **Le sol** : le sol argileux garde l’eau tandis que le sol sableux la laisse fuir.\n- **La météo** : la température, le vent, l’humidité de l’air.\n- **La présence de paillage**, de compost et de charbon dans le sol.",
+      "illustration_description": "Illustration pédagogique pour Les facteurs qui déterminent les besoins en eau",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_11.jpg"
     },
     {
       "page_number": 12,
       "title": "Comment repérer les signes de stress hydrique ?",
-      "text": "Comment repérer les signes de stress hydrique ?",
+      "text": "Apprenez à observer vos plantes et votre sol pour distinguer rapidement un **manque d’eau** d’un **excès d’eau**.",
       "illustration_description": "Illustration pédagogique pour Comment repérer les signes de stress hydrique ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Si la plante manque d’eau :",
-      "text": "Sol sec en profondeur.\n\nFeuilles molles, tristes ou qui tombent ou jaunissent.\n\nCroissance lente.\n\nSi la plante a trop d’eau :\n\nFeuilles qui fanent alors que le sol est mouillé.\n\nOdeur désagréable : racines pourries et racines étouffées.\n\nChampignons ou taches suspectes.",
-      "illustration_description": "Illustration pédagogique pour Si la plante manque d’eau :",
+      "title": "Manque d’eau ou excès d’eau : les signes à observer",
+      "text": "**Si la plante manque d’eau :**\n\n- Sol sec en profondeur.\n- Feuilles molles, tristes, qui tombent ou jaunissent.\n- Croissance lente.\n\n**Si la plante a trop d’eau :**\n\n- Feuilles qui fanent alors que le sol est mouillé.\n- Odeur désagréable : **racines pourries ou asphyxiées**.\n- Champignons ou taches suspectes.",
+      "illustration_description": "Illustration pédagogique pour Manque d’eau ou excès d’eau : les signes à observer",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_13.jpg"
     },
     {
       "page_number": 14,
       "title": "Comment bien arroser et garder l’eau dans le sol ?",
-      "text": "Comment bien arroser et garder l’eau dans le sol ?",
+      "text": "Voyons les gestes essentiels pour **optimiser l’arrosage** et limiter le gaspillage d’eau sur vos planches de culture.",
       "illustration_description": "Illustration pédagogique pour Comment bien arroser et garder l’eau dans le sol ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Arroser le matin ou le soir, jamais en plein soleil.",
-      "text": "Mettre du paillage pour retenir l’eau : paille, feuilles sèches, coques.\n\nUtiliser du compost pour garder l’humidité.\n\nArroser suffisamment pour que le sol soit humide en profondeur, et pas juste en surface.",
-      "illustration_description": "Illustration pédagogique pour Arroser le matin ou le soir, jamais en plein soleil.",
+      "title": "Les bonnes pratiques d’arrosage",
+      "text": "- **Arrosez le matin ou le soir**, jamais en plein soleil.\n- **Mettez du paillage** pour retenir l’eau : paille, feuilles sèches, coques.\n- **Utilisez du compost** pour garder l’humidité.\n- **Arrosez suffisamment** pour que le sol soit humide en profondeur, et pas uniquement en surface.",
+      "illustration_description": "Illustration pédagogique pour Les bonnes pratiques d’arrosage",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_15.jpg"
     },
     {
       "page_number": 16,
       "title": "Pourquoi ajouter du charbon dans le sol ?",
-      "text": "Pourquoi ajouter du charbon dans le sol ?",
+      "text": "Découvrez comment le **charbon de bois broyé (biochar)** aide à retenir l’eau et à renforcer la fertilité du sol.",
       "illustration_description": "Illustration pédagogique pour Pourquoi ajouter du charbon dans le sol ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "Retient l’eau comme une éponge",
-      "text": "Renforce les cultures Favorise la vie du sol\n\nLe charbon de bois broyé, appelé biochar, est un excellent allié pour :\n\nRetenir l’eau : Le charbon fonctionne comme une éponge qui permet de retenir l’eau et les nutriments dans ses cavités. Il garde l’humidité, puis la relâche lentement quand le sol est sec. Il peut retenir jusqu’à 5 fois son poids en eau.\n\nNourrir le sol : Le charbon sert de refuge aux micro-organismes utiles, comme les bactéries et les champignons, qui aident les plantes à se nourrir et renforcent la vie du sol.\n\nRenforcer la résistance des cultures : Le charbon améliore la rétention d’eau et la stabilité du sol, ce qui aide les plantes à mieux supporter la sécheresse.",
-      "illustration_description": "Illustration pédagogique pour Retient l’eau comme une éponge",
+      "title": "Les atouts du biochar dans le sol",
+      "text": "Le charbon de bois broyé, appelé **biochar**, est un excellent allié pour :\n\n- **Retenir l’eau** : le charbon fonctionne comme une éponge qui permet de retenir l’eau et les nutriments dans ses cavités. Il garde l’humidité, puis la relâche lentement quand le sol est sec. Il peut retenir jusqu’à **5 fois son poids en eau**.\n- **Nourrir le sol (favoriser la vie du sol)** : le charbon sert de refuge aux micro-organismes utiles, comme les bactéries et les champignons, qui aident les plantes à se nourrir et renforcent la vie du sol.\n- **Renforcer la résistance des cultures** : le charbon améliore la rétention d’eau et la stabilité du sol, ce qui aide les plantes à mieux supporter la sécheresse.",
+      "illustration_description": "Illustration pédagogique pour Les atouts du biochar dans le sol",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "OU",
-      "text": "Utilisez du charbon de bois bien refroidi, puis broyé finement, en poudre ou en petits morceaux de 1 à 10 mm.\n\nSi vous fabriquez votre compost :\n\nSi vous avez déjà du compost prêt à l’emploi :\n\nAjoutez-y du charbon broyé à raison de 10 à 20 % Ajoutez un peu de charbon à chaque couche, en\n\n- du volume total. Par exemple : pour 1 brouette de\n- l’alternant avec les matières brunes (feuilles,\n\ncompost (80 L) : ajoutez 8 à 16 L de charbon, soit paille…) et vertes(déchets de cuisine, tontes…).\n\nenviron 1 à 2 seaux.\n\nHumidifiez si besoin : le charbon est très Mélangez bien pour une bonne répartition.\n\nabsorbant.\n\nLaissez mûrir.",
-      "illustration_description": "Illustration pédagogique pour OU",
+      "title": "Comment utiliser le charbon de bois broyé ?",
+      "text": "Utilisez du **charbon de bois bien refroidi**, puis broyé finement, en poudre ou en petits morceaux de **1 à 10 mm**.\n\n- **Si vous fabriquez votre compost** : vous pouvez ajouter un peu de charbon à chaque couche, en l’alternant avec les matières brunes (feuilles, paille…) et vertes (déchets de cuisine, tontes…), ou l’incorporer lors des transferts de compartiments (voir le module M3.3.2). Humidifiez si besoin (le charbon est très absorbant) et laissez mûrir.\n- **Si vous avez déjà du compost prêt à l’emploi** : ajoutez-y du charbon broyé à raison de **10 à 20 % du volume total**. Par exemple, pour 1 brouette de compost (80 L), ajoutez **8 à 16 L** de charbon, soit environ **1 à 2 seaux**. Mélangez bien pour une bonne répartition.",
+      "illustration_description": "Illustration pédagogique pour Comment utiliser le charbon de bois broyé ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "L’eau est essentielle à la vie de la plante : elle entre par les racines, circule jusqu’aux feuilles et ressort par les",
-      "text": "stomates.\n\nComprendre ce chemin permet de mieux arroser, au bon moment et en bonne quantité.\n\nGrâce à quelques gestes simples – observer la plante, adapter l’arrosage, pailler le sol, enrichir le compost – vous pouvez aider vos cultures à mieux pousser, même en période sèche.",
-      "illustration_description": "Illustration pédagogique pour L’eau est essentielle à la vie de la plante : elle entre par les racines, circule jusqu’aux feuilles et ressort par les",
+      "title": "Conclusion : observer et accompagner vos cultures",
+      "text": "L’**eau** est essentielle à la vie de la plante : elle entre par les racines, circule jusqu’aux feuilles et ressort par les stomates.\n\nComprendre ce chemin permet de mieux arroser, au bon moment et en bonne quantité. Grâce à quelques gestes simples — observer la plante, adapter l’arrosage, pailler le sol, enrichir le compost — vous pouvez aider vos cultures à mieux pousser, même en période sèche.",
+      "illustration_description": "Illustration pédagogique pour Conclusion : observer et accompagner vos cultures",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_19.jpg"
     }
   ],

@@ -104,6 +104,10 @@ const gitEnabled =
             <button type="button" class="cms-tool-btn" data-action="orderedList" title="Liste numérotée">1. Liste</button>
             <button type="button" class="cms-tool-btn" data-action="blockquote" title="Citation / Bloc note">« » Note</button>
             <span class="cms-tool-sep"></span>
+            <button type="button" class="cms-tool-btn cms-tool-alert" data-action="alert" title="Encadré d'alerte / vigilance (basculer)">⚠️ Alerte</button>
+            <button type="button" class="cms-tool-btn cms-tool-tip" data-action="tip" title="Encadré conseil / astuce (basculer)">💡 Conseil</button>
+            <button type="button" class="cms-tool-btn" data-action="table" title="Insérer un tableau simple">⊞ Tableau</button>
+            <span class="cms-tool-sep"></span>
             <button type="button" class="cms-tool-btn" data-action="undo" title="Annuler (Ctrl+Z)">↩</button>
             <button type="button" class="cms-tool-btn" data-action="redo" title="Rétablir (Ctrl+Y)">↪</button>
           </div>
@@ -111,7 +115,6 @@ const gitEnabled =
           <div
             id="cms-richtext-editor"
             class="cms-richtext-content"
-            contenteditable="true"
             role="textbox"
             aria-multiline="true"
           ></div>
@@ -619,8 +622,37 @@ const gitEnabled =
       });
     }
 
+    // Gestion de l'éditeur Rich Text Tiptap / ProseMirror (chargé dynamiquement)
+    type RichTextController = import('../utils/cmsRichTextEditor').CmsRichTextController;
+    let richTextController: RichTextController | null = null;
+    const toolButtons = Array.from(document.querySelectorAll('.cms-tool-btn'));
+
+    function syncToolbarActiveStates() {
+      if (!richTextController) return;
+      toolButtons.forEach((btn) => {
+        const action = btn.getAttribute('data-action');
+        if (!action) return;
+        btn.classList.toggle('is-active', richTextController!.isActive(action));
+      });
+    }
+
+    async function ensureRichTextEditor(initialHtml: string) {
+      if (!richtextEditor) return;
+      if (!richTextController) {
+        const { createCmsRichTextEditor } = await import('../utils/cmsRichTextEditor');
+        richTextController = createCmsRichTextEditor(
+          richtextEditor,
+          initialHtml,
+          syncToolbarActiveStates
+        );
+      } else {
+        richTextController.setContent(initialHtml);
+      }
+      syncToolbarActiveStates();
+    }
+
     // Gestion de l'ouverture de la modale de texte / richtext
-    function onTextElementClick(e: MouseEvent) {
+    async function onTextElementClick(e: MouseEvent) {
       if (mode !== 'edit') return;
       e.preventDefault();
       e.stopPropagation();
@@ -649,9 +681,9 @@ const gitEnabled =
         if (textModalTitle) textModalTitle.textContent = "Éditeur de texte pédagogique (Rich Text)";
         textInputSimpleContainer?.classList.add('hidden');
         richtextContainer?.classList.remove('hidden');
-        if (richtextEditor) {
-          richtextEditor.innerHTML = currentVal;
-        }
+        textModal?.showModal();
+        await ensureRichTextEditor(currentVal);
+        setTimeout(() => richTextController?.focus(), 30);
       } else {
         if (textModalTitle) textModalTitle.textContent = "Édition du titre";
         richtextContainer?.classList.add('hidden');
@@ -659,19 +691,12 @@ const gitEnabled =
         if (textInputSimple) {
           textInputSimple.value = drafts[currentBindKey] ?? el.textContent?.trim() ?? '';
         }
-      }
-
-      textModal?.showModal();
-
-      // Focus
-      setTimeout(() => {
-        if (isRichText) {
-          richtextEditor?.focus();
-        } else {
+        textModal?.showModal();
+        setTimeout(() => {
           textInputSimple?.focus();
           textInputSimple?.select();
-        }
-      }, 50);
+        }, 50);
+      }
     }
 
     // Application de la modification du texte
@@ -681,8 +706,8 @@ const gitEnabled =
       const drafts = getDrafts();
       let newValue = '';
 
-      if (isRichText && richtextEditor) {
-        newValue = richtextEditor.innerHTML.trim();
+      if (isRichText && richTextController) {
+        newValue = richTextController.getHTML();
         currentActiveElement.innerHTML = newValue;
       } else if (textInputSimple) {
         newValue = textInputSimple.value.trim();
@@ -702,25 +727,13 @@ const gitEnabled =
       }
     });
 
-    // Outils de formatage Rich Text (execCommand style sites-faciles)
-    document.querySelectorAll('.cms-tool-btn').forEach((btn) => {
+    // Outils de formatage Rich Text (Tiptap / ProseMirror)
+    toolButtons.forEach((btn) => {
       btn.addEventListener('click', (e) => {
         e.preventDefault();
         const action = btn.getAttribute('data-action');
-        if (!action || !richtextEditor) return;
-        richtextEditor.focus();
-
-        if (action === 'bold') document.execCommand('bold');
-        else if (action === 'italic') document.execCommand('italic');
-        else if (action === 'strike') document.execCommand('strikeThrough');
-        else if (action === 'h2') document.execCommand('formatBlock', false, '<h2>');
-        else if (action === 'h3') document.execCommand('formatBlock', false, '<h3>');
-        else if (action === 'p') document.execCommand('formatBlock', false, '<p>');
-        else if (action === 'bulletList') document.execCommand('insertUnorderedList');
-        else if (action === 'orderedList') document.execCommand('insertOrderedList');
-        else if (action === 'blockquote') document.execCommand('formatBlock', false, '<blockquote>');
-        else if (action === 'undo') document.execCommand('undo');
-        else if (action === 'redo') document.execCommand('redo');
+        if (!action || !richTextController) return;
+        richTextController.runAction(action);
       });
     });
 
@@ -1308,6 +1321,10 @@ const gitEnabled =
     background: #e2e8f0;
     color: #0f172a;
   }
+  .cms-tool-btn.is-active {
+    background: #0284c7;
+    color: #ffffff;
+  }
   .cms-tool-sep {
     border-right: 1px solid #cbd5e1;
     margin: 0 0.25rem;
@@ -1327,8 +1344,12 @@ const gitEnabled =
     outline: none;
     box-sizing: border-box;
   }
-  .cms-richtext-content:focus {
+  .cms-richtext-content:focus-within {
     border-color: #0284c7;
+  }
+  .cms-richtext-content :global(.ProseMirror) {
+    min-height: 190px;
+    outline: none;
   }
   .cms-richtext-content p {
     margin-bottom: 0.75rem;
@@ -1343,14 +1364,50 @@ const gitEnabled =
     padding-left: 1.25rem;
     margin-bottom: 0.75rem;
   }
-  .cms-richtext-content blockquote {
+  .cms-richtext-content :global(blockquote) {
     border-left: 3px solid #0284c7;
-    padding-left: 0.75rem;
+    padding: 0.5rem 0.75rem;
     margin: 0.5rem 0;
     color: #475569;
     font-style: italic;
     background: #f8fafc;
     border-radius: 0 0.25rem 0.25rem 0;
+  }
+  .cms-richtext-content :global(.slide-alert) {
+    background: rgba(200, 104, 50, 0.12);
+    border-left: 4px solid #c86832;
+    padding: 0.75rem 1rem;
+    border-radius: 0 0.35rem 0.35rem 0;
+    margin: 0.75rem 0;
+    color: #9a4a1c;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .cms-richtext-content :global(.callout-tip) {
+    background: rgba(45, 106, 79, 0.1);
+    border-left: 4px solid #2d6a4f;
+    padding: 0.75rem 1rem;
+    border-radius: 0 0.35rem 0.35rem 0;
+    margin: 0.75rem 0;
+    color: #1b4332;
+    line-height: 1.5;
+  }
+  .cms-richtext-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.75rem 0;
+    font-size: 0.88rem;
+  }
+  .cms-richtext-content :global(th),
+  .cms-richtext-content :global(td) {
+    border: 1px solid #cbd5e1;
+    padding: 0.4rem 0.6rem;
+    text-align: left;
+  }
+  .cms-richtext-content :global(th) {
+    background: #f1f5f9;
+    font-weight: 700;
+    color: #0f172a;
   }
 
   /* Upload d'image */

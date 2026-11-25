@@ -8,247 +8,247 @@
   "pages": [
     {
       "page_number": 1,
-      "title": "Nous allons vous montrer comment les planches de cultures permettent de garder le sol vivant",
-      "text": "pour garantir la bonne santé et la bonne croissance des plantes et des légumes.",
-      "illustration_description": "Illustration pédagogique pour Nous allons vous montrer comment les planches de cultures permettent de garder le sol vivant",
+      "title": "Présentation du module : le sol vivant",
+      "text": "Nous allons vous montrer comment les **planches de culture** permettent de garder le **sol vivant** pour garantir la bonne santé et la bonne croissance des plantes et des légumes.",
+      "illustration_description": "Illustration pédagogique pour Présentation du module : le sol vivant",
       "image": "assets/images/maraichage/201_sols_vivants/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "POUR QUE LE SOL SOIT FERTILE, IL FAUT QU’IL SOIT",
-      "text": "VIVANT",
-      "illustration_description": "Illustration pédagogique pour POUR QUE LE SOL SOIT FERTILE, IL FAUT QU’IL SOIT",
+      "title": "Pour que le sol soit fertile, il faut qu’il soit vivant",
+      "text": "Découvrons de quoi est composé un sol et pourquoi son **activité biologique** est indispensable à la fertilité.",
+      "illustration_description": "Illustration pédagogique pour Pour que le sol soit fertile, il faut qu’il soit vivant",
       "image": "assets/images/maraichage/201_sols_vivants/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "Pour pousser et être en bonne santé les plantes maraîchères ont besoin de lumière, d’eau et de nutriments. Elles",
-      "text": "se nourrissent dans la partie supérieure du sol (10– 20 cm de profondeur).",
-      "illustration_description": "Illustration pédagogique pour Pour pousser et être en bonne santé les plantes maraîchères ont besoin de lumière, d’eau et de nutriments. Elles",
+      "title": "Les besoins des plantes maraîchères",
+      "text": "Pour pousser et être en bonne santé, les plantes maraîchères ont besoin de **lumière**, d’**eau** et de **nutriments**.\n\nElles se nourrissent dans la partie supérieure du sol (**10 à 20 cm** de profondeur).",
+      "illustration_description": "Illustration pédagogique pour Les besoins des plantes maraîchères",
       "image": "assets/images/maraichage/201_sols_vivants/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "Un sol fertile est riche en humus, issu de la matière organique en décomposition (résidus de cultures, feuilles,",
-      "text": "insectes morts, excréments…).",
-      "illustration_description": "Illustration pédagogique pour Un sol fertile est riche en humus, issu de la matière organique en décomposition (résidus de cultures, feuilles,",
+      "title": "La richesse en humus d’un sol fertile",
+      "text": "Un sol fertile est riche en **humus**, issu de la **matière organique en décomposition** (résidus de culture, feuilles, insectes morts, excréments…).",
+      "illustration_description": "Illustration pédagogique pour La richesse en humus d’un sol fertile",
       "image": "assets/images/maraichage/201_sols_vivants/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "Humus",
-      "text": "Un sol fertile est riche en humus, issu de la matière organique en décomposition (résidus de cultures, feuilles, insectes morts, excréments…).",
-      "illustration_description": "Illustration pédagogique pour Humus",
+      "title": "L’humus dans la couche superficielle du sol",
+      "text": "Un sol fertile est riche en **humus**, issu de la **matière organique en décomposition** (résidus de culture, feuilles, insectes morts, excréments…).",
+      "illustration_description": "Illustration pédagogique pour L’humus dans la couche superficielle du sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Le sol est constitué :",
-      "text": "d’éléments solides tels que la matière organique et les pierres,\n\n- d’eau contenant des minéraux, et d’air.",
-      "illustration_description": "Illustration pédagogique pour Le sol est constitué :",
+      "title": "La composition physique du sol",
+      "text": "Le sol est constitué :\n\n- d’**éléments solides** tels que la matière organique et les pierres ;\n- d’**eau** contenant des minéraux ;\n- et d’**air**.",
+      "illustration_description": "Illustration pédagogique pour La composition physique du sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "mycélium",
-      "text": "bactéries\n\nIl accueille également des organismes vivants :\n\ndes micro-organismes invisibles à l’œil nu comme des bactéries et des champignons en filaments blancs, appelés mycélium.",
-      "illustration_description": "Illustration pédagogique pour mycélium",
+      "title": "Les micro-organismes du sol : bactéries et mycélium",
+      "text": "Le sol accueille également des organismes vivants :\n\n- des **micro-organismes** invisibles à l’œil nu comme des **bactéries** et des **champignons** en filaments blancs, appelés **mycélium**.",
+      "illustration_description": "Illustration pédagogique pour Les micro-organismes du sol : bactéries et mycélium",
       "image": "assets/images/maraichage/201_sols_vivants/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "acariens",
-      "text": "nématodes larves\n\nIl accueille également des organismes vivants :\n\ndes organismes de quelques millimètres comme des acariens, des petits vers (appelés nématodes) ou des larves d’insectes.",
-      "illustration_description": "Illustration pédagogique pour acariens",
+      "title": "La mésofaune : acariens, nématodes et larves",
+      "text": "Le sol accueille également des organismes de quelques millimètres :\n\n- des **acariens** ;\n- des petits vers appelés **nématodes** ;\n- des **larves d’insectes**.",
+      "illustration_description": "Illustration pédagogique pour La mésofaune : acariens, nématodes et larves",
       "image": "assets/images/maraichage/201_sols_vivants/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "termites",
-      "text": "ver de terre mille pattes cloporte araignée\n\nIl accueille également des organismes vivants :\n\net des insectes : comme des cloportes, des vers de terre, des termites, des fourmis, des mille pattes ou des araignées.",
-      "illustration_description": "Illustration pédagogique pour termites",
+      "title": "Les petits animaux (invertébrés) du sol",
+      "text": "Le sol abrite aussi de petits animaux du sol (**invertébrés**) comme :\n\n- des **cloportes** et des **vers de terre** ;\n- des **termites** et des **fourmis** ;\n- des **mille-pattes** et des **araignées**.",
+      "illustration_description": "Illustration pédagogique pour Les petits animaux (invertébrés) du sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
-      "text": "C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
-      "illustration_description": "Illustration pédagogique pour C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
+      "title": "Un écosystème riche et varié",
+      "text": "C’est un **écosystème très riche et varié** où tout le monde joue son rôle, même la limace !",
+      "illustration_description": "Illustration pédagogique pour Un écosystème riche et varié",
       "image": "assets/images/maraichage/201_sols_vivants/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
-      "text": "C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
-      "illustration_description": "Illustration pédagogique pour C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
+      "title": "L’équilibre de la vie dans le sol",
+      "text": "C’est un **écosystème très riche et varié** où tout le monde joue son rôle, même la limace !",
+      "illustration_description": "Illustration pédagogique pour L’équilibre de la vie dans le sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "Tous ces éléments interagissent ensemble pour régénérer le sol, le garder en bonne santé, le maintenir humide,",
-      "text": "aéré et stable pour permettre la croissance des plantes.\n\nC’est cette activité biologique qui est le moteur de la fertilité du sol.",
-      "illustration_description": "Illustration pédagogique pour Tous ces éléments interagissent ensemble pour régénérer le sol, le garder en bonne santé, le maintenir humide,",
+      "title": "L’activité biologique, moteur de la fertilité",
+      "text": "Tous ces éléments interagissent ensemble pour régénérer le sol, le garder en bonne santé, le maintenir **humide, aéré et stable** pour permettre la croissance des plantes.\n\nC’est cette **activité biologique** qui est le moteur de la fertilité du sol.",
+      "illustration_description": "Illustration pédagogique pour L’activité biologique, moteur de la fertilité",
       "image": "assets/images/maraichage/201_sols_vivants/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "COMMENT LE SYSTÈME DES PLANCHES DE CULTURES",
-      "text": "MAINTIENT LE SOL VIVANT ET DONC FERTILE ?",
-      "illustration_description": "Illustration pédagogique pour COMMENT LE SYSTÈME DES PLANCHES DE CULTURES",
+      "title": "Comment le système des planches de culture maintient le sol vivant ?",
+      "text": "Voyons maintenant comment l’organisation en **planches de culture permanentes** et **passe-pieds paillés** entretient cette vie biologique et rend le sol fertile.",
+      "illustration_description": "Illustration pédagogique pour Comment le système des planches de culture maintient le sol vivant ?",
       "image": "assets/images/maraichage/201_sols_vivants/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les passe-pieds, on déplace cette",
-      "text": "terre sur les planches. Cela permet de concentrer toute la terre fertile là où pousseront les plantations .",
-      "illustration_description": "Illustration pédagogique pour Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les passe-pieds, on déplace cette",
+      "title": "Concentrer la terre fertile sur les planches",
+      "text": "Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les **passe-pieds**, on déplace cette terre sur les **planches de culture**.\n\nCela permet de concentrer toute la terre fertile là où pousseront les plantations.",
+      "illustration_description": "Illustration pédagogique pour Concentrer la terre fertile sur les planches",
       "image": "assets/images/maraichage/201_sols_vivants/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les passe-pieds, on déplace cette",
-      "text": "terre sur les planches. Cela permet de concentrer toute la terre fertile là où pousseront les plantations .",
-      "illustration_description": "Illustration pédagogique pour Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les passe-pieds, on déplace cette",
+      "title": "Mise en place de la terre fertile sur les planches",
+      "text": "Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les **passe-pieds**, on déplace cette terre sur les **planches de culture**.\n\nCela permet de concentrer toute la terre fertile là où pousseront les plantations.",
+      "illustration_description": "Illustration pédagogique pour Mise en place de la terre fertile sur les planches",
       "image": "assets/images/maraichage/201_sols_vivants/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Le rôle du paillage",
-      "text": "Le paillage (mulch) dans les passe-pieds est essentiel :\n\n• Il retient l’eau comme une éponge, pour garder la terre humide.\n• Il ralentit l’écoulement de l’eau en cas de forte pluie, ce qui limite l’érosion.",
-      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "title": "Le rôle du paillage dans les passe-pieds",
+      "text": "Le **paillage (mulch)** dans les passe-pieds est essentiel :\n\n- Il **retient l’eau** comme une éponge, pour garder la terre humide.\n- Il **ralentit l’écoulement de l’eau** en cas de forte pluie, ce qui limite l’érosion.",
+      "illustration_description": "Illustration pédagogique pour Le rôle du paillage dans les passe-pieds",
       "image": "assets/images/maraichage/201_sols_vivants/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "Le rôle du paillage",
-      "text": "Le paillage (mulch) dans les passe-pieds est essentiel :\n\n• Il retient l’eau comme une éponge, pour garder la terre humide.\n• Il ralentit l’écoulement de l’eau en cas de forte pluie, ce qui limite l’érosion.",
-      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "title": "Le paillage, une éponge qui retient l’eau",
+      "text": "Le **paillage (mulch)** dans les passe-pieds est essentiel :\n\n- Il **retient l’eau** comme une éponge, pour garder la terre humide.\n- Il **ralentit l’écoulement de l’eau** en cas de forte pluie, ce qui limite l’érosion.",
+      "illustration_description": "Illustration pédagogique pour Le paillage, une éponge qui retient l’eau",
       "image": "assets/images/maraichage/201_sols_vivants/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "Le rôle du paillage",
-      "text": "Le paillage (mulch) dans les passe-pieds est essentiel :\n\n• Il retient l’eau comme une éponge, pour garder la terre humide.\n• Il ralentit l’écoulement de l’eau en cas de forte pluie, ce qui limite l’érosion.",
-      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "title": "Le paillage contre l’érosion",
+      "text": "Le **paillage (mulch)** dans les passe-pieds est essentiel :\n\n- Il **retient l’eau** comme une éponge, pour garder la terre humide.\n- Il **ralentit l’écoulement de l’eau** en cas de forte pluie, ce qui limite l’érosion.",
+      "illustration_description": "Illustration pédagogique pour Le paillage contre l’érosion",
       "image": "assets/images/maraichage/201_sols_vivants/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "Le rôle du paillage",
-      "text": "Le paillage (mulch) dans les passe-pieds est essentiel :\n\n• Il retient l’eau comme une éponge, pour garder la terre humide.\n• Il ralentit l’écoulement de l’eau en cas de forte pluie, ce qui limite l’érosion.",
-      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "title": "Préserver l’humidité et la structure grâce au paillage",
+      "text": "Le **paillage (mulch)** dans les passe-pieds est essentiel :\n\n- Il **retient l’eau** comme une éponge, pour garder la terre humide.\n- Il **ralentit l’écoulement de l’eau** en cas de forte pluie, ce qui limite l’érosion.",
+      "illustration_description": "Illustration pédagogique pour Préserver l’humidité et la structure grâce au paillage",
       "image": "assets/images/maraichage/201_sols_vivants/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "Le rôle des micro-organismes et",
-      "text": "des insectes Les micro-organismes (bactéries et champignons en filaments) se nourrissent du paillage.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "Le rôle des micro-organismes sur le paillage",
+      "text": "Les **micro-organismes** (bactéries et champignons en filaments) se nourrissent du **paillage** déposé dans les passe-pieds.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes sur le paillage",
       "image": "assets/images/maraichage/201_sols_vivants/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "Le rôle des micro-organismes et",
-      "text": "des insectes Ils vont constituer la nourriture des cloportes, insectes (termites, araignées, mille-pattes…) et des vers de terre.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "La chaîne alimentaire de la faune du sol",
+      "text": "Les micro-organismes constituent la nourriture des **cloportes**, des **insectes** (termites, fourmis…), des **araignées**, des **mille-pattes** et des **vers de terre**.",
+      "illustration_description": "Illustration pédagogique pour La chaîne alimentaire de la faune du sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_21.jpg"
     },
     {
       "page_number": 22,
-      "title": "Le rôle des micro-organismes et",
-      "text": "des insectes Tous ces organismes participent à la décomposition du paillage en compost. On peut ainsi parler de compost de superficie dans les passe-pieds. Les excréments et les cadavres des microorganismes et des insectes se décomposent et viennent à leur tour nourrir le compost.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "La formation du compost de surface",
+      "text": "Tous ces organismes participent à la décomposition du paillage en compost. On peut ainsi parler de **compost de surface** dans les passe-pieds.\n\nLes excréments et les cadavres des micro-organismes et de la faune du sol se décomposent et viennent à leur tour nourrir le compost.",
+      "illustration_description": "Illustration pédagogique pour La formation du compost de surface",
       "image": "assets/images/maraichage/201_sols_vivants/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "Le rôle des micro-organismes et",
-      "text": "des insectes En creusant des galeries, les verres de terre et les termites facilitent aussi la circulation de l’air et de l’eau et aident les racines des plantes à trouver leur chemin.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "L’aération du sol grâce aux galeries",
+      "text": "En creusant des galeries, les **vers de terre** et les **termites** facilitent aussi la circulation de l’air et de l’eau et aident les racines des plantes à trouver leur chemin.",
+      "illustration_description": "Illustration pédagogique pour L’aération du sol grâce aux galeries",
       "image": "assets/images/maraichage/201_sols_vivants/page_23.jpg"
     },
     {
       "page_number": 24,
-      "title": "Le rôle des micro-organismes et",
-      "text": "des insectes La décomposition de la matière organique libère des éléments minéraux qui s’ajoutent à ceux déjà présents dans le sol et indispensables à la croissance des plantes.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "La libération des éléments minéraux",
+      "text": "La décomposition de la **matière organique** libère des **éléments minéraux** qui s’ajoutent à ceux déjà présents dans le sol et indispensables à la croissance des plantes.",
+      "illustration_description": "Illustration pédagogique pour La libération des éléments minéraux",
       "image": "assets/images/maraichage/201_sols_vivants/page_24.jpg"
     },
     {
       "page_number": 25,
-      "title": "Le rôle des micro-organismes et",
-      "text": "des insectes L’azote favorise le développement des feuilles, le phosphore celui des racines, le potassium agit sur les légumesfruits, mais aussi le calcium, le magnésium, le fer et d’autres oligo-éléments, essentiels à la bonne croissance et la santé de la plante.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "Les éléments minéraux et oligo-éléments essentiels",
+      "text": "Chaque nutriment libéré dans le sol joue un rôle précis :\n\n- L’**azote (N)** favorise le développement des feuilles.\n- Le **phosphore (P)** favorise celui des racines.\n- Le **potassium (K)** favorise celui des fleurs et des fruits.\n\nLe sol fournit aussi du **calcium**, du **magnésium**, du **fer** et d’autres **oligo-éléments**, essentiels à la bonne croissance et à la santé de la plante.",
+      "illustration_description": "Illustration pédagogique pour Les éléments minéraux et oligo-éléments essentiels",
       "image": "assets/images/maraichage/201_sols_vivants/page_25.jpg"
     },
     {
       "page_number": 26,
-      "title": "COMMENT LES PLANTES PARTICIPENT AUSSI À",
-      "text": "L’ACTIVITÉ BIOLOGIQUE DU SOL ET LE PROTÈGENT ?",
-      "illustration_description": "Illustration pédagogique pour COMMENT LES PLANTES PARTICIPENT AUSSI À",
+      "title": "Comment les plantes participent à l’activité biologique du sol ?",
+      "text": "Les plantes ne se contentent pas de puiser dans le sol : elles nourrissent elles aussi la **vie biologique** et protègent la terre.",
+      "illustration_description": "Illustration pédagogique pour Comment les plantes participent à l’activité biologique du sol ?",
       "image": "assets/images/maraichage/201_sols_vivants/page_26.jpg"
     },
     {
       "page_number": 27,
-      "title": "Une fois que les plantes ont poussée elles protègent le sol du soleil et du vent.",
-      "text": "Une fois que les plantes ont poussée elles protègent le sol du soleil et du vent.",
-      "illustration_description": "Illustration pédagogique pour Une fois que les plantes ont poussée elles protègent le sol du soleil et du vent.",
+      "title": "La protection du sol par le feuillage",
+      "text": "Une fois que les plantes ont poussé, elles **protègent le sol du soleil et du vent**, limitant ainsi le dessèchement et la dégradation de la terre.",
+      "illustration_description": "Illustration pédagogique pour La protection du sol par le feuillage",
       "image": "assets/images/maraichage/201_sols_vivants/page_27.jpg"
     },
     {
       "page_number": 28,
-      "title": "PHOTOSYNTHÈSE",
-      "text": "La partie supérieure des plantes interagit avec la lumière. La réaction de photosynthèse fabrique du sucre qui va venir nourrir les champignons et les bactéries dans le sol.",
-      "illustration_description": "Illustration pédagogique pour PHOTOSYNTHÈSE",
+      "title": "La photosynthèse nourrit la vie du sol",
+      "text": "La partie supérieure des plantes interagit avec la lumière. La réaction de **photosynthèse** fabrique du sucre qui va venir nourrir les **champignons** et les **bactéries** dans le sol.",
+      "illustration_description": "Illustration pédagogique pour La photosynthèse nourrit la vie du sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_28.jpg"
     },
     {
       "page_number": 29,
-      "title": "En échange du sucre qu’elle leur fournit , certains champignons agissent comme une bouche pour la plante : ils",
-      "text": "absorbent les éléments du sol à sa place. Cette relation gagnant-gagnant s’appelle une symbiose. Lorsqu’elle s’établit entre une plante et un champignon, on parle alors de mycorhize.",
-      "illustration_description": "Illustration pédagogique pour En échange du sucre qu’elle leur fournit , certains champignons agissent comme une bouche pour la plante : ils",
+      "title": "Symbiose et mycorhize",
+      "text": "En échange du sucre fourni par la plante, certains champignons agissent comme une bouche pour elle : ils absorbent les éléments du sol à sa place.\n\nCette relation gagnant-gagnant s’appelle une **symbiose**. Lorsqu’elle s’établit entre une plante et un champignon, on parle alors de **mycorhize**.",
+      "illustration_description": "Illustration pédagogique pour Symbiose et mycorhize",
       "image": "assets/images/maraichage/201_sols_vivants/page_29.jpg"
     },
     {
       "page_number": 30,
-      "title": "Les plantes profitent de l’eau et des nutriments stockés dans les passe-pieds. Pour y accéder elles élargissent leur",
-      "text": "système racinaire. Les racines stabilisent le sol, le protègent de l’érosion et du lessivage par les grandes pluies.",
-      "illustration_description": "Illustration pédagogique pour Les plantes profitent de l’eau et des nutriments stockés dans les passe-pieds. Pour y accéder elles élargissent leur",
+      "title": "Le rôle stabilisateur des racines",
+      "text": "Les plantes profitent de l’eau et des nutriments stockés dans les **passe-pieds**. Pour y accéder, elles élargissent leur système racinaire.\n\nLes **racines** stabilisent le sol et le protègent de l’érosion et du lessivage par les grandes pluies.",
+      "illustration_description": "Illustration pédagogique pour Le rôle stabilisateur des racines",
       "image": "assets/images/maraichage/201_sols_vivants/page_30.jpg"
     },
     {
       "page_number": 31,
-      "title": "Une fois la récolte passée, les racines qui restent dans le sol se décomposent et participent à enrichir le sol en",
-      "text": "matière organique qui va nourrir les micro-organismes. Dans certaines cultures, les racines peuvent atteindre plusieurs kilomètres de long : la matière organique qu’elles apportent en se décomposant n’est donc pas négligeable !",
-      "illustration_description": "Illustration pédagogique pour Une fois la récolte passée, les racines qui restent dans le sol se décomposent et participent à enrichir le sol en",
+      "title": "La décomposition des racines après la récolte",
+      "text": "Une fois la récolte passée, les racines qui restent dans le sol se décomposent et participent à enrichir le sol en **matière organique** qui va nourrir les micro-organismes.\n\nDans certaines cultures, les racines peuvent atteindre plusieurs kilomètres de long : la matière organique qu’elles apportent en se décomposant n’est donc pas négligeable !",
+      "illustration_description": "Illustration pédagogique pour La décomposition des racines après la récolte",
       "image": "assets/images/maraichage/201_sols_vivants/page_31.jpg"
     },
     {
       "page_number": 32,
-      "title": "Les résidus de récoltes fournissent de la matière organique. Selon la quantité, on peut l’ajouter soit dans notre",
-      "text": "compostière pour obtenir du compost, soit sous le paillage des passe-pieds pour un compost de superficie.",
-      "illustration_description": "Illustration pédagogique pour Les résidus de récoltes fournissent de la matière organique. Selon la quantité, on peut l’ajouter soit dans notre",
+      "title": "Valoriser les résidus de récolte",
+      "text": "Les **résidus de récolte** fournissent de la matière organique. Selon la quantité, on peut les ajouter :\n\n- soit dans la **compostière** pour obtenir du compost ;\n- soit sous le paillage des **passe-pieds** pour former un **compost de surface**.",
+      "illustration_description": "Illustration pédagogique pour Valoriser les résidus de récolte",
       "image": "assets/images/maraichage/201_sols_vivants/page_32.jpg"
     },
     {
       "page_number": 33,
-      "title": "Avant de lancer une nouvelle culture, ce compost pourra être déposé en surface sans être tassé, pour ne pas",
-      "text": "abîmer la structure du sol et laisser la vie s’organiser.",
-      "illustration_description": "Illustration pédagogique pour Avant de lancer une nouvelle culture, ce compost pourra être déposé en surface sans être tassé, pour ne pas",
+      "title": "Déposer le compost sans tasser le sol",
+      "text": "Avant de lancer une nouvelle culture, ce **compost** pourra être déposé en surface sans être tassé, pour ne pas abîmer la structure du sol et laisser la vie s’organiser.",
+      "illustration_description": "Illustration pédagogique pour Déposer le compost sans tasser le sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_33.jpg"
     },
     {
       "page_number": 34,
-      "title": "X3",
-      "text": "La technique de maraîchage bio intensif en sol vivant avec des planches permanentes et du paillage permet d’améliorer la fertilité du sol tout en triplant la production de légumes comparé à des méthodes conventionnelles.",
-      "illustration_description": "Illustration pédagogique pour X3",
+      "title": "Tripler la production grâce au sol vivant",
+      "text": "La technique de **maraîchage bio-intensif en sol vivant** avec des planches permanentes et du paillage permet d’améliorer la fertilité du sol tout en **triplant (× 3)** la production de légumes par rapport aux méthodes conventionnelles.",
+      "illustration_description": "Illustration pédagogique pour Tripler la production grâce au sol vivant",
       "image": "assets/images/maraichage/201_sols_vivants/page_34.jpg"
     },
     {
       "page_number": 35,
-      "title": "La technique des planches de culture a beaucoup d’avantages : en préservant le sol, elle permet de réduire les",
-      "text": "intrants en compost et en matière organique, et donc de faire des économies, tout en augmentant la productivité et en produisant de la nourriture saine.",
-      "illustration_description": "Illustration pédagogique pour La technique des planches de culture a beaucoup d’avantages : en préservant le sol, elle permet de réduire les",
+      "title": "Conclusion : les bénéfices des planches de culture",
+      "text": "La technique des **planches de culture** a beaucoup d’avantages : en préservant le sol, elle permet de réduire les intrants en compost et en matière organique, et donc de faire des **économies**, tout en augmentant la **productivité** et en produisant une **nourriture saine**.",
+      "illustration_description": "Illustration pédagogique pour Conclusion : les bénéfices des planches de culture",
       "image": "assets/images/maraichage/201_sols_vivants/page_35.jpg"
     }
   ],

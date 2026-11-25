@@ -1,6 +1,6 @@
 {
   "id": "301_realiser_les_planches_de_cultures",
-  "title": "Réaliser les planches de cultures permanentes",
+  "title": "Réaliser les planches de culture permanentes",
   "category": "Techniques & Pratiques",
   "summary": "Toutes les étapes pour mesurer, tracer, creuser les passe-pieds, amender, aérer et pailler vos planches de culture permanentes de 75 cm.",
   "total_pages": 36,
@@ -34,254 +34,254 @@
   "pages": [
     {
       "page_number": 1,
-      "title": "Nous allons vous montrer comment mettre en place des planches de culture pour une entreprise",
-      "text": "maraîchère bio intensive en sol vivant.",
-      "illustration_description": "Illustration pédagogique pour Nous allons vous montrer comment mettre en place des planches de culture pour une entreprise",
+      "title": "Introduction aux planches de culture",
+      "text": "Nous allons vous montrer comment mettre en place des **planches de culture** pour une entreprise maraîchère **bio-intensive en sol vivant**.",
+      "illustration_description": "Illustration pédagogique pour Introduction aux planches de culture",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "Les planches de culture, qu’est-ce que c’est ? C’est une façon de cultiver qui permet d’optimiser le rendement et de",
-      "text": "préserver la vie du sol.",
-      "illustration_description": "Illustration pédagogique pour Les planches de culture, qu’est-ce que c’est ? C’est une façon de cultiver qui permet d’optimiser le rendement et de",
+      "title": "Les planches de culture, qu’est-ce que c’est ?",
+      "text": "C’est une façon de cultiver qui permet d’**optimiser le rendement** et de **préserver la vie du sol**.",
+      "illustration_description": "Illustration pédagogique pour Les planches de culture, qu’est-ce que c’est ?",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "PLANCHES",
-      "text": "Les planches de culture sont des bandes de terre sur lesquelles vous allez cultiver, elles sont surélevées.",
-      "illustration_description": "Illustration pédagogique pour PLANCHES",
+      "title": "Les planches de culture",
+      "text": "Les **planches de culture** sont des bandes de terre **surélevées** sur lesquelles vous allez cultiver vos légumes.",
+      "illustration_description": "Illustration pédagogique pour Les planches de culture",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "PASSE-PIED",
-      "text": "Elles sont séparées par des passe-pieds, qui eux, sont en creux.",
-      "illustration_description": "Illustration pédagogique pour PASSE-PIED",
+      "title": "Les passe-pieds",
+      "text": "Les planches sont séparées par des **passe-pieds**, qui eux sont **en creux** et servent à circuler sans jamais tasser la terre cultivée.",
+      "illustration_description": "Illustration pédagogique pour Les passe-pieds",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "Pour la formation vous avez besoin d’une parcelle d'environ 12 x 12 m.",
-      "text": "Pour la formation vous avez besoin d’une parcelle d'environ 12 x 12 m.",
-      "illustration_description": "Illustration pédagogique pour Pour la formation vous avez besoin d’une parcelle d'environ 12 x 12 m.",
+      "title": "Dimensions de la parcelle",
+      "text": "Pour la formation, vous avez besoin d’une parcelle d’environ **12 x 12 m**.",
+      "illustration_description": "Illustration pédagogique pour Dimensions de la parcelle",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "10 planches",
-      "text": "Vous allez faire 10 planches de cultures de 10 m de long dans cette parcelle.",
-      "illustration_description": "Illustration pédagogique pour 10 planches",
+      "title": "Organisation en 10 planches",
+      "text": "Vous allez aménager **10 planches de culture** de **10 m de long** dans cette parcelle.",
+      "illustration_description": "Illustration pédagogique pour Organisation en 10 planches",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Vous aurez besoins des outils suivants : Un mètre, 40 piquets de 40-50 cm, 30 mètres de ficelle, une pelle ou une",
-      "text": "houe, une pioche si la terre est dure, un râteau, une grelinette (fourche large) ou une pioche, un arrosoir ou un tuyau pour arroser.",
-      "illustration_description": "Illustration pédagogique pour Vous aurez besoins des outils suivants : Un mètre, 40 piquets de 40-50 cm, 30 mètres de ficelle, une pelle ou une",
+      "title": "Outils nécessaires",
+      "text": "Vous aurez besoin des outils suivants :\n\n- **Un mètre**\n- **44 piquets de 40 à 50 cm** (22 de chaque côté pour 10 planches et 11 passe-pieds)\n- **30 mètres de ficelle**\n- **Une pelle ou une houe**\n- **Une pioche** si la terre est dure\n- **Un râteau**\n- **Une grelinette** (fourche large) ou une pioche\n- **Un arrosoir ou un tuyau** pour arroser",
+      "illustration_description": "Illustration pédagogique pour Outils nécessaires",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "Si vous avez du compost ou du fumier, prévoyez 4 brouettes par planche. Vous aurez également besoin de matière",
-      "text": "sèche comme de la paille, des feuilles sèches ou des résidus de cultures secs. Il en faut environ 5 brouettes par passe-pieds.",
-      "illustration_description": "Illustration pédagogique pour Si vous avez du compost ou du fumier, prévoyez 4 brouettes par planche. Vous aurez également besoin de matière",
+      "title": "Matières organiques nécessaires",
+      "text": "Prévoyez également les matières organiques suivantes :\n\n- **Compost ou fumier** : si vous en disposez, prévoyez **4 brouettes par planche**.\n- **Matière sèche** : paille, feuilles sèches ou résidus de culture secs, à raison d’environ **5 brouettes par passe-pied**.",
+      "illustration_description": "Illustration pédagogique pour Matières organiques nécessaires",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "La mise en place des planches se fait en 7 étapes. Si tout le matériel est réuni, c’est un travail qui ne prend pas",
-      "text": "plus d’une journée à 2 personnes.",
-      "illustration_description": "Illustration pédagogique pour La mise en place des planches se fait en 7 étapes. Si tout le matériel est réuni, c’est un travail qui ne prend pas",
+      "title": "Durée et organisation du chantier",
+      "text": "La mise en place des planches se fait en **7 étapes**.\n\nSi tout le matériel est réuni, c’est un travail qui ne prend pas plus d’**une journée à 2 personnes**.",
+      "illustration_description": "Illustration pédagogique pour Durée et organisation du chantier",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "ÉTAPE 1 : BIEN CHOISIR ET PRÉPARER SA PARCELLE",
-      "text": "ÉTAPE 1 : BIEN CHOISIR ET PRÉPARER SA PARCELLE",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 1 : BIEN CHOISIR ET PRÉPARER SA PARCELLE",
+      "title": "Étape 1 : Bien choisir et préparer sa parcelle",
+      "text": "Avant de tracer les planches, commencez par choisir un emplacement adapté et préparer correctement la surface du terrain.",
+      "illustration_description": "Illustration pédagogique pour Étape 1 : Bien choisir et préparer sa parcelle",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "12 m",
-      "text": "12 m Choisissez une parcelle de 12 m de long par 12 m de large, de préférence à proximité d’une source d’eau.",
-      "illustration_description": "Illustration pédagogique pour 12 m",
+      "title": "Choisir l’emplacement de la parcelle",
+      "text": "Choisissez une parcelle de **12 m de long par 12 m de large**, de préférence à proximité d’une **source d’eau**.",
+      "illustration_description": "Illustration pédagogique pour Choisir l’emplacement de la parcelle",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "Si besoin, égalisez la surface du sol.",
-      "text": "Si la terre est trop sèche, arrosez abondamment la parcelle pour faciliter les prochaines étapes.",
-      "illustration_description": "Illustration pédagogique pour Si besoin, égalisez la surface du sol.",
+      "title": "Égaliser et humidifier le sol",
+      "text": "- Si besoin, **égalisez la surface du sol**.\n- Si la terre est trop sèche, **arrosez abondamment** la parcelle pour faciliter les prochaines étapes.",
+      "illustration_description": "Illustration pédagogique pour Égaliser et humidifier le sol",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "ÉTAPE 2 : FAIRE LES MESURES DES PLANCHES",
-      "text": "ÉTAPE 2 : FAIRE LES MESURES DES PLANCHES",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 2 : FAIRE LES MESURES DES PLANCHES",
+      "title": "Étape 2 : Faire les mesures des planches",
+      "text": "Cette étape consiste à mesurer avec précision l’emplacement de chaque planche et de chaque passe-pied à l’aide des piquets.",
+      "illustration_description": "Illustration pédagogique pour Étape 2 : Faire les mesures des planches",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "Vous devez d’abord faire les mesures nécessaires à la réalisation des planches. Les planches font 75 cm de large,",
-      "text": "Les passe-pieds 40 cm. Vous devez commencer et finir par un passe-pied.",
-      "illustration_description": "Illustration pédagogique pour Vous devez d’abord faire les mesures nécessaires à la réalisation des planches. Les planches font 75 cm de large,",
+      "title": "Largeur des planches et des passe-pieds",
+      "text": "Vous devez d’abord faire les mesures nécessaires à la réalisation des planches :\n\n- **Planches de culture** : **75 cm** de large\n- **Passe-pieds** : **40 cm** de large\n\n⚠️ **Point de vigilance** : Vous devez toujours **commencer et finir par un passe-pied**.",
+      "illustration_description": "Illustration pédagogique pour Largeur des planches et des passe-pieds",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Commencez à une extrémité du terrain. Plantez un piquet. Utilisez un mètre pour mesurer 40 cm en largeur.",
-      "text": "Plantez un deuxième piquet. Vous avez la délimitation du premier passe-pied.",
-      "illustration_description": "Illustration pédagogique pour Commencez à une extrémité du terrain. Plantez un piquet. Utilisez un mètre pour mesurer 40 cm en largeur.",
+      "title": "Délimiter le premier passe-pied",
+      "text": "1. Commencez à une extrémité du terrain et plantez un **1er piquet**.\n2. Utilisez un mètre pour mesurer **40 cm** en largeur.\n3. Plantez un **2e piquet** : vous obtenez la délimitation du premier passe-pied.",
+      "illustration_description": "Illustration pédagogique pour Délimiter le premier passe-pied",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Mesurez ensuite 75 cm, la largeur de la première planche, plantez un 3ème piquet.",
-      "text": "Mesurez ensuite 75 cm, la largeur de la première planche, plantez un 3ème piquet.",
-      "illustration_description": "Illustration pédagogique pour Mesurez ensuite 75 cm, la largeur de la première planche, plantez un 3ème piquet.",
+      "title": "Délimiter la première planche",
+      "text": "Mesurez ensuite **75 cm**, correspondant à la largeur de la première planche, puis plantez un **3e piquet**.",
+      "illustration_description": "Illustration pédagogique pour Délimiter la première planche",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "10 PLANCHES",
-      "text": "11 PASSE-PIEDS Puis répétez ces opérations : planche/passe-pied sur toute la largeur de la parcelle, jusqu'à l'obtention des 10 planches et des 11 passe-pieds.",
-      "illustration_description": "Illustration pédagogique pour 10 PLANCHES",
+      "title": "Répéter sur toute la largeur",
+      "text": "Répétez ces opérations en alternant **planche (75 cm)** et **passe-pied (40 cm)** sur toute la largeur de la parcelle, jusqu’à obtenir **10 planches et 11 passe-pieds**.",
+      "illustration_description": "Illustration pédagogique pour Répéter sur toute la largeur",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "Traversez le terrain dans la longueur, sur 10 mètres. Mesurez de la même manière les planches et les passe-pieds",
-      "text": "en face en plantant des piquets.",
-      "illustration_description": "Illustration pédagogique pour Traversez le terrain dans la longueur, sur 10 mètres. Mesurez de la même manière les planches et les passe-pieds",
+      "title": "Reporter les mesures à l’autre extrémité",
+      "text": "Traversez le terrain dans la longueur sur **10 mètres**, puis mesurez de la même manière les planches et les passe-pieds en face en plantant vos **22 piquets**.",
+      "illustration_description": "Illustration pédagogique pour Reporter les mesures à l’autre extrémité",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "ÉTAPE 3 : CREUSER LES PASSE-PIEDS ET METTRE",
-      "text": "DE LA TERRE SUR LES PLANCHES",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 3 : CREUSER LES PASSE-PIEDS ET METTRE",
+      "title": "Étape 3 : Creuser les passe-pieds et surélever les planches",
+      "text": "Une fois le piquetage terminé, vous allez former les passe-pieds en creux et utiliser la terre extraite pour surélever vos planches de culture.",
+      "illustration_description": "Illustration pédagogique pour Étape 3 : Creuser les passe-pieds et surélever les planches",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "Pour bien délimiter les planches et les passe-pieds, et faire des tracés bien droits, vous allez vous aider d’une",
-      "text": "corde tendue dans la longueur entre les piquets. Tendez une corde entre les piquets qui délimitent le passe-pied.",
-      "illustration_description": "Illustration pédagogique pour Pour bien délimiter les planches et les passe-pieds, et faire des tracés bien droits, vous allez vous aider d’une",
+      "title": "Tendre les cordes de guidage",
+      "text": "Pour bien délimiter les planches et les passe-pieds et obtenir des tracés bien droits, aidez-vous d’une **corde tendue dans la longueur** entre les piquets.\n\nTendez une corde entre les piquets qui délimitent le passe-pied à creuser.",
+      "illustration_description": "Illustration pédagogique pour Tendre les cordes de guidage",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "Creusez le passe-pied à l’aide d’une pelle en suivant les cordes. Distribuez équitablement la terre récupérée à",
-      "text": "droite et à gauche sur les planches.",
-      "illustration_description": "Illustration pédagogique pour Creusez le passe-pied à l’aide d’une pelle en suivant les cordes. Distribuez équitablement la terre récupérée à",
+      "title": "Creuser et répartir la terre",
+      "text": "Creusez le passe-pied à l’aide d’une **pelle** en suivant les cordes.\n\nDistribuez équitablement la terre récupérée **à droite et à gauche** sur les planches adjacentes.",
+      "illustration_description": "Illustration pédagogique pour Creuser et répartir la terre",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_21.jpg"
     },
     {
       "page_number": 22,
-      "title": "Les passe-pieds doivent avoir une profondeur de 10 à 20 cm.",
-      "text": "Les passe-pieds doivent avoir une profondeur de 10 à 20 cm.",
-      "illustration_description": "Illustration pédagogique pour Les passe-pieds doivent avoir une profondeur de 10 à 20 cm.",
+      "title": "Profondeur des passe-pieds",
+      "text": "Les passe-pieds doivent avoir une profondeur de **10 à 20 cm**.",
+      "illustration_description": "Illustration pédagogique pour Profondeur des passe-pieds",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "11 PASSE-PIEDS",
-      "text": "Répétez l’opération pour les 11 passe-pieds.",
-      "illustration_description": "Illustration pédagogique pour 11 PASSE-PIEDS",
+      "title": "Creuser l’ensemble des 11 passe-pieds",
+      "text": "Répétez l’opération de piquetage à la corde et de creusement pour les **11 passe-pieds** de la parcelle.",
+      "illustration_description": "Illustration pédagogique pour Creuser l’ensemble des 11 passe-pieds",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_23.jpg"
     },
     {
       "page_number": 24,
-      "title": "ÉTAPE 4 : AMENDER LES PLANCHES DE CULTURES",
-      "text": "ÉTAPE 4 : AMENDER LES PLANCHES DE CULTURES",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 4 : AMENDER LES PLANCHES DE CULTURES",
+      "title": "Étape 4 : Amender les planches de culture",
+      "text": "Les planches étant formées, il est temps d’apporter la matière organique qui nourrira la vie du sol et vos futures cultures.",
+      "illustration_description": "Illustration pédagogique pour Étape 4 : Amender les planches de culture",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_24.jpg"
     },
     {
       "page_number": 25,
-      "title": "Il est essentiel d’enrichir le sol et d’améliorer sa texture. Pour cela vous pouvez utiliser du compost ou du fumier. Il",
-      "text": "faut environ 4 brouettes de compost par planche. Répartissez-le uniformément sur toute la surface avec un râteau ou à la main.",
-      "illustration_description": "Illustration pédagogique pour Il est essentiel d’enrichir le sol et d’améliorer sa texture. Pour cela vous pouvez utiliser du compost ou du fumier. Il",
+      "title": "Apporter le compost ou le fumier",
+      "text": "Il est essentiel d’enrichir le sol et d’améliorer sa texture. Pour cela, vous pouvez utiliser du **compost** ou du **fumier**.\n\n- **Quantité** : environ **4 brouettes de compost par planche**.\n- **Application** : répartissez-le uniformément sur toute la surface avec un râteau ou à la main.",
+      "illustration_description": "Illustration pédagogique pour Apporter le compost ou le fumier",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_25.jpg"
     },
     {
       "page_number": 26,
-      "title": "ÉTAPE 5 : AÉRER LE SOL DES PLANCHES ET",
-      "text": "INCORPORER LE COMPOST OU LE FUMIER",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 5 : AÉRER LE SOL DES PLANCHES ET",
+      "title": "Étape 5 : Aérer le sol et incorporer l’amendement",
+      "text": "Cette étape permet de décompacter la terre en profondeur sans bouleverser les micro-organismes du sol.",
+      "illustration_description": "Illustration pédagogique pour Étape 5 : Aérer le sol et incorporer l’amendement",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_26.jpg"
     },
     {
       "page_number": 27,
-      "title": "Cette étape permet à la fois d’aérer le sol et de mélanger la terre avec le compost ou le fumier déposé à l’étape",
-      "text": "précédente. L’aération du sol se fait avec une grelinette ou une grande fourche. Si vous n’en avez pas, vous pouvez utiliser une pioche.",
-      "illustration_description": "Illustration pédagogique pour Cette étape permet à la fois d’aérer le sol et de mélanger la terre avec le compost ou le fumier déposé à l’étape",
+      "title": "Choix de l’outil d’aération",
+      "text": "Cette étape permet à la fois d’**aérer le sol** et de mélanger la terre avec le compost ou le fumier déposé à l’étape précédente.\n\nL’aération du sol se fait avec une **grelinette** ou une **grande fourche**. Si vous n’en avez pas, vous pouvez utiliser une **pioche**.",
+      "illustration_description": "Illustration pédagogique pour Choix de l’outil d’aération",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_27.jpg"
     },
     {
       "page_number": 28,
-      "title": "Enfoncez l’outil le plus profondément possible dans le sol.",
-      "text": "Enfoncez l’outil le plus profondément possible dans le sol.",
-      "illustration_description": "Illustration pédagogique pour Enfoncez l’outil le plus profondément possible dans le sol.",
+      "title": "Enfoncer l’outil en profondeur",
+      "text": "Enfoncez l’outil **le plus profondément possible** dans le sol de la planche.",
+      "illustration_description": "Illustration pédagogique pour Enfoncer l’outil en profondeur",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_28.jpg"
     },
     {
       "page_number": 29,
-      "title": "Soulevez délicatement la terre, en veillant à ne pas la retourner. Faites attention à ne pas perturber les couches du",
-      "text": "sol, l’amendement doit simplement tomber dans les craquelures créées lorsque vous soulevez l’outil.",
-      "illustration_description": "Illustration pédagogique pour Soulevez délicatement la terre, en veillant à ne pas la retourner. Faites attention à ne pas perturber les couches du",
+      "title": "Soulever sans retourner la terre",
+      "text": "Soulevez délicatement la terre en veillant à **ne pas la retourner**.\n\n⚠️ **Attention** : Faites attention à ne pas perturber les couches du sol : l’amendement doit simplement tomber dans les craquelures créées lorsque vous soulevez l’outil.",
+      "illustration_description": "Illustration pédagogique pour Soulever sans retourner la terre",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_29.jpg"
     },
     {
       "page_number": 30,
-      "title": "Utilisez un râteau pour égaliser le sol des planches.",
-      "text": "Utilisez un râteau pour égaliser le sol des planches.",
-      "illustration_description": "Illustration pédagogique pour Utilisez un râteau pour égaliser le sol des planches.",
+      "title": "Égaliser la surface des planches",
+      "text": "Utilisez un **râteau** pour égaliser le sol des planches et obtenir un lit de culture bien plat.",
+      "illustration_description": "Illustration pédagogique pour Égaliser la surface des planches",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_30.jpg"
     },
     {
       "page_number": 31,
-      "title": "ÉTAPE 6 : PAILLER LES PASSE-PIEDS",
-      "text": "ÉTAPE 6 : PAILLER LES PASSE-PIEDS",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 6 : PAILLER LES PASSE-PIEDS",
+      "title": "Étape 6 : Pailler les passe-pieds",
+      "text": "Protégez maintenant les allées de circulation en remplissant les passe-pieds de matière organique sèche.",
+      "illustration_description": "Illustration pédagogique pour Étape 6 : Pailler les passe-pieds",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_31.jpg"
     },
     {
       "page_number": 32,
-      "title": "Remplissez les passe-pieds avec de la matière organique sèche. Cela peut être de la paille, des feuilles ou des",
-      "text": "résidus de cultures, secs. Il en faut une épaisseur de 30 à 40 cm.",
-      "illustration_description": "Illustration pédagogique pour Remplissez les passe-pieds avec de la matière organique sèche. Cela peut être de la paille, des feuilles ou des",
+      "title": "Remplir les passe-pieds de matière sèche",
+      "text": "Remplissez les passe-pieds avec de la **matière organique sèche** : paille, feuilles sèches ou résidus de culture secs.\n\nIl en faut une épaisseur de **30 à 40 cm**.",
+      "illustration_description": "Illustration pédagogique pour Remplir les passe-pieds de matière sèche",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_32.jpg"
     },
     {
       "page_number": 33,
-      "title": "Cette paille va se tasser avec le temps et au fur et à mesure que vous marcherez dessus. Son rôle est d’éviter les",
-      "text": "mauvaises herbes dans les passe-pieds et de retenir l’excès d’eau. De plus, cette matière sèche se transformera en compost au fil du temps.",
-      "illustration_description": "Illustration pédagogique pour Cette paille va se tasser avec le temps et au fur et à mesure que vous marcherez dessus. Son rôle est d’éviter les",
+      "title": "Les bienfaits du paillage des passe-pieds",
+      "text": "Cette paille va se tasser avec le temps et au fur et à mesure que vous marcherez dessus. Elle joue plusieurs rôles essentiels :\n\n- **Limiter les mauvaises herbes** dans les passe-pieds\n- **Retenir l’excès d’eau**\n- **Se transformer en compost** au fil du temps",
+      "illustration_description": "Illustration pédagogique pour Les bienfaits du paillage des passe-pieds",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_33.jpg"
     },
     {
       "page_number": 34,
-      "title": "ÉTAPE 7 : ARROSER",
-      "text": "ÉTAPE 7 : ARROSER",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 7 : ARROSER",
+      "title": "Étape 7 : Arroser la parcelle",
+      "text": "Dernière étape avant de démarrer vos semis et plantations : activer la vie du sol par un arrosage complet.",
+      "illustration_description": "Illustration pédagogique pour Étape 7 : Arroser la parcelle",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_34.jpg"
     },
     {
       "page_number": 35,
-      "title": "Une fois que vous avez fini de préparer les planches, arrosez généreusement l’intégralité de la parcelle.",
-      "text": "Une fois que vous avez fini de préparer les planches, arrosez généreusement l’intégralité de la parcelle.",
-      "illustration_description": "Illustration pédagogique pour Une fois que vous avez fini de préparer les planches, arrosez généreusement l’intégralité de la parcelle.",
+      "title": "Arroser généreusement toute la parcelle",
+      "text": "Une fois que vous avez fini de préparer les planches, **arrosez généreusement l’intégralité de la parcelle** (planches et passe-pieds).",
+      "illustration_description": "Illustration pédagogique pour Arroser généreusement toute la parcelle",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_35.jpg"
     },
     {
       "page_number": 36,
-      "title": "Félicitation, votre parcelle dispose maintenant de 10 planches prêtes pour la culture maraîchère bio intensive en",
-      "text": "sol vivant.",
-      "illustration_description": "Illustration pédagogique pour Félicitation, votre parcelle dispose maintenant de 10 planches prêtes pour la culture maraîchère bio intensive en",
+      "title": "Parcelle prête pour la culture",
+      "text": "**Félicitations !** Votre parcelle dispose maintenant de **10 planches** prêtes pour la culture maraîchère **bio-intensive en sol vivant**.",
+      "illustration_description": "Illustration pédagogique pour Parcelle prête pour la culture",
       "image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_36.jpg"
     }
   ],
