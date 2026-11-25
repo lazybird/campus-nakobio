@@ -25,33 +25,33 @@ MODEL = "google/gemini-3.1-flash-image"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 PROMPT_PDF = (
-    "Transform this technical agricultural slide diagram into a warm, masterfully crafted botanical watercolor and ink illustration in full 16:9 landscape format (ratio 1.78, like a rich traditional botanical atlas plate): "
-    "- EXACT COMPOSITION FIDELITY: Faithfully replicate the exact layout, subject matter, biological figures, plant anatomy, roots, cross-sections, tools, and educational flows from the input slide. "
-    "- WEST AFRICAN CONTEXT & REPRESENTATION: Whenever people, farmers, or hands appear, depict authentic West African individuals with natural African facial features, warm light-to-medium brown skin tones (rendered with gentle sienna/terracotta watercolor washes), and practical rural West African farming attire, set in a West African / Sahelian agricultural environment. "
-    "- STRICT NAKÔBIO BIO-INTENSIVE AGRONOMIC RULE: "
-    "  * Permanent garden beds (\"planches de culture\") in Nakôbio agroecology are PURE LIVING SOIL and organic mulch directly on the ground, separated by simple earth/mulched footpaths (\"passe-pieds\"). "
-    "  * STRICTLY FORBIDDEN: NEVER DRAW WOODEN PLANKS, WOODEN BOXES, TIMBER BOARDS, RAISED WOODEN FRAMES, BRICKS OR RAISED GARDEN BEDS. \"Planche\" in French means a flat earthen bed, NOT a wooden plank! "
-    "- COLOR PALETTE & PAPER: "
-    "  * Fine sepia/dark ink outlines (#886951, #B08967) and subtle cross-hatching, filled with organic transparent watercolor washes (muted olive/moss green #9A9178, terracotta/golden clay #D3B591, warm sand ochre #E8D1B3, dark fertile loam). Never neon greens. "
-    "  * Background: unbroken warm artisan cream watercolor paper (#FBF5ED, #F8EDE4) with visible gentle paint blooms and grain — strictly NO sterile pure digital white (#FFFFFF) sticker background inside the artwork. "
-    "  * The outer edges of the illustration must softly fade out toward pure white (#ffffff) near the 4 borders (soft watercolor vignette). "
-    "- STRIP ALL TEXT: Remove 100% of words, letters, labels, numbers, banners, pointers, and callout boxes. Keep ONLY pure biological drawings, tools, and technical figures."
+    "Transforme ce schéma / cette slide agricole en une illustration chaleureuse à l'aquarelle botanique et à l'encre sépia au format paysage 16:9 (ratio 1.78, style planche d'atlas botanique traditionnel) : "
+    "- FIDÉLITÉ TECHNIQUE : Reproduis fidèlement la mise en page, les éléments biologiques, l'anatomie des plantes, les racines, les coupes de sol, les outils et les flux pédagogiques de l'image source. "
+    "- CONTEXTE & REPRÉSENTATION OUEST-AFRICAINE : Lorsque des personnes, agriculteurs, agricultrices ou mains apparaissent, représente d'authentiques personnes ouest-africaines aux traits du visage africains naturels, à la peau brun clair à brun chaud (lavis doux terre de Sienne / terre cuite) et aux vêtements ruraux pratiques, dans un environnement agricole ouest-africain / sahélien. "
+    "- RÈGLE AGRONOMIQUE STRICTE NAKÔBIO : "
+    "  * Les planches de culture permanentes sont en PLEINE TERRE VIVANTE et paillis organique directement au sol, séparées par de simples passe-pieds en terre ou paillés. "
+    "  * INTERDICTION ABSOLUE : ne dessine JAMAIS de planches de bois, caissons en bois, coffrages, bordures en briques ou bacs surélevés. "
+    "- PALETTE & PAPIER : "
+    "  * Traits fins à l'encre sépia/foncée (#886951, #B08967) et hachures subtiles, lavis d'aquarelle transparents et organiques (vert olive/mousse patiné #9A9178, terre cuite #D3B591, sable ocre #E8D1B3, terre humifère). Jamais de vert fluo. "
+    "  * Fond : papier aquarelle artisanal crème chaud (#FBF5ED, #F8EDE4) avec de douces auréoles de pigments et un grain visible — strictement AUCUN fond blanc numérique pur (#FFFFFF) façon autocollant au cœur du dessin. "
+    "  * Les 4 bords extérieurs de l'illustration s'estompent doucement vers le blanc pur (#FFFFFF) en vignette aquarelle légère. "
+    "- SUPPRESSION TOTALE DU TEXTE : Retire 100% des mots, lettres, étiquettes, chiffres, bandeaux, flèches annotées et encadrés de texte. Ne garde que le dessin pur."
 )
 
 PROMPT_TEXT = (
-    "Masterful, luminous botanical watercolor and ink illustration in full 16:9 landscape format (ratio 1.78) for a West African agroecological training manual. "
-    "- Technique: Delicate sepia/dark ink outlines (#886951, #B08967), subtle cross-hatching, organic transparent watercolor washes (muted moss green #9A9178, warm terracotta #D3B591, sandy ochre #E8D1B3, fertile loam). Never neon colors. "
-    "- West African Context & Representation: Whenever people, farmers, or hands appear, depict authentic West African individuals with natural African facial features, warm light-to-medium brown skin tones (gentle sienna/terracotta watercolor washes), and practical rural West African farming attire, in a West African / Sahelian environment. "
-    "- Paper: Unbroken warm artisan cream watercolor paper (#FBF5ED, #F8EDE4) with gentle paint blooms and grain — strictly NO sterile pure digital white (#FFFFFF) background. Outer edges softly fade toward white (#ffffff) near the 4 borders. "
-    "- Agronomic rule: Garden beds (\"planches\") are pure living soil and mulch directly on the ground with earthen footpaths — NEVER wooden planks, raised wooden boxes, or bricks. "
-    "- STRICT COMPLIANCE RULE: ZERO TEXT, NO LABELS, NO LETTERS, NO WORDS, NO NUMBERS, NO CAPTIONS. PURE CLEAN ARTWORK ONLY."
+    "Illustration pédagogique lumineuse à l'aquarelle botanique et à l'encre sépia, au format paysage 16:9 (ratio 1.78), pour un manuel de formation agroécologique ouest-africain. "
+    "- Technique : Traits fins à l'encre sépia/foncée (#886951, #B08967), hachures subtiles, lavis d'aquarelle transparents et organiques (vert olive/mousse patiné #9A9178, terre cuite #D3B591, sable ocre #E8D1B3, terre humifère). Jamais de couleurs fluo. "
+    "- Contexte & représentation ouest-africaine : Lorsque des personnes, agriculteurs, agricultrices ou mains apparaissent, représenter d'authentiques personnes ouest-africaines aux traits du visage africains naturels, à la peau brun clair à brun chaud (lavis doux terre de Sienne / terre cuite) et aux vêtements ruraux pratiques, dans un environnement ouest-africain / sahélien. "
+    "- Papier : Papier aquarelle artisanal crème chaud (#FBF5ED, #F8EDE4) avec de douces auréoles et du grain — strictement AUCUN fond blanc numérique pur (#FFFFFF) au centre. Les 4 bords extérieurs s'estompent doucement vers le blanc (#FFFFFF). "
+    "- Règle agronomique : Les planches de culture sont en pleine terre vivante paillée directement au sol avec des passe-pieds en terre — JAMAIS de planches de bois, caissons en bois ou briques. "
+    "- RÈGLE STRICTE ZÉRO TEXTE : AUCUN TEXTE, aucune lettre, aucun mot, aucun chiffre, aucune étiquette ni légende. Uniquement le dessin pur."
 )
 
 PROMPT_EDIT = (
-    "Edit this botanical watercolor illustration while preserving its exact warm artisan watercolor style "
-    "(#FBF5ED/#F8EDE4 cream paper, sepia ink outlines #886951, muted earthy/olive palette #9A9178/#D3B591/#E8D1B3), "
-    "16:9 landscape composition, soft white outer borders, and zero-text rule. "
-    "Keep all other elements unchanged. STRICTLY ZERO TEXT, ZERO WOODEN PLANKS/BOXES."
+    "Modifie cette illustration à l'aquarelle botanique en préservant exactement son style aquarelle artisanal chaud "
+    "(papier crème #FBF5ED/#F8EDE4, traits d'encre sépia #886951, palette terreuse et vert olive doux #9A9178/#D3B591/#E8D1B3), "
+    "sa composition paysage 16:9, ses bords fondus vers le blanc et la règle zéro texte. "
+    "Garde tous les autres éléments inchangés. STRICTEMENT ZÉRO TEXTE, ZÉRO PLANCHE DE BOIS OU CAISSON."
 )
 
 
