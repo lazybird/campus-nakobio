@@ -1,0 +1,62 @@
+name: Sync CMS content to main
+
+on:
+  push:
+    branches:
+      - content
+    paths:
+      - 'src/data/**'
+      - 'public/uploads/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-content-to-main
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Fetch content branch
+        run: git fetch origin content
+
+      - name: Sync CMS content and uploads from origin/content
+        run: |
+          if git ls-tree -d --name-only origin/content src/data | grep -q .; then
+            git checkout origin/content -- src/data
+          fi
+          if git ls-tree -d --name-only origin/content public/uploads | grep -q .; then
+            git checkout origin/content -- public/uploads
+          fi
+
+      - name: Commit and push synced content to main
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No content changes to sync."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add src/data public/uploads
+          git commit -m "cms(sync): synchroniser le contenu depuis origin/content"
+
+          for i in 1 2 3; do
+            if git push origin main; then
+              exit 0
+            fi
+            echo "Push failed (attempt $i), rebasing on origin/main..."
+            git pull --rebase origin main
+          done
+          exit 1
