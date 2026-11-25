@@ -1,0 +1,95 @@
+{
+  "id": "302a_choisir_sa_technique_dirrigation",
+  "title": "Die passende Bewässerungstechnik wählen",
+  "category": "Techniken & Praxis",
+  "summary": "Vergleichen Sie die 5 Bewässerungstechniken (Gießkanne, Schlauch, Beregnung, Tröpfchenbewässerung, Überflutung) nach Ihren Mitteln, Ihrer Fläche und den Auswirkungen auf das Bodenleben.",
+  "total_pages": 12,
+  "cover_image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_01.jpg",
+  "course_code": "M3.2.1",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Die 5 Bewässerungstechniken im Gemüsebau",
+      "text": "Die Bewässerung ist der wichtigste Faktor, den man kontrollieren muss, um gute Ergebnisse zu erzielen. Fünf Techniken werden üblicherweise eingesetzt:\n\n1. Manuelles Gießen mit der Gießkanne\n2. Manuelles Gießen mit dem Schlauch\n3. Bewässerung durch Beregnung\n4. Tröpfchenbewässerung\n5. Bewässerung durch Überflutung\n\nJede Methode hat ihre Vor- und Nachteile. Schauen wir, wie Sie je nach Ihren Bedürfnissen die richtige Wahl treffen!",
+      "illustration_description": "Vue d'ensemble en aquarelle botanique d'un jardin maraîcher ouest-africain en pleine terre paillée avec des passe-pieds en terre, montrant de fines gouttelettes d'eau tombant en pluie douce sur des planches de légumes verts vigoureux sous une lumière chaude.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "1. Manuelles Gießen mit der Gießkanne",
+      "text": "Das Wasser wird von Hand mit einer Gießkanne mit Brausekopf ausgebracht. Dies ist die einfachste und zugänglichste Methode für den Einstieg.\n\n**Benötigtes Material:**\n- Eine Gießkanne mit Brausekopf\n\n**Wann ist diese Technik am besten geeignet?**\n- Wenn die finanziellen Mittel sehr begrenzt sind\n- Auf einer kleinen Anbaufläche\n- Wenn die Wasserquelle nahe bei den Beeten liegt\n- Zum Gießen von Anzuchtbeeten oder Jungpflanzen",
+      "illustration_description": "Une agricultrice ouest-africaine marchant dans un passe-pied en terre paillée, tenant un arrosoir muni d'une pomme d'arrosage qui diffuse une pluie fine et douce sur une planche de jeunes plants en pleine terre.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Gießkanne: Vor- und Nachteile",
+      "text": "**Vorteile:**\n- Benötigt sehr wenig Material und keine technische Installation\n- Ahmt einen natürlichen Regen nach und fördert das Bodenleben\n- Bewässert sowohl die Beete als auch die Wege\n- Ermöglicht die Anpassung an die Bedürfnisse jeder Kultur\n\n**Nachteile:**\n- Auf großen Flächen sehr zeitaufwendig und anstrengend (ständiges Hin- und Herlaufen zur Wasserstelle)\n- Kann je nach Bereich zu ungleichmäßiger Bewässerung führen\n- Neigt dazu, die Bodenoberfläche zu verdichten, wenn das Wasser zu abrupt ausgegossen wird",
+      "illustration_description": "Gros plan pédagogique en aquarelle comparant un jet doux en pluie fine sortant d'une pomme d'arrosoir sur un sol souple paillé, à côté d'un agriculteur ouest-africain portant deux arrosoirs depuis un puits proche.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "2. Manuelles Gießen mit dem Schlauch",
+      "text": "Ein Schlauch wird an eine Wasserquelle angeschlossen, und der Strahl wird von Hand auf die Beete und Wege gelenkt. Mit einem Sprühkopf lassen sich die Bedingungen eines feinen Regens nachahmen.\n\n**Benötigtes Material:**\n- Ein Gartenschlauch mit Sprühkopf\n\n**Wann ist diese Technik am besten geeignet?**\n- Wenn nur wenig Geld zur Verfügung steht\n- Auf einer kleinen bis mittelgroßen Anbaufläche",
+      "illustration_description": "Un agriculteur ouest-africain tenant un tuyau d'arrosage souple équipé d'une pomme/tête d'aspersion diffusant une pluie fine sur des planches de pleine terre paillées et leurs passe-pieds.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Handschlauch: Vor- und Nachteile",
+      "text": "**Vorteile:**\n- Schneller als die Gießkanne, vor allem auf großen Flächen\n- Bewässert sowohl die Beete als auch die Wege\n- Verdichtet den Boden nicht, da das Wasser als feiner Regen verteilt wird\n- Erleichtert die Anpassung an die Bedürfnisse jeder Kultur\n- Fördert eine gute Entwicklung des Wurzelsystems in die Tiefe und in die Breite\n\n**Nachteile:**\n- Auf großen Flächen zeitaufwendig\n- Man braucht mindestens zwei Personen, um den Schlauch anzuheben und die Kulturen nicht zu zerdrücken\n- Kann je nach Bereich zu ungleichmäßiger Bewässerung führen",
+      "illustration_description": "Deux maraîchers ouest-africains travaillant ensemble dans les passe-pieds : l'un arrose avec la tête d'aspersion en pluie fine, l'autre soulève délicatement le tuyau pour éviter d'écraser les jeunes cultures sur la planche en pleine terre.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "3. Bewässerung durch Beregnung",
+      "text": "Bei der Beregnung wird das Wasser in feinen Tröpfchen versprüht, wie ein künstlicher Regen. Das Wasser wird unter Druck gesetzt (meist mithilfe einer Pumpe) und über ein Leitungsnetz verteilt. Regner bewässern Kulturen und Wege gleichmäßig.\n\n**Benötigtes Material:**\n- Benzin- oder Solarpumpe\n- Schläuche und Absperrventile oder Verschlussstopfen\n- Beregnungsrohre\n\n**Wann ist diese Technik am besten geeignet?**\n- Bei ausreichenden finanziellen Mitteln\n- Auf einer großen Anbaufläche",
+      "illustration_description": "Parcelle maraîchère ouest-africaine en pleine terre paillée équipée de cannes d'aspersion verticales projetant une pluie fine et homogène en arc de cercle au-dessus des planches et des passe-pieds, avec une petite pompe solaire en arrière-plan.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Beregnung: Vor- und Nachteile",
+      "text": "**Vorteile:**\n- Zeitersparnis und gleichmäßige, vollständige Bewässerung (Wege und Beete)\n- Verdichtet den Boden nicht, da das Wasser als feiner Regen verteilt wird\n- Kühlt die Luft um die Kulturen\n- Fördert das Bodenleben und eine bessere Wurzelentwicklung\n\n**Nachteile:**\n- Hohe Installationskosten\n- Geeignet für Blattgemüse, aber wenig geeignet für Fruchtgemüse\n- Bei großer Hitze besteht die Gefahr, die Blätter zu verbrennen\n- Bei Wind oder großer Hitze besteht die Gefahr von Pilzkrankheiten und Wasserverlusten durch Verdunstung",
+      "illustration_description": "Coupe pédagogique du sol en aquarelle sous une pluie fine d'aspersion : humidité répartie uniformément dans toute la planche de pleine terre et les passe-pieds, racines profondes et étalées, vers de terre actifs dans un sol vivant.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "4. Tröpfchenbewässerung",
+      "text": "Bei der Tröpfchenbewässerung wird das Wasser in kleinen Mengen direkt am Pflanzenfuß ausgebracht, und zwar über Tropfer, die in einen Schlauch integriert sind.\n\n**Benötigtes Material:**\n- Benzin- oder Solarpumpe\n- Hauptleitung und Tropfschläuche\n- Verbinder und Verschlussstopfen\n\n**Wann ist diese Technik am besten geeignet?**\n- Bei ausreichenden finanziellen Mitteln\n- Bei knappem Wasser\n- In windigen Regionen",
+      "illustration_description": "Planche de culture en pleine terre avec des lignes de tuyaux goutte-à-goutte posés au sol le long des pieds de plantes, laissant tomber de petites gouttes d'eau localisées uniquement au pied des tiges.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Tröpfchenbewässerung: Vor- und Nachteile",
+      "text": "**Vorteil:**\n- Gezielter Wassereinsatz\n\n**Nachteile:**\n- Hohe Installationskosten\n- Auswaschung und Versalzung des Bodens\n- Die Wurzeln entwickeln sich nur in einem begrenzten feuchten Bereich (eingeschränkte Wurzelentwicklung)\n- Trägt nicht dazu bei, das Bodenleben zu aktivieren und zu erhalten\n- Gefahr verstopfter Schläuche, wenn das Wasser nicht sauber ist",
+      "illustration_description": "Coupe de sol en aquarelle montrant un tuyau goutte-à-goutte : seule une petite poche étroite sous le goutteur est humide avec des racines confinées, tandis que le reste de la planche et les passe-pieds restent secs et sans vie biologique.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "5. Bewässerung durch Überflutung",
+      "text": "Bei der Überflutungsbewässerung lässt man eine große Wassermenge durch die Anbaubeete fließen. Diese Technik wird bei vertieften Beeten angewendet.\n\n**Vorteile:**\n- Günstig\n- Schnell einzurichten\n\n**Wann ist diese Technik am besten geeignet?**\n- Wenn große Wassermengen zur Verfügung stehen",
+      "illustration_description": "Parcelle maraîchère avec des bassins creusés directement dans la terre remplis d'eau stagnante inondant les pieds de jeunes plantes, illustrant la technique d'irrigation par inondation.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Überflutung: Nachteile für den Boden",
+      "text": "**Hauptnachteile der Überflutungsbewässerung:**\n- Auswaschung des Bodens (Verlust von Nährstoffen)\n- Schädigt das Bodenleben\n- Begünstigt die Vermehrung von Termiten\n- Gefahr, das Wurzelsystem der Pflanzen zu ersticken\n- Verdichtet den Boden und bildet eine Kruste an der Oberfläche",
+      "illustration_description": "Coupe de sol en aquarelle montrant un sol compacté et croûté sous une nappe d'eau stagnante, avec des racines asphyxiées et peu développées, contrastant avec la structure aérée d'un sol vivant.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Fazit: Je nach Ressourcen und Zielen wählen",
+      "text": "Jede Bewässerungstechnik passt zu einem bestimmten Kontext:\n\n- **Kleine Fläche / kleines Budget**: Gießkanne oder Handschlauch mit Brausekopf.\n- **Große Fläche auf lebendigem Boden**: flächendeckende, sanfte Beregnung.\n- **Sehr knappes Wasser oder starker Wind**: Tröpfchenbewässerung.\n\nWählen Sie Ihre Technik nach Ihren Ressourcen, Ihrer Fläche und Ihren Zielen, und geben Sie dabei dem Leben Ihres Bodens den Vorrang.",
+      "illustration_description": "Scène lumineuse en aquarelle d'un maraîcher ouest-africain observant avec satisfaction ses planches de culture permanentes en pleine terre paillée, luxuriantes et bien hydratées sous une douce brume d'eau.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_12.jpg"
+    }
+  ]
+}

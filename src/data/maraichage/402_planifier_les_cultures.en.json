@@ -1,228 +1,246 @@
 {
   "id": "402_planifier_les_cultures",
-  "title": "Crop Rotation and Planning",
-  "category": "Protection & Conception",
-  "summary": "Maîtriser les rotations pluriannuelles et successions rapides pour ne jamais épuiser le sol et couper le cycle des maladies.",
+  "title": "Crop planning: rotations and associations",
+  "category": "Protection & Design",
+  "summary": "Master multi-year rotations and fast successions so you never exhaust the soil and can break disease cycles.",
   "total_pages": 31,
   "cover_image": "assets/images/maraichage/402_planifier_les_cultures/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "Crop rotation is useful for:",
-      "text": "maintaining and increasing soil life and fertility.\n\nincreasing production and profitability through rotations that optimize space and compost inputs.",
-      "illustration_description": "Illustration pédagogique pour L'alternance des cultures est utile pour :",
+      "title": "Why alternate crops?",
+      "text": "**Crop alternation** is useful to:\n\n- maintain and increase **soil life and fertility**;\n- increase **production and profitability** through alternations that optimize space and compost inputs.",
+      "illustration_description": "Illustration pédagogique pour Pourquoi alterner les cultures ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "Market gardening",
-      "text": "TRAINING\n\nCROP PLANNING\n\nHOW TO ROTATE CROPS?",
-      "illustration_description": "Illustration pédagogique pour PLANIFICATION DES CULTURES",
+      "title": "Crop planning: how to alternate crops?",
+      "text": "This module gives you the keys to organize your crop rotations and successions in order to preserve soil fertility, limit diseases and secure your harvests.",
+      "illustration_description": "Illustration pédagogique pour Planification des cultures : comment alterner les cultures ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "Understanding the concepts of crop rotation and succession",
-      "text": "Understanding the concepts of crop rotation and succession",
+      "title": "Understanding the concepts of crop rotation and crop succession",
+      "text": "Before planning your growing beds, let's clarify the difference between rotation over several seasons and succession over a short cycle.",
       "illustration_description": "Illustration pédagogique pour Comprendre les notions de rotation et succession de cultures",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "Rotation",
-      "text": "Several seasons or years\n\nGrowing tomatoes\n\nSUCESSION\n\nA short year or cycle\n\nLettuce\n\nRadish\n\nGrowing carrots\n\nDwarf beans\n\nRotation is the planned alternation of crops over several seasons or years, often to prevent soil depletion and limit\n\ndiseases or pests specific to a plant family.\n\nSuccession is the sequence of crops grown in the same space over the course of a year or short cycles.",
-      "illustration_description": "Illustration pédagogique pour LA ROTATION",
+      "title": "Rotation and succession: two complementary concepts",
+      "text": "- **Rotation** (several seasons or years): this is the planned alternation of crops over several seasons or years, often to avoid soil exhaustion and to limit the diseases or pests specific to a plant family (e.g., tomato crop → carrot crop).\n- **Succession** (one year or short cycle): this is the sequence of crops on the same space during one year or over short cycles (e.g., lettuce → radish → bush beans).",
+      "illustration_description": "Illustration pédagogique pour Rotation et succession : deux notions complémentaires",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "In our specific context, strict crop rotation is not essential because:",
-      "text": "The soil is continuously improved (compost, permanent cover, organic inputs).\n\nWeeds are limited by breaks and green manure crops.\n\nCrop diversity naturally reduces risks.\n\nWhat matters most is thoughtful succession and simple alternation between families, root types, and nutritional needs.",
-      "illustration_description": "Illustration pédagogique pour Dans notre contexte spécifique la rotation stricte n’est pas indispensable car :",
+      "title": "Why strict rotation is not essential in living soil",
+      "text": "In our specific context of bio-intensive market gardening on living soil, **strict rotation** is not essential because:\n\n- **The soil is continuously improved** (compost, permanent cover, organic inputs).\n- **Weeds** (also called unwanted plants) are limited by rest periods and green manure crops.\n- **Crop diversity** naturally reduces risks.\n\nWhat matters most is a **well-thought-out succession** and a simple alternation between botanical families, root types and nutrient needs.",
+      "illustration_description": "Illustration pédagogique pour Pourquoi la rotation stricte n’est pas indispensable en sol vivant",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_05.jpg"
     },
     {
       "page_number": 6,
       "title": "Criteria for choosing crops",
-      "text": "Criteria for choosing crops",
+      "text": "Choosing a crop depends on the climate, market demand and the characteristics of the previous crop.",
       "illustration_description": "Illustration pédagogique pour Critères pour choisir les cultures",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Cool season",
-      "text": "Hot season\n\nRainy season:\n\nmoisture-tolerant\n\ncrops\n\nSeason\n\nThe season: adapt crops to the prevailing climate of the season.\n\nThe market/business strategy:\n\nProduce what sells well when demand is high.\n\nDiversify to spread the risk.\n\nAlternate between short-cycle crops (lettuce) and long-cycle crops (tomatoes).\n\nThe market / commercial strategy:",
-      "illustration_description": "Illustration pédagogique pour Saison fraiche",
+      "title": "Taking the season and the market into account",
+      "text": "Two first criteria guide your planning:\n\n**The season**\n\nAdapt the crop to the dominant climate of the season: cool season, hot season or rainy season (humidity-tolerant crops).\n\n**The market and commercial strategy**\n\n- Produce what sells well when demand is high.\n- Diversify to spread risks.\n- Alternate short-cycle crops (lettuce) and long-cycle crops (tomato).",
+      "illustration_description": "Illustration pédagogique pour Tenir compte de la saison et du marché",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "1",
-      "text": "2\n\n3\n\nThe question of crop rotation: how to choose which crop to plant based on the characteristics of the previous crop?\n\nYou need to know about:\n\n1. The botanical family: You will need to change families.\n\n2. The root type: You will need to alternate between deep/shallow/taproot.\n\n3. Compost requirements: You will need to alternate between heavy and light.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Choosing the next crop according to the previous crop",
+      "text": "To choose the right crop to plant based on the previous crop, you need to know **three key criteria**:\n\n1. **Botanical family**: you must change family.\n2. **Root type**: you must alternate deep, shallow and taproot systems.\n3. **Compost needs**: you must alternate heavy feeders and light feeders.",
+      "illustration_description": "Illustration pédagogique pour Choisir la culture suivante selon la culture précédente",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "Why is it important to know about botanical families and root types?",
-      "text": "Why is it important to know about botanical families and root types?",
+      "title": "Why know botanical families and root types?",
+      "text": "Understanding these two agronomic characteristics helps protect your crops and make balanced use of the whole depth of the soil.",
       "illustration_description": "Illustration pédagogique pour Pourquoi connaître les familles botaniques et le type racinaire ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "1",
-      "text": "2\n\nN\n\nPests/diseases\n\nCa\n\nP\n\nK\n\nFe\n\nMg\n\nNutritional needs\n\nRoot systems\n\n1. Plants from the same family often share:\n\nThe same pests and diseases (late blight for Solanaceae).\n\nThe same nutritional needs.\n\n2. Different root systems exploit different layers of soil (surface vs. depth). Alternating between shallow and deep roots\n\nhelps balance soil exploitation.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "The value of botanical families and root systems",
+      "text": "1. **Botanical families**: plants of the same family often share the same pests and diseases (e.g., late blight for Solanaceae) as well as the same nutrient needs.\n2. **Root systems**: different root systems exploit different soil layers (surface or depth). Alternating shallow and deep roots helps balance the use of the soil.",
+      "illustration_description": "Illustration pédagogique pour L’intérêt des familles botaniques et des systèmes racinaires",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "Why is it important to know your compost requirements?",
-      "text": "Why is it important to know your compost requirements?",
-      "illustration_description": "Illustration pédagogique pour Pourquoi connaitre les besoins d’apports en compost ?",
+      "title": "Why know compost input needs?",
+      "text": "Not all crops take up the same amount of nutrients from the soil. Properly balancing the alternations avoids exhausting your growing beds.",
+      "illustration_description": "Illustration pédagogique pour Pourquoi connaître les besoins d’apports en compost ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "Gourmet crops",
-      "text": "Less resource-intensive crops\n\nAlternating between heavy crops and light crops allows the effort to be spread across the soil.\n\nCompost\n\nCompost",
-      "illustration_description": "Illustration pédagogique pour Cultures gourmandes",
+      "title": "Balancing compost needs",
+      "text": "Alternating **heavy-feeding crops** and **less demanding (light-feeding) crops** spreads the load on the soil and optimizes your compost inputs.",
+      "illustration_description": "Illustration pédagogique pour Équilibrer les besoins en compost",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Resources for effective work-study planning",
-      "text": "Resources for effective work-study planning",
+      "title": "Resources for planning alternations well",
+      "text": "To organize your beds without mistakes, you can rely on three practical reference tools.",
       "illustration_description": "Illustration pédagogique pour Ressources pour bien planifier les alternances",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "1",
-      "text": "2\n\n3\n\nTo make your crop choices easier and avoid risky crop rotations, you can use three main tools:\n\n1. Crop combination tables\n\nIndicate recommended and discouraged crop rotations.\n\nAllow you to plan quickly based on the crop currently in place.\n\n2. Plant fact sheets\n\nProvide information on compost requirements, cycle length, and disease susceptibility.\n\nHelp you decide which crop to plant next based on the season, soil, and market.\n\n3. Plant classification chart\n\nClassifies crops by botanical family and root type.\n\nHelps you avoid planting crops too close together or with root systems that compete for the same soil layers.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "The three planning tools",
+      "text": "To make your crop choices easier and avoid risky successions, rely on three main tools:\n\n1. **Crop combination tables**: indicate recommended and discouraged successions. They allow you to plan quickly starting from the crop currently in place.\n2. **Plant technical sheets**: give compost needs, cycle length and disease susceptibility. They help you decide which crop can follow depending on the season, the soil and the market.\n3. **Plant classification table**: classifies crops by botanical family and root type. It is used to avoid planting crops that are too closely related or with root systems that draw on the same soil layers.",
+      "illustration_description": "Illustration pédagogique pour Les trois outils de planification",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Example of crop rotation",
-      "text": "ALTERNATIONS TO AVOID",
-      "illustration_description": "Illustration pédagogique pour Exemple de succession de cultures",
+      "title": "Examples of successions: alternations to avoid",
+      "text": "Let's now look at the most common mistakes in crop sequencing and why they weaken your beds.",
+      "illustration_description": "Illustration pédagogique pour Exemples de successions : alternances à éviter",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Disease and pests",
-      "text": "POOR SOIL\n\nVirus\n\nBacteria\n\nN\n\nP\n\nK\n\nFe\n\nCa\n\nMg\n\nSome crop rotations deplete the soil or promote the development of diseases and pests. Here are the main mistakes to\n\navoid.",
-      "illustration_description": "Illustration pédagogique pour MALADIE ET RAVAGEURS",
+      "title": "The risks of a poor succession",
+      "text": "Some crop successions **deplete the soil** or promote the appearance of **diseases** (fungi, bacteria, viruses) and **pests**.\n\n⚠️ **Warning**: here are the four main mistakes to avoid in order to preserve the health of your growing beds.",
+      "illustration_description": "Illustration pédagogique pour Les risques d’une mauvaise succession",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "1",
-      "text": "Examples to avoid\n\nclassic disease: cabbage hernias\n\nclassic pest onion fly\n\n2\n\nboth Solanaceae\n\nboth Cucurbitaceae\n\n1. Monoculture\n\nGrowing the same plant several times in a row in the same space. This depletes the soil in a targeted manner and\n\npromotes crop-specific diseases.\n\n2. Alternating between plants of the same botanical family\n\nEven if the plants are different, they often share the same pests and diseases.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Alternations to avoid: monoculture and same family",
+      "text": "1. **Monoculture**: growing the same plant several times in a row on the same space. This depletes the soil in a targeted way and favors diseases and pests specific to the crop (e.g., clubroot of cabbage, onion fly).\n2. **Alternating between plants of the same botanical family**: even if the plants are different, they often share the same pests and diseases (e.g., two Solanaceae or two Cucurbitaceae in a row).",
+      "illustration_description": "Illustration pédagogique pour Alternances à éviter : monoculture et même famille",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "Examples to avoid",
-      "text": "3\n\ntracer roots\n\nshallow roots\n\n4\n\n3. Alternating between plants with the same type of root\n\nThe same type of root requires the same depth of soil and often has the same weaknesses when it comes to pests.\n\n4. Alternating between two very demanding crops\n\nGrowing two nutrient-hungry crops in succession, without a break or green manure, severely depletes the soil. Both\n\nrequire a lot of compost, water, and care.",
-      "illustration_description": "Illustration pédagogique pour Exemples à éviter",
+      "title": "Alternations to avoid: same roots and overly demanding crops",
+      "text": "3. **Alternating between plants with the same root type**: the same root type (spreading roots, fine shallow roots, etc.) draws on the same soil depth and often shows the same weaknesses to pests.\n4. **Alternating between two very demanding crops**: following one nutrient-hungry crop with another, without rest or green manure, severely exhausts the soil. Both require a lot of compost, water and care.",
+      "illustration_description": "Illustration pédagogique pour Alternances à éviter : mêmes racines et cultures trop exigeantes",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "Example of crop rotation",
-      "text": "RECOMMENDED CROP ROTATIONS",
-      "illustration_description": "Illustration pédagogique pour Exemple de succession de cultures",
+      "title": "Examples of successions: recommended alternations",
+      "text": "Conversely, some simple combinations durably strengthen the fertility of your beds and limit disease pressure.",
+      "illustration_description": "Illustration pédagogique pour Exemples de successions : alternances recommandées",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "Good succession promotes soil health, limits disease, and optimizes the use of resources: water, compost, and labor. Here",
-      "text": "are the principles to follow, with concrete examples.",
-      "illustration_description": "Illustration pédagogique pour Une bonne succession favorise la santé du sol, limite les maladies, et optimise l’utilisation des ressources : eau, compost,",
+      "title": "The benefits of a good succession",
+      "text": "A good succession promotes **soil health**, limits **diseases** and optimizes the use of resources (water, compost, labor).\n\nHere are the five principles to follow, with concrete examples.",
+      "illustration_description": "Illustration pédagogique pour Les bénéfices d’une bonne succession",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "1",
-      "text": "Solanaceae\n\nRecommended examples\n\n2\n\nFabaceae\n\nfine, shallow roots\n\nSolanaceae\n\nAsteraceae\n\nLiliaceae\n\nApiaceae\n\nfine roots\n\n1. Change botanical family: alternating families helps break cycles of specific diseases and pests.\n\n2. Change root type: this allows different depths of soil to be used and improves its structure.\n\ntaproot\n\ntuber",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Recommended alternations: botanical family and root type",
+      "text": "1. **Change botanical family**: alternating families (e.g., Solanaceae → Fabaceae; Solanaceae → Asteraceae; Liliaceae → Apiaceae) helps break specific disease and pest cycles.\n2. **Change root type**: alternating fine shallow roots, taproots and tubers draws on different soil depths and improves soil structure.",
+      "illustration_description": "Illustration pédagogique pour Alternances recommandées : famille botanique et type de racine",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_21.jpg"
     },
     {
       "page_number": 22,
-      "title": "3",
-      "text": "Gourmet\n\n4\n\nLong\n\n5\n\nNitrogen fixer\n\nModerate\n\nShort\n\nGourmet\n\nUndemanding,\n\nnitrogen fixer\n\nLong\n\nGreen manure or\n\nharvested manure\n\n3. Alternate between demanding and undemanding crops: this prevents soil depletion and spreads out compost and water\n\nrequirements.\n\n4. Insert a fast-growing crop between two long-growing crops: this optimizes time and space while giving the soil a\n\n“relative rest.”\n\n5. Introduce a nitrogen-fixing legume: Fabaceae enrich the soil with nitrogen, which is useful for subsequent crops.",
-      "illustration_description": "Illustration pédagogique pour 3",
+      "title": "Recommended alternations: needs, duration and legumes",
+      "text": "3. **Alternate heavy-feeding and light-feeding crops**: this avoids exhausting the soil and spreads compost and water needs (e.g., heavy feeder → moderate feeder → light feeder or nitrogen fixer).\n4. **Insert a fast crop between two long ones**: this optimizes time and space while giving the soil a \"relative rest\" (e.g., long → short → long).\n5. **Introduce a nitrogen-fixing legume**: Fabaceae (as green manure or harvested) enrich the soil with nitrogen, which benefits the following crops.",
+      "illustration_description": "Illustration pédagogique pour Alternances recommandées : besoins, durée et légumineuses",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "Example of crop rotation",
-      "text": "SPECIAL CASES AND USEFUL EXCEPTIONS",
-      "illustration_description": "Illustration pédagogique pour Exemple de succession de cultures",
+      "title": "Special cases and useful exceptions",
+      "text": "In practice, not all crops have the same constraints. Some offer more flexibility in your calendar.",
+      "illustration_description": "Illustration pédagogique pour Cas particuliers et exceptions utiles",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_23.jpg"
     },
     {
       "page_number": 24,
-      "title": "1",
-      "text": "2\n\nPossible over two consecutive cycles, especially when\n\ninterspersed with compost application or a short break.\n\ngood ground cover,\n\nlow demand\n\nflow demand,\n\ngood ground cover\n\nSome crops partially escape the general rules of crop rotation. Here are two types of cases to be aware of:\n\n1. Low-impact crops (tolerance to repetition): certain plants with very short cycles, low requirements, and low susceptibility\n\nto disease can be grown twice in a row without significant risk, provided the soil remains fertile and healthy.\n\n2. Buffer or transition crops: certain plants are considered neutral because they:\n\nhave few requirements,\n\nare not very susceptible to disease,\n\ndo not belong to problematic families.\n\nThey can be used as a transition crop between two more demanding or risky crops.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Low-impact crops and buffer crops",
+      "text": "Some crops partly escape the general rules of alternation. Here are two types of cases to know:\n\n1. **Low-impact crops (tolerant of repetition)**: some very short-cycle plants that are undemanding and not very susceptible to diseases can be grown twice in a row without great risk, if the soil remains fertile and healthy (especially by adding compost or a short rest in between).\n2. **Buffer or transition crops**: some plants are considered neutral because they have few requirements, provide good soil cover, are not very susceptible to diseases and do not belong to problematic families. They can be used as a transition crop between two more demanding or risky crops.",
+      "illustration_description": "Illustration pédagogique pour Cultures à faible impact et cultures tampon",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_24.jpg"
     },
     {
       "page_number": 25,
-      "title": "Another strategy",
-      "text": "SIMPLE SEASONAL STRATEGY",
-      "illustration_description": "Illustration pédagogique pour Autre stratégie",
+      "title": "Another approach: the simple seasonal strategy",
+      "text": "Discover a pragmatic method that is particularly well suited to local climate variations.",
+      "illustration_description": "Illustration pédagogique pour Autre approche : la stratégie saisonnière simple",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_25.jpg"
     },
     {
       "page_number": 26,
-      "title": "Another planning strategy is to plant one main crop per season. You choose a crop that is suited to the climate, then change to a",
-      "text": "different crop the following season.\n\nAdvantages:\n\nAdapted to local climatic conditions\n\nFewer diseases (thanks to the change of seasons)\n\nSimplified planning\n\nEven if some crop rotations do not follow the classic rules of alternation, the change of season is often enough to break disease\n\ncycles. Consider incorporating green manure or straw mulch every 2–3 cycles.",
-      "illustration_description": "Illustration pédagogique pour Une autre stratégie de planification consiste à planter une culture principale par saison. On choisi une culture qui est adaptée au",
+      "title": "Planning with a simple seasonal strategy",
+      "text": "Another planning strategy consists of planting **one main crop per season**. You choose a crop suited to the climate, then change in the following season.\n\nThe main advantages are:\n\n- **Suited to local climatic conditions**.\n- **Fewer diseases** thanks to the alternation of seasons.\n- **Simplified planning**.\n\nEven if some successions do not follow the classic rules of alternation, the change of season is often enough to break disease cycles. Remember to include a **green manure** or a **mulched rest** every 2 to 3 cycles.",
+      "illustration_description": "Illustration pédagogique pour Planifier avec une stratégie saisonnière simple",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_26.jpg"
     },
     {
       "page_number": 27,
-      "title": "Green manure and soil rest: useful breaks",
-      "text": "Green manure and soil rest: useful breaks",
+      "title": "Green manures and soil rest: useful breaks",
+      "text": "To keep a soil alive and productive over the long term, it is essential to include regeneration phases between your crops.",
       "illustration_description": "Illustration pédagogique pour Engrais verts et repos du sol : des pauses utiles",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_27.jpg"
     },
     {
       "page_number": 28,
-      "title": "Green manure",
-      "text": "Green manure comes from plants harvested for mulching, such as millet or sorghum. Along with rests periods, they are\n\nessential for keeping soil alive and fertile. Green manure is useful for the following reasons:\n\nIt protects against erosion, structures the soil, and provides organic matter.\n\nThey break disease cycles.\n\nThey smother unwanted weeds and inhibit weed seed germination, especially when the compost added is not fully\n\nmature.",
-      "illustration_description": "Illustration pédagogique pour Engrais verts",
+      "title": "The role of green manures",
+      "text": "**Green manures** are crops sown specifically to cover, structure and enrich the soil (legumes, millet, sorghum, etc.), then cut and left in place or used as mulch.\n\nTogether with rest periods, they are essential for keeping the soil alive and fertile:\n\n- **Protect against erosion**, structure the soil and provide organic matter.\n- **Break disease cycles**.\n- **Smother unwanted plants** and slow the germination of weed seeds, especially when the compost applied is not fully mature.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des engrais verts",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_28.jpg"
     },
     {
       "page_number": 29,
-      "title": "Rest period",
-      "text": "Regarding active rest:\n\nMulching without cultivation for 1 to 2 months.\n\nAllows the soil to regenerate and breaks disease cycles.\n\nAdds organic matter with mulching.\n\nPlastic mulching (with a tarpaulin, for example) can be used to accelerate composting, maintain soil moisture, and\n\nprevent unwanted plants.\n\nA black tarpaulin warms the soil, while a white tarpaulin maintains the temperature.",
-      "illustration_description": "Illustration pédagogique pour Période de repos",
+      "title": "The active rest period",
+      "text": "The **active rest period** consists of letting the growing bed regenerate without production:\n\n- **Mulching without a crop** for **1 to 2 months**.\n- **Soil regeneration**: breaks disease cycles and provides organic matter through the mulch.\n- **Plastic mulching (optional)**: using a tarp speeds up the composting of the mulch, keeps moisture in the soil and prevents unwanted plants. A **black tarp** warms the soil, whereas a **white tarp** limits warming and keeps the temperature cooler.",
+      "illustration_description": "Illustration pédagogique pour La période de repos actif",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_29.jpg"
     },
     {
       "page_number": 30,
-      "title": "Green manure",
-      "text": "When should they be incorporated?\n\nBetween two demanding crops,\n\nDuring difficult seasons (heavy rain or high temperatures),\n\nAfter 2 or 3 successive crops.\n\nRest period",
-      "illustration_description": "Illustration pédagogique pour Engrais verts",
+      "title": "When to include a green manure or a rest period?",
+      "text": "Include a **green manure** or a **rest period** at the most favorable times:\n\n- **Between two demanding crops**.\n- **In a difficult season** (heavy rains or intense heat).\n- **After 2 or 3 crop successions**.",
+      "illustration_description": "Illustration pédagogique pour Quand intégrer un engrais vert ou une période de repos ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_30.jpg"
     },
     {
       "page_number": 31,
-      "title": "1",
-      "text": "2\n\n3\n\nGood crop rotation is based on three simple principles:\n\n1. Change botanical families\n\n2. Vary root types\n\n3. Balance soil requirements\n\nAdapt your strategy to the season, crop duration, and soil condition. Where possible, consider incorporating breaks with\n\ngreen manure or straw mulch to naturally regenerate the soil.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Key takeaways: the three principles of good alternation",
+      "text": "Good alternation rests on **three simple principles**:\n\n1. **Change botanical family**.\n2. **Vary the root type**.\n3. **Balance the soil's needs**.\n\nAdapt your strategy to the season, the duration of the crops and the condition of the soil. Remember to include, whenever possible, breaks with **green manures** or **mulched rest** to naturally regenerate the soil.",
+      "illustration_description": "Illustration pédagogique pour À retenir : les trois principes d’une bonne alternance",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_31.jpg"
     }
   ],
-  "course_code": "M4.2"
+  "course_code": "M4.2",
+  "media": [
+    {
+      "id": "9lggNuzqu-8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9lggNuzqu-8",
+      "title": "Interview du formateur Siaka : Semences et maraîchage bio intensif",
+      "lang": "fr",
+      "category": "cours"
+    },
+    {
+      "id": "2NAJHGvCtB4",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2NAJHGvCtB4",
+      "title": "Maraîchage bio-intensif – Épisode 16 : Souveraineté des semences",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

@@ -1,291 +1,309 @@
 {
   "id": "302_mettre_en_place_lirrigation",
-  "title": "Setting up Irrigation",
-  "category": "Techniques & Pratiques",
-  "summary": "Planification, choix du matériel de plomberie, montage des cannes d'aspersion et entretien pour une couverture d'eau homogène et douce.",
+  "title": "Setting up the sprinkler irrigation system",
+  "category": "Techniques & Practices",
+  "summary": "Planning, choosing the plumbing materials, assembling the sprinkler risers, and maintenance for gentle, even water coverage.",
   "total_pages": 40,
   "cover_image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "Nous allons vous montrer comment mettre en place un système d’irrigation par aspersion dans une entreprise maraîchère bio intensive en sol",
-      "text": "We are going to show you how to set up a sprinkler irrigation system in an intensive organic market\n\nvivant.\n\ngardening business in living soil.",
-      "illustration_description": "Illustration pédagogique pour Nous",
+      "title": "Introduction to sprinkler irrigation",
+      "text": "We will show you how to set up a **sprinkler irrigation system** on a **bio-intensive, living-soil** market garden.",
+      "illustration_description": "Illustration pédagogique pour Introduction à l’irrigation par aspersion",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "Irrigation by sprinkling, what is it ?",
-      "text": "Water is put under pressure, then diffused into fine droplets imitating natural rain. This allows for a homogeneous\n\ndistribution of water creating a microclimate. This semi-automatic system allows for less manual work and saves\n\ntime.",
+      "title": "What is sprinkler irrigation?",
+      "text": "Water is pressurized, then dispersed as **fine droplets** that mimic natural rainfall. This provides an **even distribution of water** and creates a microclimate.\n\nThis semi-automatic system reduces manual work and saves time.",
       "illustration_description": "Illustration pédagogique pour L’irrigation par aspersion, qu’est-ce que c’est ?",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "The setup is done in 5 steps.",
-      "text": "If all the equipment is gathered, it is a job that takes no more than half a day for two people for a plot of 100 m2.",
-      "illustration_description": "Illustration pédagogique pour La mise en place se fait en 5 étapes. Si tout le matériel est réuni, c’est un travail qui ne prend pas plus d’une demijournée à deux personnes pour une parcelle de 100 m2.",
+      "title": "Setup time and organization",
+      "text": "The setup is done in **5 steps**.\n\nIf all the equipment is on hand, the job takes no more than **half a day for two people** for a plot of **10 beds** (approximately **100 to 120 m²**).",
+      "illustration_description": "Illustration pédagogique pour Durée et organisation de la mise en place",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "Constitution of a plot with a sprinkler",
-      "text": "SYSTEM",
-      "illustration_description": "Illustration pédagogique pour CONSTITUTION D’UNE PARCELLE DISPOSANT",
+      "title": "Components of a plot equipped with sprinklers",
+      "text": "Discover the three essential elements that make up a complete sprinkler irrigation installation.",
+      "illustration_description": "Illustration pédagogique pour Constitution d’une parcelle équipée en aspersion",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "You need a water source, for example a well, a borehole, a water tower, a river or a stream..",
-      "text": "You need a water source, for example a well, a borehole, a water tower, a river or a stream..",
-      "illustration_description": "Illustration pédagogique pour Vous avez besoin d'une source d’eau, par exemple un puits, un forage, un château d’eau, un fleuve ou un ruisseau.",
+      "title": "The water source",
+      "text": "You need a **water source**, for example a well, a borehole, a water tower, a river, or a stream.",
+      "illustration_description": "Illustration pédagogique pour La source d’eau",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "You also need a pumping station: a thermal or solar pump to extract the water..",
-      "text": "You also need a pumping station: a thermal or solar pump to extract the water..",
-      "illustration_description": "Illustration pédagogique pour Vous avez également besoin d’une station de pompage : une pompe thermique ou solaire pour extraire l’eau.",
+      "title": "The pumping station",
+      "text": "You also need a **pumping station**: a **combustion-engine or solar pump** to draw the water and pressurize it.",
+      "illustration_description": "Illustration pédagogique pour La station de pompage",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Main line",
-      "text": "Sprinkler\n\nRamps\n\nThen from the water distribution system with :\n\nA main line\n\n2 secondary lines which are also called \"sprinkler ramp\"\n\n4 sprinkler hoses",
-      "illustration_description": "Illustration pédagogique pour Ligne principale",
+      "title": "The water distribution system",
+      "text": "Water is carried to the plot through the **distribution system**, made up of:\n\n- **One main line**\n- **2 secondary lines**, also called \"sprinkler lines\"\n- **4 sprinkler risers**",
+      "illustration_description": "Illustration pédagogique pour Le système de distribution d’eau",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "The plumbing material necessary",
-      "text": "THE PLUMBING MATERIAL NECESSARY",
-      "illustration_description": "Illustration pédagogique pour LE MATERIEL DE PLOMBERIE NECESSAIRE",
+      "title": "Plumbing materials and tools required",
+      "text": "Before starting the job, gather all the pipes, fittings, valves, and tools needed for assembly.",
+      "illustration_description": "Illustration pédagogique pour Le matériel de plomberie et les outils nécessaires",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "4x",
-      "text": "2x\n\n1x\n\nFor the assembly of the main and secondary lines, you need the following materials :\n\nA 40 mm pipe: the length depends on the distance from the water source.\n\nA 32 mm pipe with a length of 20 m\n\n2 connection tees 40/32\n\n4 valves of 32\n\n1 valve of 40",
-      "illustration_description": "Illustration pédagogique pour 4x",
+      "title": "Materials for the main and secondary lines",
+      "text": "To assemble the main and secondary lines, you need the following materials:\n\n- **One 40 mm pipe**: the length depends on the distance to the water source\n- **One 32 mm pipe** with a length of **20 m**\n- **2 reducing tees 40/32 mm**\n- **4 valves of 32 mm**\n- **1 valve of 40 mm**",
+      "illustration_description": "Illustration pédagogique pour Matériel pour les lignes principales et secondaires",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "4x",
-      "text": "4x\n\n4x\n\n4x\n\nFor the assembly of the spray rods, you need the following materials :\n\n4 connection tees 32/25\n\n4 PER pipes of 1 m each\n\n4 male fittings 25/15\n\n4 female valves 15 mm\n\n4 stakes of 1 m each\n\nTeflon sealing\n\n4x",
-      "illustration_description": "Illustration pédagogique pour 4x",
+      "title": "Materials for the sprinkler risers",
+      "text": "To assemble the sprinkler risers, you need the following items:\n\n- **4 reducing tees 32/25 mm**\n- **4 PEX pipes** (cross-linked polyethylene), **1 m** each\n- **4 male adapters 25/15 mm**\n- **4 female valves of 15 mm**\n- **4 stakes**, **1 m** each\n- **PTFE sealing tape (Teflon tape)**",
+      "illustration_description": "Illustration pédagogique pour Matériel pour les cannes d’aspersion",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "You will need the following tools:",
-      "text": "Metal saw\n\nKnife\n\nLiquid soap to facilitate the fitting of the elements\n\nMeasuring tape\n\nString",
-      "illustration_description": "Illustration pédagogique pour Vous aurez besoin des outils suivants :",
+      "title": "Tools needed for assembly",
+      "text": "You will need the following tools:\n\n- **Hacksaw**\n- **Knife**\n- **Liquid soap** to make fitting the parts together easier\n- **Tape measure**\n- **String**",
+      "illustration_description": "Illustration pédagogique pour Outils nécessaires au montage",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "Installation of the sprinkler system on a 100m2 plot",
-      "text": "STEP 1 : PLAN",
-      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "title": "Step 1: Plan the installation",
+      "text": "To install the sprinkler system on a plot of **10 beds** (approximately **100 to 120 m²**), start by planning the placement of the sprinklers.",
+      "illustration_description": "Illustration pédagogique pour Étape 1 : Planifier l’installation",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "10m",
-      "text": "10m\n\nTo ensure a homogeneous spraying, plan the arrangement of the sprinklers according to their ranges. The range of\n\nthe sprinklers is from 3 to 6 m in diameter depending on the pressure.",
-      "illustration_description": "Illustration pédagogique pour 10m",
+      "title": "Sprinkler range",
+      "text": "To ensure even sprinkling, plan the layout of the sprinklers according to their range.\n\nThe sprinkler range is **3 to 6 m in diameter** depending on the pressure.",
+      "illustration_description": "Illustration pédagogique pour Portée des asperseurs",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "10m",
-      "text": "10m\n\nFor a plot of 100 m2, that is 10 m x 10 m, you will install 4 sprinklers.",
-      "illustration_description": "Illustration pédagogique pour 10m",
+      "title": "Number of sprinklers for 10 beds",
+      "text": "For a plot of **10 beds** (approximately **100 to 120 m²**), you will install **4 sprinklers** to cover the entire area uniformly.",
+      "illustration_description": "Illustration pédagogique pour Nombre d’asperseurs pour 10 planches",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Installation of the sprinkler system on a 100m2 plot",
-      "text": "STEP 2 : INSTALL THE MAIN PIPE AND THE\n\nSECONDARY PIPES",
-      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "title": "Step 2: Install the main pipe and the secondary pipes",
+      "text": "Once the plan is validated, lay out the distribution network on the ground of your **10-bed** plot.",
+      "illustration_description": "Illustration pédagogique pour Étape 2 : Installer le tuyau principal et les tuyaux secondaires",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Main line",
-      "text": "Place the 40 mm pipe from the main line to the edge of the plot.",
-      "illustration_description": "Illustration pédagogique pour Ligne principale",
+      "title": "Laying the main line",
+      "text": "Place the **40 mm pipe** of the main line along the edge of the plot.",
+      "illustration_description": "Illustration pédagogique pour Poser la ligne principale",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "Main line",
-      "text": "1x\n\nThen install the 40 mm valve at the end of the pipe for maintenance and an extension of the irrigation system if\n\nneeded.\n\nTo facilitate the fittings of pipes to the valves and tees, always put one to two drops of soap on the joints.",
-      "illustration_description": "Illustration pédagogique pour Ligne principale",
+      "title": "Installing the end-of-line valve",
+      "text": "Install the **40 mm valve** at the end of the main pipe for maintenance and for extending the irrigation system if needed.\n\n⚠️ **Watch out**: To make it easier to push pipes onto valves and tees, always put **one or two drops of liquid soap** on the joints.",
+      "illustration_description": "Illustration pédagogique pour Installer la vanne de fin de ligne",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "1",
-      "text": "2 3 4 5\n\n6 7\n\nRampes\n\nFor the secondary lines, place a 32 mm pipe in the 4th footbridge.\n\nThen place the second 32 mm pipe in the 8th footbridge.\n\n8\n\n9 10 11",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Positioning the secondary lines",
+      "text": "For the secondary lines (sprinkler lines):\n\n1. Place the first **32 mm pipe** in the **4th walkway**.\n2. Place the second **32 mm pipe** in the **8th walkway**.",
+      "illustration_description": "Illustration pédagogique pour Positionner les lignes secondaires",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "Cut the main pipe using a knife or a hacksaw at the level of the 4th and 8th footbridges where the secondary pipes",
-      "text": "are installed.",
-      "illustration_description": "Illustration pédagogique pour Sectionnez le tuyau principal à l'aide d'un couteau ou d'une scie à métaux au niveau du 4ème et 8ème passe-pieds",
+      "title": "Cutting the main pipe",
+      "text": "Cut the **40 mm** main pipe with a knife or a hacksaw at the **4th and 8th walkways**, where the secondary pipes are installed.",
+      "illustration_description": "Illustration pédagogique pour Sectionner le tuyau principal",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "2x",
-      "text": "Install the 2 tees of 40/32 on the main pipe of 40 mm.\n\nThen connect the secondary pipes of 32 mm.",
-      "illustration_description": "Illustration pédagogique pour 2x",
+      "title": "Connecting the 40/32 mm tees",
+      "text": "Install the **2 reducing tees 40/32 mm** on the 40 mm main pipe, then connect the **32 mm** secondary pipes.",
+      "illustration_description": "Illustration pédagogique pour Raccorder les tés 40/32 mm",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "4x",
-      "text": "Install the 4 valves of 32 mm at the ends and at the beginnings of the secondary lines. This will facilitate\n\nmaintenance and an extension of the irrigation system.",
-      "illustration_description": "Illustration pédagogique pour 4x",
+      "title": "Installing the valves on the secondary lines",
+      "text": "Install the **4 valves of 32 mm** at the start and at the end of each secondary line.\n\nThis will make maintenance and any future extension of the irrigation system easier.",
+      "illustration_description": "Illustration pédagogique pour Installer les vannes des lignes secondaires",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_21.jpg"
     },
     {
       "page_number": 22,
-      "title": "Installation of the sprinkler system on a 100m2 plot",
-      "text": "STEP 3 : INSTALLING THE SPRAY RODS",
-      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "title": "Step 3: Assemble the sprinkler risers",
+      "text": "With the main network and the sprinkler lines in place, you will now assemble and secure the **4 sprinkler risers**.",
+      "illustration_description": "Illustration pédagogique pour Étape 3 : Monter les cannes d’aspersion",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "3m",
-      "text": "4m\n\n3m\n\n4x\n\nMeasure 3 m starting from the beginning of the board to place the first stabilization stake.\n\nThen measure 4 m from the first stake to place the second stake.\n\nRepeat these operations on the second secondary line.",
-      "illustration_description": "Illustration pédagogique pour 3m",
+      "title": "Driving in the support stakes",
+      "text": "1. Measure **3 m** from the start of the bed to place the first support stake.\n2. Then measure **4 m** from the first stake to place the second stake (**3 m** remain to the end of the bed).\n3. Repeat these steps on the second secondary line.",
+      "illustration_description": "Illustration pédagogique pour Planter les piquets de stabilisation",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_23.jpg"
     },
     {
       "page_number": 24,
-      "title": "Cut the secondary lines at the level of the stakes to install the 4 connection tees of 30/25 mm.",
-      "text": "Cut the secondary lines at the level of the stakes to install the 4 connection tees of 30/25 mm.",
-      "illustration_description": "Illustration pédagogique pour Coupez les lignes secondaires aux niveaux des piquets pour installer les 4 tés de raccordement de 30/25 mm.",
+      "title": "Cutting the lines at the stakes",
+      "text": "Cut the **32 mm** secondary lines at the stakes to install the **4 reducing tees** (or tapping saddles) of **32/25 mm**.",
+      "illustration_description": "Illustration pédagogique pour Couper les rampes au niveau des piquets",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_24.jpg"
     },
     {
       "page_number": 25,
-      "title": "Tee fitting or",
-      "text": "Take off collar 30/25\n\nConnect the tee fitting to the secondary rail. Tee fitting or 30/25 take-off collar.",
-      "illustration_description": "Illustration pédagogique pour Té de raccordement ou",
+      "title": "Installing the 32/25 mm tee",
+      "text": "Connect the **32/25 mm reducing tee** (or tapping saddle) to the secondary line.",
+      "illustration_description": "Illustration pédagogique pour Installer le té de raccordement 32/25 mm",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_25.jpg"
     },
     {
       "page_number": 26,
-      "title": "PER pipe",
-      "text": "Connect the 1 m PER pipe to the connection tee.",
-      "illustration_description": "Illustration pédagogique pour Tuyau PER",
+      "title": "Connecting the 1 m PEX pipe",
+      "text": "Connect the **1 m PEX pipe** (cross-linked polyethylene) vertically to the tee.",
+      "illustration_description": "Illustration pédagogique pour Connecter le tuyau PER de 1 m",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_26.jpg"
     },
     {
       "page_number": 27,
-      "title": "Male fitting 25/15",
-      "text": "Then connect the male fitting to the PER pipe: the male fitting fits onto the upper side of the pipe.",
-      "illustration_description": "Illustration pédagogique pour Raccord mâle",
+      "title": "Attaching the 25/15 mm male adapter",
+      "text": "Next, attach the **25/15 mm male adapter** to the PEX pipe: the male adapter fits onto the upper end of the pipe.",
+      "illustration_description": "Illustration pédagogique pour Relier le raccord mâle 25/15 mm",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_27.jpg"
     },
     {
       "page_number": 28,
-      "title": "Clamping nut",
-      "text": "Compression ring\n\nO-ring seal\n\nSupport ring\n\nBody\n\nHere is the assembly of the male connector up close.",
-      "illustration_description": "Illustration pédagogique pour Ecrou de serrage",
+      "title": "Components of the male adapter",
+      "text": "Here are the components of the **25/15 mm** male adapter, to be assembled in order:\n\n- **Body**\n- **Support ring**\n- **O-ring**\n- **Compression ring**\n- **Tightening nut**",
+      "illustration_description": "Illustration pédagogique pour Composition du raccord mâle",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_28.jpg"
     },
     {
       "page_number": 29,
-      "title": "Clamping nut",
-      "text": "Support ring\n\nO-ring seal\n\nCompression ring\n\nHere is the assembly of the male connector up close.\n\nPER pipe",
-      "illustration_description": "Illustration pédagogique pour Ecrou de serrage",
+      "title": "Assembling the male adapter on the PEX pipe",
+      "text": "Slide the tightening nut, the compression ring, the O-ring, and the support ring onto the **PEX pipe**, then screw firmly onto the adapter body to ensure a watertight connection.",
+      "illustration_description": "Illustration pédagogique pour Assemblage du raccord mâle sur le tuyau PER",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_29.jpg"
     },
     {
       "page_number": 30,
-      "title": "To ensure the sealing, without damaging the male thread, make two turns of teflon in the direction of the thread.",
-      "text": "To ensure the sealing, without damaging the male thread, make two turns of teflon in the direction of the thread.",
-      "illustration_description": "Illustration pédagogique pour Pour assurer l'étanchéité, sans abîmer le filetage mâle, faîtes deux tours de téflon dans le sens du filetage.",
+      "title": "Applying Teflon tape to the male adapter",
+      "text": "To ensure a watertight seal without damaging the male thread, wrap **two turns of Teflon tape** in the direction of the thread.",
+      "illustration_description": "Illustration pédagogique pour Poser le téflon sur le raccord mâle",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_30.jpg"
     },
     {
       "page_number": 31,
-      "title": "Female",
-      "text": "valve\n\n15mm\n\nConnect the male fitting to the female valve.",
-      "illustration_description": "Illustration pédagogique pour Vanne",
+      "title": "Connecting the male adapter to the female valve",
+      "text": "Screw the **15 mm female valve** onto the male adapter fitted with Teflon tape.",
+      "illustration_description": "Illustration pédagogique pour Relier le raccord mâle à la vanne femelle",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_31.jpg"
     },
     {
       "page_number": 32,
-      "title": "Connect the female valve of 15 mm for the sprinkler heads.",
-      "text": "They will allow you to open or close each sprinkler individually in case of maintenance.\n\nYou therefore do not need to stop the entire system if there is a fault or a leak at a sprinkler.",
-      "illustration_description": "Illustration pédagogique pour Connectez la vanne femelle de 15 mm pour les têtes d'arrosage. Elles vous permettront d'ouvrir ou fermer chaque",
+      "title": "Purpose of the 15 mm female valve",
+      "text": "The **15 mm female valves** installed under the sprinkler heads allow you to open or close **each sprinkler individually** for maintenance.\n\nYou therefore do not need to shut down the whole system if there is a fault or a leak at one sprinkler.",
+      "illustration_description": "Illustration pédagogique pour Utilité de la vanne femelle 15 mm",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_32.jpg"
     },
     {
       "page_number": 33,
-      "title": "Make two turns of teflon on the thread of the watering head in the direction of the thread.",
-      "text": "Then connect the watering head to the valve.",
-      "illustration_description": "Illustration pédagogique pour Faites deux tours de téflon sur le filetage de la tête d'arrosage dans le sens du filetage.",
+      "title": "Installing the sprinkler head",
+      "text": "1. Wrap **two turns of Teflon tape** around the thread of the sprinkler head, in the direction of the thread.\n2. Then connect the **sprinkler head** to the female valve.",
+      "illustration_description": "Illustration pédagogique pour Installer la tête d’arrosage",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_33.jpg"
     },
     {
       "page_number": 34,
-      "title": "Repeat these operations on the three other spray rods.",
-      "text": "Repeat these operations on the three other spray rods.",
-      "illustration_description": "Illustration pédagogique pour Répétez ces opérations sur les trois autres cannes d'aspersion.",
+      "title": "Assembling the other three risers",
+      "text": "Repeat exactly the same steps to assemble the **three other sprinkler risers**.",
+      "illustration_description": "Illustration pédagogique pour Monter les trois autres cannes",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_34.jpg"
     },
     {
       "page_number": 35,
-      "title": "Attach the rods to the stabilization stakes with a rope.",
-      "text": "Attach the rods to the stabilization stakes with a rope.",
-      "illustration_description": "Illustration pédagogique pour Attachez les cannes aux piquets de stabilisation avec une corde.",
+      "title": "Securing the risers to the stakes",
+      "text": "Tie the **4 sprinkler risers** firmly to the support stakes with **string** so that they stay upright under pressure.",
+      "illustration_description": "Illustration pédagogique pour Fixer les cannes aux piquets",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_35.jpg"
     },
     {
       "page_number": 36,
-      "title": "Installation of the sprinkler system on a 100m2 plot",
-      "text": "STEP 4 : PRESSURIZATION OF THE SYSTEM",
-      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "title": "Step 4: Pressurizing the system",
+      "text": "Your installation is assembled: it is now time to test the whole network under real conditions.",
+      "illustration_description": "Illustration pédagogique pour Étape 4 : Mise sous pression du système",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_36.jpg"
     },
     {
       "page_number": 37,
-      "title": "Test the system to ensure proper functioning and to check that there are no leaks.",
-      "text": "This allows for the validation of the proper functioning of the sprinklers for the flow rate and the available\n\npressure.",
-      "illustration_description": "Illustration pédagogique pour Testez le système pour assurer le bon fonctionnement et pour vérifier qu'il n'y a pas de fuite. Cela permet de",
+      "title": "Testing operation and watertightness",
+      "text": "Test the system to check that it **works properly** and that there are **no leaks**.\n\nThis lets you validate the range and uniformity of the sprinklers according to the **available flow rate** and **pressure**.",
+      "illustration_description": "Illustration pédagogique pour Tester le fonctionnement et l’étanchéité",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_37.jpg"
     },
     {
       "page_number": 38,
-      "title": "Installation of the sprinkler system on a 100m2 plot",
-      "text": "STEP 5 : MAINTAINING YOUR IRRIGATION SYSTEM",
-      "illustration_description": "Illustration pédagogique pour INSTALLATION DU SYSTÈME D’ASPERSION SUR UNE PARCELLE DE 100M2",
+      "title": "Step 5: Maintaining your irrigation system",
+      "text": "Regular maintenance ensures the longevity of your equipment and consistent watering quality throughout the crop cycles.",
+      "illustration_description": "Illustration pédagogique pour Étape 5 : Entretenir son système d’irrigation",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_38.jpg"
     },
     {
       "page_number": 39,
-      "title": "Visually check that the system is working properly and that there are no leaks when you switch it on.",
-      "text": "Grease rotating parts regularly.\n\nMake sure that the spray nozzles are not clogged with lime or organic waste.",
-      "illustration_description": "Illustration pédagogique pour Assurez-vous visuellement que le système fonctionne correctement et qu'il n'y a pas de fuite quand vous",
+      "title": "Routine maintenance tasks",
+      "text": "To keep your installation in perfect condition:\n\n- **Visual check**: each time you start the system, make sure it is working correctly and that there are no leaks.\n- **Greasing**: regularly grease the rotating parts.\n- **Cleaning the nozzles**: make sure the sprinkler nozzles are not clogged by **limescale** or **organic debris**.",
+      "illustration_description": "Illustration pédagogique pour Les gestes d’entretien réguliers",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_39.jpg"
     },
     {
       "page_number": 40,
-      "title": "Congratulations ! You've just learned how to create your own sprinkler irrigation system.",
-      "text": "Congratulations ! You've just learned how to create your own sprinkler irrigation system.",
-      "illustration_description": "Illustration pédagogique pour Félicitations ! Vous venez d’apprendre à créer votre propre système d’irrigation par aspersion.",
+      "title": "Irrigation system ready to use",
+      "text": "**Congratulations!** You have just learned how to build your own **sprinkler irrigation system**.",
+      "illustration_description": "Illustration pédagogique pour Système d’irrigation prêt à l’emploi",
       "image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_40.jpg"
     }
   ],
-  "course_code": "M3.2"
+  "course_code": "M3.2",
+  "media": [
+    {
+      "id": "SxeW4aoAV3w",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SxeW4aoAV3w",
+      "title": "Discussion autour de l’arrosage des plantes en maraîchage",
+      "lang": "fr",
+      "category": "pratique"
+    },
+    {
+      "id": "IS-5_OQ9uIc",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IS-5_OQ9uIc",
+      "title": "Podcast 20 - Pépinières et méthodes d’arrosage",
+      "lang": "fr",
+      "category": "podcast"
+    }
+  ]
 }

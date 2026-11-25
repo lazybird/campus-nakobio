@@ -1,0 +1,60 @@
+{
+  "id": "401b_fiche_bio_extrait_fermente",
+  "title": "Organic treatment sheet: Preparation — Fermented extract",
+  "category": "Protection & Design",
+  "summary": "Recipe for a concentrated fermented extract (garlic, chili pepper, ginger, alcohol, sugar) to be diluted at 1:15 to stimulate plant defenses and repel pests and diseases.",
+  "total_pages": 7,
+  "cover_image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_01.jpg",
+  "course_code": "M4.1.2",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Organic treatment: the fermented extract",
+      "text": "Fermented extract is a concentrated natural preparation that strengthens plants and fights a broad spectrum of pests and diseases.\n\n- **Total preparation time**: **11 days**.\n- **Resting / fermentation time before use**: **10 days**.",
+      "illustration_description": "Nature morte botanique en aquarelle : gousses d'ail frais, piments rouges, racines de gingembre et un grand bocal de fermentation fermé posé sur une table rustique en bois.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Ingredients needed",
+      "text": "*(You can scale the quantities up or down according to your needs.)*\n\n- **1 kg** of fresh garlic cloves\n- **1 kg** of chili peppers\n- **1 kg** of ginger\n- **0.5 L** of alcohol (local or other)\n- **0.5 kg** of sugar\n- **3 L** of clean water",
+      "illustration_description": "Ingrédients disposés en aquarelle botanique : bulbes d'ail, piments rouges, rhizomes de gingembre, un bol de sucre, une bouteille d'alcool local et une cruche d'eau claire.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Step 1: Preparing the paste",
+      "text": "1. **Blend** or finely crush the garlic, chili peppers and ginger together.\n2. **Add the sugar** and mix well.\n3. **Then pour in the alcohol**.\n4. **Mix** this paste into the **3 liters of water**.\n5. **Cover** the container to start fermentation, away from direct sunlight.",
+      "illustration_description": "Mains ouest-africaines mélangeant une pâte dorée et rougeâtre d'ail, gingembre et piment dans un grand récipient avec de l'eau, du sucre et de l'alcool avant de le couvrir.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Step 2: Understanding fermentation (10 days)",
+      "text": "**Fermentation** is a natural process in which microorganisms (yeasts, bacteria) transform organic substances (such as sugar) into other active compounds (alcohol, acids, gases).\n\nFermented extract takes more time, but fermentation **further activates the bioactive compounds**.\n\n**Over the 10 days:**\n- Let it ferment for **3 days**.\n- **Stir**, then let it rest for another **week** before use.",
+      "illustration_description": "Grand récipient couvert posé à l'ombre contenant un liquide ambré en fermentation avec de fines bulles naturelles visibles, illustrant l'activité microbienne douce.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Step 2: Filtering and dilution (1 to 14)",
+      "text": "After the 10 days of fermentation:\n\n1. **Filter** the liquid carefully to remove solid pieces.\n2. **Always dilute** before use: **1 volume of fermented extract to 14 volumes of water**.\n\n⚠️ **Caution**: Chili pepper is a strong irritant. Protect your hands and eyes during preparation and wash your hands thoroughly after use.",
+      "illustration_description": "Un agriculteur ouest-africain filtrant l'extrait fermenté ambré à travers un tissu dans un petit récipient doseur, à côté d'un grand arrosoir rempli d'eau claire prêt pour la dilution.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Step 3: Watering the bed soil",
+      "text": "Once the fermented extract has been filtered and diluted (1 volume to 14 volumes of water):\n\n- **Water the soil of the beds** with this solution, **every week or every two weeks**.\n\nThis regular application protects and stimulates your crops over the long term.",
+      "illustration_description": "Une agricultrice ouest-africaine marchant dans le passe-pied et arrosant doucement le sol d'une planche permanente en pleine terre paillée autour des pieds de légumes avec un arrosoir.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Effects of the fermented extract",
+      "text": "This natural preparation combines five complementary effects:\n\n- **Insect repellent**: keeps harmful insects away (aphids, whiteflies, caterpillars, etc.).\n- **Antifungal**: fights fungi (downy mildew, powdery mildew, rust, etc.).\n- **Bactericidal**: acts against certain plant-pathogenic bacteria.\n- **General repellent**: drives away various pests (insects and small animals).\n- **Stimulant**: strengthens the plants' natural defenses.\n\nA natural, powerful and economical solution!",
+      "illustration_description": "Planches permanentes en pleine terre paillée couvertes de cultures maraîchères vigoureuses et résistantes dans un jardin agroécologique ouest-africain baigné de lumière chaude.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_07.jpg"
+    }
+  ]
+}

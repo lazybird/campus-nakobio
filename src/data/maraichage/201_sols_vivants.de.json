@@ -2,255 +2,273 @@
   "id": "201_sols_vivants",
   "title": "Lebendige Böden",
   "category": "Grundlagen & Boden",
-  "summary": "Verstehen Sie das biologische Bodenleben (Würmer, Pilze, Bakterien, Humus) und wie das System der permanenten Beete Ihre Kulturen auf natürliche Weise ernährt.",
+  "summary": "Verstehen Sie das biologische Bodenleben (Regenwürmer, Pilze, Bakterien, Humus) und wie das System dauerhafter Beete Ihre Kulturen auf natürliche Weise ernährt.",
   "total_pages": 35,
   "cover_image": "assets/images/maraichage/201_sols_vivants/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "Wir zeigen Ihnen, wie Hochbeete den Boden lebendig halten",
-      "text": "um die Gesundheit und das gute Wachstum von Pflanzen und Gemüse zu gewährleisten.",
-      "illustration_description": "Illustration pédagogique pour Nous allons vous montrer comment les planches de cultures permettent de garder le sol vivant",
+      "title": "Vorstellung des Moduls: der lebendige Boden",
+      "text": "Wir zeigen Ihnen, wie **Kulturbeete** den **Boden lebendig** halten und damit die Gesundheit und das gute Wachstum von Pflanzen und Gemüse sichern.",
+      "illustration_description": "Illustration pédagogique pour Présentation du module : le sol vivant",
       "image": "assets/images/maraichage/201_sols_vivants/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "Damit der Boden fruchtbar ist, muss er es sein",
-      "text": "LEBENDIG",
-      "illustration_description": "Illustration pédagogique pour POUR QUE LE SOL SOIT FERTILE, IL FAUT QU’IL SOIT",
+      "title": "Ein fruchtbarer Boden muss lebendig sein",
+      "text": "Entdecken wir, woraus ein Boden besteht und warum seine **biologische Aktivität** für die Fruchtbarkeit unverzichtbar ist.",
+      "illustration_description": "Illustration pédagogique pour Pour que le sol soit fertile, il faut qu’il soit vivant",
       "image": "assets/images/maraichage/201_sols_vivants/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "Für Wachstum und Gesundheit benötigen Gemüsepflanzen Licht, Wasser und Nährstoffe. Sie",
-      "text": "ernähren sich im oberen Teil des Bodens (10–20 cm Tiefe).",
-      "illustration_description": "Illustration pédagogique pour Pour pousser et être en bonne santé les plantes maraîchères ont besoin de lumière, d’eau et de nutriments. Elles",
+      "title": "Die Bedürfnisse der Gemüsepflanzen",
+      "text": "Um zu wachsen und gesund zu bleiben, brauchen Gemüsepflanzen **Licht**, **Wasser** und **Nährstoffe**.\n\nSie ernähren sich im oberen Teil des Bodens (**10 bis 20 cm** Tiefe).",
+      "illustration_description": "Illustration pédagogique pour Les besoins des plantes maraîchères",
       "image": "assets/images/maraichage/201_sols_vivants/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "Ein fruchtbarer Boden ist reich an Humus, der aus sich zersetzendem organischem Material (Pflanzenreste, Blätter,)",
-      "text": "abgestorbenen Insekten, Exkrementen…) entsteht.",
-      "illustration_description": "Illustration pédagogique pour Un sol fertile est riche en humus, issu de la matière organique en décomposition (résidus de cultures, feuilles,",
+      "title": "Der Humusreichtum eines fruchtbaren Bodens",
+      "text": "Ein fruchtbarer Boden ist reich an **Humus**, der aus **zersetzender organischer Substanz** entsteht (Ernterückstände, Blätter, tote Insekten, Exkremente …).",
+      "illustration_description": "Illustration pédagogique pour La richesse en humus d’un sol fertile",
       "image": "assets/images/maraichage/201_sols_vivants/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "Humus",
-      "text": "Ein fruchtbarer Boden ist reich an Humus, der aus sich zersetzender organischer Substanz (Pflanzenreste, Blätter, tote Insekten, Exkremente…) entsteht.",
-      "illustration_description": "Illustration pédagogique pour Humus",
+      "title": "Der Humus in der obersten Bodenschicht",
+      "text": "Ein fruchtbarer Boden ist reich an **Humus**, der aus **zersetzender organischer Substanz** entsteht (Ernterückstände, Blätter, tote Insekten, Exkremente …).",
+      "illustration_description": "Illustration pédagogique pour L’humus dans la couche superficielle du sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Der Boden besteht aus:",
-      "text": "festen Bestandteilen wie organischer Substanz und Steinen,\n\n- Wasser, das Mineralien enthält, und Luft.",
-      "illustration_description": "Illustration pédagogique pour Le sol est constitué :",
+      "title": "Die physikalische Zusammensetzung des Bodens",
+      "text": "Der Boden besteht aus:\n\n- **festen Bestandteilen** wie organischer Substanz und Steinen;\n- **Wasser**, das Mineralstoffe enthält;\n- und **Luft**.",
+      "illustration_description": "Illustration pédagogique pour La composition physique du sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Myzel",
-      "text": "Bakterien\n\nEs beherbergt auch lebende Organismen:\n\n- mit bloßem Auge unsichtbare Mikroorganismen wie Bakterien und Pilze in weißen Fäden, Myzel genannt.",
-      "illustration_description": "Illustration pédagogique pour mycélium",
+      "title": "Die Mikroorganismen des Bodens: Bakterien und Myzel",
+      "text": "Im Boden leben außerdem Lebewesen:\n\n- **Mikroorganismen**, die mit bloßem Auge unsichtbar sind, wie **Bakterien** und **Pilze** in Form weißer Fäden, das sogenannte **Myzel**.",
+      "illustration_description": "Illustration pédagogique pour Les micro-organismes du sol : bactéries et mycélium",
       "image": "assets/images/maraichage/201_sols_vivants/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "Milben",
-      "text": "Nematodenlarven\n\nEr beherbergt auch lebende Organismen:\n\nOrganismen von wenigen Millimetern Größe wie **Milben**, kleine Würmer (sogenannte **Nematoden**) oder **Insektenlarven**.",
-      "illustration_description": "Illustration pédagogique pour acariens",
+      "title": "Die Mesofauna: Milben, Nematoden und Larven",
+      "text": "Im Boden leben außerdem Organismen von wenigen Millimetern Größe:\n\n- **Milben**;\n- kleine Würmer, die **Nematoden** genannt werden;\n- **Insektenlarven**.",
+      "illustration_description": "Illustration pédagogique pour La mésofaune : acariens, nématodes et larves",
       "image": "assets/images/maraichage/201_sols_vivants/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "Termiten",
-      "text": "Regenwurm Tausendfüßer Kellerassel Spinne\n\nEs beherbergt auch lebende Organismen:\n\nund Insekten: wie Kellerasseln, Regenwürmer, Termiten, Ameisen, Tausendfüßer oder Spinnen.",
-      "illustration_description": "Illustration pédagogique pour termites",
+      "title": "Die kleinen Bodentiere (Wirbellose)",
+      "text": "Im Boden leben auch kleine Tiere (**Wirbellose**) wie:\n\n- **Asseln** und **Regenwürmer**;\n- **Termiten** und **Ameisen**;\n- **Tausendfüßer** und **Spinnen**.",
+      "illustration_description": "Illustration pédagogique pour Les petits animaux (invertébrés) du sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "Es ist ein sehr reiches und vielfältiges Ökosystem, in dem jeder seine Rolle spielt, sogar die Schnecke!",
-      "text": "Es ist ein sehr reiches und vielfältiges Ökosystem, in dem jeder seine Rolle spielt, sogar die Schnecke!",
-      "illustration_description": "Illustration pédagogique pour C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
+      "title": "Ein reichhaltiges und vielfältiges Ökosystem",
+      "text": "Es ist ein **sehr reichhaltiges und vielfältiges Ökosystem**, in dem jeder seine Rolle spielt, sogar die Schnecke!",
+      "illustration_description": "Illustration pédagogique pour Un écosystème riche et varié",
       "image": "assets/images/maraichage/201_sols_vivants/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "Es ist ein sehr reiches und vielfältiges Ökosystem, in dem jeder seine Rolle spielt, sogar die Schnecke!",
-      "text": "Es ist ein sehr reiches und vielfältiges Ökosystem, in dem jeder seine Rolle spielt, sogar die Schnecke!",
-      "illustration_description": "Illustration pédagogique pour C’est un écosystème très riche et varié où tout le monde joue son rôle, même la limace !",
+      "title": "Das Gleichgewicht des Lebens im Boden",
+      "text": "Es ist ein **sehr reichhaltiges und vielfältiges Ökosystem**, in dem jeder seine Rolle spielt, sogar die Schnecke!",
+      "illustration_description": "Illustration pédagogique pour L’équilibre de la vie dans le sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "All diese Elemente interagieren miteinander, um den Boden zu regenerieren, ihn gesund zu halten und ihn feucht zu halten,",
-      "text": "belüftet und stabil, um das Pflanzenwachstum zu ermöglichen.\n\nEs ist diese biologische Aktivität, die die Bodengesundheit antreibt.",
-      "illustration_description": "Illustration pédagogique pour Tous ces éléments interagissent ensemble pour régénérer le sol, le garder en bonne santé, le maintenir humide,",
+      "title": "Die biologische Aktivität als Motor der Fruchtbarkeit",
+      "text": "All diese Elemente wirken zusammen, um den Boden zu regenerieren, gesund zu halten und **feucht, gut durchlüftet und stabil** zu erhalten, damit die Pflanzen wachsen können.\n\nDiese **biologische Aktivität** ist der Motor der Bodenfruchtbarkeit.",
+      "illustration_description": "Illustration pédagogique pour L’activité biologique, moteur de la fertilité",
       "image": "assets/images/maraichage/201_sols_vivants/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Wie das Beetsystem",
-      "text": "DEN BODEN LEBENDIG UND SOMIT FRUCHTBAR HÄLT?",
-      "illustration_description": "Illustration pédagogique pour COMMENT LE SYSTÈME DES PLANCHES DE CULTURES",
+      "title": "Wie hält das System der Kulturbeete den Boden lebendig?",
+      "text": "Sehen wir nun, wie die Anlage **dauerhafter Kulturbeete** mit **gemulchten Wegen** dieses biologische Leben erhält und den Boden fruchtbar macht.",
+      "illustration_description": "Illustration pédagogique pour Comment le système des planches de culture maintient le sol vivant ?",
       "image": "assets/images/maraichage/201_sols_vivants/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "Anfangs ist das Beet mit einer dünnen Schicht fruchtbarer Erde bedeckt. Durch das Ausheben der Wege wird diese Erde",
-      "text": "auf die Beete verlagert. Dadurch wird die gesamte fruchtbare Erde dort konzentriert, wo die Pflanzen wachsen werden.",
-      "illustration_description": "Illustration pédagogique pour Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les passe-pieds, on déplace cette",
+      "title": "Fruchtbare Erde auf den Beeten konzentrieren",
+      "text": "Zu Beginn ist die Parzelle mit einer dünnen Schicht fruchtbarer Erde bedeckt. Beim Ausheben der **Wege** wird diese Erde auf die **Kulturbeete** verlagert.\n\nSo konzentriert sich die gesamte fruchtbare Erde dort, wo die Pflanzen wachsen werden.",
+      "illustration_description": "Illustration pédagogique pour Concentrer la terre fertile sur les planches",
       "image": "assets/images/maraichage/201_sols_vivants/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Anfangs ist das Beet mit einer dünnen Schicht fruchtbarer Erde bedeckt. Beim Graben der Wege wird diese Erde",
-      "text": "auf die Beete geschoben. Dadurch wird die gesamte fruchtbare Erde dort konzentriert, wo die Pflanzen wachsen werden.",
-      "illustration_description": "Illustration pédagogique pour Au départ, la parcelle est recouverte d’une fine couche de terre fertile. En creusant les passe-pieds, on déplace cette",
+      "title": "Aufbringen der fruchtbaren Erde auf die Beete",
+      "text": "Zu Beginn ist die Parzelle mit einer dünnen Schicht fruchtbarer Erde bedeckt. Beim Ausheben der **Wege** wird diese Erde auf die **Kulturbeete** verlagert.\n\nSo konzentriert sich die gesamte fruchtbare Erde dort, wo die Pflanzen wachsen werden.",
+      "illustration_description": "Illustration pédagogique pour Mise en place de la terre fertile sur les planches",
       "image": "assets/images/maraichage/201_sols_vivants/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Die Rolle des Mulchens",
-      "text": "Das Mulchen in den Zwischenreihen ist unerlässlich:\n\n* Es speichert Wasser wie ein Schwamm, um den Boden feucht zu halten.\n* Es verlangsamt den Wasserabfluss bei starkem Regen, was die Erosion begrenzt.",
-      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "title": "Die Rolle der Mulchschicht auf den Wegen",
+      "text": "Die **Mulchschicht** auf den Wegen ist unverzichtbar:\n\n- Sie **speichert Wasser** wie ein Schwamm und hält so die Erde feucht.\n- Sie **bremst den Wasserabfluss** bei Starkregen und begrenzt dadurch die Erosion.",
+      "illustration_description": "Illustration pédagogique pour Le rôle du paillage dans les passe-pieds",
       "image": "assets/images/maraichage/201_sols_vivants/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "Die Rolle des Mulchens",
-      "text": "Das Mulchen in den Zwischenreihen ist unerlässlich:\n\n*   Es speichert Wasser wie ein Schwamm, um den Boden feucht zu halten.\n*   Es verlangsamt den Wasserabfluss bei starkem Regen, was die Erosion begrenzt.",
-      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "title": "Der Mulch, ein Schwamm, der Wasser speichert",
+      "text": "Die **Mulchschicht** auf den Wegen ist unverzichtbar:\n\n- Sie **speichert Wasser** wie ein Schwamm und hält so die Erde feucht.\n- Sie **bremst den Wasserabfluss** bei Starkregen und begrenzt dadurch die Erosion.",
+      "illustration_description": "Illustration pédagogique pour Le paillage, une éponge qui retient l’eau",
       "image": "assets/images/maraichage/201_sols_vivants/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "Die Rolle des Mulchens",
-      "text": "Das Mulchen in den Zwischenreihen ist essenziell:\n\n* Es speichert Wasser wie ein Schwamm, um den Boden feucht zu halten.\n* Es verlangsamt den Wasserabfluss bei starkem Regen, was die Erosion begrenzt.",
-      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "title": "Der Mulch gegen Erosion",
+      "text": "Die **Mulchschicht** auf den Wegen ist unverzichtbar:\n\n- Sie **speichert Wasser** wie ein Schwamm und hält so die Erde feucht.\n- Sie **bremst den Wasserabfluss** bei Starkregen und begrenzt dadurch die Erosion.",
+      "illustration_description": "Illustration pédagogique pour Le paillage contre l’érosion",
       "image": "assets/images/maraichage/201_sols_vivants/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "Die Rolle des Mulchens",
-      "text": "Das Mulchen in den Zwischenreihen ist unerlässlich:\n\n* Es speichert Wasser wie ein Schwamm, um den Boden feucht zu halten.\n* Es verlangsamt den Wasserabfluss bei starkem Regen, was die Erosion begrenzt.",
-      "illustration_description": "Illustration pédagogique pour Le rôle du paillage",
+      "title": "Feuchtigkeit und Bodenstruktur dank Mulch erhalten",
+      "text": "Die **Mulchschicht** auf den Wegen ist unverzichtbar:\n\n- Sie **speichert Wasser** wie ein Schwamm und hält so die Erde feucht.\n- Sie **bremst den Wasserabfluss** bei Starkregen und begrenzt dadurch die Erosion.",
+      "illustration_description": "Illustration pédagogique pour Préserver l’humidité et la structure grâce au paillage",
       "image": "assets/images/maraichage/201_sols_vivants/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "Die Rolle von Mikroorganismen und",
-      "text": "Insekten\n\n- Mikroorganismen (Bakterien und filamentöse Pilze) ernähren sich von der Mulchschicht.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "Die Rolle der Mikroorganismen im Mulch",
+      "text": "Die **Mikroorganismen** (Bakterien und fadenförmige Pilze) ernähren sich vom **Mulch**, der auf den Wegen ausgebracht wurde.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes sur le paillage",
       "image": "assets/images/maraichage/201_sols_vivants/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "Die Rolle von Mikroorganismen und",
-      "text": "Insekten. Sie dienen als Nahrung für Asseln, Insekten (Termiten, Spinnen, Tausendfüßer…) und Regenwürmer.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "Die Nahrungskette der Bodenfauna",
+      "text": "Die Mikroorganismen dienen als Nahrung für **Asseln**, **Insekten** (Termiten, Ameisen …), **Spinnen**, **Tausendfüßer** und **Regenwürmer**.",
+      "illustration_description": "Illustration pédagogique pour La chaîne alimentaire de la faune du sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_21.jpg"
     },
     {
       "page_number": 22,
-      "title": "Die Rolle von Mikroorganismen und",
-      "text": "Insekten. All diese Organismen sind am Abbau des Mulchs zu Kompost beteiligt. Man spricht hierbei von Oberflächenkompost in den Fahrgassen. Die Ausscheidungen und Kadaver der Mikroorganismen und Insekten zersetzen sich und ernähren ihrerseits den Kompost.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "Die Bildung von Oberflächenkompost",
+      "text": "All diese Organismen tragen dazu bei, den Mulch zu Kompost zu zersetzen. Man spricht daher von **Oberflächenkompost** auf den Wegen.\n\nDie Exkremente und die abgestorbenen Körper der Mikroorganismen und der Bodenfauna zersetzen sich und ernähren ihrerseits den Kompost.",
+      "illustration_description": "Illustration pédagogique pour La formation du compost de surface",
       "image": "assets/images/maraichage/201_sols_vivants/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "Die Rolle von Mikroorganismen und",
-      "text": "Insekten. Durch das Graben von Gängen erleichtern Regenwürmer und Termiten auch die Zirkulation von Luft und Wasser und helfen den Pflanzenwurzeln, ihren Weg zu finden.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "Die Durchlüftung des Bodens durch Gänge",
+      "text": "Durch das Graben von Gängen erleichtern **Regenwürmer** und **Termiten** außerdem die Zirkulation von Luft und Wasser und helfen den Pflanzenwurzeln, ihren Weg zu finden.",
+      "illustration_description": "Illustration pédagogique pour L’aération du sol grâce aux galeries",
       "image": "assets/images/maraichage/201_sols_vivants/page_23.jpg"
     },
     {
       "page_number": 24,
-      "title": "Die Rolle von Mikroorganismen und",
-      "text": "Insekten. Der Abbau organischer Substanz setzt mineralische Elemente frei, die sich zu den bereits im Boden vorhandenen und für das Pflanzenwachstum unerlässlichen Elementen gesellen.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "Die Freisetzung der Mineralstoffe",
+      "text": "Beim Abbau der **organischen Substanz** werden **Mineralstoffe** freigesetzt, die zu den bereits im Boden vorhandenen hinzukommen und für das Pflanzenwachstum unerlässlich sind.",
+      "illustration_description": "Illustration pédagogique pour La libération des éléments minéraux",
       "image": "assets/images/maraichage/201_sols_vivants/page_24.jpg"
     },
     {
       "page_number": 25,
-      "title": "Die Rolle von Mikroorganismen und",
-      "text": "Insekten. Stickstoff fördert die Entwicklung von Blättern, Phosphor die von Wurzeln, Kalium wirkt auf Fruchtgemüse, aber auch Kalzium, Magnesium, Eisen und andere Spurenelemente sind essenziell für das gute Wachstum und die Gesundheit der Pflanze.",
-      "illustration_description": "Illustration pédagogique pour Le rôle des micro-organismes et",
+      "title": "Wesentliche Mineralstoffe und Spurenelemente",
+      "text": "Jeder im Boden freigesetzte Nährstoff erfüllt eine bestimmte Aufgabe:\n\n- **Stickstoff (N)** fördert die Entwicklung der Blätter.\n- **Phosphor (P)** fördert die der Wurzeln.\n- **Kalium (K)** fördert die der Blüten und Früchte.\n\nDer Boden liefert außerdem **Calcium**, **Magnesium**, **Eisen** und weitere **Spurenelemente**, die für das gute Wachstum und die Gesundheit der Pflanze wesentlich sind.",
+      "illustration_description": "Illustration pédagogique pour Les éléments minéraux et oligo-éléments essentiels",
       "image": "assets/images/maraichage/201_sols_vivants/page_25.jpg"
     },
     {
       "page_number": 26,
-      "title": "Wie Pflanzen auch zur biologischen Aktivität des Bodens beitragen und ihn schützen?",
-      "text": "Die biologische Aktivität des Bodens ist ein komplexes Zusammenspiel von Mikroorganismen, Bodentieren und Pflanzenwurzeln. Pflanzen spielen dabei eine entscheidende Rolle, indem sie:\n\n- **Organische Substanz liefern**: Abgestorbene Pflanzenreste wie Blätter, Stängel und Wurzeln werden von Bodenorganismen zersetzt und tragen zur Bildung von Humus bei. Humus verbessert die Bodenstruktur, erhöht die Wasserspeicherfähigkeit und liefert Nährstoffe für Pflanzen.\n- **Wurzelexsudate abgeben**: Pflanzenwurzeln scheiden eine Vielzahl von organischen Verbindungen (Zucker, Aminosäuren, Enzyme) in den Boden aus, die als Nahrung für Mikroorganismen dienen. Diese Mikroorganismen wiederum helfen den Pflanzen bei der Nährstoffaufnahme und schützen sie vor Krankheiten.\n- **Bodenstruktur verbessern**: Das Wurzelwachstum lockert den Boden auf und schafft Kanäle für Wasser und Luft. Dies fördert die Aktivität von Bodenorganismen und verbessert die Durchwurzelbarkeit des Bodens.\n- **Erosion verhindern**: Die Wurzeln der Pflanzen halten den Boden zusammen und schützen ihn vor Wind- und Wassererosion. Eine dichte Vegetationsdecke reduziert den Oberflächenabfluss und verhindert den Verlust von fruchtbarem Oberboden.\n- **Nährstoffkreisläufe schließen**: Pflanzen nehmen Nährstoffe aus dem Boden auf und speichern sie in ihrer Biomasse. Wenn Pflanzen absterben und zersetzt werden, werden diese Nährstoffe wieder freigesetzt und stehen anderen Pflanzen zur Verfügung. Dies trägt zu einem geschlossenen Nährstoffkreislauf bei und reduziert den Bedarf an externen Düngemitteln.\n\nDurch diese vielfältigen Beiträge tragen Pflanzen maßgeblich zur Gesundheit und Fruchtbarkeit des Bodens bei und sind somit ein unverzichtbarer Bestandteil nachhaltiger Anbausysteme.",
-      "illustration_description": "Illustration pédagogique pour COMMENT LES PLANTES PARTICIPENT AUSSI À",
+      "title": "Wie tragen die Pflanzen zur biologischen Aktivität des Bodens bei?",
+      "text": "Die Pflanzen entnehmen dem Boden nicht nur etwas: Sie ernähren ihrerseits das **biologische Leben** und schützen die Erde.",
+      "illustration_description": "Illustration pédagogique pour Comment les plantes participent à l’activité biologique du sol ?",
       "image": "assets/images/maraichage/201_sols_vivants/page_26.jpg"
     },
     {
       "page_number": 27,
-      "title": "Sobald die Pflanzen gewachsen sind, schützen sie den Boden vor Sonne und Wind.",
-      "text": "Sobald die Pflanzen gewachsen sind, schützen sie den Boden vor Sonne und Wind.",
-      "illustration_description": "Illustration pédagogique pour Une fois que les plantes ont poussée elles protègent le sol du soleil et du vent.",
+      "title": "Der Schutz des Bodens durch das Blattwerk",
+      "text": "Sobald die Pflanzen herangewachsen sind, **schützen sie den Boden vor Sonne und Wind** und begrenzen so die Austrocknung und Degradation der Erde.",
+      "illustration_description": "Illustration pédagogique pour La protection du sol par le feuillage",
       "image": "assets/images/maraichage/201_sols_vivants/page_27.jpg"
     },
     {
       "page_number": 28,
-      "title": "Photosynthese",
-      "text": "Der obere Teil der Pflanzen interagiert mit Licht. Die Photosynthesereaktion produziert Zucker, der Pilze und Bakterien im Boden ernährt.",
-      "illustration_description": "Illustration pédagogique pour PHOTOSYNTHÈSE",
+      "title": "Die Photosynthese ernährt das Bodenleben",
+      "text": "Der oberirdische Teil der Pflanzen reagiert mit dem Licht. Durch die **Photosynthese** wird Zucker gebildet, der die **Pilze** und **Bakterien** im Boden ernährt.",
+      "illustration_description": "Illustration pédagogique pour La photosynthèse nourrit la vie du sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_28.jpg"
     },
     {
       "page_number": 29,
-      "title": "Im Austausch für den Zucker, den sie ihnen liefert, fungieren einige Pilze als Mund für die Pflanze: Sie",
-      "text": "nehmen an ihrer Stelle Nährstoffe aus dem Boden auf. Diese Win-Win-Beziehung wird als Symbiose bezeichnet. Wenn sie zwischen einer Pflanze und einem Pilz stattfindet, spricht man von Mykorrhiza.",
-      "illustration_description": "Illustration pédagogique pour En échange du sucre qu’elle leur fournit , certains champignons agissent comme une bouche pour la plante : ils",
+      "title": "Symbiose und Mykorrhiza",
+      "text": "Im Austausch gegen den von der Pflanze gelieferten Zucker fungieren manche Pilze wie ein Mund für sie: Sie nehmen anstelle der Pflanze die Nährstoffe aus dem Boden auf.\n\nDiese Beziehung, von der beide profitieren, nennt man **Symbiose**. Entsteht sie zwischen einer Pflanze und einem Pilz, spricht man von **Mykorrhiza**.",
+      "illustration_description": "Illustration pédagogique pour Symbiose et mycorhize",
       "image": "assets/images/maraichage/201_sols_vivants/page_29.jpg"
     },
     {
       "page_number": 30,
-      "title": "Pflanzen nutzen Wasser und Nährstoffe, die in den Trittsteinen gespeichert sind. Um darauf zuzugreifen, erweitern sie ihr",
-      "text": "Wurzelsystem. Die Wurzeln stabilisieren den Boden, schützen ihn vor Erosion und Auswaschung durch starke Regenfälle.",
-      "illustration_description": "Illustration pédagogique pour Les plantes profitent de l’eau et des nutriments stockés dans les passe-pieds. Pour y accéder elles élargissent leur",
+      "title": "Die stabilisierende Rolle der Wurzeln",
+      "text": "Die Pflanzen nutzen das Wasser und die Nährstoffe, die in den **Wegen** gespeichert sind. Um darauf zuzugreifen, erweitern sie ihr Wurzelsystem.\n\nDie **Wurzeln** stabilisieren den Boden und schützen ihn vor Erosion und Auswaschung durch starke Regenfälle.",
+      "illustration_description": "Illustration pédagogique pour Le rôle stabilisateur des racines",
       "image": "assets/images/maraichage/201_sols_vivants/page_30.jpg"
     },
     {
       "page_number": 31,
-      "title": "Nach der Ernte zersetzen sich die im Boden verbleibenden Wurzeln und tragen zur Bereicherung des Bodens bei",
-      "text": "organischer Substanz, die die Mikroorganismen ernährt. Bei bestimmten Kulturen können die Wurzeln mehrere Kilometer lang werden: Die organische Substanz, die sie bei ihrer Zersetzung liefern, ist also nicht unerheblich!",
-      "illustration_description": "Illustration pédagogique pour Une fois la récolte passée, les racines qui restent dans le sol se décomposent et participent à enrichir le sol en",
+      "title": "Der Abbau der Wurzeln nach der Ernte",
+      "text": "Nach der Ernte zersetzen sich die im Boden verbleibenden Wurzeln und reichern den Boden mit **organischer Substanz** an, die die Mikroorganismen ernährt.\n\nBei manchen Kulturen können die Wurzeln mehrere Kilometer lang werden: Die organische Substanz, die sie beim Abbau liefern, ist also nicht zu unterschätzen!",
+      "illustration_description": "Illustration pédagogique pour La décomposition des racines après la récolte",
       "image": "assets/images/maraichage/201_sols_vivants/page_31.jpg"
     },
     {
       "page_number": 32,
-      "title": "Ernterückstände liefern organische Substanz. Je nach Menge können wir sie entweder in unsere",
-      "text": "Kompostieranlage geben, um Kompost zu erhalten, oder unter die Mulchschicht der Fahrgassen für einen Flächenkompost.",
-      "illustration_description": "Illustration pédagogique pour Les résidus de récoltes fournissent de la matière organique. Selon la quantité, on peut l’ajouter soit dans notre",
+      "title": "Ernterückstände verwerten",
+      "text": "**Ernterückstände** liefern organische Substanz. Je nach Menge kann man sie:\n\n- entweder auf dem **Komposthaufen** zu Kompost verarbeiten;\n- oder unter den Mulch der **Wege** geben, um einen **Oberflächenkompost** zu bilden.",
+      "illustration_description": "Illustration pédagogique pour Valoriser les résidus de récolte",
       "image": "assets/images/maraichage/201_sols_vivants/page_32.jpg"
     },
     {
       "page_number": 33,
-      "title": "Bevor eine neue Kultur angebaut wird, kann dieser Kompost oberflächlich und unverdichtet ausgebracht werden, um die Bodenstruktur nicht zu bee  ",
-      "text": "beschädigen und dem Bodenleben Raum zur Entfaltung zu geben.",
-      "illustration_description": "Illustration pédagogique pour Avant de lancer une nouvelle culture, ce compost pourra être déposé en surface sans être tassé, pour ne pas",
+      "title": "Kompost ausbringen, ohne den Boden zu verdichten",
+      "text": "Vor dem Start einer neuen Kultur kann dieser **Kompost** oberflächlich ausgebracht werden, ohne ihn festzudrücken, um die Bodenstruktur nicht zu schädigen und dem Leben Raum zur Entfaltung zu lassen.",
+      "illustration_description": "Illustration pédagogique pour Déposer le compost sans tasser le sol",
       "image": "assets/images/maraichage/201_sols_vivants/page_33.jpg"
     },
     {
       "page_number": 34,
-      "title": "X3",
-      "text": "Die Technik des **biointensiven Gemüseanbaus** in lebendigem Boden mit **permanenten Beeten** und **Mulchen** ermöglicht es, die Bodenfruchtbarkeit zu verbessern und gleichzeitig die Gemüseproduktion im Vergleich zu konventionellen Methoden zu verdreifachen.",
-      "illustration_description": "Illustration pédagogique pour X3",
+      "title": "Die Produktion dank lebendigem Boden verdreifachen",
+      "text": "Die Technik des **bio-intensiven Gemüsebaus auf lebendigem Boden** mit dauerhaften Beeten und Mulch verbessert die Bodenfruchtbarkeit und **verdreifacht (× 3)** zugleich die Gemüseproduktion im Vergleich zu konventionellen Methoden.",
+      "illustration_description": "Illustration pédagogique pour Tripler la production grâce au sol vivant",
       "image": "assets/images/maraichage/201_sols_vivants/page_34.jpg"
     },
     {
       "page_number": 35,
-      "title": "Die Anbaumethode der Dauerbeete hat viele Vorteile: Durch die Bodenschonung können",
-      "text": "die **Einsatzmengen** an Kompost und organischem Material reduziert und somit **Kosten gespart** werden, während gleichzeitig die **Produktivität gesteigert** und **gesunde Lebensmittel** produziert werden.",
-      "illustration_description": "Illustration pédagogique pour La technique des planches de culture a beaucoup d’avantages : en préservant le sol, elle permet de réduire les",
+      "title": "Fazit: die Vorteile der Kulturbeete",
+      "text": "Die Technik der **Kulturbeete** hat viele Vorteile: Indem sie den Boden schont, ermöglicht sie es, den Einsatz von Kompost und organischer Substanz zu verringern und somit **Kosten zu sparen**, während sie gleichzeitig die **Produktivität** steigert und **gesunde Nahrungsmittel** hervorbringt.",
+      "illustration_description": "Illustration pédagogique pour Conclusion : les bénéfices des planches de culture",
       "image": "assets/images/maraichage/201_sols_vivants/page_35.jpg"
     }
   ],
-  "course_code": "M2.1"
+  "course_code": "M2.1",
+  "media": [
+    {
+      "id": "nXoMi9If_C8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nXoMi9If_C8",
+      "title": "Podcast 22 - Pesticides, vie du sol et vers de terre",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "TMFZCWG1Y2w",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TMFZCWG1Y2w",
+      "title": "Maraîchage bio-intensif – Épisode 9 : Pesticides et nouvelles pratiques",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

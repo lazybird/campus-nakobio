@@ -1,144 +1,154 @@
 {
   "id": "202_leau_et_les_plantes",
-  "title": "Jii ni Kuma",
-  "category": "Seerew & Dugukolo",
-  "summary": "Jii bɛ taa cogo di kuma kɔnɔ, jii fɛɛrɛw walima jii caman fɛɛrɛw dɔnni, ani jii dilanni ka nɔgɔya walasa ka nɔgɔya mara yɔrɔ jii caman bɛ yɛlɛn.",
+  "title": "Ji ni turafɛnw",
+  "category": "Jukɔrɔlɔn ni Dugukolo",
+  "summary": "Ji bɛ tɛmɛ turafɛnw kɔnɔ cogo min na, ka jidɛsɛ walima jikokojugu taamasiyɛnw dɔn, ani ka jidon cogo ɲuman kɛ walasa ka dugukolo sumaya mara funteni waati.",
   "total_pages": 19,
   "cover_image": "assets/images/maraichage/202_leau_et_les_plantes/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "Modulu in b'a dɔnni ye i ka dɔnniya bonya ko ji bɛ don jiri kɔnɔ cogo min, a bɛ taa a fɛ cogo min, ani a bɛ bɔ a la cogo min.",
-      "text": "A b'i dɔnniya bonya fana i ka **foroba ji donni** kan, ka dɔn ni ji ka ca jiri la walima ni ji ma ca a la, ani ka ji sigi duguma ni **fɛɛrɛ nɔgɔmanw** ye.",
-      "illustration_description": "Illustration pédagogique pour Ce module vous aide à comprendre comment l’eau entre, circule et ressort de la plante.",
+      "title": "Kalan ɲɛfɔli : ji ni turafɛnw",
+      "text": "Nin kalan in bɛ i dɛmɛ ka a faamu **ji** bɛ don, ka tɛmɛ, ani ka bɔ turafɛn kɔnɔ cogo min na.\n\nA bɛ i kalan fana i ka sɛnɛfɛnw **jidon** cogo ɲuman na, ka a dɔn n'a sɔrɔla turafɛn dɔ ji man di walima a ka ca a kan kojugu, ani ka dugukolo sumaya mara ni pɛɛri nɔgɔmanw ye.",
+      "illustration_description": "Illustration pédagogique pour Présentation du module : l’eau et les plantes",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "Ji ni kongodenw",
-      "text": "JI NI KONGODENW",
-      "illustration_description": "Illustration pédagogique pour L’EAU ET LES PLANTES",
+      "title": "Ji ni turafɛnw",
+      "text": "**Ji** nafa bɛ min na sɛnɛfɛnw baloli la, o dɔn, ani kɛcogo ɲumanw walasa ka dugukolo sumaya mara.",
+      "illustration_description": "Illustration pédagogique pour L’eau et les plantes",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "Joli min ye ji bɛ taa cogo di?",
-      "text": "Joli min ye ji bɛ taa cogo di?",
+      "title": "Ji bɛ tɛmɛ turafɛn kɔnɔ cogo di ?",
+      "text": "An ka **ji** taama kɔlɔsi, ka bɔ lilinw na ka taa se furaw ma, walasa ka a faamu turafɛn bɛ a yɛrɛ balo ani ka a yɛrɛ ka funteni ladilan cogo min na.",
       "illustration_description": "Illustration pédagogique pour Comment l’eau circule dans la plante ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "Jì",
-      "text": "Jì b’a dòn ka **dugukolo-jɛnman** nɔgɔn-nɔgɔnba dɔw jigin, i n’a fɔ **azɔti**, **fɔsifɔri**, **pɔtasɔmu**, **kalisiyɔmu**. O cogo kelen na, jì bɛ **oligoeliman** dɔw fana jigin i n’a fɔ **bɔri**, **zɛnki**, ni dɔw wɛrɛw. \n\nNɔgɔn-nɔgɔnba ninnu bɛ baara kɛ kosɛbɛ **fotosɛntɛzi** ni yiri ka baara kɛrɛnkɛrɛnnen wɛrɛw la.",
-      "illustration_description": "Illustration pédagogique pour P",
+      "title": "Dugukolo ɲɛnamayafɛnw ni ɲɛnamayafɛn misɛnninw taamali",
+      "text": "Ji bɛ dɛmɛ ka **dugukolo ɲɛnamayafɛnw** taama, i n'a fɔ **azɔti (N)**, **fosifɔri (P)**, **potasiyɔmu (K)**, **kalisiyɔmu (Ca)**, **maɲeziyɔmu (Mg)** ani **nɛgɛ (Fe)**.\n\nO cogo kelen na, ji bɛ **ɲɛnamayafɛn misɛnninw** fana taama, i n'a fɔ bɔri (bore), zɛnki (zinc), ani dɔ wɛrɛw. Nin fɛnw nafa ka bon kosɛbɛ **fotosintɛzi** (tile ye fɛn min kɛ ka balo dilan) ani turafɛn ka ɲɛnamaya baara wɛrɛw la.",
+      "illustration_description": "Illustration pédagogique pour Le transport des éléments minéraux et oligo-éléments",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "Ji bɔli ni ji taama",
-      "text": "Ji donna yiri kɔnɔ a jijiw fɛ. A bɛ dugukolo kɔnɔko minnu bɛ sɔrɔ, olu lafili a fɛ.\nJi bɛ gɛn ka taa yiri bla la, a bɛ taama ji-sɛgɛn-yɔrɔ dɔw kɔnɔ minnu bɛ wele ko **xylèmes**.\n\nTaama in bɛ se ka kɛ n’o kɛra sababu ye ko: **ji bɔli**.\n\nJi bɔli, o ye ji fili ye:\n- yiri bla fɛ, a bɛ bɔ yɔrɔ fitininw dɔw fɛ minnu bɛ wele ko **stomates** (o tuma o bɛ wele ko ji bɔli);\n- ani dugukolo fɛ, a bɛ bɔ ni nɛnɛ ye.\n\nNi ji bɔra stomates fɛ, o bɛ kɛ ka kɛɲɛ ni ji-bɔlan ye: yiri bɛ ji bɔ a jijiw fɛ walasa ka ji fili in laban, o bɛ ji ni dumuni-ko bɛɛ taama yiri kɔnɔ.",
-      "illustration_description": "Illustration pédagogique pour Transpiration",
+      "title": "Ji wulili ni a bɔli furaw fɛ ani ji taamali",
+      "text": "Ji bɛ don turafɛn kɔnɔ a **lilinw** fɛ. A bɛ dugukolo ɲɛnamayafɛnw taa n'a yɛrɛ ye ka yɛlɛ furaw ma, ka tɛmɛ tuyau misɛnninw kɔnɔ minnu bɛ wele ko **xilɛmuw (xylèmes)**.\n\nNin taama in bɛ se ka kɛ fɛn nafama dɔ barika la : **ji wulili ni a bɔli furaw fɛ (évapotranspiration)**. O ye ji bɔli ye turafɛn na :\n\n- furaw fɛ, ka tɛmɛ da misɛnninw fɛ minnu bɛ wele ko **sitomatiw (stomates)** (o bɛ wele ko **wosili**) ;\n- ani dugukolo fɛ, ji bɛ wuli ka kɛ **sisi ye (évaporation)**.\n\nNi ji bɔra sitomatiw fɛ, o bɛ minnili kɛ, i n'a fɔ pɔnpi. Turafɛn bɛ ji minni ka bɔ lilinw na walasa ka o bɔlen nɔ fa : o de bɛ ji lataama turafɛn fan bɛɛ la.",
+      "illustration_description": "Illustration pédagogique pour L’évapotranspiration et la circulation de l’eau",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Jìdiɲɛ-kɔnɔ-jì-cɛɲɛ",
-      "text": "Jì-cɛɲɛ-fanga\n\nFɛn wɛrɛw b'a dɛmɛ ka jì-cɛɲɛ kɛ:\n\n- **Jì-cɛɲɛ-fanga**: b'a sùn ka jì ta ka segin san fɛ.\n\n- **Jìdiɲɛ-kɔnɔ-jì-cɛɲɛ**: b'a to jì bɛ se ka taa san fɛ yiriw ka jì-cɛɲɛ-yɔrɔw kɔnɔ.\n\nO siratigɛ in ka fisa yiriw ye, janko u ka se ka jì ni fɛnɲɛnɛw ta minnu ka fisa u ye.",
-      "illustration_description": "Illustration pédagogique pour Capillarité",
+      "title": "Lilinw ka digili ani kapilarite",
+      "text": "Fɛn wɛrɛw bɛ dɛmɛ ka nin pɔnpili baara in kɛ :\n\n- **Lilinw ka digili** : a bɛ ji gɛn ka yɛlɛ san fɛ.\n- **Kapilarite (capillarité)** : a bɛ a to ji bɛ yɛlɛ xilɛmuw kɔnɔ.\n\nNin cogo in nafa ka bon walasa turafɛn ka se ka ji ni balofɛnw taama minnu mako b'a la.",
+      "illustration_description": "Illustration pédagogique pour Pression racinaire et capillarité",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Nka ni **evapotranspiration** ka bon kosɛbɛ (ni **hɛrɛ** ka bon, ni **fɛn** ka bon, ni **jɔrɔn** ka bon), **yiri** bɛ se ka **ji** bɔ kosɛbɛ",
-      "text": "ka **ji** bɔ kosɛbɛ… ka **ji** bɔ a la.",
-      "illustration_description": "Illustration pédagogique pour Mais si l’évapotranspiration devient trop forte (en cas de chaleur, vent, sécheresse), la plante peut perdre trop",
+      "title": "Jija farati",
+      "text": "⚠️ **Kɔlɔsili** : ni **ji wulili ni a bɔli furaw fɛ** tɛmɛna a dan kan (funteni, fiɲɛ walima tilenba waati), turafɛn bɛ se ka ji caman bɔ a la... ka **ja (déshydrater)**.",
+      "illustration_description": "Illustration pédagogique pour Le risque de déshydratation",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "A laban, yiri bilen ye i n'a fɔ an ka golo:",
-      "text": "A bɛ nɛnɛ kɛ ni wulilen dɔgɔmanw ye minnu tɛ yɛlɛn, i n'a fɔ golo ka wulilenw.\n\nA bɛ ji bɔ, i n'a fɔ nɛnɛ. Ni sogow ka jajuya walima ka gɛlɛn, a bɛ ji bɔ kosɛbɛ, i n'a fɔ an ni an bɛ nɛnɛ kosɛbɛ.\n\nNi an ka gɛlɛn kosɛbɛ walima an ma ji min ka ca, an bɛ kɛ fariɲɛ ye: o kelen de ye yiri fana ye!",
-      "illustration_description": "Illustration pédagogique pour Finalement, la feuille de la plante c’est un peu comme notre peau :",
+      "title": "Turafɛn fura, i n'a fɔ an fari golo",
+      "text": "A laban na, turafɛn fura bɛ i n'a fɔ an fari golo :\n\n- A bɛ ninakili da misɛnninw fɛ minnu tɛ ye, i n'a fɔ fari golo da misɛnninw.\n- A bɛ ji bɔ, i n'a fɔ wosiji. Ni fiɲɛ jalen don walima funteni bɛ, a bɛ ji caman bɔ a la, i n'a fɔ anw bɛ wosi kosɛbɛ cogo min na.\n- Ni funteni bɛ an na kojugu walima an ma ji min ka fa, an bɛ sɛgɛ : o kelen de bɛ turafɛn fana na !",
+      "illustration_description": "Illustration pédagogique pour La feuille de la plante, comme notre peau",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "I n'a fɔ ko an ka **fari** ye, **yiri-bara** bɛɛ ka kan ka **lakana** :",
-      "text": "- ka bɔ **ji-baara** la.",
-      "illustration_description": "Illustration pédagogique pour Et comme notre peau, la feuille a besoin d’être protégée :",
+      "title": "Ka fura tanga tiɲɛnni ma",
+      "text": "I n'a fɔ an fari golo, fura mako bɛ tangali la :\n\n- **tile gwan** ma ;\n- **fiɲɛ** ma ;\n- **jidɛsɛ** ma.",
+      "illustration_description": "Illustration pédagogique pour Protéger la feuille des agressions",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "Jii-ɲinini bɛ kɛ ka kɛɲɛ ni mun ye?",
-      "text": "Jii-ɲinini bɛ kɛ ka kɛɲɛ ni mun ye?",
-      "illustration_description": "Illustration pédagogique pour Qu’est ce qui influence les besoins en eau ?",
+      "title": "Mun de bɛ nɔ bila jidɛsɛ la ?",
+      "text": "Sɛnɛfɛnw bɛɛ mako tɛ ji hakɛ kelen na : an ka **sabu duuru** dɔn minnu bɛ ji hakɛ mako yɛlɛma.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce qui influence les besoins en eau ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "A ka sigi",
-      "text": "- **Paillage** ka sigi **Aw ka bin ye ji-barakɛcogo ye** **JI-BARAKƐCOGOW BƐ KAN KAN** **A ka bonya cogoya** **Dugu** **Aw ka bin**: bin dɔw bɛ ji caman ɲini ni tɔw ye.\n\n**A ka bonya cogoya**: bin fitini bɛ ji caman ɲini.\n\n**Bɔgɔ dugu** bɛ ji mara, nka **cɛnɛ dugu** bɛ ji bila ka taa.\n\n**Jololi**, **fɛn**, **kɔgɔya** n'a bɛ kɔgɔya cogo min na.\n\n**Paillage**, **compost** ani **charbon** ka sigi dugu kɔnɔ.\n\n**Samiyɛ**",
-      "illustration_description": "Illustration pédagogique pour La présence",
+      "title": "Sabu minnu bɛ ji mako latigɛ",
+      "text": "Ji mako bɛ bɔ fɛn minnu na :\n\n- **Sɛnɛfɛn** : turafɛn dɔw mako bɛ ji la ka tɛmɛ dɔw kan.\n- **Yiriwali waati** : turafɛn fitinin mako bɛ ji la kosɛbɛ.\n- **Dugukolo** : bɔgɔ dugu bɛ ji mara, nka cɛncɛn dugu bɛ ji to a ka tɛmɛ.\n- **Banjugu (météo)** : funteni, fiɲɛ, fiɲɛ sumaya.\n- **Bin datugun (paillage)**, kompɔsi ani kɛmɛ sɔrɔli dugukolo kɔnɔ.",
+      "illustration_description": "Illustration pédagogique pour Les facteurs qui déterminent les besoins en eau",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "Maji-ɲɛnajalan kɔrɔw ye minnu ye, olu dɔnni?",
-      "text": "Maji-ɲɛnajalan kɔrɔw ye minnu ye, olu dɔnni?\n\n- **Jolilen:** Kungo ka teli ka jolilen. A ka teli ka kɛ ni tilen-ɲɛ ka bon ye, walima ni ji ma sɔrɔ ka se a ma.\n- **Yelen-ɲɛ:** Kungo yelen-ɲɛ ka teli ka kɛ kɔnɔna-yelen-ɲɛ ye, nka a bɛ se ka kɛ yelen-ɲɛ-ɲɛ ye fana.\n- **Jolilen-ɲɛ:** Kungo jolilen-ɲɛ ka teli ka kɛ kɔnɔna-jolilen-ɲɛ ye, nka a bɛ se ka kɛ jolilen-ɲɛ-ɲɛ ye fana.\n- **Kungo-ɲɛ:** Kungo-ɲɛ ka teli ka kɛ kɔnɔna-kungo-ɲɛ ye, nka a bɛ se ka kɛ kungo-ɲɛ-ɲɛ ye fana.\n- **Kungo-ɲɛ-ɲɛ:** Kungo-ɲɛ-ɲɛ ka teli ka kɛ kɔnɔna-kungo-ɲɛ-ɲɛ ye, nka a bɛ se ka kɛ kungo-ɲɛ-ɲɛ-ɲɛ ye fana.\n- **Kungo-ɲɛ-ɲɛ-ɲɛ:** Kungo-ɲɛ-ɲɛ-ɲɛ ka teli ka kɛ kɔnɔna-kungo-ɲɛ-ɲɛ-ɲɛ ye, nka a bɛ se ka kɛ kungo-ɲɛ-ɲɛ-ɲɛ-ɲɛ ye fana.\n- **Kungo-ɲɛ-ɲɛ-ɲɛ-ɲɛ:** Kungo-ɲɛ-ɲɛ-ɲɛ-ɲɛ ka teli ka kɛ kɔnɔna-kungo-ɲɛ-ɲɛ-ɲɛ-ɲɛ ye, nka a bɛ se ka kɛ kungo-ɲɛ-ɲɛ-ɲɛ-ɲɛ-ɲɛ ye fana.",
+      "title": "Jidɛsɛ gɛlɛya taamasiyɛnw bɛ dɔn cogo di ?",
+      "text": "I ka turafɛnw ni i ka dugukolo kɔlɔsi cogo kalan walasa ka **jidɛsɛ** ni **jikokojugu** danfara dɔn joona.",
       "illustration_description": "Illustration pédagogique pour Comment repérer les signes de stress hydrique ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "N'an ye ji ɲininga:",
-      "text": "Dugu be kɔnɔ gbo.\n\nJoliw be nɔgɔya, u be dusu sa, walima u be bin, walima u be nɔnɔya.\n\nƝɛnajalan be gɛlɛya.\n\nN'an ye ji caaya:\n\nJoliw be fɛnɛnɛ hali ni dugu ye nɔgɔ.\n\nSunsun jugu: jijiw be bɔ, ani jijiw be faga.\n\nFɛnɛnɛw walima dɔgɔw be yɛlɛn.",
-      "illustration_description": "Illustration pédagogique pour Si la plante manque d’eau :",
+      "title": "Jidɛsɛ walima jikokojugu : taamasiyɛn minnu bɛ kɔlɔsi",
+      "text": "**Ni ji dɛsɛra turafɛn na :**\n\n- Dugukolo jalen don a jukɔrɔ.\n- Furaw nɔgɔyalen don, u bɛ i n'a fɔ u kɔrɔtɔlen don, u bɛ bin walima ka nɛrɛmu.\n- Yiriwali bɛ kɛ dɔɔni dɔɔni.\n\n**Ni ji ka ca turafɛn kan kojugu :**\n\n- Furaw bɛ ja k'a sɔrɔ dugukolo sumalen don.\n- Kasa jugu : **lilinw tɔlen don walima u ninakili tigɛlen don**.\n- Nɔgɔ (champignons) walima nɔ jugu dɔw bɛ bɔ a la.",
+      "illustration_description": "Illustration pédagogique pour Manque d’eau ou excès d’eau : les signes à observer",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "Jì minni ka ɲi ani ka jii gatira dugukolo kɔnɔ cogo di?",
-      "text": "Jì minni ka ɲi ani ka jii gatira dugukolo kɔnɔ cogo di?",
+      "title": "Jidon cogo ɲuman ani ji mara cogo dugukolo kɔnɔ ?",
+      "text": "An ka kɛcogo nafama dɔw lajɛ walasa ka **jidon ɲɛnabɔ** ani ka ji tiɲɛni dɔgɔya i ka sɛnɛporow kan.",
       "illustration_description": "Illustration pédagogique pour Comment bien arroser et garder l’eau dans le sol ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Sigi ko don, tile ko don, anw sɛbɛn na",
-      "text": "Kɛlɛndon kɔnɔnw ye banhya kɛlɛ don: kɛlɛ, jɛkuluw sɛbɛn, kɔnkɔnw. \n Anw ka fɔlɔfɔlɔ ye humidité dɔn. \n Arroser kɛlɛ k’u bɛ wele ko kɛlɛ don, anw bɛ sɛbɛn na.",
-      "illustration_description": "Illustration pédagogique pour Arroser le matin ou le soir, jamais en plein soleil.",
+      "title": "Jidon kɛcogo ɲumanw",
+      "text": "- **Jidon kɛ sɔgɔmada fɛ walima wula fɛ**, i kana a kɛ tile gwan na abada.\n- **Bin datugu (paillage)** walasa ka ji mara : bin, fura jalenw, fɛn faraw.\n- **Kompɔsi kɛ** walasa ka sumaya mara.\n- **Jidon kɛ ka ɲɛ** walasa dugukolo ka suma a jukɔrɔ, a kana kɛ sanfɛla dɔrɔn ye.",
+      "illustration_description": "Illustration pédagogique pour Les bonnes pratiques d’arrosage",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Mun na i bɛ jikuru don dugukolo kɔnɔ?",
-      "text": "Mun na i bɛ jikuru don dugukolo kɔnɔ?\n\n- **Jikuru** bɛ se ka dugu barika bonya ni a ka dugu-jɛgɛnw ni a ka dugu-jɛgɛnw ka baara kɛcogo ɲɛfɔli ye.\n- A bɛ se ka **dugukolo ka dɔnkilidala** (nutriments) minɛ ani ka u labato, o bɛ se ka dɔnkilidala caman dɛmɛ ka to dugukolo kɔnɔ, ka dɛmɛ don yiriw ka u sɔrɔ ka ɲɛ.\n- A bɛ se ka **dugukolo ka ji minɛcogo** ɲɛfɔ, o bɛ se ka dɛmɛ don yiriw ka to ka ji sɔrɔ hali ni tilen ka gɛlɛn.\n- A bɛ se ka **dugukolo ka jɛgɛnw ka baara** ɲɛfɔ, o bɛ se ka dɛmɛ don yiriw ka dɔnkilidala sɔrɔ ka ɲɛ ani ka dugukolo ka barika bonya.\n- A bɛ se ka **dugukolo ka pH** ɲɛfɔ, o bɛ se ka dɛmɛ don yiriw ka dɔnkilidala sɔrɔ ka ɲɛ.\n- A bɛ se ka **dugukolo ka fɛnɲɛnɛnw** (toxines) minɛ ani ka u labato, o bɛ se ka dɛmɛ don yiriw ka to ka kɛnɛya.\n- A bɛ se ka **dugukolo ka jɛgɛnw ka baara** ɲɛfɔ, o bɛ se ka dɛmɛ don yiriw ka dɔnkilidala sɔrɔ ka ɲɛ ani ka dugukolo ka barika bonya.\n- A bɛ se ka **dugukolo ka fɛnɲɛnɛnw** (toxines) minɛ ani ka u labato, o bɛ se ka dɛmɛ don yiriw ka to ka kɛnɛya.\n- A bɛ se ka **dugukolo ka jɛgɛnw ka baara** ɲɛfɔ, o bɛ se ka dɛmɛ don yiriw ka dɔnkilidala sɔrɔ ka ɲɛ ani ka dugukolo ka barika bonya.\n- A bɛ se ka **dugukolo ka fɛnɲɛnɛnw** (toxines) minɛ ani ka u labato, o bɛ se ka dɛmɛ don yiriw ka to ka kɛnɛya.",
+      "title": "Mun na kɛmɛ bɛ fara dugukolo kan ?",
+      "text": "A dɔn **kɛmɛ susulen (biyosari)** bɛ dɛmɛ kɛ cogo min na ka ji mara ani ka dugukolo nɔgɔya sabati.",
       "illustration_description": "Illustration pédagogique pour Pourquoi ajouter du charbon dans le sol ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "Saa bɔra kɛlɛbɔlen don",
-      "text": "Kɔnɔnte sɔrɔ: Jiri saabu ye \n\nCharbon de bois broyé, charms biochar ye, kojugu ma don o bɔra kɛlɛbɔlen kɔnɔ. \n\nSaa bɔra kɛlɛbɔlen don: Charbon ye ajɛkɛla bɛ bɔra kɛlɛ kɛ, o bɛ se ka bɔra kɛlɛbɔlen kɛ o kɔrɔ. O bɛ kɛlɛ saa jugu muw Cree, e jɔ e kɔtɔnɛ. O tɔgɔ tun bɛ se ka bɔra kɛlɛbɔlen kɔnɔ 5 jamana. \n\nJiri saabu ye: Charbon ye taa ye ka ɲɛnɛjuguw bɔra kɛlɛ la, o kɔnɔnɛw bɔra sɔrɔ fɛɛrɛ la, bactéries et champignons, ɲɛ wɛrɛ ye sɔrɔcɛw ka jugu sɔrɔ. \n\nKɔnɔte sɔrɔ dabɔra don: Charbon ye bɛ se ka sɔrɔ saabu sɛgɛn, kɛlɛbɔlen don, o kɔnɔ bɛ se ka sɔrɔ bɛɛ o bɛ kɛlɛ faama.",
-      "illustration_description": "Illustration pédagogique pour Retient l’eau comme une éponge",
+      "title": "Biyosari nafa dugukolo kɔnɔ",
+      "text": "Kɛmɛ susulen, min bɛ wele ko **biyosari (biochar)**, ye dɛmɛnan ɲuman ye walasa ka :\n\n- **Ji mara** : kɛmɛ bɛ baara kɛ i n'a fɔ eponzi (éponge) min bɛ ji ni balofɛnw mara a dingɛw kɔnɔ. A bɛ sumaya mara, o kɔ a bɛ a bila dɔɔni dɔɔni ni dugukolo jara. A bɛ se ka ji mara min girinya bɛ se **a yɛrɛ girinya siɲɛ 5** ma.\n- **Dugukolo balo (ka dugukolo ɲɛnamaya sabati)** : kɛmɛ bɛ kɛ sigiyɔrɔ ye binkanni ɲɛnamayafɛn misɛnninw fɛ, i n'a fɔ bakiteriw ni nɔgɔw (champignons), minnu bɛ turafɛnw dɛmɛ ka balo ani ka dugukolo ɲɛnamaya sabati.\n- **Turafɛnw ka muɲuli sabati** : kɛmɛ bɛ ji marali ni dugukolo sabatili ɲɛ, o bɛ turafɛnw dɛmɛ ka tilenba muɲu kosɛbɛ.",
+      "illustration_description": "Illustration pédagogique pour Les atouts du biochar dans le sol",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "Ani",
-      "text": "A ka **makala** nɔgɔnlen dɔn, o kɔ ka **yɛlɛn** nɔgɔn, a ka kɛ **wulunba** ye walima **fitini** ye, **1 fo 10 mm** cɛ.\n\nN'i bɛ i ka **kompo** labɛn:\n\nN'i ka **kompo** labɛnnen bɛ yen ka ban:\n\nI ka **makala yɛlɛnnen** dɔ fara a kan, **10 fo 20%** cɛ. I ka **makala fitini** dɔ fara a kan **kɔnɔnɔ** kelen-kelen bɛɛ kan, ka a **jɛnsɛn** ni **jɔnɔba** (yiriden, bɛnɛ...) ani **jɔnɔw** (kɔgɔjɛ, fɔnɔw...). \n\n- **jɔnɔba** bɛɛ la. Misali: **kompo** **karisi** kelen (**80 L**) kama: i ka **makala** **8 fo 16 L** fara a kan, o kɔrɔ ye **kɔnɔnɔ** **1 fo 2** ye.\n\nN'a ka kan ka **nɔgɔn**, i ka a **nɔgɔn**: **makala** bɛ **ji min** kosɛbɛ.\n\nI ka a **jɛnsɛn** kosɛbɛ walasa a ka **jɛnsɛn** yɔrɔ bɛɛ la.\n\nI ka a **ɲɛsin** ka a **mɔn**.",
-      "illustration_description": "Illustration pédagogique pour OU",
+      "title": "Kɛmɛ susulen bɛ kɛ cogo di ?",
+      "text": "**Kɛmɛ sumalen ɲuman** kɛ, o kɔ i b'a susu ka ɲɛ, ka a kɛ mugu ye walima kunkun misɛnninw ye minnu bɛ bɔ **milimɛtiri 1 ka se 10** ma.\n\n- **Ni i bɛ i yɛrɛ ka kompɔsi dilan** : i bɛ se ka kɛmɛ dɔɔni fara a taba bɛɛ kan, k'a ɲagami ni fɛn nɛrɛmuw (furaw, bin...) ani fɛn kɛnɛw (gwa kɔnɔ fɛn tɔw, bin tigɛlenw...), walima k'a kɛ a la ni i bɛ a bɔ yɔrɔ dɔ la ka a kɛ yɔrɔ wɛrɛ la (kalan M3.3.2 lajɛ). A to a ka suma ni mako b'a la (kɛmɛ bɛ ji min kosɛbɛ) ani k'a to a ka mɔ.\n- **Ni kompɔsi mɔlen bɛ i bolo kaban** : kɛmɛ susulen fara a kan, a hakɛ ka kɛ **kɛmɛ sarada 10 ka se 20** ma a bɛɛ lajɛlen na. Misali la, kompɔsi buruweti 1 (litiri 80) la, kɛmɛ **litiri 8 ka se 16** fara a kan, o bɛ bɛn **so 1 walima 2** ma. A ɲagami ka ɲɛ walasa a ka jɛnsɛn cogo ɲuman na.",
+      "illustration_description": "Illustration pédagogique pour Comment utiliser le charbon de bois broyé ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "Jii ka fisa yiri ni ɲɛnamaya ye: a bɛ don jijiw fɛ, ka taa filaw la ka bɔ",
-      "text": "stomatew fɛ.\n\nO sira famu bɛ se ka dɛmɛna ka jii di ni ɲɛ, tumaɲuman na ani hakɛ ɲuman na.\n\nNi baara dɔw ye minnu ka nɔgɔn – yiri lajɛ, jii diɲɛ labɛn, dugukolo bon, compost bonya – i bɛ se ka i ka walawala dɛmɛ ka bonya kosɛbɛ, hali tilenba tuma na.",
-      "illustration_description": "Illustration pédagogique pour L’eau est essentielle à la vie de la plante : elle entre par les racines, circule jusqu’aux feuilles et ressort par les",
+      "title": "Kuncɛli : i ka sɛnɛfɛnw kɔlɔsi ani ka u dɛmɛ",
+      "text": "**Ji** nafa ka bon turafɛn ɲɛnamaya la : a bɛ don lilinw fɛ, ka taama ka se furaw ma ani ka bɔ sitomatiw fɛ.\n\nNin sira in faamuyali bɛ dɛmɛ ka jidon kɛ ka ɲɛ, a waati ɲuman na ani a hakɛ ɲuman na. Pɛɛri nɔgɔman dɔw barika la — ka turafɛn kɔlɔsi, ka jidon bɛnkan, ka bin datugu dugukolo kan, ka kompɔsi nɔgɔya — i bɛ se ka i ka sɛnɛfɛnw dɛmɛ u ka falen ka ɲɛ, hali tilenba waati.",
+      "illustration_description": "Illustration pédagogique pour Conclusion : observer et accompagner vos cultures",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_19.jpg"
     }
   ],
-  "course_code": "M2.2"
+  "course_code": "M2.2",
+  "media": [
+    {
+      "id": "SxeW4aoAV3w",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SxeW4aoAV3w",
+      "title": "Discussion autour de l’arrosage des plantes en maraîchage",
+      "lang": "fr",
+      "category": "pratique"
+    }
+  ]
 }

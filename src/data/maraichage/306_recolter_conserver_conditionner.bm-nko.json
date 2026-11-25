@@ -1,166 +1,190 @@
 {
   "id": "306_recolter_conserver_conditionner",
-  "title": "ߣߊߞߐߣߊ߲߫ ߖߎߟߎ ߟߎ߬ ߟߊߖߍ߲ߛߍ߲߫، ߊ߬ ߟߎ߬ ߟߊߞߎ߬ߛߊ߲߬ߧߊ߫ ߊ߬ ߣߌ߫ ߞߊ߬ ߊ߬ ߟߎ߬ ߟߊߘߊ߲߫",
-  "category": "ߝߍ߬ߘߍ ߣߌ߫ ߞߍߢߊ ߟߎ߬",
-  "summary": "ߓߎߣߍ߲ߓߊ ߟߊߞߊ߬ߝߏ߬ߣߍ߲ ߠߎ߬، ߟߊߖߍ߲ߛߍ߲߫ ߝߎߥߊ߲ߦߋ߫ ߕߎ߬ߡߊ ߟߎ߬ ߘߐ߫ ߞߍߢߊ ߓߍ߯ ߟߊ߫، ߞߐߖߍ߬ߘߍ߫، ߖߌ߬ߦߊ߬ߓߍ߫، ߓߐߕߏ߲ ߣߌ߫ ߟߊߞߎ߬ߛߊ߲߬ߧߊ߫ ߞߏߟߊߘߍ",
+  "title": "ߌ ߟߊ߫ ߣߊߞߐߝߋ߲ ߠߎ߬ ߞߊ߲ߠߌ߲ ߸ ߊ߬ ߟߊߡߊ߲߬ߘߌ ߣߴߊ߬ ߟߊߘߊ߲ߠߌ߲",
+  "category": "ߢߍߞߌߣߦߊ ߟߎ߬ ߣߌ߫ ߓߟߏߦߊߟߌ ߟߎ߬",
+  "summary": "ߡߐ߬ߟߌ ߛߙߊߕߌ ߟߎ߬ ߸ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߠߌ߲ ߕߎ߬ߡߊ߬ ߛߎߡߊߣߍ߲ ߠߎ߬ ߟߊ߫ ߢߊ߫ ߓߘߍ ߡߊ߬ ߸ ߞߐ߬ߛߏ߬ߟߌ ߸ ߖߌ߫ ߟߊߓߐ ߸ ߛߎ߯ߦߊ߫ ߓߊߕߐߡߐ߲ ߣߌ߫ ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ߬ ߢߌߡߊ.",
   "total_pages": 21,
   "cover_image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_01.jpg",
   "media": [
     {
+      "id": "INE31nI_iTI",
       "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=INE31nI_iTI",
+      "title": "Conserver et Gérer les Récoltes : Méthodes et Bonnes Pratiques",
+      "lang": "fr",
+      "category": "cours"
+    },
+    {
+      "id": "pZYgh_qb39I",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=pZYgh_qb39I",
+      "title": "Discussion autour de la gestion et de la conservation des récoltes",
+      "lang": "fr",
+      "category": "pratique"
+    },
+    {
+      "id": "mtrg--oDvFQ",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=mtrg--oDvFQ",
+      "title": "Harvest Preservation and Management Methods and Best Practices",
+      "lang": "en",
+      "category": "cours"
+    },
+    {
       "id": "lfFnV5h3nS0",
+      "type": "youtube",
       "url": "https://www.youtube.com/watch?v=lfFnV5h3nS0",
+      "title": "Nakôbio maraîchage - Kalansen Kalaban Koura (Bamanankan)",
       "lang": "bm",
-      "category": "pratique",
-      "title": "ߣߊߞߐߓߌߦߏ ߣߊߞߐ߫ ߟߊߘߊ߲ - ߞߊߟߊߓߊ߲߫ ߞߎߘߊ ߞߊ߬ߙߊ߲߬ߕߊ"
+      "category": "cours"
     }
   ],
   "pages": [
     {
       "page_number": 1,
-      "title": "ߘߐ߬ߞߏ ߣߌ߲߬ ߦߋ߫ ߟߊߞߊ߬ߝߏ߬ߟߌ ߟߎ߬ ߟߊߕߊ߲߬ߞߌ߲߫ ߠߊ߫ ߝߋ߲߫ ߘߐߦߊ߬ߟߊ ߟߎ߬ ߟߊߓߊ߯ߙߊ߫ ߟߊ߫ ߛߊ߲ߘߐߕߊ ߟߎ߬ ߟߊߓߐ߫ ߟߊ߫،",
-      "text": "ߊ߬ ߟߊߞߊ߬ߟߌ߬ ߣߴߊ߬ ߟߊߘߍ߬ߣߍ߲ ߣߴߊ߬ ߟߊߘߊ߲߫ ߠߊ߫.\n\nߝߋ߲߫ ߘߐߦߊ߬ߟߊ ߏ߬ ߟߎ߫ ߦߋ߫ ߛߊ߲ߘߐߕߊ ߟߎ߬ ߟߊߕߏ߫ ߟߊ߫ ߞߊ߬ ߓߍ߲߬ ߊ߬ߟߎ߫ ߖߊ߬ߣߍ߲ ߓߍ߯ ߡߊ߬.",
-      "illustration_description": "Illustration pédagogique pour Ce document vise à donner des orientations pour l'utilisation des meilleures techniques à adopter pour la récolte,",
+      "title": "ߞߎߡߘߊ ߟߊߢߌߣߌ߲",
+      "text": "ߞߎߡߘߊ ߣߌ߲߬ ߟߊߢߌߣߌ߲ ߦߋ߫ ߢߍߡߌߘߊߟߌ ߟߎ߫ ߘߌ߫ ߢߍߞߌߣߦߊ߫ ߓߘߍ ߟߎ߬ ߟߊߓߊ߯ߙߊ߫ ߢߊ ߞߊ߲߬ ߡߍ߲ ߠߎ߬ ߦߋ߫ ߟߊߓߊ߯ߙߊ߫ **ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲** ߸ **ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ** ߣߌ߫ ߟߊ߬ߝߏ߬ߦߌ߬ߟߌ ߥߟߊ߫ **ߟߊ߬ߘߊ߲߬ߠߌ߲** ߘߐ߫.\n\nߢߍߞߌߣߦߊ ߢߌ߲߬ ߠߎ߬ ߦߴߊ߬ ߕߏ߫ ߟߊ߫ ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߠߎ߬ ߦߋ߫ ߕߏ߫ ߊ߬ߟߎ߬ ߟߊ߫ ߢߊ߬ߒ߬ߞߐ߬ߓߊߟߌߦߊ ߘߝߊߣߍ߲ ߘߐ߫.",
+      "illustration_description": "Illustration pédagogique pour Objectif du module",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "ߖߌ߬ߦߊ߬ߟߌ߸ ߟߊߞߊ߬ߝߏ߬ߣߍ߲߸",
-      "text": "ߟߊߘߍߣߍ߲ߞߍ߫",
-      "illustration_description": "Illustration pédagogique pour RÉCOLTER, CONSERVER,",
+      "title": "ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߸ ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ ߸ ߟߊ߬ߘߊ߲߬ߠߌ߲",
+      "text": "ߌ ߢߊ߯ߡߌ߲߫ ߞߍߢߊ߫ ߢߊ߬ߒ߬ߞߐ߬ߓߊߟߌ ߟߎ߬ ߟߊ߫ ߸ ߞߊ߬ ߓߐ߫ ߛߣߍ߬ ߞߣߐ߫ ߞߊ߬ ߛߌ߰ ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ ߣߌ߫ ߟߊ߬ߕߊ߲߬ߞߌ߬ߟߌ ߟߊ߫ ߸ ߞߊ߬ ߌ ߟߊ߫ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߍ߲ ߠߎ߬ ߛߎߡߊ ߣߴߊ߬ߟߎ߬ ߢߊ߬ߕߣߐ ߟߊߕߊ߲߬ߞߊ߬.",
+      "illustration_description": "Illustration pédagogique pour Récolter, conserver, conditionner",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "ߖߌ߬ߦߊ߬ߟߌ",
-      "text": "ߡߊ߬ߙߊ߬ߟߌ ߣߌ߫ ߖߎ߬ߟߊ߬ߦߊ߬ߟߌ ߌ ߞߊ߬ ߓߍ߲߬ ߊ߬ ߘߊ߫߸ ߊ߬ ߦߋ߫ ߞߍ߫ ߞߊ߲߬ߝߐ߬ߟߊ ߛߓߊ߬ ߣߌ߲߬ ߠߊ߫ ߡߍ߲ ߠߎ߬ ߌ ߘߌ߫ ߡߍ߲ ߠߎ߬ ߟߊߡߍ߲߫ ߓߟߏߡߊ߬ ߞߊ߬ߙߊ߲߬ߕߊ ߣߌ߲߬ ߘߐ߫:\n\n**ߖߌ߬ߦߊ߬ߟߌ**߸ ߏ߬ ߦߋ߫ ߖߌߦߊ߫ ߣߌ߫ ߣߊߞߐ ߟߎ߬ ߡߊߕߊ߬ߡߌ߲߬ߣߍ߲ ߠߋ߬ ߘߌ߫ ߕߎ߬ߡߊ߬ߘߊ ߟߊ߫߸ ߊ߬ ߘߏ߲߬ ߊ߬ߟߎ߬ ߡߊ߬ߞߏ߬ߝߏ߬ߦߊ߬ ߘߐ߫.\n\n**ߡߊ߬ߙߊ߬ߟߌ**߸ ߏ߬ ߦߋ߫ ߝߋ߲߫ ߡߊߦߟߍ߬ߡߊ߲߫ ߠߎ߬ ߟߊߕߊ߯ߡߊ ߟߋ߬ ߘߌ߫ ߢߊߞߙߍ ߟߊ߫߸ ߞߊ߬ ߓߍ߲߬ ߊ߬ߟߎ߬ ߘߌ߫ ߕߏ߫ ߞߎߘߎ߫ ߟߊ߫ ߕߎ߬ߡߊ ߡߊ߬ߞߏ ߘߐ߫.\n\n**ߖߎ߬ߟߊ߬ߦߊ߬ߟߌ**߸ ߏ߬ ߦߋ߫ ߝߋ߲߫ ߡߊߦߟߍ߬ߡߊ߲߫ ߠߎ߬ ߞߐߟߐ߲ߘߐߦߊ߸ ߊ߬ ߣߌ߫ ߊ߬ߟߎ߬ ߖߊ߬ߛߙߋ߬ߡߊ߬ߟߌ ߣߌ߫ ߊ߬ߟߎ߬ ߝߢߐߘߊ ߟߋ߬ ߘߌ߫߸ ߞߊ߬ ߓߍ߲߬ ߊ߬ ߘߌ߫ ߛߴߊ߬ߟߎ߬ ߝߋߎ߫ ߟߊ߫߸ ߊ߬ߟߎ߬ ߟߊߖߍ߲ߛߍ߲߫ ߟߊ߫ ߥߟߊ߫ ߊ߬ߟߎ߬ ߟߊߕߊ߯ ߟߊ߫ ߢߊߞߙߍ ߟߊ߫.",
-      "illustration_description": "Illustration pédagogique pour RÉCOLTER",
+      "title": "ߞߎߡߘߊ ߞߎߡߊߋ߲߫ ߞߟߏߡߊ߫ ߛߓߊ߬ ߟߎ߬",
+      "text": "ߞߊ߬ ߞߐ߲߰ ߘߊߡߌߣߊ ߢߍ߫ ߸ ߊ߬ ߣߊ߬ߝߊ߬ߡߊ߫ ߞߊ߬ ߞߎߡߘߊ ߣߌ߲߬ ߞߎߡߊߋ߲߫ ߞߟߏߡߊ߫ ߛߓߊ߬ ߟߎ߬ ߢߊߦߋ߫ ߞߏߢߌߡߊ :\n\n- **ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲** : ߦߙߌߘߋ߲ ߠߎ߬ ߥߟߊ߫ ߣߊߞߐߝߋ߲ ߠߎ߬ ߞߊ߲߫ ߊ߬ ߕߎ߬ߡߊ߬ ߓߘߍ ߟߊ߫ ߸ ߞߣߊ߫ ߊ߬ߟߎ߬ ߕߌߢߍ߫.\n- **ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ** : ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߠߎ߬ ߟߊߡߊ߲߬ߘߌ߫ ߛߙߊߕߌ߫ ߢߌߡߊ ߟߎ߬ ߘߐ߫ ߸ ߛߴߊ߬ߟߎ߬ ߘߌ߫ ߕߏ߫ ߊ߬ߟߎ߬ ߛߎߡߊߍ߲ ߥߊ߯ߕߌ߫ ߖߊ߲߫ ߞߘߐ߫.\n- **ߟߊ߬ߘߊ߲߬ߠߌ߲** : ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߠߎ߬ ߞߐ߬ߛߏ߬ ߸ ߞߵߊ߬ߟߎ߬ ߓߊߕߐߡߐ߲߫ ߊ߬ ߣߌ߫ ߞߵߊ߬ߟߎ߬ ߓߙߌ߬ ߸ ߛߴߊ߬ߟߎ߬ ߘߌ߫ ߛߋ߫ ߝߋ߬ߙߋ߬ ߟߊ߫ ߸ ߞߵߊ߬ߟߎ߬ ߟߊߕߊ߲߬ߞߌ߲߫ ߥߟߊ߫ ߞߵߊ߬ߟߎ߬ ߟߊߡߊ߲߬ߘߌ߫ ߣߐ߰ߦߊ߬ ߘߐ߫.",
+      "illustration_description": "Illustration pédagogique pour Les trois mots clés du module",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "ߊ߬ ߘߌ߫ ߡߎߣߎ߲߬ ߣߌ߲߬ ߠߊ߫ ߝߋ߲-ߢߐ߲߮ ߣߌ߲߬ ߠߎ߬ ߡߊ߬:",
-      "text": "**ߓߐ߫ ߝߢߐ** ߥߟߊ߫ **ߓߐ߫ ߡߎߙߎ߲ߕߌ** ߛߏ߯ߙߏߟߊ߲ ߡߊ߬\n- **ߛߏ߬ߙߏ߲߬ߘߐ** ߥߟߊ߫ **ߛߊ߲ߘߐ** ߥߟߊ߫ **ߛߊ߲ߘߐ ߔߑߟߊߛߑߕߌߞ ߟߎ߬**\n- **ߕߊߓߟߏ** ߡߊߦߟߍ߬ߡߊ߲߬ ߠߊ߫\n- **ߖߊ߬ߡߊ ߛߏ߬ߙߏ߲߬ߘߐ**\n- **ߝߊ߬ߙߊ߲߬ߛߌ߬ߞߎ߬ߙߎ**\n- **ߕߐ߮ ߛߓߍߟߌ ߟߎ߬**",
-      "illustration_description": "Illustration pédagogique pour Vous aurez besoin du matériel suivant :",
+      "title": "ߡߎ߬ߙߊ߲߬ ߡߊ߬ߞߏ߬ߡߊ ߟߎ߬",
+      "text": "ߌ ߡߊ߬ߞߏ ߘߌ߫ ߛߋ߫ ߡߎ߬ߙߊ߲ ߢߌ߲߬ ߠߎ߫ ߡߊ߬ :\n\n- ߕߍ߰ߟߊ߲ ߠߎ߬ ߥߟߊ߫ ߡߊ߬ߞߊ߲ ߠߎ߬ ߓߍ߲߬ߣߍ߲߫ ߛߣߍ߬ߝߋ߲ ߡߊ߬.\n- ߛߏ ߟߎ߬ ߸ ߞߊ߲ߞߊ߲ ߠߎ߬ ߥߟߊ߫ ߔߟߊߛߑߕߌߞߌ߫ ߛߊ߰ߖߌ ߟߎ߬.\n- ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ߬ ߘߊߜߟߏ ߟߎ߬.\n- ߓߊߛߌ߲ ߠߎ߬.\n- ߝߊ߰ߣߌ߲ ߠߎ߬.\n- ߦߌ߬ߘߊ߬ߟߊ߲ ߠߎ߬.",
+      "illustration_description": "Illustration pédagogique pour Matériel nécessaire",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "ߞߍߦߙߐ ߁߭ : ߖߌ߬ߦߊ߬ߟߊ߫ ߥߎߦߊ ߓߍ߯ ߟߊ߫ ߊ߬ ߣߌ߫",
-      "text": "ߓߊ߯ߙߊ ߟߎ߬ ߓߍ߯ ߟߊ߫\n\n",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 1 : RÉCOLTER AU BON MOMENT ET AVEC",
+      "title": "ߕߊ߬ߞߎߘߊ ߁߭ : ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߕߎ߬ߡߊ߬ ߓߘߍ ߟߊ߫ ߊ߬ ߣߌ߫ ߞߍߢߊ߫ ߓߘߍ ߟߎ߬ ߟߊ߫",
+      "text": "ߕߊ߬ߞߎߘߊ߬ ߝߟߐ : ߡߐ߬ߟߌ߬ ߓߘߍ ߡߊߟߐ߲߫ ߢߊ ߘߐ߱ߘߏ߲߬ ߸ ߞߊ߬ ߕߎ߬ߡߊ߬ ߛߎߡߊߍ߲ ߠߎ߬ ߛߎߥߊ߲ߘߌ߫ ߊ߬ ߣߌ߫ ߞߊ߬ ߌ ߟߊ߫ ߣߊߞߐߝߋ߲ ߠߎ߬ ߡߊߘߏ߲߬ ߞߣߊ߫ ߊ߬ߟߎ߬ ߕߌߢߍ߫.",
+      "illustration_description": "Illustration pédagogique pour Étape 1 : Récolter au bon moment et avec les bons gestes",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "ߞߎߟߍߙߌ",
-      "text": "**ߜߊߟߍߣߌ߲** **ߛߎߣߐ** / **ߘߎߡߊ**\n\nߌ ߦߴߌ ߞߊ߬ ߖߊ߬ߡߊ ߟߐ߬ ߣߌ߫ ߣߊߞߐ ߓߘߊ߫ ߡߌߣߌ߲߫.\n\nߏ ߞߐߝߍ߬ ߌ ߦߴߌ ߞߊ߬ ߝߋ߲ ߠߎ߬ ߝߟߍ߫ ߟߐ߬ߘߎ߮ ߟߎ߬:\n\n- **ߞߎߟߍߙߌ**: ߊ߬ ߓߊ߯ ߡߊߦߟߍ߬ߡߊ߲߫ ߣߌ߫ ߖߊ߬ߡߊ ߓߘߊ߫ ߡߌߣߌ߲߫.\n\n- **ߜߊߟߍߣߌ߲**: ߌ ߟߊ߫ ߡߊߕߊ߲߬ߞߊ߬ߟߌ ߘߐ߫߸ ߌ ߘߌ߫ ߊ߬ ߟߐ߲߫ ߣߴߊ߬ ߦߋ߫ ߜߊߟߏ߲ ߠߋ߬ ߘߌ߫ ߡߎߣߎ߲߬ ߥߟߊ߫ ߊ߬ ߓߘߊ߫ ߘߊߡߌ߬ߣߊ߬ ߓߐߛߐ߲ߛߐ߲ߠߌ߲ ߡߊ.\n\n- **ߛߎߣߐ** ߊ߬ ߣߌ߫ ߕߎ߬ߡߊ߬ ߝߋ߲߫ **ߘߎߡߊ**: ߖߊ߬ߡߊ ߡߌߣߌ߲ߣߍ߲ ߓߊ߯ ߛߎߣߐ߫ ߞߏߟߊߘߍ ߟߋ߬ ߞߍ߫߸ ߊ߬ ߣߌ߫ ߘߎߡߊ ߞߏߟߊߘߍ ߣߴߌ ߘߌ߫ ߛߋ߫ ߊ߬ ߘߎߡߊ߫ ߟߊ߫.",
-      "illustration_description": "Illustration pédagogique pour LA COULEUR",
+      "title": "ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߠߎ߬ ߡߐ߬ߟߌ ߡߊߟߐ߲",
+      "text": "ߌ ߦߋ߫ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߞߍ߫ ߣߌ߫ ߦߙߌߘߋ߲ ߥߟߊ߫ ߣߊߞߐߝߋ߲ ߡߐ߬ ߘߊ߫. ߏ߬ ߘߐ߫ ߸ ߌ ߦߋ߫ ߛߙߊߕߌ߫ ߛߌߦߊߡߊ߲߫ ߠߎ߫ ߞߣߐ߬ߜߍ߲߫ :\n\n- **ߞߐ߬ߟߐ** : ߊ߬ ߦߋ߫ ߡߊߝߊ߬ߟߋ߲߬ ߠߊ߫ ߣߌ߫ ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߡߐ߬ ߘߊ߫.\n- **ߜߟߍ߬ߦߊ** : ߊ߬ ߡߊ߰ ߘߐ߫ ߸ ߌ ߘߴߊ߬ ߟߊߞߏߟߐ߲߫ ߣߌ߫ ߦߙߌߘߋ߲ ߡߎߣߎ߲߬ ߜߟߍ߬ ߥߟߊ߫ ߣߴߊ߬ ߓߘߊ߫ ߡߊ߰ߣߐ߰ߦߊ߬ ߘߊߡߌ߬ߣߊ߬.\n- **ߞߊߛߊ߲ ߣߌ߫ ߘߊߜߟߏ ߕߎ߬ߡߊ ߘߏ߫ ߟߎ߫ ߟߊ߫** : ߦߙߌߘߋ߲߫ ߡߐ߬ߣߍ߲ ߞߊߛߊ߲ ߦߋ߫ ߘߌߦߊ߫ ߟߊ߫ ߕߎ߬ߡߊ ߛߌߦߊߡߊ߲߫ ߸ ߊ߬ ߣߴߊ߬ ߘߊߜߟߏ ߦߋ߫ ߘߌߦߊ߫ ߟߊ߫ ߣߴߌ ߘߌ߫ ߛߋ߫ ߊ߬ ߣߍߣߍ߫ ߟߊ߫.",
+      "illustration_description": "Illustration pédagogique pour Reconnaître la maturité des produits",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "ߥߟߊ߫ ߕߎ߬ߡߊ߬ ߞߏ",
-      "text": "ߣߌ߫ ߌ ߞߵߌ ߟߊ߫ ߛߋߓߊ߯ߦߊ ߞߍ߫ ߥߟߊ߫ ߕߎ߬ߡߊ߬ ߞߏ߬ߣߌ߲߬ ߠߊ߫߸ ߛߋߓߊ߯ߦߊ ߘߌߡߌ߲ ߘߌ߫ ߞߍ߫ ߜߟߍ߬ߦߊ ߟߋ߬ ߘߌ߫ ߞߊ߬ ߕߏ߫ ߘߎ߰ߞߟߏ ߕߍ߫ ߡߊ߬.\n\nߣߌ߫ ߌ ߞߵߌ ߟߊ߫ ߛߋߓߊ߯ߦߊ ߞߍ߫ ߥߟߊ߫ ߕߎ߬ߡߊ߬ ߞߐ߫ ߠߊ߫߸ ߊ߬ ߘߌ߫ ߛߴߊ߬ ߟߊ߫ ߞߊ߬ ߓߐ߫ ߊ߬ ߟߊ߫ ߖߊ߲߬ߞߊ߬ߙߏ߬ߕߐ ߘߐ߫ ߞߊ߬ ߞߍ߫ ߝߋ߲߫ ߡߊߛߐ߬ߛߐ߬ߟߌ ߘߌ߫.\n\n**ߥߟߊ߫ ߕߎ߬ߡߊ߬ ߞߐ߫**",
-      "illustration_description": "Illustration pédagogique pour TROP TÔT",
+      "title": "ߌ ߕߊ߲߬ߞߊ߬ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߖߏߣߊ߫ ߞߏߖߎ߯ߦߊ ߥߟߊ߫ ߡߊ߬ߕߡߊ߬ߣߊ߬ ߞߏߖߎ߯ߦߊ ߡߊ߬",
+      "text": "- ߣߴߌ ߞߊ߬ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߞߍ߫ **ߖߏߣߊ߫ ߞߏߖߎ߯ߦߊ** ߸ ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߡߎߣߎ߲߬ ߜߟߍ߬ ߊ߬ ߘߊߜߟߏ ߕߍ߫ ߘߌߦߊ߫.\n- ߣߴߌ ߞߊ߬ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߞߍ߫ **ߡߊ߬ߕߡߊ߬ߣߊ߬ ߞߏߖߎ߯ߦߊ** ߸ ߊ߬ ߘߌ߫ ߛߋ߫ ߕߌߢߍ߫ ߟߊ߫ ߞߵߊ߬ ߝߋ߬ߙߋ ߜߟߍ߬ߦߊ߫.",
+      "illustration_description": "Illustration pédagogique pour Éviter de récolter trop tôt ou trop tard",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "ߛߎ߬ߥߊ߬ߙߋ ߟߋ߬",
-      "text": "ߌ ߦߋ߫ ߖߊ߬ߡߊ ߟߊߖߎ߯ ߛߎ߬ߥߊ߬ߙߋ ߟߋ߬ ߥߟߊ߫ ߕߟߋ߬ߓߊ߮ ߕߎ߬ߡߊ ߟߊ߫ : ߣߌ߲߬ ߦߋ߫ ߣߌ߫ ߘߌ߫.\n\nߣߌ߫ ߘߌ߫ ߦߋ߫ ߖߊ߬ߡߊ ߟߊߕߊ߬ߡߌ߲߬ ߞߏߢߊ ߘߌ߫.\n\n**ߕߟߋ߬ߓߊ߮ ߕߎ߬ߡߊ**",
-      "illustration_description": "Illustration pédagogique pour TÔT LE MATIN",
+      "title": "ߕߋ߬ߟߋ ߕߎ߬ߡߊ߬ ߓߘߍ ߛߎߥߊ߲ߘߌ",
+      "text": "ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߞߍ߫ ߕߎ߬ߡߊ ߓߍ߯ **ߛߐ߰ߡߊ߬ ߖߏߣߊ** ߥߟߊ߫ **ߥߎ߬ߙߊ߬ߟߊ** : ߏ߬ ߕߎ߬ߡߊ ߦߋ߫ ߛߎߡߊ߫ ߟߊ߫ ߞߏߛߓߍ߫.\n\nߛߎߡߊ ߦߋ߫ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߍ߲ ߠߎ߬ ߟߊߡߊ߲߬ߘߌ߫ ߟߊ߫ ߞߏߢߌߡߊ.",
+      "illustration_description": "Illustration pédagogique pour Choisir le bon moment de la journée",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "ߖߐߞߌߟߊ ߛߋߢߊߡߊߘߋ߲ߠߊ",
-      "text": "**ߊ߬ ߕߌߓߊ ߟߊߞߊ߬ߝߏ߬ߣߍ߲ ߠߊ߫** **ߊ߬ ߟߊߡߍ߲߫ ߣߐߣߐߟߊ** ߐ߲߬ߐ߬ ߌ ߓߟߏ߫ **ߓߟߏߟߊߓߊ߯ߙߊ** ߥߟߊ߫ **ߖߐߞߌ ߛߋߢߊߡߊߘߋ߲ߣߍ߲** ߟߎ߬ ߟߊߓߊ߯ߙߊ߫: ߕߌߓߊߟߌߟߊ، ߕߌߓߊߟߌߟߊ ߘߏ߫ ߜߘߍ... ߊ߬ ߕߌߓߊ ߥߟߊ߫ ߊ߬ ߓߐߛߎ߲ ߣߊߞߐ ߟߊߞߊ߬ߝߏ߬ߣߍ߲ ߠߊ߫.\n\nߊ߬ ߟߊߡߍ߲߫ ߣߐߣߐߟߊ ߛߊߣߌ߲ ߠߎ߬ ߥߟߊ߫ ߛߎߟߎ߲ ߠߎ߬ ߘߐ߫، ߊ߬ ߕߴߊ߬ ߝߢߐ߫.\n\nߊ߬ ߕߏ߫ ߓߊ߬ߕߏ߬ߕߊ ߣߌ߫ ߝߋ߬ߟߌ ߟߊ߫.\n\nߣߌ߫ ߌ ߦߋ߫ ߖߊ߬ߡߊ ߞߍ߫ ߟߊ߫ ߞߊ߬ ߖߊ߬ߕߋ߬ߘߐ߬ߛߌ߰، ߌ ߟߊ߫ ߝߋ߲߫ ߠߎ߬ ߘߌ߫ ߕߏ߫ ߕߎ߬ߡߊ ߡߊߖߌ߰ߣߍ߲߫ ߠߊ߫.\n\n👍 **ߊ߬ߦߋ߫** 👎",
-      "illustration_description": "Illustration pédagogique pour OUTILS PROPRES",
+      "title": "ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߞߍߢߊ߫ ߓߘߍ ߟߎ߬ ߟߊߓߊ߯ߙߊ",
+      "text": "- ߌ ߓߟߏ ߟߎ߬ ߥߟߊ߫ ߡߎ߬ߙߊ߲߬ ߛߊߣߌ߲ߡߊ߲ ߣߌ߫ ߘߊߟߡߊ ߟߎ߬ ߟߊߓߊ߯ߙߊ߫ : ߕߍ߰ߟߊ߲ ߠߎ߬ ߸ ߡߊ߬ߞߊ߲ ߠߎ߬…\n- ߣߊߞߐߝߋ߲ ߠߎ߬ ߕߍ߰ ߥߟߊ߫ ߞߵߊ߬ߟߎ߬ ߓߐ߫ ߊ߬ ߡߊ߬ ߤߊߞߟߌߕߏ ߘߐ߫.\n- ߊ߬ߟߎ߬ ߟߊ߫ ߘߐ߯ߡߊ߲ߣߍ߲߫ ߛߊ߰ߖߌ ߟߎ߬ ߥߟߊ߫ ߛߏ ߟߎ߬ ߞߣߐ߫ ߸ ߞߣߊ߫ ߊ߬ߟߎ߬ ߟߊߝߟߌ߬.\n- ߌ ߕߊ߲߬ߞߊ߬ ߜߊ߬ߛߌ߬ߟߌ ߣߌ߫ ߘߐ߬ߜߍ߬ߘߍ߲߬ߠߌ߲ ߡߊ߬.\n\nߣߴߌ ߞߊ߬ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߞߍ߫ ߤߊߞߟߌߕߏ ߘߐ߫ ߢߊ ߡߍ߲ ߸ ߌ ߟߊ߫ ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߠߎ߬ ߘߌ߫ ߟߊߡߊ߲߬ߘߌ߫ ߥߊ߯ߕߌ߫ ߖߊ߲߫ ߞߘߐ߫ ߕߋ߲߬.",
+      "illustration_description": "Illustration pédagogique pour Adopter les bons gestes de récolte",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "ߣߌ߫ ߖߊ߬ߡߊ ߓߘߊ߫ ߓߊ߲߫߸ ߌ ߘߌ߫ ߌ ߟߊ߫ ߝߋ߲߫ ߡߊߝߍߣߍ߲߫ ߕߎ߬ߡߊ߬ߘߊ : ߝߋ߲߫ ߓߐߣߍ߲ߢߐ߲߰ߡߊ ߘߌ߫ ߣߴߊ߬ ߟߊ߫ ߓߐߣߍ߲ߢߐ߲߰ߦߊ ߟߎ߬ ߟߊߛߋ߫",
-      "text": "ߜߘߍ߫ ߟߎ߬ ߡߊ߬. ߌ ߦߴߌ ߟߊ߫ ߝߋ߲߫ ߥߟߊ߫ ߣߊ߬ߕߐ ߟߎ߬ ߡߊߝߍߣߍ߲߫ ߠߎ߫ ߟߊߘߍ߬ ߝߌ߬ߟߊ߲߬ߕߐ߮ ߘߐ߫߸ ߣߊ߬ߕߐ ߟߎ߬ ߡߍ߲ ߠߎ߬ ߓߐߣߍ߲ߢߐ߲߰ߡߊ߸ ߕߊߟߊ߲߫ ߠߎ߬ ߦߋ߫ ߡߍ߲ ߠߎ߬ ߞߊ߲߬ ߥߟߊ߫ ߡߍ߲ ߠߎ߬ ߓߐߣߍ߲ߢߐ߲߰ߣߍ߲߫ ߞߏߖߊ߫߸ ߞߊ߬ ߓߊ߲߫ ߞߵߊ߬ߟߎ߬ ߘߌ߫ ߖߊ߬ߡߊ ߕߐ߭ ߟߎ߬ ߓߐߣߍ߲ߢߐ߲߰.",
-      "illustration_description": "Illustration pédagogique pour Une fois la récolte terminée, triez vos produits tout de suite : un fruit pourri peut transmettre ses moisissures aux",
+      "title": "ߓߊߕߐߡߐ߲ߠߌ߲ ߞߍ߫ ߌߞߘߐ߫ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߞߐ߫",
+      "text": "ߣߌ߫ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߓߊ߲߫ ߘߊ߫ ߸ ߌ ߟߊ߫ ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߠߎ߬ ߓߊߕߐߡߐ߲߫ ߌߞߘߐ߫ : ߦߙߌߘߋ߲߫ ߕߏ߲ߣߍ߲ ߞߋߟߋ߲߫ ߘߌ߫ ߛߋ߫ ߊ߬ ߟߊ߫ ߝߎ߯ߦߊ ߟߊߕߊ߬ߡߌ߲߬ ߠߊ߫ ߕ߭ ߟߎ߬ ߡߊ߬.\n\nߦߙߌߘߋ߲ ߥߟߊ߫ ߣߊߞߐߝߋ߲߫ ߕߌߢߍߣߍ߲ ߠߎ߬ ߸ ߣߐ߬ߡߊ ߟߎ߬ ߥߟߊ߫ ߡߐ߬ߣߍ߲߫ ߞߏߖߎ߯ߦߊ ߟߎ߬ ߟߊߓߐ߫ ߊ߬ ߘߐ߫ ߸ ߛߴߊ߬ߟߎ߬ ߕߍ߫ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߍ߲ ߕ߭ ߟߎ߬ ߕߌߢߍ߫.",
+      "illustration_description": "Illustration pédagogique pour Trier immédiatement après la récolte",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "ߛߎ߲ߞߎ߲ ߂ : ߊ߬ ߞߐ߬ ߊ߬ ߣߌ߫ ߊ߬ ߓߊߟߊ߲ߞߊ߲ ߣߌ߫ ߡߊ߬ߞߏ ߦߋ߫",
-      "text": "ߛߎ߲ߞߎ߲ ߂ : ߊ߬ ߞߐ߬ ߊ߬ ߣߌ߫ ߊ߬ ߓߊߟߊ߲ߞߊ߲ ߣߌ߫ ߡߊ߬ߞߏ ߦߋ߫",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 2 : LAVER ET DÉSINFECTER SI BESOIN",
+      "title": "ߕߊ߬ߞߎߘߊ ߂߲ : ߞߐ߬ߛߏ߬ߟߌ ߣߌ߫ ߢߊ߰ߙߊ߬ߒ߬ߕߊ߲߬ߧߊ߬ߟߌ ߣߴߊ߬ ߡߊ߬ߞߏ ߓߍ߫",
+      "text": "ߕߊ߬ߞߎߘߊ߬ ߝߌߟߊߣߊ߲ : ߌ ߟߊ߫ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߍ߲ ߠߎ߬ ߛߊߣߌ߲ߧߊ߫ ߞߍ߲ߘߍߦߊ ߛߙߊߕߌ߫ ߢߌߡߊ ߟߎ߬ ߘߐ߫ ߞߊ߬ ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲߫ ߞߍ߲ߘߍ ߣߌ߫ ߛߊߣߌ߲ߡߊ߲ ߠߎ߬ ߟߊߞߊ߲ߘߊ߫.",
+      "illustration_description": "Illustration pédagogique pour Étape 2 : Laver et désinfecter si besoin",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "ߌ ߟߊ߫ ߣߊߡߎ߲߫ ߖߊߡߎ߲ߞߎ߲ ߠߎ߬ ߞߐߖߐ߫ ߖߌ ߖߏߣߊ ߣߌ߫ ߡߌ߬ߣߊ߬ߟߌ ߟߊ߫ ߖߌ ߟߊ߫.",
-      "text": "ߖߌ ߡߍ߲ ߦߋ߫ ߖߌ߬ߦߊ߬ߓߊ ߥߟߊ߫ ߖߌߞߐߟߐ߲ ߠߎ߬ ߘߐ߫߸ ߏ ߕߴߊ߬ ߟߊߓߊ߯ߙߊ߫: ߊ߬ ߘߌ߫ ߛߋ߫ ߞߊ߬ ߞߍ߫ ߖߏߣߊ߫ ߘߌ߫ ߞߊ߬ ߓߊ߲߬ߓߊߘߌ ߟߎ߬ ߟߊߛߋ߫.\n\nߌ ߟߊ߫ ߣߊߡߎ߲߫ ߖߊߡߎ߲ߞߎ߲ ߠߎ߬ ߝߙߊ߬ ߓߊߟߏߟߏ߫߸ ߞߊ߬ ߓߍ߲߬ ߊ߬ ߟߊ߫ ߞߏ߫ ߌ ߘߌ߫ ߊ߬ ߟߎ߬ ߖߏߣߊ߫ ߞߏߢߊ ߡߊ߬ ߞߊ߬ ߊ߬ ߟߎ߬ ߓߐ߫.",
-      "illustration_description": "Illustration pédagogique pour Lavez vos légumes avec de l’eau propre et potable.",
+      "title": "ߞߐ߬ߛߏ߬ߟߌ ߖߌ߫ ߛߊߣߌ߲ߡߊ߲ ߣߌ߫ ߡߌ߲߬ߕߊ ߟߊ߫",
+      "text": "ߌ ߟߊ߫ ߣߊߞߐߝߋ߲ ߠߎ߬ ߞߐ߬ߛߏ߬ **ߖߌ߫ ߛߊߣߌ߲ߡߊ߲ ߣߌ߫ ߡߌ߲߬ߕߊ** ߟߊ߫. ߊ߬ߟߎ߬ ߡߊߛߎ߰ ߘߐ߯ߡߊ߲ߣߍ߲߫ ߞߵߊ߬ߟߎ߬ ߛߊߣߌ߲ߧߊ߫ ߞߏߢߌߡߊ ߞߣߊ߫ ߊ߬ߟߎ߬ ߕߌߢߍ߫.\n\n⚠️ **ߖߊ߲߬ߕߏ߬ߒ߬ߘߐ** : ߌ ߞߣߊ߫ ߞߏ߬ߟߊ߲ ߥߟߊ߫ ߞߐ ߟߎ߬ ߖߌ ߟߊߓߊ߯ߙߊ߫ ߸ ߓߊߏ߬ ߊ߬ ߘߌ߫ ߛߋ߫ ߣߐ߯ ߟߊ߫ ߞߊ߬ ߖߊ߲߬ߞߊߙߏ ߟߎ߬ ߟߊߕߊ߬ߡߌ߲߬.",
+      "illustration_description": "Illustration pédagogique pour Laver à l’eau propre et potable",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "ߌߙߋ",
-      "text": "ߌߟߏ߫ ߌ ߓߍ߲߬ ߝߋ߲߫ ߝߋߙߋ߫ ߥߟߊ߫ ߌ ߓߍ߲߬ ߊ߬ ߟߎ߫ ߡߊߕߊ߯ ߟߊ߫߸ ߌ ߤߊߞߍ߫ ߊ߬ ߟߎ߫ ߟߊߞߊ߬ߝߏ߬ߣߍ߲ ߠߊ߫.\n\nߌ ߘߌ߫ ߛߋ߫ ߖߊߝߍߟ ߖߐߞߐ߫ ߘߡߊ߬ߟߐ߲ ߘߏ߫ ߟߎ߫ ߟߊߓߊ߯ߙߊ߫ ߟߊ߫ ߖߌ߬ߦߊ߬ߓߍ ߞߐߣߐ߲ߘߐ߫ ߞߋߟߋ߲߫ ߘߐ߫.\n\nߊ߬ ߛߊ߲߬ߓߐ߫ ߞߊ߬ ߖߌ߬ߦߊ߬ߓߍ ߞߐߣߐ߲ߘߐ߫ ߣߌ߫ ߡߌ߲ߣߍ߲ ߠߊߓߊ߯ߙߊ߫.",
-      "illustration_description": "Illustration pédagogique pour ire",
+      "title": "ߢߊ߰ߙߊ߬ߒ߬ߕߊ߲߬ߧߊ߬ߟߌ ߞߍ߫ ߣߴߊ߬ ߡߊ߬ߞߏ ߓߍ߫",
+      "text": "ߣߴߌ ߦߋ߫ ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߠߎ߬ ߝߋ߬ߙߋ߬ ߟߊ߫ ߥߟߊ߫ ߞߵߊ߬ߟߎ߬ ߟߊߡߊ߲߬ߘߌ߫ ߸ ߌ ߤߊߞߟߌ ߕߏ߫ ߊ߬ߟߎ߬ ߢߊ߰ߙߊ߬ߒ߬ߕߊ߲߬ߧߊ ߘߐ߫ :\n\n߁. **ߓߊߟߏ߫ ߖߊߝ߭ߍߟ** ߕߐ߰ߡߊ߬ߟߊ߲߬ ߘߊߡߊ߲߫ ߟߊߓߊ߯ߙߊ߫ ߖߌ߫ ߛߊߣߌ߲ߡߊ߲߫ ߛߏ ߘߏ߫ ߞߣߐ߫.\n߂. ߏ߬ ߞߐ߫ ߸ ߊ߬ߟߎ߬ ߞߐ߬ߛߏ߬ ߞߏߢߌߡߊ **ߖߌ߫ ߛߊߣߌ߲ߡߊ߲ ߣߌ߫ ߡߌ߲߬ߕߊ** ߟߊ߫.",
+      "illustration_description": "Illustration pédagogique pour Désinfecter si nécessaire",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "ߞߊ߬ ߣߊߞߐ߫ ߣߊߞߐߟߊ߫ ߘߐߙߐ߲߫ ߠߎ߫ ߞߊ߬ ߥߊ߫ ߟߊߞߊ߬ ߦߙߐ ߖߏߣߊ߫ ߟߎ߬ ߞߊ߲߬ ߕߎ߲߯، ߣߊߞߐߟߊ߫ ߖߏߣߊ߫ ߘߏ߫ ߟߊߘߊ߲߫",
-      "text": "ߖߋ߬ߟߌ߫ ߥߟߊ߫ ߛߏ߬ߙߏ߲߬ߘߏ ߟߎ߬ ߟߊߓߊ߯ߙߊ߫ ߞߊ߬ ߖߋ߬ߟߌ ߖߏߣߊ߫ ߣߌ߫ ߖߋ߬ߟߌ ߖߊ߯ߓߊ ߟߎ߬ ߘߐߕߟߊ߫.\n\nߕߊ߲ߓߊ߲ ߖߊ߯ߓߊ߫ ߘߏ߫ ߟߊߘߊ߲߫ ߞߊ߬ ߣߊߞߐߟߊ߫ ߘߐߙߐ߲߫ ߖߏߣߊ߫ ߟߎ߬ ߟߊߞߊ߬ ߦߋ߲߬.",
-      "illustration_description": "Illustration pédagogique pour Pour éviter que les légumes ne repassent sur des surfaces sales, organisez une station de nettoyage.",
+      "title": "ߛߊߣߌ߲ߧߊߟߌ߫ ߦߙߐ ߘߏ߫ ߛߌ߲߬ߝߏ߲߬ߧߊ",
+      "text": "ߞߊ߬ ߣߊߞߐߝߋ߲ ߠߎ߬ ߕߊ߲߬ߞߊ߬ ߛߊ߬ߦߌ߬ߟߌ ߡߊ߬ ߦߙߐ߫ ߣߐ߯ߣߍ߲ ߠߎ߬ ߞߊ߲߬ ߸ **ߛߊߣߌ߲ߧߊߟߌ߫ ߦߙߐ** ߘߏ߫ ߛߌ߲߬ߝߏ߲߬ߧߊ߫ :\n\n- ߓߊߛߌ߲ ߠߎ߬ ߥߟߊ߫ ߛߏ ߟߎ߬ ߟߊߓߊ߯ߙߊ߫ ߞߊ߬ **ߖߌ߫ ߣߐ߯ߣߍ߲** ߣߌ߫ **ߖߌ߫ ߛߊߣߌ߲ߡߊ߲** ߝߘߊ߫.\n- **ߕߊߓߟߌ߫ ߛߊߣߌ߲ߡߊ߲** ߘߏ߫ ߓߍ߲߬ߘߐ߫ ߞߊ߬ ߣߊߞߐߝߋ߲߫ ߞߐߛߏߣߍ߲ ߠߎ߬ ߟߊ߫ ߊ߬ ߞߊ߲߬.",
+      "illustration_description": "Illustration pédagogique pour Organiser une station de nettoyage",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "ߛߌߟߊ ߣߊ߲߬ߝߟߏ߬ߦߊ߬ߟߌ ߃ : ߡߊߦߟߍ߬ߡߊ߲߬ ߞߏߢߊ ߘߌ߫",
-      "text": "ߛߌߟߊ ߣߊ߲߬ߝߟߏ߬ߦߊ߬ߟߌ ߃ : ߡߊߦߟߍ߬ߡߊ߲߬ ߞߏߢߊ ߘߌ߫",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 3 : STOCKER EFFICACEMENT",
+      "title": "ߕߊ߬ߞߎߘߊ ߃߲ : ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ߬ ߢߌߡߊ",
+      "text": "ߕߊ߬ߞߎߘߊ߬ ߛߓߊߣߊ߲ : ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ߬ ߦߙߐ߫ ߞߍ߲ߘߍ ߸ ߛߎߡߊߣߍ߲ ߣߌ߫ ߟߊߞߊ߲ߘߊߣߍ߲ ߘߏ߫ ߟߊߘߊ߲߫ ߸ ߊ߬ ߣߌ߫ ߞߊ߬ ߌ ߟߊ߫ ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߠߎ߬ ߜߋ߬ߟߎ߲߬ ߟߏ߲ ߓߍ߯.",
+      "illustration_description": "Illustration pédagogique pour Étape 3 : Stocker efficacement",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "ߦߌߟߊ ߛߎߡߊ߲ߘߊ",
-      "text": "**ߛߣߍ߬ߞߍ߬ߟߊ** ߡߊߙߊ߬ߟߌ ߦߌߟߊ ߘߌ߫ ߟߊߘߊ߲߫ ߞߊ߬ ߡߊߙߊ߬ߟߌ ߦߌߟߊ ߘߌ߫ ߟߊߘߊ߲߫ ߞߊ߬ ߡߊߙߊ߬ߟߌ ߦߌߟߊ ߘߌ߫ ߟߊߘߊ߲߫ ߞߊ߬ ߡߊߙߊ߬ߟߌ ߦߌߟߊ ߘߌ߫ ߟߊߘߊ߲߫\n\nߦߌߟߊ ߛߎߡߊ߲ߘߊ ߣߌ߫ ߛߎߡߊߣߍ߲ ߘߏ߫ ߓߊߕߐ߫.\n\nߦߌߟߊ ߏ߬ ߛߊ߲߬ߓߊ߬ߕߐ߫ ߞߊ߬ ߓߊ߲߫ ߞߊ߬ ߝߊ߬ߘߌ ߟߊߓߊ߯ߙߊ߫ ߢߍ߫.\n\nߦߌߟߊ ߏ߬ ߟߊߞߊ߲ߘߊ߫ ߖߎߙߎ߲ߖߎߙߎ߲ߠߌ߲ߠߊ ߟߎ߬ ߣߌ߫ ߖߊ߬ߣߍ߲ ߠߎ߬ ߣߌ߫ ߛߎ߬ߙߎ߲߬ߘߎ ߟߎ߬ ߡߊ߬.\n\n**ߖߎߙߎ߲ߖߎߙߎ߲ߠߌ߲ߠߊ ߕߍ߫**",
-      "illustration_description": "Illustration pédagogique pour ENDROIT FRAIS",
+      "title": "ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ߬ ߦߙߐ߫ ߢߌߡߊ ߘߏ߫ ߓߍ߲߬ߘߐ",
+      "text": "ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ߬ ߦߙߐ߫ ߢߌߡߊ ߘߏ߫ ߓߍ߲߬ߘߐ߫ ߞߊ߬ ߓߍ߲߬ ߞߎ߬ߙߎ߲߬ߘߎ߬ ߢߊ߬ߒ߬ߞߐ߬ߓߊߟߌ߫ ߛߓߊ߬ ߡߊ߬ :\n\n- **ߘߎߡߊ߲ ߣߌ߫ ߛߎߡߊ ߘߐ߫** : ߦߙߐ ߘߏ߫ ߛߎߥߊ߲ߘߌ߫ ߡߍ߲ ߟߊߞߊ߲ߘߊߣߍ߲߫ ߕߋ߬ߟߋ ߣߌ߫ ߝߎߦߊ ߡߊ߬.\n- **ߛߊߣߌ߲ߡߊ߲** : ߦߙߐ ߝߘߏ߫ ߞߵߊ߬ ߞߐ߬ߛߏ߬ ߞߊ߬ ߞߐ߲߰ ߊ߬ ߟߊߓߊ߯ߙߊ ߢߍ߫.\n- **ߕߌߢߍߟߌߟߊ߫ ߕߍ߫** : ߦߙߐ ߟߊߞߊ߲ߘߊ߫ ߢߊ߰ߙߊ ߟߎ߬ ߸ ߓߌߦߊ߲ ߠߎ߬ ߣߌ߫ ߢߌ߲ߞߌ߲ߝߋ߲ ߠߎ߬ ߡߊ߬.",
+      "illustration_description": "Illustration pédagogique pour Préparer un bon lieu de stockage",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "ߊߕߋ",
-      "text": "ߕߐ߲ߡ ߀߂߅ ߇/߂ ߂߃/߀\n\nߌ ߟߊ߫ ߝߋ߲߫ ߝߢߐߘߊ ߟߎ߬ ߟߊߘߏ߲߬ ߞߏߢߊ߫:\n\nߣߊߖߎ߮ ߖߋ߬ߟߌ߫ ߟߎ߬ ߘߐߕߟߊ߫ ߘߋ߬: ߝߋ߲߫ ߓߐߣߍ߲ߢߐ߲߰ߡߊ ߟߎ߬ ߕߍ߫߸ ߝߋ߲߫ ߖߏ߬ߡߊ ߟߎ߬ ߕߍ߫߸ ߥߟߊ߫ ߝߋ߲߫ ߓߐߣߍ߲ߢߐ߲߰ߡߊ ߟߎ߬ ߕߍ߫.\n\nߌ ߕߴߊ߬ ߟߎ߫ ߟߊߘߏ߲߬ ߓߟߏߡߊ߬ ߞߊ߬ ߓߐ߫ ߘߎ߰ߞߟߏ ߟߊ߫: ߛߋߞߍ ߟߎ߬ ߥߟߊ߫ ߛߋߞߍߟߊߘߏ߲߫ ߠߎ߬ ߟߊߓߊ߯ߙߊ߫.\n\nߊ߬ ߟߎ߫ ߘߐߕߟߊ߫ **ߝߊ߬ߙߊ ߖߎ߬ߟߊ߬ߦߊ** ߘߌ߫ ߞߊ߬ ߓߊ߬ߙߊ߲߬ߕߐ ߟߊߕߊ߲߬ߞߌ߲߫.\n\nߌ ߕߴߊ߬ ߟߎ߫ ߟߊߝߙߊ߬ ߞߏߖߎ߯ߦߊ߫: ߞߊ߬ ߕߊߕߊ߬ߡߌ߲߬ ߣߌ߫ ߝߋ߲߫ ߝߙߊ߬ߟߌ ߟߎ߬ ߟߊߕߊ߲߬ߞߌ߲߫.\n\nߌ ߦߴߊ߬ ߛߓߍ߫ **ߕߊߞߙߎ** ߞߊ߲߬: ߛߊ߬ߙߌ߬ߦߊ ߕߎ߬ߡߊ߬ߘߊ߸ ߝߋ߲߫ ߕߐ߮߸ ߦߌߟߊ ߥߟߊ߫ ߝߏ߬ߙߏ ߡߍ߲ ߘߐ߫ ߊ߬ ߓߘߊ߫ ߓߐ߫. ߏ߬ ߦߴߌ ߘߍ߬ߡߍ߲߬ ߠߊ߫ ߞߊ߬ ߌ ߟߊ߫ ߝߋ߲߫ ߝߢߐߘߊ ߟߎ߬ ߟߊߛߙߋߦߊ߫ ߞߏߢߊ߫߸ ߊ߬ ߣߌ߫ ߞߊ߬ ߌ ߟߊ߫ ߛߊ߲ߖߌߟߊ ߟߎ߬ ߟߊ߫ ߘߐ߬ߛߊߙߌ ߟߊߞߊ߬ߝߏ߬.",
-      "illustration_description": "Illustration pédagogique pour ATE",
+      "title": "ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߠߎ߬ ߟߊߛߌ߰ ߞߵߊ߬ߟߎ߬ ߦߌ߬ߘߊ߬ߟߊ߲ ߠߎ߬ ߟߊ߫ ߞߏߌߡߊ",
+      "text": "ߌ ߟߊ߫ ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߠߎ߬ ߟߊߛߌ߰ ߞߏߌߡߊ :\n\n- ߌ ߞߣߊ߫ ߝߋ߲߫ ߜߘߍ߫ ߟߊߡߊ߲߬ߘߌ߫ ߣߌ߫ **ߣߊߞߐߝߋ߲߫ ߞߍ߲ߘߍ** ߕߍ߫ : ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲߫ ߕߌߢߍߣߍ߲ ߸ ߣߐ߯ߣߍ߲ ߥߟߊ߫ ߕߏ߲ߣߍ߲ ߕߍ߫.\n- ߌ ߞߣߊ߫ ߊ߬ߟߎ߬ ߟߊ߫ ߘߎ߱ ߡߊ߬ ߕߋ߲߬ : **ߛߊ߰ߖߌ** ߟߎ߬ ߥߟߊ߫ **ߘߊߜߟߏ** ߟߎ߬ ߟߊߓߊ߯ߙߊ߫.\n- ߊ߬ߟߎ߬ ߡߊߓߌ߬ߙߌ߫ **ߝߊ߰ߣߌ߲߫ ߡߊ߲ߞߊ߲** ߠߊ߫ ߞߊ߬ ߛߎߡߊ ߟߊߕߊ߲߬ߞߊ߬.\n- ߌ ߞߣߊ߫ ߊ߬ߟߎ߬ ߟߊߞߎ߲߬ߘߎ߫ ߞߏߖߎ߯ߦߊ ߞߊ߬ ߝߎߦߊ ߣߌ߫ ߘߐ߬ߜߍ߬ߘߍ߲߬ߠߌ߲ ߕߊ߲߬ߞߊ߬.\n- ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߕߎ߬ߡߊ߬ߘߊ ߸ ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߕߐ߮ ߣߴߊ߬ ߓߐ߫ ߦߙߐ ߥߟߊ߫ ߛߣߍ߬ ߞߣߐ ߛߓߍ߫ **ߦߌ߬ߘߊ߬ߟߊ߲** ߘߏ߫ ߞߊ߲߬. ߏ߬ ߘߴߌ ߘߍ߬ߡߍ߲߬ ߌ ߟߊ߫ ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ ߟߎ߬ ߡߊߡߙߊ߬ ߟߊ߫ ߞߏߌߡߊ ߊ߬ ߣߌ߫ ߞߊ߬ ߌ ߟߊ߫ ߛߊ߲ߠߌ߲ߠߊ ߟߎ߬ ߤߊߞߟߌ ߟߊߛߎߡߊ߫.",
+      "illustration_description": "Illustration pédagogique pour Installer et étiqueter correctement les produits",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "ߝߋ߲߫ ߓߟߏߡߊߞߊ߲ߞߋߦߊ ߟߎ߬ ߓߐ߫ ߟߊ߫",
-      "text": "ߝߌߟߊߣߊ߲߫\n\nߕߟߋ߬ ߕߎ߬ߡߊ߬ ߓߊ߮:\n\nߌ ߟߊ߫ ߝߋ߲߫ ߓߟߏߡߊߞߊ߲ߞߋߦߊ ߟߎ߬ ߡߊߝߟߍ߫: ߏ߬ ߟߎ߫ ߓߐ߫ ߟߊ߫ ߞߍߢߊ ߟߋ߬ ߡߍ߲ ߠߎ߬ ߦߴߊ߬ ߘߊߡߌ߬ߣߊ߬ ߟߊ߫ ߞߵߊ߬ߟߎ߫ ߓߟߏߡߊߞߊ߲߫ ߠߊ߫߸ ߞߊ߬ ߓߊ߬ߟߌ߬ ߊ߬ߟߎ߫ ߕߍ߫ ߜߘߍ߫ ߟߎ߬ ߓߟߏߡߊߞߊ߲߫ ߠߊ߫.\n\nߝߌߟߊߣߊ߲߫ ߞߍ߫ ߕߎ߬ߡߊ߬ ߓߊ߮: ߛߌ߬ߙߕߊ ߥߟߊ߫ ߝߋ߬ߣߍ߲߬ߕߙߋ ߟߎ߬ ߘߊߦߟߍ߫ ߕߟߋ߬ ߕߎ߬ߡߊ߬ ߓߊ߮ ߟߊ߫ ߕߎ߬ߡߊ߬ ߛߌߦߊߡߊ߲߫ ߞߘߐ߫߸ ߞߊ߬ ߓߊ߬ߟߌ߬ ߓߊ߬ߙߊ߲߬ߕߐ ߕߍ߫ ߓߊ߲߫ ߠߊ߫ ߟߊ߫.",
-      "illustration_description": "Illustration pédagogique pour RETIRER PRODUITS ABÎMÉS",
+      "title": "ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ ߜߋ߬ߟߎ߲߬ ߞߵߊ߬ ߟߊߢߐ߲߯ߝߍ߫ ߟߏ߲ ߓߍ߯",
+      "text": "ߟߏ߲ ߓߍ߯ ߸ ߡߊ߬ߝߟߍ߬ߟߌ߬ ߣߐ߲߮ ߝߌ߬ߟߊ߫ ߞߍ߫ :\n\n- **ߌ ߟߊ߫ ߟߊ߬ߝߏ߬ߦߌ߬ߝߋ߲ ߠߎ߬ ߡߊߝߟߍ߫** : ߡߍ߲ ߠߎ߬ ߓߘߊ߫ ߕߌߢߍ߫ ߘߊߡߌ߬ߣߊ߬ ߏ߬ ߟߎ߬ ߟߊߓߐ߫ ߌߞߘߐ߫ ߞߊ߬ ߕߐ߭ ߟߎ߬ ߟߊߕߊ߲߬ߞߊ߬ ߣߐ߯ߟߌ ߡߊ߬.\n- **ߊ߬ ߟߊߢߐ߲߯ߝߍ߫ ߕߎ߬ߡߊ ߓߍ߯** : ߞߏ߲ߞߏߘߊ ߟߎ߬ ߥߟߊ߫ ߝߢߐߘߊ ߟߎ߬ ߟߊߞߊ߬ ߕߎ߬ߡߊ߬ߙߋ߲߫ ߘߊߡߊ߲߫ ߞߘߐ߫ ߟߏ߲ ߓߍ߯ ߞߊ߬ ߝߎ߯ߦߊ ߕߊ߲߬ߞߊ߬.",
+      "illustration_description": "Illustration pédagogique pour Contrôler et aérer le stockage chaque jour",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "ߛߎ߬ߞߎ߬ߘߎ߲߬ߣߍ߲ ߄ : ߞߍ߬ߟߍ ߟߊߕߊ߬ߡߌ߲߬ ߞߊ߬ ߖߐ߲ߖߐ߲ ߠߊߕߊ߬ߡߌ߲߬",
-      "text": "ߛߎ߬ߞߎ߬ߘߎ߲߬ߣߍ߲ ߄ : ߞߍ߬ߟߍ ߟߊߕߊ߬ߡߌ߲߬ ߞߊ߬ ߖߐ߲ߖߐ߲ ߠߊߕߊ߬ߡߌ߲߬",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 4 : TRANSPORTER SANS DÉGÂTS",
+      "title": "ߕߊ߬ߞߎߘߊ ߄߲ : ߟߊ߬ߕߊ߲߬ߞߌ߬ߟߌ ߣߌ߫ ߕߌߢߍߟߌ߫ ߕߍ߫",
+      "text": "ߕߊ߬ߞߎߘߊ߬ ߣߊ߯ߣߌ߲ߣߊ߲ : ߞߍߢߊ߫ ߓߘߍ ߟߎ߬ ߟߊߓߊ߯ߙߊ߫ ߞߊ߬ ߌ ߟߊ߫ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߍ߲ ߠߎ߬ ߟߊߕߊ߲߬ߞߌ߲߫ ߞߊ߬ ߓߐ߫ ߛߣߍ߬ ߞߣߐ߫ ߞߊ߬ ߕߊ߯ ߟߊ߬ߡߊ߲߬ߘߌ߬ߟߌ߬ ߦߙߐ ߥߟߊ߫ ߝߋ߬ߙߋ߬ ߦߙߐ ߘߐ߫ ߞߣߊ߫ ߊ߬ߟߎ߬ ߕߌߢߍ߫.",
+      "illustration_description": "Illustration pédagogique pour Étape 4 : Transporter sans dégâts",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "👎",
-      "text": "👍 ߣߌ߫ ߌ ߟߊ߫ ߣߊߞߐߙߐ߲ߘߐ߫ ߣߊߞߐ ߓߘߊ߫ ߓߐ߫ ߛߊ߲ߘߐ ߘߐ߫߸ ߌ ߦߴߊ߬ ߟߊߕߊ߯ ߟߊ߫ ߟߊߞߎߣߎ߲ߧߊ ߘߐ߫.\n\nߕߊ߯ߡߊ ߖߐ߫ ߘߌ߫ ߛߴߌ ߟߊ߫ ߛߊ߲ߘߐߟߊ ߓߍ߯ ߟߊߘߊ߲߫ ߠߊ߫.\n\nߔߑߟߊߛߑߕߌߞߌ߫ ߘߎߞߎ߫ ߟߎ߬ ߟߊߕߏ߫߸ ߞߊ߬ ߛߋߞߍ߫ ߟߎ߬߸ ߛߊߣߌ߫ ߟߎ߬ ߥߟߊ߫ ߞߊߛߌ ߝߊ߲߬ߞߊ߬ߡߊ ߟߎ߬ ߟߊߓߊ߯ߙߊ߫ ߞߵߊ߬ ߕߏ߫ ߞߊߟߌߦߊ ߣߌ߫ ߞߊ߬ߙߊ߲߬ߞߊ߬ߙߊ߲߬ߠߌ߲ ߡߊ߬.\n\nߞߊ߬ ߣߊߞߐߙߐ߲ߘߐ߫ ߣߊߞߐ ߟߎ߬ ߕߊߕߎ߲߯ߕߎ߲߯߸ ߞߊ߬ ߓߐ߫ ߞߵߊ߬ߟߎ߬ ߕߏ߫ ߝߌߝߌߟߊ ߟߊ߫ ߞߊ߬ ߓߐ߫ ߞߵߊ߬ߟߎ߬ ߕߏ߫ ߝߌߝߌߟߊ ߟߊ߫ ߞߊ߬ ߓߐ߫ ߞߵߊ߬ߟߎ߬ ߕߏ߫ ߝߌߝߌߟߊ ߟߊ߫ ߞߊ߬ ߓߐ߫ ߞߵߊ߬ߟߎ߬ ߕߏ߫ ߝߌߝߌߟߊ ߟߊ߫. ߞߊ߬ ߡߍ߲ ߠߎ߬ ߦߋ߫ ߝߊ߲߬ߞߊ߬ߡߊ߬ ߟߊ߫ ߞߏߛߓߍ߫߸ ߏ߬ ߟߎ߫ ߟߊߘߏ߲߬ ߞߊߞߊ߲߫.\n\nߞߊ߬ ߕߊ߯ߡߊ ߞߍ߫ ߛߏ߰ߙߌ߬ ߕߎ߬ߡߊ ߟߊ߫ ߥߟߊ߫ ߛߎ߬ߥߊ߬ߙߊ ߕߟߋ߬ߓߋ ߟߊ߫ ߞߊ߬ ߞߊߟߌߦߊ ߕߏ߫.\n\nߞߊ߬ ߕߊ߯ߡߊ ߞߍ߫ ߞߊ߬ߝߏ߬ߣߍ߲ ߘߐ߫: ߕߊ߯ߡߊ ߦߋ߫ ߛߎߘߎ߲ ߘߌ߫ ߞߏߛߓߍ߫߸ ߏ߬ ߞߐ߬ߣߐ ߞߍߢߊ ߦߋ߫ ߦߋ߲߬.",
-      "illustration_description": "Illustration pédagogique pour 👎",
+      "title": "ߟߊ߬ߕߊ߲߬ߞߌ߬ߟߌ ߞߎ߬ߙߎ߲߬ߘߎ ߟߎ߬ ߣߌ߫ ߕߌߢߍߟߌ߫ ߕߍ߫",
+      "text": "ߣߴߌ ߟߊ߫ ߣߊߞߐߝߋ߲ ߠߎ߬ ߓߐ߫ ߘߊ߫ ߛߣߍ߬ ߞߣߐ߫ ߸ ߊ߬ ߦߋ߫ ߟߊߕߊ߲߬ߞߌ߲߫ ߤߊߞߟߌߕߏ ߘߐ߫. ߟߊ߬ߕߊ߲߬ߞߌ߬ߟߌ߬ ߖߎ߮ ߘߌ߫ ߛߋ߫ ߌ ߟߊ߫ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߍ߲ ߓߍ߯ ߕߌߢߍ߫ ߟߊ߫ :\n\n- ߌ ߕߊ߲߬ߞߊ߬ ߔߟߊߛߑߕߌߞߌ߫ ߓߐ߬ߙߐ ߟߎ߬ ߡߊ߬ ߸ ߏ߬ ߣߐ߭ ߘߐ߫ ߸ **ߛߊ߰ߖߌ** ߟߎ߬ ߸ **ߓߊߛߌ߲** ߟߎ߬ ߥߟߊ߫ **ߞߊ߲ߞߊ߲߫ ߘߊߟߊߞߊߣߍ߲** ߠߎ߬ ߟߊߓߊ߯ߙߊ߫ ߞߊ߬ ߝߎߦߊ ߣߌ߫ ߢߊߡߌߣߊ ߕߊ߲߬ߞߊ߬.\n- ߌ ߞߣߊ߫ ߣߊߞߐߝߋ߲ ߠߎ߬ ߘߐߜߍߘߍ߲߫ ߞߵߊ߬ߟߎ߬ ߕߏ߫ ߢߊߡߌߣߊ߫ ߟߊ߫ ߊ߬ ߣߌ߫ ߞߣߊ߫ ߊ߬ߟߎ߬ ߘߐߜߍߘߍ߲߫. ߡߍ߲ ߠߎ߬ ߡߊ߲߬ߕߊ߰ߦߊ߬ߣߍ߲߫ ߏ߬ ߟߎ߬ ߟߊ߫ ߛߊ߲ߘߐ߫.\n- ߟߊ߬ߕߊ߲߬ߞߌ߬ߟߌ ߞߍ߫ **ߛߐ߰ߡߊ߬ ߖߏߣߊ** ߥߟߊ߫ **ߥߎ߬ߙߊ߬ߟߊ** ߞߊ߬ ߝߎߦߊ ߕߊ߲߬ߞߊ߬.\n- ߟߊ߬ߕߊ߲߬ߞߌ߬ߟߌ ߞߍ߫ **ߞߊߟߌߦߊ ߘߐ߫** : ߣߌ߫ ߟߊ߬ߕߊ߲߬ߞߌ߬ߟߌ ߛߎ߬ߘߎ߲߬ߧߊ߬ ߘߊ߫ ߢߊ ߡߍ߲ ߸ ߊ߬ ߘߌ߫ ߢߊ߬ ߏ߬ ߢߊ.",
+      "illustration_description": "Illustration pédagogique pour Les règles d’un transport sans dégâts",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "ߖߌ߬ߦߊ߬ߟߊ ߥߊߦߌ߲ ߞߏߛߐ߲߬ ߖߊ߲߬ߞߊ߬ߙߏ߬ߕߐ ߟߊ߫߸ ߊ߬ ߟߊߘߍ߬ߣߍ߲߸ ߊ߬ ߞߐ߬ߟߐ߸ ߊ߬ ߣߌ߫ ߊ߬ ߟߊߕߍ߰ ߛߎߘߎ߲ߧߊߟߌ ߘߐ߫߸ ߞߊ߬ ߊ߬ ߟߊߡߙߊ߬ ߛߎߘߎ߲ߧߊ ߞߘߐ߫ ߞߊ߬ ߊ߬ ߕߊ߬ ߖߊ߲߬ߞߊ߬ߙߏ߬ߕߐ ߟߊ߫ ߞߏߟߊߘߍ ߘߐ߫: ߣߌ߲߬",
-      "text": "ߞߍߦߙߐ ߝߏߘߏ߲ߠߌ߲ ߠߎ߬ ߟߋ߬ ߣߌ߲߬ ߦߋ߫߸ ߣߌߡߊ ߓߊߖߎߡߊ ߟߎ߬ ߟߋ߬ ߦߋ߫ ߌ ߟߊ߫ ߖߌ߬ߦߊ߬ߟߊ ߞߎ߲߬ߠߊ߬ߓߊߟߌߦߊ ߟߊߞߊ߲ߘߊ߫ ߞߊ߲ߡߊ߬ ߊ߬ ߣߌ߫ ߌ ߟߊ߫ ߓߊ߯ߙߊ ߓߍ߯ ߘߊߡߌ߬ߣߊ߬ ߞߊ߲ߡߊ߬.",
-      "illustration_description": "Illustration pédagogique pour Récolter au bon moment, trier, laver et emballer proprement, puis stocker à l’ombre et transporter rapidement : ce",
+      "title": "ߞߎ߲߬ߘߏ߲ : ߌ ߟߊ߫ ߛߎ߬ߡߊ߲߬ ߞߊ߲ߍ߲ ߠߎ߬ ߢߊ߬ߒ߬ߞߐ߬ߓߊߟߌߦߊ ߟߊߕߊ߲߬ߞߊ",
+      "text": "ߛߎ߬ߡߊ߲߬ ߞߊ߲ߌ߲ ߕߎ߬ߡߊ߬ ߓߘߍ ߟߊ߫ ߸ ߓߊߕߐߡߐ߲ߠߌ߲ ߸ ߞߐ߬ߛߏ߬ߟߌ ߣߌ߫ ߟߊ߬ߓߙߌ߬ߟߌ ߛߊߣߌ߲ߧߊ ߘߐ߫ ߸ ߏ߬ ߞߐ߫ ߞߵߊ߬ ߟߊߡߊ߲߬ߘߌ߫ ߘߎߡߊ߲ ߘߐ߫ ߊ߬ ߣߌ߫ ߞߵߊ߬ ߟߊߕߊ߲߬ߞߌ߲߫ ߞߊߟߌߦߊ ߘߐ߫ : ߏ߬ ߟߎ߬ ߦߋ߫ ߞߍߢߊ߫ ߣߐ߲߮ ߠߎ߫ ߟߋ߬ ߘߌ߫ ߸ ߞߏ߬ߣߌ߲߬ ߊ߬ߟߎ߬ ߢߊ߬ߒ߬ߞߐ߬ߓߊߟߌ߫ **ߌ ߟߊ߫ ߣߊߞߐߝߋ߲ ߠߎ߬ ߢߊ߬ߒ߬ߞߐ߬ߓߊߟߌߦߊ ߟߊߕߊ߲߬ߞߊ** ߣߌ߫ **ߌ ߟߊ߫ ߓߊ߯ߙߊ ߓߍ߯ ߡߐ߬ߟߐ߲߬ߧߊ** ߘߐ߫.",
+      "illustration_description": "Illustration pédagogique pour Conclusion : préserver la qualité de vos récoltes",
       "image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_21.jpg"
     }
   ],

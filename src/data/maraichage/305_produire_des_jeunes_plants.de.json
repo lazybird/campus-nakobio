@@ -1,100 +1,126 @@
 {
   "id": "305_produire_des_jeunes_plants",
-  "title": "Jungpflanzenanzucht in der Baumschule",
+  "title": "Jungpflanzen in der Anzucht selbst produzieren",
   "category": "Techniken & Praktiken",
-  "summary": "Auswahl der Anzuchttechnik (Multitopfplatten, Saatschalen, Freilandbaumschule), Herstellung von nährstoffreicher Erde, Schattenmanagement und feine Bewässerung.",
+  "summary": "Die passende Anzuchttechnik wählen (Multitopfplatten, Anzuchtschalen, Anzucht im Freiland), nährstoffreiche Anzuchterde herstellen, Beschattung und feine Bewässerung richtig steuern.",
   "total_pages": 13,
   "cover_image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_01.jpg",
+  "media": [
+    {
+      "id": "njebiCW1P2Y",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=njebiCW1P2Y",
+      "title": "Podcast 19 avec Aïcha : Comprendre la méthode des pépinières",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "IS-5_OQ9uIc",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IS-5_OQ9uIc",
+      "title": "Podcast 20 avec Aïcha : Pépinières et méthodes d’arrosage",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "9lggNuzqu-8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9lggNuzqu-8",
+      "title": "Interview du formateur Siaka : Semences et maraîchage bio intensif",
+      "lang": "fr",
+      "category": "cours"
+    }
+  ],
   "pages": [
     {
       "page_number": 1,
-      "title": "Freiland",
-      "text": "ERDLOS, GEFOLGT VON VERPFLANZUNG\n\nFür die Produktion Ihrer Jungpflanzen werden üblicherweise drei Techniken angewendet:\n\n1) Die Pflanzen in einer Freilandbaumschule produzieren.\n2) Die Pflanzen in einer erdlose Baumschule produzieren.\n3) Die Pflanzen vor dem Umpflanzen in Töpfe pikieren.\n\nJede Methode hat ihre Vor- und Nachteile. Wir zeigen Ihnen, wie Sie je nach Ihren Bedürfnissen auswählen können!",
-      "illustration_description": "Illustration pédagogique pour PLEINE TERRE",
+      "title": "Die drei Anzuchttechniken",
+      "text": "Für die Produktion Ihrer Jungpflanzen werden üblicherweise drei Techniken verwendet:\n\n1. Die Pflanzen in einer **Anzucht im Freiland (Anzuchtbeet im Boden)** produzieren.\n2. Die Pflanzen in einer **Anzucht ohne Bodenkontakt** (in Behältern) produzieren.\n3. Die Pflanzen **in Töpfe pikieren**, bevor sie ausgepflanzt werden.\n\nJede Methode hat ihre Vor- und Nachteile. Wir zeigen Ihnen, wie Sie je nach Ihren Bedürfnissen die richtige Wahl treffen.",
+      "illustration_description": "Illustration pédagogique pour Les trois techniques de pépinière",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "1. Das Anbaubeet im Freiland",
-      "text": "1. DAS ANBAUBEET IM FREILAND\n",
-      "illustration_description": "Illustration pédagogique pour 1. LA PÉPINIÈRE DE DÉMARRAGE PLEINE TERRE",
+      "title": "1. Das Anzuchtbeet im Freiland",
+      "text": "Lernen Sie das Prinzip, die Vorteile und die Grenzen der Anzucht im Freiland kennen.",
+      "illustration_description": "Illustration pédagogique pour 1. La pépinière de démarrage pleine terre",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "Was ist eine Anzuchtgärtnerei im Freiland?",
-      "text": "Die Samen werden direkt in vorbereiteten Boden gesät. Die Jungpflanzen wachsen dort heran, bevor sie verpflanzt werden.",
-      "illustration_description": "Illustration pédagogique pour Qu’est-ce qu’une pépinière de démarrage pleine terre?",
+      "title": "Was ist ein Anzuchtbeet im Freiland?",
+      "text": "Die Samen werden **direkt in einen vorbereiteten Boden** gesät. Die Jungpflanzen wachsen dort heran, bevor sie auf die Kulturbeete umgepflanzt werden.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce qu’une pépinière de démarrage pleine terre ?",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "👍",
-      "text": "Welche Vorteile hat die Freilandbaumschule?\n\n* Einfach und schnell einzurichten\n* Benötigt wenig Material\n\n✅ ✅ 👎 Welche Nachteile gibt es?\n\n* Zerbrechliche Wurzeln beim Umpflanzen\n* Ein höheres Risiko für schnelle Austrocknung\n* Anfälligkeit für Bodenkrankheiten\n\n❌ ❌ ❌",
-      "illustration_description": "Illustration pédagogique pour 👍",
+      "title": "Vor- und Nachteile des Anzuchtbeets im Freiland",
+      "text": "**Vorteile:**\n\n- Einfach und schnell einzurichten.\n- Erfordert wenig Material.\n\n**Nachteile:**\n\n- Empfindliche Wurzeln beim Auspflanzen.\n- Schnellere Austrocknungsgefahr.\n- Anfälligkeit für bodenbürtige Krankheiten.",
+      "illustration_description": "Illustration pédagogique pour Avantages et inconvénients de la pépinière pleine terre",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "2. Die erdlose Anbau-Anzucht",
-      "text": "2. DIE ERDLOS ANBAU ANZUCHT",
-      "illustration_description": "Illustration pédagogique pour 2. LA PÉPINIÈRE DE DÉMARRAGE HORS SOL",
+      "title": "2. Die Anzucht ohne Bodenkontakt",
+      "text": "Lernen Sie das Prinzip, das benötigte Material, die Vorteile und die Grenzen der Anzucht in Behältern kennen.",
+      "illustration_description": "Illustration pédagogique pour 2. La pépinière de démarrage hors-sol",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Was ist eine Anzuchtgärtnerei ohne Bodenkontakt?",
-      "text": "Die Samen werden in Behälter gesät, bevor die Pflanzen umgepflanzt werden: **Kästen**, **Kanister**, **Schalen**. Diese Behälter werden mit **Pflanzerde** gefüllt.",
-      "illustration_description": "Illustration pédagogique pour Qu’est-ce qu’une pépinière de démarrage hors sol?",
+      "title": "Was ist eine Anzucht ohne Bodenkontakt?",
+      "text": "Die Samen werden vor dem Auspflanzen der Jungpflanzen in **Behälter** gesät: Kisten, Kanister, Schalen. Diese Behälter werden mit **Anzuchterde** gefüllt.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce qu’une pépinière de démarrage hors-sol ?",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Sie benötigen folgende Materialien:",
-      "text": "Eine hochwertige Blumenerde\nEin Schutznetz gegen Insekten\nSand oder Kieselsteine zur Drainage 🪴 🛑 💧",
-      "illustration_description": "Illustration pédagogique pour Vous aurez besoin du matériel suivant :",
+      "title": "Benötigtes Material für die Anzucht in Behältern",
+      "text": "Um eine Anzucht ohne Bodenkontakt einzurichten, benötigen Sie folgendes Material:\n\n- Eine **hochwertige Anzuchterde**.\n- Ein **Schutznetz (Insektenschutznetz)**.\n- **Sand oder Kies** für die Drainage.",
+      "illustration_description": "Illustration pédagogique pour Matériel nécessaire pour la pépinière hors-sol",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "👍",
-      "text": "👎 ++ + 👍 **Welche Vorteile hat die wurzellose Baumschule?**\n\n- Bessere Wurzelkontrolle\n- Die Baumschule ist leicht transportierbar ✅ ✅ **Welche Nachteile gibt es?**\n\n- Häufigeres Gießen\n- Erfordert zusätzliche Ausrüstung ❌ ❌",
-      "illustration_description": "Illustration pédagogique pour 👍",
+      "title": "Vor- und Nachteile der Anzucht in Behältern",
+      "text": "**Vorteile:**\n\n- Bessere Kontrolle über die Wurzeln.\n- Eine leicht transportierbare Anzucht.\n\n**Nachteile:**\n\n- Häufigeres Gießen.\n- Erfordert zusätzliches Material.",
+      "illustration_description": "Illustration pédagogique pour Avantages et inconvénients de la pépinière hors-sol",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "3. Die Pflanzenschule, gefolgt von einer Umpflanzung",
-      "text": "3. DIE PFLANZENSCHULE, GEFOLGT VON EINER UMPFLANZUNG",
-      "illustration_description": "Illustration pédagogique pour 3. LA PÉPINIÈRE SUIVI D’UN REPIQUAGE",
+      "title": "3. Die Anzucht mit anschließendem Pikieren",
+      "text": "Erfahren Sie, wie das Pikieren in Töpfe Ihre Jungpflanzen vor dem Auspflanzen aufs Feld stärkt.",
+      "illustration_description": "Illustration pédagogique pour 3. La pépinière suivie d’un repiquage",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "Umpflanzen",
-      "text": "Was ist Umpflanzen?\n\nDie Jungpflanzen werden zuerst im Freiland oder erdelos aufgezogen und dann in Töpfe **umpflanzt**, bevor sie endgültig verpflanzt werden.\n\nDiese Technik wird üblicherweise für Baumschulen und Gemüsepflanzen verwendet.",
-      "illustration_description": "Illustration pédagogique pour OU",
+      "title": "Was ist das Pikieren?",
+      "text": "Die Jungpflanzen werden zunächst im Freiland oder in Behältern angezogen und dann vor dem endgültigen Auspflanzen **in Töpfe pikiert**.\n\nDiese Technik wird üblicherweise für die Anzucht von **Obstbäumen** und **Fruchtgemüse** verwendet.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce que le repiquage ?",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "Sie benötigen folgende Materialien:",
-      "text": "Töpfe oder Plastiktüten\nNährstoffreiche Erde 🪴 🌱",
-      "illustration_description": "Illustration pédagogique pour Vous aurez besoin du matériel suivant :",
+      "title": "Benötigtes Material für das Pikieren",
+      "text": "Um Ihre Jungpflanzen zu pikieren, benötigen Sie folgendes Material:\n\n- **Töpfe** oder **Plastikbeutel**.\n- Eine **nährstoffreiche Anzuchterde**.",
+      "illustration_description": "Illustration pédagogique pour Matériel nécessaire pour le repiquage",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "👍",
-      "text": "💪 👎 STRESS Was sind die Vorteile des Umpflanzens?\n\n- Stärkere Wurzeln\n- Besseres Anwachsen nach dem Umpflanzen\n- Kürzere Zeit auf dem Feld\n- Geringerer Wasserbedarf ✅ ✅ ✅ ✅ Was sind die Nachteile?\n\n- Zusätzliche Arbeit\n- Stressrisiko bei falschem Umpflanzen ❌ ❌",
-      "illustration_description": "Illustration pédagogique pour 👍",
+      "title": "Vor- und Nachteile des Pikierens",
+      "text": "**Vorteile:**\n\n- Kräftigere Wurzeln.\n- Besseres Anwachsen nach dem Auspflanzen.\n- Kürzere Standzeit auf dem Feld.\n- Geringerer Wasserbedarf.\n\n**Nachteile:**\n\n- Zusätzlicher Arbeitsaufwand.\n- Stressrisiko, wenn die Pflanze schlecht pikiert wird.",
+      "illustration_description": "Illustration pédagogique pour Avantages et inconvénients du repiquage",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Freiland",
-      "text": "ERDLOS Wählen Sie Ihre Technik entsprechend Ihren Ressourcen und Zielen.\n\nNACHFOLGENDES VERPFLANZEN",
-      "illustration_description": "Illustration pédagogique pour PLEINE TERRE",
+      "title": "Fazit: die passende Technik wählen",
+      "text": "Wählen Sie Ihre Anzuchttechnik (**im Freiland**, **ohne Bodenkontakt** oder **mit anschließendem Pikieren**) entsprechend Ihren Ressourcen, Ihren Kulturen und Ihren Zielen.",
+      "illustration_description": "Illustration pédagogique pour Conclusion : choisir la technique adaptée",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_13.jpg"
     }
   ],

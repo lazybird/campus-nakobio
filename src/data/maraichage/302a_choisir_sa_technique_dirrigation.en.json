@@ -1,0 +1,95 @@
+{
+  "id": "302a_choisir_sa_technique_dirrigation",
+  "title": "Choosing Your Irrigation Technique",
+  "category": "Techniques & Practices",
+  "summary": "Compare the 5 irrigation techniques (watering can, hose, sprinkler, drip, flood) based on your resources, your growing area and their impact on soil life.",
+  "total_pages": 12,
+  "cover_image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_01.jpg",
+  "course_code": "M3.2.1",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "The 5 irrigation techniques in market gardening",
+      "text": "Irrigation is the main factor to control in order to ensure good results. Five techniques are commonly used:\n\n1. Hand watering with a watering can\n2. Hand watering with a hose\n3. Sprinkler irrigation\n4. Drip irrigation\n5. Flood irrigation\n\nEach method has its advantages and drawbacks. Let's see how to choose according to your needs!",
+      "illustration_description": "Vue d'ensemble en aquarelle botanique d'un jardin maraîcher ouest-africain en pleine terre paillée avec des passe-pieds en terre, montrant de fines gouttelettes d'eau tombant en pluie douce sur des planches de légumes verts vigoureux sous une lumière chaude.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "1. Hand watering with a watering can",
+      "text": "Water is poured by hand using a watering can fitted with a rose (sprinkler head). This is the simplest and most accessible method for beginners.\n\n**Equipment needed:**\n- A watering can with a rose\n\n**When is this technique the most suitable?**\n- When financial means are very limited\n- On a small growing area\n- If the water source is close to the beds\n- For watering nurseries or young seedlings",
+      "illustration_description": "Une agricultrice ouest-africaine marchant dans un passe-pied en terre paillée, tenant un arrosoir muni d'une pomme d'arrosage qui diffuse une pluie fine et douce sur une planche de jeunes plants en pleine terre.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Watering can: advantages and drawbacks",
+      "text": "**Advantages:**\n- Requires very little equipment and no technical installation\n- Reproduces natural rainfall and supports soil life\n- Waters both the beds and the paths\n- Allows you to adapt to the needs of each crop\n\n**Drawbacks:**\n- Very time-consuming and tiring on large areas (repeated trips to the water point)\n- Can lead to uneven watering from one zone to another\n- Tends to compact the soil surface if the water is poured too abruptly",
+      "illustration_description": "Gros plan pédagogique en aquarelle comparant un jet doux en pluie fine sortant d'une pomme d'arrosoir sur un sol souple paillé, à côté d'un agriculteur ouest-africain portant deux arrosoirs depuis un puits proche.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "2. Hand watering with a hose",
+      "text": "A hose is connected to a water source, and watering is done by manually directing the jet onto the beds and paths. With a sprinkler-type watering head, you can reproduce the conditions of a fine rain.\n\n**Equipment needed:**\n- A garden hose with a sprinkler head\n\n**When is this technique the most suitable?**\n- If few financial resources are available\n- On a small to medium growing area",
+      "illustration_description": "Un agriculteur ouest-africain tenant un tuyau d'arrosage souple équipé d'une pomme/tête d'aspersion diffusant une pluie fine sur des planches de pleine terre paillées et leurs passe-pieds.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Hand-held hose: advantages and drawbacks",
+      "text": "**Advantages:**\n- Faster than a watering can, especially on larger areas\n- Waters both the beds and the paths\n- Does not compact the soil thanks to the fine rain-like dispersion\n- Makes it easy to adapt to the needs of each crop\n- Promotes good root system development in both depth and width\n\n**Drawbacks:**\n- Time-consuming on large areas\n- At least two people are needed to lift the hose and avoid crushing the crops\n- Can lead to uneven watering from one zone to another",
+      "illustration_description": "Deux maraîchers ouest-africains travaillant ensemble dans les passe-pieds : l'un arrose avec la tête d'aspersion en pluie fine, l'autre soulève délicatement le tuyau pour éviter d'écraser les jeunes cultures sur la planche en pleine terre.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "3. Sprinkler irrigation",
+      "text": "Sprinkler irrigation consists of projecting water in fine droplets, like artificial rain. The water is pressurized (most often by a pump), then distributed through a network of pipes. Sprinklers water the crops and the paths uniformly.\n\n**Equipment needed:**\n- Engine-driven or solar pump\n- Pipes and shut-off valves or end caps\n- Sprinkler risers\n\n**When is this technique the most suitable?**\n- Sufficient financial resources\n- On a large growing area",
+      "illustration_description": "Parcelle maraîchère ouest-africaine en pleine terre paillée équipée de cannes d'aspersion verticales projetant une pluie fine et homogène en arc de cercle au-dessus des planches et des passe-pieds, avec une petite pompe solaire en arrière-plan.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Sprinkler irrigation: advantages and drawbacks",
+      "text": "**Advantages:**\n- Saves time and provides uniform, complete irrigation (paths and beds)\n- Does not compact the soil thanks to the fine rain-like dispersion\n- Cools the air around the crops\n- Supports soil life and better root development\n\n**Drawbacks:**\n- High installation cost\n- Suitable for leafy vegetables, but less suitable for fruiting vegetables\n- In very hot weather, risk of scorching the leaves\n- Risk of fungal disease development and water loss through evaporation in windy or very hot conditions",
+      "illustration_description": "Coupe pédagogique du sol en aquarelle sous une pluie fine d'aspersion : humidité répartie uniformément dans toute la planche de pleine terre et les passe-pieds, racines profondes et étalées, vers de terre actifs dans un sol vivant.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "4. Drip irrigation",
+      "text": "Drip irrigation consists of delivering small amounts of water directly to the base of the plants, using emitters built into a tube.\n\n**Equipment needed:**\n- Engine-driven or solar pump\n- Main supply line and drip tubing\n- Connectors and end caps\n\n**When is this technique the most suitable?**\n- Sufficient financial resources\n- Limited water available\n- Windy regions",
+      "illustration_description": "Planche de culture en pleine terre avec des lignes de tuyaux goutte-à-goutte posés au sol le long des pieds de plantes, laissant tomber de petites gouttes d'eau localisées uniquement au pied des tiges.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Drip irrigation: advantages and drawbacks",
+      "text": "**Advantage:**\n- Precise use of water\n\n**Drawbacks:**\n- High installation cost\n- Leaching and soil salinization\n- Roots develop only within a small wetted zone (limited root development)\n- Does not help activate and maintain soil life\n- Risk of clogged tubes if the water is not clean",
+      "illustration_description": "Coupe de sol en aquarelle montrant un tuyau goutte-à-goutte : seule une petite poche étroite sous le goutteur est humide avec des racines confinées, tandis que le reste de la planche et les passe-pieds restent secs et sans vie biologique.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "5. Flood irrigation",
+      "text": "Flood irrigation consists of letting a large quantity of water run into the growing beds. This technique is used for sunken beds.\n\n**Advantages:**\n- Inexpensive\n- Quick to set up\n\n**When is this technique the most suitable?**\n- Large quantity of water available",
+      "illustration_description": "Parcelle maraîchère avec des bassins creusés directement dans la terre remplis d'eau stagnante inondant les pieds de jeunes plantes, illustrant la technique d'irrigation par inondation.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Flood irrigation: the drawbacks for the soil",
+      "text": "**Major drawbacks of flood irrigation:**\n- Soil leaching (loss of nutrients)\n- Harms soil life\n- Encourages termite proliferation\n- Risk of suffocating the plants' root systems\n- Compacts the soil and forms a crust on the surface",
+      "illustration_description": "Coupe de sol en aquarelle montrant un sol compacté et croûté sous une nappe d'eau stagnante, avec des racines asphyxiées et peu développées, contrastant avec la structure aérée d'un sol vivant.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Conclusion: choose according to your resources and goals",
+      "text": "Each irrigation technique fits a specific context:\n\n- **Small area / small budget**: watering can or hand-held hose with a sprinkler head.\n- **Large area on living soil**: overall irrigation with gentle sprinklers.\n- **Very scarce water or strong wind**: drip irrigation.\n\nChoose your technique according to your resources, your growing area and your goals, while giving priority to the life of your soil.",
+      "illustration_description": "Scène lumineuse en aquarelle d'un maraîcher ouest-africain observant avec satisfaction ses planches de culture permanentes en pleine terre paillée, luxuriantes et bien hydratées sous une douce brume d'eau.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_12.jpg"
+    }
+  ]
+}

@@ -2,143 +2,153 @@
   "id": "202_leau_et_les_plantes",
   "title": "Wasser und Pflanzen",
   "category": "Grundlagen & Boden",
-  "summary": "Wie Wasser in der Pflanze zirkuliert, Durst- oder Überschuss-Signale erkennen und die Bewässerung optimieren, um Feuchtigkeit in heißem Klima zu erhalten.",
+  "summary": "Wie das Wasser in der Pflanze zirkuliert, wie man Anzeichen von Durst oder Wasserüberschuss erkennt und wie man die Bewässerung optimiert, um die Feuchtigkeit in heißem Klima zu bewahren.",
   "total_pages": 19,
   "cover_image": "assets/images/maraichage/202_leau_et_les_plantes/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "Dieses Modul hilft Ihnen zu verstehen, wie Wasser in die Pflanze gelangt, zirkuliert und wieder austritt.",
-      "text": "Es lehrt Sie auch, wie Sie die Bewässerung Ihrer Kulturen optimieren, zu erkennen, ob eine Pflanze zu viel oder zu wenig Wasser hat, und die Feuchtigkeit im Boden mit einfachen Techniken zu halten.",
-      "illustration_description": "Illustration pédagogique pour Ce module vous aide à comprendre comment l’eau entre, circule et ressort de la plante.",
+      "title": "Vorstellung des Moduls: Wasser und Pflanzen",
+      "text": "Dieses Modul hilft Ihnen zu verstehen, wie das **Wasser** in die Pflanze gelangt, in ihr zirkuliert und sie wieder verlässt.\n\nEs zeigt Ihnen außerdem, wie Sie die **Bewässerung** Ihrer Kulturen optimieren, erkennen, ob eine Pflanze zu viel oder zu wenig Wasser hat, und mithilfe einfacher Techniken die Feuchtigkeit im Boden halten.",
+      "illustration_description": "Illustration pédagogique pour Présentation du module : l’eau et les plantes",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_01.jpg"
     },
     {
       "page_number": 2,
       "title": "Wasser und Pflanzen",
-      "text": "WASSER UND PFLANZEN",
-      "illustration_description": "Illustration pédagogique pour L’EAU ET LES PLANTES",
+      "text": "Entdecken Sie die lebenswichtige Rolle des **Wassers** bei der Ernährung der Kulturen und die bewährten Praktiken, um die Bodenfeuchtigkeit zu erhalten.",
+      "illustration_description": "Illustration pédagogique pour L’eau et les plantes",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "Wie zirkuliert Wasser in der Pflanze?",
-      "text": "Wie zirkuliert Wasser in der Pflanze?",
+      "title": "Wie zirkuliert das Wasser in der Pflanze?",
+      "text": "Folgen wir dem Weg des **Wassers** von den Wurzeln bis zu den Blättern, um zu verstehen, wie sich die Pflanze ernährt und ihre Temperatur reguliert.",
       "illustration_description": "Illustration pédagogique pour Comment l’eau circule dans la plante ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "P",
-      "text": "Wasser hilft, die im Boden vorhandenen mineralischen Elemente wie Stickstoff, Phosphor, Kalium und Kalzium zu transportieren. Ebenso transportiert Wasser auch Spurenelemente wie Bor, Zink und andere.\n\nDiese Elemente spielen eine wesentliche Rolle bei der Photosynthese und anderen vitalen Funktionen der Pflanze.",
-      "illustration_description": "Illustration pédagogique pour P",
+      "title": "Der Transport von Mineralstoffen und Spurenelementen",
+      "text": "Das Wasser hilft dabei, die im Boden vorhandenen **Mineralstoffe** zu transportieren, wie **Stickstoff (N)**, **Phosphor (P)**, **Kalium (K)**, **Calcium (Ca)**, **Magnesium (Mg)** und **Eisen (Fe)**.\n\nEbenso transportiert das Wasser auch **Spurenelemente** wie Bor, Zink und weitere. Diese Elemente spielen eine wesentliche Rolle bei der **Photosynthese** und anderen lebenswichtigen Funktionen der Pflanze.",
+      "illustration_description": "Illustration pédagogique pour Le transport des éléments minéraux et oligo-éléments",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "Evapotranspiration und Wasserkreislauf",
-      "text": "Wasser gelangt über die Wurzeln in die Pflanze. Es transportiert dabei die im Boden vorhandenen Mineralstoffe.\nEs steigt in sehr feinen Röhrchen, den sogenannten Xylemen, bis zu den Blättern auf.\n\nDiese Bewegung wird durch ein Schlüsselphänomen ermöglicht: die **Evapotranspiration**.\n\nEvapotranspiration ist der Wasserverlust:\n- durch die Blätter, über kleine Öffnungen, die sogenannten **Stomata** (man spricht dann von Transpiration);\n- und durch den Boden, in Form von Verdunstung.\n\nWenn Wasser durch die Stomata entweicht, entsteht ein Saugeffekt, wie bei einer Pumpe: Die Pflanze zieht dann Wasser aus den Wurzeln, um diesen Verlust auszugleichen, wodurch Wasser und Nährstoffe in der gesamten Pflanze zirkulieren.",
-      "illustration_description": "Illustration pédagogique pour Transpiration",
+      "title": "Die Evapotranspiration und die Wasserzirkulation",
+      "text": "Das Wasser gelangt über die **Wurzeln** in die Pflanze. Es nimmt die im Boden vorhandenen Mineralstoffe mit und steigt bis zu den Blättern auf, indem es durch sehr feine Leitungen, die **Xylem**-Gefäße, strömt.\n\nDiese Bewegung ist dank eines Schlüsselphänomens möglich: der **Evapotranspiration**. Die Evapotranspiration ist der Wasserverlust:\n\n- über die Blätter, durch kleine Öffnungen, die **Stomata** (Spaltöffnungen) genannt werden (man spricht dann von **Transpiration**);\n- und über den Boden in Form von **Verdunstung**.\n\nWenn das Wasser durch die Stomata entweicht, entsteht ein Sogeffekt, ähnlich wie bei einer Pumpe. Die Pflanze zieht dann Wasser aus den Wurzeln nach, um diesen Verlust auszugleichen: Dadurch zirkuliert das Wasser in der gesamten Pflanze.",
+      "illustration_description": "Illustration pédagogique pour L’évapotranspiration et la circulation de l’eau",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Kapillarität",
-      "text": "Wurzeldruck\n\nWeitere Phänomene unterstützen diese Pumpbewegung:\n\n- der Wurzeldruck: drückt Wasser nach oben.\n\n- die Kapillarität: ermöglicht es dem Wasser, in den Xylemen aufzusteigen.\n\nDieses System ist essenziell, damit die Pflanze das benötigte Wasser und die Nährstoffe transportieren kann.",
-      "illustration_description": "Illustration pédagogique pour Capillarité",
+      "title": "Wurzeldruck und Kapillarität",
+      "text": "Weitere Phänomene unterstützen diese Pumpbewegung:\n\n- **Der Wurzeldruck**: Er drückt das Wasser nach oben.\n- **Die Kapillarität**: Sie ermöglicht dem Wasser, in den Xylem-Gefäßen aufzusteigen.\n\nDieses System ist unerlässlich, damit die Pflanze das Wasser und die Nährstoffe transportieren kann, die sie benötigt.",
+      "illustration_description": "Illustration pédagogique pour Pression racinaire et capillarité",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Wenn aber die Evapotranspiration zu stark wird (bei Hitze, Wind, Trockenheit), kann die Pflanze zu viel Wasser verlieren",
-      "text": "… und **dehydrieren**.",
-      "illustration_description": "Illustration pédagogique pour Mais si l’évapotranspiration devient trop forte (en cas de chaleur, vent, sécheresse), la plante peut perdre trop",
+      "title": "Das Risiko der Austrocknung",
+      "text": "⚠️ **Wichtiger Hinweis**: Wird die **Evapotranspiration** zu stark (bei Hitze, Wind oder Trockenheit), kann die Pflanze zu viel Wasser verlieren … und **austrocknen**.",
+      "illustration_description": "Illustration pédagogique pour Le risque de déshydratation",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "Schließlich ist das Blatt der Pflanze ein bisschen wie unsere Haut:",
-      "text": "Es atmet durch unsichtbare kleine Löcher, wie die Poren der Haut.\n\nEs gibt Wasser ab, wie Schweiß. Wenn die Luft zu trocken oder heiß ist, verliert es zu viel Wasser, genau wie wir, wenn wir viel schwitzen.\n\nWenn uns zu heiß ist oder wir nicht genug getrunken haben, werden wir müde: Das Gleiche gilt für die Pflanze!",
-      "illustration_description": "Illustration pédagogique pour Finalement, la feuille de la plante c’est un peu comme notre peau :",
+      "title": "Das Blatt der Pflanze – wie unsere Haut",
+      "text": "Das Blatt der Pflanze ist letztlich ein bisschen wie unsere Haut:\n\n- Es atmet durch winzige, unsichtbare Öffnungen, wie die Poren der Haut.\n- Es gibt Wasser ab, wie Schweiß. Ist die Luft zu trocken oder zu heiß, verliert es zu viel Wasser, genau wie wir, wenn wir stark schwitzen.\n- Wenn uns zu heiß ist oder wir zu wenig getrunken haben, werden wir müde: Bei der Pflanze ist es genauso!",
+      "illustration_description": "Illustration pédagogique pour La feuille de la plante, comme notre peau",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "Und wie unsere Haut braucht auch das Blatt Schutz:",
-      "text": "- vor sengender Sonne,\n- vor Wind,\n- vor Wassermangel.",
-      "illustration_description": "Illustration pédagogique pour Et comme notre peau, la feuille a besoin d’être protégée :",
+      "title": "Das Blatt vor Belastungen schützen",
+      "text": "Und wie unsere Haut braucht auch das Blatt Schutz:\n\n- vor **brennender Sonne**;\n- vor **Wind**;\n- vor **Wassermangel**.",
+      "illustration_description": "Illustration pédagogique pour Protéger la feuille des agressions",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_09.jpg"
     },
     {
       "page_number": 10,
       "title": "Was beeinflusst den Wasserbedarf?",
-      "text": "Was beeinflusst den Wasserbedarf?",
-      "illustration_description": "Illustration pédagogique pour Qu’est ce qui influence les besoins en eau ?",
+      "text": "Nicht alle Kulturen haben denselben Wasserbedarf: Entdecken wir die **fünf Faktoren**, die die erforderliche Wassermenge verändern.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce qui influence les besoins en eau ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "Die Anwesenheit",
-      "text": "- von Mulch\n\n**Der Anbau**\n\n**DER WASSERBEDARF HÄNGT AB VON**\n\n*   Dem Wachstumsstadium\n*   Dem Boden\n*   Der Kultur: Einige Pflanzen benötigen mehr Wasser als andere.\n\n**Dem Wachstumsstadium**: Eine kleine Pflanze benötigt mehr Wasser.\n\n**Lehmboden** speichert Wasser, während **sandiger Boden** es abfließen lässt.\n\n**Die Temperatur, der Wind, die Luftfeuchtigkeit.**\n\n**Das Vorhandensein von Mulch, Kompost und Kohle im Boden.**\n\n**Das Wetter**",
-      "illustration_description": "Illustration pédagogique pour La présence",
+      "title": "Die Faktoren, die den Wasserbedarf bestimmen",
+      "text": "Der Wasserbedarf hängt ab von:\n\n- **Der Kultur**: Manche Pflanzen brauchen mehr Wasser als andere.\n- **Dem Wachstumsstadium**: Eine junge Pflanze hat einen höheren Wasserbedarf.\n- **Dem Boden**: Tonboden speichert das Wasser, während Sandboden es versickern lässt.\n- **Dem Wetter**: Temperatur, Wind, Luftfeuchtigkeit.\n- **Dem Vorhandensein von Mulch**, Kompost und Kohle im Boden.",
+      "illustration_description": "Illustration pédagogique pour Les facteurs qui déterminent les besoins en eau",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_11.jpg"
     },
     {
       "page_number": 12,
       "title": "Wie erkennt man Anzeichen von Wasserstress?",
-      "text": "Wie erkennt man Anzeichen von Wasserstress?\n",
+      "text": "Lernen Sie, Ihre Pflanzen und Ihren Boden zu beobachten, um schnell zwischen **Wassermangel** und **Wasserüberschuss** zu unterscheiden.",
       "illustration_description": "Illustration pédagogique pour Comment repérer les signes de stress hydrique ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Wenn der Pflanze Wasser fehlt:",
-      "text": "Trockener Boden in der Tiefe.\n\nBlätter sind weich, welk oder fallen ab oder vergilben.\n\nLangsames Wachstum.\n\nWenn die Pflanze zu viel Wasser hat:\n\nBlätter welken, obwohl der Boden nass ist.\n\nUnangenehmer Geruch: faule Wurzeln und erstickte Wurzeln.\n\nPilze oder verdächtige Flecken.",
-      "illustration_description": "Illustration pédagogique pour Si la plante manque d’eau :",
+      "title": "Wassermangel oder Wasserüberschuss: Die Anzeichen, auf die man achten sollte",
+      "text": "**Wenn der Pflanze Wasser fehlt:**\n\n- Boden in der Tiefe trocken.\n- Weiche, schlaffe Blätter, die hängen oder gelb werden.\n- Langsames Wachstum.\n\n**Wenn die Pflanze zu viel Wasser hat:**\n\n- Blätter welken, obwohl der Boden nass ist.\n- Unangenehmer Geruch: **faulende oder erstickte Wurzeln**.\n- Pilze oder verdächtige Flecken.",
+      "illustration_description": "Illustration pédagogique pour Manque d’eau ou excès d’eau : les signes à observer",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "Wie man richtig bewässert und Wasser im Boden hält",
-      "text": "Wie man richtig bewässert und Wasser im Boden hält",
+      "title": "Wie gießt man richtig und hält das Wasser im Boden?",
+      "text": "Hier sind die wichtigsten Handgriffe, um die **Bewässerung zu optimieren** und Wasserverschwendung auf Ihren Beeten zu begrenzen.",
       "illustration_description": "Illustration pédagogique pour Comment bien arroser et garder l’eau dans le sol ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Morgens oder abends gießen, niemals in der prallen Sonne.",
-      "text": "Mulchen, um Wasser zu speichern:\n- Stroh\n- trockene Blätter\n- Schalen\n\nKompost verwenden, um die Feuchtigkeit zu halten.\n\nAusreichend gießen, damit der Boden tiefgründig feucht ist und nicht nur an der Oberfläche.",
-      "illustration_description": "Illustration pédagogique pour Arroser le matin ou le soir, jamais en plein soleil.",
+      "title": "Bewährte Praktiken beim Gießen",
+      "text": "- **Gießen Sie morgens oder abends**, niemals in der prallen Sonne.\n- **Bringen Sie Mulch aus**, um das Wasser zu halten: Stroh, trockene Blätter, Schalen.\n- **Verwenden Sie Kompost**, um die Feuchtigkeit zu bewahren.\n- **Gießen Sie ausreichend**, sodass der Boden in der Tiefe feucht ist und nicht nur an der Oberfläche.",
+      "illustration_description": "Illustration pédagogique pour Les bonnes pratiques d’arrosage",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Warum Holzkohle in den Boden geben?",
-      "text": "Warum Holzkohle in den Boden geben?",
+      "title": "Warum Kohle in den Boden einbringen?",
+      "text": "Entdecken Sie, wie **zerkleinerte Holzkohle (Biochar)** hilft, Wasser zu speichern und die Bodenfruchtbarkeit zu stärken.",
       "illustration_description": "Illustration pédagogique pour Pourquoi ajouter du charbon dans le sol ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "Speichert Wasser wie ein Schwamm",
-      "text": "Stärkt Pflanzen, fördert das Bodenleben\n\nZermahlene Holzkohle, **Biokohle** genannt, ist ein hervorragender Verbündeter, um:\n\n- **Wasser zu speichern**: Die Kohle funktioniert wie ein Schwamm, der Wasser und Nährstoffe in seinen Hohlräumen speichert. Sie hält die Feuchtigkeit und gibt sie langsam wieder ab, wenn der Boden trocken ist. Sie kann bis zum 5-fachen ihres Gewichts an Wasser speichern.\n\n- **Den Boden zu nähren**: Die Kohle dient als Zufluchtsort für nützliche Mikroorganismen wie Bakterien und Pilze, die den Pflanzen helfen, sich zu ernähren und das Bodenleben zu stärken.\n\n- **Die Widerstandsfähigkeit der Pflanzen zu stärken**: Die Kohle verbessert die Wasserspeicherung und die Bodenstabilität, was den Pflanzen hilft, Trockenheit besser zu überstehen.",
-      "illustration_description": "Illustration pédagogique pour Retient l’eau comme une éponge",
+      "title": "Die Vorteile von Biochar im Boden",
+      "text": "Zerkleinerte Holzkohle, **Biochar** genannt, ist ein hervorragender Verbündeter, um:\n\n- **Wasser zu speichern**: Die Kohle wirkt wie ein Schwamm, der Wasser und Nährstoffe in seinen Hohlräumen festhält. Sie bewahrt die Feuchtigkeit und gibt sie langsam wieder ab, wenn der Boden trocken ist. Sie kann bis zum **5-Fachen ihres Gewichts an Wasser** speichern.\n- **Den Boden zu ernähren (das Bodenleben zu fördern)**: Die Kohle dient nützlichen Mikroorganismen wie Bakterien und Pilzen als Rückzugsort. Diese helfen den Pflanzen bei der Nährstoffaufnahme und stärken das Bodenleben.\n- **Die Widerstandsfähigkeit der Kulturen zu stärken**: Die Kohle verbessert die Wasserspeicherung und die Bodenstabilität, was den Pflanzen hilft, Trockenheit besser zu überstehen.",
+      "illustration_description": "Illustration pédagogique pour Les atouts du biochar dans le sol",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "Oder",
-      "text": "Verwenden Sie gut abgekühlte, dann fein zermahlene Holzkohle, entweder als Pulver oder in kleinen Stücken von 1 bis 10 mm.\n\nWenn Sie Ihren Kompost selbst herstellen:\n\nWenn Sie bereits gebrauchsfertigen Kompost haben:\n\nFügen Sie 10 bis 20 % gemahlene Kohle hinzu. Fügen Sie bei jeder Schicht etwas Kohle hinzu,\n\n- des Gesamtvolumens. Zum Beispiel: für 1 Schubkarre\n- abwechselnd mit braunen Materialien (Blätter,\n\nKompost (80 L): Fügen Sie 8 bis 16 L Kohle hinzu, d.h. Stroh...) und grünen Materialien (Küchenabfälle, Grasschnitt...).\n\netwa 1 bis 2 Eimer.\n\nBefeuchten Sie bei Bedarf: Kohle ist sehr gut. Mischen Sie gut für eine gute Verteilung.\n\nSaugfähig.\n\nReifen lassen.",
-      "illustration_description": "Illustration pédagogique pour OU",
+      "title": "Wie verwendet man zerkleinerte Holzkohle?",
+      "text": "Verwenden Sie **gut abgekühlte Holzkohle**, die anschließend fein zerkleinert wird, als Pulver oder in kleinen Stücken von **1 bis 10 mm**.\n\n- **Wenn Sie Ihren Kompost selbst herstellen**: Sie können jeder Schicht etwas Kohle hinzufügen, im Wechsel mit braunen Materialien (Laub, Stroh …) und grünen Materialien (Küchenabfälle, Rasenschnitt …), oder sie beim Umsetzen in die nächsten Kompartimente einarbeiten (siehe Modul M3.3.2). Befeuchten Sie bei Bedarf (die Kohle ist sehr saugfähig) und lassen Sie den Kompost reifen.\n- **Wenn Sie bereits fertigen Kompost haben**: Mischen Sie zerkleinerte Kohle im Verhältnis von **10 bis 20 % des Gesamtvolumens** unter. Zum Beispiel für 1 Schubkarre Kompost (80 l) **8 bis 16 l** Kohle, also etwa **1 bis 2 Eimer**. Gut vermischen, damit sie sich gleichmäßig verteilt.",
+      "illustration_description": "Illustration pédagogique pour Comment utiliser le charbon de bois broyé ?",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "Wasser ist essenziell für das Pflanzenleben: Es tritt durch die Wurzeln ein, zirkuliert bis zu den Blättern und tritt durch die Stomata aus.",
-      "text": "Dieses Verständnis des Wasserflusses ermöglicht ein besseres Gießen, zur richtigen Zeit und in der richtigen Menge.\n\nMit ein paar einfachen Handgriffen – die Pflanze beobachten, die Bewässerung anpassen, den Boden mulchen, den Kompost anreichern – können Sie Ihren Kulturen helfen, auch in Trockenperioden besser zu wachsen.",
-      "illustration_description": "Illustration pédagogique pour L’eau est essentielle à la vie de la plante : elle entre par les racines, circule jusqu’aux feuilles et ressort par les",
+      "title": "Fazit: Ihre Kulturen beobachten und begleiten",
+      "text": "Das **Wasser** ist für das Leben der Pflanze unerlässlich: Es gelangt über die Wurzeln hinein, zirkuliert bis zu den Blättern und tritt durch die Stomata wieder aus.\n\nWer diesen Weg versteht, kann besser gießen – zum richtigen Zeitpunkt und in der richtigen Menge. Mit ein paar einfachen Handgriffen – die Pflanze beobachten, die Bewässerung anpassen, den Boden mulchen, den Kompost anreichern – können Sie Ihren Kulturen helfen, auch in trockenen Perioden besser zu wachsen.",
+      "illustration_description": "Illustration pédagogique pour Conclusion : observer et accompagner vos cultures",
       "image": "assets/images/maraichage/202_leau_et_les_plantes/page_19.jpg"
     }
   ],
-  "course_code": "M2.2"
+  "course_code": "M2.2",
+  "media": [
+    {
+      "id": "SxeW4aoAV3w",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=SxeW4aoAV3w",
+      "title": "Discussion autour de l’arrosage des plantes en maraîchage",
+      "lang": "fr",
+      "category": "pratique"
+    }
+  ]
 }

@@ -1,221 +1,247 @@
 {
   "id": "401_proteger_la_sante_des_plantes",
-  "title": "Pflanzengesundheit schützen",
-  "category": "Schutz & Gestaltung",
-  "summary": "Krankheiten, Schädlinge, Mangelerscheinungen und Wasserstress erkennen. Natürliche Rezepte für Biopestizide und Biodünger (Knoblauch, Neem, fermentierte Extrakte).",
+  "title": "Die Gesundheit der Pflanzen schützen",
+  "category": "Schutz & Planung",
+  "summary": "Krankheiten, Schädlinge, Mangelerscheinungen und Trockenstress erkennen. Natürliche Rezepte für Biopestizide und Biodünger (Knoblauch, Neem, fermentierte Auszüge).",
   "total_pages": 30,
   "cover_image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "Für reiche Ernten braucht es gesunde Pflanzen.",
-      "text": "Dieses Modul zeigt Ihnen, wie Sie Warnzeichen erkennen, natürliche Lösungen einsetzen und Problemen vorbeugen können.",
-      "illustration_description": "Illustration pédagogique pour Pour des récoltes abondantes, il faut des plantes en bonne santé.",
+      "title": "Gesunde Pflanzen für reiche Ernten",
+      "text": "Für reiche Ernten braucht es **gesunde Pflanzen**.\n\nDieses Modul zeigt Ihnen, wie Sie Warnzeichen erkennen, natürliche Lösungen einsetzen und Problemen auf Ihren Kulturbeeten vorbeugen.",
+      "illustration_description": "Illustration pédagogique pour Des plantes en bonne santé pour des récoltes abondantes",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "Pflanzengesundheit schützen",
-      "text": "PFLANZEN",
-      "illustration_description": "Illustration pédagogique pour PROTÉGER LA SANTÉ DES",
+      "title": "Die Gesundheit der Pflanzen schützen",
+      "text": "In diesem Modul lernen Sie eine einfache Methode kennen, um den Zustand Ihrer Kulturen zu diagnostizieren, mit **natürlichen Lösungen** wirksam zu reagieren und Ungleichgewichten dank des lebendigen Bodens dauerhaft vorzubeugen.",
+      "illustration_description": "Illustration pédagogique pour Protéger la santé des plantes",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "Verstehen, dass es verschiedene Arten von Problemen gibt",
-      "text": "Verstehen, dass es verschiedene Arten von Problemen gibt",
-      "illustration_description": "Illustration pédagogique pour Comprendre qu’il existe différents types de problèmes",
+      "title": "Die verschiedenen Problemarten verstehen",
+      "text": "Bevor Sie eingreifen oder eine Kultur behandeln, ist es entscheidend, die Ursache des Problems richtig zu erkennen, um die passendste Maßnahme zu ergreifen.",
+      "illustration_description": "Illustration pédagogique pour Comprendre les différents types de problèmes",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "Krankheit",
-      "text": "MANGEL\n\nEs gibt 4 Haupttypen von Pflanzenkrankheiten:\n\nKrankheit Mangel Schädlinge Stress SCHÄDLINGE STRESS",
-      "illustration_description": "Illustration pédagogique pour MALADIE",
+      "title": "Die 4 großen Arten von Gesundheitsproblemen",
+      "text": "Es gibt **4 große Arten** von Problemen, die die Gesundheit einer Pflanze beeinträchtigen können:\n\n1. **Krankheiten** (Pilze, Bakterien, Viren).\n2. **Mangelerscheinungen** (fehlende oder blockierte Nährstoffe).\n3. **Schadinsekten** (Schädlinge, die Blätter, Stängel oder Früchte befallen).\n4. **Stress** (ungeeignete Witterungs-, Wasser- oder Pflanzbedingungen).",
+      "illustration_description": "Illustration pédagogique pour Les 4 grands types de problèmes de santé",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "Problemtyp identifizieren",
-      "text": "**EIN KRANKHEITSBEDINGTES PROBLEM ERKENNEN**",
-      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "title": "Ein Problem durch Krankheit erkennen",
+      "text": "Erster Schritt der Diagnose: Die Anzeichen einer Krankheit erkennen, verstehen, was sie begünstigt, und die richtigen Maßnahmen zum Schutz Ihrer Kulturen ergreifen.",
+      "illustration_description": "Illustration pédagogique pour Reconnaître un problème lié à une maladie",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Pilz",
-      "text": "Virus Bakterium Eine Krankheit wird durch einen Pilz, ein Bakterium oder ein Virus verursacht.",
-      "illustration_description": "Illustration pédagogique pour Champignon",
+      "title": "Die Ursachen einer Krankheit",
+      "text": "Eine **Krankheit** wird durch einen krankheitserregenden Mikroorganismus verursacht, der die Pflanze befällt:\n\n- einen **Pilz**,\n- ein **Bakterium**,\n- oder ein **Virus**.",
+      "illustration_description": "Illustration pédagogique pour Les origines d’une maladie",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Aufgaben",
-      "text": "FÄULNIS VERFORMUNG\n\nEine Pflanze kann krank sein, wenn Sie Folgendes beobachten:\n\nFlecken auf den Blättern (schwarz, weiß oder braun), Anzeichen von Fäulnis an Früchten oder Wurzeln,\n\n- verformte oder gekräuselte Blätter, dauerhaftes Welken, auch wenn die Pflanze genug Wasser erhalten hat.\n\nWELKEN",
-      "illustration_description": "Illustration pédagogique pour TÂCHES",
+      "title": "Anzeichen einer Krankheit beobachten",
+      "text": "Eine Pflanze kann krank sein, wenn Sie eines oder mehrere der folgenden Symptome beobachten:\n\n- **Flecken auf den Blättern**: schwarz, weiß oder braun.\n- **Fäulnis**: sichtbar an Früchten oder Wurzeln.\n- **Verformung**: verformte oder gewellte Blätter.\n- **Dauerhaftes Welken**: auch wenn die Pflanze genug Wasser erhalten hat.",
+      "illustration_description": "Illustration pédagogique pour Signes d’une maladie à observer",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "Zu viel Wasser",
-      "text": "ZU TROCKEN ZU HEISS/KALT ZU DICHT\n\nKrankheiten entwickeln sich, wenn:\n\n- **Zu viel Wasser**: zu häufiges Gießen, ständig nasser Boden, lange Regenperioden.\n\n- **Zu wenig Wasser**: Eine durstige Pflanze ist weniger widerstandsfähig gegen Krankheiten.\n\n- **Große Hitze oder Kälteeinbruch**: Plötzliche Schwankungen können die Pflanze schwächen und Krankheiten aktivieren.\n\n- **Mangel an Luft zwischen den Pflanzen**: Ein zu enger Stand fördert Staunässe und somit Krankheiten.",
-      "illustration_description": "Illustration pédagogique pour TROP D’EAU",
+      "title": "Faktoren, die Krankheiten begünstigen",
+      "text": "Krankheiten werden begünstigt durch:\n\n- **Zu viel Wasser**: zu häufiges Gießen, ständig nasser Boden, lang anhaltende Regenfälle.\n- **Zu wenig Wasser**: Eine durstige Pflanze ist weniger widerstandsfähig gegen Krankheiten.\n- **Große Hitze oder Kälteeinbruch**: Abrupte Schwankungen können die Pflanze schwächen und Krankheiten aktivieren.\n- **Mangelnde Luftzirkulation zwischen den Pflanzen**: Ein zu enger Stand fördert stehende Feuchtigkeit und damit Krankheiten.",
+      "illustration_description": "Illustration pédagogique pour Les facteurs qui favorisent les maladies",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "Schneiden",
-      "text": "ENTFERNEN STÄRKEN BEHANDELN Was tun, wenn eine Pflanze krank ist?\n\n- **Betroffene Teile entfernen**: Schneiden Sie kranke Blätter, Stängel oder Früchte ab, um eine Ausbreitung zu verhindern.\n\n- **Entfernen Sie die gesamte Pflanze**, wenn sie zu krank ist und nicht mehr gerettet werden kann.\n\n- **Stärken Sie die Pflanze und den Boden** mit einer leichten Gabe von Kompost oder Kompostjauche.\n\n- **Wenden Sie eine natürliche Behandlung an**: Knoblauchsud, Neemjauche, Natron…",
-      "illustration_description": "Illustration pédagogique pour COUPER",
+      "title": "Was tun, wenn eine Pflanze krank ist?",
+      "text": "Handeln Sie bei den ersten Krankheitszeichen schnell:\n\n- **Abschneiden**: Entfernen Sie die befallenen Teile (kranke Blätter, Stängel oder Früchte), um die Ausbreitung zu verhindern.\n- **Entfernen**: Ziehen Sie die ganze Pflanze heraus, wenn sie zu stark erkrankt ist und nicht mehr gerettet werden kann.\n- **Stärken**: Stärken Sie Pflanze und Boden mit einer leichten Gabe von Kompost oder Komposttee.\n- **Behandeln**: Wenden Sie eine natürliche Behandlung an (Knoblauchaufguss, Neem-Jauche, Natron …).\n\n⚠️ **Wichtiger Hinweis**: Lassen Sie kranke Pflanzenteile nicht am Fuß der Kulturen liegen, um benachbarte Pflanzen nicht anzustecken.",
+      "illustration_description": "Illustration pédagogique pour Que faire quand une plante est malade ?",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "Blätter auslichten",
-      "text": "BEWÄSSERUNG ANPASSEN +\n\nUm ein Wiederauftreten der Krankheit zu vermeiden, können Sie:\n\n* Das Laub auslichten, um Luft und Licht hereinzulassen und Staunässe zu begrenzen.\n* Die Bewässerung anpassen",
-      "illustration_description": "Illustration pédagogique pour ÉCLAIRCIR LE FEUILLAGE",
+      "title": "Dem Wiederauftreten der Krankheit vorbeugen",
+      "text": "Um zu verhindern, dass die Krankheit auf Ihren Kulturbeeten wiederkehrt, können Sie:\n\n- **Das Laub auslichten**: Lassen Sie Luft und Licht durch, um stehende Feuchtigkeit zu begrenzen.\n- **Das Gießen anpassen**: Gießen Sie regelmäßig, aber ohne Übermaß, am besten am Fuß der Pflanzen.",
+      "illustration_description": "Illustration pédagogique pour Éviter le retour de la maladie",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "Problemtyp identifizieren",
-      "text": "EIN MANGELBEDINGTES PROBLEM ERKENNEN",
-      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "title": "Ein Problem durch Nährstoffmangel erkennen",
+      "text": "Zweite Problemart: Nährstoffmangel. Lernen Sie, die sichtbaren Zeichen an Laub und Wachstum zu lesen, um Ihren Boden gezielt zu ernähren.",
+      "illustration_description": "Illustration pédagogique pour Reconnaître un problème lié à une carence",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "Gelbe Blätter",
-      "text": "Deformierte Früchte Langsames Wachstum Violette Stängel Trockene Ränder Wenn eine Pflanze nicht alle Nährstoffe erhält, die sie benötigt, ist dies sichtbar.\n\nEine Pflanze kann mangelhaft sein, wenn Sie Folgendes beobachten:\n\n- Gelbe Blätter (oft unten)\n- Kleine oder deformierte Früchte\n- Rote oder violette Stängel\n- Blätter mit trockenen, roten oder violetten Rändern\n- Langsames Wachstum, kümmerliche Pflanzen",
-      "illustration_description": "Illustration pédagogique pour Feuilles jaunes",
+      "title": "Anzeichen eines Nährstoffmangels beobachten",
+      "text": "Wenn eine Pflanze nicht alle Nährstoffe erhält, die sie braucht, zeigt sich das schnell. Eine Pflanze kann an Mangel leiden, wenn Sie Folgendes beobachten:\n\n- **Gelbe Blätter** (oft im unteren Bereich der Pflanze).\n- **Kleine oder verformte Früchte**.\n- **Rote oder violette Stängel**.\n- **Blätter mit trockenen, roten oder violetten Rändern**.\n- **Langsames Wachstum** und kümmerliche Pflanzen.",
+      "illustration_description": "Illustration pédagogique pour Signes d’une carence à observer",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Schlechter Boden",
-      "text": "VERDICHTETER BODEN, UNGLEICHGEWICHTIGER PH-WERT\n\nMangelerscheinungen treten auf, wenn:\n\n- Der Boden nährstoffarm ist und Kompost fehlt oder von schlechter Qualität ist.\n\n- Der Boden zu verdichtet oder schlecht belüftet ist: Wasser und Nährstoffe können die Wurzeln nicht richtig erreichen.\n\n- Der pH-Wert (Säure- oder Basenwert) des Bodens unausgeglichen ist: Zu sauer oder zu basisch kann er bestimmte Nährstoffe blockieren, selbst wenn diese im Boden vorhanden sind.",
-      "illustration_description": "Illustration pédagogique pour SOL PAUVRE",
+      "title": "Die Ursachen von Mangelerscheinungen",
+      "text": "Mangelerscheinungen treten hauptsächlich in drei Situationen auf:\n\n- **Armer Boden**: Kompost fehlt oder ist von schlechter Qualität.\n- **Zu verdichteter oder schlecht durchlüfteter Boden**: Wasser und Nährstoffe erreichen die Wurzeln nicht richtig.\n- **Unausgeglichener pH-Wert** (Säure oder Basizität): Ist der Boden zu sauer oder zu basisch, kann er bestimmte Nährstoffe blockieren, auch wenn sie im Boden reichlich vorhanden sind.",
+      "illustration_description": "Illustration pédagogique pour Les causes des carences",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "Stärken",
-      "text": "BEHANDELN TESTEN GRUNDLEGENDE IDEE AC pH IDEE AC GRUNDLEGENDE NEUTRAL pH NEUTRAL ANALYSIEREN\n\nUm einen Mangel zu beheben, kann man:\n\n- Regelmäßig reifen Kompost hinzufügen: 1 bis 2 Schubkarren pro Beet, je nach Kultur\n- Blätterjauche (Brennnessel, Beinwell, Neem…) verwenden, um das Wachstum anzuregen\n- Den pH-Wert des Bodens testen, wenn das Problem weiterhin besteht (pH-Papier oder einfaches Kit). Wenn er zu sauer ist, kann man ihn mit einer kleinen Menge **landwirtschaftlichem Kalk** korrigieren.\n\n- Eine Bodenanalyse durchführen, um die fehlenden Elemente zuzuführen",
-      "illustration_description": "Illustration pédagogique pour RENFORCER",
+      "title": "Wie behebt man einen Nährstoffmangel?",
+      "text": "Um einen Mangel zu beheben und das Wachstum der Kulturen wieder anzuregen:\n\n- **Stärken**: Geben Sie regelmäßig reifen Kompost dazu (1 bis 2 Schubkarren pro Beet je nach Kultur).\n- **Behandeln**: Verwenden Sie Pflanzenjauche (**Neem**, **Moringa**, Brennnessel, Beinwell …), um das Wachstum anzuregen.\n- **Testen**: Messen Sie den pH-Wert des Bodens, wenn das Problem bestehen bleibt (pH-Papier oder einfaches Testset). Ist er zu sauer, können Sie ihn mit einer kleinen Menge Agrarkalk korrigieren.\n- **Analysieren**: Lassen Sie eine Bodenanalyse durchführen, um die fehlenden Nährstoffe gezielt zuzuführen.",
+      "illustration_description": "Illustration pédagogique pour Comment corriger une carence ?",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Problemtyp identifizieren",
-      "text": "**EIN PROBLEM ERKENNEN, DAS DURCH SCHÄDLICHE INSEKTEN VERURSACHT WIRD**",
-      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "title": "Ein durch Schadinsekten verursachtes Problem erkennen",
+      "text": "Dritte Problemart: Schädlinge. Wer sie früh erkennt, kann eingreifen, bevor der Befall die Ernte gefährdet.",
+      "illustration_description": "Illustration pédagogique pour Reconnaître un problème causé par des insectes nuisibles",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Sichtbare Insekten",
-      "text": "Schädliche Insekten schwächen Pflanzen, reduzieren Ernten und übertragen Krankheiten. Es ist besser, sie frühzeitig zu erkennen, um die Schäden zu begrenzen:\n\n- **Sichtbare Insekten**: Raupen, Weiße Fliegen, Blattläuse, Heuschrecken, Maden…\n- **Löcher in den Blättern**: angefressene Ränder oder runde Löcher in der Mitte\n- **Durchbohrte, verfaulte oder vor der Reife angefressene Früchte**\n- **Deformierte oder klebrige Blätter**: Vorhandensein von Blattläusen\n- **Kleine Gänge in Blättern oder Wurzeln**: Würmer, Nematoden\n- **Vorhandensein von Eiern an Stängeln oder unter Blättern**",
-      "illustration_description": "Illustration pédagogique pour Insectes visibles",
+      "title": "Anzeichen für das Vorhandensein von Schadinsekten",
+      "text": "Schadinsekten schwächen die Pflanzen, verringern die Ernten und übertragen Krankheiten. Am besten erkennen Sie sie früh, um Schäden zu begrenzen:\n\n- **Sichtbare Insekten**: Raupen, Weiße Fliegen, Blattläuse, Heuschrecken, Maden …\n- **Löcher in den Blättern**: angefressene Ränder oder runde Löcher in der Blattmitte.\n- **Beschädigte Früchte**: durchbohrt, faulig oder vor der Reife angefressen.\n- **Verformte oder klebrige Blätter**: Zeichen für Blattläuse.\n- **Kleine Fraßgänge** in den Blättern oder Wurzeln: Würmer, Nematoden.\n- **Vorhandensein von Eiern** an den Stängeln oder unter den Blättern.",
+      "illustration_description": "Illustration pédagogique pour Signes de présence d’insectes nuisibles",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "Genau beobachten:",
-      "text": "Jungpflanzen Gestresste Pflanzen\n\n- Kohl-, Tomaten-, Bohnen- und Okrakulturen\n\nEinige Pflanzen sind anfälliger und müssen genau beobachtet werden:\n\nJunge Sämlinge und Jungpflanzen mit zarten Blättern, die für Insekten sehr attraktiv sind\nGestresste oder geschwächte Pflanzen, die sich schlechter wehren können\nKulturen wie Kohl, Tomaten, Bohnen oder Okra werden häufiger angegriffen",
-      "illustration_description": "Illustration pédagogique pour SURVEILLER DE PRÈS :",
+      "title": "Pflanzen, die man genau im Auge behalten sollte",
+      "text": "Manche Pflanzen sind anfälliger für Schädlinge und erfordern besondere Aufmerksamkeit:\n\n- **Junge Sämlinge und Jungpflanzen**, deren zarte Blätter für Insekten sehr attraktiv sind.\n- **Gestresste oder geschwächte Pflanzen**, die sich schlechter wehren können.\n- **Empfindliche Kulturen** wie Kohl, Tomaten, Bohnen oder Okra, die häufiger befallen werden.",
+      "illustration_description": "Illustration pédagogique pour Les plantes à surveiller de près",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "Schneiden",
-      "text": "SPRÜHEN\n\nWenn Sie Anzeichen von Schädlingsbefall festgestellt haben:\n\n- Entfernen Sie stark befallene Blätter, um die Ausbreitung zu verlangsamen\n- Besprühen Sie die Pflanzen, um Schadinsekten zu entfernen\n- Installieren Sie feine Netze oder Gitter gegen fliegende Insekten\nSCHÜTZEN",
-      "illustration_description": "Illustration pédagogique pour COUPER",
+      "title": "Was tun bei Schädlingsbefall?",
+      "text": "Wenn Sie auf Ihren Kulturbeeten Anzeichen von Schädlingen entdeckt haben:\n\n- **Abschneiden**: Entfernen Sie stark befallene Blätter, um den Befall zu verlangsamen.\n- **Abspritzen**: Spritzen Sie die Pflanzen ab, damit die Schadinsekten herunterfallen.\n- **Schützen**: Bringen Sie Netze oder feinmaschige Gitter gegen fliegende Insekten an.",
+      "illustration_description": "Illustration pédagogique pour Que faire en cas de ravageurs ?",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "Überwachen",
-      "text": "PFLANZEN SIE ABWEHRMITTEL AN, ZIEHEN SIE NÜTZLICHE INSEKTEN AN BASILIKUM MINZE ZITRONENGRAS WESPE MARIENKÄFER\n\nUm die Rückkehr von Schädlingen zu vermeiden:\n\n- Beobachten Sie regelmäßig die Unterseiten der Blätter und die jungen Triebe. Dies hilft, Probleme frühzeitig zu erkennen.\n\n- Pflanzen Sie abwehrende Pflanzen wie Basilikum, Minze, Zitronengras oder Studentenblumen neben die Kulturen.\n\n- Ziehen Sie nützliche Insekten wie Marienkäfer oder bestimmte Wespen an, die Schädlinge fressen. Legen Sie schädliche Insekten auf einen Teller in der Nähe der Kulturen mit Samen, um Vögel anzulocken. Diese suchen dann die schädlichen Insekten direkt an den Pflanzen.",
-      "illustration_description": "Illustration pédagogique pour SURVEILLER",
+      "title": "Dem Wiederauftreten von Schädlingen vorbeugen",
+      "text": "Um das Wiederauftreten von Schädlingen dauerhaft zu begrenzen:\n\n- **Beobachten**: Kontrollieren Sie regelmäßig die Blattunterseiten und die jungen Triebe, um Probleme von Anfang an zu erkennen.\n- **Abschreckende Pflanzen anbauen**: Pflanzen Sie Basilikum, Minze, Zitronengras oder Studentenblumen neben die Kulturen.\n- **Nützlinge anlocken**: Fördern Sie Marienkäfer oder bestimmte Wespen, die Schädlinge fressen. Legen Sie Schadinsekten auf einen Teller in der Nähe der Kulturen und geben Sie Körner dazu, um Vögel anzulocken: Sie holen die Schadinsekten dann direkt von den Pflanzen.",
+      "illustration_description": "Illustration pédagogique pour Éviter le retour des ravageurs",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "Den Problemtyp identifizieren",
-      "text": "EIN STRESSBEDINGTES PROBLEM ERKENNEN",
-      "illustration_description": "Illustration pédagogique pour Identifier le type de problème",
+      "title": "Ein stressbedingtes Problem erkennen",
+      "text": "Vierte Problemart: physiologischer Stress. Eine Pflanze, der es schlecht zu gehen scheint, ist nicht immer krank oder von Insekten befallen.",
+      "illustration_description": "Illustration pédagogique pour Reconnaître un problème lié à un stress",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "Die Pflanze scheint zu leiden, aber es sind keine Schädlinge oder Krankheiten sichtbar. Was, wenn es Stress ist? Dies zeigt sich durch:",
-      "text": "Sie welkt mitten am Tag, besonders bei Hitze.\n\nSie hat aufgehört zu wachsen.",
-      "illustration_description": "Illustration pédagogique pour La plante semble aller mal, mais aucun ravageur ni maladie n’est visible. Et si c’était du stress ? Cela est visible par :",
+      "title": "Anzeichen von Stress bei der Pflanze",
+      "text": "Der Pflanze scheint es schlecht zu gehen, aber weder Schädlinge noch Krankheiten sind sichtbar. Und wenn es **Stress** wäre?\n\nDie wichtigsten Anzeichen sind:\n\n- Sie **welkt mitten am Tag**, vor allem bei Hitze.\n- Sie **wächst nicht mehr**.",
+      "illustration_description": "Illustration pédagogique pour Signes d’un stress chez la plante",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_21.jpg"
     },
     {
       "page_number": 22,
-      "title": "Zu heiß/kalt",
-      "text": "ZU TROCKEN / ZU FEUCHT\nSCHLECHT DURCHGEFÜHRTES VERPFLANZEN IN DER VOLLEN SONNE\nZU FRÜH/SPÄT\n\nWas bei der Pflanze Stress verursacht:\n\n- Ein zu heißer oder zu kalter Boden\n- Extreme Schwankungen: zu trocken, zu feucht\n- Schlecht durchgeführtes Verpflanzen oder in der vollen Sonne\n- Eine zu frühe oder zu späte Transplantation\n- Ein zu kompakter Boden: die Wurzeln haben Schwierigkeiten, sich auszubreiten\n**VERDICHTETER BODEN**",
-      "illustration_description": "Illustration pédagogique pour TROP CHAUD/FROID",
+      "title": "Die Ursachen von Stress",
+      "text": "Mehrere Umwelt- oder Kulturfaktoren können bei der Pflanze Stress auslösen:\n\n- **Ein zu heißer oder zu kalter Boden**.\n- **Extreme Schwankungen**: zu trockener oder zu feuchter Boden.\n- **Ein schlecht ausgeführtes Verpflanzen** oder eines in der prallen Sonne.\n- **Ein zu frühes oder zu spätes Auspflanzen**.\n- **Ein zu verdichteter Boden**: Die Wurzeln können sich schwer etablieren.",
+      "illustration_description": "Illustration pédagogique pour Les causes du stress",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "Mulchen",
-      "text": "GIESSEN + SCHATTENNETZ SCHÜTZEN\n\nWarten Sie mit der Behandlung: Stress verschwindet in 1–2 Tagen, wenn die Pflanze wieder gute Bedingungen vorfindet. Wenn der Stress anhält:\n\n- Eine Mulchschicht anbringen, um die Bodenfeuchtigkeit zu erhalten\n- Regelmäßig und ohne Überschuss gießen\n- Pflanzen mit einem Schattenspender schützen",
-      "illustration_description": "Illustration pédagogique pour PAILLER",
+      "title": "Was tun bei Stress?",
+      "text": "⚠️ **Wichtiger Hinweis**: Warten Sie mit der Behandlung! Stress verschwindet oft innerhalb von **1 bis 2 Tagen**, wenn die Pflanze wieder gute Bedingungen vorfindet.\n\nWenn der Stress anhält, wenden Sie diese einfachen Maßnahmen an:\n\n- **Mulchen**: Bringen Sie eine Mulchschicht auf, um die Feuchtigkeit im Boden zu halten.\n- **Gießen**: Gießen Sie regelmäßig, aber ohne Übermaß.\n- **Schützen**: Schützen Sie die Pflanzen mit einer Beschattung (Schattiernetz).",
+      "illustration_description": "Illustration pédagogique pour Que faire en cas de stress ?",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_23.jpg"
     },
     {
       "page_number": 24,
-      "title": "Probleme durch Bio-Gemüseanbau begrenzen",
-      "text": "intensiv im lebendigen Boden",
-      "illustration_description": "Illustration pédagogique pour Limiter les problèmes grâce au maraîchage bio",
+      "title": "Probleme durch bio-intensiven Gemüsebau auf lebendigem Boden begrenzen",
+      "text": "Der beste Schutz bleibt die Vorbeugung. Erfahren Sie, wie die Praktiken des bio-intensiven Gemüsebaus auf lebendigem Boden die Widerstandskraft Ihrer Kulturen auf natürliche Weise stärken.",
+      "illustration_description": "Illustration pédagogique pour Limiter les problèmes grâce au maraîchage bio-intensif en sol vivant",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_24.jpg"
     },
     {
       "page_number": 25,
-      "title": "Bio-intensiver Gemüsebau auf lebendigem Boden stärkt Pflanzen und Boden auf natürliche Weise.",
-      "text": "Ergebnis: Die Pflanzen sind gesund und es gibt seltener Probleme.",
-      "illustration_description": "Illustration pédagogique pour Le maraîchage bio-intensif en sol vivant renforce naturellement les plantes et le sol.",
+      "title": "Ein lebendiger Boden für widerstandsfähigere Pflanzen",
+      "text": "Der **bio-intensive Gemüsebau auf lebendigem Boden** stärkt Pflanzen und Boden auf natürliche Weise.\n\nErgebnis: Die Pflanzen sind gesund und es gibt **seltener Probleme**.",
+      "illustration_description": "Illustration pédagogique pour Un sol vivant pour des plantes plus résistantes",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_25.jpg"
     },
     {
       "page_number": 26,
-      "title": "Sortenwahl",
-      "text": "SORTEN WÄHLEN PFLANZABSTÄNDE EINHALTEN Wie pflanzt man richtig im bio-intensiven Anbau?\n\n- Die Sorten je nach Saison gut auswählen\n- Die Pflanzabstände einhalten\n- Kulturen assoziieren\n- Fruchtwechsel durchführen\nKULTUREN ASSOZIIEREN FRUCHTWECHSEL DURCHFÜHREN",
-      "illustration_description": "Illustration pédagogique pour CHOISIR SES",
+      "title": "Richtig pflanzen im bio-intensiven Gemüsebau",
+      "text": "Schon bei der Pflanzung beugen vier einfache Regeln vielen Problemen vor:\n\n- **Sorten sorgfältig wählen** je nach Jahreszeit.\n- **Pflanzabstände einhalten**, damit Luft und Licht zirkulieren können.\n- **Ergänzende Kulturen kombinieren** (Mischkultur).\n- **Fruchtfolgen einhalten**, um die Zyklen von Krankheiten und Schädlingen zu unterbrechen.",
+      "illustration_description": "Illustration pédagogique pour Bien planter en maraîchage bio-intensif",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_26.jpg"
     },
     {
       "page_number": 27,
-      "title": "Anpassen",
-      "text": "BEWÄSSERUNG MULCH KOMPOST + SCHONENDE BEWÄSSERUNG\n\nWie man seine Kulturen in lebendigem Boden pflegt:\n\n- Regelmäßig Kompost / Kompostsaft ausbringen\n- Reichlich mulchen\n- Beete und Wege mit schonender Bewässerung gießen\n- Insektenschutznetze verwenden\n- Die Wasserzufuhr an das Wachstumsstadium der Pflanze anpassen\n- NETZE",
-      "illustration_description": "Illustration pédagogique pour ADAPTER",
+      "title": "Kulturen auf lebendigem Boden pflegen",
+      "text": "Erhalten Sie während des gesamten Kulturzyklus die Vitalität Ihrer Pflanzen und Ihres Bodens:\n\n- **Regelmäßig Kompost** oder Komposttee ausbringen.\n- **Reichlich mulchen**, um den Boden zu schützen und die Feuchtigkeit zu halten.\n- **Mit sanfter Bewässerung gießen**, sowohl die Kulturbeete als auch die Wege.\n- **Insektenschutznetze verwenden**, um empfindliche Kulturen zu schützen.\n- **Die Wassergabe anpassen** je nach Wachstumsstadium der Pflanze.",
+      "illustration_description": "Illustration pédagogique pour Entretenir ses cultures en sol vivant",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_27.jpg"
     },
     {
       "page_number": 28,
-      "title": "Ein natürliches Behandlungsmittel herstellen",
-      "text": "Ein natürliches Behandlungsmittel herstellen",
+      "title": "Eine natürliche Behandlung herstellen",
+      "text": "Wenn Vorbeugung nicht ausreicht, ermöglichen einfach herzustellende natürliche Präparate ein Eingreifen, ohne dem lebendigen Boden zu schaden.",
       "illustration_description": "Illustration pédagogique pour Fabriquer un traitement naturel",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_28.jpg"
     },
     {
       "page_number": 29,
-      "title": "Wenn das Problem weiterhin besteht, muss eine natürliche Behandlung angewendet werden.",
-      "text": "Man kann bestimmte Pflanzen zu **Jauchen**, **Aufgüssen** oder **Abkochungen** verarbeiten, um die Kulturen zu schützen.",
-      "illustration_description": "Illustration pédagogique pour Si le problème persiste, il faut utiliser un traitement naturel.",
+      "title": "Pflanzen zum Schutz der Kulturen nutzen",
+      "text": "Wenn das Problem trotz vorbeugender Maßnahmen bestehen bleibt, ist eine **natürliche Behandlung** nötig.\n\nMan kann bestimmte lokale Pflanzen (Neem, Knoblauch, Chili, Ingwer …) zu **Jauchen**, **Aufgüssen** oder **Abkochungen** verarbeiten, um die Kulturen wirksam zu schützen.",
+      "illustration_description": "Illustration pédagogique pour Utiliser les plantes pour protéger les cultures",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_29.jpg"
     },
     {
       "page_number": 30,
-      "title": "Mit lebendigem, gut genährtem Boden, Schutznetzen für Kulturen und angepassten natürlichen Behandlungen können wir vorbeugen",
-      "text": "und die meisten Probleme ohne den Einsatz von Chemikalien bewältigen.\n\nDurch eine gute Fruchtfolge und eine intelligente Sortenwahl fördern wir auch widerstandsfähigere Pflanzen und bessere Ernten.",
-      "illustration_description": "Illustration pédagogique pour Avec un sol vivant et bien nourri, des filets pour protéger les cultures, et des traitements naturels adaptés, on peut prévenir",
+      "title": "Merksatz: natürlich vorbeugen und schützen",
+      "text": "Mit einem **lebendigen und gut ernährten Boden**, **Netzen** zum Schutz der Kulturen und **geeigneten natürlichen Behandlungen** lassen sich die meisten Probleme vermeiden und bewältigen, ohne chemische Produkte einzusetzen.\n\nMit einer guten Fruchtfolge und einer klugen Sortenwahl fördert man außerdem widerstandsfähigere Pflanzen und bessere Ernten.",
+      "illustration_description": "Illustration pédagogique pour À retenir : prévenir et protéger naturellement",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_30.jpg"
     }
   ],
-  "course_code": "M4.1"
+  "course_code": "M4.1",
+  "media": [
+    {
+      "id": "nXoMi9If_C8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nXoMi9If_C8",
+      "title": "Podcast 22 - Pesticides, vie du sol et vers de terre",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "nGmuCSJjfj8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nGmuCSJjfj8",
+      "title": "Podcast 18 - Maraîchage bio, semences et pesticides",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "TMFZCWG1Y2w",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TMFZCWG1Y2w",
+      "title": "Maraîchage bio-intensif – Épisode 9 : Pesticides et nouvelles pratiques",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

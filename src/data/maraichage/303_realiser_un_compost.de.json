@@ -1,256 +1,282 @@
 {
   "id": "303_realiser_un_compost",
-  "title": "Kompost herstellen & einen Komposter bauen",
+  "title": "Kompost herstellen & eine Kompostanlage bauen",
   "category": "Techniken & Praktiken",
-  "summary": "Schritt-für-Schritt-Herstellung von Winterkompost (Grün/Braun/Mist, Feuchtigkeit, Temperaturanstieg) und Bau eines lokalen Komposters aus Holz oder Drahtgeflecht.",
+  "summary": "Schritt-für-Schritt-Anleitung zur Herstellung von Regenzeit-Kompost (grün/braun/Mist, Feuchtigkeit, Temperaturanstieg) sowie zum Bau einer lokal gefertigten Kompostanlage aus Holz oder Drahtgitter.",
   "total_pages": 35,
   "cover_image": "assets/images/maraichage/303_realiser_un_compost/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "Wir zeigen Ihnen, wie Sie Ihren Kompost in einem Gärtnereibetrieb anlegen",
-      "text": "biointensiv auf lebendigem Boden.",
-      "illustration_description": "Illustration pédagogique pour Nous allons vous montrer comment mettre en place son compost dans une entreprise maraîchère",
+      "title": "Einführung in die Kompostherstellung",
+      "text": "Wir zeigen Ihnen, wie Sie **Ihren Kompost** in einem **bio-intensiven Gemüsebaubetrieb auf lebendigem Boden** anlegen.",
+      "illustration_description": "Illustration pédagogique pour Introduction à la fabrication du compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "Kompost – Was ist das?",
-      "text": "Es ist der Vorgang, bei dem Abfälle oder organische Materialien durch das Bodenleben zersetzt werden, um sie in ein fruchtbares Substrat umzuwandeln, das für den Anbau verwendet werden kann.",
+      "title": "Was ist Kompost?",
+      "text": "Beim Kompostieren werden Abfälle oder **organische Materialien** durch das **Bodenleben** zersetzt und in ein **fruchtbares Substrat** umgewandelt, das für den Anbau genutzt werden kann.",
       "illustration_description": "Illustration pédagogique pour Le compost, qu’est-ce que c’est ?",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "Für die Herstellung und Verwendung Ihres Komposts benötigen Sie folgende Werkzeuge: ein Maßband, 1 Schaufel oder eine Hacke, 1",
-      "text": "Gießkanne, 1 leeres Fass und 1 Stock zum Umrühren.",
-      "illustration_description": "Illustration pédagogique pour Pour faire et utiliser votre compost, vous aurez besoin des outils suivants : un mètre, 1 pelle ou une houe, 1",
+      "title": "Benötigte Werkzeuge",
+      "text": "Um Ihren Kompost herzustellen und anzuwenden, benötigen Sie folgende Werkzeuge:\n\n- **1 Metermaß**\n- **1 Schaufel oder 1 Hacke**\n- **1 Gießkanne**\n- **1 leeres Fass**\n- **1 Stock** zum Umrühren",
+      "illustration_description": "Illustration pédagogique pour Outils nécessaires",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "Für die Kompostierung benötigen Sie folgende Zutaten:",
-      "text": "1,5 m³ **grüne Zutaten** wie Küchenabfälle, Jätgut, Gründüngungsschnitt oder Strauchblätter.",
-      "illustration_description": "Illustration pédagogique pour Pour faire le compost, vous aurez besoin des ingrédients suivants : 1,5 m3 d’ingrédients verts comme des résidus",
+      "title": "Die grünen Zutaten",
+      "text": "Für den Kompost benötigen Sie **1,5 m³ grüne Zutaten**, die reich an Stickstoff sind, zum Beispiel:\n\n- **Küchenabfälle**\n- **Jätgut**\n- **Mähgut von Gründüngung**\n- **Strauchblätter**",
+      "illustration_description": "Illustration pédagogique pour Les ingrédients verts",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "1,5 m3 braunes Material wie Herbstlaub, Äste, trockene Erntereste oder",
-      "text": "Erdnussschalen.",
-      "illustration_description": "Illustration pédagogique pour 1,5 m3 de matériaux bruns comme des feuilles mortes, des branches, des résidus de récolte secs ou des",
+      "title": "Die braunen Materialien",
+      "text": "Planen Sie außerdem **1,5 m³ braune Materialien** ein, die reich an Kohlenstoff sind, zum Beispiel:\n\n- **Laub**\n- **Zweige**\n- **trockene Ernterückstände**\n- **Erdnussschalen**",
+      "illustration_description": "Illustration pédagogique pour Les matériaux bruns",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Sie benötigen außerdem 5 Eimer Kuhmist oder Kuhurin oder Erde oder alten Kompost und das Volumen eines",
-      "text": "100-kg-Sacks mit Pulver oder Kohleresten.",
-      "illustration_description": "Illustration pédagogique pour Il faudra aussi 5 seaux de bouse de vache ou d'urine de vache ou de terre ou de vieux compost, et le volume d'un",
+      "title": "Starter und Holzkohle",
+      "text": "Sie benötigen außerdem zwei wesentliche Zusatzstoffe:\n\n- **5 Eimer Starter**: Kuhdung, Kuhurin, Erde oder alter Kompost.\n- **Holzkohle**: das Volumen **eines großen Sacks (Typ 100-kg-Sack)** Holzkohlepulver oder kleiner Holzkohlestücke.",
+      "illustration_description": "Illustration pédagogique pour Démarreur et charbon",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Die Kompostanlage wird in 6 Schritten aufgebaut. Wenn alle Materialien vorhanden sind, ist dies eine Arbeit, die nicht länger dauert",
-      "text": "als einen Tag für zwei Personen.",
-      "illustration_description": "Illustration pédagogique pour La mise en place du compost se fait en 6 étapes. Si tout le matériel est réuni, c’est un travail qui ne prend pas plus",
+      "title": "Dauer und Organisation der Arbeit",
+      "text": "Das Anlegen des Komposts erfolgt in **6 Schritten**.\n\nWenn das gesamte Material bereitliegt, dauert die Arbeit für **zwei Personen nicht länger als einen Tag**.",
+      "illustration_description": "Illustration pédagogique pour Durée et organisation du chantier",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "Schritt 1: Kompostierung starten",
-      "text": "SCHRITT 1: KOMPOSTIERUNG STARTEN",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 1: LANCER LA FABRICATION DE COMPOST",
+      "title": "Schritt 1: Die Kompostierung starten",
+      "text": "Beginnen Sie Ihren ersten Haufen im **1. Fach** der Kompostanlage, indem Sie die verschiedenen Schichten organischen Materials sorgfältig abwechseln.",
+      "illustration_description": "Illustration pédagogique pour Étape 1 : Lancer la fabrication de compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "Schichten Sie nacheinander braune und grüne Materialien auf und geben Sie nach jeder Schicht einen Starter hinzu, der reich an",
-      "text": "Mikroorganismen ist: entweder Kuhmist oder -urin oder einen Eimer alten Kompost.",
-      "illustration_description": "Illustration pédagogique pour Empilez successivement les matériaux bruns et verts, en y ajoutant après chaque couche un démarreur riche en",
+      "title": "Braune Materialien, grüne Materialien und Starter abwechseln",
+      "text": "Schichten Sie nacheinander **braune Materialien** und **grüne Materialien** auf und geben Sie nach jeder Schicht einen **an Mikroorganismen reichen Starter** hinzu: entweder Kuhdung oder Kuhurin oder einen Eimer alten Kompost.",
+      "illustration_description": "Illustration pédagogique pour Alterner matériaux bruns, verts et démarreur",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "Die erste 30 cm Schicht wird mit braunem Material gebildet. Streuen Sie einen Eimer einer der Starter darüber,",
-      "text": "die Ihnen zur Verfügung stehen.",
-      "illustration_description": "Illustration pédagogique pour La première couche de 30 cm se fait avec la matière brune. Saupoudrez dessus un seau de l'un des démarreurs à",
+      "title": "Erste Schicht: braunes Material",
+      "text": "Die erste, **30 cm** hohe Schicht besteht aus **braunem Material**.\n\nStreuen Sie darüber **einen Eimer** eines der verfügbaren Starter.",
+      "illustration_description": "Illustration pédagogique pour Première couche : matière brune",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "Die zweite 30 cm Schicht wird mit Grünmaterial erstellt. Dann einen Eimer Ihres Starters darüber streuen.",
-      "text": "Die zweite 30 cm Schicht wird mit Grünmaterial erstellt. Dann einen Eimer Ihres Starters darüber streuen.",
-      "illustration_description": "Illustration pédagogique pour La deuxième couche de 30 cm se fait avec la matière verte. Puis saupoudrez un seau de votre démarreur.",
+      "title": "Zweite Schicht: grünes Material",
+      "text": "Die zweite, **30 cm** hohe Schicht besteht aus **grünem Material**.\n\nStreuen Sie anschließend **einen Eimer** Ihres Starters darüber.",
+      "illustration_description": "Illustration pédagogique pour Deuxième couche : matière verte",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "Wiederholen Sie den Vorgang, um 5 bis 6 Schichten von 30 cm zu erhalten, wobei Sie immer mit dem Material abschließen, das am meisten",
-      "text": "verfügbar ist.",
-      "illustration_description": "Illustration pédagogique pour Répétez l'opération pour obtenir 5 à 6 couches de 30 cm en terminant toujours avec la matière qui est la plus",
+      "title": "Den Haufen auf 5 bis 6 Schichten aufbauen",
+      "text": "Wiederholen Sie den Vorgang, bis Sie **5 bis 6 Schichten von je 30 cm** haben, und schließen Sie immer mit dem Material ab, das am reichlichsten verfügbar ist.",
+      "illustration_description": "Illustration pédagogique pour Monter le tas sur 5 à 6 couches",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Schritt 2: Umschichten und",
-      "text": "KOMPOST MISCHEN",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 2 : TRANSFÉRER DE COMPARTIMENT ET",
+      "title": "Schritt 2: Ins nächste Fach umsetzen und den Kompost mischen",
+      "text": "Nach einer ersten Zersetzungsphase versorgt das Umsetzen des Haufens den Kompost mit Sauerstoff und sorgt für eine gleichmäßige Umwandlung.",
+      "illustration_description": "Illustration pédagogique pour Étape 2 : Transférer de compartiment et mélanger le compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "Nach 2-3 Wochen hat das Rohmaterial an Volumen abgenommen.",
-      "text": "Nach 2-3 Wochen hat das Rohmaterial an Volumen abgenommen.",
-      "illustration_description": "Illustration pédagogique pour Au bout de 2-3 semaines, la matière organique brute a diminué de volume.",
+      "title": "Die Volumenabnahme beobachten",
+      "text": "Nach **2 bis 3 Wochen** hat das Volumen des rohen organischen Materials deutlich abgenommen: Das zeigt, dass die Zersetzung gut voranschreitet.",
+      "illustration_description": "Illustration pédagogique pour Observer la diminution de volume",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Übertragen Sie den Kompost mit der Schaufel in das 2. Fach und fügen Sie die Hälfte des Beutels Holzkohle hinzu.",
-      "text": "Das Äußere sollte in der Mitte und das Innere außen landen.",
-      "illustration_description": "Illustration pédagogique pour À l’aide de la pelle, transférez le compost dans le 2ᵉ compartiment en ajoutant la moitié du sac de charbon.",
+      "title": "Mit der Holzkohle ins 2. Fach umsetzen",
+      "text": "Setzen Sie den Kompost mit der Schaufel in das **2. Fach** um und geben Sie dabei **die Hälfte des Sacks Holzkohle** hinzu.\n\nDie Außenseite des Haufens muss in die Mitte gelangen und das Zentrum nach außen.",
+      "illustration_description": "Illustration pédagogique pour Transférer dans le 2e compartiment avec le charbon",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Mischen für einen homogenen Haufen.",
-      "text": "Mischen für einen homogenen Haufen.",
-      "illustration_description": "Illustration pédagogique pour Mélangez pour obtenir un tas homogène.",
+      "title": "Die Mischung homogenisieren",
+      "text": "Mischen Sie das gesamte Material und die Holzkohle gründlich durch, um einen **gleichmäßigen Haufen** zu erhalten.",
+      "illustration_description": "Illustration pédagogique pour Homogénéiser le mélange",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "Sobald das erste Fach leer ist, starten Sie die Kompostherstellung wie in Schritt 1 beschrieben neu.",
-      "text": "Sobald das erste Fach leer ist, starten Sie die Kompostherstellung wie in Schritt 1 beschrieben neu.",
-      "illustration_description": "Illustration pédagogique pour Aussitôt que le 1er compartiment est vide, relancez la fabrication de compost comme vu dans l'étape 1.",
+      "title": "Das 1. Fach neu befüllen",
+      "text": "Sobald das **1. Fach** leer ist, starten Sie eine neue Kompostierung wie in Schritt 1 beschrieben.",
+      "illustration_description": "Illustration pédagogique pour Relancer le 1er compartiment",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_17.jpg"
     },
     {
       "page_number": 18,
       "title": "Schritt 3: Den Kompost fertigstellen",
-      "text": "SCHRITT 3: DEN KOMPOST FERTIGSTELLEN",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 3 : FINALISER LE COMPOST",
+      "text": "Das Umsetzen ins **3. Fach** schließt die Reifung des Komposts ab und hält zugleich einen kontinuierlichen Produktionszyklus aufrecht.",
+      "illustration_description": "Illustration pédagogique pour Étape 3 : Finaliser le compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "Nach 2-3 Wochen hat das Kompostvolumen im 2. Behälter abgenommen.",
-      "text": "Nach 2-3 Wochen hat das Kompostvolumen im 2. Behälter abgenommen.",
-      "illustration_description": "Illustration pédagogique pour Au bout de 2-3 semaines le compost du 2ème compartiment a diminué de volume.",
+      "title": "Erneute Volumenabnahme nach 2 bis 3 Wochen",
+      "text": "Nach **2 bis 3 Wochen** hat der Kompost im **2. Fach** erneut an Volumen verloren.",
+      "illustration_description": "Illustration pédagogique pour Nouvelle baisse de volume après 2 à 3 semaines",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "Übertragen Sie es mit der zweiten Hälfte des Kohlesacks in das 3. Fach. Die Teile",
-      "text": "außen müssen in die Mitte gelangen und umgekehrt. Die Mischung muss am Ende sehr homogen sein.",
-      "illustration_description": "Illustration pédagogique pour Transférez-le dans le 3ème compartiment en utilisant la deuxième moitié du sac de charbon. Les parties",
+      "title": "Ins 3. Fach umsetzen",
+      "text": "Setzen Sie ihn in das **3. Fach** um und geben Sie die **zweite Hälfte des Sacks Holzkohle** hinzu.\n\nDie äußeren Bereiche müssen in die Mitte gelangen und umgekehrt. Am Ende muss die Mischung **sehr homogen** sein.",
+      "illustration_description": "Illustration pédagogique pour Transférer dans le 3e compartiment",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "Wie in Schritt 2, überführen Sie das 1. Fach in das 2. und fügen Sie einen halben Sack Kohle hinzu.",
-      "text": "Wie in Schritt 2, überführen Sie das 1. Fach in das 2. und fügen Sie einen halben Sack Kohle hinzu.",
-      "illustration_description": "Illustration pédagogique pour Comme dans l’étape 2, transférez le 1er compartiment dans le 2ème en ajoutant la moitié d’un sac de charbon.",
+      "title": "Das 1. Fach ins 2. Fach weiterführen",
+      "text": "Setzen Sie wie in Schritt 2 den Inhalt des **1. Fachs** in das **2. Fach** um und geben Sie die Hälfte eines Sacks Holzkohle hinzu.",
+      "illustration_description": "Illustration pédagogique pour Faire avancer le 1er compartiment vers le 2e",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_21.jpg"
     },
     {
       "page_number": 22,
-      "title": "Wenn das erste Fach frei ist: Zutaten erneut stapeln.",
-      "text": "Wenn das erste Fach frei ist: Zutaten erneut stapeln.",
-      "illustration_description": "Illustration pédagogique pour Quand le premier compartiment est libre : empilez à nouveau les ingrédients.",
+      "title": "Das 1. Fach wieder befüllen",
+      "text": "Sobald das **1. Fach** frei ist, schichten Sie die Zutaten erneut auf (braunes Material, grünes Material und Starter).",
+      "illustration_description": "Illustration pédagogique pour Recharger le 1er compartiment",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "Nach 2-3 Wochen, leeren Sie das 2. Fach in das 3. und das 1. in das 2.",
-      "text": "Wenn das 1. Fach leer ist, schichten Sie die Zutaten erneut. Und so weiter.",
-      "illustration_description": "Illustration pédagogique pour Au bout de 2-3 semaines, videz le 2ème compartiment dans le 3ème et le 1er dans le 2ème.",
+      "title": "Die Rotation zwischen den 3 Fächern aufrechterhalten",
+      "text": "Leeren Sie nach **2 bis 3 Wochen** das **2. Fach** in das **3.** und anschließend das **1.** in das **2.**\n\nSobald das 1. Fach leer ist, schichten Sie die Zutaten erneut auf, und so weiter.",
+      "illustration_description": "Illustration pédagogique pour Maintenir la rotation entre les 3 compartiments",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_23.jpg"
     },
     {
       "page_number": 24,
-      "title": "Schritt 4: Weiterhin den",
-      "text": "KOMPOSTER BEFÜLLEN",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 4 : CONTINUER À ALIMENTER LA",
+      "title": "Schritt 4: Die Kompostanlage weiter befüllen",
+      "text": "Nutzen Sie die gesamte Regenzeit, um einen ausreichenden Vorrat an fruchtbarem Kompost für Ihre Anbaubeete anzulegen.",
+      "illustration_description": "Illustration pédagogique pour Étape 4 : Continuer à alimenter la compostière",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_24.jpg"
     },
     {
       "page_number": 25,
-      "title": "Nachdem Sie nun die Technik des Überwinterungskomposts kennen, wiederholen Sie diese Vorgänge den ganzen Winter über",
-      "text": "bis Sie 5 m3 Kompost erhalten haben.",
-      "illustration_description": "Illustration pédagogique pour Maintenant que vous connaissez la technique du compost d`hivernage, répétez ces opérations tout l'hivernage",
+      "title": "Produktionsziel: 5 m³ Kompost",
+      "text": "Nun, da Sie die Technik des **Regenzeit-Komposts** kennen, wiederholen Sie diese Arbeitsschritte während der gesamten Regenzeit, bis Sie **5 m³ Kompost** erhalten haben.",
+      "illustration_description": "Illustration pédagogique pour Objectif de production : 5 m³ de compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_25.jpg"
     },
     {
       "page_number": 26,
-      "title": "Schritt 5: Komposttee zubereiten",
-      "text": "SCHRITT 5: KOMPOSTTEE ZUBEREITEN",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 5 : PRÉPARER DU JUS DE COMPOST",
+      "title": "Schritt 5: Komposttee herstellen",
+      "text": "Zusätzlich zum festen Kompost können Sie einen lebendigen Flüssigdünger herstellen, der sich sehr einfach am Fuß der Kulturen ausbringen lässt.",
+      "illustration_description": "Illustration pédagogique pour Étape 5 : Préparer du jus de compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_26.jpg"
     },
     {
       "page_number": 27,
-      "title": "x2",
-      "text": "x 20 Geben Sie 2 Eimer Kompost in das Fass und fügen Sie zwanzig Eimer Regen-, Futter- oder Brunnenwasser hinzu. Vermeiden Sie die Verwendung von Leitungswasser, das ein Desinfektionsmittel enthalten kann.",
-      "illustration_description": "Illustration pédagogique pour x2",
+      "title": "Dosierung des Komposttees",
+      "text": "Geben Sie **2 Eimer Kompost** in das Fass und fügen Sie **20 Eimer Wasser** hinzu: Regenwasser, **Bohrloch-** oder Brunnenwasser.\n\n⚠️ **Wichtiger Hinweis**: Vermeiden Sie Wasser aus dem öffentlichen Netz, da es ein Desinfektionsmittel enthalten kann, das den Mikroorganismen schadet.",
+      "illustration_description": "Illustration pédagogique pour Dosage du jus de compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_27.jpg"
     },
     {
       "page_number": 28,
-      "title": "x3",
-      "text": "Rühren Sie die Mischung 3 Mal um.\n\nNach 3 Tagen ist Ihr Kompostsaft gebrauchsfertig.",
-      "illustration_description": "Illustration pédagogique pour x3",
+      "title": "Ziehenlassen und Umrühren der Mischung",
+      "text": "Rühren Sie die Mischung **3-mal** um (zum Beispiel **1-mal täglich an 3 Tagen**).\n\nNach **3 Tagen** ist Ihr **Komposttee** einsatzbereit.",
+      "illustration_description": "Illustration pédagogique pour Macération et brassage du mélange",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_28.jpg"
     },
     {
       "page_number": 29,
-      "title": "Schritt 6: Kompost verwenden",
-      "text": "SCHRITT 6: KOMPOST VERWENDEN\n\n- Le compost est un excellent **amendement du sol** qui améliore sa structure, sa fertilité et sa capacité de rétention d'eau.\n- Il peut être utilisé de différentes manières :\n  - **En surface** : Étalez une couche de compost de 2 à 5 cm d'épaisseur autour des plantes existantes. Cela agit comme un paillis, supprime les mauvaises herbes et nourrit lentement le sol.\n  - **Incorporé au sol** : Avant de planter, mélangez du compost avec la terre de votre jardin. Cela enrichit le sol en matière organique et en nutriments.\n  - **Pour les semis et les rempotages** : Le compost peut être mélangé à du terreau pour créer un substrat riche et sain pour les jeunes plantes.\n- **Quantité** : En général, une couche de 2 à 5 cm de compost par an est suffisante pour la plupart des jardins. Pour les sols très pauvres, vous pouvez en utiliser un peu plus la première année.\n- **Fréquence** : Une application annuelle au printemps ou à l'automne est idéale.\n- **Avantages** :\n  - Améliore la **structure du sol** (aération, drainage).\n  - Augmente la **capacité de rétention d'eau** du sol, réduisant le besoin d'arrosage.\n  - Fournit des **nutriments essentiels** aux plantes de manière lente et continue.\n  - Favorise l'activité des **micro-organismes bénéfiques** du sol.\n  - Réduit le besoin d'engrais chimiques.\n- **Conseil** : Évitez d'utiliser du compost frais (non mûr) directement sur les plantes, car il peut être trop fort et brûler les racines. Assurez-vous que votre compost est bien décomposé et a une odeur terreuse agréable.",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 6 : UTILISER LE COMPOST",
+      "title": "Schritt 6: Den Kompost anwenden",
+      "text": "Erfahren Sie, zu welchen Schlüsselzeitpunkten im Kulturzyklus Sie Ihren festen Kompost und Ihren Komposttee ausbringen.",
+      "illustration_description": "Illustration pédagogique pour Étape 6 : Utiliser le compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_29.jpg"
     },
     {
       "page_number": 30,
-      "title": "Kompost und Kompostsaft können in verschiedenen Phasen des Anbauzyklus eingesetzt werden.",
-      "text": "Kompost und Kompostsaft können in verschiedenen Phasen des Anbauzyklus eingesetzt werden.",
-      "illustration_description": "Illustration pédagogique pour Le compost et le jus de compost peuvent être utilisés à différentes étapes du cycle de culture.",
+      "title": "An jede Kulturphase angepasste Gaben",
+      "text": "**Kompost** und **Komposttee** können in verschiedenen Phasen des Kulturzyklus eingesetzt werden, um den Boden zu ernähren und das Pflanzenwachstum zu unterstützen.",
+      "illustration_description": "Illustration pédagogique pour Des apports adaptés à chaque phase de culture",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_30.jpg"
     },
     {
       "page_number": 31,
-      "title": "Kompost als Bodenverbesserer auf die Beete aufbringen, um die Saatbeete vorzubereiten.",
-      "text": "Bringen Sie den Kompost als Bodenverbesserer auf die Beete auf, um die Saatbeete vorzubereiten.",
-      "illustration_description": "Illustration pédagogique pour Apportez le compost comme amendement sur les planches pour préparer les lits de cultures.",
+      "title": "Die Beete vor der Kultur verbessern",
+      "text": "Bringen Sie den **Kompost** als Bodenverbesserer auf die Beete aus, um die **Anbaubeete** vorzubereiten.",
+      "illustration_description": "Illustration pédagogique pour Amender les planches avant culture",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_31.jpg"
     },
     {
       "page_number": 32,
-      "title": "Kompostsaft auf den Boden sprühen, wenn die Blüte beginnt.",
-      "text": "Sprühen Sie den Kompostsaft auf den Boden, wenn die Blüte beginnt.",
-      "illustration_description": "Illustration pédagogique pour Aspergez le jus du compost sur le sol quand la floraison commence.",
+      "title": "Komposttee zur Blüte ausbringen",
+      "text": "Gießen Sie den **Komposttee** auf den Boden, sobald die **Blüte** beginnt.",
+      "illustration_description": "Illustration pédagogique pour Appliquer le jus de compost à la floraison",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_32.jpg"
     },
     {
       "page_number": 33,
-      "title": "Besprühen Sie den Boden mit Kompostsaft, wenn Obst und Gemüse zu wachsen beginnen.",
-      "text": "Besprühen Sie den Boden mit Kompostsaft, wenn Obst und Gemüse zu wachsen beginnen.",
-      "illustration_description": "Illustration pédagogique pour Aspergez le jus du compost sur le sol quand les fruits et légumes commencent à pousser.",
+      "title": "Komposttee zur Fruchtbildung ausbringen",
+      "text": "Gießen Sie den **Komposttee** auf den Boden, sobald die **Früchte und das Gemüse** zu wachsen beginnen.",
+      "illustration_description": "Illustration pédagogique pour Appliquer le jus de compost à la fructification",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_33.jpg"
     },
     {
       "page_number": 34,
-      "title": "Kompost ist kein Mülleimer; nicht alle Abfälle zersetzen sich und können sogar schädlich sein",
-      "text": "für den Kompost und das Bodenleben.\n\nBatterien, Plastikflaschen, Plastiktüten: Alles, was nicht organisch ist, gehört hier nicht hinein.",
-      "illustration_description": "Illustration pédagogique pour Le compost n’est pas une poubelle ; tous les déchets ne se décomposent pas et peuvent même être mauvais pour",
+      "title": "Abfälle, die unbedingt auszuschließen sind",
+      "text": "⚠️ **Achtung**: Der Kompost ist kein Mülleimer; nicht alle Abfälle werden zersetzt, und sie können dem Kompost und dem Bodenleben sogar schaden.\n\n**Batterien, Plastikflaschen, Plastiktüten**: Alles, was nicht organisch ist, hat in Ihrer Kompostanlage nichts verloren.",
+      "illustration_description": "Illustration pédagogique pour Les déchets à exclure absolument",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_34.jpg"
     },
     {
       "page_number": 35,
-      "title": "Herzlichen Glückwunsch! Sie kennen nun die Technik zur Herstellung Ihres Überwinterungskomposts und dessen Verwendung in Ihren",
-      "text": "Bio-Intensivkulturen im lebendigen Boden.",
-      "illustration_description": "Illustration pédagogique pour Félicitations ! Vous connaissez maintenant la technique pour faire votre compost d’hivernage et l’utiliser dans vos",
+      "title": "Bereit für Ihre Regenzeit-Kompostproduktion",
+      "text": "**Glückwunsch!** Sie kennen nun die Technik, um Ihren **Regenzeit-Kompost** herzustellen und in Ihren Kulturen des **bio-intensiven Gemüsebaus auf lebendigem Boden** einzusetzen.",
+      "illustration_description": "Illustration pédagogique pour Prêt à produire votre compost d’hivernage",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_35.jpg"
     }
   ],
-  "course_code": "M3.3"
+  "course_code": "M3.3",
+  "media": [
+    {
+      "id": "rtnGHwvWlKU",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rtnGHwvWlKU",
+      "title": "Maraîchage bio-intensif – Épisode 10 : Le compost naturel",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "TFsCoeTlj8A",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TFsCoeTlj8A",
+      "title": "Maraîchage bio-intensif – Épisode 12 : Exploiter le compost",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "nYAaVBeJXck",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nYAaVBeJXck",
+      "title": "Maraîchage bio-intensif – Épisode 13 : Avantages du compost",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

@@ -1,256 +1,282 @@
 {
   "id": "303_realiser_un_compost",
-  "title": "Making Compost & Building a Composter",
+  "title": "Making compost and building a compost bin",
   "category": "Techniques & Practices",
-  "summary": "Step-by-step winter compost production (greens/browns/manure, moisture, temperature rise) and building a local wooden or wire mesh composter.",
+  "summary": "Step-by-step guide to making rainy-season compost (green/brown materials/manure, moisture, temperature rise) and building a local compost bin from wood or wire mesh.",
   "total_pages": 35,
   "cover_image": "assets/images/maraichage/303_realiser_un_compost/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "We will show you how to set up your compost in a market gardening business",
-      "text": "bio-intensive in living soil.",
-      "illustration_description": "Illustration pédagogique pour Nous allons vous montrer comment mettre en place son compost dans une entreprise maraîchère",
+      "title": "Introduction to compost making",
+      "text": "We are going to show you how to set up **your compost** on a **bio-intensive, living-soil** market gardening farm.",
+      "illustration_description": "Illustration pédagogique pour Introduction à la fabrication du compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_01.jpg"
     },
     {
       "page_number": 2,
       "title": "What is compost?",
-      "text": "It is the process of decomposing organic waste or materials through soil life, to transform them into a fertile substrate usable for crops.",
+      "text": "It is the process of breaking down waste or **organic matter** through **soil life**, to turn it into a **fertile substrate** that can be used for crops.",
       "illustration_description": "Illustration pédagogique pour Le compost, qu’est-ce que c’est ?",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "To make and use your compost, you will need the following tools: a measuring tape, 1 shovel or a hoe, 1",
-      "text": "watering can, 1 empty barrel, and 1 stick for mixing.",
-      "illustration_description": "Illustration pédagogique pour Pour faire et utiliser votre compost, vous aurez besoin des outils suivants : un mètre, 1 pelle ou une houe, 1",
+      "title": "Tools needed",
+      "text": "To make and use your compost, you will need the following tools:\n\n- **1 measuring tape**\n- **1 shovel or 1 hoe**\n- **1 watering can**\n- **1 empty drum**\n- **1 stick** for mixing",
+      "illustration_description": "Illustration pédagogique pour Outils nécessaires",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "To make compost, you will need the following ingredients: 1.5 m3 of green ingredients such as residues",
-      "text": "from the kitchen, weeding products, green manure mowing, or shrub leaves.",
-      "illustration_description": "Illustration pédagogique pour Pour faire le compost, vous aurez besoin des ingrédients suivants : 1,5 m3 d’ingrédients verts comme des résidus",
+      "title": "Green ingredients",
+      "text": "To make compost, you will need **1.5 m³ of green ingredients** rich in nitrogen, such as:\n\n- **Kitchen scraps**\n- **Weeds pulled during weeding**\n- **Green manure cuttings**\n- **Shrub leaves**",
+      "illustration_description": "Illustration pédagogique pour Les ingrédients verts",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "1.5 m3 of brown materials such as dead leaves, branches, dry crop residues or",
-      "text": "peanut shells.",
-      "illustration_description": "Illustration pédagogique pour 1,5 m3 de matériaux bruns comme des feuilles mortes, des branches, des résidus de récolte secs ou des",
+      "title": "Brown materials",
+      "text": "You should also have **1.5 m³ of brown materials** rich in carbon, such as:\n\n- **Dead leaves**\n- **Branches**\n- **Dry crop residues**\n- **Peanut shells**",
+      "illustration_description": "Illustration pédagogique pour Les matériaux bruns",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "You will also need 5 buckets of cow dung or cow urine or soil or old compost, and the volume of a",
-      "text": "100 kg bag of charcoal powder or charcoal remnants.",
-      "illustration_description": "Illustration pédagogique pour Il faudra aussi 5 seaux de bouse de vache ou d'urine de vache ou de terre ou de vieux compost, et le volume d'un",
+      "title": "Starter and charcoal",
+      "text": "You will also need two essential additional ingredients:\n\n- **5 buckets of starter**: cow dung, cow urine, soil or old compost.\n- **Charcoal**: the volume of **one large sack (100 kg sack type)** of charcoal powder or small pieces.",
+      "illustration_description": "Illustration pédagogique pour Démarreur et charbon",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Compost setup is a 6-step process. If all materials are gathered, it's a job that takes no more",
-      "text": "than one day for two people.",
-      "illustration_description": "Illustration pédagogique pour La mise en place du compost se fait en 6 étapes. Si tout le matériel est réuni, c’est un travail qui ne prend pas plus",
+      "title": "Duration and work organization",
+      "text": "Setting up the compost is done in **6 steps**.\n\nIf all the materials are ready, the job takes no more than **one day for two people**.",
+      "illustration_description": "Illustration pédagogique pour Durée et organisation du chantier",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "Step 1: starting compost production",
-      "text": "STEP 1: STARTING COMPOST PRODUCTION",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 1: LANCER LA FABRICATION DE COMPOST",
+      "title": "Step 1: Starting the compost",
+      "text": "Start your first pile in the **1st compartment** of the compost bin, carefully alternating the different layers of organic matter.",
+      "illustration_description": "Illustration pédagogique pour Étape 1 : Lancer la fabrication de compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "Layer brown and green materials alternately, adding a microorganism-rich starter after each layer",
-      "text": "microorganisms: either **cow dung** or **urine**, or a bucket of **old compost**.",
-      "illustration_description": "Illustration pédagogique pour Empilez successivement les matériaux bruns et verts, en y ajoutant après chaque couche un démarreur riche en",
+      "title": "Alternating brown materials, green materials and starter",
+      "text": "Pile up **brown materials** and **green materials** in turn, adding after each layer a **starter rich in microorganisms**: either cow dung or cow urine, or a bucket of old compost.",
+      "illustration_description": "Illustration pédagogique pour Alterner matériaux bruns, verts et démarreur",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "The first 30 cm layer is made with brown material. Sprinkle a bucket of one of the starters on top.",
-      "text": "at your disposal.",
-      "illustration_description": "Illustration pédagogique pour La première couche de 30 cm se fait avec la matière brune. Saupoudrez dessus un seau de l'un des démarreurs à",
+      "title": "First layer: brown material",
+      "text": "The first **30 cm** layer is made with **brown material**.\n\nSprinkle **one bucket** of one of the starters you have available over it.",
+      "illustration_description": "Illustration pédagogique pour Première couche : matière brune",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "The second 30 cm layer is made with green matter. Then sprinkle a bucket of your starter.",
-      "text": "The second 30 cm layer is made with green matter. Then sprinkle a bucket of your starter.",
-      "illustration_description": "Illustration pédagogique pour La deuxième couche de 30 cm se fait avec la matière verte. Puis saupoudrez un seau de votre démarreur.",
+      "title": "Second layer: green material",
+      "text": "The second **30 cm** layer is made with **green material**.\n\nThen sprinkle **one bucket** of your starter over it.",
+      "illustration_description": "Illustration pédagogique pour Deuxième couche : matière verte",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "Repeat the operation to obtain 5 to 6 layers of 30 cm, always finishing with the most readily available material",
-      "text": "available.",
-      "illustration_description": "Illustration pédagogique pour Répétez l'opération pour obtenir 5 à 6 couches de 30 cm en terminant toujours avec la matière qui est la plus",
+      "title": "Building the pile up to 5 or 6 layers",
+      "text": "Repeat the process to get **5 to 6 layers of 30 cm**, always finishing with whichever material is most available.",
+      "illustration_description": "Illustration pédagogique pour Monter le tas sur 5 à 6 couches",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Step 2: transfer and",
-      "text": "MIX THE COMPOST\n",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 2 : TRANSFÉRER DE COMPARTIMENT ET",
+      "title": "Step 2: Moving to the next compartment and mixing the compost",
+      "text": "After a first phase of decomposition, turning the pile oxygenates the compost and evens out its transformation.",
+      "illustration_description": "Illustration pédagogique pour Étape 2 : Transférer de compartiment et mélanger le compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "After 2-3 weeks, the raw organic matter has decreased in volume.",
-      "text": "After 2-3 weeks, the raw organic matter has decreased in volume.",
-      "illustration_description": "Illustration pédagogique pour Au bout de 2-3 semaines, la matière organique brute a diminué de volume.",
+      "title": "Observing the drop in volume",
+      "text": "After **2 to 3 weeks**, the raw organic matter has clearly decreased in volume: this is a sign that decomposition is progressing well.",
+      "illustration_description": "Illustration pédagogique pour Observer la diminution de volume",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Using the shovel, transfer the compost to the 2nd compartment, adding half the bag of charcoal.",
-      "text": "The outside should end up in the middle and the center on the outside.",
-      "illustration_description": "Illustration pédagogique pour À l’aide de la pelle, transférez le compost dans le 2ᵉ compartiment en ajoutant la moitié du sac de charbon.",
+      "title": "Moving to the 2nd compartment with charcoal",
+      "text": "Using the shovel, transfer the compost to the **2nd compartment** while adding **half a sack of charcoal**.\n\nThe outside of the pile should end up in the middle and the center on the outside.",
+      "illustration_description": "Illustration pédagogique pour Transférer dans le 2e compartiment avec le charbon",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Mix for a Homogeneous Pile",
-      "text": "Mix for a homogeneous pile.",
-      "illustration_description": "Illustration pédagogique pour Mélangez pour obtenir un tas homogène.",
+      "title": "Mixing evenly",
+      "text": "Mix all the materials and the charcoal well to obtain a **uniform pile**.",
+      "illustration_description": "Illustration pédagogique pour Homogénéiser le mélange",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "As soon as the 1st compartment is empty, restart compost production as seen in step 1.",
-      "text": "As soon as the 1st compartment is empty, restart compost production as seen in step 1.",
-      "illustration_description": "Illustration pédagogique pour Aussitôt que le 1er compartiment est vide, relancez la fabrication de compost comme vu dans l'étape 1.",
+      "title": "Restarting the 1st compartment",
+      "text": "As soon as the **1st compartment** is empty, start a new batch of compost as described in step 1.",
+      "illustration_description": "Illustration pédagogique pour Relancer le 1er compartiment",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "Step 3: finalizing the compost",
-      "text": "STEP 3: FINALIZING THE COMPOST\n\n",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 3 : FINALISER LE COMPOST",
+      "title": "Step 3: Finishing the compost",
+      "text": "Moving to the **3rd compartment** allows the compost to finish maturing while keeping production going in a continuous cycle.",
+      "illustration_description": "Illustration pédagogique pour Étape 3 : Finaliser le compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "After 2-3 weeks, the compost in the 2nd compartment has reduced in volume.",
-      "text": "After 2-3 weeks, the compost in the 2nd compartment has reduced in volume.",
-      "illustration_description": "Illustration pédagogique pour Au bout de 2-3 semaines le compost du 2ème compartiment a diminué de volume.",
+      "title": "Another drop in volume after 2 to 3 weeks",
+      "text": "After **2 to 3 weeks**, the compost in the **2nd compartment** has once again decreased in volume.",
+      "illustration_description": "Illustration pédagogique pour Nouvelle baisse de volume après 2 à 3 semaines",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "Transfer it to the 3rd compartment using the second half of the charcoal bag. The parts",
-      "text": "outside should end up in the middle and vice versa. The mixture must be very homogeneous at the end.",
-      "illustration_description": "Illustration pédagogique pour Transférez-le dans le 3ème compartiment en utilisant la deuxième moitié du sac de charbon. Les parties",
+      "title": "Moving to the 3rd compartment",
+      "text": "Transfer it to the **3rd compartment** while adding the **second half of the sack of charcoal**.\n\nThe outer parts should end up in the middle and vice versa. The mix must be **very uniform** at the end.",
+      "illustration_description": "Illustration pédagogique pour Transférer dans le 3e compartiment",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "As in Step 2, transfer the 1st compartment into the 2nd, adding half a bag of charcoal.",
-      "text": "As in Step 2, transfer the 1st compartment into the 2nd, adding half a bag of charcoal.",
-      "illustration_description": "Illustration pédagogique pour Comme dans l’étape 2, transférez le 1er compartiment dans le 2ème en ajoutant la moitié d’un sac de charbon.",
+      "title": "Moving the 1st compartment forward to the 2nd",
+      "text": "As in step 2, transfer the contents of the **1st compartment** to the **2nd compartment**, adding half a sack of charcoal.",
+      "illustration_description": "Illustration pédagogique pour Faire avancer le 1er compartiment vers le 2e",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_21.jpg"
     },
     {
       "page_number": 22,
-      "title": "When the first compartment is free: stack the ingredients again.",
-      "text": "When the first compartment is free: stack the ingredients again.",
-      "illustration_description": "Illustration pédagogique pour Quand le premier compartiment est libre : empilez à nouveau les ingrédients.",
+      "title": "Refilling the 1st compartment",
+      "text": "When the **1st compartment** is free, pile up the ingredients again (brown materials, green materials and starter).",
+      "illustration_description": "Illustration pédagogique pour Recharger le 1er compartiment",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "After 2-3 weeks, empty the 2nd compartment into the 3rd and the 1st into the 2nd.",
-      "text": "When the 1st compartment is empty, stack the ingredients again. And so on.",
-      "illustration_description": "Illustration pédagogique pour Au bout de 2-3 semaines, videz le 2ème compartiment dans le 3ème et le 1er dans le 2ème.",
+      "title": "Keeping the rotation going between the 3 compartments",
+      "text": "After **2 to 3 weeks**, empty the **2nd compartment** into the **3rd**, then the **1st** into the **2nd**.\n\nWhen the 1st compartment is empty, pile up the ingredients again, and so on.",
+      "illustration_description": "Illustration pédagogique pour Maintenir la rotation entre les 3 compartiments",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_23.jpg"
     },
     {
       "page_number": 24,
-      "title": "Step 4: continue feeding the",
-      "text": "COMPOST PILE",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 4 : CONTINUER À ALIMENTER LA",
+      "title": "Step 4: Keep feeding the compost bin",
+      "text": "Make the most of the whole rainy season to build up enough fertile compost for your crop beds.",
+      "illustration_description": "Illustration pédagogique pour Étape 4 : Continuer à alimenter la compostière",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_24.jpg"
     },
     {
       "page_number": 25,
-      "title": "Now that you know the winter composting technique, repeat these operations throughout the winter",
-      "text": "until you obtain 5 m3 of compost.",
-      "illustration_description": "Illustration pédagogique pour Maintenant que vous connaissez la technique du compost d`hivernage, répétez ces opérations tout l'hivernage",
+      "title": "Production target: 5 m³ of compost",
+      "text": "Now that you know the **rainy-season composting** technique, repeat these operations throughout the rainy season until you have obtained **5 m³ of compost**.",
+      "illustration_description": "Illustration pédagogique pour Objectif de production : 5 m³ de compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_25.jpg"
     },
     {
       "page_number": 26,
-      "title": "Step 5: preparing compost tea",
-      "text": "STEP 5: PREPARING COMPOST TEA",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 5 : PRÉPARER DU JUS DE COMPOST",
+      "title": "Step 5: Preparing compost tea",
+      "text": "In addition to solid compost, you can prepare a living liquid fertilizer that is very easy to apply at the base of crops.",
+      "illustration_description": "Illustration pédagogique pour Étape 5 : Préparer du jus de compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_26.jpg"
     },
     {
       "page_number": 27,
-      "title": "x2",
-      "text": "x 20 Put 2 buckets of compost into the barrel and add twenty buckets of rainwater, forage water, or well water. Avoid using tap water, which may contain a disinfectant.",
-      "illustration_description": "Illustration pédagogique pour x2",
+      "title": "Compost tea dosage",
+      "text": "Put **2 buckets of compost** in the drum and add **20 buckets of water** from rain, a **borehole** or a well.\n\n⚠️ **Warning**: Avoid using tap water from the public network, which may contain a disinfectant harmful to microorganisms.",
+      "illustration_description": "Illustration pédagogique pour Dosage du jus de compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_27.jpg"
     },
     {
       "page_number": 28,
-      "title": "x3",
-      "text": "Stir the mixture 3 times.\n\nAfter 3 days, your compost tea is ready to use.",
-      "illustration_description": "Illustration pédagogique pour x3",
+      "title": "Steeping and stirring the mixture",
+      "text": "Stir the mixture **3 times** (for example **once a day for 3 days**).\n\nAfter **3 days**, your **compost tea** is ready to use.",
+      "illustration_description": "Illustration pédagogique pour Macération et brassage du mélange",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_28.jpg"
     },
     {
       "page_number": 29,
-      "title": "Step 6: using compost",
-      "text": "STEP 6: USING COMPOST\n",
-      "illustration_description": "Illustration pédagogique pour ÉTAPE 6 : UTILISER LE COMPOST",
+      "title": "Step 6: Using the compost",
+      "text": "Find out at which key moments of the crop cycle to apply your solid compost and your compost tea.",
+      "illustration_description": "Illustration pédagogique pour Étape 6 : Utiliser le compost",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_29.jpg"
     },
     {
       "page_number": 30,
-      "title": "Compost and compost tea can be used at different stages of the cropping cycle.",
-      "text": "Compost and compost tea can be used at different stages of the cropping cycle.",
-      "illustration_description": "Illustration pédagogique pour Le compost et le jus de compost peuvent être utilisés à différentes étapes du cycle de culture.",
+      "title": "Applications suited to each crop stage",
+      "text": "**Compost** and **compost tea** can be used at different stages of the crop cycle to feed the soil and support plant growth.",
+      "illustration_description": "Illustration pédagogique pour Des apports adaptés à chaque phase de culture",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_30.jpg"
     },
     {
       "page_number": 31,
-      "title": "Apply compost as an amendment to the beds to prepare the crop beds.",
-      "text": "Apply compost as an amendment to the beds to prepare the crop beds.",
-      "illustration_description": "Illustration pédagogique pour Apportez le compost comme amendement sur les planches pour préparer les lits de cultures.",
+      "title": "Amending beds before planting",
+      "text": "Apply **compost** as an amendment on the beds to prepare the **growing beds**.",
+      "illustration_description": "Illustration pédagogique pour Amender les planches avant culture",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_31.jpg"
     },
     {
       "page_number": 32,
-      "title": "Spray compost tea on the soil when flowering begins.",
-      "text": "Spray compost tea on the soil when flowering begins.",
-      "illustration_description": "Illustration pédagogique pour Aspergez le jus du compost sur le sol quand la floraison commence.",
+      "title": "Applying compost tea at flowering",
+      "text": "Sprinkle **compost tea** on the soil when **flowering** begins.",
+      "illustration_description": "Illustration pédagogique pour Appliquer le jus de compost à la floraison",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_32.jpg"
     },
     {
       "page_number": 33,
-      "title": "Spray compost juice on the soil when fruits and vegetables start to grow.",
-      "text": "Spray compost juice on the soil when fruits and vegetables start to grow.",
-      "illustration_description": "Illustration pédagogique pour Aspergez le jus du compost sur le sol quand les fruits et légumes commencent à pousser.",
+      "title": "Applying compost tea at fruiting",
+      "text": "Sprinkle **compost tea** on the soil when the **fruits and vegetables** start to develop.",
+      "illustration_description": "Illustration pédagogique pour Appliquer le jus de compost à la fructification",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_33.jpg"
     },
     {
       "page_number": 34,
-      "title": "Compost is not a trash can; not all waste decomposes and can even be bad for",
-      "text": "compost and soil life.\n\nBatteries, plastic bottles, plastic bags: anything that is not organic does not belong here.",
-      "illustration_description": "Illustration pédagogique pour Le compost n’est pas une poubelle ; tous les déchets ne se décomposent pas et peuvent même être mauvais pour",
+      "title": "Waste to exclude absolutely",
+      "text": "⚠️ **Warning**: Compost is not a garbage bin; not all waste decomposes, and some can even be harmful to the compost and to life in the soil.\n\n**Batteries, plastic bottles, plastic bags**: anything that is not organic has no place in your compost bin.",
+      "illustration_description": "Illustration pédagogique pour Les déchets à exclure absolument",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_34.jpg"
     },
     {
       "page_number": 35,
-      "title": "Congratulations! You now know the technique for making your winter compost and using it in your",
-      "text": "intensive organic market gardening crops in living soil.",
-      "illustration_description": "Illustration pédagogique pour Félicitations ! Vous connaissez maintenant la technique pour faire votre compost d’hivernage et l’utiliser dans vos",
+      "title": "Ready to make your rainy-season compost",
+      "text": "**Congratulations!** You now know the technique for making your **rainy-season compost** and using it in your **bio-intensive, living-soil market gardening** crops.",
+      "illustration_description": "Illustration pédagogique pour Prêt à produire votre compost d’hivernage",
       "image": "assets/images/maraichage/303_realiser_un_compost/page_35.jpg"
     }
   ],
-  "course_code": "M3.3"
+  "course_code": "M3.3",
+  "media": [
+    {
+      "id": "rtnGHwvWlKU",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rtnGHwvWlKU",
+      "title": "Maraîchage bio-intensif – Épisode 10 : Le compost naturel",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "TFsCoeTlj8A",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=TFsCoeTlj8A",
+      "title": "Maraîchage bio-intensif – Épisode 12 : Exploiter le compost",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "nYAaVBeJXck",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nYAaVBeJXck",
+      "title": "Maraîchage bio-intensif – Épisode 13 : Avantages du compost",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

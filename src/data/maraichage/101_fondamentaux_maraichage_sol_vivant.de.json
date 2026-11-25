@@ -1,221 +1,287 @@
 {
   "id": "101_fondamentaux_maraichage_sol_vivant",
-  "title": "Grundlagen des biointensiven Gemüseanbaus auf lebendigem Boden",
+  "title": "Die Grundlagen des bio-intensiven Gemüsebaus auf lebendigem Boden",
   "category": "Grundlagen & Boden",
-  "summary": "Entdecken Sie die Säulen des biointensiven Gemüseanbaus auf lebendigem Boden: permanente Beete, sanfte globale Bewässerung, autonomer Kompost und ökologische Intensivierung.",
+  "summary": "Entdecken Sie die Säulen des bio-intensiven Gemüsebaus auf lebendigem Boden: dauerhafte Beete, sanfte flächendeckende Bewässerung, eigenständige Kompostherstellung und ökologische Intensivierung.",
   "total_pages": 30,
   "cover_image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "Wir stellen Ihnen hier die Grundlagen der Methode „bio-intensiver Gemüseanbau auf lebendigem Boden“ vor: eine Methode",
-      "text": "einfach, effizient und schonend für den Boden, die Gesundheit und die Umwelt.",
-      "illustration_description": "Illustration pédagogique pour Nous vous présentons ici les fondements de la méthode \"maraîchage bio-intensif en sol vivant\" : une méthode",
+      "title": "Vorstellung des Moduls",
+      "text": "Hier stellen wir Ihnen die Grundlagen der Methode **„bio-intensiver Gemüsebau auf lebendigem Boden“** vor: eine einfache, wirksame Methode, die den Boden, die Gesundheit und die Umwelt respektiert.",
+      "illustration_description": "Illustration pédagogique pour Présentation du module",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "Die Grundlagen des",
-      "text": "BIO-INTENSIVEN GEMÜSEANBAUS AUF LEBENDIGEM BODEN – DIE GRUNDPRINZIPIEN DER METHODE ENTDECKEN UND VERSTEHEN",
-      "illustration_description": "Illustration pédagogique pour LES FONDAMENTAUX DU",
+      "title": "Die Grundlagen des bio-intensiven Gemüsebaus auf lebendigem Boden",
+      "text": "Dieses Modul lädt Sie dazu ein, die wichtigsten Prinzipien des **bio-intensiven Gemüsebaus auf lebendigem Boden** kennenzulernen und zu verstehen – ein nachhaltiger Ansatz, um besser zu produzieren und zugleich Ihr Land zu regenerieren.",
+      "illustration_description": "Illustration pédagogique pour Les fondamentaux du maraîchage bio-intensif en sol vivant",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_02.jpg"
     },
     {
       "page_number": 3,
       "title": "Was ist diese Methode?",
-      "text": "Was ist diese Methode?",
-      "illustration_description": "Illustration pédagogique pour Qu’est ce que cette méthode ?",
+      "text": "Lassen Sie uns gemeinsam entdecken, worin die Methode des **bio-intensiven Gemüsebaus auf lebendigem Boden** besteht und welche Vorteile sie für Ihre Kulturen bringt.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce que cette méthode ?",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "Mehr produzieren",
-      "text": "Den Boden pflegen\nUnsere Gesundheit respektieren\nEinfache Techniken\nUnsere Umwelt respektieren\n\nDer bio-intensive Gemüseanbau auf lebendigem Boden ermöglicht es, die Produktion zu intensivieren und gleichzeitig, Saison für Saison, einen fruchtbareren, lebendigeren und strukturierteren Boden aufzubauen.\n\nDiese Methode basiert auf einfachen, reproduzierbaren und gesundheits- und umweltfreundlichen landwirtschaftlichen Techniken.",
-      "illustration_description": "Illustration pédagogique pour Produire plus",
+      "title": "Mehr produzieren und dabei Boden und Gesundheit schützen",
+      "text": "Der **bio-intensive Gemüsebau auf lebendigem Boden** ermöglicht es, die Produktion zu intensivieren und dabei Saison für Saison einen fruchtbareren, lebendigeren und besser strukturierten Boden aufzubauen.\n\nDiese Methode beruht auf einfachen, reproduzierbaren landwirtschaftlichen Techniken, die Gesundheit und Umwelt respektieren.",
+      "illustration_description": "Illustration pédagogique pour Produire plus en respectant le sol et la santé",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "Biointensiv und lebendiger Boden: die zwei Säulen der",
-      "text": "Methode",
-      "illustration_description": "Illustration pédagogique pour Bio-intensif et Sol vivant : les deux piliers de la",
+      "title": "Bio-intensiv und lebendiger Boden: die beiden Säulen der Methode",
+      "text": "Die Methode stützt sich auf zwei einander ergänzende Ansätze – den **lebendigen Boden** und das **Bio-intensive** –, die wir in diesem Abschnitt näher erläutern.",
+      "illustration_description": "Illustration pédagogique pour Bio-intensif et sol vivant : les deux piliers de la méthode",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Lebendiger Boden",
-      "text": "BIO-INTENSIV\n\nDie Methode basiert auf zwei Hauptpfeilern:\n\n- Der lebendige Boden: Das biologische Leben des Bodens regenerieren, um die Pflanzen auf natürliche Weise zu ernähren.\n\n- Der Bio-Intensivanbau: Mehr mit weniger produzieren, indem Raum und Ressourcen optimiert werden.",
-      "illustration_description": "Illustration pédagogique pour SOL VIVANT",
+      "title": "Die zwei großen Säulen",
+      "text": "Die Methode beruht auf zwei großen Säulen:\n\n- **Der lebendige Boden**: das biologische Leben im Boden regenerieren, um die Pflanzen auf natürliche Weise zu ernähren.\n- **Das Bio-intensive**: mit weniger mehr produzieren, indem Fläche und Ressourcen optimal genutzt werden.",
+      "illustration_description": "Illustration pédagogique pour Les deux grands piliers",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Der lebendige Boden",
-      "text": "Ein lebendiger Boden ist ein Boden, der Leben enthält: Regenwürmer, Insekten, Bakterien, Pilze...\n\nZusammen verwandeln und verbessern sie die Erde, indem sie es ihr ermöglichen, die Pflanzen auf natürliche Weise zu ernähren und zu stärken.",
-      "illustration_description": "Illustration pédagogique pour Le sol vivant",
+      "title": "Was ist ein lebendiger Boden?",
+      "text": "Ein **lebendiger Boden** ist ein Boden, der Leben enthält: Regenwürmer, Insekten, Bakterien, Pilze …\n\nZusammen verwandeln und verbessern sie die Erde und ermöglichen es ihr, die Pflanzen auf natürliche Weise zu ernähren und zu stärken.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce qu’un sol vivant ?",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "Lebendiger Boden",
-      "text": "Ein lebendiger Boden wird durch einfache, aber effektive Praktiken aufgebaut:\n\n1. Die Anlage von unbetretenen und dauerhaften Kulturbeeten,\n2. Eine sanfte Bewässerung der gesamten Parzelle,\n3. Aktiver Kompost in den Zwischenräumen.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Wie baut man einen lebendigen Boden auf?",
+      "text": "Einen **lebendigen Boden** baut man mit einfachen, aber wirksamen Praktiken auf:\n\n1. Das Anlegen von **Kulturbeeten**, die nicht betreten werden und dauerhaft bestehen.\n2. Eine **sanfte Bewässerung** der gesamten Parzelle.\n3. **Aktiver Kompost** in den Laufwegen.",
+      "illustration_description": "Illustration pédagogique pour Comment construire un sol vivant ?",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "Der bio-intensive Anbau",
-      "text": "Der bio-intensive Anbau ermöglicht es, mehr Obst und Gemüse zu produzieren (intensiv), indem umweltfreundliche Techniken angewendet werden\n\n- (bio).",
-      "illustration_description": "Illustration pédagogique pour Le bio-intensif",
+      "title": "Das Prinzip des Bio-intensiven",
+      "text": "Das **Bio-intensive** ermöglicht es, mehr Obst und Gemüse zu produzieren (**intensiv**) und dabei umweltschonende Techniken einzusetzen (**bio**).",
+      "illustration_description": "Illustration pédagogique pour Le principe du bio-intensif",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "Planung",
-      "text": "Gut kalkulierte Pflanzabstände BIO-INTENSIV Baumschulen und Umpflanzen Bio-intensiv\n\nDies ist ein Ansatz, der auf Optimierung basiert:\n\n- Gut kalkulierte Pflanzabstände\n- Einsparung und Wiederverwendung von Material\n- Baumschulen und Umpflanzen, um einen Vorsprung zu gewinnen\n- Eine rigorose Planung\n- Die Einsparung und Wiederverwendung des verfügbaren Materials",
-      "illustration_description": "Illustration pédagogique pour Planification",
+      "title": "Ein Ansatz, der auf Optimierung beruht",
+      "text": "Das Bio-intensive ist ein Ansatz, der auf der **Optimierung** jeder Ressource beruht:\n\n- Gut berechnete **Pflanzabstände**.\n- **Anzucht und Pflanzung von Jungpflanzen**, um einen Vorsprung zu gewinnen.\n- Eine **sorgfältige Planung** der Kulturen.\n- **Sparsamkeit und Wiederverwendung** des vorhandenen Materials.",
+      "illustration_description": "Illustration pédagogique pour Une approche basée sur l’optimisation",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "Lebendiger Boden",
-      "text": "BIO-INTENSIV Ein kohärentes Ganzes Alle in der bio-intensiven Gemüseanbaumethode auf lebendigem Boden verwendeten Techniken ergänzen sich.\n\nSie bilden ein einfaches und effektives System, in dem jede Handlung die anderen verstärkt.",
-      "illustration_description": "Illustration pédagogique pour SOL VIVANT",
+      "title": "Ein stimmiges Ganzes",
+      "text": "Alle Techniken der Methode des bio-intensiven Gemüsebaus auf lebendigem Boden ergänzen sich.\n\nSie bilden ein **einfaches und wirksames System**, in dem jeder Handgriff die anderen verstärkt.",
+      "illustration_description": "Illustration pédagogique pour Un tout cohérent",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_11.jpg"
     },
     {
       "page_number": 12,
       "title": "Die Grundlagen der Methode",
-      "text": "Die Grundlagen der Methode",
+      "text": "Kommen wir nun zu den **vier grundlegenden Praktiken**, mit denen die Methode auf dem Feld umgesetzt und dauerhaft aufrechterhalten werden kann.",
       "illustration_description": "Illustration pédagogique pour Les fondamentaux de la méthode",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "1. Anbauflächen",
-      "text": "2. Wege\n3. Kompost\n\nDamit die Methode langfristig funktioniert, sind bestimmte Praktiken unerlässlich:\n\n1. Permanente Anbauflächen,\n2. Gut definierte und gemulchte Wege,\n3. Ständig verfügbarer Kompost,\n4. Eine Bewässerung der Anbauflächen, aber auch der Wege.\n4. Bewässerung",
-      "illustration_description": "Illustration pédagogique pour 1. Planches de culture",
+      "title": "Die vier wesentlichen Praktiken",
+      "text": "Damit die Methode langfristig funktioniert, sind bestimmte Praktiken unverzichtbar:\n\n1. **Dauerhafte Kulturbeete**.\n2. Klar definierte und gemulchte **Laufwege**.\n3. Stets verfügbarer **Kompost**.\n4. Eine **Bewässerung** der Beete, aber auch der Laufwege.",
+      "illustration_description": "Illustration pédagogique pour Les quatre pratiques essentielles",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "1. Die permanenten Anbauflächen",
-      "text": "1. Die permanenten Anbauflächen",
-      "illustration_description": "Illustration pédagogique pour 1. Les planches de cultures permanentes",
+      "title": "1. Die dauerhaften Kulturbeete",
+      "text": "Die erste praktische Säule der Methode: Entdecken wir, wie **dauerhafte Kulturbeete** funktionieren und warum sie die Parzelle verändern.",
+      "illustration_description": "Illustration pédagogique pour 1. Les planches de culture permanentes",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Trittwege",
-      "text": "BEETE Die Methode besteht darin, auf permanenten Kulturbeeten zu arbeiten, die fest und gut abgegrenzt sind.\n\nZwischen den Beeten befinden sich **Trittwege** zum Begehen.",
-      "illustration_description": "Illustration pédagogique pour PASSE-PIEDS",
+      "title": "Kulturbeete und Laufwege",
+      "text": "Die Methode besteht darin, auf **dauerhaften Kulturbeeten** zu arbeiten, die fest und klar abgegrenzt sind.\n\nZwischen den Beeten befinden sich **Laufwege**, auf denen man sich bewegen kann, ohne jemals die bepflanzte Erde zu verdichten.",
+      "illustration_description": "Illustration pédagogique pour Planches de culture et passe-pieds",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Zeit- und Energieeinsparung",
-      "text": "Weniger Erosion und Auswaschung\nKonzentrierter fruchtbarer Boden\nWeniger verdichteter Boden\nFür kleine Flächen geeignet\n\n**Dauerbeete** bieten viele Vorteile:\n\n- Die **fruchtbare Erde** ist dort konzentriert, wo die Pflanzen wachsen.\n\n- Der **Boden** ist weniger verdichtet.\n\n- Der **Boden** ist vor **Erosion** und **Auswaschung** geschützt.\n\n- Eine **Zeit- und Energieersparnis**.\n\n- Die Methode ist für **kleine Flächen** geeignet.",
-      "illustration_description": "Illustration pédagogique pour Gain de temps et énergie",
+      "title": "Die Vorteile dauerhafter Kulturbeete",
+      "text": "**Dauerhafte Kulturbeete** haben viele Vorteile:\n\n- Die **fruchtbare Erde** konzentriert sich dort, wo die Pflanzen wachsen.\n- Der Boden ist **weniger verdichtet**.\n- Der Boden ist **vor Erosion und Auswaschung geschützt**.\n- Sie bieten **Zeit- und Energieersparnis**.\n- Die Methode ist **für kleine Flächen geeignet**.",
+      "illustration_description": "Illustration pédagogique pour Les avantages des planches de culture permanentes",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "Wir haben die Methode der permanenten Anbauflächen gewählt, aber es gibt auch andere Vorgehensweisen:",
-      "text": "Ausgehobene Beete im Boden Flachanbau",
-      "illustration_description": "Illustration pédagogique pour Nous avons choisi la méthode des planches de culture permanentes, mais d’autres façons de faire existent :",
+      "title": "Andere Anbauweisen",
+      "text": "Wir haben uns für die Methode der **dauerhaften Kulturbeete** entschieden, aber es gibt auch andere Vorgehensweisen:\n\n- **In den Boden eingetiefte Beete**.\n- **Anbau auf ebener Fläche**.",
+      "illustration_description": "Illustration pédagogique pour D’autres façons de cultiver",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "2. Der Nutzen von Trittsteinen",
-      "text": "2. Der Nutzen von Trittsteinen",
+      "title": "2. Die Bedeutung der Laufwege",
+      "text": "Die zweite wesentliche Praxis: Die **Laufwege** sind nicht bloße Gänge, sondern ein Schlüsselelement der Fruchtbarkeit des Gartens.",
       "illustration_description": "Illustration pédagogique pour 2. L’intérêt des passe-pieds",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "In dieser Gemüseanbaumethode dienen die Trittpfade nicht nur dem Gehen.",
-      "text": "Es sind aktive Zonen:\n\n- Kompost wird dort passiv durch die Zersetzung der Mulchschicht hergestellt.\n\n- Sie helfen auch, die Feuchtigkeit zu erhalten.",
-      "illustration_description": "Illustration pédagogique pour Dans cette méthode de maraîchage, les passe-pieds ne servent pas seulement à circuler.",
+      "title": "Aktive Zonen im Dienst der Fruchtbarkeit",
+      "text": "In dieser Methode des Gemüsebaus dienen die **Laufwege** nicht nur dazu, sich fortzubewegen. Sie sind **aktive Zonen**:\n\n- Dort entsteht **Kompost** auf passive Weise durch die Zersetzung der Mulchschicht.\n- Außerdem helfen sie, die **Feuchtigkeit** in der Parzelle **zu halten**.",
+      "illustration_description": "Illustration pédagogique pour Des zones actives au service de la fertilité",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "3. Sicherstellung der Kompostverfügbarkeit",
-      "text": "3. Sicherstellung der Kompostverfügbarkeit",
+      "title": "3. Die Verfügbarkeit von Kompost sicherstellen",
+      "text": "Die dritte wesentliche Praxis: wie man über das ganze Jahr hinweg einen ausreichenden Vorrat an **Kompost** herstellt und aufrechterhält.",
       "illustration_description": "Illustration pédagogique pour 3. Assurer la disponibilité du compost",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "Kompost",
-      "text": "Der in den Laufgängen gebildete Kompost wird auf die Anbauflächen gebracht, um das Bodenleben schneller anzusiedeln.\n\nDiese Produktion ist jedoch nicht immer ausreichend.\n\nEs ist daher wichtig, sie durch andere Zufuhr von organischem Material zu ergänzen.",
-      "illustration_description": "Illustration pédagogique pour COMPOST",
+      "title": "Den Kompost aus den Laufwegen ergänzen",
+      "text": "Der in den Laufwegen entstandene **Kompost** wird auf die Kulturbeete gebracht, damit sich das Bodenleben schneller etablieren kann.\n\nDiese Produktion reicht jedoch nicht immer aus. Daher ist es wichtig, sie durch weitere Gaben von **organischer Substanz** zu ergänzen.",
+      "illustration_description": "Illustration pédagogique pour Compléter le compost des passe-pieds",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_21.jpg"
     },
     {
       "page_number": 22,
-      "title": "Um autark zu bleiben, ist eine Lösung, seinen eigenen Kompost herzustellen.",
-      "text": "Der Winterkomposter ermöglicht es, die in der Regenzeit verfügbaren Materialien zu verwerten, um hochwertigen und kostengünstigen Kompost zu produzieren.",
-      "illustration_description": "Illustration pédagogique pour Pour rester autonome, une des solutions est de fabriquer soi-même son compost.",
+      "title": "Den eigenen Kompost herstellen: die Überwinterungs-Kompostieranlage",
+      "text": "Um unabhängig zu bleiben, besteht eine Lösung darin, den Kompost selbst herzustellen.\n\nDie **Überwinterungs-Kompostieranlage** ermöglicht es, die in der Regenzeit verfügbaren Materialien zu verwerten und so einen hochwertigen Kompost zu geringen Kosten zu erzeugen.",
+      "illustration_description": "Illustration pédagogique pour Fabriquer son propre compost : la compostière d’hivernage",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "Die Überwinterungskompostierung in einem Komposter ist eine effektive Methode. Es gibt auch andere Techniken, zum Beispiel:",
-      "text": "- **Kompostgrube**: Eine einfache Option, wenn es an Baumaterialien mangelt\n- **Haufenkompostierung**: Direkt auf dem Boden, abgedeckt, um die Feuchtigkeit zu erhalten\n- **Bokashi-Methode**: Schnelle Fermentierung von Küchenabfällen, auch in kleinen Mengen\n- **Oberflächenkompost**: Materialien direkt auf die Beete legen, um den Boden langsam zu nähren",
-      "illustration_description": "Illustration pédagogique pour Le compost d’hivernage en compostière est une méthode efficace. Il existe d'autres techniques, par exemple :",
+      "title": "Andere Kompostierungstechniken",
+      "text": "Der Überwinterungskompost in der Kompostieranlage ist eine wirksame Methode. Es gibt weitere Techniken, zum Beispiel:\n\n- **Kompostgrube**: eine einfache Option, wenn Baumaterial fehlt.\n- **Haufenkompostierung**: direkt auf dem Boden, abgedeckt, um die Feuchtigkeit zu halten.\n- **Bokashi-Methode**: schnelle Fermentation von Küchenabfällen, auch in kleinen Mengen.\n- **Oberflächenkompost**: die Materialien direkt auf die Beete legen, um den Boden langsam zu ernähren.",
+      "illustration_description": "Illustration pédagogique pour Autres techniques de compostage",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_23.jpg"
     },
     {
       "page_number": 24,
-      "title": "4. Prinzip der sanften und ganzheitlichen Bewässerung",
-      "text": "4. Prinzip der sanften und ganzheitlichen Bewässerung",
-      "illustration_description": "Illustration pédagogique pour 4. Principe d'une irrigation douce et globale",
+      "title": "4. Prinzip einer sanften und flächendeckenden Bewässerung",
+      "text": "Die vierte wesentliche Praxis: verstehen, warum und wie man eine **sanfte und flächendeckende Bewässerung** im gesamten Garten durchführt.",
+      "illustration_description": "Illustration pédagogique pour 4. Principe d’une irrigation douce et globale",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_24.jpg"
     },
     {
       "page_number": 25,
-      "title": "Bei dieser Methode wird die gesamte Parzelle bewässert, einschließlich der Wege. Die globale Bewässerungsmethode",
-      "text": "Die **Beregnung** kann **mechanisch** mit Sprühköpfen oder **manuell** mit einer einfachen Gießkanne erfolgen.\n\nDas Ziel ist nicht nur, die Pflanzen zu bewässern, sondern die **Bodenfeuchtigkeit** zu erhalten.\n\nEs wird versucht, den Effekt eines **regelmäßigen und sanften Regens** zu imitieren, der das Bodenleben nährt, ohne es zu stören.",
-      "illustration_description": "Illustration pédagogique pour Dans la méthode on irrigue l’ensemble de la parcelle, y compris les passe-pieds. La méthode d'arrosage globale",
+      "title": "Einen gleichmäßigen, sanften Regen nachahmen",
+      "text": "In dieser Methode wird die gesamte Parzelle bewässert, einschließlich der **Laufwege**. Die flächendeckende Beregnung kann mechanisch mit Regnerköpfen oder von Hand mit einer einfachen Gießkanne erfolgen.\n\nDas Ziel ist nicht nur, die Pflanzen zu gießen, sondern die **Bodenfeuchtigkeit zu erhalten**. Man ahmt die Wirkung eines gleichmäßigen, sanften Regens nach, der das Bodenleben ernährt, ohne es zu stören.",
+      "illustration_description": "Illustration pédagogique pour Imiter une pluie régulière et douce",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_25.jpg"
     },
     {
       "page_number": 26,
-      "title": "Es gibt noch weitere Bewässerungstechniken:",
-      "text": "Tröpfchenbewässerung\nFlutbewässerung",
-      "illustration_description": "Illustration pédagogique pour D'autres techniques d'irrigation existent :",
+      "title": "Andere Bewässerungstechniken",
+      "text": "Es gibt weitere Bewässerungstechniken:\n\n- **Tröpfchenbewässerung**.\n- **Überflutungsbewässerung**.",
+      "illustration_description": "Illustration pédagogique pour D’autres techniques d’irrigation",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_26.jpg"
     },
     {
       "page_number": 27,
-      "title": "Jenseits der Grundlagen",
-      "text": "Jenseits der Grundlagen",
+      "title": "Über die Grundlagen hinaus",
+      "text": "Sobald diese Grundlagen beherrscht werden, erstreckt sich die Methode auf den gesamten Kulturzyklus, von der Aussaat bis zur Ernte.",
       "illustration_description": "Illustration pédagogique pour Au-delà des fondamentaux",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_27.jpg"
     },
     {
       "page_number": 28,
-      "title": "Beete",
-      "text": "Trittpfade\n\nWir haben über die Grundlagen der Methode gesprochen:\n\n- Permanente Beete mit Trittpfaden.\n\n- Verfügbarkeit von Kompost.\n\n- Sanfte und globale Bewässerung.\n\n- Kompostbewässerung",
-      "illustration_description": "Illustration pédagogique pour Planches de culture",
+      "title": "Zusammenfassung der Grundlagen der Methode",
+      "text": "Wir haben über die Grundlagen der Methode gesprochen:\n\n- **Dauerhafte Kulturbeete** mit Laufwegen.\n- **Verfügbarkeit von Kompost**.\n- **Sanfte und flächendeckende Bewässerung**.",
+      "illustration_description": "Illustration pédagogique pour Récapitulatif des fondements de la méthode",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_28.jpg"
     },
     {
       "page_number": 29,
-      "title": "Direktsaat und Umpflanzen",
-      "text": "Ernte und Konservierung Baumschule Planung und Fruchtfolge Saatgut Schutz\n\nAber der bio-intensive Gemüseanbau in lebendigem Boden umfasst auch die folgenden Themen:\n\n* Direktsaat und Umpflanzen.\n* Baumschule und Produktion von Jungpflanzen.\n* Anbauplanung und Fruchtfolge.\n* Ernte, Konservierung und Verwertung der Produkte.\n* Verwendung von angepasstem Saatgut.\n* Ökologischer Pflanzenschutz.",
-      "illustration_description": "Illustration pédagogique pour Semi direct et repiquage",
+      "title": "Weitere Themen der Methode",
+      "text": "Der **bio-intensive Gemüsebau auf lebendigem Boden** umfasst aber auch folgende Themen:\n\n- **Direktsaat und Pflanzung von Jungpflanzen**.\n- **Anzucht** und Produktion von Jungpflanzen.\n- **Kulturplanung** und Fruchtfolge.\n- **Ernte, Lagerung** und Verwertung der Erzeugnisse.\n- Verwendung **angepasster Samen**.\n- **Ökologischer Schutz** der Kulturen.",
+      "illustration_description": "Illustration pédagogique pour Les autres sujets couverts par la méthode",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_29.jpg"
     },
     {
       "page_number": 30,
-      "title": "Bio-intensiver Gemüseanbau auf lebendigem Boden – eine Anbaumethode im Einklang mit dem Boden: ein Boden, den wir nähren, der",
-      "text": "sich verbessert und es uns zurückzahlt.\n\nDieser Ansatz ermöglicht es,:\n\n- Mehr zu produzieren, indem man effizienter anbaut\n- Autonom in der Produktion der eigenen Betriebsmittel zu sein\n- Mit einfachen und zugänglichen Werkzeugen zu arbeiten\n- Nachhaltige Praktiken zu reproduzieren, weiterzuentwickeln und weiterzugeben",
-      "illustration_description": "Illustration pédagogique pour Le maraîchage bio-intensif en sol vivant, c’est une manière de cultiver en lien avec le sol : un sol qu’on nourrit, qui",
+      "title": "Fazit: im Einklang mit dem Boden anbauen",
+      "text": "Der **bio-intensive Gemüsebau auf lebendigem Boden** ist eine Art, im Einklang mit dem Boden anzubauen: ein Boden, den man ernährt, der sich verbessert und der es uns zurückgibt.\n\nDieser Ansatz ermöglicht es,\n\n- **mehr zu produzieren**, indem man effizienter anbaut,\n- **unabhängig zu sein** bei der Herstellung der eigenen Betriebsmittel,\n- **mit einfachen Werkzeugen zu arbeiten**, die leicht zugänglich sind,\n- nachhaltige Praktiken **nachzuahmen, weiterzuentwickeln und weiterzugeben**.",
+      "illustration_description": "Illustration pédagogique pour Conclusion : cultiver en lien avec le sol",
       "image": "assets/images/maraichage/101_fondamentaux_maraichage_sol_vivant/page_30.jpg"
     }
   ],
-  "course_code": "M1.1"
+  "course_code": "M1.1",
+  "media": [
+    {
+      "id": "rLocqiwMp0c",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rLocqiwMp0c",
+      "title": "Podcast 23 - Se former au maraîchage bio intensif au Mali",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "nGmuCSJjfj8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=nGmuCSJjfj8",
+      "title": "Podcast 18 - Définition du maraîchage bio intensif, semences et pesticides",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "lLlEsyMOvgw",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lLlEsyMOvgw",
+      "title": "Nakôbio - Reportage sur le terrain Formation maraîchage bio intensif",
+      "lang": "fr",
+      "category": "cours"
+    },
+    {
+      "id": "lfFnV5h3nS0",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lfFnV5h3nS0",
+      "title": "Nakôbio maraîchage - Kalansen Kalaban Koura (Bamanankan)",
+      "lang": "bm",
+      "category": "cours"
+    },
+    {
+      "id": "rzMTY9bKrKk",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rzMTY9bKrKk",
+      "title": "Maraîchage bio-intensif – Épisode 8 : Différences bio et industriel",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "rA8wIeDZzjY",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rA8wIeDZzjY",
+      "title": "Maraîchage bio-intensif – Épisode 7 : Vision et enjeux avec Seydou",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "rYVhzScIX1I",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=rYVhzScIX1I",
+      "title": "Maraîchage bio-intensif – Épisode 6 : Bio et santé",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "wBQMirClIdk",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=wBQMirClIdk",
+      "title": "Maraîchage bio-intensif – Épisode 11 : Mentalité et éducation",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

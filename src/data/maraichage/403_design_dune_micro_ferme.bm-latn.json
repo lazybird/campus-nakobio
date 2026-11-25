@@ -1,137 +1,179 @@
 {
   "id": "403_design_dune_micro_ferme",
-  "title": "Micro-ferme yiriwali sira",
-  "category": "Lakana & Yiriwali",
-  "summary": "Yɔrɔw labɛnni ka nɔgɔn baara la, sɛnɛfɛnsɛnw sigicogo, fɛnɛ-gbɛlɛya-labɛnni, ji-jigincogo labɛnni, sira-yiriwali, ani yɔrɔ o yɔrɔ ka baara bonya.",
+  "title": "Sɛnɛkɛforonin labɛncogo sariyaw",
+  "category": "Lakanali ni Labɛncogo",
+  "summary": "Yɔrɔ labɛncogo ɲuman, poronw ɲɛsincogo, finyɛkuntigɛlanw, ji siraw ɲɛnabɔcogo, siraw ani yɔrɔ bɛɛ nafa bɔli a ɲɛ ma.",
   "total_pages": 18,
   "cover_image": "assets/images/maraichage/403_design_dune_micro_ferme/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "Micro-foromaw ka **design** b'an dɛmɛ ka sɔrɔ ka bonya, ka fariya dɔgɔya ani ka foroba sabatilen di",
-      "text": "**Module** nin b'aw jira cogo min na aw ka foroba bɛ se ka labɛn aw ka **ɲɛtaga** ni aw ka **dugu** ka kan.",
-      "illustration_description": "Illustration pédagogique pour Le design d’une micro-ferme aide à mieux produire, à moins se fatiguer et à garder une ferme qui dure dans le",
+      "title": "Sɛnɛkɛforonin sabatilen ani nafatigi labɛnni",
+      "text": "**Sɛnɛkɛforonin labɛncogo** bɛ dɛmɛ don ka sɔrɔ ɲuman bɔ, ka sɛgɛn dɔgɔya, ani ka foro kɛ min bɛ mɛn waati jan.\n\nKalansen in b'a jira i la i bɛ i ka foro labɛn cogo min na k'a kɛɲɛ ni i magoɲɛfenw ani i ka dugukolo cogo ye.",
+      "illustration_description": "Illustration pédagogique pour Concevoir une micro-ferme durable et efficace",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "Mikro-foromi design kanpaw",
-      "text": "MIKRO-FOROMI",
-      "illustration_description": "Illustration pédagogique pour LES PRINCIPES DE DESIGN D’UNE",
+      "title": "Sɛnɛkɛforonin labɛncogo sariyaw",
+      "text": "I ka sɛnɛkɛyɔrɔ labɛncogo dege, i taama siraw ɲɛnabɔcogo, san cogo jatebɔli, ani nakɔsɛnɛ foronin kɛcogo ɲuman yɔrɔ jɔli.",
+      "illustration_description": "Illustration pédagogique pour Les principes de design d’une micro-ferme",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "Ni an ka maraichage bio-intensif ka baara kɛ ni **dugukolo ɲɛnama** ye, yɔrɔ labɛnniɲuman b'a to an ka se ka:",
-      "text": "baara ka dɔgɔya ani ka baara waati ɲɛnajɛ,\n\n- dugukolo tanga ani k'a nɔgɔya,\n- ka binw ka kɛnɛya sabati,\n\nka sinsin sanji ma ani ka baara kɛ ni nafa ye ni min bɛ sɔrɔ.",
-      "illustration_description": "Illustration pédagogique pour Dans un système de maraîchage bio-intensif en sol vivant, une bonne organisation de l’espace permet de :",
+      "title": "Yɔrɔ labɛncogo ɲuman laɲinaw",
+      "text": "**Nakɔsɛnɛ kɛcogo ɲuman dugukolo ɲɛnaman kan** la, yɔrɔ labɛncogo ɲuman bɛ dɛmɛ ka :\n\n- **sɛgɛn dɔgɔya** ani ka baara waati kɛ a ɲɛ ma,\n- **dugukolo lakana k'a ɲɛgɛn**,\n- **sɛnɛfenw kɛnɛya sabati**,\n- **bɛn san cogo ma** ani sɔrɔfen minnu bɛ yen.",
+      "illustration_description": "Illustration pédagogique pour Les objectifs d’une bonne organisation de l’espace",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "Fanga-ka laɲini-kɛcogo siratigɛw",
-      "text": "Fanga-ka laɲini-kɛcogo siratigɛw",
+      "title": "Labɛncogo nafatigi sariyaw",
+      "text": "Labɛncogo ɲuman bɛ foro yɔrɔ bɛɛ nafa bɔ : kunkunw, dancɛw, so kɔfɛlaw, yɔrɔ minnu bɛ jɔliw kɔrɔ walima kankurun dafɛ, olu bɛ se ka kɛ nɔgɔdilayɔrɔw ye, maraliyɔrɔw, nɔgɔfenw marayɔrɔw, turumakunyɔrɔ lakananenw, furakiraw walima dancɛ jiri nafatigiw. Ni o yɔrɔw nafaw bɔra ɲuman, u bɛ cɛmancɛ yɔrɔw to sɛnɛkɛli ma.",
       "illustration_description": "Illustration pédagogique pour Les principes d’une organisation efficace",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "Yɔrɔ labɛnniɲuman bɛ baara nɔgɔya, a bɛ waati ni fanga nɔgɔya. A kɔrɔ ye ka",
-      "text": "tagatagaɲɔgɔnya nɔgɔya, ka baara kɛcogo nɔgɔya. O bɛ se ka kɛ ni ninnu ye:\n\n- Ji, komposti, ani baarakɛminɛnw dabɛn yɔrɔ janba dɔrɔn. O bɛ baara nɔgɔya.\n\n- Baarakɛyɔrɔw labɛn ka nɔgɔn ka lajɛ. O bɛ baara nɔgɔya.\n\n- Sira nɔgɔnkanw labɛn, u bɛ se ka taa ni a ye, walima ka taa ni karisɛ ye.\n\n- Yɔrɔw labɛn ka nɔgɔn, ka kɛ yɔrɔ lajɛlen ye.",
-      "illustration_description": "Illustration pédagogique pour Une bonne organisation de l’espace permet de travailler plus vite, avec moins d’efforts. L’objectif est de réduire les",
+      "title": "Taamaw dɔgɔyali ani don o don baara nɔgɔyali",
+      "text": "Yɔrɔ labɛncogo ɲuman bɛ dɛmɛ ka baara kɛ teliya la, ni sɛgɛn dɔgɔman ye. Laɲina ye ka taama fuw dɔgɔya ani ka don o don baara kɛcogo nɔgɔya.\n\nSariya dɔw ka kan ka sira don :\n\n- **Ji, nɔgɔ ani minɛnw bila** sɛnɛkɛporonw gɛrɛfɛ yɛrɛ.\n- **Baarakɛyɔrɔw labɛn** cogo ɲuman na min bɛ bɛn.\n- **Sira gɛnɛnenw labɛn**, sen na taama walima buruwɛti taama bɛ se ka kɛ minnu fɛ.\n- **Maraliyɔrɔ nɔgɔmanw labɛn** minnu bɛ ye kɛnɛ kan.",
+      "illustration_description": "Illustration pédagogique pour Réduire les déplacements et faciliter le quotidien",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Zoning baara kɛli",
-      "text": "Zoning baara kɛli",
+      "title": "Yɔrɔw tilacogo (zoning) fɛɛrɛ kɛli",
+      "text": "Yɔrɔw tilacogo (zoning) ye fɛɛrɛ nɔgɔman ye min kɔrɔbɔra ka i ka sɛnɛfenw ni minɛnw tila k'a kɛɲɛ ni i ka don o don tɛmɛsiraw ye.",
       "illustration_description": "Illustration pédagogique pour Utiliser la technique du zoning",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Zone 0",
-      "text": "ZONE 1 ZONE 2 ZONE 3 Zoning ye ka purunɛn bɛɛ sigi yɔrɔ la walasa a ka nɔgɔ ka baara kɛ ni a ye: ni i b’a baara kɛ tuma caman, o kɔrɔ ye ko a ka kan ka kɛ i n’i cɛ. O kɔrɔ ye ko a ka kan ka kɛ i n’i cɛ.\n\nNin ye sigida dɔ ye:\n\nZone 0: yɔrɔ cɛmancɛ min bɛ baara kɛ ka fɛnnu mara ani ka lafiya.\n\nZone 1: sɛnɛfɛn caman, minnu bɛ ɲinɛ don o don.\n\nZone 2: sɛnɛfɛn minnu bɛ mɛn tuma jan, yiriba, fɛnɲɛnɛ, ani kompostɛri.\n\nZone 3: fɛnɲɛnɛ marayɔrɔ walima yɔrɔ min bɛ se ka bonya.\n\nMisali la, baara la:\n\nPlanche 10-10-nanw bɛ lajɛ Zone 0 ni 1 kɔnɔ walasa ka taama dɔgɔya.\n\nKompostɛriw ni ji marayɔrɔw bɛ se ka sɔrɔ sɛnɛfɛn caman fɛ.\n\nJiriw minnu bɛ sigi yɔrɔ la tuma bɛɛ, u bɛ dibi di, u bɛ mara, ani u bɛ fɛn dɔw di.",
-      "illustration_description": "Illustration pédagogique pour ZONE 0",
+      "title": "Foro labɛnni k'a kɛɲɛ ni yɔrɔw kɛcogo ye",
+      "text": "**Yɔrɔw tilacogo (zoning)**, o ye ka foro fen bɛɛ bila k'a kɛɲɛ ni a kɛli cogo ye : **ni fen bɛ kɛ tuma bɛɛ, a ka kan ka surunya**.\n\nLabɛncogo misali dɔ flɛ :\n\n- **Yɔrɔ 0** : cɛmancɛ yɔrɔ ɲɛnabɔli, marali ani lafinyɛbɔyɔrɔ.\n- **Yɔrɔ 1** : sɛnɛkɛporonw minnu bɛ kɛ tuma bɛɛ, minnu mako bɛ don o don kɔlɔsili la.\n- **Yɔrɔ 2** : sɛnɛfen minnu bɛ mɛn, yiridenw, nɔgɔ binkɛnɛw, nɔgɔdilayɔrɔ.\n- **Yɔrɔ 3** : nɔgɔfenw marayɔrɔ walima foro yiriwayɔrɔ.\n\nBaara kɛcogo la :\n\n- Poron 10 foroninw bɛ lajɛ yɔrɔ 0 ani 1 lamini na walasa ka taamaw dɔgɔya.\n- Nɔgɔdilayɔrɔw ani jimarayɔrɔw bɛ se ka sɔrɔ foronin caman fɛ.\n- Jiri minnu bɛ dancɛ poronw kan, olu bɛ dɔɔni, lakanali ani sɔrɔ di.",
+      "illustration_description": "Illustration pédagogique pour Organiser la ferme par zones d’usage",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "Klima ka kɛɲɛ ni an ka baara labɛn ye",
-      "text": "Klima ka kɛɲɛ ni an ka baara labɛn ye",
+      "title": "San cogo jatebɔli i ka labɛncogo la",
+      "text": "Tile, finyɛ, buguri ani sanji bɛ nɔ bila i ka sɔrɔ la joona. Ka nin kow don i ka labɛncogo la k'a ta a daminɛ na, o bɛ i ka sɛnɛfenw lakana waati jan.",
       "illustration_description": "Illustration pédagogique pour Tenir compte du climat dans son organisation",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "1",
-      "text": "5 4 3 2 Ni yɔrɔ labɛnna ka ɲi, a ka kan ka miiri sɛnɛfɛnnu ka **yɔrɔlabɛn** ni u ka **barikunbɔ** kan ka fara **dugukolo nɔgɔya** kan.\n\n1.  **Yɔrɔlabɛn** sɛnɛfɛnnu ka **planches** la ni tile ka taama ye (Kɔrɔn-Worodugu walima Kɔrɔn-Tlebi kɛɲɛ ni sɛnɛfɛnnu ye).\n2.  **Barikunbɔ** yɔrɔ nɔgɔnaw (sɛnɛkɛyɔrɔw, saladiw…) ni **jiri yɛlɛma** walima **yɛlɛma filɛw** ye.\n3.  **Barikunbɔ** ni fɛnɛ ni kurun ye ni **fɛnɛ-tagara jiriw** ye walima **jiriw** yɔrɔ la.\n4.  **Kɔnɔna** sanji ni **kɔlɔnw** ye, **planches** jɔlenw walima **ji bɔli ɲuman** ye.\n5.  **Sigiyɔrɔ** dɔgɔw la baara-minɛnw, sɛnɛfɛn dɔgɔw walima nɛgɛnɛw kama.\n\nKa miiri fɛn ninnu kan ka kɔn **design** kɛ, o ye ka sɛnɛfɛnnu ka **kɔrɔli ɲuman** latigɛ ani ka **tɔɔrɔw dɔgɔya**.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Sɛnɛfenw ɲɛsincogo ani u lakanali san cogo ma",
+      "text": "Ni yɔrɔ labɛnna ɲuman, a ka kan ka miiri sɛnɛfenw ɲɛsincogo ani u lakanali la san cogo ma :\n\n1. **Poronw ɲɛsin** tile taamacogo ma (Kɔgɔdugu–Worodugu walima Kɔrɔn–Tilebin k'a kɛɲɛ ni sɛnɛfenw ye).\n2. **Yɔrɔ nɔgɔmanw lakana** (turumakunyɔrɔw, salatiw...) ni jiri dɔɔni ye walima dɔɔnikɛlanw (filets d'ombrage) ye.\n3. **Lakana finyɛ ani buguri ma** ni finyɛkuntigɛlanw ye walima dancɛ jiriw ye.\n4. **Sanji siraw ɲɛnabɔ** ni dingɛw ye, poron kɔrɔtalenw walima jibɔsira ɲumanw ye.\n5. **Lakanayɔrɔninw jɔ** minɛnw, turumakunw walima simanw ye.\n\nKa miiri nin kow la k'a ta labɛncogo daminɛ na, o ye ka sɛnɛfenw falen ɲuman sabati ani ka tiɲɛni dɔgɔya.",
+      "illustration_description": "Illustration pédagogique pour Orienter et protéger les cultures face au climat",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "Micro-ferme ka **labɛnba** dɔw",
-      "text": "Micro-ferme ka **labɛnba** dɔw\n\n",
+      "title": "Sɛnɛkɛforonin labɛncogo nafama jɔliw",
+      "text": "Walasa ka baara kɛ nɔgɔya la don o don, sɛnɛkɛforonin mako bɛ jɔyɔrɔ nɔgɔman dɔw la minnu tɛ se ka to.",
       "illustration_description": "Illustration pédagogique pour Les aménagements clés d’une micro-ferme",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "Dagabolo ni marabolo",
-      "text": "JII YƆRƆW MINNU BƐ SE KA SƆRƆ\nNi yɔrɔ labɛnna ka bonya, a ka kan ka laɲiniw sigi sen kan minnu ka fɔlɔfɔlɔ ye foroba baara ka taa ɲɛ kosɛbɛ.\n\nMarabolo: **Nɔgɔn** ni **baaraw** ka kan ka mara ka bɔ ji la. **Sankolow** ka kan ka mara dibi la n'i ma u feere walima ka u yeelen.\n\nBaara-dagabolo: **Baara belebeleba**w ka kan ka sigi so dankan kɔnɔ. **Baara fitininw** ka kan ka jigin walima ka marayɔrɔ la walasa u ka to ka se sɔrɔ.\n\nJi: **Ji mara yɔrɔba** + **ji yɔrɔ fitininw** minnu bɛ sɔrɔ yoroba la.",
-      "illustration_description": "Illustration pédagogique pour ABRI ET STOCKAGE",
+      "title": "Maraliyɔrɔ, minɛnw lakanayɔrɔ ani jisɔrɔyɔrɔw",
+      "text": "Ni yɔrɔ labɛnna k'a lakana, a ka kan ka jɔyɔrɔ nafamanw labɛn sɛnɛkɛforonin ka baara ɲuman kama :\n\n- **Maraliyɔrɔ** : simanw ani minɛnw ka mara yɔrɔ jaalen na. Sɔrɔfenw ka mara dɔɔni kɔrɔ sani u ka feere walima ka yɛlɛma.\n- **Minɛnw lakanayɔrɔ** : minɛn baw ka bila tɛgɛrɛ nɔgɔman kɔrɔ ; minɛn fitininw ka dunu walima ka labɛn walasa u sɔrɔli ka nɔgɔya.\n- **Jisɔrɔyɔrɔ nɔgɔmanw** : jimarayɔrɔ ba ka fara jisɔrɔyɔrɔ fitininw kan minnu surunman bɛ sɛnɛfenw na.",
+      "illustration_description": "Illustration pédagogique pour Stockage, abri à outils et points d’eau",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "Kompostiyɛri",
-      "text": "DUGUTIGI JIRI, KANW. Komposti: Kompostiyɛri kelen ka kan ka kɛ foroba dɔgɔya la, fila foroba cɛmancɛ la, ka se naani ma foroba belebele la.\n\nDugutigi jiri: A ka kan ka kɛ yɔrɔ la min bɛ sɔrɔ sɛnɛfɛnw ɲɛfɛ, ani wɛrɛ ka kɛ foroba laban na (u cɛla ka kɛ mɛtɛrɛ 1.5 ye). U bɛ dibi di, dugutigi ani lakana.\n\nKanw: A ka kan ka kɛ gɛlɛn ye, ka sigi yɔrɔ janfa la, ka da kɛ yɔrɔ ye min ka nɔgɔn ka don.\n\nKa miiri fɛn ninnu kan kaban, o bɛ fɛn caman lakana minnu bɛ kɛ kɔfɛ, ani o bɛ baara kɛ ka nɔgɔn ka kɛɲɛ ka daminɛ.",
-      "illustration_description": "Kalanw bɛ kɛ ka kompostiyɛri jira",
+      "title": "Nɔgɔdilayɔrɔw, yiridenw ani kankurun (clôture)",
+      "text": "I ka labɛnw dafa ni fen nafama saba in ye :\n\n- **Nɔgɔdilayɔrɔ** : nɔgɔdilayɔrɔ 1 foronin kama, 2 foro cɛmancɛ kama, ka se 4 ma foro ba kama. A ka fisa ka nɔgɔdilayɔrɔw bila yɔrɔ dɔɔni ka mabɔ sigiyɔrɔw ani baarakɛyɔrɔw la walasa ka tanga kasa, bɛbɛw walima taama gɛlɛyaw ma, k'a sɔrɔ u sɔrɔli ka nɔgɔya ka bɔ sɛnɛkɛyɔrɔw la.\n- **Yiridenw** : poron kelen dancɛ la sani sɛnɛfenw ani wɛrɛ foronin laban na (u cɛ ka kɛ mɛtɛrɛ 1,5 ye). U bɛ dɔɔni, yiridenw ani lakanali di.\n- **Kankurun (Clôture)** : kankurun barikama, min bilalen bɛ ɲuman, ni da ye min sɔrɔli ka nɔgɔ.\n\nKa nin kow labɛn k'a ta a daminɛ na, o bɛ tanga labɛncogo kura sɔngɔgɛlɛnw ma ani ka baara nɔgɔya k'a ta a daminɛ na.",
+      "illustration_description": "Illustration pédagogique pour Compostières, arbres fruitiers et clôture",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Jɛkuluw ka labɛnɲɛfɔnw misaliw",
-      "text": "Jɛkuluw ka labɛnɲɛfɔnw misaliw",
+      "title": "Labɛncogo misali dɔw",
+      "text": "K'a kɛɲɛ ni yɔrɔ kɛnɛ ye, mɔgɔ hakɛ ani yɔrɔ laɲina ye, labɛncogo caman bɛ se ka kɛ.",
       "illustration_description": "Illustration pédagogique pour Exemples de modèles d’organisation",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "Dugukolo ba fenw",
-      "text": "DUGUKOLO HAKILILA\nDUGUKOLOBA-BAARAW\nDUGUKOLO KALANSO\nKALAN YƆRƆ\n\nModèle kelenpe t’a la min ka di: dugukolo baaraw labɛnni jiginni ka kɛ koɲɛw, nafolo, ani yɔrɔ kan.\n\nEreɲɔgɔn 4 don nin ye, ka segin ka labɛn koɲɛw kan.\n\nKo kɛrɛnkɛrɛnnen ye ka baara labɛn min ka di, min ka fɛn kɛ, ani min bɛ se ka bonya, ka labɛn i ka tiɲɛniw kan.",
-      "illustration_description": "Illustration pédagogique pour FERME DE SUBSISTANCE",
+      "title": "Labɛncogo bɛnni i ka laɲinaw ani i ka dugukolo ma",
+      "text": "Labɛncogo ɲuman kelen pe tɛ yen : foro labɛncogo bɛ bɔ i ka **laɲinaw**, i ka **sɔrɔfenw** ani i ka **dugukolo** de la.\n\nMisali 4 lajɛ minnu bɛ se ka bɛn i magoɲɛfenw ma : baloli foro, foro cɛmancɛ, foro ba jago kama ani kalansen foro.\n\nNafaman ye ka labɛncogo kɛ min bɛ bɛn, min bɛ baara kɛ ɲuman ani min bɛ se ka yiriwa, k'a bɛn i ka kow cogo ma.",
+      "illustration_description": "Illustration pédagogique pour Adapter le modèle à ses objectifs et à son terrain",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Bolo-kɔrɔjuru ba fɔlɔ",
-      "text": "**JURULI LAJƐN KƐRƐKƐRƐBA** Bolo-kɔrɔjuru ba fɔlɔ\n- Parcelle 1 (planches 10) + kompostière 1\n- Yiriba-ɲɔgɔnna yiriw kɛrɛfɛ\n\n**BOLO-KƆRƆJURU BA CƐMANTAN**\n- **YIRIBA-ƝƆGƆNNA YIRI**\n- **JI-DANKAN**\n- **KOMPOSTIÈRE**\n- **BAARA-JURU-SO**\n\nBolo-kɔrɔjuru ba cɛmantan\n- Parcelles 3 (planches 10 o bɛɛ la) + kompostières 2\n- Ji-dankan kɔnɔna bɛɛ ye parcellew bɛɛ ye\n",
-      "illustration_description": "Illustration pédagogique pour FERME DE SUBSISTANCE",
+      "title": "Baloli foro ani foro cɛmancɛ",
+      "text": "**Baloli foro**\n\n- Foronin 1 (sɛnɛkɛporon 10) ani nɔgɔdilayɔrɔ 1.\n- Yiridenw dancɛ la.\n\n**Foro cɛmancɛ**\n\n- Foronin 3 (poron 10 kelen-kelen bɛɛ la) ani nɔgɔdilayɔrɔ 2.\n- Jimarayɔrɔ kelen foroninw bɛɛ kama.",
+      "illustration_description": "Illustration pédagogique pour Ferme de subsistance et ferme moyenne",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Foroba ba-bako",
-      "text": "FOROBA KALANTA-YƆRƆ\n- DAGABƆLAN\n- JIRI-DENMISƐN\n- Foroba ba-bako\n- Parɛsi 12 + kompostiɛri 4 be sigi yɔrɔ la\n- Baro ni sharɛti ka taama nɔgɔya\n- JI-YƆRƆ\n- KOMPOSTIƐRI\n- BAW-YƆRƆ\n- Foroba kalanta-yɔrɔ\n- Baara-yɔrɔ (parɛsi 6 fo 12)\n- Kalan-yɔrɔ (baw, kalan-yɔrɔ)\n- Kompostiɛri 3 fo 4 + jiri-yɔrɔ",
-      "illustration_description": "Illustration pédagogique pour GRANDE FERME-ENTREPRISE",
+      "title": "Foro ba jago kama ani kalansen foro",
+      "text": "**Foro ba jago kama**\n\n- Foronin 12 ani nɔgɔdilayɔrɔ 4 tilalen yɔrɔ la.\n- Taama nɔgɔyalen buruwɛtiw ani wotoro fitininw kama.\n\n**Kalansen foro**\n\n- Sɛnɛkɛyɔrɔ (foronin 6 ka se 12 ma).\n- Kalankɛyɔrɔ (lakanayɔrɔ, kalansenw marayɔrɔ).\n- Nɔgɔdilayɔrɔ 3 ka se 4 ma ani jiri yɔrɔ.",
+      "illustration_description": "Illustration pédagogique pour Grande ferme-entreprise et ferme-école",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "Afakali",
-      "text": "AFAKALI",
-      "illustration_description": "Illustration pédagogique pour CONCLUSION",
+      "title": "Kuncɛli",
+      "text": "An ka jɔyɔrɔ saba segin kɛ minnu bɛ nakɔsɛnɛ foronin labɛncogo ɲuman ɲɛtaa sabati.",
+      "illustration_description": "Illustration pédagogique pour Conclusion",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "Design ɲuman ye baara kɛcogo koɲuman ye min bɛ baara nɔgɔya don o don.",
-      "text": "Baara nɔgɔya: yɔrɔ labɛn walasa taama dɔgɔya ani baarakɛminɛnw, ji, ani kompost bɛ kɛ i bolo kɔrɔ tuma bɛɛ.\n\nSɔrɔcogo: design kɛ ni jikulu, sɔrɔkow, ani dugukolo taamasiyɛnw ye.\n\nBonya: design kɛ min bɛ se ka bonya walima ka yɛlɛn kɛ tuma dɔ fɛ.",
-      "illustration_description": "Illustration pédagogique pour Un bon design, c’est un système cohérent et pratique. Il vous simplifie le travail au quotidien.",
+      "title": "Labɛncogo ɲuman jɔyɔrɔ saba",
+      "text": "Labɛncogo ɲuman, o ye kɛcogo ye min bɛ bɛn ani min bɛ don o don baara nɔgɔya i ma :\n\n- **Nafabɔli** : yɔrɔ labɛn walasa ka taamaw dɔgɔya ani ka minɛnw, ji ani nɔgɔ to i gɛrɛfɛ tuma bɛɛ.\n- **Bɛnni** : labɛnni kɛ k'a kɛɲɛ ni san cogo ye, sɔrɔfen minnu bɛ yen ani dugukolo gɛlɛyaw.\n- **Yiriwali** : ka miiri labɛncogo nɔgɔman na, min bɛ se ka bonya walima ka yɛlɛma waati tɛmɛnnen kɔ.",
+      "illustration_description": "Illustration pédagogique pour Les trois piliers d’un bon design",
       "image": "assets/images/maraichage/403_design_dune_micro_ferme/page_18.jpg"
     }
   ],
-  "course_code": "M4.3"
+  "course_code": "M4.3",
+  "media": [
+    {
+      "id": "lLlEsyMOvgw",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=lLlEsyMOvgw",
+      "title": "Nakôbio - Reportage sur terrain Formation maraîchage bio intensif",
+      "lang": "fr",
+      "category": "cours"
+    },
+    {
+      "id": "YiOZqseRFUc",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=YiOZqseRFUc",
+      "title": "Maraîchage bio-intensif – Épisode 14 : Expérience et retour au bio",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "R4VtiU9lFSA",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=R4VtiU9lFSA",
+      "title": "Maraîchage bio-intensif – Épisode 15 : Encouragement et bonnes pratiques",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "sZJlazwGDWU",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=sZJlazwGDWU",
+      "title": "Maraîchage bio-intensif – Épisode 5 : Femmes et famille",
+      "lang": "bm",
+      "category": "podcast"
+    },
+    {
+      "id": "_0Ss6_qARY4",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=_0Ss6_qARY4",
+      "title": "Maraîchage bio-intensif – Épisode 17 : Dédicaces et projets futurs",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

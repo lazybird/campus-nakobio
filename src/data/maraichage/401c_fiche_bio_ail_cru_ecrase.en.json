@@ -1,0 +1,53 @@
+{
+  "id": "401c_fiche_bio_ail_cru_ecrase",
+  "title": "Organic treatment sheet: Crushed raw garlic preparation",
+  "category": "Protection & Design",
+  "summary": "A quick, low-cost recipe using crushed raw garlic (allicin) to protect your nurseries and growing beds against insects and fungi.",
+  "total_pages": 6,
+  "cover_image": "assets/images/maraichage/401c_fiche_bio_ail_cru_ecrase/page_01.jpg",
+  "course_code": "M4.1.3",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Organic treatment with crushed raw garlic",
+      "text": "This quick raw garlic preparation is a simple and very accessible solution to strengthen plants and repel many pests.\n\n- **Total preparation time**: a few hours to 1 day.\n- **Resting / steeping time**: can be used immediately, or steeped for up to **24 hours** for better results.",
+      "illustration_description": "Étude botanique en aquarelle d'un bulbe d'ail frais à l'enveloppe blanche et rosée, avec quelques gousses détachées posées à côté d'un petit mortier sur papier crème.",
+      "image": "assets/images/maraichage/401c_fiche_bio_ail_cru_ecrase/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Ingredients needed",
+      "text": "To make **1 liter** of treatment *(you can multiply the quantities according to your needs)*:\n\n- **5 to 6 cloves of fresh garlic**\n- **1 L of clean water**\n- *Optional*: a preparation (infusion) of **neem leaves** to boost effectiveness.",
+      "illustration_description": "Nature morte pédagogique en aquarelle : cinq à six gousses d'ail frais, une cruche d'un litre d'eau claire et un petit rameau de feuilles de neem posés sur une table rustique.",
+      "image": "assets/images/maraichage/401c_fiche_bio_ail_cru_ecrase/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Natural properties of garlic",
+      "text": "Garlic is recognizable by its bulb (head of garlic) divided into cloves wrapped in a white or pinkish skin.\n\nIt contains active sulfur compounds, notably **allicin**, which make it a powerful natural repellent able to strengthen plant defenses and protect crops.",
+      "illustration_description": "Gros plan botanique en aquarelle d'une tête d'ail coupée en deux montrant ses gousses serrées, entourée d'une fine aura végétale symbolisant ses composés naturels protecteurs.",
+      "image": "assets/images/maraichage/401c_fiche_bio_ail_cru_ecrase/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Step-by-step preparation",
+      "text": "1. **Grind** or finely crush the 5 to 6 cloves of fresh garlic.\n2. **Add 1 liter of clean water**.\n3. **Mix well** (or let it steep for up to 24 hours), then **strain** carefully.\n\n*Tip*: Adding a neem leaf preparation can further boost the effectiveness of the treatment.",
+      "illustration_description": "Mains ouest-africaines écrasant des gousses d'ail frais dans un petit mortier, puis filtrant le mélange d'eau et d'ail à travers un tissu fin au-dessus d'un récipient propre.",
+      "image": "assets/images/maraichage/401c_fiche_bio_ail_cru_ecrase/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Use in the nursery and on growing beds",
+      "text": "The concentrated, strained juice can be used directly to treat:\n\n- **Young seedlings in the nursery** (very vulnerable to early attacks).\n- **Permanent growing beds**, as a preventive measure or at the first signs of pests.",
+      "illustration_description": "Un agriculteur ouest-africain appliquant délicatement la préparation d'ail filtrée sur de jeunes plants en pépinière et sur une planche permanente en pleine terre paillée.",
+      "image": "assets/images/maraichage/401c_fiche_bio_ail_cru_ecrase/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Effects of the raw garlic preparation",
+      "text": "This natural preparation is:\n\n- **Insect-repellent**: keeps harmful insects away (aphids, whiteflies, caterpillars…).\n- **Antifungal**: fights fungal diseases (downy mildew, powdery mildew, rust…).\n- **Detoxifying / cleansing**: helps remove excesses or residues in the soil or on the leaves.\n\nA simple, natural and effective method to help your plants grow well, without chemical products!",
+      "illustration_description": "Jeunes légumes sains et feuillage vert vigoureux sur une planche permanente en pleine terre paillée, baignés d'une douce lumière ouest-africaine.",
+      "image": "assets/images/maraichage/401c_fiche_bio_ail_cru_ecrase/page_06.jpg"
+    }
+  ]
+}

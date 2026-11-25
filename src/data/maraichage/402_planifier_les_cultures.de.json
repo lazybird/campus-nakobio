@@ -1,228 +1,246 @@
 {
   "id": "402_planifier_les_cultures",
   "title": "Anbauplanung: Fruchtfolgen und Mischkulturen",
-  "category": "Pflanzenschutz & Gestaltung",
-  "summary": "Mehrjährige Fruchtfolgen und schnelle Anbauabfolgen meistern, um den Boden niemals zu erschöpfen und den Krankheitszyklus zu unterbrechen.",
+  "category": "Schutz & Planung",
+  "summary": "Mehrjährige Fruchtfolgen und schnelle Folgekulturen beherrschen, um den Boden nie auszulaugen und den Krankheitszyklus zu unterbrechen.",
   "total_pages": 31,
   "cover_image": "assets/images/maraichage/402_planifier_les_cultures/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "Der Fruchtwechsel ist nützlich für:",
-      "text": "- die Erhaltung und Steigerung des Bodenlebens und der Bodenfruchtbarkeit.\n\n- die Steigerung der Produktion und Rentabilität durch Fruchtwechsel, die den Raum und die Kompostzufuhr optimieren.",
-      "illustration_description": "Illustration pédagogique pour L'alternance des cultures est utile pour :",
+      "title": "Warum Kulturen abwechseln?",
+      "text": "Der **Kulturwechsel** ist nützlich, um:\n\n- das **Bodenleben und die Bodenfruchtbarkeit** zu erhalten und zu steigern;\n- **Ertrag und Rentabilität** zu steigern, durch Wechsel, die den Platz und die Kompostgaben optimal nutzen.",
+      "illustration_description": "Illustration pédagogique pour Pourquoi alterner les cultures ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "Anbauplanung",
-      "text": "WIE WERDEN KULTUREN GEWECHSELT?",
-      "illustration_description": "Illustration pédagogique pour PLANIFICATION DES CULTURES",
+      "title": "Anbauplanung: Wie wechselt man die Kulturen ab?",
+      "text": "Dieses Modul liefert Ihnen die Schlüssel, um Ihre Fruchtfolgen und Folgekulturen so zu organisieren, dass die Bodenfruchtbarkeit erhalten bleibt, Krankheiten eingedämmt werden und Ihre Ernten gesichert sind.",
+      "illustration_description": "Illustration pédagogique pour Planification des cultures : comment alterner les cultures ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "Konzepte von Fruchtwechsel und Kulturfolge verstehen",
-      "text": "Konzepte von Fruchtwechsel und Kulturfolge verstehen",
+      "title": "Die Begriffe Fruchtfolge und Folgekultur verstehen",
+      "text": "Bevor Sie Ihre Anbaubeete planen, klären wir den Unterschied zwischen der Fruchtfolge über mehrere Saisons und der Folgekultur in einem kurzen Zyklus.",
       "illustration_description": "Illustration pédagogique pour Comprendre les notions de rotation et succession de cultures",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "Die Fruchtfolge",
-      "text": "Mehrere Saisons oder Jahre\nTomatenanbau\n\nDIE KULTURABFOLGE\nEin Jahr oder kurzer Zyklus\n- Kopfsalat\n- Radieschen\n- Karottenanbau\n- Buschbohnen\n\nDie **Fruchtfolge** ist der geplante Wechsel von Kulturen über mehrere Saisons oder Jahre, oft um die Bodenauslaugung zu vermeiden und krankheits- oder schädlingsspezifische Probleme einer Pflanzenfamilie zu begrenzen.\n\nDie **Kulturabfolge** ist die Aneinanderreihung von Kulturen auf derselben Fläche innerhalb eines Jahres oder kurzer Zyklen.",
-      "illustration_description": "Illustration pédagogique pour LA ROTATION",
+      "title": "Fruchtfolge und Folgekultur: zwei sich ergänzende Begriffe",
+      "text": "- **Die Fruchtfolge** (mehrere Saisons oder Jahre): Sie ist der geplante Wechsel der Kulturen über mehrere Saisons oder Jahre, häufig um die Auslaugung des Bodens zu vermeiden und Krankheiten oder Schädlinge, die auf eine Pflanzenfamilie spezialisiert sind, einzudämmen (z. B.: Tomatenkultur → Karottenkultur).\n- **Die Folgekultur** (ein Jahr oder kurzer Zyklus): Sie ist die Aufeinanderfolge von Kulturen auf derselben Fläche im Lauf eines Jahres oder in kurzen Zyklen (z. B.: Salat → Radieschen → Buschbohnen).",
+      "illustration_description": "Illustration pédagogique pour Rotation et succession : deux notions complémentaires",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "In unserem spezifischen Kontext ist eine strikte Fruchtfolge nicht zwingend erforderlich, weil:",
-      "text": "Der Boden kontinuierlich verbessert wird (Kompost, permanente Bodenbedeckung, organische Düngung).\n\nUnkräuter (auch Beikräuter genannt) werden durch Brachzeiten und Gründüngung begrenzt.\n\nDie Vielfalt der Kulturen reduziert natürlich die Risiken.\n\nWas vor allem zählt, ist die durchdachte Abfolge und der einfache Wechsel zwischen Pflanzenfamilien, Wurzelsystemen und Nährstoffbedürfnissen.",
-      "illustration_description": "Illustration pédagogique pour Dans notre contexte spécifique la rotation stricte n’est pas indispensable car :",
+      "title": "Warum eine strikte Fruchtfolge im lebendigen Boden nicht zwingend nötig ist",
+      "text": "In unserem speziellen Kontext des bio-intensiven Gemüsebaus auf lebendigem Boden ist eine **strikte Fruchtfolge** nicht zwingend erforderlich, denn:\n\n- **Der Boden wird laufend verbessert** (Kompost, dauerhafte Bodenbedeckung, organische Gaben).\n- **Die Beikräuter** (auch Unkräuter genannt) werden durch Pausen und Gründüngungskulturen begrenzt.\n- **Die Vielfalt der Kulturen** verringert die Risiken auf natürliche Weise.\n\nEntscheidend ist vor allem die **durchdachte Folgekultur** und der einfache Wechsel zwischen Pflanzenfamilien, Wurzeltypen und Nährstoffansprüchen.",
+      "illustration_description": "Illustration pédagogique pour Pourquoi la rotation stricte n’est pas indispensable en sol vivant",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Kriterien für die Auswahl von Kulturen",
-      "text": "Kriterien für die Auswahl von Kulturen",
+      "title": "Kriterien für die Kulturwahl",
+      "text": "Die Wahl einer Kultur richtet sich zugleich nach dem Klima, der Marktnachfrage und den Eigenschaften der Vorkultur.",
       "illustration_description": "Illustration pédagogique pour Critères pour choisir les cultures",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Kühle Jahreszeit",
-      "text": "Warme Jahreszeit\n\nRegenzeit:\n\n- feuchtigkeitstolerante Kulturen Die Jahreszeit Die Jahreszeit: Anbau an das vorherrschende Klima der Jahreszeit anpassen.\n\nDer Markt / Geschäftsstrategie:\n\n- Produzieren, was sich gut verkauft, wenn die Nachfrage hoch ist.\n\n- Diversifizieren, um Risiken zu streuen.\n\n- Abwechselnd kurzzyklische Kulturen (Salat) und langzyklische Kulturen (Tomate).\n\nDer Markt / Geschäftsstrategie:",
-      "illustration_description": "Illustration pédagogique pour Saison fraiche",
+      "title": "Jahreszeit und Markt berücksichtigen",
+      "text": "Zwei erste Kriterien leiten Ihre Planung:\n\n**Die Jahreszeit**\n\nPassen Sie die Kultur an das vorherrschende Klima der Saison an: kühle Jahreszeit, heiße Jahreszeit oder Regenzeit (feuchtigkeitsverträgliche Kulturen).\n\n**Der Markt und die Vermarktungsstrategie**\n\n- Produzieren Sie das, was sich gut verkauft, wenn die Nachfrage hoch ist.\n- Diversifizieren Sie, um die Risiken zu streuen.\n- Wechseln Sie Kulturen mit kurzem Zyklus (Salat) und langem Zyklus (Tomate) ab.",
+      "illustration_description": "Illustration pédagogique pour Tenir compte de la saison et du marché",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "1",
-      "text": "2 3 Die Frage der **Fruchtfolge**: Wie wählt man die anzubauende Kultur in Abhängigkeit von den Eigenschaften der Vorkultur aus?\n\nMan muss informiert sein über:\n\n1.  Die **botanische Familie**: Es muss die Familie gewechselt werden.\n2.  Den **Wurzeltyp**: Es muss zwischen tief/oberflächlich/Pfahlwurzel gewechselt werden.\n3.  Den **Kompostbedarf**: Es muss zwischen Starkzehrer und Schwachzehrer gewechselt werden.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Die Folgekultur anhand der Vorkultur wählen",
+      "text": "Um die richtige Kultur in Abhängigkeit von der Vorkultur auszuwählen, müssen Sie über **drei Schlüsselkriterien** Bescheid wissen:\n\n1. **Die Pflanzenfamilie**: Die Familie muss gewechselt werden.\n2. **Der Wurzeltyp**: Tiefwurzler, Flachwurzler und Pfahlwurzler sollten sich abwechseln.\n3. **Der Kompostbedarf**: Starkzehrer und genügsame Kulturen sollten sich abwechseln.",
+      "illustration_description": "Illustration pédagogique pour Choisir la culture suivante selon la culture précédente",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "Warum botanische Familien und Wurzeltypen kennen?",
-      "text": "Warum botanische Familien und Wurzeltypen kennen?",
+      "title": "Warum Pflanzenfamilien und Wurzeltyp kennen?",
+      "text": "Wer diese beiden agronomischen Merkmale versteht, kann seine Kulturen schützen und die gesamte Bodentiefe harmonisch nutzen.",
       "illustration_description": "Illustration pédagogique pour Pourquoi connaître les familles botaniques et le type racinaire ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "1",
-      "text": "2 Schädlinge/ Krankheiten Nährstoffbedarf Wurzelsysteme\n\n1 . Pflanzen derselben Familie teilen oft:\n\n- Dieselben Schädlinge und Krankheiten (z.B. Kraut- und Knollenfäule bei Nachtschattengewächsen).\n- Denselben Nährstoffbedarf.\n\n2 . Verschiedene Wurzelsysteme nutzen unterschiedliche Bodenschichten (Oberfläche vs. Tiefe). Das Abwechseln von oberflächennahen und tiefgehenden Wurzeln hilft, die Bodennutzung auszugleichen.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Der Nutzen von Pflanzenfamilien und Wurzelsystemen",
+      "text": "1. **Pflanzenfamilien**: Pflanzen derselben Familie teilen häufig dieselben Schädlinge und Krankheiten (z. B.: Mehltau bzw. Kraut- und Braunfäule bei Nachtschattengewächsen) sowie dieselben Nährstoffansprüche.\n2. **Wurzelsysteme**: Unterschiedliche Wurzelsysteme erschließen unterschiedliche Bodenschichten (Oberfläche oder Tiefe). Der Wechsel von flach und tief wurzelnden Kulturen trägt dazu bei, die Bodennutzung auszugleichen.",
+      "illustration_description": "Illustration pédagogique pour L’intérêt des familles botaniques et des systèmes racinaires",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "Warum ist es wichtig, den Kompostbedarf zu kennen?",
-      "text": "Warum ist es wichtig, den Kompostbedarf zu kennen?\n",
-      "illustration_description": "Illustration pédagogique pour Pourquoi connaitre les besoins d’apports en compost ?",
+      "title": "Warum den Kompostbedarf kennen?",
+      "text": "Nicht alle Kulturen entziehen dem Boden die gleiche Menge an Nährstoffen. Wer den Wechsel gut dosiert, vermeidet es, die Anbaubeete auszulaugen.",
+      "illustration_description": "Illustration pédagogique pour Pourquoi connaître les besoins d’apports en compost ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "Nährstoffintensive Kulturen",
-      "text": "Kompost **Weniger nährstoffintensive Kulturen** Kompost Der Wechsel von nährstoffintensiven und nährstoffarmen Kulturen ermöglicht eine gleichmäßigere Belastung des Bodens.",
-      "illustration_description": "Illustration pédagogique pour Cultures gourmandes",
+      "title": "Den Kompostbedarf ausgleichen",
+      "text": "Der Wechsel von **Starkzehrern** und **Schwachzehrern** (genügsamen Kulturen) verteilt die Beanspruchung des Bodens und optimiert Ihre Kompostgaben.",
+      "illustration_description": "Illustration pédagogique pour Équilibrer les besoins en compost",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Ressourcen für eine gute Fruchtfolgeplanung",
-      "text": "Ressourcen für eine gute Fruchtfolgeplanung",
+      "title": "Hilfsmittel für eine gute Planung des Kulturwechsels",
+      "text": "Um Ihre Beete fehlerfrei zu organisieren, können Sie sich auf drei praktische Referenzwerkzeuge stützen.",
       "illustration_description": "Illustration pédagogique pour Ressources pour bien planifier les alternances",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "1",
-      "text": "Um Ihre Kulturauswahl zu erleichtern und riskante Anbaufolgen zu vermeiden, können Sie sich auf drei Hauptwerkzeuge stützen:\n\n1. **Tabellen zur Kulturkombination** Zeigen empfohlene und nicht empfohlene Anbaufolgen an.\n\n   Ermöglichen eine schnelle Planung ausgehend von der aktuellen Kultur.\n\n2. **Pflanzensteckbriefe** Geben den Kompostbedarf, die Zyklusdauer, die Krankheitsanfälligkeit an.\n\n   Helfen bei der Entscheidung, welche Kultur je nach Saison, Boden und Markt folgen kann.\n\n3. **Pflanzenklassifikationstabelle** Klassifiziert Kulturen nach botanischer Familie und Wurzelsystemtyp.\n\n   Dient dazu, zu vermeiden, zu ähnliche Kulturen oder solche mit Wurzelsystemen zu pflanzen, die dieselben Bodenschichten beanspruchen.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Die drei Planungswerkzeuge",
+      "text": "Um Ihre Kulturwahl zu erleichtern und riskante Abfolgen zu vermeiden, stützen Sie sich auf drei Hauptwerkzeuge:\n\n1. **Kombinationstabellen für Kulturen**: Sie zeigen empfohlene und nicht empfohlene Abfolgen an. Damit planen Sie schnell ausgehend von der aktuellen Kultur.\n2. **Pflanzensteckbriefe**: Sie geben den Kompostbedarf, die Dauer des Zyklus und die Krankheitsanfälligkeit an. Sie helfen zu entscheiden, welche Kultur je nach Jahreszeit, Boden und Markt folgen kann.\n3. **Klassifikationstabelle der Pflanzen**: Sie ordnet die Kulturen nach Pflanzenfamilie und Wurzeltyp. Sie dient dazu, den Anbau zu nah verwandter Kulturen oder von Kulturen mit Wurzelsystemen, die dieselben Bodenschichten beanspruchen, zu vermeiden.",
+      "illustration_description": "Illustration pédagogique pour Les trois outils de planification",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Beispiel einer Fruchtfolge",
-      "text": "ZU VERMEIDENDE WECHSEL",
-      "illustration_description": "Illustration pédagogique pour Exemple de succession de cultures",
+      "title": "Beispiele für Folgekulturen: zu vermeidende Abfolgen",
+      "text": "Sehen wir uns nun die häufigsten Fehler in der Aufeinanderfolge der Kulturen an und warum sie Ihre Beete schwächen.",
+      "illustration_description": "Illustration pédagogique pour Exemples de successions : alternances à éviter",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Krankheiten und Schädlinge",
-      "text": "SCHLECHTER BODEN **Viren** **Bakterien** Bestimmte Fruchtfolgen verarmen den Boden oder begünstigen das Auftreten von Krankheiten und Schädlingen. Hier sind die wichtigsten Fehler, die es zu vermeiden gilt.",
-      "illustration_description": "Illustration pédagogique pour MALADIE ET RAVAGEURS",
+      "title": "Die Risiken einer schlechten Abfolge",
+      "text": "Manche Kulturabfolgen **laugen den Boden aus** oder fördern das Auftreten von **Krankheiten** (Pilze, Bakterien, Viren) und **Schädlingen**.\n\n⚠️ **Achtung**: Hier sind die vier wichtigsten Fehler, die es zu vermeiden gilt, um die Gesundheit Ihrer Anbaubeete zu erhalten.",
+      "illustration_description": "Illustration pédagogique pour Les risques d’une mauvaise succession",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "1",
-      "text": "klassische Krankheit: Kohlhernie\nklassischer Schädling: Zwiebelfliege\nBeispiele, die vermieden werden sollten\n2 beide Nachtschattengewächse\nbeide Kürbisgewächse\n\n1. **Monokultur**\nDen Anbau derselben Pflanze mehrmals hintereinander auf derselben Fläche. Dies laugt den Boden gezielt aus und fördert kulturspezifische Krankheiten.\n\n2. **Der Wechsel zwischen Pflanzen derselben botanischen Familie**\nAuch wenn die Pflanzen unterschiedlich sind, teilen sie oft dieselben Schädlinge und Krankheiten.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Zu vermeidende Abfolgen: Monokultur und gleiche Familie",
+      "text": "1. **Die Monokultur**: dieselbe Pflanze mehrmals hintereinander auf derselben Fläche anbauen. Das laugt den Boden einseitig aus und begünstigt kulturspezifische Krankheiten und Schädlinge (z. B.: Kohlhernie, Zwiebelfliege).\n2. **Der Wechsel zwischen Pflanzen derselben Pflanzenfamilie**: Auch wenn die Pflanzen verschieden sind, teilen sie häufig dieselben Schädlinge und Krankheiten (z. B.: zwei Nachtschattengewächse oder zwei Kürbisgewächse hintereinander).",
+      "illustration_description": "Illustration pédagogique pour Alternances à éviter : monoculture et même famille",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "Beispiele, die es zu vermeiden gilt",
-      "text": "3. **Abwechslung zwischen Pflanzen mit dem gleichen Wurzeltyp**\nEin gleicher Wurzeltyp beansprucht dieselbe Bodentiefe und weist oft die gleichen Schwächen gegenüber Schädlingen auf.\n\n4. **Abwechslung zwischen zwei sehr anspruchsvollen Kulturen**\nZwei nährstoffintensive Kulturen hintereinander anzubauen, ohne Ruhephase oder Gründüngung, laugt den Boden stark aus. Beide benötigen viel Kompost, Wasser und Pflege.",
-      "illustration_description": "Illustration pédagogique pour Exemples à éviter",
+      "title": "Zu vermeidende Abfolgen: gleiche Wurzeln und zu anspruchsvolle Kulturen",
+      "text": "3. **Der Wechsel zwischen Pflanzen mit demselben Wurzeltyp**: Ein gleicher Wurzeltyp (flach streichende Wurzeln, feine Flachwurzeln …) beansprucht dieselbe Bodentiefe und weist häufig dieselben Schwächen gegenüber Schädlingen auf.\n4. **Der Wechsel zwischen zwei sehr anspruchsvollen Kulturen**: Zwei nährstoffhungrige Kulturen ohne Ruhephase oder Gründüngung hintereinander auszubringen, laugt den Boden stark aus. Beide verlangen viel Kompost, Wasser und Pflege.",
+      "illustration_description": "Illustration pédagogique pour Alternances à éviter : mêmes racines et cultures trop exigeantes",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "Beispiel einer Fruchtfolge",
-      "text": "EMPFOHLENE FRUCHTFOLGEN",
-      "illustration_description": "Illustration pédagogique pour Exemple de succession de cultures",
+      "title": "Beispiele für Folgekulturen: empfohlene Abfolgen",
+      "text": "Umgekehrt stärken manche einfachen Kombinationen die Fruchtbarkeit Ihrer Beete nachhaltig und verringern den Krankheitsdruck.",
+      "illustration_description": "Illustration pédagogique pour Exemples de successions : alternances recommandées",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "Eine gute Fruchtfolge fördert die Bodengesundheit, begrenzt Krankheiten und optimiert die Ressourcennutzung: Wasser, Kompost,",
-      "text": "Arbeitskraft. Hier sind die zu befolgenden Prinzipien mit konkreten Beispielen.",
-      "illustration_description": "Illustration pédagogique pour Une bonne succession favorise la santé du sol, limite les maladies, et optimise l’utilisation des ressources : eau, compost,",
+      "title": "Die Vorteile einer guten Abfolge",
+      "text": "Eine gute Abfolge fördert die **Bodengesundheit**, dämmt **Krankheiten** ein und optimiert den Einsatz der Ressourcen (Wasser, Kompost, Arbeitskraft).\n\nHier sind die fünf zu befolgenden Prinzipien mit konkreten Beispielen.",
+      "illustration_description": "Illustration pédagogique pour Les bénéfices d’une bonne succession",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "1",
-      "text": "Nachtschattengewächse Empfohlene Beispiele 2 Hülsenfrüchtler feine, oberflächliche Wurzeln Nachtschattengewächse Korbblütler Liliengewächse Doldenblütler feine Wurzeln Pfahlwurzel Knolle\n\n1. **Botanische Familie wechseln**: Der Wechsel der Familien unterbricht die Zyklen spezifischer Krankheiten und Schädlinge.\n2. **Wurzeltyp wechseln**: Dies ermöglicht die Beanspruchung unterschiedlicher Bodentiefen und verbessert die Bodenstruktur.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Empfohlene Abfolgen: Pflanzenfamilie und Wurzeltyp",
+      "text": "1. **Die Pflanzenfamilie wechseln**: Der Wechsel der Familien (z. B.: Nachtschattengewächse → Hülsenfrüchtler; Nachtschattengewächse → Korbblütler; Liliengewächse → Doldenblütler) durchbricht die Zyklen spezifischer Krankheiten und Schädlinge.\n2. **Den Wurzeltyp wechseln**: Der Wechsel von feinen Flachwurzeln, Pfahlwurzeln und Knollen beansprucht unterschiedliche Bodentiefen und verbessert die Bodenstruktur.",
+      "illustration_description": "Illustration pédagogique pour Alternances recommandées : famille botanique et type de racine",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_21.jpg"
     },
     {
       "page_number": 22,
-      "title": "3",
-      "text": "Starkzehrer 4 Lang 5 Stickstofffixierer Moderat Kurz Starkzehrer\n\n- Anspruchslos, Stickstofffixierer Gründüngung oder geerntet Lang\n\n3. Wechseln Sie starkzehrende und anspruchslose Kulturen ab: Dies verhindert eine Auslaugung des Bodens und verteilt den Bedarf an Kompost und Wasser.\n\n4. Fügen Sie eine schnellwachsende Kultur zwischen zwei lange Kulturen ein: Dies optimiert Zeit und Raum und gönnt dem Boden eine „relative Ruhepause“.\n\n5. Führen Sie eine stickstofffixierende Leguminose ein: Hülsenfrüchtler reichern den Boden mit Stickstoff an, was für nachfolgende Kulturen nützlich ist.",
-      "illustration_description": "Illustration pédagogique pour 3",
+      "title": "Empfohlene Abfolgen: Bedarf, Dauer und Leguminosen",
+      "text": "3. **Starkzehrer und genügsame Kulturen abwechseln**: Das verhindert die Auslaugung des Bodens und verteilt den Bedarf an Kompost und Wasser (z. B.: Starkzehrer → Mittelzehrer → Schwachzehrer oder Stickstoffsammler).\n4. **Eine schnelle Kultur zwischen zwei lange Kulturen setzen**: Das optimiert Zeit und Fläche und gönnt dem Boden zugleich eine „relative Ruhe“ (z. B.: lang → kurz → lang).\n5. **Eine stickstoffbindende Leguminose einführen**: Hülsenfrüchtler (als Gründüngung oder zur Ernte) reichern den Boden mit Stickstoff an, der den Folgekulturen zugutekommt.",
+      "illustration_description": "Illustration pédagogique pour Alternances recommandées : besoins, durée et légumineuses",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "Beispiel einer Fruchtfolge",
-      "text": "**BESONDERE FÄLLE UND NÜTZLICHE AUSNAHMEN**",
-      "illustration_description": "Illustration pédagogique pour Exemple de succession de cultures",
+      "title": "Sonderfälle und nützliche Ausnahmen",
+      "text": "In der Praxis unterliegen nicht alle Kulturen denselben Zwängen. Manche bieten mehr Spielraum in Ihrem Kalender.",
+      "illustration_description": "Illustration pédagogique pour Cas particuliers et exceptions utiles",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_23.jpg"
     },
     {
       "page_number": 24,
-      "title": "1",
-      "text": "2 Zyklen hintereinander möglich, besonders wenn eine Zufuhr eingeschoben wird\n\n- von Kompost oder eine kurze Pause.\n- gute Bodendeckung,\n\ngeringer Bedarf\n\n- geringer Bedarf, gute Bodendeckung\n\nEinige Kulturen entziehen sich teilweise den allgemeinen Regeln der Fruchtfolge. Hier sind zwei Arten von Fällen, die man kennen sollte:\n\n1. Kulturen mit geringer Auswirkung (Wiederholungstoleranz): Einige Pflanzen mit sehr kurzem Zyklus, geringen Ansprüchen und geringer Krankheitsanfälligkeit können zweimal hintereinander ohne großes Risiko angebaut werden, wenn der Boden fruchtbar und gesund bleibt.\n\n2. Puffer- oder Übergangskulturen: Einige Pflanzen gelten als neutral, da sie:\n- geringe Ansprüche haben,\n- wenig krankheitsanfällig sind,\n\nnicht zu problematischen Familien gehören.\n\nSie können als Übergangskultur zwischen zwei anspruchsvolleren oder risikoreicheren Kulturen verwendet werden.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Kulturen mit geringer Auswirkung und Pufferkulturen",
+      "text": "Manche Kulturen entziehen sich teilweise den allgemeinen Regeln des Wechsels. Hier zwei Fälle, die man kennen sollte:\n\n1. **Kulturen mit geringer Auswirkung (Verträglichkeit bei Wiederholung)**: Manche Pflanzen mit sehr kurzem Zyklus, geringen Ansprüchen und geringer Krankheitsanfälligkeit können ohne großes Risiko zweimal hintereinander angebaut werden, sofern der Boden fruchtbar und gesund bleibt (vor allem mit einer zwischengeschalteten Kompostgabe oder einer kurzen Pause).\n2. **Pufferkulturen oder Übergangskulturen**: Manche Pflanzen gelten als neutral, da sie wenig Ansprüche haben, den Boden gut bedecken, wenig krankheitsanfällig sind und nicht zu problematischen Familien gehören. Sie können als Übergangskultur zwischen zwei anspruchsvolleren oder riskanteren Kulturen eingesetzt werden.",
+      "illustration_description": "Illustration pédagogique pour Cultures à faible impact et cultures tampon",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_24.jpg"
     },
     {
       "page_number": 25,
-      "title": "Andere Strategie",
-      "text": "EINFACHE SAISONALE STRATEGIE",
-      "illustration_description": "Illustration pédagogique pour Autre stratégie",
+      "title": "Ein anderer Ansatz: die einfache saisonale Strategie",
+      "text": "Entdecken Sie eine pragmatische Methode, die sich besonders gut an lokale Klimaschwankungen anpasst.",
+      "illustration_description": "Illustration pédagogique pour Autre approche : la stratégie saisonnière simple",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_25.jpg"
     },
     {
       "page_number": 26,
-      "title": "Eine weitere Planungsstrategie besteht darin, eine Hauptkultur pro Saison anzubauen. Man wählt eine Kultur, die an das Klima angepasst ist",
-      "text": "und wechselt dann in der nächsten Saison.\n\n**Vorteile**:\n\n- Angepasst an die lokalen klimatischen Bedingungen\n- Weniger Krankheiten (dank des Wechsels der Jahreszeiten)\n- Vereinfachte Planung\n\nAuch wenn bestimmte Fruchtfolgen nicht den klassischen Regeln der Fruchtwechsel entsprechen, reicht der Wechsel der Jahreszeiten oft aus, um Krankheitszyklen zu unterbrechen. Denken Sie daran, alle 2–3 Zyklen eine Gründüngung oder eine Mulchruhe zu integrieren.",
-      "illustration_description": "Illustration pédagogique pour Une autre stratégie de planification consiste à planter une culture principale par saison. On choisi une culture qui est adaptée au",
+      "title": "Mit einer einfachen saisonalen Strategie planen",
+      "text": "Eine andere Planungsstrategie besteht darin, pro Saison eine **Hauptkultur** anzubauen. Man wählt eine dem Klima angepasste Kultur und wechselt in der nächsten Saison.\n\nDie wichtigsten Vorteile sind:\n\n- **Angepasst an die lokalen Klimabedingungen**.\n- **Weniger Krankheiten** dank des Wechsels der Jahreszeiten.\n- **Vereinfachte Planung**.\n\nAuch wenn manche Abfolgen die klassischen Wechselregeln nicht einhalten, genügt der Wechsel der Jahreszeit oft, um Krankheitszyklen zu durchbrechen. Denken Sie daran, alle 2 bis 3 Zyklen eine **Gründüngung** oder eine **Ruhephase unter Mulch** einzuplanen.",
+      "illustration_description": "Illustration pédagogique pour Planifier avec une stratégie saisonnière simple",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_26.jpg"
     },
     {
       "page_number": 27,
       "title": "Gründüngung und Bodenruhe: nützliche Pausen",
-      "text": "Gründüngung und Bodenruhe: nützliche Pausen",
+      "text": "Um einen lebendigen und langfristig produktiven Boden zu erhalten, ist es wichtig, zwischen Ihren Kulturen Regenerationsphasen einzuplanen.",
       "illustration_description": "Illustration pédagogique pour Engrais verts et repos du sol : des pauses utiles",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_27.jpg"
     },
     {
       "page_number": 28,
-      "title": "Gründüngung",
-      "text": "Gründüngung stammt von Pflanzen, die zur Mulchung geerntet werden, wie Hirse oder Sorghum. Zusammen mit den Ruheperioden\n\nsind sie unerlässlich, um einen lebendigen und fruchtbaren Boden zu erhalten. Gründüngung ist aus folgenden Gründen nützlich:\n\n- Schützt vor Erosion, strukturiert den Boden, führt organische Substanz zu.\n\n- Unterbricht Krankheitszyklen.\n\n- Ermöglicht das Ersticken unerwünschter Kräuter, hemmt die Keimung von Unkrautsamen, besonders wenn der zugeführte Kompost nicht gut ausgereift ist.",
-      "illustration_description": "Illustration pédagogique pour Engrais verts",
+      "title": "Die Rolle der Gründüngung",
+      "text": "**Gründüngungen** sind Kulturen, die gezielt gesät werden, um den Boden zu bedecken, zu strukturieren und anzureichern (Leguminosen, Hirse, Sorghum …) und die anschließend gemäht und vor Ort belassen oder als Mulch verwendet werden.\n\nZusammen mit den Ruhephasen sind sie unerlässlich, um den Boden lebendig und fruchtbar zu halten:\n\n- **Sie schützen vor Erosion**, strukturieren den Boden und liefern organische Substanz.\n- **Sie unterbrechen Krankheitszyklen**.\n- **Sie ersticken unerwünschte Kräuter** und bremsen die Keimung von Beikrautsamen, vor allem wenn der ausgebrachte Kompost nicht gut ausgereift ist.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des engrais verts",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_28.jpg"
     },
     {
       "page_number": 29,
-      "title": "Ruhezeit",
-      "text": "Betreffend die aktive Ruhezeit:\n\n- Mulchen ohne Anbau für 1 bis 2 Monate.\n\n- Ermöglicht dem Boden, sich zu regenerieren, unterbricht Krankheitszyklen.\n\n- Bringt organische Substanz durch das Mulchen ein.\n\n- Möglichkeit, eine **Plastikmulchschicht** anzulegen (z.B. mit einer Plane), um die Kompostierung des Mulchs zu beschleunigen, die Feuchtigkeit im Boden zu halten und unerwünschte Pflanzen zu vermeiden.\n\n- Eine **schwarze Plane** erwärmt den Boden, während eine **weiße Plane** die Temperatur hält.",
-      "illustration_description": "Illustration pédagogique pour Période de repos",
+      "title": "Die aktive Ruhephase",
+      "text": "Die **aktive Ruhephase** besteht darin, das Anbaubeet ohne Produktion regenerieren zu lassen:\n\n- **Mulchen ohne Kultur** für **1 bis 2 Monate**.\n- **Regeneration des Bodens**: Sie unterbricht Krankheitszyklen und liefert mit dem Mulch organische Substanz.\n- **Plastikabdeckung (optional)**: Eine Plane beschleunigt die Kompostierung des Mulchs, hält die Feuchtigkeit im Boden und verhindert unerwünschte Pflanzen. Eine **schwarze Plane** erwärmt den Boden, während eine **weiße Plane** die Erwärmung begrenzt und eine kühlere Temperatur erhält.",
+      "illustration_description": "Illustration pédagogique pour La période de repos actif",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_29.jpg"
     },
     {
       "page_number": 30,
-      "title": "Gründüngung",
-      "text": "Wann integrieren?\n\n- Zwischen zwei anspruchsvollen Kulturen, in schwierigen Jahreszeiten (starke Regenfälle oder große Hitze), nach 2 oder 3 Kulturabfolgen.\n\nRuhephase",
-      "illustration_description": "Illustration pédagogique pour Engrais verts",
+      "title": "Wann eine Gründüngung oder eine Ruhephase einplanen?",
+      "text": "Planen Sie eine **Gründüngung** oder eine **Ruhephase** zu den günstigsten Zeitpunkten ein:\n\n- **Zwischen zwei anspruchsvollen Kulturen**.\n- **In schwierigen Jahreszeiten** (starke Regenfälle oder große Hitze).\n- **Nach 2 oder 3 Folgekulturen**.",
+      "illustration_description": "Illustration pédagogique pour Quand intégrer un engrais vert ou une période de repos ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_30.jpg"
     },
     {
       "page_number": 31,
-      "title": "Fruchtwechsel",
-      "text": "Ein guter Fruchtwechsel basiert auf drei einfachen Prinzipien:\n\n1. **Botanische Familie wechseln**\n2. **Wurzeltyp variieren**\n3. **Bodenbedürfnisse ausgleichen**\n\nPassen Sie Ihre Strategie an die Jahreszeit, die Kulturdauer und den Bodenzustand an. Denken Sie daran, wenn möglich, Pausen mit Gründüngung oder Mulchruhe zu integrieren, um den Boden auf natürliche Weise zu regenerieren.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Merksätze: die drei Prinzipien eines guten Kulturwechsels",
+      "text": "Ein guter Kulturwechsel beruht auf **drei einfachen Prinzipien**:\n\n1. **Die Pflanzenfamilie wechseln**.\n2. **Den Wurzeltyp variieren**.\n3. **Die Bedürfnisse des Bodens ausgleichen**.\n\nPassen Sie Ihre Strategie an die Jahreszeit, die Dauer der Kulturen und den Zustand des Bodens an. Denken Sie daran, wenn möglich Pausen mit **Gründüngung** oder **Ruhephasen unter Mulch** einzuplanen, um die Erde auf natürliche Weise zu regenerieren.",
+      "illustration_description": "Illustration pédagogique pour À retenir : les trois principes d’une bonne alternance",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_31.jpg"
     }
   ],
-  "course_code": "M4.2"
+  "course_code": "M4.2",
+  "media": [
+    {
+      "id": "9lggNuzqu-8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9lggNuzqu-8",
+      "title": "Interview du formateur Siaka : Semences et maraîchage bio intensif",
+      "lang": "fr",
+      "category": "cours"
+    },
+    {
+      "id": "2NAJHGvCtB4",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2NAJHGvCtB4",
+      "title": "Maraîchage bio-intensif – Épisode 16 : Souveraineté des semences",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }

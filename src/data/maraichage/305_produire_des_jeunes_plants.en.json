@@ -1,100 +1,126 @@
 {
   "id": "305_produire_des_jeunes_plants",
-  "title": "Producing Your Own Seedlings in the Nursery",
+  "title": "Producing Your Own Seedlings in a Nursery",
   "category": "Techniques & Practices",
-  "summary": "Choosing your nursery technique (cell trays, seed trays, open-field nursery), making rich potting mix, managing shade and fine watering.",
+  "summary": "Choosing your nursery technique (cell trays, seed flats, in-ground nursery), making a rich potting mix, managing shade and gentle watering.",
   "total_pages": 13,
   "cover_image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_01.jpg",
+  "media": [
+    {
+      "id": "njebiCW1P2Y",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=njebiCW1P2Y",
+      "title": "Podcast 19 avec Aïcha : Comprendre la méthode des pépinières",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "IS-5_OQ9uIc",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=IS-5_OQ9uIc",
+      "title": "Podcast 20 avec Aïcha : Pépinières et méthodes d’arrosage",
+      "lang": "fr",
+      "category": "podcast"
+    },
+    {
+      "id": "9lggNuzqu-8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9lggNuzqu-8",
+      "title": "Interview du formateur Siaka : Semences et maraîchage bio intensif",
+      "lang": "fr",
+      "category": "cours"
+    }
+  ],
   "pages": [
     {
       "page_number": 1,
-      "title": "Open field",
-      "text": "OFF-GROUND FOLLOWED BY TRANSPLANTING\n\nTo produce your seedlings, three techniques are commonly used:\n\n1) Produce seedlings in an open-field nursery.\n2) Produce seedlings in an off-ground nursery.\n3) Transplant seedlings into pots before final transplantation.\n\nEach method has its advantages and disadvantages. We will show you how to choose based on your needs!",
-      "illustration_description": "Illustration pédagogique pour PLEINE TERRE",
+      "title": "The three nursery techniques",
+      "text": "To produce your seedlings, three techniques are commonly used:\n\n1. Growing the seedlings in an **in-ground nursery**.\n2. Growing the seedlings in a **container-based (off-ground) nursery**.\n3. **Pricking out the seedlings into pots** before transplanting them.\n\nEach method has its advantages and disadvantages. We will show you how to choose according to your needs.",
+      "illustration_description": "Illustration pédagogique pour Les trois techniques de pépinière",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "1. The in-ground nursery",
-      "text": "1. THE IN-GROUND NURSERY\n",
-      "illustration_description": "Illustration pédagogique pour 1. LA PÉPINIÈRE DE DÉMARRAGE PLEINE TERRE",
+      "title": "1. The in-ground starter nursery",
+      "text": "Discover the principle, the advantages and the limits of the in-ground nursery.",
+      "illustration_description": "Illustration pédagogique pour 1. La pépinière de démarrage pleine terre",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "What is an open-field nursery?",
-      "text": "Seeds are sown directly into prepared soil. Young plants grow there before being transplanted.",
-      "illustration_description": "Illustration pédagogique pour Qu’est-ce qu’une pépinière de démarrage pleine terre?",
+      "title": "What is an in-ground starter nursery?",
+      "text": "Seeds are sown **directly into prepared soil**. The young seedlings grow there before being transplanted onto the cultivation beds.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce qu’une pépinière de démarrage pleine terre ?",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "👍",
-      "text": "What are the advantages of an in-ground nursery?\n\n- It's simple and quick to set up\n- Requires little equipment ✅\n\n✅ 👎 What are the disadvantages?\n\n- Fragile roots during transplanting\n- A faster risk of drought\n- Susceptibility to soil-borne diseases ❌\n\n❌ ❌",
-      "illustration_description": "Illustration pédagogique pour 👍",
+      "title": "Advantages and disadvantages of the in-ground nursery",
+      "text": "**Advantages:**\n\n- Simple and quick to set up.\n- Requires little equipment.\n\n**Disadvantages:**\n\n- Fragile roots at transplanting.\n- Faster risk of drying out.\n- Susceptibility to soil-borne diseases.",
+      "illustration_description": "Illustration pédagogique pour Avantages et inconvénients de la pépinière pleine terre",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "2. The off-ground starting nursery",
-      "text": "2. THE OFF-GROUND STARTING NURSERY",
-      "illustration_description": "Illustration pédagogique pour 2. LA PÉPINIÈRE DE DÉMARRAGE HORS SOL",
+      "title": "2. The container-based starter nursery",
+      "text": "Discover the principle, the required equipment, the advantages and the limits of the container-based nursery.",
+      "illustration_description": "Illustration pédagogique pour 2. La pépinière de démarrage hors-sol",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "What is an Off-Ground Starter Nursery?",
-      "text": "Seeds are sown in containers before transplanting the seedlings: trays, pots, flats. These containers are filled with potting mix.",
-      "illustration_description": "Illustration pédagogique pour Qu’est-ce qu’une pépinière de démarrage hors sol?",
+      "title": "What is a container-based starter nursery?",
+      "text": "Seeds are sown in **containers** before the seedlings are transplanted: crates, jerry cans, trays. These containers are filled with **potting mix**.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce qu’une pépinière de démarrage hors-sol ?",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "You will need the following materials:",
-      "text": "A quality potting mix\nA protective mosquito net\nSand or pebbles for drainage 🪴 🛑 💧",
-      "illustration_description": "Illustration pédagogique pour Vous aurez besoin du matériel suivant :",
+      "title": "Equipment needed for the container-based nursery",
+      "text": "To set up a container-based starter nursery, you will need the following equipment:\n\n- A **quality potting mix**.\n- A **protective insect net**.\n- **Sand or gravel** to ensure drainage.",
+      "illustration_description": "Illustration pédagogique pour Matériel nécessaire pour la pépinière hors-sol",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "👍",
-      "text": "👎 ++ + 👍 What are the advantages of off-ground nurseries?\n\n* Better root control\n* The nursery is easily transportable ✅ ✅ What are the disadvantages?\n\n* More frequent watering\n* Requires additional equipment ❌ ❌",
-      "illustration_description": "Illustration pédagogique pour 👍",
+      "title": "Advantages and disadvantages of the container-based nursery",
+      "text": "**Advantages:**\n\n- Better control of the roots.\n- A nursery that is easy to move.\n\n**Disadvantages:**\n\n- More frequent watering.\n- Requires additional equipment.",
+      "illustration_description": "Illustration pédagogique pour Avantages et inconvénients de la pépinière hors-sol",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "3. The nursery followed by transplanting",
-      "text": "3. THE NURSERY FOLLOWED BY TRANSPLANTING",
-      "illustration_description": "Illustration pédagogique pour 3. LA PÉPINIÈRE SUIVI D’UN REPIQUAGE",
+      "title": "3. The nursery followed by pricking out",
+      "text": "Discover how pricking out into pots strengthens your seedlings before they are transplanted into the field.",
+      "illustration_description": "Illustration pédagogique pour 3. La pépinière suivie d’un repiquage",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "OR",
-      "text": "What is transplanting?\n\nYoung plants are first grown in the ground or soilless, then transplanted into pots before final transplanting.\n\nThis technique is commonly used for tree nurseries and fruiting vegetables.",
-      "illustration_description": "Illustration pédagogique pour OU",
+      "title": "What is pricking out?",
+      "text": "Young seedlings are first raised in the ground or in containers, then **pricked out into pots** before final transplanting.\n\nThis is the technique usually used for **fruit tree** and **fruiting vegetable** nurseries.",
+      "illustration_description": "Illustration pédagogique pour Qu’est-ce que le repiquage ?",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "You will need the following materials:",
-      "text": "Pots or plastic bags\nNutrient-rich potting soil 🪴 🌱",
-      "illustration_description": "Illustration pédagogique pour Vous aurez besoin du matériel suivant :",
+      "title": "Equipment needed for pricking out",
+      "text": "To prick out your seedlings, you will need the following equipment:\n\n- **Pots** or **plastic bags**.\n- A **nutrient-rich potting mix**.",
+      "illustration_description": "Illustration pédagogique pour Matériel nécessaire pour le repiquage",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "👍",
-      "text": "💪 👎 STRESS What are the advantages of transplanting?\n\n- Stronger roots\n- Better recovery after transplanting\n- Reduced time in the field\n- Reduced water requirements ✅ ✅ ✅ ✅ What are the disadvantages?\n\n- Additional labor\n- Risk of stress if poorly transplanted ❌ ❌",
-      "illustration_description": "Illustration pédagogique pour 👍",
+      "title": "Advantages and disadvantages of pricking out",
+      "text": "**Advantages:**\n\n- Stronger roots.\n- Better recovery after transplanting.\n- Less time spent in the field.\n- Reduced water requirement.\n\n**Disadvantages:**\n\n- Additional work.\n- Risk of stress if the seedling is poorly pricked out.",
+      "illustration_description": "Illustration pédagogique pour Avantages et inconvénients du repiquage",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Open field",
-      "text": "OFF-GROUND Choose your technique based on your resources and objectives.\n\nFOLLOWED BY TRANSPLANTING",
-      "illustration_description": "Illustration pédagogique pour PLEINE TERRE",
+      "title": "Conclusion: choosing the right technique",
+      "text": "Choose your nursery technique (**in-ground**, **container-based** or **followed by pricking out**) according to your resources, your crops and your goals.",
+      "illustration_description": "Illustration pédagogique pour Conclusion : choisir la technique adaptée",
       "image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_13.jpg"
     }
   ],

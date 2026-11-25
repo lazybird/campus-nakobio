@@ -1,228 +1,246 @@
 {
   "id": "402_planifier_les_cultures",
-  "title": "Nafolo-jardin kalan: yiriwali ni farikanni",
-  "category": "Bana-kɛlɛ & Kalan",
-  "summary": "Kalon-kalanw ni yiriwaliw ka baara kɛ ka ɲɛ, walasa dugukolo kana ban, ani bana-kɛlɛw ka dabila.",
+  "title": "Sɛnɛ kɛcogo labɛnni : Sɛnɛfɛnw yɛlɛmani ani u ɲɔgɔnfarali",
+  "category": "Karamajɔli ani Labɛnni",
+  "summary": "Ka san caman sɛnɛfɛnw yɛlɛmani ani u nɔfalenni teliya dɔn kosɛbɛ, walasa dugukolo fanga kana ban abada, ani ka banaw ka tiɲɛni bali.",
   "total_pages": 31,
   "cover_image": "assets/images/maraichage/402_planifier_les_cultures/page_01.jpg",
   "pages": [
     {
       "page_number": 1,
-      "title": "Fɛn-ɲɔgɔn-fɛn-ɲɔgɔn-cɛ-don-don-ko ka nafa ka bon kosɛbɛ ka kɛɲɛ ni:",
-      "text": "- ka **dugukolo hɛrɛ ni a ka nafa bonya ani ka o mara ka di.\n\n- ka **ɲɔgɔn-fɛn-ɲɔgɔn-cɛ-don-don-ko** kɛ walasa ka **dugukolo** bonya ani ka **dugukolo** ka nafa bonya, o bɛ kɛ ni **dugukolo** ka bonya ye ani ka **dugukolo** ka nafa bonya ye.",
-      "illustration_description": "Illustration pédagogique pour L'alternance des cultures est utile pour :",
+      "title": "Mun na an ka kan ka sɛnɛfɛnw yɛlɛma ɲɔgɔn na?",
+      "text": "**Sɛnɛfɛnw yɛlɛmani** nafa bɛ nin de la :\n\n- ka **dugukolo ɲɛnamaya ani a nɔgɔya** mara ani k'a sabati ;\n- ka **sɛnɛ sɔrɔ ani a nafa** bonya, k'a kɛ yɛlɛmani ye min bɛ yɔrɔ ani kompɔsi nɔgɔ kɛcogo ɲɛnabɔ kosɛbɛ.",
+      "illustration_description": "Illustration pédagogique pour Pourquoi alterner les cultures ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_01.jpg"
     },
     {
       "page_number": 2,
-      "title": "Seeniw labanta",
-      "text": "SEENIW BƐN KƐ CƐN ƝƆGƆN NA CƐN?",
-      "illustration_description": "Illustration pédagogique pour PLANIFICATION DES CULTURES",
+      "title": "Sɛnɛ kɛcogo labɛnni : Sɛnɛfɛnw bɛ yɛlɛma ɲɔgɔn na cogo di?",
+      "text": "Nin kalansen in bɛ siraw jira aw la ka aw ka sɛnɛfɛnw yɛlɛmani ani u nɔfalenni labɛn, walasa ka dugukolo nɔgɔya mara, ka banaw dɔgɔya, ani ka aw ka sɔrɔ kɛnɛya.",
+      "illustration_description": "Illustration pédagogique pour Planification des cultures : comment alterner les cultures ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_02.jpg"
     },
     {
       "page_number": 3,
-      "title": "Ka **fɛnɲɛnɛn** ni **fɛnɲɛnɛn kɔfɛta** kalan",
-      "text": "Ka **fɛnɲɛnɛn** ni **fɛnɲɛnɛn kɔfɛta** kalan",
+      "title": "Sɛnɛfɛnw yɛlɛmani ani u nɔfalenni kɔrɔ faamuyali",
+      "text": "Sani aw ka aw ka sɛnɛporow labɛn, an ka danfara min bɛ san caman sɛnɛfɛnw yɛlɛmani ani tuma surun nɔfalenni cɛ, o ɲɛfɔ ka kɛnɛya.",
       "illustration_description": "Illustration pédagogique pour Comprendre les notions de rotation et succession de cultures",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_03.jpg"
     },
     {
       "page_number": 4,
-      "title": "Rotation",
-      "text": "Sanu caman walima san caman\n**Tomati baara**\n\nSUCESSION\nSan kelen walima cɛɲi surun\n**Saladi**\n**Radi**\n**Karoti baara**\n**Faba denmisɛn**\n\nRotation ye baara caman labɛnni ye ka kɛɲɛ ni sanu caman walima san caman ye, tuma caman, o ye ka dugukolo bali ka ban ani ka bana walima dunan minnu ka kɛɲɛ ni kungo denbaya dɔ ye, olu bali.\n\nSuccession ye baara caman labɛnni ye yɔrɔ kelen kan san kɔnɔ walima cɛɲi surunw kɔnɔ.",
-      "illustration_description": "Illustration pédagogique pour LA ROTATION",
+      "title": "Yɛlɛmani ani nɔfalenni : kɔrɔ fila minnu bɛ ɲɔgɔn dafa",
+      "text": "- **Yɛlɛmani** (sɛnɛ waati caman walima san caman) : o ye sɛnɛfɛnw yɛlɛmani labɛnnen ye san caman kɔnɔ, tuma caman walasa dugukolo fanga kana ban, ani ka banaw walima bɛnɛnw dɔgɔya minnu bɛ sɛnɛfɛn suguya kelen tɔɔrɔ (ɲɛyirali : tomatisɛnɛ → karɔtisɛnɛ).\n- **Nɔfalenni** (san kelen walima tuma surun) : o ye sɛnɛfɛnw tugu-tuguli ye ɲɔgɔn kɔ yɔrɔ kelen kan san kelen kɔnɔ walima waati surun kɔnɔ (ɲɛyirali : salati → radi → sɔyɔninw).",
+      "illustration_description": "Illustration pédagogique pour Rotation et succession : deux notions complémentaires",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_04.jpg"
     },
     {
       "page_number": 5,
-      "title": "An ka mara kɛrɛnkɛrɛnnen kɔnɔ, yɔrɔw jɔnjɔnni kɛrɛnkɛrɛnnen tɛ wajibiya sabu :",
-      "text": "Dugu ka nɔgɔya ka bonya tuma bɛɛ (komposti, dugukolo datuguni tuma bɛɛ, dugukolo nɔgɔya ni fɛnɲɛnɛw).\n\nƝanamaw (minnu bɛ wele fana ko **jirituɲɛw**) bɛ dɔgɔya ni dɛsɛw ni dugukolo nɔgɔya jiriw ye.\n\nAw ka jiriw wɛrɛw laɲini bɛ kojuguw dɔgɔya yɛrɛmahɔnɔn.\n\nFɛn min ka fisa, o ye laɲini kɛli ye ni sigida wɛrɛw ni jiriw wɛrɛw ni jiriw jɔli ye, ani minnu bɛ nafa sɔrɔ dugukolo la.",
-      "illustration_description": "Illustration pédagogique pour Dans notre contexte spécifique la rotation stricte n’est pas indispensable car :",
+      "title": "Mun na yɛlɛmani gɛlɛn tɛ wajibiya dugukolo ɲɛnaman kan",
+      "text": "An ka nakɔsɛnɛ kɛcogo la min bɛ dugukolo ɲɛnaman kɛnɛya, **yɛlɛmani gɛlɛn** tɛ wajibiya bawo :\n\n- **Dugukolo bɛ fisaya tuma bɛɛ** (kompɔsi, binda, nɔgɔ kɛli).\n- **Bin juguw** bɛ dɔgɔya lafinyawaatiw ani nɔgɔbinkɛnɛ sɛnɛli fɛ.\n- **Sɛnɛfɛnw suguya caman** bɛ faratiw dɔgɔya a yɛrɛma.\n\nMin nafa ka bon kosɛbɛ, o ye **nɔfalenni hakilitigiya ta** ye, ani yɛlɛmani nɔgɔman sɛnɛfɛnw suguya, u lilinw cogo ani u ka nɔgɔ mako cɛ.",
+      "illustration_description": "Illustration pédagogique pour Pourquoi la rotation stricte n’est pas indispensable en sol vivant",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_05.jpg"
     },
     {
       "page_number": 6,
-      "title": "Fɛn camanw minnu ka kan ka lajɛ walasa ka binw sugandi",
-      "text": "Fɛn camanw minnu ka kan ka lajɛ walasa ka binw sugandi",
+      "title": "Sɛnɛfɛnw sugandili cogoyaw",
+      "text": "Sɛnɛfɛn sugandili bɛ bɛn bamanakow, sugu mako ani sɛnɛfɛn kɔrɔman min tun bɛ yen, o cogoyaw de ma.",
       "illustration_description": "Illustration pédagogique pour Critères pour choisir les cultures",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_06.jpg"
     },
     {
       "page_number": 7,
-      "title": "Samiyɛ bɛɛ",
-      "text": "Samiyɛ kɛɲɛ\n\nSamiyɛ sanji:\n\n* Foroba nɔgɔmanw ka fɛnɲɛnama dɔnko. Samiyɛ: ka fɛnɲɛnama dɔnko kɛ ka kɛɲɛ ni samiyɛ ka jikura ye.\n\nSugu / baarakɛcogo:\n\n* Ka fɛnɲɛnama kɛ min bɛ feere kosɛbɛ tuma min na fɛnɲɛnama bɛ ɲini kosɛbɛ.\n\n* Ka fɛnɲɛnama caman kɛ walasa ka dɔnko nɔgɔya.\n\n* Ka fɛnɲɛnama kɛ min bɛ se ka kɛ tuma dɔɔnin (saladi) ani min bɛ se ka kɛ tuma jan (tomati).\n\nSugu / baarakɛcogo:",
-      "illustration_description": "Illustration pédagogique pour Saison fraiche",
+      "title": "Sɛnɛ waati ani sugu makow jateminɛni",
+      "text": "Sira fɔlɔ fila bɛ aw ka labɛnni ɲɛminɛ :\n\n**Sɛnɛ waati**\n\nSɛnɛfɛn bɛn waati bamanako ma : fɔnɛnɛ waati, tile waati walima samiɲɛ (sɛnɛfɛn minnu bɛ jima yɔrɔ sɔn).\n\n**Sugu ani feereli pɛɛnw**\n\n- Ka fɛn sɛnɛ min bɛ feere ka ɲɛ waati min na mɔgɔw mako b'a la kosɛbɛ.\n- Ka sɛnɛfɛnw suguya caman kɛ walasa ka faratiw dɔgɔya.\n- Ka tuma surun sɛnɛfɛnw (salati) ani tuma jan sɛnɛfɛnw (tomati) yɛlɛma ɲɔgɔn na.",
+      "illustration_description": "Illustration pédagogique pour Tenir compte de la saison et du marché",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "Baarakɛcogo caman kɔlɔsili",
-      "text": "Baarakɛcogo caman kɔlɔsili: cogo di walasa ka baarakɛcogo sugandi ka kɛɲɛ ni baarakɛcogo kɔrɔ ka dɔnko ye?\n\nI ka kan ka dɔnko sɔrɔ fɛn ninnu kan:\n\n1.  **Fɛnɲɛnɛ dɔnko**: I ka kan ka fɛnɲɛnɛ dɔnko caman kɛ.\n2.  **Juri kulu**: I ka kan ka juri kulu caman kɛ: juri gɛlɛn / juri nɔgɔn / juri falen.\n3.  **Kɔmpɔsɔ ka nafa**: I ka kan ka kɔmpɔsɔ caman kɛ: minnu bɛ kɔmpɔsɔ caman fɛ, ani minnu bɛ dɔgɔ fɛ.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Ka sɛnɛfɛn nata sugandi k'a bɛn sɛnɛfɛn kɔrɔman ma",
+      "text": "Walasa ka sɛnɛfɛn nata sugandi ka ɲɛ k'a bɛn sɛnɛfɛn kɔrɔman ma, i ka kan ka **sira saba** dɔn :\n\n1. **Sɛnɛfɛn suguya** : a bɛ wajibiya ka suguya yɛlɛma.\n2. **Lilin cogo** : a bɛ wajibiya ka lilin dumanw, sanfɛ lilinw ani lilin turulenw yɛlɛma ɲɔgɔn na.\n3. **Kompɔsi mako** : a bɛ wajibiya ka sɛnɛfɛn nɔgɔmakotigiw ani minnu mako tɛ nɔgɔ la kosɛbɛ, olu yɛlɛma ɲɔgɔn na.",
+      "illustration_description": "Illustration pédagogique pour Choisir la culture suivante selon la culture précédente",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "Munna i ka kalan botaniki denbaya ni jiji kulu kan?",
-      "text": "Munna i ka kalan botaniki denbaya ni jiji kulu kan?",
+      "title": "Mun na an ka kan ka sɛnɛfɛnw suguya ani u lilinw cogo dɔn?",
+      "text": "Nin sɛnɛkɛcogo fila in faamuyali bɛ a to aw bɛ se ka aw ka sɛnɛfɛnw tanga, ani ka dugukolo dunya bɛɛ nafa ta cogo ɲuman na.",
       "illustration_description": "Illustration pédagogique pour Pourquoi connaître les familles botaniques et le type racinaire ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "1",
-      "text": "2 **Fɛnɲɛnajɛw** / **banaw** **Dunanbaara** **ɲinini** **Jiribolo** **yɔrɔw**\n\n1 . Jiridenw minnu bɔra denbaya kelen na, olu ka teli ka kɛ ni :\n\n- Fɛnɲɛnajɛw ni banaw kelenw ye (i n’a fɔ : mildiou Solanacées kama).\n\n- Dunanbaara ɲinini kelenw ye.\n\n2 . Jiribolo yɔrɔ wɛrɛw bɛ dugukolo yɔrɔ wɛrɛw lajɛ (sanfɛla ni duguma). Jiribolo yɔrɔ sanfɛla ni duguma wulilila cɛ bɛ dugu lajɛli kɛ ka nɔgɔya.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Sɛnɛfɛnw suguya ani u lilinw cogo nafa",
+      "text": "1. **Sɛnɛfɛnw suguya** : suguya kelen sɛnɛfɛnw bɛ bɛnɛn kelen ani bana kelen de sɔrɔ tuma caman (ɲɛyirali : milidiyu bana tomati suguya fɛnw na) ani u ka balo mako bɛ kɛ kelen ye.\n2. **Lilinw cogo** : lilin cogo wɛrɛw bɛ dugukolo yɔrɔ wɛrɛw de nafa ta (sanfɛla walima dunya). Sanfɛ lilinw ani lilin dumanw yɛlɛmani ɲɔgɔn na bɛ dɛmɛ kɛ ka dugukolo nafa tali bɛnkan.",
+      "illustration_description": "Illustration pédagogique pour L’intérêt des familles botaniques et des systèmes racinaires",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_10.jpg"
     },
     {
       "page_number": 11,
-      "title": "Mun na i ka kan ka dɔn komposti nafama ye min na?",
-      "text": "Mun na i ka kan ka dɔn komposti nafama ye min na?\n",
-      "illustration_description": "Illustration pédagogique pour Pourquoi connaitre les besoins d’apports en compost ?",
+      "title": "Mun na an ka kan ka kompɔsi mako dɔn?",
+      "text": "Sɛnɛfɛnw bɛɛ tɛ balo hakɛ kelen ta dugukolo la. Yɛlɛmani kɛcogo ɲuman bɛ a to aw ka sɛnɛporow fanga tɛ ban.",
+      "illustration_description": "Illustration pédagogique pour Pourquoi connaître les besoins d’apports en compost ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_11.jpg"
     },
     {
       "page_number": 12,
-      "title": "Fɛn-ɲɔgɔn-na-jɛn-ɲɔgɔn-na-duguma-ba",
-      "text": "Compost Fɛn-ɲɔgɔn-na-jɛn-ɲɔgɔn-na-duguma-fiɲɛ Compost **Fɛn-ɲɔgɔn-na-jɛn-ɲɔgɔn-na-duguma-ba** ni **fɛn-ɲɔgɔn-na-jɛn-ɲɔgɔn-na-duguma-fiɲɛ** ka labɛn-ɲɔgɔn-na-kɛli b’a to duguma ka baara kɛ ka ɲɛ.",
-      "illustration_description": "Illustration pédagogique pour Cultures gourmandes",
+      "title": "Kompɔsi makow bɛnkan",
+      "text": "Ka **sɛnɛfɛn nɔgɔmakotigiw** ani **sɛnɛfɛn minnu mako tɛ nɔgɔ la kosɛbɛ** yɛlɛma ɲɔgɔn na, o bɛ a to dugukolo fanga bɛ mara ani ka aw ka kompɔsi kɛli nafa bonya.",
+      "illustration_description": "Illustration pédagogique pour Équilibrer les besoins en compost",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_12.jpg"
     },
     {
       "page_number": 13,
-      "title": "Fàgadenw ka baara kɛcogo ɲuman sigi",
-      "text": "Fàgadenw ka baara kɛcogo ɲuman sigi",
+      "title": "Dɛmɛnanw walasa ka yɛlɛmaniw labɛn ka ɲɛ",
+      "text": "Walasa ka aw ka sɛnɛporow labɛn fili kɔ, aw bɛ se ka aw jigi ti dɛmɛnan saba kan minnu bɛ baara ɲuman kɛ.",
       "illustration_description": "Illustration pédagogique pour Ressources pour bien planifier les alternances",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "1",
-      "text": "2 3\n\nWalasa k’aw ka **jiɲɛ-sɛbɛnni** nɔgɔya ani ka **kɔnɔnɔ-kɔnɔnɔ** jɔnya, aw bɛ se ka sigi **minɛnba** saba kan:\n\n1. **Jiɲɛ-sɛbɛnni** ka **tabaliw**\n- O bɛ **jiɲɛ-sɛbɛnni** nɔgɔyalenw ni **jiɲɛ-sɛbɛnni** janyalenw jira.\n- O bɛ se ka **jiɲɛ-sɛbɛnni** labɛnni nɔgɔya ka bɔ **jiɲɛ-sɛbɛnni** min bɛ yɔrɔ la sisan.\n\n2. **Jiɲɛ-sɛbɛnni** ka **karta-kɛnɛw**\n- O bɛ **komposi** ka **hɛrɛ** jira, **jiɲɛ-sɛbɛnni** ka **wagati**, ani **jiɲɛ-sɛbɛnni** ka **banaw**.\n- O bɛ dɛmɛ ka latigɛ **jiɲɛ-sɛbɛnni** min bɛ se ka kɛ **wagati**, **dugukolo** ani **sɔgɔsɔgɔ** kɔfɛ.\n\n3. **Jiɲɛ-sɛbɛnni** ka **tabali-kalasi**\n- O bɛ **jiɲɛ-sɛbɛnni** kalasi ka **jiɲɛ-sɛbɛnni** ka **denbaya** ani **jiɲɛ-sɛbɛnni** ka **jɔyɔrɔ**.\n- O bɛ dɛmɛ ka **jiɲɛ-sɛbɛnni** jɔnya ka **jiɲɛ-sɛbɛnni** minnu bɛ **yɔrɔ** la **kɔnɔnɔ** wala **jiɲɛ-sɛbɛnni** minnu ka **jɔyɔrɔ** bɛ **dugukolo** ka **yɔrɔ** kelen-kelenw la.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Labɛnni dɛmɛnan saba",
+      "text": "Walasa ka aw ka sɛnɛfɛn sugandili nɔgɔya ani ka nɔfalenni faratimanw tanga, aw ka aw jigi ti dɛmɛnan saba kan :\n\n1. **Sɛnɛfɛnw ɲɔgɔnfarali tabilow** : u bɛ nɔfalenni ɲumanw ani minnu man ɲi jira. U bɛ dɛmɛ kɛ ka labɛnni kɛ teliya la k'a daminɛ sɛnɛfɛn min bɛ kɛnɛ kan.\n2. **Sɛnɛfɛnw ka dɔnniya sɛbɛnw** : u bɛ kompɔsi mako, sɛnɛ waati janya ani banaw ka nɔgɔya jira. U bɛ dɛmɛ kɛ ka sɛnɛfɛn nata sugandi k'a bɛn waati, dugukolo ani sugu ma.\n3. **Sɛnɛfɛnw suguya tabilo** : a bɛ sɛnɛfɛnw tilatila u suguya ani u lilinw cogo la. A bɛ dɛmɛ kɛ walasa ka sɛnɛfɛn minnu surunman bɛ ɲɔgɔn na walima minnu lilinw bɛ dugukolo yɔrɔ kelen ɲini, olu sɛnɛli tanga ɲɔgɔn kɔ.",
+      "illustration_description": "Illustration pédagogique pour Les trois outils de planification",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_14.jpg"
     },
     {
       "page_number": 15,
-      "title": "Nafolo-ɲɔgɔnye misali",
-      "text": "FƆLƆFƆLƆ-ƝƆGƆNYE MINNU KA KƐ TƐMƐN\n",
-      "illustration_description": "Illustration pédagogique pour Exemple de succession de cultures",
+      "title": "Nɔfalenni ɲɛyiraliw : yɛlɛmani minnu ka kan ka tanga",
+      "text": "An ka fili minnu bɛ kɛ tuma caman sɛnɛfɛnw tugu-tuguli la lajɛ sisan, ani mun na u bɛ aw ka sɛnɛporow fanga dɔgɔya.",
+      "illustration_description": "Illustration pédagogique pour Exemples de successions : alternances à éviter",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_15.jpg"
     },
     {
       "page_number": 16,
-      "title": "Bajinin ni fitininw",
-      "text": "DUGUKOLO JUGU Virus Bakteri Fɛn caman dɔnni kɔfɛ, dugukolo bɛ sa walima bajininw ni fitininw bɛ bɔ. Nin ye kojuguw ye minnu ka kan ka bali.\n",
-      "illustration_description": "Illustration pédagogique pour MALADIE ET RAVAGEURS",
+      "title": "Nɔfalenni jugu faratiw",
+      "text": "Sɛnɛfɛn dɔw nɔfalenni bɛ **dugukolo fanga dɔgɔya** walima ka **banaw** (kuluw, bamasigilanw, virisiw) ani **bɛnɛnw** sabati.\n\n⚠️ **Kɔlɔsili** : fili ba naani minnu ka kan ka tanga walasa ka aw ka sɛnɛporow kɛnɛya mara, olu filɛ.",
+      "illustration_description": "Illustration pédagogique pour Les risques d’une mauvaise succession",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_16.jpg"
     },
     {
       "page_number": 17,
-      "title": "1",
-      "text": "maladi kɛrɛnkɛrɛnnen: **choux** ka **hernies**\nɲama kɛrɛnkɛrɛnnen: **oignon** ka **mouche**\n\nMisaliw minnu ka kan ka bali 2\n- u fila bɛɛ ye **Solanacées** ye\n- u fila bɛɛ ye **Cucurbitaceae** ye\n\n1. **Monoculture**\nJardinɛri ka jikinɛ kelen kelen de laɲini yɔrɔ kelen kan tuma caman. O bɛ dugukolo gɛn kɛrɛnkɛrɛnnenya la ani o bɛ jikinɛ ka maladiw dɔn. \n\n2. **Jikinɛw ka wulicogo minnu bɛ kɛ botaniki denbaya kelen kɔnɔ**\nAw ye a dɔn ko jikinɛw bɛ se ka kɛɲɛ ni u ye denbaya kelen de laɲini. O bɛ se ka kɛɲɛ ni u ye denbaya kelen de laɲini. O bɛ se ka kɛɲɛ ni u ye denbaya kelen de laɲini.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Yɛlɛmani minnu ka kan ka tanga : sɛnɛfɛn kelen sɛnɛli ani suguya kelen",
+      "text": "1. **Sɛnɛfɛn kelen sɛnɛli** : ka sɛnɛfɛn kelen sɛnɛ siɲɛ caman ɲɔgɔn kɔ yɔrɔ kelen kan. O bɛ dugukolo fanga ban cogo kelen ma ani ka banaw ani bɛnɛn minnu bɛ o sɛnɛfɛn tɔɔrɔ sabati (ɲɛyirali : subu bana, jaba ntɔri).\n2. **Suguya kelen sɛnɛfɛnw yɛlɛmani ɲɔgɔn na** : hali ni sɛnɛfɛnw tɛ kelen ye, u bɛ bɛnɛn kelen ani bana kelen de sɔrɔ tuma caman (ɲɛyirali : tomati suguya fila walima jɛgɛ suguya fila ɲɔgɔn kɔ).",
+      "illustration_description": "Illustration pédagogique pour Alternances à éviter : monoculture et même famille",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "Misaliw minnu ka kan ka bali",
-      "text": "3. Jiriw labɛn-labɛn minnu jijiw bɛ kelen ye\nJiji-kulu kelen bɛ dugukolo dɔgɔya yɔrɔ kelen na, wa a ka dɔgɔ ka kɛ a ka nɔgɔn ka kɛɲɛ ni furaɲɔgɔnw ye.\n\n4. Fɛnɲɛnɛba fila labɛn-labɛn\nFɛnɲɛnɛba fila labɛn-labɛn minnu bɛ fɛnɲɛnɛba caman ɲini, ni dɛsɛ tɛ walima ni furaɲɔgɔn tɛ, o bɛ dugukolo banba kosɛbɛ. U fila bɛ compost, ji, ni dɛmɛ caman ɲini.",
-      "illustration_description": "Kalan-jaɲa misaliw minnu ka kan ka bali.",
+      "title": "Yɛlɛmani minnu ka kan ka tanga : lilin kelenw ani sɛnɛfɛn nɔgɔmakotigibaaw",
+      "text": "3. **Sɛnɛfɛn minnu lilinw cogo bɛ kelen ye, olu yɛlɛmani ɲɔgɔn na** : lilin cogo kelen (lilin fɛrɛnnenw, sanfɛ lilin misɛnninw...) bɛ dugukolo dunya kelen de ɲini ani u bɛ dɛsɛ bɛnɛnw kɔrɔ cogo kelen ma tuma caman.\n4. **Sɛnɛfɛn nɔgɔmakotigibaa fila yɛlɛmani ɲɔgɔn na** : ka sɛnɛfɛn fila minnu mako bɛ balo la kosɛbɛ tugu ɲɔgɔn kɔ, lafinyawaati walima nɔgɔbinkɛnɛ tɛ, o bɛ dugukolo fanga ban kosɛbɛ. U fila bɛɛ mako bɛ kompɔsi, ji ani ladonni caman na.",
+      "illustration_description": "Illustration pédagogique pour Alternances à éviter : mêmes racines et cultures trop exigeantes",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "Nafolo-jɛgɛnw ka laban-laban misali",
-      "text": "Nafolo-jɛgɛnw ka laban-laban minnu ka di",
-      "illustration_description": "Illustration pédagogique pour Exemple de succession de cultures",
+      "title": "Nɔfalenni ɲɛyiraliw : yɛlɛmani minnu ka ɲi",
+      "text": "O ɲɔgɔn kɔ, ɲɔgɔnfarali nɔgɔman dɔw bɛ aw ka sɛnɛporow nɔgɔya sabati tuma jan, ani ka banaw gɛlɛya dɔgɔya.",
+      "illustration_description": "Illustration pédagogique pour Exemples de successions : alternances recommandées",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_19.jpg"
     },
     {
       "page_number": 20,
-      "title": "Fɛɛrɛɲɔgɔnya ɲuman bɛ dugukolo lakana ka ban nafɛnɲɛnajɛya la, ka bana kɛlɛ, ka nafolo kɛcogo ɲɛ: ji, komposti,",
-      "text": "baara. Aw ye sinsinw ye ni cogoyaw ye minnu bɛ se ka kɛ.",
-      "illustration_description": "Illustration pédagogique pour Une bonne succession favorise la santé du sol, limite les maladies, et optimise l’utilisation des ressources : eau, compost,",
+      "title": "Nɔfalenni ɲuman nafaw",
+      "text": "Nɔfalenni ɲuman bɛ **dugukolo kɛnɛya** sabati, ka **banaw** dɔgɔya ani ka nafolow (ji, kompɔsi, baarakɛlaw) baarakɛcogo ɲɛnabɔ.\n\nSira duuru minnu ka kan ka batu ni ɲɛyirali kɛnɛmanw ye, olu filɛ.",
+      "illustration_description": "Illustration pédagogique pour Les bénéfices d’une bonne succession",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_20.jpg"
     },
     {
       "page_number": 21,
-      "title": "1",
-      "text": "Solanacées Misaliw minnu ka kan ka kɛ 2 Fabacées jiji fitininw, duguma Solanacées Astéracées Liliacées Apiacées jiji fitininw jiji belebeleba tubɛrɛ\n\n1. Botanique denbaya yɛlɛma: denbayaw yɛlɛmali bɛ baara kɛ ka bana ni fiyɛn kɛlɛnw ka cikanw tiɲɛ.\n2. Jiji kɔnɔko yɛlɛma: o bɛ baara kɛ ka duguma kɔnɔko yɔrɔw laɲini yɛlɛma ani ka a ka labɛnko nɔgɔya.",
-      "illustration_description": "Kalan-kɛcogo misali 1",
+      "title": "Yɛlɛmani minnu ka ɲi : sɛnɛfɛn suguya ani lilin cogo",
+      "text": "1. **Sɛnɛfɛn suguya yɛlɛmali** : ka suguyaw yɛlɛma ɲɔgɔn na (ɲɛyirali : tomati suguya → tiga suguya ; tomati suguya → salati suguya ; jaba suguya → karɔti suguya) o bɛ banaw ani bɛnɛn minnu bɛ o sɛnɛfɛn tɔɔrɔ, olu ka tiɲɛni bali.\n2. **Lilin cogo yɛlɛmali** : ka sanfɛ lilin misɛnninw, lilin turulenw ani kuw yɛlɛma ɲɔgɔn na, o bɛ dugukolo dunya yɔrɔ wɛrɛw ɲini ani k'a cogo fisaya.",
+      "illustration_description": "Illustration pédagogique pour Alternances recommandées : famille botanique et type de racine",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_21.jpg"
     },
     {
       "page_number": 22,
-      "title": "3",
-      "text": "Gourmande 4 Longue 5 Fixateur d’azote Modéré Courte Gourmande\n\n- Awaɲiɲɛnin, azote-fixateur\n- Jiriwɛrɛ wala ka kɔrɔta\n- Wagati jan\n\n3. Ka **kɔrɔtaw** ni **awaɲiɲɛninw** labɛn ɲɔgɔn fɛ: o bɛ dugukolo bali ka ban, wa a bɛ compost ni ji cogoya labɛn.\n\n4. Ka **kɔrɔta gɛlɛn** don **kɔrɔta jan** fila cɛ: o bɛ se ka wagati ni yɔrɔ bonya, k’a sɔrɔ a bɛ dugukolo “lafiyali dɔ” di.\n\n5. Ka **azote-fixateur** don: Fabacées bɛ dugukolo fa ni azote, min ka fisa kɔrɔta tɔw ye.",
-      "illustration_description": "Illustration pédagogique pour 3",
+      "title": "Yɛlɛmani minnu ka ɲi : makow, waati janya ani tigasuguya fɛnw",
+      "text": "3. **Sɛnɛfɛn nɔgɔmakotigiw ani minnu mako tɛ nɔgɔ la kosɛbɛ yɛlɛmali ɲɔgɔn na** : o bɛ a to dugukolo fanga tɛ ban ani ka kompɔsi ani ji makow tilatila (ɲɛyirali : nɔgɔmakotigi → nɔgɔmako cɛmancɛ → min mako tɛ nɔgɔ la kosɛbɛ walima min bɛ azɔti bila dugukolo la).\n4. **Ka tuma surun sɛnɛfɛn don tuma jan sɛnɛfɛn fila cɛ** : o bɛ waati ani yɔrɔ nafa bonya k'a sɔrɔ ka « lafinyawaati dɔ » di dugukolo ma (ɲɛyirali : tuma jan → tuma surun → tuma jan).\n5. **Ka tigasuguya fɛn min bɛ azɔti bila dugukolo la don a la** : tiga suguya fɛnw (k'u kɛ nɔgɔbinkɛnɛ ye walima k'u sɔrɔ) bɛ dugukolo nɔgɔya ni azɔti ye, min nafa bɛ sɛnɛfɛn nataw la.",
+      "illustration_description": "Illustration pédagogique pour Alternances recommandées : besoins, durée et légumineuses",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "Nàfà-yɔrɔw ka cɛn-cɛn-kɛli misali",
-      "text": "**KUNJAA KƐRƐNƐN WƆLƆW NI NAFATIGIYAW**",
-      "illustration_description": "Illustration pédagogique pour Exemple de succession de cultures",
+      "title": "Koo kɛrɛnkɛrɛnnenw ani danfarali nafamaw",
+      "text": "Tiɲɛn na, gɛlɛya kelen tɛ sɛnɛfɛnw bɛɛ la. Dɔw bɛ nɔgɔya di aw ka sɛnɛ waatiw labɛnni na.",
+      "illustration_description": "Illustration pédagogique pour Cas particuliers et exceptions utiles",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_23.jpg"
     },
     {
       "page_number": 24,
-      "title": "1",
-      "text": "2 Possible sur 2 cycles consécutifs, surtout en intercalant un apport\n\n- de compost ou une pause courte.\n- bon couvert de sol,\n\nfaible demande\n\n- faible demande, bon couvert du sol\n\nCertaines cultures échappent partiellement aux règles générales d’alternance. Voici deux types de cas à connaître :\n\n1. Cultures à faible impact (tolérance à la répétition) : certaines plantes à cycle très court, peu exigeantes et peu sensibles aux maladies, peuvent être cultivées deux fois de suite sans grand risque, si le sol reste fertile et sain.\n\n2. Cultures tampon ou de transition : certaines plantes sont considérées comme neutres, car elles :\n- ont peu d’exigences,\n- sont peu sensibles aux maladies,\n\nn’appartiennent pas à des familles problématiques.\n\nElles peuvent être utilisées comme culture de transition entre deux cultures plus exigeantes ou risquées.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Sɛnɛfɛn minnu tɛ dugukolo fanga ban kosɛbɛ ani sɛnɛfɛn cɛmancɛlaw",
+      "text": "Sɛnɛfɛn dɔw bɛ bɔ yɛlɛmani sariyaw la dɔɔni. Koo suguya fila minnu ka kan ka dɔn, olu filɛ :\n\n1. **Sɛnɛfɛn minnu tɛ dugukolo fanga ban kosɛbɛ (minnu bɛ sɔn ka kɛ siɲɛ caman)** : sɛnɛfɛn dɔw minnu waati ka surun kosɛbɛ, minnu mako tɛ nɔgɔ la kosɛbɛ ani banaw tɛ u minɛ nɔgɔya la, olu bɛ se ka sɛnɛ siɲɛ fila ɲɔgɔn kɔ faratiba tɛ, ni dugukolo nɔgɔman ani kɛnɛman tora (kosɛbɛ ni kompɔsi kɛra walima lafinyawaati surun kɛra u cɛ).\n2. **Sɛnɛfɛn cɛmancɛlaw walima tɛmɛsira sɛnɛfɛnw** : sɛnɛfɛn dɔw bɛ jate i n'a fɔ fɛn minnu tɛ tiɲɛni kɛ, bawo u mako tɛ nɔgɔ la kosɛbɛ, u bɛ dugukolo da ɲɛ ka ɲɛ, banaw tɛ u minɛ nɔgɔya la ani u tɛ suguya gɛlɛnw na. U bɛ se ka kɛ i n'a fɔ tɛmɛsira sɛnɛfɛn sɛnɛfɛn nɔgɔmakotigi walima faratiman fila cɛ.",
+      "illustration_description": "Illustration pédagogique pour Cultures à faible impact et cultures tampon",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_24.jpg"
     },
     {
       "page_number": 25,
-      "title": "Fɛɛrɛ wɛrɛ",
-      "text": "FƐƐRƐ MIN BƐ KƐ SAN KƆNƆNƆN\n",
-      "illustration_description": "Illustration pédagogique pour Autre stratégie",
+      "title": "Sira wɛrɛ : sɛnɛ waati labɛnni nɔgɔman",
+      "text": "Aw ka kɛcogo nɔgɔman dɔ dɔn min bɛnnen bɛ kosɛbɛ yɔrɔ bamanakow yɛlɛmali ma.",
+      "illustration_description": "Illustration pédagogique pour Autre approche : la stratégie saisonnière simple",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_25.jpg"
     },
     {
       "page_number": 26,
-      "title": "Fɛɛrɛ wɛrɛ min bɛ baara kɛ ni fɛn caman dilen ye, o ye ka dumuni-fɛnba dɔ dɔn san kelen-kelen bɛɛ la. I bɛ dumuni-fɛn dɔ sugandi min bɛ se ka",
-      "text": "lamini nafa, o kɔ ka a Dabɔ san wɛrɛ la.\n\n**Nafoɲaw** :\n\n- A bɛ se ka kɛ ni lamini nafa ye\n- Bana dɔgɔya (sanw ka yɛlɛmɛn sababu la)\n- Fɛn dilen ka nɔgɔya\n- Hali ni fɛn dɔw ma teli ka kɛ ni fɛn caman ye, san yɛlɛmɛn bɛ se ka bana kɛlɛ. I hakili la, ka jɔli-fɛn jukɔrɔnba dɔ don walima ka a jɔli-fɛn dɔ don san 2-3 bɛɛ la.",
-      "illustration_description": "Illustration pédagogique pour Une autre stratégie de planification consiste à planter une culture principale par saison. On choisi une culture qui est adaptée au",
+      "title": "Labɛnni kɛli ni sɛnɛ waati labɛnni nɔgɔman ye",
+      "text": "Labɛnni sira wɛrɛ ye ka **sɛnɛfɛn jɔnjɔn kelen sɛnɛ waati kelen bɛɛ la**. An bɛ sɛnɛfɛn sugandi min bɛnnen bɛ bamanako ma, o kɔ an b'a yɛlɛma waati nata la.\n\nNafa jɔnjɔnw ye :\n\n- **A bɛnnen bɛ yɔrɔ bamanakow ma**.\n- **Banaw bɛ dɔgɔya** waatiw yɛlɛmani barika la.\n- **Labɛnni nɔgɔman**.\n\nHali ni nɔfalenni dɔw tɛ yɛlɛmani sariya kɔrɔw batu, waati yɛlɛmali dɔrɔn bɛ se ka banaw ka tiɲɛni bali tuma caman. Aw hakili ka to ka **nɔgɔbinkɛnɛ** walima **lafinyawaati ni binda ye** don a la sɛnɛ siɲɛ 2 walima 3 bɛɛ kɔ.",
+      "illustration_description": "Illustration pédagogique pour Planifier avec une stratégie saisonnière simple",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_26.jpg"
     },
     {
       "page_number": 27,
-      "title": "Fɛɛrɛw ni dugukɔnɔna nɛnɛya: nɛnɛya nafama dɔw",
-      "text": "Fɛɛrɛw ni dugukɔnɔna nɛnɛya: nɛnɛya nafama dɔw",
+      "title": "Nɔgɔbinkɛnɛw ani dugukolo lafinyali : lafinyawaati nafamaw",
+      "text": "Walasa ka dugukolo ɲɛnaman ani sɔrɔbɔlan mara tuma jan, a nafa ka bon ka dugukolo fanga lasegin waatiw don aw ka sɛnɛfɛnw cɛ.",
       "illustration_description": "Illustration pédagogique pour Engrais verts et repos du sol : des pauses utiles",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_27.jpg"
     },
     {
       "page_number": 28,
-      "title": "Fɛnɲɛnɛnɛw",
-      "text": "Fɛnɲɛnɛnɛw bɔra jiridenw na minnu bɛ sɔrɔ ka fɛnɲɛnɛnɛ kɛ, i n’a fɔ **ɲɔ** walima **ɲɔgɔ**. Ni **dɔgɔkunw** bɛ yen,\n\nolugu ka bon kosɛbɛ ka dugukolo taamasiyɛn ni nafa kɛ. Fɛnɲɛnɛnɛw ka nafa sabu fɛn wɛrɛw fɛ:\n\n- O bɛ mara ka bɔ dugukolo gbɛlɛya la, o bɛ dugukolo labɛn, o bɛ fɛnɲɛnɛnɛw di.\n\n- O bɛ bana kɛlɛli kɛ.\n\n- O bɛ se ka jiriɲɛnw gbɛlɛn, o bɛ se ka jiriɲɛnw denmisɛnw bonya, kɛrɛnkɛrɛnnenya la ni **kompost** min bɛ don, o ma nɔgɔn kosɛbɛ.",
-      "illustration_description": "Illustration pédagogique pour Engrais verts",
+      "title": "Nɔgɔbinkɛnɛw jɔyɔrɔ",
+      "text": "**Nɔgɔbinkɛnɛw** ye sɛnɛfɛnw ye minnu bɛ dan kɛrɛnkɛrɛnnenya la walasa ka dugukolo da, k'a cogo fisaya ani k'a nɔgɔya (tiga suguya fɛnw, ɲɔ, kɛninkɛ... ), o kɔ u bɛ tigɛ ka to yen walima ka kɛ binda ye.\n\nNi lafinyawaatiw ye, u nafa ka bon walasa ka dugukolo ɲɛnaman ani nɔgɔman mara :\n\n- **U bɛ dugukolo tanga fiyɛn ani ji ka tiɲɛni ma**, k'a cogo fisaya ani ka nɔgɔ don a la.\n- **U bɛ banaw ka tiɲɛni bali**.\n- **U bɛ bin juguw faga** ani ka bin kisɛw bɔli dɔgɔya, kosɛbɛ ni kompɔsi kɛlen ma mɔ ka ɲɛ.",
+      "illustration_description": "Illustration pédagogique pour Le rôle des engrais verts",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_28.jpg"
     },
     {
       "page_number": 29,
-      "title": "Dusukɔnɔna",
-      "text": "Ni an b'a fɔ ko dusukɔnɔna baara la:\n\nJiriw ma yɛlɛn, nka dugukolo dabɔra ni bin ye kalo 1-2 kɔnɔ.\n\nO b'a to dugukolo ka labɛn yɛrɛ yɛrɛ la, ka bana kɛlɛli dabila.\n\nO b'a to dugukolo ka bonya ni bin ye.\n\nAw ye se ka bin dabɔ ni plastiki ye (i n'a fɔ bâche) walasa ka bin ka wuliya ka teliya, ka dugukolo ka jikɔnɔna mara, ani ka jiri juguw bali.\n\nBâche finman bɛ dugukolo jɛnsɛn, nka bâche jɛman bɛ dugukolo ka jɛnsɛn mara.",
-      "illustration_description": "Kalanw fɔli dusukɔnɔna kama",
+      "title": "Lafinyawaati ɲɛnaman",
+      "text": "**Lafinyawaati ɲɛnaman** ye ka sɛnɛporo to a ka a fanga lasegin k'a sɔrɔ foyi ma sɛnɛ a kan :\n\n- **Binda sɛnɛli kɔ** **kalo 1 fo 2** kɔnɔ.\n- **Dugukolo fanga laseginni** : a bɛ banaw ka tiɲɛni bali ani ka nɔgɔ don a la ni binda ye.\n- **Binda ni palasitiki ye (ni i sɔnna)** : baxi kɛli bɛ binda mɔli teliya, ka jima mara dugukolo la ani ka bin juguw tanga. **Baxi finman** bɛ dugukolo kalan, k'a sɔrɔ **baxi jɛman** bɛ kalanya dɔgɔya ani ka fɔnɛnɛ mara.",
+      "illustration_description": "Illustration pédagogique pour La période de repos actif",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_29.jpg"
     },
     {
       "page_number": 30,
-      "title": "Fɛɛrɛw ni jiriw",
-      "text": "U ka don waati juman na?\n\n- Baara fila minnu ka gɛlɛn cɛ, Waati gɛlɛn na (sanba kɛmɛya walima nɛnɛba), Baara ɲɔgɔnna 2 walima 3 kɔfɛ.\n\nDemisenw ka waati",
-      "illustration_description": "Illustration pédagogique pour Engrais verts",
+      "title": "Tuma juman an ka kan ka nɔgɔbinkɛnɛ walima lafinyawaati don a la?",
+      "text": "Aw ka **nɔgɔbinkɛnɛ** walima **lafinyawaati** don a la waati minnu ka ɲi kosɛbɛ :\n\n- **Sɛnɛfɛn nɔgɔmakotigibaa fila cɛ**.\n- **Waati gɛlɛn na** (samiɲɛba walima tileba).\n- **Sɛnɛfɛn nɔfalenni 2 walima 3 kɔ**.",
+      "illustration_description": "Illustration pédagogique pour Quand intégrer un engrais vert ou une période de repos ?",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_30.jpg"
     },
     {
       "page_number": 31,
-      "title": "Fàgàlali (Rotation) ka Kɛɲɛ",
-      "text": "Fàgàlali (rotation) kɛɲɛ ka sigi sinsin **ɲɛfɔli saba (3)** kan minnu ka nɔgɔn:\n\n1.  **Jiriw ka denbaya (famille botanique) yɛlɛman**\n2.  **Jiriw ka jɔli (type de racine) yɛlɛman**\n3.  **Dugu ka fɛnɲɛnama (besoins du sol) kɛɲɛya**\n\nI ka **ɲɛfɔli (stratégie)** ka kɛɲɛ **san (saison)**, **jiriw ka wagati (durée des cultures)**, ani **dugu ka sigida (état du sol)** la. I ka miiri ka **fɛnɲɛnama (engrais verts)** walima **dugu ka lafiɲɛ (repos paillé)** don ni a ka se ka kɛ, walasa ka **dugu (terre)** labɛn ka kɛɲɛ.",
-      "illustration_description": "Illustration pédagogique pour 1",
+      "title": "Ka to hakili la : yɛlɛmani ɲuman sira saba",
+      "text": "Yɛlɛmani ɲuman bɛ jɔ **sira nɔgɔman saba** kan :\n\n1. **Sɛnɛfɛn suguya yɛlɛmali**.\n2. **Lilin cogo yɛlɛmali**.\n3. **Dugukolo makow bɛnkan**.\n\nAw ka aw ka labɛnni bɛn waati, sɛnɛfɛnw waati janya ani dugukolo cogo ma. Aw hakili ka to ka lafinyawaatiw don a la, ni a bɛ se ka kɛ, ni **nɔgɔbinkɛnɛw** walima **lafinyawaati ni binda ye** walasa ka dugukolo fanga lasegin a yɛrɛma.",
+      "illustration_description": "Illustration pédagogique pour À retenir : les trois principes d’une bonne alternance",
       "image": "assets/images/maraichage/402_planifier_les_cultures/page_31.jpg"
     }
   ],
-  "course_code": "M4.2"
+  "course_code": "M4.2",
+  "media": [
+    {
+      "id": "9lggNuzqu-8",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=9lggNuzqu-8",
+      "title": "Interview du formateur Siaka : Semences et maraîchage bio intensif",
+      "lang": "fr",
+      "category": "cours"
+    },
+    {
+      "id": "2NAJHGvCtB4",
+      "type": "youtube",
+      "url": "https://www.youtube.com/watch?v=2NAJHGvCtB4",
+      "title": "Maraîchage bio-intensif – Épisode 16 : Souveraineté des semences",
+      "lang": "bm",
+      "category": "podcast"
+    }
+  ]
 }
