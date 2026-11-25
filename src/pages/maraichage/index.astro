@@ -16,8 +16,9 @@ const coursesWithTranslations = catalog.map(course => {
 const categories = [
   { id: 'all', label: 'Toutes les formations' },
   { id: 'Fondements & Sol', label: '🪱 Fondements & Sol' },
-  { id: 'Techniques & Pratiques', label: '🌱 Techniques & Pratiques' },
-  { id: 'Protection & Conception', label: '🛡️ Protection & Conception' }
+  { id: 'Cours pratique', label: '🌱 Cours pratique' },
+  { id: 'Cours théorique', label: '📘 Cours théorique' },
+  { id: 'Traitement bio', label: '🌿 Traitement bio' }
 ];
 ---
 
@@ -85,12 +86,14 @@ const categories = [
               <div class="card-media">
                 <span class:list={['card-badge', {
                   'card-badge-sol': course.category?.includes('Sol') || course.category?.includes('Fondements'),
-                  'card-badge-techniques': course.category?.includes('Techniques') || course.category?.includes('Pratiques'),
-                  'card-badge-protection': course.category?.includes('Protection') || course.category?.includes('Conception')
+                  'card-badge-techniques': course.category?.includes('pratique') || course.category?.includes('Pratiques'),
+                  'card-badge-protection': course.category?.includes('théorique') || course.category?.includes('Conception'),
+                  'card-badge-bio': course.category?.includes('Traitement bio')
                 }]}>
                   <span class="badge-icon">
                     {course.category?.includes('Sol') || course.category?.includes('Fondements') ? '🪱' :
-                     course.category?.includes('Protection') || course.category?.includes('Conception') ? '🛡️' : '🌱'}
+                     course.category?.includes('Traitement bio') ? '🌿' :
+                     course.category?.includes('théorique') || course.category?.includes('Conception') ? '📘' : '🌱'}
                   </span>
                   <span class="badge-text">{course.category}</span>
                 </span>
@@ -422,6 +425,11 @@ const categories = [
   .card-badge-protection {
     color: #1e3a5f;
     border: 1px solid rgba(30, 58, 95, 0.25);
+  }
+
+  .card-badge-bio {
+    color: #0f766e;
+    border: 1px solid rgba(15, 118, 110, 0.28);
   }
 
   .course-card:hover .card-badge {

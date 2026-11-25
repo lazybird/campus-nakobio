@@ -29,7 +29,7 @@
   {
     "id": "301_realiser_les_planches_de_cultures",
     "title": "Réaliser les planches de culture permanentes",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Toutes les étapes pour mesurer, tracer, creuser les passe-pieds, amender, aérer et pailler vos planches de culture permanentes de 75 cm.",
     "total_pages": 36,
     "cover_image": "assets/images/maraichage/301_realiser_les_planches_de_cultures/page_01.jpg",
@@ -38,7 +38,7 @@
   {
     "id": "302a_choisir_sa_technique_dirrigation",
     "title": "Choisir sa technique d'irrigation",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Comparez les 5 techniques d'irrigation (arrosoir, tuyau, aspersion, goutte-à-goutte, inondation) selon vos moyens, votre surface et l'impact sur la vie du sol.",
     "total_pages": 12,
     "cover_image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_01.jpg",
@@ -47,7 +47,7 @@
   {
     "id": "302_mettre_en_place_lirrigation",
     "title": "Mettre en place le système d'irrigation par aspersion",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Planification, choix du matériel de plomberie, montage des cannes d'aspersion et entretien pour une couverture d'eau homogène et douce.",
     "total_pages": 40,
     "cover_image": "assets/images/maraichage/302_mettre_en_place_lirrigation/page_01.jpg",
@@ -56,7 +56,7 @@
   {
     "id": "303a_construction_de_la_compostiere",
     "title": "Construire sa compostière d'hivernage",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Toutes les étapes pour choisir l'emplacement, mesurer, planter les piquets et monter une compostière à 3 compartiments (6,5 × 5 m) en une journée.",
     "total_pages": 9,
     "cover_image": "assets/images/maraichage/303a_construction_de_la_compostiere/page_01.jpg",
@@ -65,7 +65,7 @@
   {
     "id": "303_realiser_un_compost",
     "title": "Réaliser un compost d'hivernage",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Fabrication de compost d'hivernage pas à pas (vert/brun/fumier, humidité, montée en température) pour nourrir durablement vos planches permanentes.",
     "total_pages": 35,
     "cover_image": "assets/images/maraichage/303_realiser_un_compost/page_01.jpg",
@@ -74,7 +74,7 @@
   {
     "id": "304_mettre_en_place_les_cultures",
     "title": "Préparer les planches avant culture",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Préparation du lit de semence, aération à la grelinette, nivellement au râteau fin et étiquetage durable des planches permanentes.",
     "total_pages": 13,
     "cover_image": "assets/images/maraichage/304_mettre_en_place_les_cultures/page_01.jpg",
@@ -83,7 +83,7 @@
   {
     "id": "304b_semis_directs_planche_permanente",
     "title": "Faire des semis directs sur une planche permanente",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Apprenez à tracer les rangs et semer à la main petites et grosses graines en respectant les distances et profondeurs adaptées sur planche permanente.",
     "total_pages": 10,
     "cover_image": "assets/images/maraichage/304b_semis_directs_planche_permanente/page_01.jpg",
@@ -92,7 +92,7 @@
   {
     "id": "304c_transplanter_les_jeunes_plants",
     "title": "Transplanter les jeunes plants sur une planche permanente",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Les 6 étapes pour prélever, habiller et transplanter vos jeunes plants issus de pépinière sur planche permanente sans stress racinaire.",
     "total_pages": 12,
     "cover_image": "assets/images/maraichage/304c_transplanter_les_jeunes_plants/page_01.jpg",
@@ -101,7 +101,7 @@
   {
     "id": "304d_reprise_plants_et_levee_semis",
     "title": "Assurer la reprise des plants et la levée des semis",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Arrosage initial, paillage fin de 1 cm, mise à jour du planning et premiers travaux d'entretien (binage, buttage, désherbage) après semis ou transplantation.",
     "total_pages": 8,
     "cover_image": "assets/images/maraichage/304d_reprise_plants_et_levee_semis/page_01.jpg",
@@ -110,7 +110,7 @@
   {
     "id": "305_produire_des_jeunes_plants",
     "title": "Produire ses jeunes plants : choisir sa technique de pépinière",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Choisir sa technique de pépinière (plaques alvéolées, terrines, pépinière de pleine terre) selon vos moyens, vos cultures et votre contexte.",
     "total_pages": 13,
     "cover_image": "assets/images/maraichage/305_produire_des_jeunes_plants/page_01.jpg",
@@ -119,7 +119,7 @@
   {
     "id": "305b_mise_en_place_pepiniere_repiquage",
     "title": "Mise en place d'une pépinière suivie d'un repiquage",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Créez votre pépinière en une demi-journée : emplacement, terreau 50/50, semis en lignes, repiquage en pots au stade 2 vraies feuilles et acclimatation.",
     "total_pages": 12,
     "cover_image": "assets/images/maraichage/305b_mise_en_place_pepiniere_repiquage/page_01.jpg",
@@ -128,7 +128,7 @@
   {
     "id": "306_recolter_conserver_conditionner",
     "title": "Récolter, conserver et conditionner ses légumes",
-    "category": "Techniques & Pratiques",
+    "category": "Cours pratique",
     "summary": "Les critères de maturité, récolte aux heures fraîches avec les bons gestes, lavage, égouttage, tri de calibrage et stockage optimal.",
     "total_pages": 21,
     "cover_image": "assets/images/maraichage/306_recolter_conserver_conditionner/page_01.jpg",
@@ -137,7 +137,7 @@
   {
     "id": "401_proteger_la_sante_des_plantes",
     "title": "Protéger la santé des plantes",
-    "category": "Protection & Conception",
+    "category": "Cours théorique",
     "summary": "Identifier maladies, ravageurs, carences et stress hydrique. Principes de prévention écologique et de lutte biologique.",
     "total_pages": 30,
     "cover_image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_01.jpg",
@@ -146,7 +146,7 @@
   {
     "id": "401a_fiche_bio_feuilles_de_neem",
     "title": "Fiche traitement bio : Préparation à base de feuilles de neem",
-    "category": "Protection & Conception",
+    "category": "Traitement bio",
     "summary": "Recette naturelle insectifuge et antifongique à base de feuilles fraîches de neem, piment et savon naturel pour protéger vos cultures sans produits chimiques.",
     "total_pages": 7,
     "cover_image": "assets/images/maraichage/401a_fiche_bio_feuilles_de_neem/page_01.jpg",
@@ -155,7 +155,7 @@
   {
     "id": "401b_fiche_bio_extrait_fermente",
     "title": "Fiche traitement bio : Préparation — Extrait fermenté",
-    "category": "Protection & Conception",
+    "category": "Traitement bio",
     "summary": "Recette d'extrait fermenté concentré (ail, piment, gingembre, alcool, sucre) à diluer au 1/15e pour stimuler les défenses des plantes et repousser ravageurs et maladies.",
     "total_pages": 7,
     "cover_image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_01.jpg",
@@ -164,7 +164,7 @@
   {
     "id": "401c_fiche_bio_ail_cru_ecrase",
     "title": "Fiche traitement bio : Préparation à base d'ail cru écrasé",
-    "category": "Protection & Conception",
+    "category": "Traitement bio",
     "summary": "Recette rapide et économique à base d'ail cru écrasé (allicine) pour protéger vos pépinières et planches de culture contre insectes et champignons.",
     "total_pages": 6,
     "cover_image": "assets/images/maraichage/401c_fiche_bio_ail_cru_ecrase/page_01.jpg",
@@ -173,7 +173,7 @@
   {
     "id": "402_planifier_les_cultures",
     "title": "Planifier les cultures : rotations et associations",
-    "category": "Protection & Conception",
+    "category": "Cours théorique",
     "summary": "Maîtriser les rotations pluriannuelles et successions rapides pour ne jamais épuiser le sol et couper le cycle des maladies.",
     "total_pages": 31,
     "cover_image": "assets/images/maraichage/402_planifier_les_cultures/page_01.jpg",
@@ -182,7 +182,7 @@
   {
     "id": "403_design_dune_micro_ferme",
     "title": "Les principes de design d'une micro-ferme",
-    "category": "Protection & Conception",
+    "category": "Cours théorique",
     "summary": "Agencement spatial ergonomique, orientation des planches, brise-vents, gestion des flux d'eau, chemins et optimisation de chaque zone.",
     "total_pages": 18,
     "cover_image": "assets/images/maraichage/403_design_dune_micro_ferme/page_01.jpg",
