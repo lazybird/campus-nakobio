@@ -15,7 +15,7 @@
     },
     {
       "page_number": 2,
-      "title": "PFLANZENGESUNDHEIT SCHÜTZEN",
+      "title": "Pflanzengesundheit schützen",
       "text": "PFLANZEN",
       "illustration_description": "Illustration pédagogique pour PROTÉGER LA SANTÉ DES",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_02.jpg"
@@ -29,7 +29,7 @@
     },
     {
       "page_number": 4,
-      "title": "KRANKHEIT",
+      "title": "Krankheit",
       "text": "MANGEL\n\nEs gibt 4 Haupttypen von Pflanzenkrankheiten:\n\nKrankheit Mangel Schädlinge Stress SCHÄDLINGE STRESS",
       "illustration_description": "Illustration pédagogique pour MALADIE",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_04.jpg"
@@ -50,28 +50,28 @@
     },
     {
       "page_number": 7,
-      "title": "AUFGABEN",
+      "title": "Aufgaben",
       "text": "FÄULNIS VERFORMUNG\n\nEine Pflanze kann krank sein, wenn Sie Folgendes beobachten:\n\nFlecken auf den Blättern (schwarz, weiß oder braun), Anzeichen von Fäulnis an Früchten oder Wurzeln,\n\n- verformte oder gekräuselte Blätter, dauerhaftes Welken, auch wenn die Pflanze genug Wasser erhalten hat.\n\nWELKEN",
       "illustration_description": "Illustration pédagogique pour TÂCHES",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_07.jpg"
     },
     {
       "page_number": 8,
-      "title": "ZU VIEL WASSER",
+      "title": "Zu viel Wasser",
       "text": "ZU TROCKEN ZU HEISS/KALT ZU DICHT\n\nKrankheiten entwickeln sich, wenn:\n\n- **Zu viel Wasser**: zu häufiges Gießen, ständig nasser Boden, lange Regenperioden.\n\n- **Zu wenig Wasser**: Eine durstige Pflanze ist weniger widerstandsfähig gegen Krankheiten.\n\n- **Große Hitze oder Kälteeinbruch**: Plötzliche Schwankungen können die Pflanze schwächen und Krankheiten aktivieren.\n\n- **Mangel an Luft zwischen den Pflanzen**: Ein zu enger Stand fördert Staunässe und somit Krankheiten.",
       "illustration_description": "Illustration pédagogique pour TROP D’EAU",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_08.jpg"
     },
     {
       "page_number": 9,
-      "title": "SCHNEIDEN",
+      "title": "Schneiden",
       "text": "ENTFERNEN STÄRKEN BEHANDELN Was tun, wenn eine Pflanze krank ist?\n\n- **Betroffene Teile entfernen**: Schneiden Sie kranke Blätter, Stängel oder Früchte ab, um eine Ausbreitung zu verhindern.\n\n- **Entfernen Sie die gesamte Pflanze**, wenn sie zu krank ist und nicht mehr gerettet werden kann.\n\n- **Stärken Sie die Pflanze und den Boden** mit einer leichten Gabe von Kompost oder Kompostjauche.\n\n- **Wenden Sie eine natürliche Behandlung an**: Knoblauchsud, Neemjauche, Natron…",
       "illustration_description": "Illustration pédagogique pour COUPER",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_09.jpg"
     },
     {
       "page_number": 10,
-      "title": "BLÄTTER AUSLICHTEN",
+      "title": "Blätter auslichten",
       "text": "BEWÄSSERUNG ANPASSEN +\n\nUm ein Wiederauftreten der Krankheit zu vermeiden, können Sie:\n\n* Das Laub auslichten, um Luft und Licht hereinzulassen und Staunässe zu begrenzen.\n* Die Bewässerung anpassen",
       "illustration_description": "Illustration pédagogique pour ÉCLAIRCIR LE FEUILLAGE",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_10.jpg"
@@ -92,14 +92,14 @@
     },
     {
       "page_number": 13,
-      "title": "SCHLECHTER BODEN",
+      "title": "Schlechter Boden",
       "text": "VERDICHTETER BODEN, UNGLEICHGEWICHTIGER PH-WERT\n\nMangelerscheinungen treten auf, wenn:\n\n- Der Boden nährstoffarm ist und Kompost fehlt oder von schlechter Qualität ist.\n\n- Der Boden zu verdichtet oder schlecht belüftet ist: Wasser und Nährstoffe können die Wurzeln nicht richtig erreichen.\n\n- Der pH-Wert (Säure- oder Basenwert) des Bodens unausgeglichen ist: Zu sauer oder zu basisch kann er bestimmte Nährstoffe blockieren, selbst wenn diese im Boden vorhanden sind.",
       "illustration_description": "Illustration pédagogique pour SOL PAUVRE",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_13.jpg"
     },
     {
       "page_number": 14,
-      "title": "STÄRKEN",
+      "title": "Stärken",
       "text": "BEHANDELN TESTEN GRUNDLEGENDE IDEE AC pH IDEE AC GRUNDLEGENDE NEUTRAL pH NEUTRAL ANALYSIEREN\n\nUm einen Mangel zu beheben, kann man:\n\n- Regelmäßig reifen Kompost hinzufügen: 1 bis 2 Schubkarren pro Beet, je nach Kultur\n- Blätterjauche (Brennnessel, Beinwell, Neem…) verwenden, um das Wachstum anzuregen\n- Den pH-Wert des Bodens testen, wenn das Problem weiterhin besteht (pH-Papier oder einfaches Kit). Wenn er zu sauer ist, kann man ihn mit einer kleinen Menge **landwirtschaftlichem Kalk** korrigieren.\n\n- Eine Bodenanalyse durchführen, um die fehlenden Elemente zuzuführen",
       "illustration_description": "Illustration pédagogique pour RENFORCER",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_14.jpg"
@@ -120,21 +120,21 @@
     },
     {
       "page_number": 17,
-      "title": "GENAU BEOBACHTEN:",
+      "title": "Genau beobachten:",
       "text": "Jungpflanzen Gestresste Pflanzen\n\n- Kohl-, Tomaten-, Bohnen- und Okrakulturen\n\nEinige Pflanzen sind anfälliger und müssen genau beobachtet werden:\n\nJunge Sämlinge und Jungpflanzen mit zarten Blättern, die für Insekten sehr attraktiv sind\nGestresste oder geschwächte Pflanzen, die sich schlechter wehren können\nKulturen wie Kohl, Tomaten, Bohnen oder Okra werden häufiger angegriffen",
       "illustration_description": "Illustration pédagogique pour SURVEILLER DE PRÈS :",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_17.jpg"
     },
     {
       "page_number": 18,
-      "title": "SCHNEIDEN",
+      "title": "Schneiden",
       "text": "SPRÜHEN\n\nWenn Sie Anzeichen von Schädlingsbefall festgestellt haben:\n\n- Entfernen Sie stark befallene Blätter, um die Ausbreitung zu verlangsamen\n- Besprühen Sie die Pflanzen, um Schadinsekten zu entfernen\n- Installieren Sie feine Netze oder Gitter gegen fliegende Insekten\nSCHÜTZEN",
       "illustration_description": "Illustration pédagogique pour COUPER",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_18.jpg"
     },
     {
       "page_number": 19,
-      "title": "ÜBERWACHEN",
+      "title": "Überwachen",
       "text": "PFLANZEN SIE ABWEHRMITTEL AN, ZIEHEN SIE NÜTZLICHE INSEKTEN AN BASILIKUM MINZE ZITRONENGRAS WESPE MARIENKÄFER\n\nUm die Rückkehr von Schädlingen zu vermeiden:\n\n- Beobachten Sie regelmäßig die Unterseiten der Blätter und die jungen Triebe. Dies hilft, Probleme frühzeitig zu erkennen.\n\n- Pflanzen Sie abwehrende Pflanzen wie Basilikum, Minze, Zitronengras oder Studentenblumen neben die Kulturen.\n\n- Ziehen Sie nützliche Insekten wie Marienkäfer oder bestimmte Wespen an, die Schädlinge fressen. Legen Sie schädliche Insekten auf einen Teller in der Nähe der Kulturen mit Samen, um Vögel anzulocken. Diese suchen dann die schädlichen Insekten direkt an den Pflanzen.",
       "illustration_description": "Illustration pédagogique pour SURVEILLER",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_19.jpg"
@@ -155,14 +155,14 @@
     },
     {
       "page_number": 22,
-      "title": "ZU HEISS/KALT",
+      "title": "Zu heiß/kalt",
       "text": "ZU TROCKEN / ZU FEUCHT\nSCHLECHT DURCHGEFÜHRTES VERPFLANZEN IN DER VOLLEN SONNE\nZU FRÜH/SPÄT\n\nWas bei der Pflanze Stress verursacht:\n\n- Ein zu heißer oder zu kalter Boden\n- Extreme Schwankungen: zu trocken, zu feucht\n- Schlecht durchgeführtes Verpflanzen oder in der vollen Sonne\n- Eine zu frühe oder zu späte Transplantation\n- Ein zu kompakter Boden: die Wurzeln haben Schwierigkeiten, sich auszubreiten\n**VERDICHTETER BODEN**",
       "illustration_description": "Illustration pédagogique pour TROP CHAUD/FROID",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_22.jpg"
     },
     {
       "page_number": 23,
-      "title": "MULCHEN",
+      "title": "Mulchen",
       "text": "GIESSEN + SCHATTENNETZ SCHÜTZEN\n\nWarten Sie mit der Behandlung: Stress verschwindet in 1–2 Tagen, wenn die Pflanze wieder gute Bedingungen vorfindet. Wenn der Stress anhält:\n\n- Eine Mulchschicht anbringen, um die Bodenfeuchtigkeit zu erhalten\n- Regelmäßig und ohne Überschuss gießen\n- Pflanzen mit einem Schattenspender schützen",
       "illustration_description": "Illustration pédagogique pour PAILLER",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_23.jpg"
@@ -183,14 +183,14 @@
     },
     {
       "page_number": 26,
-      "title": "SORTENWAHL",
+      "title": "Sortenwahl",
       "text": "SORTEN WÄHLEN PFLANZABSTÄNDE EINHALTEN Wie pflanzt man richtig im bio-intensiven Anbau?\n\n- Die Sorten je nach Saison gut auswählen\n- Die Pflanzabstände einhalten\n- Kulturen assoziieren\n- Fruchtwechsel durchführen\nKULTUREN ASSOZIIEREN FRUCHTWECHSEL DURCHFÜHREN",
       "illustration_description": "Illustration pédagogique pour CHOISIR SES",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_26.jpg"
     },
     {
       "page_number": 27,
-      "title": "ANPASSEN",
+      "title": "Anpassen",
       "text": "BEWÄSSERUNG MULCH KOMPOST + SCHONENDE BEWÄSSERUNG\n\nWie man seine Kulturen in lebendigem Boden pflegt:\n\n- Regelmäßig Kompost / Kompostsaft ausbringen\n- Reichlich mulchen\n- Beete und Wege mit schonender Bewässerung gießen\n- Insektenschutznetze verwenden\n- Die Wasserzufuhr an das Wachstumsstadium der Pflanze anpassen\n- NETZE",
       "illustration_description": "Illustration pédagogique pour ADAPTER",
       "image": "assets/images/maraichage/401_proteger_la_sante_des_plantes/page_27.jpg"
