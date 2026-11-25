@@ -1,224 +1,219 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import semencesCatalog from '../data/catalog.json';
+import maraichageCatalog from '../data/maraichage/catalog.json';
+
+const maraichageCount = maraichageCatalog.length;
+const semencesCount = semencesCatalog.length;
+const totalModules = maraichageCount + semencesCount;
+
+const semencesFondamentaux = semencesCatalog.filter(c => c.category === 'Fondamentaux').length;
+const semencesLegumes = semencesCatalog.filter(c => c.category === 'Fiches légumes').length;
+
+const starterMaraichageIds = [
+  '101_fondamentaux_maraichage_sol_vivant',
+  '201_sols_vivants',
+  '301_realiser_les_planches_de_cultures'
+];
+const starterMaraichage = starterMaraichageIds
+  .map(id => maraichageCatalog.find(c => c.id === id))
+  .filter((c): c is (typeof maraichageCatalog)[number] => Boolean(c));
+
+const starterSemencesIds = [
+  'a1_cest_quoi_une_graine',
+  'a4_la_pollinisation',
+  'a7_extraction_sechage_tri_et_conservation'
+];
+const starterSemences = starterSemencesIds
+  .map(id => semencesCatalog.find(c => c.id === id))
+  .filter((c): c is (typeof semencesCatalog)[number] => Boolean(c));
 ---
 
-<Layout title="Formations & Savoirs Agroécologiques">
-  <!-- HERO IMMERSIF PREMIUM : LIN CHAUD & LATÉRITE AVEC FOND PARALLAXE -->
-  <section class="hero-premium">
-    <div class="hero-bg-parallax" aria-hidden="true"></div>
-    <div class="hero-bg-overlay" aria-hidden="true"></div>
-    <div class="container hero-container">
-      <div class="hero-badge-wrap scroll-reveal">
-        <span class="badge badge-accent">
-          <span class="badge-dot"></span>
-          École Agroécologique du Vivant
-        </span>
-        <span class="badge badge-bio">
-          <span class="badge-dot"></span>
-          Savoirs Libres & Pratiques
-        </span>
-      </div>
+<Layout
+  title="Formations & Savoirs Agroécologiques"
+  description={`Campus Nakôbio : ${totalModules} modules gratuits et fiches imprimables en maraîchage bio-intensif en sol vivant et production de semences paysannes.`}
+>
+  <!-- HERO ÉDITORIAL ASYMÉTRIQUE -->
+  <section class="hero-editorial">
+    <div class="container hero-grid">
+      <div class="hero-body">
+        <p class="hero-eyebrow">Campus Nakôbio • Ressources libres d'agroécologie</p>
 
-      <h1 class="hero-title scroll-reveal delay-1">
-        L'autonomie paysanne par le sol vivant & la semence libre
-      </h1>
+        <h1 class="hero-title">
+          Maraîchage en sol vivant &amp; semences paysannes
+        </h1>
 
-      <p class="hero-lead scroll-reveal delay-2">
-        Des parcours techniques complets, conçus pour le terrain sahélien et tropical. 
-        Apprenez à régénérer la terre, produire vos propres graines reproductibles et sécuriser vos récoltes sans intrants chimiques.
-      </p>
+        <p class="hero-lead">
+          Apprenez pas à pas à nourrir la terre, économiser l'eau, protéger vos cultures naturellement et reproduire vos propres semences. Des cours gratuits, illustrés et directement applicables au champ comme au jardin.
+        </p>
 
-      <div class="hero-cta-group scroll-reveal delay-3">
-        <a href="/semences" class="btn btn-accent btn-lg">
-          Explorer les 34 cours semences →
-        </a>
-        <a href="#parcours" class="btn btn-secondary btn-lg">
-          Découvrir les 3 cursus
-        </a>
-      </div>
-
-      <!-- Chiffres clés / Impact Hero -->
-      <div class="hero-stats scroll-reveal delay-4">
-        <div class="stat-card">
-          <span class="stat-num">34</span>
-          <span class="stat-label">Modules pratiques illustrés</span>
+        <div class="hero-actions">
+          <a href="/maraichage" class="btn btn-accent btn-lg">
+            Cours Maraîchage ({maraichageCount}) →
+          </a>
+          <a href="/semences" class="btn btn-accent btn-lg">
+            Cours Semences ({semencesCount}) →
+          </a>
         </div>
-        <div class="stat-card">
-          <span class="stat-num">27</span>
-          <span class="stat-label">Fiches espèces légumières</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-num">100%</span>
-          <span class="stat-label">Reproductible au champ</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-num">0€</span>
-          <span class="stat-label">Accès libre & ouvert à tous</span>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- BANDEAU MANIFESTE / VALEURS -->
-  <section class="manifesto-strip scroll-reveal">
-    <div class="container">
-      <div class="manifesto-content">
-        <div class="manifesto-quote">
-          « La semence paysanne n'est pas une marchandise, c'est le premier maillon de la souveraineté alimentaire de nos peuples. »
-        </div>
-        <div class="manifesto-author">— Collectif d'Agroécologie Paysanne Nakôbio</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SECTION DES PARCOURS PÉDAGOGIQUES -->
-  <section class="tracks-section" id="parcours">
-    <div class="container">
-      <div class="section-header scroll-reveal">
-        <span class="badge badge-brand">
-          <span class="badge-dot"></span>
-          Programme d'apprentissage
-        </span>
-        <h2 class="section-title">Trois filières pour transformer votre exploitation</h2>
-        <p class="section-subtitle">
-          Chaque cursus répond aux contraintes réelles du maraîcher : fortes chaleurs, gestion millimétrée de l'eau et autosuffisance en semences.
+        <p class="hero-meta">
+          <span>{totalModules} modules illustrés</span>
+          <span aria-hidden="true">·</span>
+          <span>Accès libre sans inscription</span>
+          <span aria-hidden="true">·</span>
+          <span>Ressources Nakôbio &amp; Dala Seeds</span>
         </p>
       </div>
 
+      <a
+        href="https://www.youtube.com/@nakobio"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hero-video-card"
+        aria-label="Découvrir la chaîne YouTube @nakobio (nouvel onglet)"
+      >
+        <div class="hero-video-thumb-wrap">
+          <img
+            src="/assets/images/photos/youtube-nakobio-preview.jpg"
+            alt="Démonstrations terrain Nakôbio : semences paysannes et maraîchage en sol vivant"
+            class="hero-video-thumb"
+            width="640"
+            height="360"
+            loading="eager"
+            decoding="async"
+          />
+          <span class="hero-video-badge">
+            <svg class="youtube-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.4 31.4 0 0 0 0 12a31.4 31.4 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.4 31.4 0 0 0 24 12a31.4 31.4 0 0 0-.5-5.8ZM9.6 15.6V8.4l6.3 3.6-6.3 3.6Z"/>
+            </svg>
+            @nakobio
+          </span>
+          <span class="hero-video-play" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path d="M8 5.14v14l11-7-11-7z"/>
+            </svg>
+          </span>
+        </div>
+        <div class="hero-video-caption">
+          <div class="hero-video-caption-text">
+            <strong>La chaîne YouTube Nakôbio</strong>
+            <span>Retrouvez l'ensemble des cours en vidéo.</span>
+          </div>
+          <span class="hero-video-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- LES 3 CURSUS DU CAMPUS -->
+  <section class="tracks-section" id="parcours">
+    <div class="container">
+      <header class="section-header">
+        <p class="section-eyebrow">Les formations</p>
+        <h2 class="section-title">Trois cursus complémentaires</h2>
+        <p class="section-subtitle">
+          Deux parcours complets déjà accessibles en ligne, et un troisième dédié aux outils d'observation au champ en cours de préparation.
+        </p>
+      </header>
+
       <div class="tracks-grid">
-        <!-- CARTE 1 : SEMENCES PAYSANNES (DISPONIBLE) -->
-        <article class="track-card featured scroll-reveal delay-1">
+        <!-- CURSUS 1 : MARAÎCHAGE SOL VIVANT -->
+        <article class="track-card">
           <div class="track-image-wrap">
-            <img 
-              src="/assets/images/photos/track-semences.jpg" 
-              alt="Atelier semences paysannes et tri de graines" 
+            <img
+              src="/assets/images/photos/track-maraichage.jpg"
+              alt="Maraîchage en sol vivant et planches permanentes"
               class="track-image"
               loading="lazy"
             />
-            <span class="track-status badge badge-bio">Disponible • 34 cours</span>
+            <span class="track-status badge badge-bio">Disponible • {maraichageCount} cours</span>
           </div>
 
           <div class="track-content">
-            <span class="track-category">Filière d'Excellence Semencière</span>
-            <h3 class="track-title">Production de Semences Paysannes</h3>
+            <span class="track-category">Agronomie &amp; Sol Vivant</span>
+            <h3 class="track-title">Maraîchage Bio-Intensif en Sol Vivant</h3>
             <p class="track-desc">
-              Sélectionnez, récoltez, séchez et conservez vos semences reproductibles pour préserver la biodiversité potagère locale et vous affranchir des graines hybrides F1.
+              Mettre en place des planches permanentes sans labour profond, nourrir la vie du sol et économiser l'eau en climat chaud.
             </p>
 
             <ul class="track-features">
-              <li>
-                <span class="feature-icon">✓</span>
-                <span><strong>7 fondamentaux botaniques</strong> : pollinisation, croisements, isolations</span>
-              </li>
-              <li>
-                <span class="feature-icon">✓</span>
-                <span><strong>27 fiches détaillées par légume</strong> : tomate, oignon, gombo, piment...</span>
-              </li>
-              <li>
-                <span class="feature-icon">✓</span>
-                <span>Méthodes de séchage tropical, tri au vent et stockage hermétique</span>
-              </li>
-              <li>
-                <span class="feature-icon">✓</span>
-                <span>Fiches synthétiques imprimables (A4) pour le suivi direct à la parcelle</span>
-              </li>
+              <li>Fondements du sol vivant, compostage et paillage</li>
+              <li>Planches permanentes (75 cm) et pépinières protégées</li>
+              <li>Gestion de l'eau et systèmes d'irrigation adaptés</li>
+              <li>Prévention et traitements biologiques des cultures</li>
+            </ul>
+
+            <div class="track-footer">
+              <a href="/maraichage" class="btn btn-accent track-btn">
+                Ouvrir le cursus maraîchage ({maraichageCount}) →
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- CURSUS 2 : SEMENCES PAYSANNES -->
+        <article class="track-card">
+          <div class="track-image-wrap">
+            <img
+              src="/assets/images/photos/track-semences.jpg"
+              alt="Atelier semences paysannes et tri de graines"
+              class="track-image"
+              loading="lazy"
+            />
+            <span class="track-status badge badge-bio">Disponible • {semencesCount} cours</span>
+          </div>
+
+          <div class="track-content">
+            <span class="track-category">Autonomie Semencière</span>
+            <h3 class="track-title">Production de Semences Paysannes</h3>
+            <p class="track-desc">
+              Sélectionner ses porte-graines, éviter les croisements indésirables, extraire, sécher et conserver ses graines d'une saison à l'autre.
+            </p>
+
+            <ul class="track-features">
+              <li>{semencesFondamentaux} modules fondamentaux : pollinisation, sélection, isolement</li>
+              <li>{semencesLegumes} fiches par espèce : tomate, oignon, gombo, piment, niébé…</li>
+              <li>Séchage en climat chaud, tri au vent et stockage hermétique</li>
+              <li>Plusieurs modules traduits (bambara, N'Ko, anglais, allemand)</li>
             </ul>
 
             <div class="track-footer">
               <a href="/semences" class="btn btn-accent track-btn">
-                Consulter le catalogue semences (34) →
+                Ouvrir le cursus semences ({semencesCount}) →
               </a>
             </div>
           </div>
         </article>
 
-        <!-- CARTE 2 : MARAÎCHAGE SOL VIVANT -->
-        <article class="track-card scroll-reveal delay-2">
+        <!-- CURSUS 3 : PRATIQUES DE TERRAIN -->
+        <article class="track-card track-card-upcoming">
           <div class="track-image-wrap">
-            <img 
-              src="/assets/images/photos/track-maraichage.jpg" 
-              alt="Maraîchage en sol vivant et planches permanentes" 
+            <img
+              src="/assets/images/photos/track-terrain.jpg"
+              alt="Pratiques de terrain, pesées et mesures simples"
               class="track-image"
               loading="lazy"
             />
-            <span class="track-status badge badge-accent">En cours de numérisation</span>
+            <span class="track-status badge badge-neutral">En préparation</span>
           </div>
 
           <div class="track-content">
-            <span class="track-category">Agronomie & Sol Vivant</span>
-            <h3 class="track-title">Maraîchage Bio-Intensif en Sol Vivant</h3>
+            <span class="track-category">Observation &amp; Suivi</span>
+            <h3 class="track-title">Pratiques de Terrain &amp; Outils Techniques</h3>
             <p class="track-desc">
-              Multipliez vos rendements maraîchers sans motoculteur ni engrais chimiques grâce aux planches permanentes de 75 cm, au paillage dense et au compost vivant.
+              Les gestes simples d'observation, de mesure et de diagnostic pour suivre ses parcelles et échanger à distance avec un agronome.
             </p>
 
             <ul class="track-features">
-              <li>
-                <span class="feature-icon">✓</span>
-                <span>Biologie du sol, mycorhizes et compostage thermophile adapté</span>
-              </li>
-              <li>
-                <span class="feature-icon">✓</span>
-                <span>Planches permanentes standardisées (75 cm) & passe-pieds 40 cm</span>
-              </li>
-              <li>
-                <span class="feature-icon">✓</span>
-                <span>Gestion économe de l'eau en climat aride (goutte-à-goutte, ombrage)</span>
-              </li>
-              <li>
-                <span class="feature-icon">✓</span>
-                <span>Rotations culturales bio-intensives et pépinières protégées</span>
-              </li>
+              <li>Prendre des photos utiles au smartphone (macro, symptômes)</li>
+              <li>Mesures de calibres, pesées et Poids de Mille Grains (PMG)</li>
+              <li>Tests de germination avec matériel local (sable, chiffon)</li>
+              <li>Grilles de relevé et carnets de suivi de parcelle</li>
             </ul>
 
             <div class="track-footer">
-              <a href="/maraichage" class="btn btn-secondary track-btn">
-                Découvrir le programme du sol vivant →
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <!-- CARTE 3 : PRATIQUES DE TERRAIN -->
-        <article class="track-card scroll-reveal delay-3">
-          <div class="track-image-wrap">
-            <img 
-              src="/assets/images/photos/track-terrain.jpg" 
-              alt="Pratiques de terrain, pesées et mesures simples" 
-              class="track-image"
-              loading="lazy"
-            />
-            <span class="track-status badge badge-neutral">Cursus en préparation</span>
-          </div>
-
-          <div class="track-content">
-            <span class="track-category">Méthodologie & Outils</span>
-            <h3 class="track-title">Pratiques de Terrain & Outils Techniques</h3>
-            <p class="track-desc">
-              Les gestes professionnels d'observation, de mesure et de diagnostic : photographier ses cultures pour le conseil à distance, peser et tester le pouvoir germinatif.
-            </p>
-
-            <ul class="track-features">
-              <li>
-                <span class="feature-icon">✓</span>
-                <span>Documentation photo smartphone : macro, anomalies, floraison</span>
-              </li>
-              <li>
-                <span class="feature-icon">✓</span>
-                <span>Mesures de calibres, pesées et calculs du PMG (Poids Mille Grains)</span>
-              </li>
-              <li>
-                <span class="feature-icon">✓</span>
-                <span>Tests de germination artisanaux (boîte, sable, chiffon humide)</span>
-              </li>
-              <li>
-                <span class="feature-icon">✓</span>
-                <span>Grilles de relevé et registres d'exploitation pour le maraîcher</span>
-              </li>
-            </ul>
-
-            <div class="track-footer">
-              <a href="/pratiques-terrain" class="btn btn-secondary track-btn">
-                Voir les outils et protocoles →
+              <a href="/pratiques-terrain" class="btn btn-outline track-btn">
+                Voir le programme prévu →
               </a>
             </div>
           </div>
@@ -227,47 +222,87 @@ import Layout from '../layouts/Layout.astro';
     </div>
   </section>
 
-  <!-- SECTION METHODOLOGIE DU VIVANT -->
-  <section class="method-section scroll-reveal">
+  <!-- ACCÈS RAPIDE : PAR OÙ COMMENCER ? -->
+  <section class="quickstart-section">
     <div class="container">
-      <div class="method-box">
-        <div class="method-header">
-          <span class="badge badge-accent">Pédagogie de terrain</span>
-          <h3 class="method-title">Une méthode d'apprentissage conçue pour la réalité paysanne</h3>
-          <p class="method-desc">
-            Nos modules sont le fruit de retours d'expérience concrets d'ateliers menés avec des producteurs sahéliens et des spécialistes du maraîchage d'excellence.
-          </p>
+      <header class="section-header">
+        <p class="section-eyebrow">Accès direct</p>
+        <h2 class="section-title">Par où commencer ?</h2>
+        <p class="section-subtitle">
+          Six fiches de base pour entrer directement dans la pratique ou préparer une première séance d'atelier.
+        </p>
+      </header>
+
+      <div class="quickstart-grid">
+        <div class="quickstart-col">
+          <div class="quickstart-col-head">
+            <h3 class="quickstart-col-title">Bases du maraîchage</h3>
+            <a href="/maraichage" class="quickstart-all-link">Tout voir ({maraichageCount}) →</a>
+          </div>
+          <ul class="quickstart-list">
+            {starterMaraichage.map(course => (
+              <li>
+                <a href={`/maraichage/${course.id}`} class="quickstart-item">
+                  <span class="quickstart-cat">{course.category}</span>
+                  <span class="quickstart-name">{course.title}</span>
+                  <span class="quickstart-arrow" aria-hidden="true">→</span>
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
 
-        <div class="method-cards-grid">
-          <div class="card card-sunken scroll-reveal delay-1">
-            <div class="method-card-header">
-              <span class="method-badge-num">01</span>
-              <h4 class="card-title">Visuel & Pas-à-Pas</h4>
-            </div>
-            <p class="card-subtitle">Chaque geste clé est découpé avec une illustration dédiée pour faciliter la compréhension immédiate au champ.</p>
+        <div class="quickstart-col">
+          <div class="quickstart-col-head">
+            <h3 class="quickstart-col-title">Bases des semences</h3>
+            <a href="/semences" class="quickstart-all-link">Tout voir ({semencesCount}) →</a>
           </div>
-
-          <div class="card card-sunken scroll-reveal delay-2">
-            <div class="method-card-header">
-              <span class="method-badge-num">02</span>
-              <h4 class="card-title">Matériaux Locaux & Zéro Dépendance</h4>
-            </div>
-            <p class="card-subtitle">Pas besoin de matériel d'importation coûteux : nous privilégions les calebasses, tamis locaux, sable de rivière et outils simples.</p>
-          </div>
-
-          <div class="card card-sunken scroll-reveal delay-3">
-            <div class="method-card-header">
-              <span class="method-badge-num">03</span>
-              <h4 class="card-title">Prêt pour l'Impression & l'Échange</h4>
-            </div>
-            <p class="card-subtitle">Fiches imprimables au format A4 prévues pour être distribuées aux groupements maraîchers, coopératives et femmes productrices.</p>
-          </div>
+          <ul class="quickstart-list">
+            {starterSemences.map(course => (
+              <li>
+                <a href={`/semences/${course.id}`} class="quickstart-item">
+                  <span class="quickstart-cat">{course.category}</span>
+                  <span class="quickstart-name">{course.title}</span>
+                  <span class="quickstart-arrow" aria-hidden="true">→</span>
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="callout callout-tip method-callout scroll-reveal delay-4">
-          <div class="callout-title">Autonomie Semencière & Agroécologie</div>
-          En produisant vos propres semences de variétés traditionnelles, vous économisez 15 à 30% de vos coûts annuels d'intrants tout en renforçant la résilience de vos récoltes face au changement climatique.
+  <!-- UN OUTIL CONÇU POUR LE TERRAIN -->
+  <section class="usage-section">
+    <div class="container">
+      <div class="usage-box">
+        <header class="usage-header">
+          <p class="section-eyebrow">Mode d'emploi</p>
+          <h2 class="usage-title">Un outil conçu pour le terrain, les ateliers et le partage</h2>
+        </header>
+
+        <div class="usage-grid">
+          <div class="usage-item">
+            <h3 class="usage-item-title">Au champ, sur téléphone</h3>
+            <p class="usage-item-text">
+              Pages légères, étapes courtes et illustrations pas-à-pas. Chaque protocole privilégie le matériel disponible localement : calebasses, tamis, sable de rivière, paillage et outils manuels.
+            </p>
+          </div>
+
+          <div class="usage-item">
+            <h3 class="usage-item-title">En atelier, pour les formateurs</h3>
+            <p class="usage-item-text">
+              Chaque cours dispose d'une mise en page dédiée à l'impression A4 pour être distribué aux groupements maraîchers et coopératives. Certains modules existent aussi en bambara, N'Ko, anglais et allemand.
+            </p>
+          </div>
+
+          <div class="usage-item">
+            <h3 class="usage-item-title">La démarche Nakôbio</h3>
+            <p class="usage-item-text">
+              Ces ressources sont publiées en accès libre et sans compte obligatoire. Elles capitalisent les formations et essais menés sur notre ferme-école au Mali, en lien avec l'association Dala Seeds, pour renforcer l'autonomie des maraîchers.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -276,209 +311,217 @@ import Layout from '../layouts/Layout.astro';
 
 <style>
   /* ==========================================================================
-     HERO IMMERSIF PREMIUM (LIN & LATÉRITE)
+     HERO ÉDITORIAL ASYMÉTRIQUE
      ========================================================================== */
-  .hero-premium {
-    position: relative;
-    background: linear-gradient(180deg, #FFFDF6 0%, #F5EED8 65%, #EFE5C6 100%);
+  .hero-editorial {
+    background-color: var(--color-surface);
     border-bottom: 1px solid var(--color-border);
-    padding: 4.5rem 0 4rem;
-    overflow: hidden;
+    padding: 3.75rem 0 4rem;
   }
 
-  .hero-bg-parallax {
-    position: absolute;
-    inset: 0;
-    background-image: url('/assets/images/photos/hero-workshop.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    opacity: 0.18;
-    z-index: 0;
-    pointer-events: none;
+  .hero-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    gap: 3rem;
+    align-items: center;
   }
 
-  @media (max-width: 768px) {
-    .hero-bg-parallax {
-      background-attachment: scroll;
-    }
-  }
-
-
-  .hero-bg-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, rgba(255, 253, 246, 0.92) 0%, rgba(245, 238, 216, 0.82) 100%);
-    z-index: 1;
-    pointer-events: none;
-  }
-
-  .hero-premium::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: 
-      radial-gradient(circle at 10% 20%, rgba(200, 104, 50, 0.08) 0%, transparent 40%),
-      radial-gradient(circle at 90% 80%, rgba(47, 74, 52, 0.06) 0%, transparent 40%);
-    pointer-events: none;
-    z-index: 1;
-  }
-
-  .hero-container {
-    position: relative;
-    z-index: 2;
-    max-width: 900px;
-    text-align: center;
-  }
-
-  .hero-badge-wrap {
-    display: flex;
-    justify-content: center;
-    gap: 0.75rem;
-    margin-bottom: 1.5rem;
-    flex-wrap: wrap;
+  .hero-eyebrow,
+  .section-eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-brand-secondary);
+    margin-bottom: 0.85rem;
   }
 
   .hero-title {
     font-family: var(--font-serif);
-    font-size: clamp(2.3rem, 5vw, 3.4rem);
+    font-size: clamp(2.15rem, 4.2vw, 3.15rem);
     font-weight: 700;
     color: var(--color-brand-primary);
-    line-height: 1.15;
+    line-height: 1.12;
     letter-spacing: -0.02em;
-    margin-bottom: 1.35rem;
+    margin-bottom: 1.25rem;
   }
 
   .hero-lead {
     font-family: var(--font-sans);
-    font-size: 1.18rem;
+    font-size: 1.08rem;
     color: var(--color-ink-soft);
     line-height: 1.65;
-    margin: 0 auto 2.25rem;
-    max-width: 740px;
+    max-width: 58ch;
+    margin-bottom: 2rem;
   }
 
-  .hero-cta-group {
+  .hero-actions {
     display: flex;
-    justify-content: center;
-    gap: 1.25rem;
-    margin-bottom: 3.5rem;
     flex-wrap: wrap;
+    gap: 0.9rem;
+    margin-bottom: 1.5rem;
   }
 
-  /* Cartes d'impact / Stats */
-  .hero-stats {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.25rem;
-    background: rgba(255, 255, 255, 0.75);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(27, 35, 24, 0.1);
+  .hero-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--color-ink-faint);
+  }
+
+  .hero-video-card {
+    display: block;
+    background: var(--color-surface-card);
+    border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
-    padding: 1.75rem 1.5rem;
+    overflow: hidden;
     box-shadow: var(--shadow-sm);
+    transition: border-color var(--transition-base), box-shadow var(--transition-base), transform var(--transition-base);
   }
 
-  .stat-card {
+  .hero-video-card:hover {
+    border-color: var(--color-brand-secondary);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+  }
+
+  .hero-video-thumb-wrap {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background-color: var(--color-surface-sunken);
+  }
+
+  .hero-video-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.35s ease;
+  }
+
+  .hero-video-card:hover .hero-video-thumb {
+    transform: scale(1.03);
+  }
+
+  .hero-video-badge {
+    position: absolute;
+    top: 0.85rem;
+    left: 0.85rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.32rem 0.7rem;
+    border-radius: var(--radius-full, 9999px);
+    background: rgba(27, 35, 24, 0.82);
+    color: #FFFDF6;
+    font-family: var(--font-sans);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-video-play {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 58px;
+    height: 58px;
+    border-radius: var(--radius-full, 9999px);
+    background: rgba(200, 104, 50, 0.94);
+    color: #FFFDF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28);
+    transition: transform var(--transition-base), background-color var(--transition-base);
+  }
+
+  .hero-video-card:hover .hero-video-play {
+    transform: scale(1.07);
+    background: var(--color-brand-primary);
+  }
+
+  .hero-video-caption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .hero-video-caption-text {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-right: 1px solid rgba(27, 35, 24, 0.08);
-    padding: 0 0.5rem;
+    gap: 0.2rem;
   }
 
-  .stat-card:last-child {
-    border-right: none;
-  }
-
-  .stat-num {
+  .hero-video-caption-text strong {
     font-family: var(--font-serif);
-    font-size: 2.2rem;
+    font-size: 1.05rem;
+    color: var(--color-brand-primary);
+  }
+
+  .hero-video-caption-text span {
+    font-family: var(--font-sans);
+    font-size: 0.84rem;
+    color: var(--color-ink-soft);
+    line-height: 1.45;
+  }
+
+  .hero-video-arrow {
+    font-size: 1.15rem;
     font-weight: 700;
     color: var(--color-brand-secondary);
-    line-height: 1;
-    margin-bottom: 0.35rem;
+    flex-shrink: 0;
   }
 
-  .stat-label {
-    font-family: var(--font-sans);
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--color-ink-faint);
-    line-height: 1.35;
+  .youtube-icon {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
   }
 
   /* ==========================================================================
-     BANDEAU MANIFESTE
+     EN-TÊTES DE SECTIONS (ALIGNÉS À GAUCHE, SOBRE)
      ========================================================================== */
-  .manifesto-strip {
-    background-color: var(--color-surface-sunken);
-    border-bottom: 1px solid var(--color-border);
-    padding: 2.25rem 0;
-  }
-
-  .manifesto-content {
-    max-width: 820px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .manifesto-quote {
-    font-family: var(--font-serif);
-    font-size: 1.25rem;
-    font-style: italic;
-    color: var(--color-brand-primary);
-    line-height: 1.5;
-    margin-bottom: 0.5rem;
-  }
-
-  .manifesto-author {
-    font-family: var(--font-sans);
-    font-size: 0.82rem;
-    font-weight: 600;
-    color: var(--color-brand-secondary);
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-
-  /* ==========================================================================
-     SECTION DES PARCOURS
-     ========================================================================== */
-  .tracks-section {
-    padding: 5rem 0 4.5rem;
-  }
-
   .section-header {
-    text-align: center;
-    max-width: 720px;
-    margin: 0 auto 3.5rem;
+    max-width: 680px;
+    margin-bottom: 2.5rem;
   }
 
   .section-title {
     font-family: var(--font-serif);
-    font-size: 2.25rem;
+    font-size: clamp(1.75rem, 3vw, 2.15rem);
     font-weight: 700;
     color: var(--color-brand-primary);
-    margin: 0.85rem 0 0.85rem;
+    line-height: 1.2;
     letter-spacing: -0.01em;
+    margin-bottom: 0.65rem;
   }
 
   .section-subtitle {
     font-family: var(--font-sans);
-    font-size: 1.05rem;
+    font-size: 1rem;
     color: var(--color-ink-soft);
     line-height: 1.6;
   }
 
+  /* ==========================================================================
+     LES 3 CURSUS
+     ========================================================================== */
+  .tracks-section {
+    padding: 4.25rem 0;
+  }
+
   .tracks-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.75rem;
     align-items: stretch;
   }
 
@@ -490,48 +533,41 @@ import Layout from '../layouts/Layout.astro';
     display: flex;
     flex-direction: column;
     box-shadow: var(--shadow-sm);
-    transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+    transition: border-color var(--transition-base), box-shadow var(--transition-base);
   }
 
   .track-card:hover {
-    transform: translateY(-4px);
+    border-color: var(--color-brand-primary);
     box-shadow: var(--shadow-lg);
-    border-color: var(--color-brand-secondary);
   }
 
-  .track-card.featured {
-    border-color: var(--color-brand-secondary);
-    box-shadow: 0 8px 24px rgba(200, 104, 50, 0.12);
+  .track-card-upcoming {
+    background: var(--color-surface);
   }
 
   .track-image-wrap {
     position: relative;
-    height: 200px;
+    aspect-ratio: 16 / 10;
     width: 100%;
     overflow: hidden;
     background-color: var(--color-surface-sunken);
+    border-bottom: 1px solid var(--color-border);
   }
 
   .track-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.4s ease;
-  }
-
-  .track-card:hover .track-image {
-    transform: scale(1.05);
   }
 
   .track-status {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    top: 0.85rem;
+    right: 0.85rem;
   }
 
   .track-content {
-    padding: 1.85rem;
+    padding: 1.65rem;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -539,21 +575,21 @@ import Layout from '../layouts/Layout.astro';
 
   .track-category {
     font-family: var(--font-sans);
-    font-size: 0.75rem;
+    font-size: 0.74rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.06em;
     color: var(--color-brand-secondary);
     margin-bottom: 0.4rem;
   }
 
   .track-title {
     font-family: var(--font-serif);
-    font-size: 1.45rem;
+    font-size: 1.38rem;
     font-weight: 700;
     color: var(--color-brand-primary);
     line-height: 1.25;
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.75rem;
   }
 
   .track-desc {
@@ -561,30 +597,34 @@ import Layout from '../layouts/Layout.astro';
     font-size: 0.92rem;
     color: var(--color-ink-soft);
     line-height: 1.6;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
   }
 
   .track-features {
     list-style: none;
     display: flex;
     flex-direction: column;
-    gap: 0.65rem;
+    gap: 0.55rem;
     font-family: var(--font-sans);
-    font-size: 0.88rem;
+    font-size: 0.87rem;
     color: var(--color-ink-soft);
-    margin-bottom: 2rem;
+    margin-bottom: 1.75rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--color-border);
   }
 
   .track-features li {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.5rem;
+    position: relative;
+    padding-left: 1rem;
+    line-height: 1.45;
   }
 
-  .feature-icon {
+  .track-features li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
     color: var(--color-brand-secondary);
-    font-weight: bold;
-    flex-shrink: 0;
+    font-weight: 700;
   }
 
   .track-footer {
@@ -597,131 +637,193 @@ import Layout from '../layouts/Layout.astro';
   }
 
   /* ==========================================================================
-     SECTION MÉTHODOLOGIE & CALLOUT
+     ACCÈS RAPIDE : PAR OÙ COMMENCER ?
      ========================================================================== */
-  .method-section {
-    padding: 1rem 0 4rem;
+  .quickstart-section {
+    background-color: var(--color-surface-sunken);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    padding: 4rem 0;
   }
 
-  .method-box {
-    background: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    padding: 3.5rem 3rem;
+  .quickstart-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.25rem;
   }
 
-  .method-header {
-    text-align: center;
-    max-width: 680px;
-    margin: 0 auto 2.75rem;
+  .quickstart-col-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-bottom: 2px solid var(--color-brand-primary);
   }
 
-  .method-title {
+  .quickstart-col-title {
     font-family: var(--font-serif);
-    font-size: 1.85rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--color-brand-primary);
-    margin: 0.75rem 0 0.65rem;
   }
 
-  .method-desc {
+  .quickstart-all-link {
     font-family: var(--font-sans);
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-brand-secondary);
+  }
+
+  .quickstart-all-link:hover {
+    text-decoration: underline;
+  }
+
+  .quickstart-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  .quickstart-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    column-gap: 1rem;
+    row-gap: 0.15rem;
+    align-items: center;
+    padding: 1rem 1.15rem;
+    background: var(--color-surface-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md, 0.5rem);
+    transition: border-color var(--transition-base), background-color var(--transition-base);
+  }
+
+  .quickstart-item:hover {
+    border-color: var(--color-brand-secondary);
+    background: var(--color-surface);
+  }
+
+  .quickstart-cat {
+    grid-column: 1;
+    font-family: var(--font-sans);
+    font-size: 0.74rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-ink-faint);
+  }
+
+  .quickstart-name {
+    grid-column: 1;
+    font-family: var(--font-sans);
+    font-size: 0.98rem;
+    font-weight: 600;
+    color: var(--color-brand-primary);
+    line-height: 1.35;
+  }
+
+  .quickstart-arrow {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    font-size: 1.1rem;
+    color: var(--color-brand-secondary);
+  }
+
+  /* ==========================================================================
+     MODE D'EMPLOI / TERRAIN
+     ========================================================================== */
+  .usage-section {
+    padding: 4rem 0 4.5rem;
+  }
+
+  .usage-box {
+    background: var(--color-surface-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 2.75rem 2.5rem;
+  }
+
+  .usage-header {
+    margin-bottom: 2rem;
+    max-width: 640px;
+  }
+
+  .usage-title {
+    font-family: var(--font-serif);
+    font-size: clamp(1.5rem, 2.5vw, 1.85rem);
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    line-height: 1.25;
+  }
+
+  .usage-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .usage-item-title {
+    font-family: var(--font-serif);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--color-brand-primary);
+    margin-bottom: 0.55rem;
+  }
+
+  .usage-item-text {
+    font-family: var(--font-sans);
+    font-size: 0.92rem;
     color: var(--color-ink-soft);
     line-height: 1.6;
   }
 
-  .method-cards-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.75rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .method-card-header {
-    display: flex;
-    align-items: center;
-    gap: 0.85rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .method-badge-num {
-    font-family: var(--font-serif);
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--color-brand-secondary);
-    background: rgba(200, 104, 50, 0.1);
-    width: 38px;
-    height: 38px;
-    border-radius: var(--radius-full);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-  }
-
-  .method-callout {
-    margin: 0;
-  }
-
   /* ==========================================================================
-     RESPONSIVE BREAKPOINTS
+     RESPONSIVE
      ========================================================================== */
   @media (max-width: 1024px) {
+    .hero-grid {
+      grid-template-columns: 1fr;
+      gap: 2.25rem;
+    }
+
     .tracks-grid {
       grid-template-columns: 1fr;
-      max-width: 580px;
-      margin: 0 auto;
+      max-width: 600px;
     }
 
-    .hero-stats {
-      grid-template-columns: repeat(2, 1fr);
-      row-gap: 1.5rem;
-    }
-
-    .stat-card:nth-child(2) {
-      border-right: none;
-    }
-
-    .method-cards-grid {
+    .quickstart-grid,
+    .usage-grid {
       grid-template-columns: 1fr;
-    }
-
-    .method-box {
-      padding: 2.5rem 1.5rem;
     }
   }
 
   @media (max-width: 640px) {
-    .hero-premium {
+    .hero-editorial {
+      padding: 2.5rem 0 3rem;
+    }
+
+    .tracks-section,
+    .quickstart-section,
+    .usage-section {
       padding: 3rem 0;
     }
 
-    .hero-title {
-      font-size: 2rem;
-    }
-
-    .hero-lead {
-      font-size: 1rem;
-    }
-
-    .hero-cta-group {
+    .hero-actions {
       flex-direction: column;
     }
 
-    .hero-stats {
-      grid-template-columns: 1fr;
+    .hero-actions .btn {
+      width: 100%;
+      text-align: center;
     }
 
-    .stat-card {
-      border-right: none;
-      border-bottom: 1px solid rgba(27, 35, 24, 0.08);
-      padding-bottom: 1rem;
-    }
-
-    .stat-card:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
+    .usage-box {
+      padding: 2rem 1.35rem;
     }
   }
 </style>
