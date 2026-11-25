@@ -1,0 +1,95 @@
+{
+  "id": "302a_choisir_sa_technique_dirrigation",
+  "title": "Choisir sa technique d'irrigation",
+  "category": "Techniques & Pratiques",
+  "summary": "Comparez les 5 techniques d'irrigation (arrosoir, tuyau, aspersion, goutte-à-goutte, inondation) selon vos moyens, votre surface et l'impact sur la vie du sol.",
+  "total_pages": 12,
+  "cover_image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_01.jpg",
+  "course_code": "M3.2.1",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Les 5 techniques d'irrigation en maraîchage",
+      "text": "L'irrigation est le facteur principal à contrôler pour assurer de bons résultats. Cinq techniques sont couramment utilisées :\n\n1. L'arrosage manuel à l'arrosoir\n2. L'arrosage manuel au tuyau\n3. L'arrosage par aspersion\n4. L'arrosage au goutte-à-goutte\n5. L'arrosage par inondation\n\nChaque méthode a ses avantages et inconvénients. Voyons comment choisir en fonction de vos besoins !",
+      "illustration_description": "Vue d'ensemble en aquarelle botanique d'un jardin maraîcher ouest-africain en pleine terre paillée avec des passe-pieds en terre, montrant de fines gouttelettes d'eau tombant en pluie douce sur des planches de légumes verts vigoureux sous une lumière chaude.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "1. L'arrosage manuel à l'arrosoir",
+      "text": "L'eau est versée manuellement à l'aide d'un arrosoir muni d'une pomme d'arrosage. C'est la méthode la plus simple et la plus accessible pour débuter.\n\n**Matériel nécessaire :**\n- Un arrosoir avec une pomme d'arrosage\n\n**Quand cette technique est-elle la plus adaptée ?**\n- Lorsque les moyens financiers sont très limités\n- Sur une petite surface de culture\n- Si la source d'eau est proche des planches\n- Pour l'arrosage des pépinières ou des jeunes plants",
+      "illustration_description": "Une agricultrice ouest-africaine marchant dans un passe-pied en terre paillée, tenant un arrosoir muni d'une pomme d'arrosage qui diffuse une pluie fine et douce sur une planche de jeunes plants en pleine terre.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Arrosoir : avantages et inconvénients",
+      "text": "**Avantages :**\n- Nécessite très peu de matériel et aucune installation technique\n- Permet de reproduire une pluie naturelle et favorise la vie du sol\n- Arrose à la fois les planches et les passe-pieds\n- Permet de s'adapter aux besoins de chaque culture\n\n**Inconvénients :**\n- Prend beaucoup de temps et est fatigant sur de grandes surfaces (allers-retours au point d'eau)\n- Peut provoquer un arrosage inégal selon les zones\n- A tendance à tasser la terre en surface si l'eau est versée brusquement",
+      "illustration_description": "Gros plan pédagogique en aquarelle comparant un jet doux en pluie fine sortant d'une pomme d'arrosoir sur un sol souple paillé, à côté d'un agriculteur ouest-africain portant deux arrosoirs depuis un puits proche.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "2. L'arrosage manuel au tuyau",
+      "text": "Un tuyau est relié à une source d'eau, et l'arrosage se fait en dirigeant le jet manuellement sur les planches et les passe-pieds. Grâce à une tête d'arrosage en aspersion, on peut reproduire les conditions d'une pluie fine.\n\n**Matériel nécessaire :**\n- Un tuyau d'arrosage avec une tête d'aspersion\n\n**Quand cette technique est-elle la plus adaptée ?**\n- Si peu de moyens financiers sont disponibles\n- Sur une petite à moyenne surface de culture",
+      "illustration_description": "Un agriculteur ouest-africain tenant un tuyau d'arrosage souple équipé d'une pomme/tête d'aspersion diffusant une pluie fine sur des planches de pleine terre paillées et leurs passe-pieds.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Tuyau manuel : avantages et inconvénients",
+      "text": "**Avantages :**\n- Plus rapide que l'arrosoir, surtout sur de grandes surfaces\n- Arrose à la fois les planches et les passe-pieds\n- Ne tasse pas le sol grâce à la dispersion en pluie fine\n- Facilite l'adaptation selon les besoins de chaque culture\n- Favorise un bon développement du système racinaire en profondeur et en largeur\n\n**Inconvénients :**\n- Prend du temps sur de grandes surfaces\n- Besoin d'être au moins deux pour soulever le tuyau et ne pas écraser les cultures\n- Peut provoquer un arrosage inégal selon les zones",
+      "illustration_description": "Deux maraîchers ouest-africains travaillant ensemble dans les passe-pieds : l'un arrose avec la tête d'aspersion en pluie fine, l'autre soulève délicatement le tuyau pour éviter d'écraser les jeunes cultures sur la planche en pleine terre.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "3. L'arrosage par aspersion",
+      "text": "L'irrigation par aspersion consiste à projeter l'eau en fines gouttelettes, comme une pluie artificielle. L'eau est mise sous pression (le plus souvent grâce à une pompe), puis distribuée à travers un réseau de canalisations. Des asperseurs arrosent uniformément les cultures et les passe-pieds.\n\n**Matériel nécessaire :**\n- Pompe thermique ou solaire\n- Tuyaux et vannes d'arrêt ou bouchons\n- Cannes d'aspersion\n\n**Quand cette technique est-elle la plus adaptée ?**\n- Ressources financières suffisantes\n- Sur une grande surface de culture",
+      "illustration_description": "Parcelle maraîchère ouest-africaine en pleine terre paillée équipée de cannes d'aspersion verticales projetant une pluie fine et homogène en arc de cercle au-dessus des planches et des passe-pieds, avec une petite pompe solaire en arrière-plan.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Aspersion : avantages et inconvénients",
+      "text": "**Avantages :**\n- Gain de temps et irrigation uniforme et intégrale (passe-pieds et planches)\n- Ne tasse pas le sol grâce à la dispersion en pluie fine\n- Refroidit l'air autour des cultures\n- Favorise la vie du sol et un meilleur développement des racines\n\n**Inconvénients :**\n- Coût élevé à l'installation\n- Adapté aux légumes-feuilles, mais peu adapté aux légumes-fruits\n- En cas de fortes chaleurs, risque de brûler les feuilles\n- Risque de développement de champignons et de perte d'eau par évaporation en cas de vent ou de forte chaleur",
+      "illustration_description": "Coupe pédagogique du sol en aquarelle sous une pluie fine d'aspersion : humidité répartie uniformément dans toute la planche de pleine terre et les passe-pieds, racines profondes et étalées, vers de terre actifs dans un sol vivant.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_07.jpg"
+    },
+    {
+      "page_number": 8,
+      "title": "4. L'arrosage goutte-à-goutte",
+      "text": "L'irrigation goutte-à-goutte consiste à apporter l'eau en petite quantité directement au pied des plantes, grâce à des goutteurs intégrés dans un tuyau.\n\n**Matériel nécessaire :**\n- Pompe thermique ou solaire\n- Tuyau principal et tuyaux goutte-à-goutte\n- Connecteurs et bouchons\n\n**Quand cette technique est-elle la plus adaptée ?**\n- Ressources financières suffisantes\n- Peu d'eau disponible\n- Région avec du vent",
+      "illustration_description": "Planche de culture en pleine terre avec des lignes de tuyaux goutte-à-goutte posés au sol le long des pieds de plantes, laissant tomber de petites gouttes d'eau localisées uniquement au pied des tiges.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_08.jpg"
+    },
+    {
+      "page_number": 9,
+      "title": "Goutte-à-goutte : avantages et inconvénients",
+      "text": "**Avantage :**\n- Utilisation précise de l'eau\n\n**Inconvénients :**\n- Coût élevé à l'installation\n- Lessivage et salinisation du sol\n- Les racines se développent uniquement dans une zone humide restreinte (développement racinaire limité)\n- Ne contribue pas à activer et maintenir la vie du sol\n- Risque de tuyaux bouchés si l'eau n'est pas propre",
+      "illustration_description": "Coupe de sol en aquarelle montrant un tuyau goutte-à-goutte : seule une petite poche étroite sous le goutteur est humide avec des racines confinées, tandis que le reste de la planche et les passe-pieds restent secs et sans vie biologique.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_09.jpg"
+    },
+    {
+      "page_number": 10,
+      "title": "5. L'arrosage par inondation",
+      "text": "L'irrigation par inondation consiste à faire couler une grande quantité d'eau dans les lits de culture. Cette technique est utilisée pour des planches creusées.\n\n**Avantages :**\n- Pas cher\n- Rapide à mettre en place\n\n**Quand cette technique est-elle la plus adaptée ?**\n- Grande quantité d'eau disponible",
+      "illustration_description": "Parcelle maraîchère avec des bassins creusés directement dans la terre remplis d'eau stagnante inondant les pieds de jeunes plantes, illustrant la technique d'irrigation par inondation.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_10.jpg"
+    },
+    {
+      "page_number": 11,
+      "title": "Inondation : les inconvénients pour le sol",
+      "text": "**Inconvénients majeurs de l'irrigation par inondation :**\n- Lessivage du sol (perte des nutriments)\n- Nuit à la vie du sol\n- Favorise la prolifération des termites\n- Risque d'étouffer le système racinaire des plants\n- Tasse le sol en formant une croûte en surface",
+      "illustration_description": "Coupe de sol en aquarelle montrant un sol compacté et croûté sous une nappe d'eau stagnante, avec des racines asphyxiées et peu développées, contrastant avec la structure aérée d'un sol vivant.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_11.jpg"
+    },
+    {
+      "page_number": 12,
+      "title": "Conclusion : choisir selon vos ressources et objectifs",
+      "text": "Chaque technique d'irrigation répond à un contexte précis :\n\n- **Petite surface / petit budget** : arrosoir ou tuyau manuel avec pomme d'aspersion.\n- **Grande surface en sol vivant** : irrigation globale par aspersion douce.\n- **Eau très rare ou fort vent** : goutte-à-goutte.\n\nChoisissez votre technique en fonction de vos ressources, de votre surface et de vos objectifs, tout en privilégiant la vie de votre sol.",
+      "illustration_description": "Scène lumineuse en aquarelle d'un maraîcher ouest-africain observant avec satisfaction ses planches de culture permanentes en pleine terre paillée, luxuriantes et bien hydratées sous une douce brume d'eau.",
+      "image": "assets/images/maraichage/302a_choisir_sa_technique_dirrigation/page_12.jpg"
+    }
+  ]
+}

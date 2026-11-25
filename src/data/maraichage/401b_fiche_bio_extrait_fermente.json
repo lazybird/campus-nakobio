@@ -1,0 +1,60 @@
+{
+  "id": "401b_fiche_bio_extrait_fermente",
+  "title": "Fiche traitement bio : Préparation — Extrait fermenté",
+  "category": "Protection & Conception",
+  "summary": "Recette d'extrait fermenté concentré (ail, piment, gingembre, alcool, sucre) à diluer au 1/15e pour stimuler les défenses des plantes et repousser ravageurs et maladies.",
+  "total_pages": 7,
+  "cover_image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_01.jpg",
+  "course_code": "M4.1.2",
+  "pages": [
+    {
+      "page_number": 1,
+      "title": "Traitement bio : l'extrait fermenté",
+      "text": "L'extrait fermenté est une préparation naturelle concentrée qui renforce les plantes et lutte contre un large spectre de ravageurs et de maladies.\n\n- **Durée totale de préparation** : **11 jours**.\n- **Temps de repos / fermentation avant utilisation** : **10 jours**.",
+      "illustration_description": "Nature morte botanique en aquarelle : gousses d'ail frais, piments rouges, racines de gingembre et un grand bocal de fermentation fermé posé sur une table rustique en bois.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_01.jpg"
+    },
+    {
+      "page_number": 2,
+      "title": "Les ingrédients nécessaires",
+      "text": "*(Vous pouvez diviser les quantités en fonction de vos besoins.)*\n\n- **1 kg** de gousses d'ail frais\n- **1 kg** de piment\n- **1 kg** de gingembre\n- **0,5 L** d'alcool (local ou autre)\n- **0,5 kg** de sucre\n- **3 L** d'eau propre",
+      "illustration_description": "Ingrédients disposés en aquarelle botanique : bulbes d'ail, piments rouges, rhizomes de gingembre, un bol de sucre, une bouteille d'alcool local et une cruche d'eau claire.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_02.jpg"
+    },
+    {
+      "page_number": 3,
+      "title": "Étape 1 : Préparation de la pâte",
+      "text": "1. **Mixez** ou pilez finement ensemble l'ail, le piment et le gingembre.\n2. **Ajoutez le sucre** et mélangez bien.\n3. **Versez ensuite l'alcool**.\n4. **Mélangez** cette pâte dans les **3 litres d'eau**.\n5. **Couvrez** le récipient pour démarrer la fermentation à l'abri du soleil direct.",
+      "illustration_description": "Mains ouest-africaines mélangeant une pâte dorée et rougeâtre d'ail, gingembre et piment dans un grand récipient avec de l'eau, du sucre et de l'alcool avant de le couvrir.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_03.jpg"
+    },
+    {
+      "page_number": 4,
+      "title": "Étape 2 : Comprendre la fermentation (10 jours)",
+      "text": "La **fermentation** est une étape naturelle au cours de laquelle des micro-organismes (levures, bactéries) transforment des substances organiques (comme le sucre) en d'autres composés actifs (alcool, acides, gaz).\n\nL'extrait fermenté demande plus de temps, mais la fermentation **active davantage les composés bioactifs**.\n\n**Déroulement sur 10 jours :**\n- Laissez fermenter pendant **3 jours**.\n- **Mélangez**, puis laissez reposer encore **1 semaine** avant utilisation.",
+      "illustration_description": "Grand récipient couvert posé à l'ombre contenant un liquide ambré en fermentation avec de fines bulles naturelles visibles, illustrant l'activité microbienne douce.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_04.jpg"
+    },
+    {
+      "page_number": 5,
+      "title": "Étape 2 : Filtrage et dilution (1 pour 14)",
+      "text": "Au bout des 10 jours de fermentation :\n\n1. **Filtrez** soigneusement le liquide pour retirer les morceaux.\n2. **Diluez impérativement** avant usage : **1 volume d'extrait fermenté pour 14 volumes d'eau**.\n\n⚠️ **Précaution** : Le piment est très irritant. Protégez vos mains et vos yeux lors de la préparation et lavez-vous soigneusement les mains après utilisation.",
+      "illustration_description": "Un agriculteur ouest-africain filtrant l'extrait fermenté ambré à travers un tissu dans un petit récipient doseur, à côté d'un grand arrosoir rempli d'eau claire prêt pour la dilution.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_05.jpg"
+    },
+    {
+      "page_number": 6,
+      "title": "Étape 3 : Arrosage du sol des planches",
+      "text": "Une fois l'extrait fermenté filtré et dilué (1 volume pour 14 volumes d'eau) :\n\n- **Arrosez le sol des planches** avec cette solution, **toutes les semaines ou toutes les deux semaines**.\n\nCet apport régulier protège et stimule durablement vos cultures.",
+      "illustration_description": "Une agricultrice ouest-africaine marchant dans le passe-pied et arrosant doucement le sol d'une planche permanente en pleine terre paillée autour des pieds de légumes avec un arrosoir.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_06.jpg"
+    },
+    {
+      "page_number": 7,
+      "title": "Effets de l'extrait fermenté",
+      "text": "Cette préparation naturelle cumule cinq effets complémentaires :\n\n- **Insectifuge** : éloigne les insectes nuisibles (pucerons, mouches blanches, chenilles…).\n- **Antifongique** : lutte contre les champignons (mildiou, oïdium, rouille…).\n- **Bactéricide** : agit contre certaines bactéries pathogènes des plantes.\n- **Répulsif général** : fait fuir différents ravageurs (insectes et petits animaux).\n- **Stimulant** : renforce les défenses naturelles des plantes.\n\nUne solution naturelle, puissante et économique !",
+      "illustration_description": "Planches permanentes en pleine terre paillée couvertes de cultures maraîchères vigoureuses et résistantes dans un jardin agroécologique ouest-africain baigné de lumière chaude.",
+      "image": "assets/images/maraichage/401b_fiche_bio_extrait_fermente/page_07.jpg"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ const categories = [
 ];
 ---
 
-<Layout title="Catalogue Maraîchage Bio-Intensif en Sol Vivant" description="Découvrez les 12 modules de formation pratique pour maîtriser le maraîchage bio-intensif en sol vivant.">
+<Layout title="Catalogue Maraîchage Bio-Intensif en Sol Vivant" description={`Découvrez les ${catalog.length} modules de formation pratique pour maîtriser le maraîchage bio-intensif en sol vivant.`}>
   <section class="catalog-hero">
     <div class="container">
       <div class="hero-top">
@@ -29,7 +29,7 @@ const categories = [
         <div class="hero-badges">
           <span class="badge badge-accent">
             <span class="badge-dot"></span>
-            12 Modules Pratiques
+            {catalog.length} Modules Pratiques
           </span>
           <span class="badge badge-bio">
             <span class="badge-dot"></span>
