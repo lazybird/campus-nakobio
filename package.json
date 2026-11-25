@@ -8,7 +8,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "generate:pdf": "python3 .dev/scripts/generate_pdf.py"
+    "generate:pdf": "python3 .dev/scripts/generate_pdf.py",
+    "cms:sync": "git fetch origin content && git checkout origin/content -- src/data public/uploads"
   },
   "dependencies": {
     "@astrojs/node": "^8.3.4",
