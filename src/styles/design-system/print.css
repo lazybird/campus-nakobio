@@ -421,6 +421,9 @@
   .step-meta-name {
     font-size: 14pt !important;
     font-weight: 800 !important;
+    line-height: 1.25 !important;
+    margin: 0 !important;
+    white-space: normal !important;
     color: #1B2318 !important;
   }
 
